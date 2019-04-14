@@ -1,0 +1,132 @@
+﻿l_english:
+
+ ####################################
+ #	COMMON STRINGS
+ ####################################
+
+ mandate_unity_reward:2 "Valore in £unity£ Unity di §Y6§! mesi (Max 1000)"
+
+ ####################################
+ #	MANDATES
+ ####################################
+
+ MANDATE_mandate_planet_separatist:0 "Simpatizzante dei Separatisti"
+ MANDATE_mandate_planet_separatist_DESC:1 "Riconosci [Root.GetPopFactionName] come impero indipendente.\n\nRicompensa:\n$mandate_influence_reward_t3$"
+ MANDATE_mandate_emancipation:0 "Grande Emancipatore"
+ MANDATE_mandate_emancipation_DESC:1 "Elimina la pratica della schiavitù per il popolo [Root.Owner.GetName].\n\nRicompensa:\n$mandate_influence_reward_t3$\n$mandate_happiness_reward_t1$"
+ MANDATE_mandate_emancipation2:0 "Emancipatore del Popolo"
+ MANDATE_mandate_emancipation2_DESC:1 "Libera tutti gli schiavi su almeno un Pianeta [Root.Owner.GetSpeciesAdj].\n\nRicompensa:\n$mandate_influence_reward_t3$\n$mandate_happiness_reward_t1$"
+ MANDATE_mandate_orbital_researcher:0 "Ricercatore Orbitale"
+ MANDATE_mandate_orbital_researcher_DESC:3 "Potenzia la produzione tecnologica del popolo [Root.Owner.GetName], avviando la costruzione di almeno quattro nuove §YStazioni di Ricerca§! orbitali.\n\nRicompensa:\n$mandate_unity_reward$"
+ MANDATE_mandate_miner:0 "Minatore Interplanetario"
+ MANDATE_mandate_miner_DESC:1 "Arricchisci le scorte di minerale del popolo [Root.Owner.GetName], costruendo almeno quattro nuove §YStazioni Minerarie§! orbitali.\n\nRicompensa:\n$mandate_influence_reward_t5$"
+ MANDATE_mandate_shipwright:0 "Armatore"
+ MANDATE_mandate_shipwright_DESC:2 "Assicura la protezione e la sicurezza del popolo [Root.Owner.GetSpeciesAdj], mantenendo una flotta che utilizzi almeno il 75% della nostra Capacità Navale totale fino alla fine del loro regno.\n\nRicompensa:\n$mandate_influence_reward_t5$"
+ MANDATE_mandate_peacemaker:0 "Pacificatore"
+ MANDATE_mandate_peacemaker_DESC:1 "Non partecipare a nessuna guerra che coinvolga il popolo [Root.Owner.GetName] fino alla fine del loro regno.\n\nRicompensa:\n$mandate_influence_reward_t5$"
+ MANDATE_mandate_slaver:0 "Schiavista"
+ MANDATE_mandate_slaver_DESC:1 "Assicura la continua prosperità del popolo [Root.Owner.GetName] legalizzando la schiavitù.\n\nRicompensa:\n$mandate_influence_reward_t2$"
+ MANDATE_mandate_xenopurger:0 "Xeno-Epuratore"
+ MANDATE_mandate_xenopurger_DESC:1 "Elimina la minaccia aliena che vive tra di noi da §Yalmeno una colonia§! durante il loro regno.\n\nRicompensa:\n$mandate_influence_reward_t2$\n$mandate_happiness_reward_t1$"
+ MANDATE_mandate_nationalist:0 "Rimpatriatore"
+ MANDATE_mandate_nationalist_DESC:1 "Restituisci i pianeti appartenenti all'impero §Y[parameter:country.GetName]§!.\n\nRicompensa:\n$mandate_influence_reward_t3$"
+
+ ####################################
+ #	MANDATE CHAINS
+ ####################################
+
+ mandate_miner_chain_title:0 "Mandato Minerario"
+ mandate_miner_chain_desc:3 "[This.GetRulerTitle] [This.GetRulerName] è stato eletto con l'obiettivo di incrementare §Yla Produzione di £minerals£ Minerali§!, costruendo §YStazioni Minerarie§! nell'orbita di planetoidi idonei.\n\nRicompensa:\n$mandate_unity_reward$"
+ mining_stations_built:0 "Stazioni Minerarie Costruite"
+
+ mandate_orbresearch_chain_title:0 "Mandato di Ricerca Orbitale"
+ mandate_orbresearch_chain_desc:3 "[This.GetRulerTitle] [This.GetRulerName] è stato eletto con l'obiettivo di incrementare la §YProduzione Tecnologica§!, costruendo §YStazioni di Ricerca§! nell'orbita di pianeti idonei.\n\nRicompensa:\n$mandate_unity_reward$"
+ orbresearch_built:0 "Stazioni di Ricerca Costruite"
+
+ mandate_xenopurge_chain_title:0 "Mandato di Xeno-Epurazione"
+ mandate_xenopurge_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] è stato eletto con l'obiettivo di §YEpurare§! il Pianeta §H[purge_planet.GetName]§! da tutta la §YPOP non [Root.GetSpeciesAdj]§!.\n\nRicompensa:\n$mandate_influence_reward_t2$\n$mandate_happiness_reward_t1$"
+ world_purged:0 "Pianeta Epurato"
+
+ mandate_shipwright_chain_title:0 "Mandato di Armatore"
+ mandate_shipwright_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] è stato eletto con l'obiettivo di incrementare i finanziamenti militari, garantendo che §Yalmeno il 75% della nostra Capacità Navale totale§! verrà utilizzata §Yentro la fine del loro regno§!.\n\nRicompensa:\n$mandate_influence_reward_t2$"
+ military_presence_maintained:0 "Mandato Completato"
+
+ mandate_fiscal_reserve_chain_title:0 "Mandato di Riserva Fiscale"
+ mandate_fiscal_reserve_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] è stato eletto con gli obiettivi di §Yrisparmio§! e §Yspese attentamente ponderate§!, garantendo così che il popolo §H[Root.GetName]§! goda di una riserva di §Yalmeno 1000 £energy£§! Crediti Energetici §Yentro la fine del loro regno§!."
+
+ mandate_emancipation_chain_title:0 "Mandato di Grande Emancipazione"
+ mandate_emancipation_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] è stato eletto con l'obiettivo di §Yabolire la schiavitù§! e di promettere di rendere la pratica §Yillegale§! durante il loro regno.\n\nRicompensa:\n$mandate_influence_reward_t3$\n$mandate_happiness_reward_t1$"
+ mandate_fulfilled:0 "Mandato Completato"
+
+ mandate_emancipation2_chain_title:0 "Mandato di Emancipazione del Popolo"
+ mandate_emancipation2_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] è stato eletto con l'obiettivo di §Yliberare tutti gli schiavi§! sul Pianeta §H[free_planet.GetName]§! durante il loro regno.\n\nRicompensa:\n$mandate_influence_reward_t3$\n$mandate_happiness_reward_t1$"
+ planet_freed:0 "Pianeta Liberato"
+
+ mandate_separatist_chain_title:0 "Mandato Separatista"
+ mandate_separatist_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] è stato eletto con l'obiettivo di §Yriconoscere§! il Pianeta §H[release_planet.GetName]§! come impero indipendente. Consulta l'§YElenco delle Fazioni§! per ulteriori dettagli.\n\nRicompensa:\n$mandate_influence_reward_t3$"
+ empire_released:0 "Impero Riconosciuto"
+
+ mandate_peacemaker_chain_title:0 "Mandato Pacificatore"
+ mandate_peacemaker_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] è stato eletto con l'obiettivo di §Yterminare il coinvolgimento [Root.GetSpeciesAdj]§! in tutte le guerre entro la fine del loro regno.\n\nRicompensa:\n$mandate_influence_reward_t2$"
+ no_engagements:0 "Tutte le Ostilità Cessate"
+
+ mandate_slaver_chain_title:0 "Mandato Schiavista"
+ mandate_slaver_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] è stato eletto con l'obiettivo di §Yschiavizzare§! almeno §Y5 individui§! entro la fine del loro regno.\n\nRicompensa:\n$mandate_influence_reward_t2$"
+ pops_enslaved:0 "POP Schiavizzata"
+
+ mandate_nationalist_chain_title:0 "Mandato Rimpatriatore"
+ mandate_nationalist_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] è stato eletto con l'obiettivo di §Yrestituire§! le colonie appartenenti all'Impero §H[ceding_empire.GetName]§! entro la fine del loro regno. Puoi compiere questa azione dalla lista fazioni.\n\nRicompensa:\n$mandate_influence_reward_t3$"
+ planet_ceded:0 "Pianeta Ceduto"
+
+ ####################################
+ #	MANDATE EVENTS
+ ####################################
+
+ mandate.1.title:0 "Mandato di Nuovo Sovrano"
+ mandate.1.desc:0 "[Root.GetRulerName] è stato eletto §Y[Root.GetRulerTitle]§! del popolo §H[Root.GetName]§!.\n\nConsulta il §YRapporto§! per i dettagli sul suo §YMandato§!."
+ mandate.2.title:0 "Mandato Non Completato"
+ mandate.2.desc:1 "Il regno del nostro Sovrano è giunto al termine senza aver rispettato le promesse elettorali."
+
+ # Separatist
+ mandate.100.title:0 "Mandato di Simpatizzante dei Separatisti"
+ mandate.100.desc:1 "Secondo il mandato del nostro Sovrano, il Pianeta §H[released_planet.GetName]§! è stato liberato dallo stato di §YVassallo§! dell'impero §H[Root.GetName].§!"
+
+ # Miner
+ mandate.111.title:0 "Mandato Minerario Concluso"
+ mandate.111.desc:1 "Secondo il mandato del nostro Sovrano, sono state costruite stazioni minerarie supplementari."
+
+ # Orbital Researcher
+ mandate.121.title:0 "Mandato di Ricerca Orbitale Concluso"
+ mandate.121.desc:1 "Secondo il mandato del nostro Sovrano, sono state costruite stazioni di ricerca supplementari."
+
+ # Xenopurger
+ mandate.132.title:0 "Mandato di Xeno-Epuratore Concluso"
+ mandate.132.desc:1 "Secondo il mandato del nostro Sovrano, la colonia su [From.GetName] è stata epurata da tutti gli elementi non appartenenti all'Impero [Root.GetSpeciesAdj]."
+
+ # Shipwright
+ mandate.141.title:0 "Mandato di Armatore Concluso"
+ mandate.141.desc:2 "Secondo il mandato del nostro Sovrano, stiamo utilizzando attualmente almeno il 75% della nostra Capacità Navale totale."
+ mandate.142.title:0 "Mandato Non Completato"
+ mandate.142.desc:1 "Il nostro Sovrano non è riuscito a raggiungere gli obiettivi del mandato entro il tempo stabilito."
+
+ # Emancipator 1
+ mandate.150.title:0 "Mandato di Grande Emancipatore Concluso"
+ mandate.150.desc:1 "Secondo il mandato del nostro Sovrano, ora la §YSchiavitù§! è illegale nell'Impero [Root.GetName]."
+
+ # Emancipator 2
+ mandate.155.title:0 "Mandato di Emancipatore del Popolo Concluso"
+ mandate.155.desc:1 "Secondo il mandato del nostro Sovrano, non c'è più POP in schiavitù su [From.GetName]."
+
+ # Peacemaker
+ mandate.161.title:0 "Mandato di Pacificatore Concluso"
+ mandate.161.desc:1 "Secondo il mandato del nostro Sovrano, l'Impero §H[Root.GetName]§! non è più coinvolto nei conflitti in corso."
+ mandate.162.title:0 "Mandato Non Completato"
+ mandate.162.desc:1 "$mandate.142.desc$"
+
+ # Slaver
+ mandate.171.title:0 "Mandato di Schiavista Concluso"
+ mandate.171.desc:1 "Secondo il mandato del nostro Sovrano, almeno §H5 individui§! sono stati resi schiavi."
+
+ # Nationalist
+ mandate.180.title:0 "Mandato di Rimpatriatore Concluso"
+ mandate.180.desc:1 "Secondo il mandato del nostro Sovrano, le colonie conquistate all'Impero §H[ceding_empire.GetName]§! sono state restituite."

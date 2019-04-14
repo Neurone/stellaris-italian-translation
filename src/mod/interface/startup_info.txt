@@ -1,0 +1,15 @@
+﻿Benvenuto!
+
+Stellaris ha (di nuovo) subito importanti modifiche! Nella versione 2.2 il fulcro dei cambiamenti si è concentrato sullo sviluppo dei pianeti e sull'economia del gioco. Lo scopo era quello di rendere la gestione dei pianeti più divertente e coinvolgente.
+
+Le caselle non ci sono più, e sono state rimpiazzate da Distretti, Edifici e Lavori. Ora potrai creare Distretti Cittadini, Agricoli, Minerari e Generatori, come vari Edifici con ruoli più specializzati. I Distretti e gli Edifici forniscono Lavori che, quando svolti da una POP, producono Risorse.
+
+Man mano che un pianeta otterrà più POP, sbloccherà altri Slot Edificio. Gli Edifici funzionano in modo simile al passato, ma ora la maggior parte di essi forniscono Lavoro piuttosto che produrre direttamente le risorse.
+
+La versione 2.2 introduce anche un nuovo sistema di Rotte Commerciali. Essenzialmente ciò che dovrai fare è raccogliere Valore Commerciale (nello spazio e sui pianeti) aggiornando una Base Stellare vicina. Dovrai quindi impostare una Rotta Commerciale che conduca nuovamente verso il tuo Sistema Natale. Il Valore Commerciale verrà convertito in risorse utilizzabili una volta che avrà raggiunto la tua Capitale Commerciale.
+
+Ti raccomandiamo di dare un'occhiata al tutorial aggiornato!
+
+---
+
+A causa delle dimensioni e della portata delle modifiche, i salvataggi precedenti alla versione 2.2 non saranno più compatibili. Se desideri continuare le tue vecchie partite con la versione 2.2, clicca sul link in basso e segui la guida per riportare Stellaris ad una versione precedente.

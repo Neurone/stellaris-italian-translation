@@ -1,0 +1,43 @@
+﻿l_english:
+
+ ####################################
+ # Special Projects
+ ####################################
+
+ ### Anomaly Events
+ DERELICT_SHIP_PROJECT:0 "Nave Abbandonata"
+ DERELICT_SHIP_PROJECT_DESC:0 "Una nave alla deriva nello spazio, nessun segnale in ingresso o in uscita. Ispezionandola più da vicino potremmo capire cos'è successo all'equipaggio."
+ ODD_STAR_PROJECT:0 "Fiamme della Fornace"
+ ODD_STAR_PROJECT_DESC:0 "Sembra che questa stella sia in grado di fondere il berillio, cosa che dovrebbe essere impossibile."
+ IMPROBABLE_TEAPOT_PROJECT:0 "Ceramiche Improbabili"
+ IMPROBABLE_TEAPOT_PROJECT_DESC:0 "Un vaso di ceramica in orbita attorno ad un sole... è oltre l'improbabile. Per capire cosa ci faccia qui avremo bisogno di tempo. Chissà quale sarà la risposta, o se ce ne sarà una?"
+ AI_ADMIRAL_PROJECT:0 "Guerriero delle Sabbie"
+ AI_ADMIRAL_PROJECT_DESC:0 "È stata trovata un'antica flotta precipitata su un Pianeta Desertico, con un'IA di bordo ancora funzionante. Se non ci muoviamo a reprimerla, le cose potrebbero prendere una brutta piega."
+ MINING_GEAR_PROJECT:0 "Trivella Scatenata"
+ MINING_GEAR_PROJECT_DESC:0 "Un antico escavatore si sta facendo largo nelle profondità di un asteroide gigante. Se riusciremo a fermarlo prima che venga distrutto dai detriti, potremmo imparare qualcosa di utile sulla sua costruzione."
+ ABANDONED_ARRAY_PROJECT:0 "Parabolica Abbandonata"
+ ABANDONED_ARRAY_PROJECT_DESC:0 "Un'antenna parabolica abbandonata che sembra essere ancora in buone condizioni. Se effettuassimo delle riparazioni e scoprissimo come funziona, potremmo ottenere qualche informazione in più sui sistemi vicini."
+ ALIEN_RACER_PROJECT:0 "Alla Deriva"
+ ALIEN_RACER_PROJECT_DESC:0 "Una nave aliena è alla deriva all'interno di una fascia di asteroidi. Non risponde alle chiamate. Dovremmo indagare e vedere cos'è successo."
+ PSIONIC_HORSES_PROJECT:0 "I Signori delle Pianure" 
+ PSIONIC_HORSES_PROJECT_DESC:0 "Una maestosa razza di mammiferi vaga per le distese di giunchi. Sembrano vivaci e reagiscono ai nostri approcci. Studiandoli da vicino potremmo ottenere altre informazioni."
+ ROBOT_CLEANERS_PROJECT:0 "Le Macchine Abbandonate"
+ ROBOT_CLEANERS_PROJECT_DESC:0 "Su un pianeta lontano è stata trovata una struttura piena di robot. Se li riattivassimo, potrebbero rivelarci i segreti della loro dimora."
+ ALIEN_MONSTER_ON_SHIP:0 "Bestia Aliena a Bordo"
+ ALIEN_MONSTER_ON_SHIP_DESC:0 "[Root.Owner.GetMonsterOnShipDesc]" #A custom scripted desc that allows for MI support
+ TREE_OF_LIFE:0 "L'Albero"
+ TREE_OF_LIFE_DESC:0 "Un albero va alla deriva attraverso il vuoto dello spazio. La sua linfa sembra attirare mostruosi organismi spaziali. Dovremmo indagare per capire il suo scopo."
+ MASTERS_WRITINGS_POLITICS:0 "Traduzione Testi dei Coloni"
+ MASTERS_WRITINGS_POLITICS_DESC:0 "Abbiamo scoperto una serie di documenti che sembrano esser stati importanti per una società ormai scomparsa. Traducendoli potremmo sicuramente avere una visione più approfondita della loro storia e della loro cultura."
+ MASTERS_WRITINGS_PHILOSOPHY:0 "Traduzione Testi degli Esploratori"
+ MASTERS_WRITINGS_PHILOSOPHY_DESC:0 "Abbiamo trovato alcuni testi tra il carico di una spedizione aliena. Se li traducessimo potremmo ricavare ulteriori informazioni sui precedenti proprietari."
+ MASTERS_WRITINGS_DIPLOMACY:0 "Traduzione Testi dei Commercianti"
+ MASTERS_WRITINGS_DIPLOMACY_DESC:0 "Abbiamo trovato alcuni testi tra le rovine di un probabile polo commerciale interstellare. Se traducessimo questi documenti, potremmo saperne di più su chi l'ha fondato."
+ MASTERS_WRITINGS_WAR:0 "Traduzione Testi dei Guerrieri"
+ MASTERS_WRITINGS_WAR_DESC:0 "Abbiamo trovato i resti di un popolo guerriero su un campo di battaglia da tempo abbandonato, trasportavano dei testi che sembrano essere importanti. Se li traducessimo potremmo imparare di più su questo popolo e sulle guerre che ha combattuto."
+ CRYOPOD_FOUND_PROJECT:0 "Vault Sotterraneo"
+ CRYOPOD_FOUND_PROJECT_DESC:0 "Abbiamo trovato una struttura sotto una montagna che potrebbe contenere informazioni o attrezzature di valore. È circondata da pericolosi animali selvatici di cui dobbiamo occuparci prima di poter entrare."
+ CRYOPOD_OPENING_PROJECT:0 "Forzatura"
+ CRYOPOD_OPENING_PROJECT_DESC:0 "Il vault sotterraneo che abbiamo trovato contiene solo una specie di contenitore. Abbiamo bisogno di capire come forzarlo, se vogliamo scoprire cosa contiene."
+ ANCIENT_OCEAN_SHIP:0 "Incrociatore Sommerso"
+ ANCIENT_OCEAN_SHIP_DESC:0 "Un incrociatore da battaglia alieno giace tra le onde di [Root.GetName]. Il suo recupero potrebbe fornirci tecnologie o risorse di valore."
