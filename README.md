@@ -4,6 +4,11 @@ Questo mod, **compatibile** con l'**Ironmode** e gli **achievement di Steam**, s
 
 Questa traduzione è ricavata dai testi redatti diligentemente dal team [Battle of Paradox Italia](http://www.bopitalia.org) - **Grande lavoro!** - ed ha come base la versione **Le Guin 2.2.7 (ea03)** del gioco originale.
 
+## Modifiche rispetto al mod ufficiale BoP
+
+- compatibile con ironmode e achievement
+- non modifico il nome degli achievement, solo la loro descrizione
+
 ## Installazione mod da release
 
 Trovate le release già pronte del mod nell'apposita sezione [releases](https://github.com/Neurone/stellaris-italian-translation/releases). Scaricate la release che vi interessa e unzippatela all'interno della cartella:
@@ -95,10 +100,3 @@ Nel caso non fosse presente la cartella `mod` potete crearla voi normalmente. La
 
     <%USERPROFILE%>\Documents\Paradox Interactive\Stellaris\mod\stellaris-italian-translation\...
     <%USERPROFILE%>\Documents\Paradox Interactive\Stellaris\mod\stellaris-italian-translation.mod
-
-
-
-## Modifiche
-
-- compatibile con ironmode e achievement
-- non modifico il nome degli achievement, solo la loro descrizione

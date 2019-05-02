@@ -1,5 +1,8 @@
 name="Traduzione italiana"
 path="mod/stellaris-italian-translation"
-tags={ "Translation" }
+tags={
+    "Translation"
+    "UI"
+}
 picture="logo.jpg"
-supported_version="2.2.7"
+supported_version="2.2.*"
