@@ -249,7 +249,7 @@
  leviathans.302.desc:1 "Meraviglioso! Saremmo lieti di affidarvi una delle nostre creazioni. Di sicuro allieterà il vostro popolo.\n\nQuesto è il nostro prezzo:\n§R£energy£ -1000§!"
  leviathans.302.a.tooltip:2 "Ottieni l'accesso ad un §S£building£ $building_artist$§! con i seguenti effetti planetari:\n£unity£ Produzione Unità §G+8§!\nAttrazione Immigratoria: §G+50%§!"
  leviathans.302.a.reply:0 "Eccellente! L'opera verrà subito inviata al vostro deposito. Dovete solo chiedere ai vostri costruttori di erigerla su un pianeta a vostra scelta.\nVi ringraziamo immensamente per il vostro patrocinio."
- leviathans.316.a.reply:0 "Excellent! The piece will be sent to your storage immediately. Simply ask your builders to erect it on any planet you wish.\nWe humbly thank you for your patronage."
+ leviathans.316.a.reply:0 "Eccellente! Il pezzo verrà inviato immediatamente al tuo deposito. Chiedi semplicemente ai tuoi costruttori di erigerlo su qualsiasi pianeta desideri. Ti ringraziamo umilmente per il tuo patrocinio."
  leviathans.303.desc:1 "Organizzare un evento di quella portata costringerà gli artisti a spremere il loro talento fino all'ultima goccia. Non sarà né un lavoro semplice, né economico.\n\nQuesto è il nostro prezzo:\n§R£energy£ -1000§!"
  leviathans.303.a.reply:0 "Eccellente! Saremo lieti di allestire questo magnifico Festival dei Mondi!"
  leviathans.304.desc:2 "Sarebbe molto utile, ci permetterebbe di focalizzare nuove idee ed elaborare il processo creativo. Abbiamo di fronte un progetto della durata di §Ydieci anni§! con un costo una-tantum."
