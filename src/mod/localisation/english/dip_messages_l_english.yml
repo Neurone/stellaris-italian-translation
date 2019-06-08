@@ -210,7 +210,7 @@
  01_FALLEN_EMPIRE_ANGRY_DOW_ACCEPT:0 "Non siete altro che erbacce interstellari. È ora di sistemare il giardino."
  FALLEN_EMPIRE_MECH_ANGRY_DOW_ACCEPT_01:0 "Non siete altro che rottami interstellari. È ora di essere riciclati."
  01_AWAKENED_EMPIRE_DOW_ACCEPT:0 "Avevamo pianificato di sistemare il vostro piccolo impero più tardi. Non importa, è un momento buono come un altro."
- 02_AWAKENED_EMPIRE_MECH_DOW_ACCEPT:0 "Avete davvero tutta questa fretta di essere distrutti? Così sia, allora."
+ AWAKENED_EMPIRE_MECH_DOW_ACCEPT:0 "Avete davvero tutta questa fretta di essere distrutti? Così sia, allora."
 
  # AI Personality-based replies
  # Honorbound Warriors

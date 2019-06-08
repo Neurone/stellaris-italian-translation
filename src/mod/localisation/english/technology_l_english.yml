@@ -52,7 +52,7 @@
  tech_titans_desc:0 "Modellati a partire dalle gigantesche ombre che si profilano nei sistemi delle Ascendenze Stagnanti, le navi di classe Titano possono essere equipaggiate di artiglieria di dimensioni immense."
  tech_colossus:0 "Colossi"
  tech_colossus_desc:0 "Gli sviluppi della mega-ingegneria offuscano i confini tra realtà ed immaginazione, permettendo la costruzione di navi militari di classe Colosso, capaci di trasportare armi in grado di annientare, o di alterare irrimediabilmente, interi pianeti... semplicemente premendo un pulsante."
- 
+  
  # Ships upgrades
  tech_corvette_hull_1:0 "Scafi Migliorati per Corvette"
  tech_corvette_hull_1_desc:0 "I miglioramenti compiuti nelle tecniche di costruzione ci permettono di costruire Corvette più solide e robuste."
@@ -106,6 +106,10 @@
  tech_defense_platform_hull_1:0 "Integrità Strutturale Migliorata"
  tech_defense_platform_hull_1_desc:0 "Strutture rinforzate dotate di scudi antideflagrazione con un maggior fattore di assorbimento dei danni; assicureranno l'integrità strutturale delle piattaforme persino sotto attacchi pressanti."
  
+ tech_habitat_1:0 "Habitat Orbitali"
+ tech_habitat_1_desc:0 "Permette la costruzione di Habitat Orbitali ampiamente auto-sostenibili."
+ 
+
  #Spaceport Modules
  #tech_corvette_assembly:0 "Advanced Corvette Designs"
  #tech_corvette_assembly_desc:0 "Unused" # TEMP
@@ -276,7 +280,7 @@
  #tech_aura_nanobot_desc:0 ""
  tech_aura_minefield:0 "Mine di Prossimità"
  #tech_aura_minefield_desc:0 ""
-
+ 
  # Megastructures
  tech_mega_engineering:0 "Mega-Ingegneria"
  tech_mega_engineering_desc:1 "Per completare progetti di costruzione di dimensioni superiori dobbiamo prima comprendere le basi ingegneristiche e logistiche per tali megastrutture."
@@ -1107,6 +1111,8 @@
  tech_curator_lab_desc:1 "Questi laboratori navali incorporano tecnologie avanzate dell'antico Ordine dei Curatori; aumenteranno la velocità d'ispezione."
  tech_archeology_lab:0 "Laboratorio Archeologico dei Curatori"
  tech_archeology_lab_desc:1 "Un laboratorio navale comprensivo di equipaggiamento archeologico avanzato, che include un immenso database fornito dall'Ordine dei Curatori in cui le nuove scoperte possono essere facilmente studiate."
+ tech_archeology_lab_ancrel:0 "$tech_archeology_lab$"
+ tech_archeology_lab_ancrel_desc:0 "$tech_archeology_lab_desc$"
 
  #####################################
  # Machine Empire Techs
@@ -1140,4 +1146,4 @@
  requires_tech_interstellar_fleet_traditions:1 "§RRichiede la Tecnologia £society£ §Y$tech_interstellar_fleet_traditions$§!.§!"
  requires_tech_orbital_sensor_array:0 "§RRichiede la Tecnologia £physics£ §Y$tech_orbital_sensor_array$§!.§!"
  requires_tech_command_matrix:0 "§RRichiede la Tecnologia £society£ §Y$tech_command_matrix$§!.§!"
-  
+ 

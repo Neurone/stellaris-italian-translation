@@ -269,7 +269,7 @@
  ACTION_BREAK_SUPPORT_NOTIFICATION:1 "§H[From.GetName]§! ha smesso di supportare l'Indipendenza di §H[Root.GetName]§!.\n\nSembra che [Root.GetName] sia destinato a rimanere un Suddito."
  ACTION_OPEN_BORDERS_NOTIFICATION:1 "§H[From.GetName]§! ha aperto i propri confini alle flotte di §H[Root.GetName]§!.\n\nQuesto migliorerà le loro relazioni diplomatiche."
  ACTION_CLOSE_BORDERS_NOTIFICATION:1 "§H[From.GetName]§! ha chiuso i propri confini alle flotte di §H[Root.GetName]§!.\n\nQuesto peggiorerà le loro relazioni diplomatiche."
-  
+ 
  MESSAGE_OFFER_FEDERATION_ASSOCIATION_TITLE:0 "Offerta di Associazione Federale"
  ACTION_OFFER_FEDERATION_ASSOCIATION_NOTIFICATION:2 "§H[Root.GetName]§! è stato invitato nella Federazione da §H[From.GetAllianceName]§!.\n\nSembra che desiderino relazioni più strette."
  MESSAGE_ASK_FOR_FEDERATION_ASSOCIATION_TITLE:0 "Richiesta di Associazione Federale"
@@ -279,7 +279,7 @@
  MESSAGE_END_FEDERATION_ASSOCIATION_TITLE:0 "Associazione Federale Terminata"
  ACTION_END_FEDERATION_ASSOCIATION_NOTIFICATION:2 "§H[From.GetName]§! ha deciso di lasciare la Federazione §H[Root.GetAllianceName]§!.\n\nÈ un segno di ostilità in arrivo?"
  DIPLO_ACTION_END_FEDERATION_ASSOCIATION_DESC:0 "§H$COUNTRY$§! ha deciso di lasciare la Federazione §H$ALLIANCE$§!.\n\nÈ un segno di ostilità in arrivo?"
- 
+   
  
  MESSAGE_DIPLOMACY_TITLE:0 "Diplomazia"
 

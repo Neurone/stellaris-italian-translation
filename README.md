@@ -2,7 +2,12 @@
 
 Questo mod, **compatibile** con l'**Ironmode** e gli **achievement di Steam**, sostituisce la lingua inglese con la lingua italiana.
 
-Questa traduzione è ricavata dai testi redatti diligentemente dal team [Battle of Paradox Italia](http://www.bopitalia.org) - **Grande lavoro!** - ed ha come base la versione **Le Guin 2.2.7 (ea03)** del gioco originale.
+Compatibile con versione: **Wolfe 2.3.***
+Da tradurre: DLC Ancient Relics
+
+Questa traduzione è ricavata dai testi redatti diligentemente dal team [Battle of Paradox Italia](http://www.bopitalia.org) ed in particolare dal buon Puxxup - **Grande lavoro!** - ed ha come base la versione **Le Guin 2.2.7 (ea03)** del gioco originale.
+
+NOTA BENE: a causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, per poter conservare ironmode e achievement ho dovuto rimuovere parte delle frasi presenti nel lavoro di traduzione originale di Puxxup (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.). Se avete già completato gli achievement e l'ironmode, o comunque non siete interessati alla cosa, usate il [mod di Puxxup](https://steamcommunity.com/sharedfiles/filedetails/?id=823306244) per un'esperienza di traduzione completa!
 
 ## Modifiche rispetto al mod ufficiale BoP
 

@@ -17,7 +17,7 @@
 
  CLOUDS_1_PROJECT:0 "Osservazione Nubi del Vuoto"
  CLOUDS_1_PROJECT_DESC:0 "Assegna un dipartimento scientifico alla raccolta ed al confronto dei dati relativi alle Nubi del Vuoto."
- 
+
  CRYSTAL_CONSTRUCT_PROJECT:0 "Il Costrutto di Cristallo"
  CRYSTAL_CONSTRUCT_PROJECT_DESC:0 "Assegna un dipartimento scientifico alla raccolta ed al confronto dei dati relativi al Costrutto Cristallino."
 
@@ -68,13 +68,13 @@
 
  HEAD_IN_SAND_PROJECT:0 "Testa Sotto la Sabbia"
  HEAD_IN_SAND_PROJECT_DESC:0 "Una flotta militare può tentare di recuperare una nave sotterrata da tempo."
- 
+
  THE_PRINCE_PROJECT:0 "Il Principe"
  THE_PRINCE_PROJECT_DESC:0 "È stata trovata una banca dati fluttuante nello spazio che non conteneva nient'altro che un lungo frammento di testo, scritto in uno strano, eppure familiare, linguaggio alieno."
 
  EMERGENCY_BUOY_PROJECT:0 "Boa d'Emergenza"
  EMERGENCY_BUOY_PROJECT_DESC:0 "Un oggetto gravemente danneggiato che sembra agire come ripetitore per un segnale di comunicazione."
- 
+
  WRECKED_FLEET_1:0 "Trasmissione Monumentale"
  WRECKED_FLEET_1_DESC:0 "Decodifica il messaggio proveniente dal monolite."
 

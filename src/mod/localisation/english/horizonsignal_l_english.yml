@@ -88,7 +88,7 @@
  
  COILS_GOD_PROJECT_PREVENT:0 "Impedisci i rituali delle Spire"
  COILS_GOD_PROJECT_PREVENT_DESC:0 "Operazioni di copertura quali contraffazione, rapimento, indottrinamento e persino incendio doloso ed omicidio: faremo tutto il necessario."
- 
+  
  COILS_GOD_PROJECT_PARTICIPATE:0 "Partecipa ai rituali delle Spire"
  COILS_GOD_PROJECT_PARTICIPATE_DESC:0 "Invia degli etnografi sulla superficie per osservare i rituali delle Spire da vicino. Si tratta di un evento culturale notevole! Dobbiamo saperne il più possibile."
  
@@ -110,7 +110,7 @@
  SYZYGY_DEBRIS_PROJECT:0 "Indaga sui resti della Syzygy"
  SYZYGY_DEBRIS_PROJECT_DESC:0 "La Syzygy ha passato del tempo in un altro luogo. Un possibile futuro? Un universo parallelo? Potremmo saperne di più."
  
- 
+  
  ################################################
  ##THE HORIZON SIGNAL: intro events to Verme chain 
  

@@ -45,7 +45,7 @@
  wraith_frequency_sync:0 "Sincronizzazione di Frequenza Spettrale"
  spectral_residue_studies:0 "Studi sui Residui Spettrali"
 
- leviathans.5.name:0 "Guardiano Sconfitto"
+ leviathans.5.name:1 "Guardiano Sconfitto"
  leviathans.5.desc:1 "§Y[leviathan_destroyer_country.GetName]§! ha sconfitto un'antica minaccia nel lontano Sistema [leviathan_destroyed_system.GetStarName]."
 
  leviathans.98.name:0 "Comunicazioni Stabilite"
@@ -152,7 +152,7 @@
  leviathans.125.b.reply:0 "Molto bene. Il cibo che avete consegnato è perfettamente commestibile."
  leviathans.125.c.reply:0 "Il vostro popolo non soffrirà più la fame! Le spedizioni di cibo partiranno immediatamente."
 
- leviathans.130.desc:0 "I Granelli Volatili sono un pregiato condimento Riggan. Rinomati in tutta la galassia per il loro sapore deciso, diverso da tutti gli altri, un'esplosione di sensazioni imparagonabile. Li vendiamo solo ai clienti migliori, tra i quali annoveriamo i cittadini [Root.GetSpeciesNamePlural].\n\nPagando il giusto corrispettivo, saremmo propensi a rifornirvi di magnifici Granelli Volatili per un periodo di dieci anni standard."
+ leviathans.130.desc:2 "I Granelli Volatili sono un pregiato condimento Riggan. Rinomati in tutta la galassia per il loro sapore deciso, diverso da tutti gli altri, un'esplosione di sensazioni imparagonabile. Li vendiamo solo ai clienti migliori, tra i quali annoveriamo i cittadini [Root.GetSpeciesNamePlural].\n\nPagando il giusto corrispettivo, saremmo propensi a rifornirvi di magnifici Granelli Volatili per un periodo di dieci anni standard."
  leviathans.130.a.reply:0 "Non ve ne pentirete. A meno che non esageriate col consumo di spezia, ovviamente... poi c'è una piccola probabilità di autocombustione. Abbastanza ridotta a dire il vero."
  #leviathans.130.a:0 "Vogliamo comprare la vostra spezia."
  leviathans.131.desc:1 "Questo è un prodotto di cui, qui alla XuraCorp, siamo particolarmente orgogliosi. La nostra Divisione Medica ha di recente iniziato a raffinare un gas dalle proprietà uniche, semplificando notevolmente il processo, spesso arduo, di adattamento ad un nuovo ambiente planetario. Difficilmente, tuttavia, potrà adattarsi alla fisiologia aliena!\n\nSiamo disposti a fornirvi i nostri Gas Esotici per un periodo di dieci anni standard, dopo di che il contratto dovrà essere rinegoziato."
@@ -204,7 +204,7 @@
  
  leviathans.150.desc:1 "Carissimo cliente, siamo spiacenti di informarla che il nostro accordo commerciale per l'esportazione di Gas Esotici ai suoi pianeti ha fatto il suo corso. Siamo naturalmente più che disposti a rinnovarlo per altri dieci anni, in cambio di un'equa somma di crediti energetici..."
  leviathans.150.a:0 "Molto bene. Vorremmo estendere la durata del contratto."
- leviathans.150.b:0 "Possiamo cavarcela senza il vostro gel, per ora."
+ leviathans.150.b:1 "Possiamo cavarcela senza il vostro gel, per ora."
  leviathans.150.c:0 "Non possiamo permetterci di continuare questo accordo."
  leviathans.151.desc:1 "Il nostro accordo è in scadenza, [Root.GetSpeciesNamePlural]. Abbiamo consegnato i Granelli Volatili ai vostri pianeti per dieci anni. Proroghiamo per altri dieci, o desiderate terminare l'accordo?"
  leviathans.151.a:1 "Continuiamo a collaborare. Che i granelli fluiscano."
@@ -249,6 +249,7 @@
  leviathans.302.desc:1 "Meraviglioso! Saremmo lieti di affidarvi una delle nostre creazioni. Di sicuro allieterà il vostro popolo.\n\nQuesto è il nostro prezzo:\n§R£energy£ -1000§!"
  leviathans.302.a.tooltip:2 "Ottieni l'accesso ad un §S£building£ $building_artist$§! con i seguenti effetti planetari:\n£unity£ Produzione Unità §G+8§!\nAttrazione Immigratoria: §G+50%§!"
  leviathans.302.a.reply:0 "Eccellente! L'opera verrà subito inviata al vostro deposito. Dovete solo chiedere ai vostri costruttori di erigerla su un pianeta a vostra scelta.\nVi ringraziamo immensamente per il vostro patrocinio."
+ leviathans.316.a.reply:0 "Excellent! The piece will be sent to your storage immediately. Simply ask your builders to erect it on any planet you wish.\nWe humbly thank you for your patronage."
  leviathans.303.desc:1 "Organizzare un evento di quella portata costringerà gli artisti a spremere il loro talento fino all'ultima goccia. Non sarà né un lavoro semplice, né economico.\n\nQuesto è il nostro prezzo:\n§R£energy£ -1000§!"
  leviathans.303.a.reply:0 "Eccellente! Saremo lieti di allestire questo magnifico Festival dei Mondi!"
  leviathans.304.desc:2 "Sarebbe molto utile, ci permetterebbe di focalizzare nuove idee ed elaborare il processo creativo. Abbiamo di fronte un progetto della durata di §Ydieci anni§! con un costo una-tantum."
@@ -490,8 +491,6 @@
  leviathans.670.desc.gesta:0 "Il formidabile Drago Etereo è stato ucciso.\n\nIl §Hplanetoide§! che la bestia sorvegliava così gelosamente ora può essere esplorato tranquillamente. Chissà quali tesori la creatura avrà accumulato per tutti questi eoni?"
  leviathans.670.a:0 "Encomiabile."
  leviathans.670.b:0 "Necessario, ma spiacevole."
- leviathans.670.spiritphile.tooltip:0 "Ottieni l'accesso §S£building£ all'Edificio§! imperiale unico $building_guardian_dragon_shrine$."
- leviathans.670.tooltip:0 "Ottieni l'accesso §S£building£ all'Edificio§! imperiale unico $building_guardian_dragon_monument$."
  
  # STELLARITE
  leviathans.999.name:0 "Stella Rimpicciolita"
@@ -504,7 +503,6 @@
  leviathans.1016.desc.gesta:0 "Il Divoratore Stellare è stato sconfitto. I suoi resti vanno via via evaporando, lasciando intatto l'intestino e la materia stellare che contiene.\n\nChissà quale profonda conoscenza potremmo trarre dal suo apparato digestivo..."
  leviathans.1016.a:0 "Studiate il cadavere."
  leviathans.1016.b:0 "Ricavatene un trofeo che chiunque possa vedere."
- leviathans.1016.b.tooltip:0 "Ottieni l'accesso §S£building£ all'Edificio§! imperiale unico $building_stellarite_trophy$.\n\n"
  leviathans.1017.desc:0 "Lo studio dei resti del Divoratore Stellare hanno lasciato i nostri scienziati stupiti e perplessi. L'essere mangia-stelle non era che una specie di forno di fusione in miniatura, che raccoglieva la materia solare per produrre energia.\n\nDato che il corpo contiene ancora una parte significativa della materia solare proveniente dalla stella del Sistema [guardians_stellarite_home_system.GetName], l'ultima di cui si è cibato, dovrebbe essere possibile estrarre l'energia e rinvigorire la stella. Raccogliendo il calore corporeo potremmo soddisfare il nostro fabbisogno energetico per un breve periodo, ma condanneremmo il sistema ad un'eterna era glaciale."
  leviathans.1017.desc.gesta:0 "Lo studio dei resti del Divoratore Stellare ci lasciano stupiti e perplessi. L'essere mangia-stelle non era che una specie di forno di fusione in miniatura, che raccoglieva la materia solare per produrre energia.\n\nDato che il corpo contiene ancora una parte significativa della materia solare proveniente dalla stella del Sistema [guardians_stellarite_home_system.GetName], l'ultima di cui si è cibato, dovrebbe essere possibile estrarre l'energia e rinvigorire la stella. Raccogliendo il calore corporeo potremmo soddisfare il nostro fabbisogno energetico per un breve periodo, ma condanneremmo il sistema ad un'eterna era glaciale."
  leviathans.1017.a:0 "Provate a riaccendere la stella."

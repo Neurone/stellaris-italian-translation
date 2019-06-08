@@ -5,4 +5,4 @@ tags={
     "UI"
 }
 picture="logo.jpg"
-supported_version="2.2.*"
+supported_version="2.3.*"

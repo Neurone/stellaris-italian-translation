@@ -268,7 +268,7 @@
  tr_synchronicity_self_preservation_delayed:0 "Un robot deve proteggere la propria esistenza, purché questa autodifesa non contras...§R‘Ç° éü¿T éw+Á éÒÎ( éÍ8" <DATI CORROTTI>§!"
  tr_synchronicity_finish:0 "Tradizioni di Sincronismo Perfezionate"
  tr_synchronicity_finish_effect:1 "§E$TRADITIONS_FINISH$:§!\nAdottando tutte le $tr_synchronicity_hive_adopt$ aumenteremo la £stability£ §Y$MOD_PLANET_STABILITY_ADD$§! di tutti i nostri pianeti del §G5%§!."
- 
+
 ################################################################
 # SUPREMACY
 ################################################################
@@ -301,7 +301,7 @@
  tr_supremacy_great_game:0 "Il Grande Gioco"
  tr_supremacy_great_game_desc:1 "§Y$mod_shipclass_starbase_damage_mult$§! aumentato del §G20%§! e §Y$MOD_STARBASE_UPGRADE_COST_MULT$§! ridotto del §G33%§!."
  tr_supremacy_great_game_delayed:0 "Mentre continuiamo ad espanderci, altri imperi sfideranno inevitabilmente le nostre rivendicazioni, e noi le loro. Siamo bloccati nel grande gioco delle risorse e dei territori. È nostro dovere uscirne vincitori."
- 
+
  #tr_supremacy_great_game_machine:0 "Diplomatic Target Prioritization"
  tr_supremacy_great_game_hive:0 "Occhio del Cacciatore"
  #tr_supremacy_great_game_machine_desc:0 "$tr_supremacy_great_game_desc$"
@@ -345,7 +345,7 @@
  tr_supremacy_war_games_hive:0 "Consapevolezza Tridimensionale"
  tr_supremacy_war_games_hive_desc:0 "$tr_supremacy_war_games_desc$"
  tr_supremacy_war_games_hive_delayed:0 "Le creature acquatiche possiedono una maggior consapevolezza della natura tridimensionale dei loro habitat naturali. Il nostro sciame si muove come un banco di pesci, una volta utilizzata quella porzione della corteccia sul campo di battaglia."
- 
+  
  tr_supremacy_overwhelming_force:1 "Forza Travolgente"
  tr_supremacy_overwhelming_force_desc:0 "§Y$MOD_SHIP_FIRE_RATE_MULT$§! aumentata del §G+10%§! e §Y$MOD_SHIP_ORBITAL_BOMBARDMENT_MULT$§! aumentati del §G+20%§!."
  tr_supremacy_overwhelming_force_delayed:1 "Nulla può essere risparmiato al nemico se ci si deve assicurare la vittoria. Un attacco rapido e decisivo può paradossalmente salvare quelle vite che andrebbero perse lungo un conflitto prolungato."
@@ -481,7 +481,7 @@ tradition_adaptability:0 "Adattabilità"
  tr_discovery_adopt_hive:0 "$tr_discovery_adopt$"
  tr_discovery_adopt_machine_desc:0 "$tradition_discovery_machine_desc$\n\n$tr_discovery_adopt_machine_effect$\n\n$tr_discovery_finish_machine_effect$"
  tr_discovery_adopt_hive_desc:0 "$tradition_discovery_hive_desc$\n\n$tr_discovery_adopt_hive_effect$\n\n$tr_discovery_finish_hive_effect$"
- 
+  
  tr_discovery_to_boldly_go:0 "Per Arrivare Fin Là"
  tr_discovery_to_boldly_go_desc:6 "§Y$MOD_SHIP_SCIENCE_SURVEY_SPEED$§! aumentata del §G+35%§! e §Y$mod_shipclass_science_ship_disengage_mult$§! aumentata del §G+50%§!."
  tr_discovery_to_boldly_go_delayed:0 "Una nuova era d'esplorazioni ci attende. Una volta mappata la superficie del nostro Pianeta Natale, ora dobbiamo raggiungere nuovi territori. C'è una galassia piena di meraviglie che non vedono l'ora di essere scoperte."
@@ -611,13 +611,13 @@ tradition_adaptability:0 "Adattabilità"
  
  tr_prosperity_finish:0 "Tradizioni di Prosperità Perfezionate"
  tr_prosperity_finish_effect:6 "§E$TRADITIONS_FINISH$:§!\nAdottando tutte le $tr_prosperity_adopt$ otterremo §Y1§! £job_merchant£ §Y$job_merchant$§! ogni §Y50§! £pop£ POP su tutti i nostri pianeti."
- 
+
  tr_prosperity_finish_machine:0 "Tradizioni di Prosperità Perfezionate"
  tr_prosperity_finish_machine_effect:2 "§E$TRADITIONS_FINISH$:§!\nAdottando tutte le $tr_prosperity_adopt_machine$ otterremo §Y1§! £job_coordinator£ §Y$job_coordinator$§! ogni §Y20§! £pop£ POP su tutti i nostri pianeti."
- 
+
  tr_prosperity_finish_hive:0 "$tr_prosperity_finish$"
  tr_prosperity_finish_hive_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdottando tutte le $tr_prosperity_adopt_hive$ otterremo §Y1§! £job_synapse_drone£ §Y$job_synapse_drone$§! ogni §Y20§! £pop£ POP su tutti i nostri pianeti."
- 
+
  #tr_prosperity_hive_mind_adopt_desc:0 "$tr_prosperity_adopt_desc$"
  #tr_prosperity_hive_mind_finish:0 "$tr_prosperity_finish$"
  #tr_prosperity_hive_mind_finish_effect:0 "$tr_prosperity_finish_effect$"
@@ -632,7 +632,7 @@ tradition_adaptability:0 "Adattabilità"
  requires_ascension_perks_1:0 "$TRIGGER_FAIL$ Richiede che un altro Bonus d'Ascensione venga selezionato prima."
  requires_ascension_perks_2:1 "$TRIGGER_FAIL$ Richiede altri due Bonus d'Ascensione attivi."
  requires_ascension_perks_3:1 "$TRIGGER_FAIL$ Richiede altri tre Bonus d'Ascensione attivi."
- 
+  
  requires_ap_engineered_evolution:1 "$TRIGGER_FAIL$ Richiede il Bonus d'Ascensione §Y$ap_engineered_evolution$§!."
  requires_not_ap_engineered_evolution:1 "$TRIGGER_FAIL$ Può non possedere il Bonus d'Ascensione §Y$ap_engineered_evolution$§!."
  
@@ -650,33 +650,35 @@ tradition_adaptability:0 "Adattabilità"
  mastery_of_nature_desc:0 "$decision_mastery_of_nature_desc$"
  
  requires_ap_voidborn_OR_ap_galactic_wonders:1 "$TRIGGER_FAIL$ Richiede il Bonus d'Ascensione §Y$ap_voidborn$§! OR §Y$ap_galactic_wonders$§!."
- 
- requires_technology_housing_2:0 "$TRIGGER_FAIL$ Richiede la Tecnologia £engineering£ §Y$tech_housing_2$§!."
- requires_technology_zero_point_power:0 "$TRIGGER_FAIL$ Richiede la Tecnologia £physics£ §Y$tech_zero_point_power$§!."
- requires_technology_tech_climate_restoration:0 "$TRIGGER_FAIL$ Richiede la Tecnologia £society£ §Y$tech_climate_restoration$§!."
- requires_technology_robomodding:0 "$TRIGGER_FAIL$ Richiede la Tecnologia £engineering£ §Y$tech_robomodding$§!."
- requires_technology_gene_expressions:2 "$TRIGGER_FAIL$ Richiede la Tecnologia £society£ §Y$tech_gene_expressions$§!."
- requires_technology_gene_seed_purification:1 "$TRIGGER_FAIL$ Richiede la Tecnologia £society£ §Y$tech_gene_seed_purification$§!."
- requires_technology_gene_tailoring:1 "$TRIGGER_FAIL$ Richiede la Tecnologia £society£ §Y$tech_gene_tailoring$§!."
- requires_technology_starbase_4:0 "$TRIGGER_FAIL$ Richiede la Tecnologia £engineering£ §Y$tech_starbase_4$§!."
- requires_technology_starbase_5:0 "$TRIGGER_FAIL$ Richiede la Tecnologia £engineering£ §Y$tech_starbase_5$§!."
- requires_technology_battleships:0 "$TRIGGER_FAIL$ Richiede la Tecnologia £engineering£ §Y$tech_battleships$§!."
- requires_technology_glandular_acclimation:0 "$TRIGGER_FAIL$ Richiede la Tecnologia £society£ §Y$tech_glandular_acclimation$§!."
- requires_mega_engineering:1 "$TRIGGER_FAIL$ Richiede la Tecnologia £engineering£ §Y$tech_mega_engineering$§!."
- hive_mind_biological_ascension_only1:0 "$TRIGGER_FAIL$A La Mente Alveare non può percorre il percorso dell'Ascensione Psionica."
- hive_mind_biological_ascension_only2:0 "$TRIGGER_FAIL$A La Mente Alveare non può percorre il percorso dell'Ascensione Sintetica."
- requires_zero_point_power:1 "$TRIGGER_FAIL$ Richiede la Tecnologia £physics£ §Y$tech_zero_point_power$§!."
- requires_ap_voidborn:1 "$TRIGGER_FAIL$ Richiede il Bonus d'Ascensione §Y$ap_voidborn$§!."
- requires_technology_droid_workers:1 "$TRIGGER_FAIL$ Richiede la Tecnologia £engineering£ §Y$tech_droid_workers$§!."
- requires_technology_synthetic_workers:1 "$TRIGGER_FAIL$ Richiede la Tecnologia £engineering£ §Y$tech_synthetic_workers$§!."
- requires_technology_synthetic_leaders:1 "$TRIGGER_FAIL$ Richiede la Tecnologia £engineering£ §Y$tech_synthetic_leaders$§!."
- requires_technology_psionic_theory:1 "$TRIGGER_FAIL$ Richiede la Tecnologia £society£ §Y$tech_psionic_theory$§!."
- requires_technology_terrestrial_sculpting:1 "$TRIGGER_FAIL$ Richiede la Tecnologia £society£ §Y$tech_terrestrial_sculpting$§!."
- gestalt_consciousness_biological_ascension_only1:1 "$TRIGGER_FAIL$ La Mente Alveare non può percorre il percorso dell'Ascensione Psionica."
- gestalt_consciousness_biological_ascension_only2:1 "$TRIGGER_FAIL$ La Mente Alveare non può percorre il percorso dell'Ascensione Sintetica."
- synthetic_empire_synthetic_ascension:0 "$TRIGGER_FAIL$ Gli Imperi Sintetici non possono percorrere il percorso dell'Ascensione Sintetica."
- synthetic_empire_biological_ascension:0 "$TRIGGER_FAIL$ Gli Imperi Sintetici non possono percorrere il percorso dell'Ascensione Biologica."
- synthetic_empire_psionic_ascension:0 "$TRIGGER_FAIL$ Gli Imperi Sintetici non possono percorrere il percorso dell'Ascensione Psionica."
+  
+ requires_technology_housing_2:0 "$TRIGGER_FAIL$Richiede la Tecnologia £engineering£ §Y$tech_housing_2$§!"
+ requires_technology_zero_point_power:0 "$TRIGGER_FAIL$Richiede la Tecnologia £physics£ §Y$tech_zero_point_power$§!"
+ requires_technology_tech_climate_restoration:0 "$TRIGGER_FAIL$Richiede la Tecnologia £society£ §Y$tech_climate_restoration$§!"
+ requires_technology_robomodding:0 "$TRIGGER_FAIL$Richiede la Tecnologia £engineering£ §Y$tech_robomodding$§!"
+ requires_technology_gene_expressions:2 "$TRIGGER_FAIL$Richiede la Tecnologia £society£ §Y$tech_gene_expressions$§!"
+ requires_technology_gene_seed_purification:1 "$TRIGGER_FAIL$Richiede la Tecnologia £society£ §Y$tech_gene_seed_purification$§!"
+ requires_technology_gene_tailoring:1 "$TRIGGER_FAIL$Richiede la Tecnologia £society£ §Y$tech_gene_tailoring$§!"
+ requires_technology_starbase_4:0 "$TRIGGER_FAIL$Richiede la Tecnologia £engineering£ §Y$tech_starbase_4$§!"
+ requires_technology_starbase_5:0 "$TRIGGER_FAIL$Richiede la Tecnologia £engineering£ §Y$tech_starbase_5$§!"
+ requires_technology_habitat_1:0 "$TRIGGER_FAIL$Richiede la Tecnologia £engineering£ §Y$tech_habitat_1$§!"
+ requires_technology_battleships:0 "$TRIGGER_FAIL$Richiede la Tecnologia £engineering£ §Y$tech_battleships$§!"
+ requires_technology_glandular_acclimation:0 "$TRIGGER_FAIL$ Richiede la Tecnologia £society£ §Y$tech_glandular_acclimation$§!"
+ requires_mega_engineering:1 "$TRIGGER_FAIL$Richiede la Tecnologia £engineering£ §Y$tech_mega_engineering$§!"
+ requires_built_or_repaired_megastructure:0 "$TRIGGER_FAIL$Richiede di aver riparato o completamente aggiornato una Megastruttura."
+ hive_mind_biological_ascension_only1:0 "$TRIGGER_FAIL$La Mente Alveare non può percorre il percorso dell'Ascensione Psionica."
+ hive_mind_biological_ascension_only2:0 "$TRIGGER_FAIL$La Mente Alveare non può percorre il percorso dell'Ascensione Sintetica."
+ requires_zero_point_power:1 "$TRIGGER_FAIL$Richiede la Tecnologia £physics£ §Y$tech_zero_point_power$§!"
+ requires_ap_voidborn:1 "$TRIGGER_FAIL$Richiede il Bonus d'Ascensione §Y$ap_voidborn$§!."
+ requires_technology_droid_workers:1 "$TRIGGER_FAIL$Richiede la Tecnologia £engineering£ §Y$tech_droid_workers$§!"
+ requires_technology_synthetic_workers:1 "$TRIGGER_FAIL$Richiede la Tecnologia £engineering£ §Y$tech_synthetic_workers$§!"
+ requires_technology_synthetic_leaders:1 "$TRIGGER_FAIL$Richiede la Tecnologia £engineering£ §Y$tech_synthetic_leaders$§!"
+ requires_technology_psionic_theory:1 "$TRIGGER_FAIL$Richiede la Tecnologia £society£ §Y$tech_psionic_theory$§!"
+ requires_technology_terrestrial_sculpting:1 "$TRIGGER_FAIL$Richiede la Tecnologia £society£ §Y$tech_terrestrial_sculpting$§!"
+ gestalt_consciousness_biological_ascension_only1:1 "$TRIGGER_FAIL$La Mente Alveare non può percorre il percorso dell'Ascensione Psionica."
+ gestalt_consciousness_biological_ascension_only2:1 "$TRIGGER_FAIL$La Mente Alveare non può percorre il percorso dell'Ascensione Sintetica."
+ synthetic_empire_synthetic_ascension:0 "$TRIGGER_FAIL$Gli Imperi Sintetici non possono percorrere il percorso dell'Ascensione Sintetica."
+ synthetic_empire_biological_ascension:0 "$TRIGGER_FAIL$Gli Imperi Sintetici non possono percorrere il percorso dell'Ascensione Biologica."
+ synthetic_empire_psionic_ascension:0 "$TRIGGER_FAIL$Gli Imperi Sintetici non possono percorrere il percorso dell'Ascensione Psionica."
  
  allow_gaia:0 "Ci permette di terraformare i pianeti per farli diventare di Classe §YGaia§!."
  no_rev_engineering:0 "La nostra tecnologia è troppo arcana agli occhi degli altri per essere decodificata."
@@ -764,4 +766,4 @@ tradition_adaptability:0 "Adattabilità"
  ap_galactic_wonders_utopia_and_megacorp:2 "$ap_galactic_wonders$"
  ap_galactic_wonders_utopia_and_megacorp_desc:1 "$ap_galactic_wonders_desc$"
 
- ap_technological_ascendancy_rare:0 "Le §MTecnologie Rare§! ora sono più comuni del §G50%§!."
+ ap_technological_ascendancy_rare:2 "Le §MTecnologie Rare§! ora sono più comuni del §G50%§!."

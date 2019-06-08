@@ -192,7 +192,7 @@
  utopia.63.a:0 "Potrebbe tornarci utile."
  utopia.63.b:0 "Potrebbe mettere gli altri a rischio."
  utopia.64.desc:0 "$utopia.59.intro$\n\nCome prevedevamo, i volontari non hanno affollato il laboratorio. Per ora se n'è presentato solo uno... il Leader scientifico [volunteer_leader.GetName]."
-# Nexus/Think Tank Notification Events
+# Science Nexus/Think Tank Notification Events
  utopia.80.name:0 "Costruzione del Nexus"
  utopia.80.desc:0 "Abbiamo dato il via alla costruzione del Nexus. Le fondamenta sono piazzate e sono in corso i preparativi per l'aggiunta del nucleo principale. La promessa dello sviluppo di nuove tecnologie ed idee oltre la nostra immaginazione attende. E sebbene la strada che ci aspetta sia lunga e piena di sfide, abbiamo fatto il primo passo.\n\nChe gli infiniti misteri dell'universo siano finalmente a portata di mano?"
  utopia.80.a:0 "Il futuro è nostro."
@@ -208,15 +208,15 @@
  #utopia.83.name: "Nexus Platform Complete"
  #utopia.83.desc: "The Nexus platform is finally in place and the engineering team ready to begin the initial stages of construction, starting with the main hub."
  #utopia.83.a: "Eccellente."
-# Nexus partially completed
+# Science Nexus partially completed
  utopia.83.name:0 "Nucleo del Nexus"
  utopia.83.desc:0 "Il nucleo centrale del Nexus è stato piazzato e dotato di un reattore a singolarità all'ultimo grido. I nostri ingegneri si stanno preparando per aggiungere il prossimo segmento della struttura, il più impegnativo... le quattro ali di ricerca. Saranno dotate di tecnologia pionieristica... in grado di sopportare ogni cosa, dal caldo violento alla pressione intesa fino ai patogeni alieni. Forniranno anche alloggio ai nostri ricercatori."
  utopia.83.a:0 "Stiamo facendo passi da gigante."
- # Nexus Wings pt 1
+ # Science Nexus Wings pt 1
  utopia.85.name:0 "Ali di Ricerca del Nexus"
  utopia.85.desc:0 "Il primo modulo delle quattro ali di ricerca è stato piazzato, ed i ricercatori si stanno già trasferendo nei loro nuovi alloggi. Il prossimo passo, quello finale, estenderà le ali aggiungendo quattro sezioni di laboratori dotati di ogni supporto per le ricerche più pericolose. Sono state prese misure di sicurezza estreme per salvaguardare la salute degli scienziati."
  utopia.85.a:0 "Ci siamo quasi..."
-# Nexus completed
+# Science Nexus completed
  utopia.84.name:0 "Nexus Completato"
  utopia.84.desc.a:0 "Oggi celebriamo la grande inaugurazione del Nexus. Con le sue strutture all'avanguardia e le sue tecnologie innovative non avremmo alcun problema ad attirare le migliori menti dell'impero, o persino dell'universo intero, se lo desideriamo. Questo giorno segna l'inizio di una nuova era illuministica.\n\nStiamo facendo la storia della nostra razza."
  utopia.84.desc.b:0 "Oggi celebriamo il completamento di un altro Nexus. Se ancora non fosse bastato il precedente, sicuramente questo ci garantirà sicuramente un posto nell'avanguardia scientifica universale. I nostri progressi tecnologici ci permetteranno di modellare il futuro a nostro piacimento."
