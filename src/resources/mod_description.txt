@@ -1,0 +1,9 @@
+Questo mod, [b]compatibile con l'Ironmode e gli achievement di Steam[/b], sostituisce la lingua inglese con la lingua italiana.
+
+Version supportata: Lee 2.4.* (73ad). Ancora non sono tradotti tutti i testi, in particolare manca il DLC Ancient Relics, ma per il resto il mod funziona correttamente.
+
+La traduzione è ricavata dai testi redatti diligentemente dal team Battle of Paradox Italia ed in particolare dal buon Puxxup - grande lavoro!
+
+[b]NOTA BENE[/b]: a causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, [u]per poter conservare ironmode e achievement ho dovuto rimuovere parte delle frasi presenti nel lavoro di traduzione originale di Puxxup[/u] (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.). Se avete già completato gli achievement e l'ironmode, o comunque non siete interessati alla cosa, usate il [url=https://steamcommunity.com/sharedfiles/filedetails/?id=823306244]mod di Puxxup[/url] per [b]un'esperienza di traduzione completa[/b]!
+
+Per costruire il vostro mod personale partendo da questo, potete usare [url=https://github.com/Neurone/stellaris-italian-translation]questo repository[/url] su github. Per suggerire modifiche o aggiornamenti alla traduzione potete utilizzare una pull request su github oppure utilizzare il forum ufficiale BOP (in quel caso di aggiungerò la traduzione solo se verrà rilasciata da BOP Italia).
