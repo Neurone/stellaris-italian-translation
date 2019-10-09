@@ -111,6 +111,7 @@
  STARBASE_DOWNGRADE_LABEL:0 "Declassa"
  STARBASE_RETURN_LABEL:0 "Restituisci"
  STARBASE_DISMANTLE_NO_STARBASE_IN_SYSTEM:0 "§RNon è presente alcuna Base Stellare nel sistema.§!"
+ STARBASE_BUILD_NOT_AN_OWNER:0 "§RNon possiede Basi Stellari!§!"
  STARBASE_DISMANTLE_NOT_SYSTEM_OWNER:0 "§RNon sei il proprietario di questa Base Stellare.§!"
  STARBASE_DISMANTLE_HAS_COLONIZED_WORLDS:0 "§RNon puoi smantellare una Base Stellare se possiedi pianeti colonizzati nel sistema.§!"
  STARBASE_DOWNGRADE_ALREADY_LOWEST_LEVEL:0 "§RQuesta Base Stellare non può essere declassata ulteriormente!§!"

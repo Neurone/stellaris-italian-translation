@@ -162,8 +162,8 @@
  IS_NOT_PIRATE:0 "NON è un Pirata"
  IS_INSIDE_NEBULA:0 "È all'interno di una nebulosa"
  IS_NOT_INSIDE_NEBULA:0 "NON è all'interno di una nebulosa"
- IS_IN_FRONTIER_SPACE: "È all'interno della frontiera spaziale"
- IS_NOT_IN_FRONTIER_SPACE: "NON è all'interno della frontiera spaziale"
+ IS_IN_FRONTIER_SPACE:0 "È all'interno della frontiera spaziale"
+ IS_NOT_IN_FRONTIER_SPACE:0 "NON è all'interno della frontiera spaziale"
  IS_INSIDE_BORDER:0 "È all'interno dei confini dell'Impero §Y$OTHER$§!"
  IS_NOT_INSIDE_BORDER:0 "NON è all'interno dei confini dell'Impero §Y$OTHER$§!"
  ANY_COUNTRY:0 "Qualsiasi Impero"
@@ -1263,3 +1263,6 @@
  DURATION_DAYS:0 "$TIME$ giorni"
  DURATION_MONTHS:0 "$TIME$ mesi"
  ADD_TMP_TRAIT:0 "§H$LEADER$§! possiede ora il tratto §H$TRAIT$§! per $DURATION|Y$\n"
+
+ HAS_UNLOCKED_ALL_TRADITIONS:0 "$COUNTRY|Y$ ha sbloccato tutte le tradizioni disponibili"
+ HAS_NOT_UNLOCKED_ALL_TRADITIONS:0 "$COUNTRY|Y$ NON ha sbloccato tutte le tradizioni disponibili"

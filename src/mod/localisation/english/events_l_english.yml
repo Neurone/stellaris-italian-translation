@@ -41,6 +41,8 @@
  SCUM:0 "Feccia xeno."
  TASTY:0 "Prede..."
  EXTERMINATE:0 "<< Organici identificati. Comunicazioni terminate. >>"
+ DIG:0 "Continua a scavare!"
+ INTENSIFIES:0 "La crisi esistenziale si intensifica..."
  
  ####################################
  # On-Action Events
@@ -311,7 +313,7 @@
  action.38.message:1 "Abbiamo perso la guerra contro: §H[From.GetName]§!"
  action.38.desc.default:1 "Questa guerra è finita. Abbiamo vinto."
  action.38.a:1 "Il peggior risultato possibile."
- action.39.name:1 "Status Quo con: §H[From.GetName]§!"
+ action.39.name:2 "Status Quo con: §H[From.GetName]§!"
  action.39.message:1 "Abbiamo siglato una Pace Bianca con: §H[From.GetName]§!"
  action.39.desc.default:1 "Questa guerra è finita. Non sono presenti vincitori questa volta."
  action.39.a:1 "Lo accetteremo, per ora."
@@ -1334,6 +1336,7 @@
  precursor.302.a.desc:0 "Un'indagine più accurata su [precursor_planet.GetName] ha svelato alcune tracce della civiltà conosciuta col nome di [Root.Owner.GetPrecursorCiv]. Una squadra è riuscita a recuperare un artefatto relativamente ben conservato che dovrebbe migliorare le nostre conoscenze su quest'antica civiltà."
  precursor.302.b.desc:0 "Le nostre unità al lavoro su [precursor_planet.GetName] sono riuscite a recuperare un artefatto riconducente all'antica civiltà conosciuta col nome di [Root.Owner.GetPrecursorCiv]. I nostri database sono stati aggiornati con le nuove informazioni ottenute dallo studio di quest'oggetto."
  precursor.302.c.desc:0 "I nostri droni al lavoro su [precursor_planet.GetName] hanno recuperato un artefatto riconducente all'antica civiltà conosciuta col nome di [Root.Owner.GetPrecursorCiv]. La Mente ha aumentato la sua conoscenza riguardo la loro storia."
+ precursor.320.desc:0 "L'analisi degli artefatti miniori suggerisce che ci possa essere una connessione con i Precursori su §H[precursor_planet.GetName]§ o nelle sue vicinanze!"
  vultaum_precursor_civ:0 "Adunanza Stellare Vultaum"
  yuht_precursor_civ:0 "Impero Yuht"
  first_league_precursor_civ:0 "Prima Alleanza"
