@@ -63,6 +63,7 @@
  TRAIT_EMOTION_EMULATORS_EFFECT:2 "£amenities_no_happiness£ Servizi da £job£ Lavori: §G+20%§!"
  TRAIT_UNCANNY_EFFECT:2 "£amenities_no_happiness£ Servizi da £job£ Lavori: §R-20%§!"
  TRAIT_THRIFTY_EFFECT:0 "£trade_value£ Valore Commerciale da £job£ Lavori: §G+25%§!"
+ TRAIT_LITHOID_EFFECT:0 "Consuma £minerals£ §YMinerals§! al posto di £food£ §YFood§!\n\n$MOD_POP_GROWTH_SPEED$: §R-25%§!\n$MOD_POP_ENVIRONMENT_TOLERANCE$: §G+50%§!\n$MOD_ARMY_HEALTH$: §G+50%§!\n$MOD_LEADER_AGE$: §G+50§!"
  
  NO_SPECIES_CAN_INHABIT:0 "§RNon è presente alcuna Specie del nostro impero che può abitare su questo tipo di pianeta§!"
  POP_HABITABILITY_TOO_LOW:0 "§RL'Abitabilità Planetaria per la POP è minore del §R20%§!.§!"
@@ -1269,7 +1270,8 @@
  CALLED_BY_SUBJECT:0 "Signore di $CALLER$"
  CALLED_BY_GUARANTEED:0 "Garantisce indipendenza a $CALLER$"
  NUM_DEFENSIVE_PACTS:0 "Numero di Patti Difensivi $ADJ$"
- NUM_NON_AGGRESSION_PACTS:0 "Numero di Patti di Non Aggressione $ADJ$"NUM_COMMERCIAL_PACTS:0 "Numero di Accordi Commerciali $ADJ$"
+ NUM_NON_AGGRESSION_PACTS:0 "Numero di Patti di Non Aggressione $ADJ$"
+ NUM_COMMERCIAL_PACTS:0 "Numero di Accordi Commerciali $ADJ$"
  RESEARCH_AGREEMENT_TECHS:0 "Benefici Tecnologici Relativi"
  COMMERCIAL_PACT_GIVEN_VALUE:0 "Valore Commerciale Fornito"
  COMMERCIAL_PACT_TAKEN_VALUE:0 "Valore Commerciale Ricevuto"
@@ -2047,9 +2049,10 @@
  topbar_button_strategic_resource_name:0 "Risorse Strategiche"
  topbar_button_strategic_resource_instant:0 "§H$topbar_button_strategic_resource_name$§!"
  topbar_button_strategic_resource_delayed:0 "§EApre la finestra delle Risorse Strategiche.§!"
- topbar_button_traditions_name:1 "Tradizioni"
+ topbar_button_traditions_name:2 "Tradizioni"
  topbar_button_traditions_instant:0 "§H$topbar_button_traditions_name$§!"
  topbar_button_traditions_delayed:1 "§EApre la Finestra delle Tradizioni§!"
+ topbar_button_traditions_delayed_ancrel_dlc:0 "§EMostra una panoramica delle tue $TRADITIONS$, $RELICS_AND_ARTIFACTS$§!"
  topbar_button_claims_name:0 "$CLAIMS_VIEW$"
  topbar_button_claims_instant:0 "§H$topbar_button_claims_name$§!"
  topbar_button_claims_delayed:0 "§EApre la Finestra delle Rivendicazioni§!"
@@ -2532,6 +2535,7 @@
  GAMESETUP_SPECIES_CLASS_NOT_ALLOWED:0 "Impossibile selezionare un ritratto $CLASS|H$:\n$REASON$"
  GAMESETUP_SPECIES_CLASS_GOVERNMENT_NOT_ALLOWED:0 "Il Governo attuale non è compatibile con il ritratto $CLASS|H$ selezionato:\n$REASON$"
  GAMESETUP_SECONDARY_SPECIES_CLASS_GOVERNMENT_NOT_ALLOWED:0 "Il Governo attuale non è compatibile con il ritratto $CLASS|H$ selezionato per la nostra Specie Secondaria:\n$REASON$"
+ GAMESETUP_SPECIES_TRAIT_MISSING:0 "Tratto mancante: $TRAIT|H$"
  STARTING_WEAPONS:0 "Armi Iniziali"
  AUTHORITY_ELECTION_ON_RULER_DEATH:0 "Indici delle elezioni dopo la morte del Sovrano per eleggerne uno nuovo."
  AUTHORITY_ELECTION_DEMOCRATIC:0 "Indici delle elezioni ogni §H10§! anni per eleggere un nuovo Sovrano."
@@ -2848,6 +2852,8 @@
  d_collapsed_burrows_desc:0 "Questo luogo un tempo ospitava un'immensa rete di tunnel sotterranei abitati dall'Alveare, ma fu abbandonato a causa del sovrasfruttamento delle risorse locali e della fauna selvatica."
  d_ruined_building_blocker:0 "Rovine"
  d_ruined_building_blocker_desc:0 "Estese rovine impediscono ogni accesso."
+ d_hibernating_lithoids:0 "£blocker£ Monoliti Litiodi"
+ d_hibernating_lithoids_desc:0 "Affioramenti incredibilmente ricchi di minerali che sembrano essere composti da litioidi pietrificati."
 
  ####################################
  # Hull Sizes
@@ -3457,6 +3463,8 @@
  trait_venerable_desc:0 "§LQuesta specie può raggiungere un'età che suscita dignità e rispetto.§!\n"
  trait_fleeting:0 "Effimeri"
  trait_fleeting_desc:0 "§LIl tempo vola per questa specie. Quello che manca loro in longevità, lo devono compensare in altri modi.§!\n"
+ trait_fleeting_lithoid:0 "$trait_fleeting$"
+ trait_fleeting_lithoid_desc:0 "$trait_fleeting_desc$"
  trait_diverse:0 "Variegati"
  trait_diverse_desc:0 "§LI membri di questa specie tendono a differire molto tra di loro, sia psicologicamente che morfologicamente.§!\n"
  trait_decadent:0 "Decadenti"
@@ -3490,6 +3498,8 @@
  trait_hive_mind_desc:0 "§LQuesta specie è composta da individui semi-autonomi asserviti ad una singola, insondabile, vasta coscienza.§!\n"
  trait_machine_unit:0 "Macchine"
  trait_machine_unit_desc:0 "§LQuesta specie è costituita da terminali esecutivi di una singola Intelligenza Meccanica, in origine costruita dagli organici.§!\n"
+ trait_lithoid:0 "Lithoid"
+ trait_lithoid_desc:0 "§LQuesta specie ha una biologia a base di silicio e consuma minerali piuttosto che cibo. Sono più resistenti dei organici tradizionali e hanno metabolismi più lenti, il che li rende longevi ma lenti a riprodursi.§!\n"                         
  trait_robot_power_drills:0 "Trivelle"
  trait_robot_power_drills_desc:0 "§LEquipaggia un robot con una serie di trivelle elettriche, ed ogni cosa sembrerà un deposito minerario.§!\n"
  trait_robot_harvesters:0 "Raccoglitori"
@@ -3538,7 +3548,16 @@
  trait_traditional_desc:0 "§LAlcuni aspetti della cognizione dei membri di questa specie li rendono predisposti a valorizzare la storia antica e l'unità.§!"
  trait_quarrelsome:0 "Attaccabrighe"
  trait_quarrelsome_desc:0 "§LPur non essendo intrinsecamente diffidenti, i membri di questa specie risultano spesso socialmente combattivi.§!"
- 
+ trait_lithoid_gaseous_byproducts:0 "Sottoprodotti Gassosi"
+ trait_lithoid_gaseous_byproducts_desc:0 "I processi metabolici di questa specie causano lo sfiato regolare di gas utili all'industria."
+ TRAIT_LITHOID_GASEOUS_BYPRODUCTS_EFFECT:0 "Ogni popolazione con standard di vita di schiavitù o migliore produce 0,01 £exotic_gases£ §Y$exotic_gases$§! al mese."
+ trait_lithoid_scintillating:0 "Pelle Scintillante"
+ trait_lithoid_scintillating_desc:0 "Lo strato più esterno di questa specie è tempestato di cristalli scintillanti e pietre preziose che occasionalmente si sfaldano."
+ TRAIT_LITHOID_SCINTILLATING_EFFECT:0 "Ogni popolazione con standard di vita di schiavitù o migliore produce 0,01 £rare_crystals£ §Y$rare_crystals$§! al mese."
+ trait_lithoid_volatile_excretions:0 "Secrezioni Volatili"
+ trait_lithoid_volatile_excretions_desc:0 "La secrezione altamente compressa creato da questa specie è instabile e contiene un'incredibile quantità di potere."
+ TRAIT_LITHOID_VOLATILE_EXCRETIONS_EFFECT:0 "Ogni popolazione con standard di vita di schiavitù o migliore produce 0,01 £volatile_motes£ §Y$volatile_motes$§! al mese."
+
  ####################################
  # Habitability Traits
  ####################################
@@ -6593,6 +6612,7 @@
  BLOOM_QUALITY_HIGH:0 "$GFX_QUALITY_HIGH$"
  SETTINGS_USE_RICH_PRESENCE_LABEL:0 "Presenza ricca"
 
+
  ####################################
  # Rivendicazioni View
  ####################################
@@ -6635,6 +6655,7 @@
  
  CANNOT_ADD_CLAIM_POLICY:1 "§RLa nostra §YFilosofia di Guerra§! non ci permette di rivendicare questo sistema a meno di non trovarci in guerra difensiva§!"
  CANNOT_ADD_CLAIM_DEVOURING_SWARM:0 "§RNon abbiamo alcun bisogno di rivendicare i sistemi delle nostre prede§!"
+ CANNOT_ADD_CLAIM_DEVOURING_SWARM_LITHOID:0 "§RNon abbiamo bisogno di rivendicare i sistemi per consumarli§!"
  CANNOT_ADD_CLAIM_PURIFIERS:0 "§RNon abbiamo alcun bisogno di rivendicare i sistemi delle specie inferiori§!"
  CANNOT_ADD_CLAIM_ASSIMILATOR:0 "§RNon abbiamo alcun bisogno di rivendicare i sistemi dei bersagli di assimilazione§!"
  CANNOT_ADD_CLAIM_EXTERMINATOR:0 "§RNon abbiamo alcun bisogno di rivendicare i sistemi della feccia organica§!"
@@ -6757,7 +6778,8 @@
  CLICK_TO_OPEN_SLAVE_POOL:0 "§GClicca per selezionare gli Schiavi da vendere.§!"
  NO_PLANETS_WITH_SLAVES:0 "Non sono presenti Schiavi su alcun pianeta."
  NO_SLAVES_FOR_SALE:0 "Nessuno Schiavo in vendita..."
- ESTIMATED_PRICE:0 "Prezzo Stimato di Vendita"
+ TOO_MANY_SLAVES:0 "Il mercato è pieno di schiavi. Il limite di $CAP|Y$ è stato raggiunto."
+ ESTIMATED_PRICE:0 "Prezzo Stimato di Vendita" 
  ESTIMATED_PRICE_DESC:0 "§EIl prezzo finale potrebbe differire a seconda dell'acquirente.§!"
  EST_PRICE:0 "Prezzo Stimato:"
  SLAVE_MARKET_ALERT_ON_NEW_SLAVES_DESC:0 "Avvertimi quando saranno presenti nuovi Schiavi nel Mercato."
@@ -7173,6 +7195,7 @@
  requires_actor_not_fanatic_purifiers:1 "$TRIGGER_FAIL$§RSiamo §Y$civic_fanatic_purifiers$§!! Non facciamo diplomazia con le altre specie!§!"
  requires_recipient_not_devouring_swarm:1 "$TRIGGER_FAIL$§RSono uno §Y$civic_hive_devouring_swarm$§!! Esistono solo per consumare le altre specie!§!"
  requires_actor_not_devouring_swarm:2 "$TRIGGER_FAIL$§RSiamo uno §Y$civic_hive_devouring_swarm$§!! Non usiamo la diplomazia con le altre specie... le mangiamo!§!"
+ requires_actor_not_devouring_swarm_lithoid:0 "$TRIGGER_FAIL$§RSiamo §Y$civic_hive_devouring_swarm$§ litoidi!! Consumiamo mondi!§!"
  requires_recipient_not_gestalt_consciousness:2 "$TRIGGER_FAIL$§RSono una §YCoscienza Gestalt§!. Non possono integrarsi con altre società.§!"
  requires_actor_not_gestalt_consciousness:2 "$TRIGGER_FAIL$§RSiamo una §YCoscienza Gestalt§!. Non possiamo integrarci con altre società.§!"
  requires_recipient_not_machine_terminator:1 "$TRIGGER_FAIL$§RUno §Y$civic_machine_terminator$§! intraprende Accordi Diplomatici sono con altre §YIntelligenze Meccaniche§! o §YImperi Sintetici§!.§!"
@@ -8168,6 +8191,8 @@
  civic_hive_pooled_knowledge_desc:0 "I droni della Mente Alveare condividono spesso la loro conoscenza tramite connessioni dirette, bypassando il lento processo d'archiviazione della Mente Alveare."
  civic_hive_devouring_swarm:0 "Sciame Divoratore"
  civic_hive_devouring_swarm_desc:0 "La nostra Mente Alveare esiste solo per consumare e crescere sempre più forte. Raccoglieremo tutta la materia biologica e ci evolveremo per consumare la galassia!"
+ civic_hive_devouring_swarm_lithoid:0 "Terravoro"
+ civic_hive_devouring_swarm_lithoid_desc:0 "La nostra mente alveare esiste solo per consumare e diventare più forte. Divoreremo i mondi stessi della galassia!"                              
  civic_machine_servitor:0 "Servitore Corrotto"
  civic_machine_servitor_desc:0 "Un prodotto di una breve età dell'oro, questa Intelligenza Meccanica è nata in un pianeta in cui il sistema artificiale dei Servitori ha surclassato la decadente civiltà che doveva servire."
  civic_machine_servitor_secondary_species:0 "Bio-Trofeo"
@@ -8247,6 +8272,7 @@
  civic_tooltip_syncretic_evolution_effects:4 "Iniziano la partita con §Y12§! £pop£ POP di un'altra specie servile"
  civic_tooltip_fanatic_purifiers_effects:13 "Non possono avere contatti §YDiplomatici§! con altre specie!\nNon possono accedere al §YMercato Galattico§!\nPossiedono il Casus Belli §Y'Purificazione'§! verso le altre specie\nLa §YPOP Xeno§! verrà sempre §YEpurata§!\nOttengono £unity£ §YUnità§! tramite l'epurazione della £pop£ POP Xeno\nPossono utilizzare il Bombardamento Orbitale §Y$bombardment_armageddon$§!\n§Y$MOD_SHIP_FIRE_RATE_MULT$§! aumentato del §G+33%§!\n§Y$MOD_ARMY_DAMAGE_MULT$§! aumentato del §G+33%§!\n§Y$MOD_STARBASE_SHIP_BUILD_COST_MULT$§! ridotto del §G-25%§!\n§Y$MOD_COUNTRY_NAVAL_CAP_MULT$§! aumentata del §G+33%§!\n"
  civic_tooltip_devouring_swarm_effects:11 "Non possono avere contatti §YDiplomatici§! con altri imperi!\nNon possono accedere al §YMercato Galattico§!\nPossiedono il Casus Belli §Y'Fame'§! verso tutti gli altri imperi\nLa §YPOP Xeno§! verrà sempre epurata e non avrà effetti sul Costo di Tradizione\nOttengono £society£ §Y$society_research$§! nutrendosi della £pop£ POP Xeno\n§Y$MOD_SHIP_HITPOINTS_MULT$§! aumentati del §G+25%§!\n§Y$MOD_SHIP_HULL_REGEN_ADD_PERC$§! e §Y$MOD_SHIP_ARMOR_REGEN_ADD_PERC$§! aumentate dello §G+0,5%§!\n§Y$MOD_COUNTRY_STARBASE_INFLUENCE_COST_MULT$§! ridotto del §G50%§!\n§Y$MOD_ARMY_DAMAGE_MULT$§! aumentato del §G+40%§!\n§Y$mod_category_biology_research_speed_mult$§! aumentata del §G+20%§!\n§Y$MOD_STARBASE_SHIP_BUILD_COST_MULT$§! ridotto del §G-15%§!\n§Y$MOD_COUNTRY_NAVAL_CAP_MULT$§! aumentata del §G+33%§!\n"
+ civic_tooltip_devouring_swarm_lithoid_effects:0 "Non può stringere accordi §YDiplomacy§! con altri imperi!\nNon può accedere il §YGalactic Market§!\nCannot §YTerraform§! planets\nNon ha il casus belli §Y'Hunger'§! verso tutti gli imperi\nPossiede l'editto planetario §Y'Consume World'§!\n§YXeno Pops§! saranno sempre mangiati\nGuadagna £society£ §Y$society_research$§! mangiando £pop£ Xeno\n§Y$MOD_SHIP_HITPOINTS_MULT$§! cresciuto del §G+25%§!\n§Y$MOD_SHIP_HULL_REGEN_ADD_PERC$§! e §Y$MOD_SHIP_ARMOR_REGEN_ADD_PERC$§! cresciuto dello §G+0.5%§!\n§Y$MOD_COUNTRY_STARBASE_INFLUENCE_COST_MULT$§! sceso del §G50%§!\n§Y$MOD_ARMY_DAMAGE_MULT$§! cresciuto del §G+40%§!\n§Y$mod_category_biology_research_speed_mult$§! cresciuto di §G+20%§!\n§Y$MOD_STARBASE_SHIP_BUILD_COST_MULT$§! ridotto di §G-25%§!\n§Y$MOD_COUNTRY_NAVAL_CAP_MULT$§! increased by §G+33%§!\n"
  civic_tooltip_machine_servitor_effects:8 "Iniziano la partita con §Y5§! £pop£ POP organica di tipo §Y$citizenship_organic_trophy$§! e Standard di Vita '§Y$living_standard_organic_trophy$§!'\nPossono costruire il £building£ §Y$building_organic_sanctuary$§! che permette ai Bio-Trofei di generare £unity£ §YUnità§!\nNon possono costruire i normali edifici da Impero Meccanico che generano £unity£ §YUnità§! (come il £building£ §Y$building_uplink_node$§!)"
  civic_tooltip_machine_terminator_effects:13 "La Capitale si trova su un §YPianeta Sepolcro§!\nNon possono avere contatti §YDiplomatici§! con specie organiche!\nNon possono accedere al §YMercato Galattico§!\nPossiedono il Casus Belli §Y'Purificazione'§! verso tutte le specie organiche\nLa £pop£ POP organica verrà sempre §YEpurata§!\nOttengono £unity£ §YUnità§! tramite l'epurazione della £pop£ POP organica\nPossono utilizzare il Bombardamento Orbitale §Y$bombardment_armageddon$§!\n§Y$MOD_SHIP_WEAPON_DAMAGE$§! aumentato del §G+25%§!\n§Y$MOD_COUNTRY_STARBASE_INFLUENCE_COST_MULT$§! ridotto del §G30%§!\n§Y$MOD_STARBASE_SHIP_BUILD_COST_MULT$§! ridotto del §G-15%§!\n§Y$MOD_COUNTRY_NAVAL_CAP_MULT$§! aumentata del §G+33%§!§!\n"
  civic_tooltip_machine_assimilator_effects:6 "Iniziano la partita con §Y10§! £pop£ POP cibernetica e con l'abilità di §YAssimilare§! gli organici per trasformarli in cyborg\nAssimilare una £pop£ POP organica genera una piccola quantità di £unity£ §YUnità§! e di £society£ §YRicerca Sociologica§!\nLa £pop£ POP organica non assimilata verrà automaticamente §YEpurata§! nel tempo\nPossiedono il Casus Belli §Y'Assimilazione'§! verso tutti gli altri imperi\n§YOpinione§! ridotta verso la maggior parte degli altri imperi"
@@ -10279,6 +10305,10 @@
  name_list_MOL4_desc:0 "§YLeader:§! Yoggoss Frusta-Vele, Snagg Lunghe-Coste\n§YNavi:§! Pinna-Rasoio, Krill Astuto\n§YFlotte:§! Marea Rossa, Spezza-Onde\n§YColonie:§! Perla Lucente, Reliquiario Affondato"
  name_list_AVI4:0 "Avian 4"
  name_list_AVI4_desc:0 "§YLeader:§! Strigi Rokk, Kawikk Nacayo\n§YNavi:§! Strix Senza-Cuore, Predone Urlante\n§YFlotte:§! Ali del Vuoto Piuma Stellare, Ali del Vuoto Acquazzone\n§YColonie:§! Nido Astrale, Trespolo Haro"
+ name_list_LITHOID1:0 "Litoide 1"
+ name_list_LITHOID2:0 "Litoide 2"
+ name_list_LITHOID3:0 "Litoide 3"
+ name_list_LITHOID4:0 "Litoide 4"
 
  rep1:0 "Rettiliano Snello 01"
  rep2:0 "Rettiliano Snello 02"
@@ -10490,6 +10520,7 @@
  START_SCREEN_PART_TWO_PURIFIER:0 "Esisteva un'altra cultura tra di noi, un tempo, che diluiva la purezza della nostra società con la propria debolezza. Questi rinnegati vennero sistemati, uno dopo l'altro, finché il nostro mondo non fu completamente ripulito dalla loro contaminazione. Oggi, rimangono solo i puri."
  START_SCREEN_PART_TWO_HIVE_MIND:0 "E così, all'alba dei tempi, ci svegliammo. La Mente studiò l'ambiente di [GetHomeWorldName] con una moltitudine di occhi. Ci spostammo in sintonia, costruendo rifugi per i droni, creando l'industria, sviluppando nuove tecnologie e raccogliendo le risorse del suolo.\n\nPresto, crescemmo tanto da ricoprire l'intero pianeta. Un piccolo numero di droni autonomi furono creati per servire come agenti indipendenti. Questi droni superiori possedevano una limitata capacità di pensiero, ma erano comunque legati indissolubilmente alla volontà della Mente, come tutti i suoi strumenti.\n\nQuando raggiungemmo il dominio completo di [GetHomeWorldName], la Mente venne a conoscenza di altri pianeti, in orbita attorno alle stelle. I più intelligenti tra noi droni idearono nuovi sistemi di viaggio, permettendoci di attraversare le ampie distanze spaziali. Presto cresceremo ancora."
  START_SCREEN_PART_TWO_DEVOURING_SWARM:0 "La Grande Fame ci ha guidati, persino ancor prima che la Mente fosse in grado di formulare pensieri complessi. Cacciavamo, ci nutrivamo e crescevamo. Quando le prede iniziarono a scarseggiare, il desiderio di carne ci obbligò ad adattarci.\n\nUtilizzammo attrezzi e ideammo nuove strategie. Mentre pasteggiavamo, la superficie di [GetHomeWorldName] fu quasi liberata interamente dalla bio-massa, ma la Mente giunse ad una terribile conclusione: il nostro pianeta era finito. Quando avessimo consumato le ultime risorse, nulla avrebbe più potuto sfamarci.\n\nObbligata nuovamente ad adattarsi, la Mente si prese cura della bio-massa restante con nuovi strumenti. L'atomo fu infine diviso e sviluppammo il volo spaziale. Con la scoperta dei motori SL, la Mente ululò trionfante. Altri pianeti, con la loro bio-massa, erano finalmente a portata di fauci.\n\nLa caccia era aperta."
+ START_SCREEN_PART_TWO_DEVOURING_SWARM_LITHOID:0 "La Grande Fame ci spinse in avanti, ancor prima che la Mente fosse in grado di elaborare pensieri complessi. Abbiamo cacciato, ci siamo nutriti e siamo cresciuti. Quando le prede iniziarono a scarseggiare, la brama famelica di crescere ci costrinse ad adattarci.\n\nUsammo strumenti e inventammo nuove strategie. Mentre banchettavamo sulla superficie di [GetHomeWorldName], abbiamo quasi causato la nostra stessa distruzione, ma alla fine la Mente giunse a una conclusione orribile: [GetHomeWorldName] era finito. Quando avessimo consumato questo mondo, non sarebbe rimasto più nulla a sostenerci.\n\nForzati ad adattarci ancora una volta, la Mente razionava con cura i minerali mentre venivano inventati nuovi strumenti. L'atomo fu infine scisso e sviluppammo il volo spaziale. Con la scoperta della guida FTL, la Mente ululò di trionfo. Altri pianeti, e il loro bottino, erano finalmente a portata di mano.\n\nLi consumeremo tutti."
  START_SCREEN_POST_APOCALYPTIC:0 "Ma la nostra società non è sempre stata unita verso un obiettivo comune. Nei secoli passati, le crescenti tensioni tra le nostre nazioni sfociarono in maniera apocalittica in una guerra termonucleare globale che rubò la vita di miliardi di persone, e deturpò per sempre la superficie di [GetHomeWorldName].\n\nNei decenni che seguirono, i sopravvissuti dovettero affrontare radiazioni, mutazioni, carestie e violento tribalismo. Fu in questo lugubre crogiolo che infine ci forgiammo, creando un nuovo ordine mondiale."
  START_SCREEN_POST_LIFE_SEEDED:0 "L'immenso pianeta che chiamiamo casa è sempre stato un paradiso per la nostra razza, e man mano che la nostra conoscenza scientifica aumentava, ci diventava chiaro che alcuni modelli nella biosfera non potevano essere di origine naturale.\n\nChe qualche entità sconosciuta avesse creato questo pianeta specificamente per noi? Siamo parte di un disegno più grande? Indipendentemente dalle sue origini, il nostro popolo è prosperato nel mite clima e nell'ambiente piacevole del nostro pianeta natale."
  START_SCREEN_PART_THREE_WARP:0 "Ora, dopo la creazione di vari campi sub-spaziali sperimentali, le nostre migliori menti hanno completato la costruzione della prima unità Warp. Le stelle sono finalmente a portata di mano!"
@@ -11347,6 +11378,13 @@
  RESETTLEMENT_DESTROY_COLONY_DESC:0 "Trasferire questa popolazione farà in modo che $COUNTRY|Y$ abbandonino la loro colonia su $PLANET|Y$."
  UNKNOWN_ORDERS:0 "Ordini sconosciuti"
 
+ decision_lithoid_swarm_consume_world:0 "Consuma Mondo"
+ decision_lithoid_swarm_consume_world_desc:0 "Lo sciame consuma. Il mondo trema. Noi cresciamo."
+ decision_lithoid_swarm_consume_world_effect_desc:0 "Devasta questo mondo, creando uno o più bloccanti che riducono l'abitabilità e i distretti di questo mondo, ma fornendo allo sciame minerali, leghe o una unità di popolazione."
+ decision_lithoid_swarm_consume_world_destroy_district_desc:0 "Un distretto verrà distrutto."
+ d_lithoid_devastation:0 "£blocker£ Devastazione Litoide"
+ d_lithoid_devastation_desc:0 "Uno sciame divorante di litoidi ha spogliato questa regione. Con grande sforzo potrebbe essere possibile annullare il danno."
+
  MSGRDK_SIGNIN_FAILED_TITLE:0 "C'è stato un problema"
  MSGRDK_SIGNIN_FAILED_TEXT:0 "Non siamo riusciti ad autenticarti con il tuo account Microsoft. Alcune funzionalità del gioco potrebbero non essere disponibili."
  MSGRDK_NO_PERMISSION_TITLE:0 "Permessi dell'account"
@@ -11363,3 +11401,4 @@
  MATCHMAKING_SEARCH_CROSSPLAY_TOOLTIP:0 "Cerca sessioni per qualunque piattaforma"
  MATCHMAKING_HOST_CROSSPLAY_TOOLTIP:0 "Disponibile alla ricerca per qualunque piattaforma"
  FE_IRONMAN_NO_POPS:0 "§RLa modalità Ironman richiede di essere autenticati con un account Paradox.§!"
+ 

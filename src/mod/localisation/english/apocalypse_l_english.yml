@@ -303,8 +303,8 @@
  HOME_BASE_FM:1 "§HCasa Base§!\n§GClicca per selezionare una Casa Base per questa flotta§!"
  INCREASE_HEADER:0 "§HAumenta§!"
  DECREASE_HEADER:0 "§HDiminuisci§!"
- DECREASE_FM:2 "$DECREASE_HEADER$\n§GClicca per diminuire il numero di navi di questo Design utilizzate per questa flotta§!"
- INCREASE_FM:2 "$INCREASE_HEADER$\n§GClicca per aumentare il numero di navi di questo Design utilizzate per questa flotta§!"
+ DECREASE_FM:3 "$DECREASE_HEADER$\n§GClicca per diminuire il numero di navi con questo design utilizzate per questa flotta§!\n§YShift-click§! per incrementare di un multiplo di 10, §YControl-click§! per aggiungere il massimo di navi possibili"
+ INCREASE_FM:3 "$INCREASE_HEADER$\n§GClicca per aumentare il numero di navi con questo design utilizzate per questa flotta§!\n§YShift-click§! per diminuire di un multiplo di 10, §YControl-click§! per rimuovere tutte le navi"
  REINFORCE_ALL_FM:0 "§HRinforza Tuttil§!\n§GClicca per rinforzare tutte le flotte alla capacità massima§!"
  ADD_DESIGN_FM:1 "§HAggiungi Design Navale alla Flotta§!\n§GClicca per aggiungere un nuovo Design Navale a questa flotta§!"
  
@@ -688,3 +688,5 @@
  OCCUPATION_SUMMARY:0 "Occupazione"
  OCCUPATION_SUMMARY_LONG:0 "Sfinimento da Occupazione dovuto ai $SYSTEMS|R$ sistemi e $PLANETS|R$ pianeti occupati";
  
+ FLEET_TEMPLATE_COMMAND_MAX_MULTIPLE:0 "Aggiungere $NUM|Y$ navi supererebbe il limite di comando per questa flotta."
+ FLEET_TEMPLATE_COMMAND_MIN_MULTIPLE:0 "Non posso rimuovere $NUM|Y$ navi dal template della nave"

@@ -1117,7 +1117,8 @@
  # Eat or be Eaten
  distar.1050.name:0 "Mangia o Vieni Mangiato"
  distar.1050.desc:0 "Fluttuante vicino alla fascia di detriti che circonda [From.GetName], è presente una malmessa nave scientifica d'origine sconosciuta. La presenza di segni di morsi e succhi gastrici sullo scafo suggeriscono che sia stata masticata e quindi rigurgitata da qualche sorta di enorme predatore.\n\nIronicamente, i membri dell'equipaggio stavano compiendo un'odissea culinaria, in cerca di nuove delicatezze esotiche, quando sono finiti loro stessi nel menu.\n\nAvevano catalogato una miriade di forme di vita, indicandone ogni aspetto, dai valori nutrizionali alla masticabilità. Tra le loro prime scelte c'era la specie [delicious_aliens.GetName], a causa della loro carne succosa e del temperamento pepato. Noi abbiamo ottenuto un piazzamento mediocre in fondo all'elenco, a causa della stopposità delle nostre carni e della mancanza di spirito predatorio. A qualcuno piaceva giocare col cibo..."
- distar.1050.a:0 "Sembra che alla fine abbiano trovato la preda perfetta..."
+ distar.1050.desc_lithoid:0 "Galleggiare alla periferia del campo di detriti attorno a [From.GetName] è la forma pietosa di una nave scientifica accartocciata di origine non identificabile. La presenza di segni di morso e fluidi digestivi sullo scafo suggerisce che sia stata masticata, e poi rigurgitata, da un grosso predatore. \ n \ nIronicamente, l'equipaggio della nave era in una propria odissea culinaria, alla ricerca di nuove prelibatezze esotiche, quando loro stessi sono finiti sul menu. \ n \ n Hanno valutato un numero incredibile di forme di vita su tutto, dal contenuto nutrizionale alla masticabilità. Tra le loro scelte preferite c'erano [delicious_aliens.GetName], per il loro succoso [delicious_aliens.GetSpeciesOrganName] e il temperamento speziato. Abbiamo guadagnato una categoria speciale in fondo alla lista circondato da asterischi, grazie alla totale inedibilità della nostra carne e alla cava scialba che abbiamo costruito. Ad alcuni piace giocare con il proprio cibo... "
+ distar.1050.a:0 "Sembra che alla fine abbiano trovato la preda perfetta..." 
  # Il Cubo
  distar.1055.name:0 "Il Cubo"
  distar.1055.desc:1 "Tra i relitti abbandonati nell'orbita di [From.GetName] abbiamo scoperto una nave da ricerca quasi completamente integra. I registri indicano che ha subito un malfunzionamento critico ai sistemi di bordo che l'hanno costretta nel limbo per 142 giorni, prima che l'equipaggio morisse di inedia.\n\nIl corpo del capitano è stato trovato nella sua cuccetta, e stringeva tra le mani un piccolo cubo metallico con le facce ognuna di un colore diverso, divise in nove quadratini ruotabili. L'Ufficiale Scientifico [cube_science_officer.GetName] è convinto che, una volta ottenuto lo schema corretto, il cubo potrebbe aprirsi e svelare un tesoro nascosto."
@@ -1736,6 +1737,7 @@
  story.332.name:1 "$story.333.name$"
  story.332.desc:0 "Abbiamo distrutto la base dei Droni Minerari, riuscendo a recuperare la maggior parte delle loro scorte minerarie."
  story.332.a:0 "Indicibili ricchezze."
+ story.332.b:0 "...e uno strano strumento..."
 
  CRYSTALS_PROJECT:0 "Studio dell'Entità Cristallina"
  CRYSTALS_PROJECT_DESC:0 "$CRYSTALS_1_PROJECT_DESC$"

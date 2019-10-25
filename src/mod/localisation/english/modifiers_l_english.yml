@@ -502,6 +502,10 @@
  mod_country_base_volatile_motes_produces_add:0 "£volatile_motes£ Granelli Volatili Mensili"
  mod_country_base_exotic_gases_produces_add:0 "£exotic_gases£ Gas Esotici Mensili"
  
+ mod_country_base_sr_living_metal_produces_add:0 "£sr_living_metal£ Metallo Vivente al Mese"
+ mod_country_base_sr_dark_matter_produces_add:0 "£sr_dark_matter£ Materia Oscusa al Mese"
+ mod_country_base_sr_zro_produces_add:0 "£sr_zro£ Zro al Mese"
+
  ####################################
  # Dynamic Modifiers
  ####################################
@@ -1380,6 +1384,7 @@
  mod_MOL_species_trait_points_add:0 "Punti Modificazione Genetica Molluscoide"
  mod_FUN_species_trait_points_add:0 "Punti Modificazione Genetica Fungoide"
  mod_PLANT_species_trait_points_add:0 "Punti Modificazione Genetica Plantoide"
+ mod_LITHOID_species_trait_points_add:0 "Punti Modificazione Genetica Litoide"
  mod_ROBOT_species_trait_points_add:0 "Punti Modificazione Robot"
  mod_MACHINE_species_trait_points_add:0 "Punti Modificazione Macchina"
  mod_BIOLOGICAL_species_trait_points_add:0 "$species_trait_points_add$"

@@ -391,6 +391,21 @@
  DS_VASSAL_GREETING_01:0 "È innaturale che la preda regni sul cacciatore. Questa condizione non può perdurare."
  DS_MECH_VASSAL_GREETING_01:0 "Le macchine non comprendono la fame. Come potrebbero comprendere noi?"
  DS_SYNTH_VASSAL_GREETING_01:0 "Voi non comprendete la fame. Come potreste comprendere noi?"
+ # Lithoid Devouring Swarm
+ DS_L_HOSTILE_GREETING_01:0 "I tuoi pianeti verranno consumati, [From.GetSpeciesName]. Questa è la tua inevitabile fine."
+ DS_L_HOSTILE_GREETING_02:0 "Parla se proprio devi. Non cambia nulla."
+ DS_L_HOSTILE_GREETING_03:0 "Abbiamo fame. Presto ci nutriremo."
+ DS_L_HOSTILE_GREETING_04:0 "Forme di vita ridondanti. Il tuo pianeta sarà consumato."
+ DS_L_THREATENED_GREETING_01:0 "Anche potenti prede possono essere abbattute da un numero sufficiente di cacciatori che lavorano insieme. Nonostante la tua potenza, i tuoi pianeti saranno consumati."
+ DS_L_MECH_HOSTILE_GREETING_01:0 "La presenza di [From.GetSpeciesAdj] limita la nostra crescita. Inaccettabile."
+ DS_L_MECH_HOSTILE_GREETING_02:0 "Il [Root.GetName] si evolverà. Il [From.GetName] diventerà obsoleto."
+ DS_L_WAR_GREETING_01:0 "Ritieni che i cacciatori si avvicinino, [From.GetSpeciesName]?"
+ DS_L_WAR_GREETING_02:0 "Le specie [From.GetSpeciesName] presto faranno parte di qualcosa di più grande. Apprezza il tuo ruolo nel nutrire l'Alveare.""
+ DS_L_WAR_GREETING_03:0 "Ci nutriremo del tuo pianeta natale, [From.GetSpeciesName]. Assaporeremo il gusto."
+ DS_L_MECH_WAR_GREETING_01:0 "Lo sciame è una marea incessante. I tuoi costrutti saranno invasi."
+ DS_L_VASSAL_GREETING_01:0 "Per la preda governare il cacciatore è innaturale. Questo stato di cose non può continuare."
+ DS_L_MECH_VASSAL_GREETING_01:0 "La macchina non conosce la fame. Come può la macchina conoscere il [Root.GetName]?""
+ DS_L_SYNTH_VASSAL_GREETING_01:0 "Il [From.GetSpeciesName] non conosce più la fame. Come può il [From.GetSpeciesName] conoscere il [Root.GetName]?"
  # Democratic Crusaders
  DC_HOSTILE_GREETING_01:0 "Il popolo [From.GetSpeciesAdj] non sarà mai veramente libero sotto il dominio di [From.GetRulerName]."
  DC_HOSTILE_GREETING_02:0 "Il Comitato per le Attività Anti-[Root.GetSpeciesNamePlural] è in cerca dei tuoi agenti, [From.GetRulerTitle]."
@@ -2194,3 +2209,4 @@
  MECH_DEMAND_SATELLITE_ACCEPT:0 "Affermativo. Diventeremo un vostro satellite."
  MECH_DEMAND_SATELLITE_REFUSE:0 "Negativo, [From.GetSpeciesNamePlural]. Non diventeremo un vostro satellite."
  MECH_ASK_BECOME_SATELLITE_PROPOSE:0 "Interrogativo: Ci potete accettare come vostra unità satellite? Le stime di sopravvivenza indicano che sarebbe la decisione più logica."
+ 

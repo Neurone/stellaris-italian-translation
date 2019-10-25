@@ -2,16 +2,16 @@
 
 Questo mod, **compatibile** con l'**Ironmode** e gli **achievement di Steam**, sostituisce la lingua inglese con la lingua italiana.
 
-Compatibile con versione: **Lee 2.4.***
+Compatibile con versione: **Shelley 2.5.***
 Da tradurre: DLC Ancient Relics
 
-Questa traduzione è ricavata dai testi redatti diligentemente dal team [Battle of Paradox Italia](http://www.bopitalia.org) ed in particolare dal buon Puxxup - **Grande lavoro!**
+Questa traduzione è ricavata per la maggior parte dai testi redatti diligentemente dal team [Battle of Paradox Italia](http://www.bopitalia.org) ed in particolare dal buon Puxxup - **Grande lavoro!**
 
 NOTA BENE: a causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, per poter conservare ironmode e achievement ho dovuto rimuovere parte delle frasi presenti nel lavoro di traduzione originale di Puxxup (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.). Se avete già completato gli achievement e l'ironmode, o comunque non siete interessati alla cosa, usate il [mod di Puxxup](https://steamcommunity.com/sharedfiles/filedetails/?id=823306244) per un'esperienza di traduzione completa!
 
 ## Modifiche rispetto al mod ufficiale BoP
 
-- compatibile con ironmode e achievement
+- **compatibile con ironmode e achievement**
 - non modifico il nome degli achievement, solo la loro descrizione
 
 ## Installazione mod da release
@@ -59,7 +59,7 @@ L'output sarà simile al seguente:
 
     Done.
 
-Verrà creato il file `stellaris-italian-translation-x.x.x.zip` all'interno della cartella `build\dist`, dove `x.x.x` sarà la verione corrente del mod (es. `1.0.0`).
+Verrà creato il file `stellaris-italian-translation-x.x.x.zip` all'interno della cartella `build\dist`, dove `x.x.x` sarà la versione corrente del mod (es. `1.0.0`).
 
 Per installare il mod, scompattare il file all'interno della cartella:
 
