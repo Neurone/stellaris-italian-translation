@@ -1108,7 +1108,7 @@
  junkyard:0 "Discarica"
  junkyard_desc:1 "Questo asteroide servì come discarica e la sua superficie è ricoperta di detriti metallici. Alcuni possono ancora essere recuperati."
  target_range:0 "Poligono di Tiro"
- target_range_desc:1 "Qualcuno ha usato questo povero asteroide come bersaglio per testare, tra le altre cose, armi sub-spaziali. Anomali echi energetici ancora perdurano sulla superficie."
+ target_range_desc:1 "Qualcuno ha usato questo povero asteroide come bersaglio per testare, tra le altre cose, armi subspaziali. Anomali echi energetici ancora perdurano sulla superficie."
  ore_freighter:0 "Cargo Minerario Schiantato"
  ore_freighter_desc:1 "Un enorme super-cargo che trasportava minerale grezzo si è schiantato su questo asteroide migliaia di anni fa, ed il contenuto delle sue baie di carico si trova ancora sulla superficie."
  atmospheric_ecosystem:0 "Ecosistema Atmosferico"
