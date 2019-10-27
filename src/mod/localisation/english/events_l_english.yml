@@ -313,7 +313,7 @@
  action.38.message:1 "Abbiamo perso la guerra contro: §H[From.GetName]§!"
  action.38.desc.default:1 "Questa guerra è finita. Abbiamo vinto."
  action.38.a:1 "Il peggior risultato possibile."
- action.39.name:1 "Status Quo con: §H[From.GetName]§!"
+ action.39.name:1 "Status Quo Pace con §H[From.GetName]§!"
  action.39.message:1 "Abbiamo siglato una Pace Bianca con: §H[From.GetName]§!"
  action.39.desc.default:1 "Questa guerra è finita. Non sono presenti vincitori questa volta."
  action.39.a:1 "Lo accetteremo, per ora."
@@ -336,7 +336,7 @@
  action.37.desc.hc:3 "Per il bene di noi tutti, dobbiamo arrenderci. Mostrate la stessa magnanima misericordia che vi aspettereste da noi."
  action.37.desc.hg:1 "Dobbiamo fare marcia indietro, ma ascoltate il nostro avvertimento. Non capirete mai cos'ha in serbo per voi il futuro, se continuerete su questa strada."
  action.37.desc.kk:1 "Avete morso la mano che si è tesa per salvarvi dalla distruzione. Un giorno, i vostri discendenti vi condanneranno per aver rifiutato la nostra saggezza."
- action.37.desc.mi:3 "[Root.GetSpeciesNamePluralInsult]! Come vi permettete di reclamare una vittoria contro di noi?"
+ action.37.desc.mi:2 "Precoci [Root.GetSpeciesNameInsult]-[Root.GetSpeciesSpawnNamePlural]! Come vi permettete di reclamare una vittoria contro di noi?"
  action.37.desc.eo:1 "È giunto il tempo di fare un passo indietro ed osservare. Cercate di non causare troppa distruzione nei vostri futuri sforzi."
  action.37.desc.fme:0 "Processo punitivo fallito. Protocolli di auto-difesa terminati. Protocolli di resa attivati."
  action.37.desc.bme:0 "$01_BERSERK_MACHINE_EMPIRE_ERROR$"
@@ -396,7 +396,7 @@
  action.41.desc.b.1:0 "Una flotta è Dispersa in Azione e non può rientrare in formazione in territorio amico."
  action.41.desc.c:0 "[From.GetNumPlayerWormholeStationsDestroyed] Stazioni Wormhole sono andate distrutte."
  action.41.desc.c.1:0 "Una Stazione Wormhole è andata distrutta."
- 
+
  ####################################
  # Anomaly Categories
  ####################################
@@ -1917,7 +1917,7 @@
  crisis.1216.desc.a:0 "$crisis.1216.third_portal_destroyed$\n\n$crisis.1116.last_portal$ $crisis.1116.last_portal_known_killer$"
  crisis.1216.desc.b:0 "$crisis.1216.third_portal_destroyed$\n\n$crisis.1116.last_portal$"
  crisis.1217.desc:0 "$crisis.1216.third_portal_destroyed$\n\n$crisis.1116.not_last_portal$"
- 
+
  crisis.1050.desc_01:0 "...prede..."
  crisis.1050.desc_02:0 "...osservate... la nostra gloria..."
  crisis.1050.desc_03:0 "...nutrimento..."
@@ -2040,7 +2040,7 @@
  crisis.2102.a:0 "Perché dovrebbero costruire una nave?"
  crisis.2103.name:0 "Sintetici Fuori Controllo"
  crisis.2103.desc:0 "Alcune unità sintetiche datesi alla macchia mesi fa, dopo non essersi presentate al lavoro, sono state intercettate da un gruppo di agenti governativi armati su [Root.GetName]. Ciò ha provocato un grande scontro a fuoco in pubblico che ha causato la morte di dozzine dei nostri agenti e di quasi un migliaio di passanti innocenti, prima che i sintetici venissero distrutti."
- crisis.2103.a:0 "Almeno la questione è chiusa."
+ crisis.2103.a:1 "Almeno la questione è chiusa."
  crisis.2200.name:0 "Tentativo d'Infiltrazione Sintetica"
  crisis.2200.desc:0 "Alcuni infiltrati Sintetici sono stati recentemente scoperti su [Root.GetName], mentre tentavano di passare per [Root.Owner.GetSpeciesNamePlural]. Fortunatamente, sono stati traditi dai loro rozzi travestimenti, consistenti in poco più che strati di gomma indossati sui telai metallici.\n\nSono stati rapidamente individuati dalla sicurezza planetaria, che li ha terminati dopo una breve ma violenta sparatoria. Sui loro resti è stato ritrovato del materiale esplosivo."
  crisis.2200.a:0 "Siamo stati fortunati."
@@ -2109,7 +2109,7 @@
  leader_trait_cybrex_desc:0 "Questo Leader Cybrex è equipaggiato con un antico database tattico legato al passato violento della sua civiltà."
 
  #############################
- # POP Events
+ # Pop Events
  #############################
  pop.1.name:0 "Una Nuova Specie"
  pop.1.desc:0 "Molti dei membri del popolo [Root.Planet.Owner.GetSpeciesAdj] residenti su [Root.Planet.GetName] hanno fatto ricorso a modifiche genetiche per far fronte al clima ostile. Le mutazioni vengono trasmesse alla prole e l'aspetto fisico dell'intera specie varia con rapidità allarmante. I mutanti hanno incominciato a definire loro stessi "[Root.GetSpeciesName].""
@@ -2336,9 +2336,9 @@
  country.257.name:0 "Conclusione Finale"
  country.257.desc:0 "Ora abbiamo un quadro chiaro del triste destino che ha colpito la Giacinto, il suo equipaggio ed i coloni che trasportava. In circostanze diverse sarebbe potuto toccare alla Crisantemo orbitare attorno a [hyacinth_planet.GetName], come una tomba silenziosa. Un promemoria che fa riflettere sui pericoli che l'umanità si trova ad affrontare in un universo freddo ed indifferente.\n\nLa Giacinto sarà ora rimorchiata nell'orbita inferiore di [Root.Capital.GetName] e trasformata in un museo, non appena i resti umani saranno stati rimossi. Nonostante la sua tragica storia, la nave arca è quasi identica a quella che ha portato i nostri antenati qui dalla Terra, ed i nostri sociologi potrebbero imparare molto."
  country.257.a:0 "Magari verrà fuori qualcosa di buono da tutto questo."
- 
- 
- 
+
+
+
  #############################
  # Progress Events
  #############################
@@ -2419,7 +2419,7 @@
  pirate.2.d:0 "Dovremmo essere migliori di così."
  pirate.2.e:0 "Pirati. Non ci serve questa feccia."
  pirate.2.f:0 "Gli affari devono continuare."
- pirate.2.g:0 "Verranno consegnati alla giustizia."
+ pirate.2.g:1 "Verranno consegnati alla giustizia."
  
  pirate.5.name:0 "Pirati Spaziali"
  pirate.5.desc:0 "I vascelli che abbiamo incontrato in alcuni sistemi sono sicuramente in grado di ricevere e trasmettere comunicazioni standard.\n\nGli indicatori mostrano che la loro cultura è ampiamente spaziale, ed alcuni fenotipi osservati tra di loro corrispondono ad alcune civiltà senza dimora fissa.\n\nSfortunatamente, i loro equipaggi sono completamente disinteressati al dialogo civile. Da quel poco che siamo riusciti ad intercettare, sembra che siano principalmente dediti alla pirateria, e che occasionalmente reclutino alcuni elementi alla loro causa."
@@ -2436,7 +2436,7 @@
 
  pirate.25.name:0 "Stazione Pirata Assaltata"
  pirate.25.desc:0 "La [pirate_slayers.GetName] ha distrutto la stazione pirata nel Sistema [pirate_slayers.GetStarName] ed ha recuperato la sua camera blindata."
- 
+
  #############################
  # Pretender Events
  #############################
@@ -2453,7 +2453,7 @@
  ##########################
  # Leader Events
  ##########################
- 
+
  admiral_trait_gain:0 "Ammiraglio - Tratto Ottenuto"
  admiral_trait_loss:0 "Ammiraglio - Tratto Perduto"
  leader.1.name:0 "Ufficiale Promettente"

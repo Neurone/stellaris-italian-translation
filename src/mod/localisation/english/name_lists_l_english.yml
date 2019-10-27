@@ -208,7 +208,7 @@
  PRE_AVI_sound_05:0 "pigolare"
  PRE_AVI_organ:0 "ventriglio"
  PRE_AVI_mouth:0 "becco"
- PRE_AVI_hand:0 "artiglio"
+ PRE_AVI_hand:0 "unghia"
  PRE_ART:0 "Artropoide"
  PRE_ART_desc:0 ""
  PRE_ART_plural:0 "Artropoidi"
@@ -295,7 +295,7 @@
  MACHINE_organ:0 "scheda madre"
  MACHINE_mouth:0 "connettore d'alimentazione"
  MACHINE_hand:0 "appendice prensile"
- 
+
  LITHOID:0 "Litoide"
  LITHOID_desc:0 "Le classi delle specie non hanno effetto sul tuo impero, ma le specie di classe Litoide possono considerare i Litoidi meno alieni delle altre specie."
  LITHOID_plural:0 "Litoidi"
@@ -313,12 +313,12 @@
  LITHOID_organ:0 "vena"
  LITHOID_mouth:0 "stomaco"
  LITHOID_hand:0 "appendice"
-
+ 
  SWARM:0 "Sciame"
  EXD:0 "Extradimensionali"
 
  ####################################
- # species
+ # Species
  ####################################
 
  Human:0 "Umano" # Needs to be localized, alone among all species

@@ -163,8 +163,8 @@
  MACHINE_SPECIES_MACHINE:0 "$TRIGGER_FAIL$ La specie non deve essere §YMeccanica§!."
  ASSIMILATOR_SPECIES_NOT_CYBORG:0 "$TRIGGER_FAIL$ La specie deve essere §YMeccanica§! o §YCibernetica§."
  MUST_NOT_BE_DOMINANT_SPECIES:0 "$TRIGGER_FAIL$ La specie non deve essere già quella dominante dell'impero."
- SPECIES_MUST_BE_ASSIMILATING:0 "$TRIGGER_FAIL$ La specie non deve avere Cittadinanza per §Y$citizenship_assimilation$§!."
- SPECIES_MUST_NOT_BE_ASSIMILATING:0 "$TRIGGER_FAIL$ La specie deve avere Cittadinanza per §Y$citizenship_assimilation$§!."
+ SPECIES_MUST_BE_ASSIMILATING:1 "$TRIGGER_FAIL$ La specie deve avere Cittadinanza §Y$citizenship_assimilation$§!."
+ SPECIES_MUST_NOT_BE_ASSIMILATING:1 "$TRIGGER_FAIL$ La specie non deve avere Cittadinanza §Y$citizenship_assimilation$§!."
  DEFAULT_SPECIES_MUST_BE_HIVE:0 "$TRIGGER_FAIL$ Richiede: §Y$ap_evolutionary_mastery$§!. Solo le specie organiche con §Y$trait_hive_mind$§! possono essere de-assimilate."
  TRANSCENDING_SPECIES_MUST_BE_ORGANIC:0 "Solo le specie organiche possono sviluppare poteri psionici."
  TRANSCENDING_SPECIES_IS_ALREADY_PSIONIC:0 "Questa specie già possiede poteri psionici."
@@ -261,7 +261,7 @@
  RESETTLE_HABITABILTIY_TOO_LOW:0 "§RL'abitabilità per la POP trasferita dev'essere di almeno §Y$MIN|0$%§!.§!"
  
  ROOM_BACKGROUND:0 "Stanza"
- 
+
  #MAP_MODE_TOOLTIP variables: "FROM" source country, "TARGET" tooltiped country, "MAP_MODE_NAME" name of current map mode, "MAP_MODE_TIP" tip generated from map mode
  MAP_MODE_TOOLTIP:0 "$TARGET|H$\n$MAP_MODE_TIP$"
  MAP_MODE_BUTTON_TOOLTIP:1 "$MAP_MODE|H$\n$DESC$\n§GClicca per selezionare questa Modalità Mappa§!"
@@ -440,7 +440,7 @@
  buildable_robot_pop_2_awoken_desc:0 "Una specie perduta di funghi tecnologicamente avanzati, riportata in vita caricando le scansioni neurali in corpi robotici."
  buildable_robot_pop_3_awoken:0 "$ROBOT_POP_SPECIES_1_AWOKEN$"
  buildable_robot_pop_3_awoken_desc:0 "$buildable_robot_pop_2_awoken_desc$"
- 
+
  COUNT_POP_TOOLTIP:0 "$COUNT|Y$ POP su $PLANET|Y$ Pianeti"
  COUNT_POP_TOOLTIP_CUTOFF:0 "... e $POPS|Y$ POP Aggiuntiva su $PLANETS|Y$ Pianeti."
 
@@ -647,10 +647,10 @@
  MATRIX_LIVESTOCK:0 "Amalgamata"
  MATRIX_LIVESTOCK_DESC:0 "Questa POP è stata amalgamata alla rete energetica planetaria."
  PURGING:0 "Epurazione"
- PURGING_DESC:1 "Questa POP sta venendo sistematicamente uccisa. Il processo impiegherà del tempo."
+ PURGING_DESC:1 "Questa popolazione viene sistematicamente uccisa. Il processo impiegherà del tempo."
  DISPLACING:1 "Migrazione Forzata"
- DISPLACING_DESC:1 "Questa POP sta venendo cacciata dal pianeta a causa della Dislocazione. Il processo di ricollocazione durerà un po' di tempo."
- DISPLACING_DESC_2:0 "Questa POP sta venendo cacciata dal pianeta a causa delle Politiche Imperiali o della Bassa Abitabilità. Il processo di ricollocazione durerà un po' di tempo."
+ DISPLACING_DESC:1 "Questa popolazione viene cacciata dal pianeta a causa della Dislocazione. Il processo di ricollocazione durerà un po' di tempo."
+ DISPLACING_DESC_2:0 "Questa popolazioine viene cacciata dal pianeta a causa delle Politiche Imperiali o della Bassa Abitabilità. Il processo di ricollocazione durerà un po' di tempo."
  EMIGRATING:0 "Emigrazione"
  EMIGRATING_DESC:0 "Questa POP sta emigrando dal pianeta."
  PURGING_ROBOT:0 "Rottamazione"
@@ -870,7 +870,7 @@
  FACEBOOK:0 "§HFacebook§! \nApri la pagina Facebook ufficiale di Stellaris"
  TWITTER:0 "§HTwitter§! \nSegui StellarisGame su Twitter"
  CLOSE_TITLE:0 "§HChiudi§!"
- BACK_TITLE:0 "§H$INDIETRO$§!"
+ BACK_TITLE:0 "§H$BACK$§!"
  NO_MP_POPS:1 "§RDevi connetterti al tuo account Paradox per accedere al Multiplayer.§!"
  sponsored_colonizer:0 "Nave Colonia Privata"
  sponsored_colonizer_plural:0 "Navi Colonia Private"
@@ -995,7 +995,7 @@
  BUILDING_IMMUNE_TO_BOMBARDMENT:0 "Immune al Bombardamento Orbitale"
  BUILDING_FTL_INHIBITOR:0 "Fornisce Inibitore SL"
  ARMY_PROTECTED_BY_BUILDING:0 "Protetta dal Bombardamento Orbitale"
- SPAWNED_FROM_POP:0 "Fornita da POP $SPECIES$"
+ SPAWNED_FROM_POP:0 "Fornita da popolazione $SPECIES$"
  BUILDING_AUTOMATED:0 "Costruzione Automatizzata"
  BUILD_BUILDING:0 "Costruzione Edifici"
  BUILD_BUILDING_DESC:0 "Gli edifici possono essere costruiti sulle caselle; la maggior parte di essi genera una risorsa specifica."
@@ -1043,19 +1043,19 @@
  TILE_CLEARING_BLOCKER_NOT_CLEARABLE:0 "Questo £blocker£ Ostacolo non può essere rimosso."
  TILE_CLEARING_CANNOT_AFFORD:0 "Non possiamo permetterci la liberazione di questa casella."
  TILE_CREATING_ALREADY_QUEUED:0 "È già presente un progetto di costruzione su questa casella."
- MOVE_POP_NOT_OWNER:1 "Possiamo trasferire solo la POP che appartiene al nostro impero."
- MOVE_POP_NOT_SAPIENT:0 "Non possiamo spostare POP appartenente a Specie Pre-Sapienti."
- MOVE_POP_NOT_CORE_SECTOR:0 "Possiamo trasferire solo la POP che appartiene al nostro Settore Principale."
- MOVE_POP_CANNOT_PLACE_ON_BLOCKER:1 "Non possiamo piazzare POP su una casella bloccata."
- MOVE_POP_NOT_SAME_PLANET:0 "Non possiamo spostare POP attraverso i pianeti."
- BUILDABLE_POP_TILE_ALREADY_FULL:0 "È già presente della POP su questa casella."
- UNBUILDABLE_POP:0 "Impossibile costruire POP di questo tipo."
+ MOVE_POP_NOT_OWNER:1 "Possiamo trasferire solo la popolazione che appartiene al nostro impero."
+ MOVE_POP_NOT_SAPIENT:0 "Non possiamo spostare popolazione appartenente a Specie Pre-Sapienti."
+ MOVE_POP_NOT_CORE_SECTOR:0 "Possiamo trasferire solo la popolazione che appartiene al nostro settore primario."
+ MOVE_POP_CANNOT_PLACE_ON_BLOCKER:1 "Non possiamo piazzare popolazione su una casella bloccata."
+ MOVE_POP_NOT_SAME_PLANET:0 "Non possiamo spostare popolazione attraverso i pianeti."
+ BUILDABLE_POP_TILE_ALREADY_FULL:0 "È già presente della popolazione su questa casella."
+ UNBUILDABLE_POP:0 "Impossibile costruire popolazione di questo tipo."
  MOVE_POP_NOT_BIO_TROPHY:0 "I Bio-Trofei non possono essere spostati su Caselle che contengono un edificio."
  ORBITALS:0 "Orbitanti"
  DOCKED:0 "Attraccate"
  EDICT_ENDS_DATE:0 "Data Termine: $DATE|Y$"
- POPS:0 "POP"
- POP:0 "POP"
+ POPS:0 "Pop"
+ POP:0 "Pop"
  TILES:0 "Da Caselle Sfruttate"
  TAXES:0 "Tassazione POP"
  TILE_BUILDING_ACTIVE_INVALID_TILE:0 "Casella Non Valida"
@@ -1426,9 +1426,9 @@
  POP_FACTION_SUPPRESSED:0 "Il supporto a questa fazione diminuirà di $VALUE$ al mese fino alla sua totale soppressione."
  GOTO_DESC:0 "Sposta la visuale su $NAME|Y$"
  COMBAT_WIDTH_INFO:0 "$COMBAT_WIDTH$: $MAX|Y$"
- GARRISON_POWER_INFO:2 "Difesa:£army_power£$VALUE|0Y$"
- GARRISON_ASSAULT_POWER_INFO:0 "Assalto:£army_power£$VALUE|0Y$"
- INVADER_POWER_INFO:0 "Invasori:£army_power£$VALUE|0Y$"
+ GARRISON_POWER_INFO:2 "£army_power£ $VALUE|0Y$"
+ GARRISON_ASSAULT_POWER_INFO:0 "£army_power£ $VALUE|0Y$"
+ INVADER_POWER_INFO:0 "Invasori: £army_power£ $VALUE|0Y$"
  COMBAT_WIDTH:0 "Ampiezza Combattimento"
  COMBAT_WIDTH_DESC:0 "$PLANET|Y$ possiede un'$COMBAT_WIDTH$ pari a $AMT|Y$. Questo valore viene calcolato in base alla dimensione del pianeta, e determina la quantità di armate che possono infliggere danni simultaneamente durante il combattimento."
  PLANET_DAMAGE:0 "Danno Planetario"
@@ -1475,11 +1475,11 @@
  SECTOR_MINERALS_STOCKPILE:0 "Scorta Minerali"
  SECTOR_MINERALS_STOCKPILE_DESC:0 "Questo è l'ammontare di Minerali immagazzinati nel settore. Vengono utilizzati automaticamente per la costruzione."
  EMPIRE_CAPITAL:0 "Capitale"
- EMPIRE_CAPITAL_DESC:0 "Questa è la Capitale del nostro impero."
- SECTOR_CAPITAL:0 "Capitale di Settore"
- SECTOR_CAPITAL_DESC:0 "Questa è la Capitale del Settore."
- PLANET_VIEW_DISCONNECTED:0 "Non Collegato al Settore"
- PLANET_VIEW_DISCONNECTED_DESC:0 "Questo pianeta non possiede collegamenti con la Capitale di Settore; il che porta al seguente effetto."
+ EMPIRE_CAPITAL_DESC:0 "Questa è la capitale del nostro impero."
+ SECTOR_CAPITAL:0 "Capitale del settore"
+ SECTOR_CAPITAL_DESC:0 "Questa è la capitale del settore."
+ PLANET_VIEW_DISCONNECTED:0 "Non collegato al settore"
+ PLANET_VIEW_DISCONNECTED_DESC:0 "Questo pianeta non possiede collegamenti con la capitale del settore; il che porta al seguente effetto."
  PLANET_VIEW_STARVATION:0 "Inedia"
  PLANET_VIEW_STARVATION_DESC:1 "Questo pianeta sta morendo di fame; l'inedia viene aggiornata all'inizio di ogni mese, causando i seguenti effetti."
  NOT_ALLOWED_TO_CHANGE_LEADER_ON_THIS_FLEET:0 "Non puoi cambiare il Leader di questa flotta."
@@ -1495,7 +1495,7 @@
  FLEETORDER_BUILD_RULER_MILITARY_STATION_DESC:0 "Costruisci una Stazione Militare Quintessenza per difendere questa posizione"
  MEGASTRUCTURE:0 "Megastruttura"
  FLEETORDER_BUILD_LABEL_MEGASTRUCTURE:0 "Costruisci $MEGASTRUCTURE$"
- MEGASTRUCTURE_CONSTRUCTION_OR_UPGRADE_IN_PROGRESS:0 "$TRIGGER_FAIL$ A causa delle immense richieste di personale tecnico qualificato, possiamo costruire od aggiornare una sola Megastruttura alla volta."
+ MEGASTRUCTURE_CONSTRUCTION_OR_UPGRADE_IN_PROGRESS:1 "$TRIGGER_FAIL$ A causa delle immense richieste di personale tecnico qualificato, possiamo costruire od aggiornare solamente $COUNT|Y$ Megastruttura/e alla volta."
  GOVERNMENT_VIEW_NO_HEIR:0 "Nessun Erede"
  GOVERNMENT_VIEW_NO_HEIR_DESC:0 "Il tuo Sovrano non ha ancora un Erede. Ogni giorno c'è una probabilità del $CHANCE|0Y%$ che venga nominato un nuovo Erede. Se il tuo Sovrano muore senza eredi, potrebbe scoppiare una Guerra di Successione."
  WILL_MAKE_YOU_LEAVE_CURRENT_ALLIANCE:0 "Accettando questa offerta lascerai l'Alleanza $ALLIANCE|Y$"
@@ -1883,7 +1883,7 @@
  LEADER_LEADING:1 "Sta comandando\n$LOCATION|H$"
  LEADER_TECHING:1 "Sta dirigendo una\nRicerca di $AREA|H$"
  LEADER_GOVERNING:1 "Sta governando\n$LOCATION|H$"
- LEADER_GOVERNING_CORE_SECTOR:1 "Sta governando il\n§HSettore Principale§!"
+ LEADER_GOVERNING_CORE_SECTOR:1 "Sta governando il\n§HSettore primario$!"
  LEADER_GOVERNING_SECTOR:1 "Sta governando il\nSettore $LOCATION|H$"
  LEADER_RULING:0 "Governa da $LOCATION|H$"
  LEADER_RESEARCHING:1 "Sta indagando su\n$LOCATION|H$"
@@ -2049,10 +2049,10 @@
  topbar_button_strategic_resource_name:0 "Risorse Strategiche"
  topbar_button_strategic_resource_instant:0 "§H$topbar_button_strategic_resource_name$§!"
  topbar_button_strategic_resource_delayed:0 "§EApre la finestra delle Risorse Strategiche.§!"
- topbar_button_traditions_name:2 "Tradizioni"
+ topbar_button_traditions_name:2 "$TRADITION_VIEW_TITLE$"
  topbar_button_traditions_instant:0 "§H$topbar_button_traditions_name$§!"
- topbar_button_traditions_delayed:1 "§EApre la Finestra delle Tradizioni§!"
- topbar_button_traditions_delayed_ancrel_dlc:0 "§EMostra una panoramica delle tue $TRADITIONS$, $RELICS_AND_ARTIFACTS$§!"
+ topbar_button_traditions_delayed:1 "§EApre una panoramica su $TRADITIONS$ e $RELICS$§!"
+ topbar_button_traditions_delayed_ancrel_dlc:0 "§EApre una panoramica su $TRADITIONS$, $RELICS_AND_ARTIFACTS$§!"
  topbar_button_claims_name:0 "$CLAIMS_VIEW$"
  topbar_button_claims_instant:0 "§H$topbar_button_claims_name$§!"
  topbar_button_claims_delayed:0 "§EApre la Finestra delle Rivendicazioni§!"
@@ -2196,8 +2196,8 @@
  STRATEGIC_RESOURCE_HEADER_SORT_AMOUNT:0 "§HOrdina per Quantità§!"
  ORBITAL_BUILDING_TOOLTIP:0 "§RVerrà piazzata in uno slot di un edificio orbitale.§!"
  LACKING_ENERGY:0 "Crediti Energetici insufficienti ($COST|H$)"
- LACKING_RESOURCE:1 "$TRIGGER_FAIL$ §R$RESOURCE$$AMOUNT$§! mancanti"
- LACKING_RESOURCES:1 "$TRIGGER_FAIL$ Risorse Mancanti: §R$RESOURCES$§!"
+ LACKING_RESOURCE:2 "$TRIGGER_FAIL$ §R$RESOURCE$$AMOUNT$§! §Rmancanti§!"
+ LACKING_RESOURCES:2 "$TRIGGER_FAIL$ §RRisorse Mancanti§!: §R$RESOURCES$§!"
  OTHER_BORDERS:0 "Pianeta all'interno dei confini di un altro impero."
  SENSOR_LEVEL_TOO_LOW:0 "Livello sensoriale troppo basso."
  REMOVE_HOTKEY:0 "Cancella Scorciatoia"
@@ -2231,7 +2231,7 @@
  TIME_RESOURCE:0 "$DAYS|Y$ £time£"
  RESOURCES_STORED_MAX:0 "Quantità: $VALUE|Y0$/$MAX|Y0$"
  GALACTIC_OBJECT_HABITABILITY:1 "$CLASS$, £planetsize£ $SIZE|Y$, $VALUE$"
- PLANET_MAP_ICON_TERRAFORMING:1 "Terraformazione in $CLASS$, $VALUE\n(£time£ $TIME|Y$)"
+ PLANET_MAP_ICON_TERRAFORMING:1 "Terraformazione in $CLASS$, $VALUE$\n(£time£ $TIME|Y$)"
  TERRAFORMING_TO:0 "Terraformazione in $CLASS|Y$"
  CLOSE_SECTOR_MANAGEMENT:0 "Chiudi Gestione Settoriale"
  TOOLTIP_CLOSE_SECTOR_MANAGEMENT:0 "§HChiudi Gestione Settoriale§!\nTorna alla mappa normale"
@@ -2240,19 +2240,19 @@
  CLAIMS_MANAGEMENT_MODE:0 "§HModalità Rivendicazioni§!\nRivendica Sistemi"
  TRADE_ROUTES_MANAGEMENT_MODE:0 "§HModalità Rotte Commerciali§!\nGestisci le Rotte Commerciali"
  TOOLTIP_CLOSE_TRADE_ROUTES_MANAGEMENT_MODE:0 "§HChiudi Gestione Rotte Commerciali§!\nTorna alla mappa standard\n\n§GScorciatoia:§! £escape£"
- CREATE_SECTOR_INVALID_CAPITAL:0 "La Capitale di Settore dev'essere all'interno di un sistema con una colonia in nostro possesso."
+ CREATE_SECTOR_INVALID_CAPITAL:0 "La capitale del settore dev'essere all'interno di un sistema con una colonia in nostro possesso."
  CREATE_SECTOR_NOT_OWNER:0 "La Capitale selezionata non è nostra."
  CREATE_SECTOR_COUNTRY_CAPITAL:0 "La Capitale Imperiale non può essere inclusa in un settore."
  CANNOT_CREATE_SECTOR:0 "§RImpossibile creare il settore§!"
  NOT_OWNED_PLANET:0 "§RNon possiedi il pianeta!§!"
- CREATE_SECTOR:0 "Crea Nuovo Settore"
+ CREATE_SECTOR:1 "§HCrea Nuovo Settore§!\nQuesto creerà un nuovo settore con questo pianeta come capitale del settore. Tutti i sistemi all'interno di §Y4§! salti, non precedentemente parte di alcun settore, diventeranno parte di questo nuovo settore."
  CREATE_SECTOR_DESC:0 "Crea un nuovo settore all'interno del nostro impero con $CAPITAL|Y$ come sua Capitale."
  CREATE_SECTOR_NOT_ENOUGH_PLANETS:0 "§RDobbiamo controllare almeno due pianeti per creare un settore.§!"
  CANNOT_MOVE_CAPITAL:0 "§Rnon è possibile spostare qui la capitale del settore§!"
  MOVE_SECTOR_CAPITAL:1 "§HSposta la capitale del settore§!\nTQuesta operazione sposterà la capitale del settore su questo pianeta, il che potrebbe ridefinire quali sistemi appartengono a questo settore."
  DELETE_SECTOR:1 "§HCancella settore§!\nQuesta azione cancellerà il settore. Qualunque risorsa nel $LOCAL_SECTOR_STOCKPILE$ sarà trasferita nel $SHARED_SECTOR_STOCKPILE$. Le scorte possono essere visualizzate nella schermata §Y$PLANET_LIST$§!.\n\n§ENon è particolarmente pericoloso cancellare un settore, ed è possibile crearne facilmente uno nuovo in ogni momento.§!"
  CANNOT_DELETE_SECTOR:0 "§RImpossibile cancellare il settore§!"
- CANNOT_DELETE_CORE_SECTOR:0 "§RSettore principale§!"
+ CANNOT_DELETE_CORE_SECTOR:0 "§RSettore primario§!"
  COUNTRY_CAPITAL:0 "§RLa capitale dell'Impero non può essere spostata§!"
  DELETE_SECTOR_CONFIRM_NAME:0 "Cancella settore"
  DELETE_SECTOR_CONFIRM_DESC:0 "Sei sicuro di voler cancellare il setttore? Ai pianeti verranno rimossi tutti i benefici del settore."
@@ -2261,7 +2261,7 @@
  NO_SECTOR:0 "Nessun settore"
  FRONTIER_PLANET:0 "Pianeta di frontiera"
  ALREADY_SECTOR_CAPITAL:0 "§RÈ già una capitale!§!"
- SECTOR_MANAGEMENT_NEW:0 "Creazione Nuovo Settore"
+ SECTOR_MANAGEMENT_NEW:0 "Creazione di un nuovo settore"
  SECTOR_MANAGEMENT_CURRENT:0 "Gestione del Settore $SECTOR$"
  SYSTEM_CAP_TITLE:0 "Sistemi Colonizzati Direttamente Controllati"
  SYSTEM_CAP_TOOLTIP:0 "Possiamo controllare direttamente al massimo $MAX|Y$ sistemi."
@@ -2291,7 +2291,7 @@
  MATCHMAKING_SERVER_DESC:1 "Descrizione Server"
  MATCHMAKING_SERVER_TAGS:0 "Tag"
  MATCHMAKING_SERVER_FILTER_SEARCH:0 "Ricerca Tag..."
- MATCHMAKING_SERVER_SLOTS:0 "Slot"
+ MATCHMAKING_SERVER_SLOTS:0 "Postazioni"
  MATCHMAKING_SERVER_PING:0 "Ping"
  MATCHMAKING_SERVER_STATUS:0 "Stato"
  MATCHMAKING_SERVER_PASSWORD:0 "Password"
@@ -2387,7 +2387,7 @@
  OOS_DESC:0 "Elementi Desincronizzati: "
  SPECIES_NAME:1 "Nome Specie"
  FE_CANCEL:0 "Annulla"
- BAD_SERVER_PASSWORD:0 "Password Errata"
+ BAD_SERVER_PASSWORD:0 "Password errata"
  FE_PLAYERS:0 "Giocatori"
  MESSAGE_BUTTON_SEARCH:0 "Applica Filtri"
  MATCHMAKING_SERVER_FILTER_SEARCH_NAMES:0 "Ricerca nome..."
@@ -2587,9 +2587,9 @@
  starting_weapons_lasers_desc:1 "Queste armi ad energia emettono raggi laser concentrati verso il bersaglio. Sono efficaci a medio e corto raggio, ignorano gran parte della corazza nemica."
  starting_weapons_projectiles_desc:1 "Catapulte elettromagnetiche che accelerano a velocità immense i proiettili verso il bersaglio. Sebbene di portata limitata, queste armi possiedono una potenza tale che, sommata all'elevata cadenza di fuoco, disintegra facilmente gli scudi."
  starting_weapons_missiles_desc:0 "Missili spazio-spazio armati di testate nucleari. I missili hanno una portata eccellente, ma sono vulnerabili contro i sistemi difensivi ad intercettazione."
- starting_ftl_warp:0 "Warp"
- starting_ftl_hyperdrive:0 "Viaggio Iperspaziale"
- starting_ftl_wormhole:0 "Wormhole"
+ starting_ftl_warp:0 "Viaggio a cruvatura"
+ starting_ftl_hyperdrive:0 "Viaggio iperspaziale"
+ starting_ftl_wormhole:0 "Viaggio Wormhole"
  starting_ftl_warp_desc:0 "Il motore a curvatura genera una bolla subspaziale attorno alla nave, rendendo possibile raggiungere la Velocità Superluminale. Permette di viaggiare gratuitamente ma lentamente tra le stelle, date le distanze immense coinvolte."
  starting_ftl_hyperdrive_desc:0 "L'iperguida permette alle navi di violare temporaneamente la dimensione iperspaziale. Il viaggio interstellare è veloce ma limitato a percorsi preesistenti lungo la iper-rete."
  starting_ftl_wormhole_desc:0 "I generatori di Wormhole creano dei tunnel subspaziali, stabilendo così un collegamento tra due punti che permette di percorrere grandi distanze. I generatori sono troppo grandi per essere installati sulle navi, quindi richiedono delle speciali Stazioni Wormhole."
@@ -3476,7 +3476,7 @@
  trait_resilient:0 "Resilienti"
  trait_resilient_desc:0 "§LI membri di questa specie sono fisiologicamente resilienti, e combatteranno furiosamente per difendere i propri pianeti.§!\n"
  trait_mechanical:0 "Meccanici"
- trait_mechanical_desc:1 "§LGli esseri meccanici sono estremamente più complessi dei vecchi automi costruiti solo per un singolo scopo, ma la maggior parte di essi possiedono capacità di elaborazione piuttosto limitate.§!\n"
+ trait_mechanical_desc:2 "§LGli esseri meccanici sono estremamente più complessi dei vecchi automi costruiti solo per un singolo scopo, ma la maggior parte di essi possiedono capacità di elaborazione piuttosto limitate.§!\n"
  trait_robotic_1:0 "Robot"
  trait_robotic_1_desc:1 "§LI robot sono macchina relativamente semplici, in grado di comprendere ordini vocali ma senza possedere una vera intelligenza propria.§!\n"
  trait_robot_awoken_01:0 "Per Sempre nel Limbo"
@@ -3653,9 +3653,9 @@
  leader_trait_army_logistician_desc:1 "Sembra che questo Leader possa apparentemente evocare rifornimenti dal nulla, diminuendo così i costi di mantenimento delle truppe di terra."
 
  # Governor
- leader_trait_iron_fist:0 "Pugno di Ferro"
+ leader_trait_iron_fist:0 "Pugno di ferro"
  leader_trait_iron_fist_desc:1 "Questo Leader è tristemente noto per la sua spietata ricerca d'efficienza, è in grado di ottenere il massimo sforzo da ogni schiavo."
- leader_trait_army_veteran:0 "Veterano"
+ leader_trait_army_veteran:0 "Veterano dell'esercito"
  leader_trait_army_veteran_desc:1 "Questo Leader è un veterano delle forze armate, possiede un'intima esperienza delle loro inefficienze strutturali."
  leader_trait_retired_fleet_officer:0 "Ufficiale in Pensione"
  leader_trait_retired_fleet_officer_desc:1 "Questo Leader è un ex ufficiale di flotta, ed è personalmente impegnato nel promuovere una massiccia presenza interplanetaria."
@@ -3770,7 +3770,7 @@
  trait_ruler_space_miner_desc:1 "Questo Leader comprende quanto sia vitale lo sfruttamento delle risorse planetarie."
  trait_ruler_explorer:0 "Esploratore"
  trait_ruler_explorer_desc:1 "Questo Leader è noto per la sua insaziabile curiosità, valorizza l'esplorazione spaziale sopra ogni altra cosa."
- 
+
  # Machine
  leader_trait_ruler_machine_intelligence:0 "Intelligenza Meccanica"
  leader_trait_ruler_machine_intelligence_desc:0 "Questo Leader è il fulcro intelligente che sovrintende e dirige tutte le azioni di un impero Meccanico."
@@ -3802,7 +3802,7 @@
  leader_trait_cataloger_desc:0 "Questo Leader è ossessionato dalla catalogazione dell'intero universo."
  leader_trait_restore_point:0 "Punto di Ripristino"
  leader_trait_restore_point_desc:0 "Questo Leader ha sempre la possibilità di ripristinarsi alle ultime condizioni funzionanti se viene distrutto in battaglia, fintanto che esisterà una flotta senza Leader al suo comando."
- 
+
  # Event Special
  leader_trait_sentinel:0 "Addestramento Sentinella"
  leader_trait_sentinel_desc:0 "I comandanti della Flotta Sentinella possiedono una conoscenza dettagliata dell'anatomia e delle tattiche Prethoryn."
@@ -4064,7 +4064,7 @@
  sm_science_division_desc:0 "§YProduzione $sm_spire$§! aumentata di §Y2£physics£ 2£society£ 2£engineering£ §!."
  sm_offworld_trading_company:0 "Compagnia Commerciale Interstellare"
  sm_offworld_trading_company_desc:0 "Gli uffici di una società non governativa dedita a migliorare le condizioni del commercio interstellare.\n"
- sm_offworld_trading_company_desc_modifier:3 "Produce §G2§! £trade_value£ §Y$TRADE_VALUE$§! per ogni [Root.Owner.GetTradingHubType]\n\n"
+ sm_offworld_trading_company_desc_modifier:3 "Produce §G2§! £trade_value£ §Y$TRADE_VALUE$§! per ogni [Root.GetTradingHubType]\n\n"
  sm_nebula_refinery:0 "Raffineria di Nebulose"
  sm_nebula_refinery_desc:0 "Trattando adeguatamente le nubi di polveri spaziali delle nebulose, siamo in grado di estrarre e raffinare minerali preziosi.\n"
  sm_listening_post:0 "Avamposto d'Ascolto"
@@ -4344,7 +4344,7 @@
  NONINTERFERENCE_DIRECTIVE:0 "§RLa nostra attuale posizione riguardo la Xeno-Interferenza non ci permette di colonizzare questo pianeta§!"
  PLANETVIEW_TERRAFORM_NOT_YOURS:0 "Questo pianeta appartiene a qualcun altro!"
  PLANETVIEW_TERRAFORM_NO_STATION:0 "Questo pianeta non possiede una Stazione di Terraformazione"
- PLANETVIEW_TERRAFORM_ONGOING_COLONIZATION:0 "Non possiamo terraformare un pianeta che sta venendo colonizzato"
+ PLANETVIEW_TERRAFORM_ONGOING_COLONIZATION:0 "Non possiamo terraformare un pianeta in fase di colonizzazione"
  PLANETVIEW_POP_NOT_COLONIZED:0 "Questo pianeta non possiede ancora POP."
  SPACEPORT_TAB:0 "Spazioporto"
  CANNOT_MODIFY_PLANET_PREFERENCE:0 "§RAbbiamo bisogno della Tecnologia £society£ §H$tech_glandular_acclimation$§! per modificare le Preferenze Planetarie di una specie.§!"
@@ -4446,8 +4446,8 @@
  PLANETVIEW_CANCEL_CONSTRUCTION_DESC:0 "Sei sicuro di voler annullare la costruzione?"
  PLANETVIEW_CONSTRUCTION_SUPPRESS_RESOURCES:0 "Costruire $BUILDING|Y$ su questa casella bloccherà la raccolta delle risorse:\n\n$RESOURCES$\n"
 
- PLANETVIEW_CLEARING:0 "Liberazione Casella"
- PLANETVIEW_CLEARING_IN_PROGRESS:0 "Questa casella sta venendo liberata. Il processo verrà completato tra $DAYSLEFT|Y$ giorni."
+ PLANETVIEW_CLEARING:0 "Liberazione casella"
+ PLANETVIEW_CLEARING_IN_PROGRESS:0 "Questa casella è in fase di liberazione. Il processo verrà completato tra $DAYSLEFT|Y$ giorni."
  PLANETVIEW_CLEARING_QUEUED:0 "La liberazione di questa casella è in coda. La posizione della coda è $QUEUE_PLACE|Y$."
 
  PLANETVIEW_REPAIR:0 "Edificio in Riparazione"
@@ -4563,7 +4563,7 @@
  PLANET_VIEW_LEADER_TYPE_CORE_SECTOR_OTHER_PLANET:0 "Il Governatore Settoriale domina dal Pianeta $PLANET|H$."
  PLANET_VIEW_UNDER_COLONIZATION_DESC:1 "I nostri robusti pionieri stanno stabilendo una base su questo pianeta. Questo processo costerà $COST|H$£energy£ al mese e terminerà tra circa $MONTHS|H$ mesi (data stimata $DATE|H$)."
  PLANET_VIEW_COLONIZATION_HALT:0 "Il processo di colonizzazione di questo pianeta è stato arrestato per mancanza di Crediti Energetici."
- PLANET_VIEW_UNDER_COLONIZATION_DEFAULT_DESC:0 "Questo pianeta sta venendo colonizzato da $COUNTRY|H$. La colonizzazione sarà completata il $DATE|H$."
+ PLANET_VIEW_UNDER_COLONIZATION_DEFAULT_DESC:0 "Questo pianeta è in fase di colonizzazione da parte di $COUNTRY|H$. La colonizzazione sarà completata il $DATE|H$."
  PLANET_VIEW_UNDER_COLONIZATION_SWARM_DESC:0 "Questo pianeta è infestato da $COUNTRY|H$. La biosfera verrà completamente sovvertita entro il $DATE|H$.\nUn bombardamento orbitale può interrompere questo processo."
  BUILD_COST:0 "$COST|H$ Crediti"
  PLANETARY_BUILDING:0 "Planetario"
@@ -4764,7 +4764,7 @@
  LOCATION:0 "Luogo"
  WON:0 "Vinto"
  LOST:0 "Perso"
- VS:0 "VS"
+ VS:0 "vs"
  BATTLE_DESC:2 "§HScontri§!\nTutte le azioni militari intraprese in questa guerra, elencate per §H$COMBATANTS$§!, §H$LOCATION$§!, ed §H$RESULT$§!."
  DESTRUCTION_OF:0 "Distruzione di $PLANET|H$"
 
@@ -4813,7 +4813,7 @@
  TAB_LEADERS:0 "Leader"
  TAB_POP_FACTIONS:0 "Fazioni"
  SELECT_LEADER_FOR_GOVERNING:1 "Seleziona un Leader per governare il Settore §H$LOCATION$§!"
- SELECT_LEADER_FOR_GOVERNING_CORE_SECTOR:0 "Seleziona un Leader per governare il §HSettore Principale§!"
+ SELECT_LEADER_FOR_GOVERNING_CORE_SECTOR:0 "Seleziona un Leader per governare il §HSettore primario§!"
  SELECT_LEADER_FOR_TECHING:0 "Seleziona un Scienziato per dirigere §H$LOCATION$§!"
  SELECT_LEADER_FOR_COMMANDING:0 "Seleziona un Leader per comandare su §H$LOCATION$§!"
 
@@ -4903,10 +4903,10 @@
  bombardment_raiding:0 "Rapimento"
  GROUND_SUPPORT_HEADER:1 "$SUPPORT$ Bombardamento Orbitale"
  GROUND_SUPPORT_STANCE_DESC:1 "§HBombardamento Orbitale§!\nL'atteggiamento del Bombardamento Orbitale è impostato su '$STANCE|Y$'"
- bombardment_selective_desc:2 "$bombardment_selective$ I bombardamenti interesseranno solo siti militari identificati, cercando di evitare inutili vittime tra i civili.\n- Danni §YModerati§! alle §YArmate§!\n- Danni §YModerati§! ai §YPianeti§!\n- Danni §ELievi§! alla §YPOP§!\n- §RNON§! verranno bombardati pianeti indifesi\n- §RNON§! verranno uccisi gli ultimi §Y20§! abitanti"
- bombardment_indiscriminate_desc:2 "$bombardment_indiscriminate$ I bombardamenti interesseranno obiettivi militari ed infrastrutture planetarie, senza riguardo nei confronti delle vittime civili.\n- Danni §HPesanti§! alle §YArmate§!\n- Danni §HPesanti§! ai §YPianeti§!\n- Danni §YModerati§! alla §YPOP§!\n- Verranno bombardati anche pianeti indifesi\n- §RNON§! verranno uccisi gli ultimi §Y10§! abitanti"
- bombardment_armageddon_desc:3 "$bombardment_armageddon$ I bombardamenti avvolgeranno il pianeta con immense esplosioni con l'obiettivo esplicito di massimizzare le vittime tra i civili.\n- Danni §REnormi§! alle §YArmate§!\n- Danni §REnormi§! ai §YPianeti§!\n- Danni §REnormi§! alla §YPOP§!\n- Verranno bombardati anche pianeti indifesi\n- Può portare alla creazione di Pianeti Sepolcro senza vita"
- bombardment_raiding_desc:4 "$bombardment_raiding$ I bombardamenti prenderanno di mira i centri più popolati con velivoli specializzati nel rapimento della popolazione civile che verrà poi messa al lavoro.\n- Danni §ELievi§! alle §YArmate§!\n- Danni §ELievi§! ai §YPianeti§!\n- Quando possibile §YRapirà§! la POP piuttosto che ucciderla\n- §RNON§! verrà rapito od ucciso l'ultimo abitante"
+ bombardment_selective_desc:2 "$bombardment_selective$ I bombardamenti interesseranno solo siti militari identificati, cercando di evitare inutili vittime tra i civili.\n- Danni §YModerati§! alle §YArmate§!\n- Danni §YModerati§! ai §YPianeti§!\n- Danni §ELievi§! alla §YPOP§!\n- §RNON§! verranno bombardati pianeti indifesi\n- §RNON§! verranno uccisi gli ultimi §Y$MIN_POPS$§! abitanti"
+ bombardment_indiscriminate_desc:2 "$bombardment_indiscriminate$ I bombardamenti interesseranno obiettivi militari ed infrastrutture planetarie, senza riguardo nei confronti delle vittime civili.\n- Danni §HPesanti§! alle §YArmate§!\n- Danni §HPesanti§! al §YPianeta§!\n- Danni §YModerati§! alla §YPOP§!\n- Verranno bombardati anche pianeti indifesi\n- §RNON§! verranno uccisi gli ultimi §Y$MIN_POPS$§! abitanti"
+ bombardment_armageddon_desc:3 "$bombardment_armageddon$ I bombardamenti avvolgeranno il pianeta con immense esplosioni con l'obiettivo esplicito di massimizzare le vittime tra i civili.\n- Danni §REnormi§! alle §YArmate§!\n- Danni §REnormi§! al §YPianeta§!\n- Danni §REnormi§! alla §YPOP§!\n- Verranno bombardati anche pianeti indifesi\n- Può portare alla creazione di Pianeti Sepolcro senza vita"
+ bombardment_raiding_desc:4 "$bombardment_raiding$ I bombardamenti prenderanno di mira i centri più popolati con velivoli specializzati nel rapimento della popolazione civile che verrà poi messa al lavoro.\n- Danni §ELievi§! alle §YArmate§!\n- Danni §ELievi§! al §YPianeta§!\n- Quando possibile §YRapirà§! la POP piuttosto che ucciderla\n- §RNON§! verrà rapito od ucciso l'ultimo abitante"
  GROUND_SUPPORT_CLICK_TO_SWITCH:2 "§GClicca per cambiare l'atteggiamento del Bombardamento Orbitale di questa flotta§!"
  GROUND_SUPPORT_CLICK_TO_SWITCH_PLANET_VIEW:0 "Clicca per cambiare l'atteggiamento del Bombardamento Orbitale di tutte le proprie flotte in orbita"
  GROUND_SUPPORT_STANCE_POLICY_DESC:1 "§EGli atteggiamenti di Bombardamento Orbitale permessi dipendono dalle nostre Politiche Imperiali.§!"
@@ -4923,7 +4923,7 @@
  FLEET_VIEW_TRANSFER_DESC_NEW_FLEET:0 "Seleziona quali navi trasferire nella nuova flotta"
  FLEET_TRANSFER_NOT_OWNER:0 "Questa flotta non è tua"
  FLEET_TRANSFER_TOO_SMALL:0 "Navi insufficienti per creare una nuova flotta"
- FLEET_TRANSFER_NOT_CORE_SECTOR:0 "La flotta non appartiene al nostro settore principale"
+ FLEET_TRANSFER_NOT_CORE_SECTOR:0 "La flotta non appartiene al nostro settore primario"
  FLEET_VIEW_DRAG_TO_TRANSFER:0 "Per trasferire queste navi puoi trascinarle in un'altra flotta."
  FLEET_VIEW_DRAG_TO_TRANSFER_ALL:0 "Per trasferire tutte le navi nella flotta puoi trascinare questo campo."
  FLEET_VIEW_CLICK_TO_DETACH_AND_SELECT:0 "Clicca per creare una nuova flotta con queste navi e seleziona la nuova flotta."
@@ -6518,7 +6518,7 @@
  DEMOCRATIC_ELECTION_VIEW_SUPPORT_MULTI:0 "Supportato $COUNT$ volte"
 
  ####################################
- # species Modification Window
+ # Species Modification Window
  ####################################
  SPECIES_PORTRAIT_TOOLTIP:0 "§HRitratto specie§!\nL'aspetto che avrà la specie."
  SPECIES_NAME_TOOLTIP:1 "§HNome specie§!\nIl modo in cui i componenti di questa specie chiamano loro stessi.\n$CLICK_TO_EDIT$"
@@ -6614,7 +6614,7 @@
 
 
  ####################################
- # Rivendicazioni View
+ # Claims View
  ####################################
 
  CLAIMS_VIEW:0 "Rivendicazioni"
@@ -6740,7 +6740,7 @@
  RESOURCE_UNIT_PRICE:0 "£$KEY$£ §Y1§! £$CURRENCY_KEY$£ $PRICE|Y$"
  UNIT_PRICE:0 "Prezzo Unitario"
  UNIT_PRICE_VALUE:0 "$UNIT_PRICE$: £$CURRENCY_KEY$£ $VALUE|Y$"
- UNIT_PRICE_TOOLTIP_DESC:0 "Il prezzo attuale per l'acquisto di £$KEY$£ §Y1§! è £$CURRENCY_KEY$£ $PRICE|Y$"
+ UNIT_PRICE_TOOLTIP_DESC:1 "Il prezzo attuale per l'acquisto di £$KEY$£ §Y1§! è £$CURRENCY_KEY$£ $PRICE|Y$"
  MARKET_TRADE_FEE_DESC:0 "--------------\n§E  \nLa §YCommissione di Mercato§! comprende le tariffe ed i costi per servizi ed amministrazione. Viene applicata a tutte le transazioni commerciali e può essere diminuita tramite alcune Tradizioni, Edifici ed Agende fino ad un §YMinimo§! di $MIN_TRADE_FEE|0Y%$ §!."
 
  SLAVE_MARKET:0 "Mercato degli schiavi"
@@ -6771,8 +6771,8 @@
  POP_NOT_SLAVE:0 "Questa POP non è in schiavitù."
  DESTINATION:0 "Destinazione"
  MISSING_VALID_DESTINATION:0 "Manca una destinazione planetaria valida."
- BUY_SLAVE:0 "Acquista Schiavi"
- BUY_SLAVE_DESC:0 "Gli Schiavi verranno trasferiti su $PLANET|H$."
+ BUY_SLAVE:0 "Acquista schiavi"
+ BUY_SLAVE_DESC:1 "Gli schiavi verranno trasferiti su $PLANET|H$."
  ALREADY_OWNER_OF_POP:0 "Sei già il proprietario di questa POP."
  POP_NOT_ON_MARKET:0 "Questa POP non è più in vendita."
  CLICK_TO_OPEN_SLAVE_POOL:0 "§GClicca per selezionare gli Schiavi da vendere.§!"
@@ -6805,7 +6805,7 @@
 
  RESETTLEMENT_RUIN_BUILDING_TITLE:0 "Ciò disabiliterà uno Slot Edificio."
  RESETTLEMENT_RUIN_BUILDING_DESC:0 "Ciò manderà in Rovina ogni edificio presente nello slot, od annullerà la costruzione in corso."
- 
+
  ####################################
  # Goto box
  ####################################
@@ -7101,7 +7101,7 @@
  DIPLO_ACTION_INFLUENCE_COST:0 "Ci costerà $INF|R$ Influenza al mese."
  DIPLO_ACTION_ACTOR_RESOURCES:0 "Otterremo mensilmente §Y$RESOURCES$§! finché l'accordo sarà attivo."
  DIPLO_ACTION_RECIPIENT_RESOURCES:0 "Otterranno mensilmente §Y$RESOURCES$§! finché l'accordo sarà attivo."
- DIPLO_ACTION_ACTOR_AND_RECIPIENT_RESOURCES:0 "Otterremo mensilmente §Y$ACTOR_RESOURCES$§! e loro otterranno mensilmente §Y$RECIPIENT_RESOURCES$§! finché l'accordo sarà attivo."
+ DIPLO_ACTION_ACTOR_AND_RECIPIENT_RESOURCES:1 "Loro otterranno mensilmente §Y$ACTOR_RESOURCES$§! e noi otterremo mensilmente §Y$RECIPIENT_RESOURCES$§! finché l'accordo sarà attivo."
 
  ACTION_FORM_DEFENSIVE_PACT_TYPE:0 "Stipula Patto Difensivo"
  ACTION_FORM_DEFENSIVE_PACT_TYPE_DESC:0 "Stipula un Patto Difensivo con questo impero. Se uno dei due imperi verrà attaccato, l'altro verrà automaticamente in sua difesa."
@@ -7140,7 +7140,7 @@
  ACTION_BREAK_GUARANTEE_TYPE:0 "Revoca Garanzia"
  ACTION_BREAK_GUARANTEE_TYPE_DESC:0 "Smetti di garantire l'Indipendenza di questo impero."
  ACTION_GUARANTEE_INDEPENDENCE_TITLE:0 "Garantisci Indipendenza"
- ACTION_GUARANTEE_INDEPENDENCE_DESC:0 "Garantisci l'Indipendenza di questo impero. Se verranno attaccati, andremo automaticamente il loro difesa."
+ ACTION_GUARANTEE_INDEPENDENCE_DESC:0 "Garantisci l'Indipendenza di questo impero. Se verranno attaccati, andremo automaticamente in loro difesa."
  ACTION_BREAK_GUARANTEE_TITLE:0 "Revoca Garanzia"
  ACTION_BREAK_GUARANTEE_DESC:0 "Smetti di garantire l'Indipendenza di questo impero."
  ACTION_SUPPORT_INDEPENDENCE_TYPE:0 "Supporta Indipendenza"
@@ -7232,7 +7232,7 @@
  engineering_research:0 "Ricerca Ingegneristica"
  engineering_research_desc:3 "§ELa §HRicerca Ingegneristica§! (£engineering£) viene utilizzata per sviluppare nuove tecnologie. Possiamo aumentarne la produzione nei seguenti modi: \n§Y1.§! Costruendo £building£ §HLaboratori di Ricerca§! nelle nostre colonie. \n§Y2.§! Utilizzando le §HNavi da Costruzione§! per costruire §HStazioni di Ricerca§! nell'orbita di alcuni pianeti o stelle.§!"
  unity:0 "Unità"
- unity_desc:3 "§EL'§H$unity$§! (£unity£) viene utilizzata per sbloccare nuove §HTradizioni§!. Possiamo aumentarne la produzione nei seguenti modi:\n§Y1.§! Costruendo £building£ §HMonumenti Autoctoni§! od altri edifici che forniscano lavori che producono Unità.§!"
+ unity_desc:3 "§EL'§H$unity$§! (£unity£) viene utilizzata per sbloccare nuove §HTradizioni§!. Possiamo aumentarne la produzione costruendo £building£ §HMonumenti Autoctoni§! od altri edifici che forniscano lavori che producono Unità.§!"
  consumer_goods:0 "Beni di Consumo"
  consumer_goods_desc:1 "§EI §H$consumer_goods$§! (£consumer_goods£) sono risorse avanzate che rappresentano vari gadget, risorse di lusso e merci che garantiscono alla tua £pop£ §HPOP§! un buon tenore di vita, e che permettono di intraprendere £job£ §HLavori§! intellettuali come il £job_researcher£ §HRicercatore§!. Possiamo ottenerne di più nei seguenti modi:\n§Y1.§! Costruendo £building£ §HIndustrie Civili§! sui pianeti colonizzati.\n§Y2.§! Acquistandoli nel §HMercato§!.§!"
 
@@ -8263,7 +8263,7 @@
  civic_tooltip_gospel_of_the_masses_effects:1 "La £pop£ §YPOP Spiritualista§! fornisce £trade_value£ §Y$TRADE_VALUE$§! aggiuntivo su tutti i Pianeti e le Filiali\nPossono costruire l'$BRANCH_OFFICE_BUILDING$ £building£ §Y$building_temple_of_prosperity$§!\n$mod_pop_ethic_spiritualist_attraction_mult$: §G+50%§!"
  civic_tooltip_criminal_heritage_effects:2 "Non possono stipulare §YAccordi Commerciali§!\nNon possono far parte di una §YFederazione§!\nPossono costruire §YFiliali§! sui pianeti di qualunque impero normale con cui non siano in guerra\nIl Crimine sui Pianeti in cui sono presenti §YFiliali§! ne aumenta il Valore\nPossono costruire £building£ §Y$BRANCH_OFFICE_BUILDINGS$§! speciali"
  civic_tooltip_functional_architecture_effects:0 "§YCosto di Costruzione§! e §YMantenimento§! ridotti del §G10%§! per tutti gli §YEdifici§! ed i §YDistretti§!"
- civic_tooltip_inward_perfection_effects:6 "Non possono avere §YRivali§!\nNon possono stipulare §YPatti Difensivi§!\nNon possono stipulare §YTrattati di Migrazione§!\nNon possono §YGarantire l'Indipendenza§!\nNon possono unirsi ad una §YFederazione§!\nNon possono §YInfiltrarsi§! tra i primitivi\nNon possono avere §YSudditi§! forzati\nNon possono utilizzare la Politica: §YGuerra Senza Restrizioni§!\n£unity£ §Y$mod_country_base_unity_produces_mult$§! aumentata del §G+20%§!\n£pops£ §Y$MOD_POP_GROWTH_SPEED$§! aumentata del §G+20%§!\n£happiness£ §Y$MOD_POP_CITIZEN_HAPPINESS$§! aumentata del §G+5%§!\n"
+ civic_tooltip_inward_perfection_effects:7 "Non possono avere §YRivali§!\nNon possono stipulare §YPatti Difensivi§!\nNon possono stipulare §YTrattati di Migrazione§!\nNon possono stipulare §YAccordi di Ricerca§!\nNon possono stipulare §YAccordi Commerciali§!\nNon possono §YGarantire l'Indipendenza§!\nNon possono unirsi ad una §YFederazione§!\nNon possono §YInfiltrarsi§! tra i primitivi\nNon possono avere §YSudditi§! forzati\nNon possono utilizzare la Politica: §YGuerra Senza Restrizioni§!\n£unity£ §Y$mod_country_base_unity_produces_mult$§! aumentata del §G+20%§!\n£pops£ §Y$MOD_POP_GROWTH_SPEED$§! aumentata del §G+20%§!\n£happiness£ §Y$MOD_POP_CITIZEN_HAPPINESS$§! aumentata del §G+5%§!\n"
  civic_tooltip_feudal_realm_effects:3 "Gli effetti della §YForza del Suddito§! sulle relazioni vengono ridotti del §Y50%§!, ma a tutti i Sudditi è permesso espandersi in sistemi non reclamati" 
  civic_tooltip_franchising_effects:2 "Gli effetti del §YPotere Suddito§! delle Sussidiarie nelle relazioni è ridotto del §Y33%§!\nL'impatto delle §YFiliali§! sull'§Y$EMPIRE_SIZE$§! è ridotto del §G25%§!"
  civic_tooltip_agrarian_idyll_effects:5 "I Distretti §YGeneratori§!, §YMinerari§! ed §YAgricoli§! forniscono §G1§! £housing£ §YAbitazione§! aggiuntiva\nI §YDistretti Cittadini§! forniscono §R1§! £housing£ §YAbitazione§! in meno\nGli £job_farmer£ §Y$job_farmer_plural$§! producono anche §G2§! £amenities£ §YServizi§!"
@@ -8277,12 +8277,12 @@
  civic_tooltip_machine_terminator_effects:13 "La Capitale si trova su un §YPianeta Sepolcro§!\nNon possono avere contatti §YDiplomatici§! con specie organiche!\nNon possono accedere al §YMercato Galattico§!\nPossiedono il Casus Belli §Y'Purificazione'§! verso tutte le specie organiche\nLa £pop£ POP organica verrà sempre §YEpurata§!\nOttengono £unity£ §YUnità§! tramite l'epurazione della £pop£ POP organica\nPossono utilizzare il Bombardamento Orbitale §Y$bombardment_armageddon$§!\n§Y$MOD_SHIP_WEAPON_DAMAGE$§! aumentato del §G+25%§!\n§Y$MOD_COUNTRY_STARBASE_INFLUENCE_COST_MULT$§! ridotto del §G30%§!\n§Y$MOD_STARBASE_SHIP_BUILD_COST_MULT$§! ridotto del §G-15%§!\n§Y$MOD_COUNTRY_NAVAL_CAP_MULT$§! aumentata del §G+33%§!§!\n"
  civic_tooltip_machine_assimilator_effects:6 "Iniziano la partita con §Y10§! £pop£ POP cibernetica e con l'abilità di §YAssimilare§! gli organici per trasformarli in cyborg\nAssimilare una £pop£ POP organica genera una piccola quantità di £unity£ §YUnità§! e di £society£ §YRicerca Sociologica§!\nLa £pop£ POP organica non assimilata verrà automaticamente §YEpurata§! nel tempo\nPossiedono il Casus Belli §Y'Assimilazione'§! verso tutti gli altri imperi\n§YOpinione§! ridotta verso la maggior parte degli altri imperi"
  civic_tooltip_post_apocalyptic_effects:3 "La Capitale si trova su un §YPianeta Sepolcro§!\nOttengono il Tratto §Y$trait_survivor$§! che fornisce:\n  Abitabilità Pianeta Sepolcro: §G+70%§!\n  Longevità Leader: §G+10§! Anni"
- civic_tooltip_corporate_dominion_effects:3 "Gli §YHub Commerciali§! producono §Y1§! £energy£ Energia aggiuntiva\nIniziano la partita con la Tecnologia §Y$tech_space_trading$§! già sviluppata\nOttengono la Classe Navale 'Nave Colonia Privata'"
- civic_tooltip_life_seeded_effects:1 "Il Pianeta Natale è un §YPianeta Gaia§! (Dimensione: £planetsize£ §Y25§!) con diverse §YCaratteristiche Planetarie Rare§!\nLa preferenza di abitabilità è verso i Pianeti di Classe Gaia, il che rende indesiderabili tutti gli altri tipi."
+ civic_tooltip_corporate_dominion_effects:4 "Iniziano la partita con la Tecnologia §Y$tech_space_trading$§! già sviluppata\nOttengono la Classe Navale 'Nave Colonia Privata'"
+ civic_tooltip_life_seeded_effects:1 "Il Pianeta Natale è un §YPianeta Gaia§! (Dimensione: £planetsize£ §Y25§!) con diverse §YProprietà Planetarie Rare§!\nLa preferenza di abitabilità è verso i Pianeti di Classe Gaia, il che rende indesiderabili tutti gli altri tipi."
  civic_tooltip_barbaric_despoilers_effects:5 "Non possono stipulare §YTrattati Migratori§!\n\nNon possono unirsi ad una §YFederazione§!\nPossiedono il Casus Belli '§Y$casus_belli_cb_despoliation$§!' verso tutti gli altri imperi\n$allow_raiding$\n§YOpinione§! ridotta verso la maggior parte degli altri imperi"
  civic_tooltip_citizen_service_effects:4 "I £job_soldier£ §Y$job_soldier_plural$§! producono anche §Y2§! £unity£ Unità\n§Y$MOD_COUNTRY_NAVAL_CAP_MULT$§! aumentata del §G15%§!"
  civic_tooltip_exalted_priesthood_effects:1 "Gli £building£ §YEdifici delle Capitali§! rimpiazzano alcuni £job_administrator£ §Y$job_administrator_plural$§! con dei £job_high_priest §Y$job_high_priest_plural$§!\nI £job_priest£ §Y$job_priest_plural$§! producono §Y1§! £unity£ Unità aggiuntiva"
- civic_tooltip_aristocratic_elite_effects:2 "§Y$MOD_LEADER_GOVERNOR_SKILL_LEVELS$§! aumentato di §G+1§!\nGli £building£ §YEdifici delle Capitali§! rimpiazzano alcuni £job_administrator£ §Y$job_administrator_plural$§! con dei £job_noble£ §Y$job_noble_plural$§!\nPossono costruire £building£ §Ybuilding_noble_estates§! che forniscono Lavori da £job_noble£ §Y$job_noble$§! aggiuntivi"
+ civic_tooltip_aristocratic_elite_effects:2 "§Y$MOD_LEADER_GOVERNOR_SKILL_LEVELS$§! aumentato di §G+1§!\nGli £building£ §YEdifici delle Capitali§! rimpiazzano alcuni £job_administrator£ §Y$job_administrator_plural$§! con dei £job_noble£ §Y$job_noble_plural$§!\nPossono costruire £building£ §Y$building_noble_estates$§! che forniscono Lavori da £job_noble£ §Y$job_noble$§! aggiuntivi"
  civic_tooltip_police_state_effects:1 "§Y$MOD_PLANET_STABILITY_ADD$§! aumentata di §G+5§!\nI £job_enforcer  §Y$job_enforcer_plural$§! producono anche §Y1§! £unity£ Unità"
  civic_tooltip_technocracy_effects:2 "Gli £building£ §YEdifici delle Capitali§! rimpiazzano alcuni £job_administrator£ §Y$job_administrator_plural$§! con dei £job_head_researcher£ §Y$job_head_researcher_plural$§!\nI §Y$job_researcher_plural$§! producono anche §Y1§! £unity£ Unità"
  civic_tooltip_merchant_guilds_effects:1 "Gli £building£ §YEdifici delle Capitali§! forniscono Lavori da £job_merchant£ §Y$job_merchant$§!\nI £job_merchant£ §Y$job_merchant_plural$§! producono anche §Y2§! £unity£ Unità"
@@ -8544,7 +8544,6 @@
  TECH_UNLOCK_DARK_MATTER_PROPULSION_TITLE:0 "§HSblocca Componente:§! $SHIP_THRUSTER_5$"
  TECH_UNLOCK_DARK_MATTER_PROPULSION_DESC:0 "§H$SHIP_THRUSTER_5$§!\n$SHIP_THRUSTER_5_DESC$"
 
-  
  FISSION_REACTOR:0 "Reattore a Fissione"
  FISSION_REACTOR_DESC:1 "Questa fonte energetica genera potenza tramite la fissione indotta, ma produce anche pericolose score nucleari."
  FUSION_REACTOR:0 "Reattore a Fusione"
@@ -8629,14 +8628,14 @@
  CRYSTAL_ARMOR_1_DESC:1 "Una lega di elementi raccolti dalle super-solide Entità Cristalline, stratificati a formare questa placcatura che aumenta l'integrità dello scafo."
  CRYSTAL_ARMOR_2:0 "Placcatura a Forgiatura Cristallina"
  CRYSTAL_ARMOR_2_DESC:1 "Modifiche nel processo di forgiatura delle leghe cristalline ne aumentano la resistenza."
- 
+
  SMALL_CRYSTAL_ARMOR_1:0 "$CRYSTAL_ARMOR_1$ Piccola"
  MEDIUM_CRYSTAL_ARMOR_1:0 "$CRYSTAL_ARMOR_1$ Media"
  LARGE_CRYSTAL_ARMOR_1:0 "$CRYSTAL_ARMOR_1$ Grande"
  SMALL_CRYSTAL_ARMOR_2:0 "$CRYSTAL_ARMOR_2$ Piccola"
  MEDIUM_CRYSTAL_ARMOR_2:0 "$CRYSTAL_ARMOR_2$ Media"
  LARGE_CRYSTAL_ARMOR_2:0 "$CRYSTAL_ARMOR_2$ Grande"
-
+ 
  SHIP_THRUSTER_1:0 "Propulsori Chimici"
  SHIP_THRUSTER_1_DESC:0 "Semplici e moderatamente efficaci propulsori chimici che sfruttano propellente combustibile per generare la spinta."
  DESTROYER_SHIP_THRUSTER_1:0 "$SHIP_THRUSTER_1$"
@@ -8912,7 +8911,7 @@
  PLATFORM_ANTIMATTER_REACTOR:1 "$ANTIMATTER_REACTOR$"
  PLATFORM_ZERO_POINT_REACTOR:1 "$ZERO_POINT_REACTOR$"
  PLATFORM_DARK_MATTER_REACTOR:1 "$DARK_MATTER_REACTOR$"
- # ION CANNON 
+ # ION CANNON
  ION_CANNON_ZERO_POINT_REACTOR:1 "$ZERO_POINT_REACTOR$"
  ION_CANNON_DARK_MATTER_REACTOR:1 "$DARK_MATTER_REACTOR$"
  # STARBASE
@@ -8922,7 +8921,7 @@
  STARBASE_ANTIMATTER_REACTOR:1 "$ANTIMATTER_REACTOR$"
  STARBASE_ZERO_POINT_REACTOR:1 "$ZERO_POINT_REACTOR$"
  STARBASE_DARK_MATTER_REACTOR:1 "$DARK_MATTER_REACTOR$"
- 
+
  MEDIUM_SCIENCE_LAB_1:0 "Laboratorio Scientifico"
  AI_SCIENCE_LAB:0 "Laboratorio Scientifico IA"
  WORMHOLE_DRIVE:1 "Modulatore di Wormhole"
@@ -9299,7 +9298,7 @@
  alert_negative_income_instant:3 "Le nostre scorte di queste risorse stanno per esaurirsi:"
  alert_negative_income_instant_entry:0 "$NAME|Y$ tra $MONTHS|Y$ mese/i"
  alert_automation_resources_title:1 "Scorte automatiche della colonia in esaurimento"
- alert_automation_resources_instant:0 "Le colonie impostate in sviluppo automatico possiedono poche risorse."
+ alert_automation_resources_instant:0 "Le colonie impostate in sviluppo automatico sono a corto di risorse."
  alert_hostile_in_system_title:0 "Presenza di Flotte Ostili"
  alert_hostile_in_system_instant:0 "È presente almeno una fotta ostile nello stesso sistema delle tue flotte o dei tuoi pianeti."
  alert_hostile_in_system_instruction:0 "§GClicca per scorrere le flotte ostili§!"
@@ -9459,11 +9458,11 @@
  ANOMALY_RESEARCH_TIME_HEADER:0 "Durata Studio: $TIME$\n\t   Base: $BASE_TIME|0Y$"
  ANOMALY_RESEARCH_TIME_MODIFIER:0 "   Difficoltà ($DIFFICULTY$:$LEVEL_DIFF|+=$):$DAYS_DIFF|-=0$"
  ANOMALY_RESEARCH_PROGRESS_DESC:0 "Avanzamento Studio: $PROGRESS|Y1$/$TOTAL|0Y$($SPEED|+=2$/Day)\n   Base: $BASE|1Y$\n"
- ANOMALY_RESEARCH_DIFF_DESC:0 "Questo §HScienziato§! trova quest'§HAnomalia§! $DIFFICULTY$ ($LEVEL_DIFF|+=$ livelli), quindi avrà bisogno di altri $DAYS_DIFF|-0$ per studiarla"
+ ANOMALY_RESEARCH_DIFF_DESC:0 "Lo §Hscienziato§! trova quest'§HAnomalia§! $DIFFICULTY$ ($LEVEL_DIFF|+=$ livelli), quindi avrà bisogno di altri $DAYS_DIFF|-0$ giorni per studiarla"
  ANOMALY_RESEARCH_TOTAL_TIME:0 "Durata Totale: $TIME$"
  ANOMALY_SPEED_MODIFIER_DESC:1 "§HVelocità Studio Anomalia§!"
  ANOMALY_LEVEL_DESC_DELAYED:2 "Il livello di un'§HAnomalia§! indica la probabile complessità che si dovrà affrontare per studiarla. L'§HAbilità§! relativa dello scienziato ad essa assegnato determina quanto tempo gli occorrerà per studiarla."
- 
+
  ####################################
  # Edicts
  ####################################
@@ -9508,7 +9507,7 @@
  #edict_the_grand_fleet_desc:0 "Questo Editto mette in primo piano l'orgoglio e la gloria della Grande Flotta Imperiale, concentrando la politica sulla sua continua prosperità."
  edict_share_the_burden:0 "Condividi l'Onere"
  edict_share_the_burden_desc:1 "Questo Editto rafforza la rotazione dei compiti e degli orari lavorativi dei servitori a contratto, ponendo il punto sulla differenziazione della fatica per incrementare la produttività."
- #edict_share_the_burden_desc: "Questo Editto dictates that the various burdens of society should be given to those best suited to handle them. Manual labour is best left to those used to such tasks..."
+ # edict_share_the_burden_desc: "Questo Editto dictates that the various burdens of society should be given to those best suited to handle them. Manual labour is best left to those used to such tasks..."
  edict_peace_festivals:0 "Festival della Pace"
  edict_peace_festivals_desc:0 "Questo Editto da Pacifista promuove uno spirito di unità e buon umore attraverso l'istituzione di eventi speciali e feste che durano intere stagioni."
  edict_land_of_opportunity:0 "Terra di Opportunità"
@@ -9823,7 +9822,7 @@
  border_policy_closed:0 "Chiusi"
  border_policy_closed_name:0 "Confini Chiusi"
  border_policy_closed_desc:0 "I confini del nostro impero devono essere protetti per non cadere vittima di insidiose influenze. Solo coloro che saranno giudicati degni potranno accedere al nostro spazio.\n\n§EI confini saranno chiusi agli altri imperi.§!"
- 
+
  policy_first_contact_protocol:0 "Protocollo Primo Contatto"
  policy_first_contact_protocol_desc:0 "Viaggiando tra le stelle c'è la concreta possibilità di incontrare altre forme di vita, e dobbiamo avere una chiara posizione su come dovremo approcciarci.\n"
  first_contact_attack_not_allowed:0 "Pacifico"
@@ -9832,7 +9831,7 @@
  first_contact_attack_allowed:0 "Aggressivo"
  first_contact_attack_allowed_name:0 "Contatto Aggressivo"
  first_contact_attack_allowed_desc:0 "Pericoli sconosciuti potrebbero celarsi tra le stelle. Per assicurarci la sopravvivenza dobbiamo essere pronti a colpire senza esitazione.\n\n§EPotremo attaccare le entità neutrali§!"
- 
+
  policy_food_policy:0 "Politiche Alimentari"
  policy_food_policy_desc:0 "Il nostro impero è composta da una pletora di bocche affamate. Per garantire che l'approvvigionamento alimentare non diventi un problema, dobbiamo bilanciare i bisogni del popolo con il nostro desiderio di crescita."
 
@@ -9843,11 +9842,11 @@
  food_policy_rationing:0 "Razionamento"
  food_policy_rationing_name:0 "$food_policy_rationing$"
  food_policy_rationing_desc:0 "Nei momenti di bisogno, dobbiamo tutti fare sacrifici per il bene superiore. Che cos'è un po' di fame ora, quando il nostro glorioso futuro ci attende?\n\n"
- 
+
  food_policy_generous:0 "Plenitudine Nutrizionale"
  food_policy_generous_name:0 "$food_policy_generous$"
  food_policy_generous_desc:0 "È pieno diritto di ogni nostro cittadino entrare in ibernazione con l'organo digestivo pieno. Il facile accesso a quantità enormi di nutrienti sarà il carburante che stimolerà la nostra crescita tra le stelle.\n\n"
- 
+
  policy_food_policy_gestalt:0 "$policy_food_policy$"
  policy_food_policy_gestalt_desc:0 "$policy_food_policy_desc$"
 
@@ -9858,26 +9857,26 @@
  food_policy_gestalt_rationing:0 "$food_policy_rationing$"
  food_policy_gestalt_rationing_name:0 "$food_policy_rationing$"
  food_policy_gestalt_rationing_desc:0 "Il risparmio è il miglior guadagno.\n\n"
- 
+
  food_policy_gestalt_generous:0 "$food_policy_generous$"
  food_policy_gestalt_generous_name:0 "$food_policy_generous$"
  food_policy_gestalt_generous_desc:0 "Un Drone ben nutrito è un Drone produttivo.\n\n"
- 
+
  policy_trade_policy:0 "Politiche Commerciali"
  policy_trade_policy_desc:0 "Il commercio è un'importante fonte di prosperità e fornisce una gran quantità di risorse al nostro impero. Dobbiamo decidere come sfruttare al meglio queste risorse."
-  
+
  trade_policy_default:0 "Creazione della Ricchezza"
  trade_policy_default_name:0 "$trade_policy_default$"
  trade_policy_default_desc:0 "Lo scopo del comercio è generare profitti per il popolo ed entrate per l'impero. Dovremmo concentrare i nostri sforzi sulla creazione della ricchezza.\n\n§EOgni £trade_value£ §YValore Commerciale§! ottenuto genera £energy£ §Y1§!§!"
-  
+
  trade_policy_consumer_goods:0 "Benefici del Consumatore"
  trade_conversion_consumer_goods_name:0 "$trade_policy_consumer_goods$"
  trade_policy_consumer_goods_desc:0 "I profitto e le tasse non devono offuscare il bene dei cittadini. Dovremmo concentrare i nostri sforzi sulla manifattura e la distribuzione dei beni quotidiani.\n\n§EOgni £trade_value£ §YValore Commerciale§! ottenuto genera £energy£ §Y0.5§! e £consumer_goods£ §Y0.25§!§!"
- 
+
  trade_policy_unity:0 "Mercato delle Idee"
  trade_conversion_unity_name:0 "$trade_policy_unity$"
- trade_policy_unity_desc:1 "Il commercio non può essere utilizzato solamente per spostare merci, ma anche per aiutare il diffondersi delle idee. Dovremmo concentrare i nostri sforzi per far sì che il messaggio del nostro governo venga ascoltato su tutti i pianeti con cui commerciamo.\n\n§EOgni £trade_value£ §YValore Commerciale§! ottenuto genera £energy£ §Y0.5§! e £unity£ §Y0.25§!§!"
-  
+ trade_policy_unity_desc:1 "Il commercio può essere utilizzato non solo per spostare merci, ma anche per aiutare il diffondersi delle idee. Dovremmo concentrare i nostri sforzi per far sì che il messaggio del nostro governo venga ascoltato su tutti i pianeti con cui commerciamo.\n\n§EOgni £trade_value£ §YValore Commerciale§! ottenuto genera £energy£ §Y0.5§! e £unity£ §Y0.25§!§!"
+
  policy_economic_policy:0 "Politiche Economiche"
  policy_economic_policy_desc:0 "Prosperità o sicurezza? Educazione o difesa? Armi o burro? Queste sono le domande che ogni governo con risorse limitate si è posto lungo la storia, ed il nostro non fa differenza."
 
@@ -9888,14 +9887,14 @@
  economic_policy_civilian:0 "Economia Civile"
  economic_policy_civilian_name:0 "$economic_policy_civilian$"
  economic_policy_civilian_desc:0 "Le necessità del popolo devono venir prima dell'economia bellica. Il nostro impero sarà fondato sul potere economico, non su quello militare.\n\n"
- 
+
  economic_policy_military:0 "Economia Militarizzata"
  economic_policy_military_name:0 "$economic_policy_military$"
  economic_policy_military_desc:0 "Trascurare la nostra difesa equivale a trascurare la nostra sopravvivenza. Ninnoli e cianfrusaglie servono a poco quando il nemico è alle porte.\n\n"
 
  policy_drone_policy:0 "Politiche Produttive"
  policy_drone_policy_desc:0 "Le capacità sinaptiche della nostra Mente sono immense, ma non illimitate. Dobbiamo decidere su cosa concentrare queste risorse cerebrali."
- 
+
  drone_policy_balanced:0 "Produzione Bilanciata"
  drone_policy_balanced_name:0 "$drone_policy_balanced$"
  drone_policy_balanced_desc:0 "La Mente si dedicherà sia alla produzione di risorse grezze che a quella di merci lavorate.\n\n§ENessun bonus e nessuna penalità alla produzione di risorse.§!"
@@ -9903,21 +9902,21 @@
  drone_policy_worker:0 "Concentrazione su Estrazione"
  drone_policy_worker_name:0 "$drone_policy_worker$"
  drone_policy_worker_desc:0 "I $pop_cat_simple_drone_plural$ che estraggono risorse grezze avranno la priorità della Mente, diventando più produttivi a scapito dei $pop_cat_complex_drone_plural$.\n\n"
- 
+
  drone_policy_thinker:0 "Concentrazione su Manifattura"
  drone_policy_thinker_name:0 "$drone_policy_thinker$"
  drone_policy_thinker_desc:0 "I $pop_cat_complex_drone_plural$ che creano le merci lavorate avranno la priorità della Mente, diventando più produttivi a scapito dei $pop_cat_simple_drone_plural$.\n\n"
- 
+
  policy_robot_pop_policy:0 "Lavoratori Robotici"
  policy_robot_pop_policy_desc:0 "L'invenzione dei robot autonomi potrebbe soppiantare i lavoratori della nostra specie o, col tempo, persino sorpassarli. Dobbiamo decidere la nostra posizione su un'automazione di così vasta scala.\n"
-  
+
  robot_pops_outlawed:0 "Fuorilegge"
  robots_outlawed_name:0 "Lavoratori Robotici Fuorilegge"
  robot_pops_outlawed_desc:1 "I robot rappresentano una minaccia non solo nei confronti dei mezzi di sussistenza del nostro popolo, ma anche del tessuto stesso della nostra società. Non dobbiamo permettere che ci rendano obsoleti.\n\n§ELa POP e le Armate Robotiche verrà automaticamente smantellata.§!"
  robot_pops_allowed:0 "Permessi"
  robots_allowed_name:0 "Lavoratori Robotici Permessi"
  robot_pops_allowed_desc:0 "I benefici dei robot sono ovvi ed immensi. Per il futuro del nostro popolo, non possiamo permetterci di ignorare le opportunità che ci concede questa tecnologia."
- 
+
  policy_artificial_intelligence_policy:0 "Intelligenza Artificiale"
  policy_artificial_intelligence_policy_desc:0 "La prospettiva di un'intelligenza artificiale autocosciente solleva molte questioni etiche e filosofiche. Dobbiamo determinare la nostra posizione su questo problema.\n"
  no_robots_desc:0 "Queste macchine sono in rottamazione."
@@ -9974,7 +9973,7 @@
  rapid_deployment_doctrine:0 "Schieramento Rapido"
  rapid_deployment_doctrine_name:0 "Dottrina - Schieramento Rapido"
  rapid_deployment_doctrine_desc:0 "Dobbiamo muoverci velocemente, colpire dove il nemico è più debole e difendere le posizioni che vuole attaccare. Le manovre sono la chiave del successo.\n\n"
- 
+
  PURGES_ALLOWED:0 "Epurazione abilitata nelle Politiche."
 
  policy_food_stockpiling:0 "Scorte Alimentari"
@@ -9993,7 +9992,7 @@
  food_stockpiling_3_desc:0 "Non si può mai sapere quando disastri e carestie possano colpire. Una grande scorta alimentare ci permetterà di affrontare i problemi senza che la nostra popolazione ne soffra.\n\n"
  ONLY_SERVITORS_STOCKPILE_FOOD:0 "$TRIGGER_FAIL$ Solo un §H$civic_machine_servitor$§! può fare scorta di £food£ §H$food$§!."
 
- 
+
  policy_war_economy:0 "Economia Bellica"
  policy_war_economy_desc:0 "Possiamo orientare la nostra industria e la nostra economia di modo che possano confiscare i beni civili in caso d'attacco. L'aspetto negativo di queste Politiche è che soffriremo di penalità corrispondenti in caso di vittoria nelle guerre offensive...\n"
  static_we:0 "Statica"
@@ -10095,7 +10094,7 @@
  feature_tech_automated_exploration_desc:0 "$AUTO_EXPLORE_ORDER_DESC$"
  feature_bliss_standard:0 "Felicità Chimica"
  feature_bliss_standard_desc:0 "Ci permette di impostare gli Standard di Vita "§YFelicità Chimica§!"."
-  
+
  feature_robots:0 "Lavoratori Robotici"
  feature_robots_desc:0 "I robot sono macchine relativamente semplici, in grado di comprendere comandi verbali senza possedere una vera e propria intelligenza.\n\n§ECon la Tecnologia §Y$tech_robotic_workers$§!, la POP robotica sarà in grado di svolgere solamente Lavori da are only capable of simple £pop_cat_worker£ §Y$pop_cat_worker$§!, come il £job_miner£ §YMinatore§! o £job_farmer£ l'§YAgricoltore§!§!"
  feature_droids:0 "Lavoratori Androidi"
@@ -10119,7 +10118,7 @@
  feature_campaign_edicts_desc:1 "Sblocca Editti aggiuntivi chiamati §YCampagne§! che consumano Energia piuttosto che Influenza."
  feature_jump_method:0 "Viaggio Tramite Balzo"
  feature_jump_method_desc:0 "Sblocca l'azione di flotta §HBalzo§!, che permette alle navi equipaggiate in modo idoneo di spostarsi quasi istantaneamente verso un qualsiasi sistema a portata, ignorando completamente le iperlinee."
- 
+
  ####################################
  # Mission
  ####################################
@@ -10785,13 +10784,13 @@
  SCORE_FROM_ECON_POWER:0 "Potere Economico: $VALUE$"
  SCORE_FROM_TECH_POWER:0 "Livello Tecnologico: $VALUE$"
  SCORE_FROM_MIL_POWER:0 "Potenza Navale: $VALUE$"
- SCORE_FROM_POPS:0 "Quantità di POP: $VALUE$"
- SCORE_FROM_PLANETS:0 "Quantità di Colonie: $VALUE$"
- SCORE_FROM_SYSTEMS:0 "Quantità di Sistemi: $VALUE$"
+ SCORE_FROM_POPS:0 "Quantità di popolazione: $VALUE$"
+ SCORE_FROM_PLANETS:0 "Quantità di colonie: $VALUE$"
+ SCORE_FROM_SYSTEMS:0 "Quantità di sistemi: $VALUE$"
  SCORE_FROM_SUBJECTS:0 "Sudditi Imperiali: $VALUE$"
  SCORE_FROM_FEDERATION:0 "Federazione: $VALUE$"
  SCORE_FROM_CRISIS_KILLS:0 "Navi delle Crisi Distrutte: $VALUE$"
- SCORE_FROM_RELICS:0 "Reliquie Raccolte: $VALUE$"
+ SCORE_FROM_RELICS:0 "Reliquie raccolte: $VALUE$"
 
  #Gender Pronouns
  GDR_MAS_1ST:0 "lui"
@@ -10915,8 +10914,8 @@
  wg_force_ideology_accept:1 "§Y[From.GetName]§! è obbligato ad adottare Etiche e Forma di Governo di §Y[Root.GetName]§!"
  wg_force_ideology_accept_2:0 "§Y[From.GetRulerTitle] [From.GetRulerName]§! viene costretto ad abdicare§!"
  wg_force_ideology_accept_3:0 "§Y[From.GetName]§! viene costretto a lasciare la Federazione§!"
- wg_humiliation_fe_accept:2 "§Y[From.GetName]§! umiliato; §Y$country_base_influence_produces_mult$§! e Felicità della POP ridotte per §Y10§! anni\n$wg_revoke_claims_accept$"
- wg_humiliation_accept:1 "§Y[From.GetName]§! viene umiliato, riducendo §Y$country_base_influence_produces_mult$§! e Felicità della POP per §Y10§! anni\n§Y[Root.GetName]§! ottiene §G+100§! £influence£\n"
+ wg_humiliation_fe_accept:2 "§Y[From.GetName]§! umiliato; §Y$mod_country_base_influence_produces_mult$§! e Felicità della POP ridotte per §Y10§! anni\n$wg_revoke_claims_accept$"
+ wg_humiliation_accept:1 "§Y[From.GetName]§! viene umiliato, riducendo §Y$mod_country_base_influence_produces_mult$§! e Felicità della POP per §Y10§! anni\n§Y[Root.GetName]§! ottiene §G+100§! £influence£\n"
  wg_revoke_claims_accept:1 "§Y[From.GetName]§! è obbligato a revocare ogni rivendicazione nei confronti di §Y[Root.GetName]§!"
  wg_plunder_accept_them:0 "§Y[From.GetName]§! viene saccheggiato, riducendone la produzione §YMineraria§! ed §YEnergetica§! per §Y10§! anni"
  wg_plunder_accept_us_1:0 "§Y[Root.GetName]§! ottiene §G+500§! £energy£ £minerals£"
@@ -11038,7 +11037,7 @@
  EDIT_SPECIES_NAME_GENERATE_PLURAL:0 "Genera Plurale"
  EDIT_SPECIES_NAME_GENERATE_ADJECTIVE:0 "Genera Aggettivo"
  UNSPENT_POINTS_NAME:0 "Punti Inutilizzati"
- UNSPENT_POINTS_DESC:1 "Hai dei Punti Etica non utilizzati o puoi selezionare altri Scelte Civiche Governativi. Sei sicuro di voler continuare?"
+ UNSPENT_POINTS_DESC:1 "Hai dei Punti Etica non utilizzati o puoi selezionare altre Scelte Civiche Governative. Sei sicuro di voler continuare?"
  UNSAVED_SPECIES_NAME:0 "Modifiche Non Salvate"
  UNSAVED_SPECIES_DESC:0 "Sono presenti delle modifiche non salvate. Sei sicuro di voler lasciare la creazione dell'impero?"
  USER_EMPIRE_DESIGN_ALREADY_EXIST_TITLE:1 "Sostituisci Design"
@@ -11272,7 +11271,7 @@
  TRIGGER_TEST:0 "$CONDITION$ $TEXT$"
 
  PATCHNOTES:2 "§HClicca§! per visitare il Forum e leggere le note di rilascio complete della versione 2.2"
- 
+
  sys_unsurveyed:0 "Sistema Non Ispezionato"
  sys_unclaimed:0 "Sistema Non Rivendicato"
  sys_unknown:0 "Sistema Sconosciuto"
@@ -11288,7 +11287,7 @@
  sys_anchorage:0 "Base Navale"
  sys_trading_hub:2 "Hub Commerciale"
  sys_marauder:0 "Sistema dei Predoni"
- 
+
  sfortress:1 "Bastione"
  sshipyard:0 "Cantiere Navale"
  sanchorage:0 "Ormeggio"
@@ -11323,7 +11322,7 @@
  sm_offworld_trading_company_machine_intelligence:0 "$sm_offworld_trading_company_gestalt$"
  sm_offworld_trading_company_desc_machine_intelligence:0 "$sm_offworld_trading_company_gestalt_desc$"
 
- TRACK_1:0 "Tracciamento Automatico Progetti"
+ TRACK_1:0 "Tracciamento automatico progetti"
  TRACK_1_UNTRACK:0 "Clicca per interrompere il tracciamento automatico di nuovi §Y$TAB_PROJECTS$§! applicabili."
  TRACK_1_TRACK:0 "Clicca per avviare il tracciamento automatico di nuovi §Y$TAB_PROJECTS$§! applicabili."
  INFLUENCE_GAIN_FROM_FACTION:0 "£influence£ $VALUE$"
@@ -11335,12 +11334,12 @@
  POWER:0 "Potere: §Y$VAL$§!"
 
  RESETTLEMENT_BOMBARDMENT:0 "Reinsediamento impossibile durante i bombardamenti"
- CATEGORY_CANNOT_RESETTLE:0 "La POP di questa categoria non può essere reinsediata."
- RESETTLEMENT_TARGET_FULL:0 "Il Pianeta selezionato, $TARGET$, è pieno"
- POP_ALREADY_ON_PLANET:0 "La POP si trova già su questo Pianeta"
- INVALID_POP:0 "POP non valida"
+ CATEGORY_CANNOT_RESETTLE:0 "La popolazione di questa categoria non può essere reinsediata."
+ RESETTLEMENT_TARGET_FULL:0 "Il pianeta selezionato - $TARGET$ - è pieno"
+ POP_ALREADY_ON_PLANET:0 "La popolazine si trova già su questo Pianeta"
+ INVALID_POP:0 "Popolazione non valida"
  RESETTLE_HEADER:0 "Reinsedia POP su $TARGET$"
- CLICK_TO_RESETTLE:0 "Clicca per reinsediare la POP"
+ CLICK_TO_RESETTLE:0 "Clicca per reinsediare la popolazione"
  RESETTLE_COST:0 "Costo: $COST$"
  NOT_FOR_OBSERVER:0 "Azione non disponibile agli Osservatori"
  RESETTLE_LAST_POP:0 "Impossibile reinsediare l'ultima POP di un Pianeta"
@@ -11349,13 +11348,13 @@
 
  UPGRADING_SHIP_DESIGN:0 "aggiornamento ($PERC|Y$)"
  UPGRADING_SHIP_DESIGN_CANCELED:0 "Aggiornamento §RAnnullato§!"
- 
+
  UNIT_PRICE_DESC:0 "§EIl prezzo di base cambierà in funzione del numero di unità scambiate.§!"
  SELLING:0 "vendere"
  BUYING:0 "comprare"
  TIMED_TRAIT_TOOLTIP:0 "$TRAIT$ [$DATE$]"
  EXPIRATION_TOOLTIP:0 "Scade tra $DATE|Y$"
- 
+
  DESIGNATIONS_TITLE:0 "Assegnazioni della colonia"
  COLONY_DESIGNATION_MANUALLY_PICKED:0 "Assegnazioni della colonia scelte  §Ymanualmente§!"
  COLONY_DESIGNATION_AUTOMATICALLY_PICKED:0 "Assegnazioni della colonia scelte §Yautomaticamente§!"
@@ -11371,7 +11370,7 @@
  SELECT_COLONY_AUTOMATIC_DEVELOPMENT:1 "§HAutomation: On§!\n§GClicca per ATTIVARE la gestione automatica della colonia.§!"
  SELECT_COLONY_MANUAL_DEVELOPMENT:1 "§HAutomation: Off§!\n§GClicca per DISATTIVARE la gestione automatica della colonia.§!"
 
- FRONTIER_SECTOR:0: "Settore di frontiera"
+ FRONTIER_SECTOR:0 "Settore di frontiera"
  SETTINGS_RICH_TEXT:0 "Testo presenza ricca"
 
  RESETTLEMENT_DESTROY_COLONY_TITLE:0 "Questa operazione distruggerà la colonia su $PLANET|Y$."
@@ -11384,6 +11383,7 @@
  decision_lithoid_swarm_consume_world_destroy_district_desc:0 "Un distretto verrà distrutto."
  d_lithoid_devastation:0 "£blocker£ Devastazione Litoide"
  d_lithoid_devastation_desc:0 "Uno sciame divorante di litoidi ha spogliato questa regione. Con grande sforzo potrebbe essere possibile annullare il danno."
+
 
  MSGRDK_SIGNIN_FAILED_TITLE:0 "C'è stato un problema"
  MSGRDK_SIGNIN_FAILED_TEXT:0 "Non siamo riusciti ad autenticarti con il tuo account Microsoft. Alcune funzionalità del gioco potrebbero non essere disponibili."
@@ -11401,4 +11401,3 @@
  MATCHMAKING_SEARCH_CROSSPLAY_TOOLTIP:0 "Cerca sessioni per qualunque piattaforma"
  MATCHMAKING_HOST_CROSSPLAY_TOOLTIP:0 "Disponibile alla ricerca per qualunque piattaforma"
  FE_IRONMAN_NO_POPS:0 "§RLa modalità Ironman richiede di essere autenticati con un account Paradox.§!"
- 

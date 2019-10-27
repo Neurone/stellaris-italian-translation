@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
  ###      #        ##      #  #     ###     ###     # #     ###     #       #       ###     ###       ## 
  #  #     #       #  #     ## #     #        #      # #      #      #       #       #       #  #     #   
@@ -84,7 +84,7 @@
  apoc.120.part.milit:0 "Sebbene il primo Colosso non sia ancora stato costruito, questo è un momento storico per la nostra intera razza."
  apoc.120.part.pacif:0 "Speriamo di non essere mai costretti ad utilizzarlo."
  apoc.120.part.phobe:0 "Che gli Xeno tremino di fronte alla nostra forza ed il nostro ingegno."
- apoc.120.part.mater:0 "Svetterà come un'eterna testimonianza della nostra innovazione."
+ apoc.120.part.mater:0 "Svetterà come un'eterna testimonianza della innovazione [Root.GetAdj]."
  apoc.120.desc.machine:0 "Progetto Colosso completato.\n\nNuova configurazione scafo disponibile:\n<<§GColosso§!>>\n\nNuovo componente bellico disponibile:\n<<§R[Root.Get1stPlanetKiller]§!>>"
  apoc.120.desc.hive:0 "Lo scafo di Classe Colosso è completamente progettato e pronto all'assemblaggio. Con un certo disagio, realizziamo che l'incubo §R[Root.Get1stPlanetKiller]§! è sempre più vicino alla realtà."
  apoc.120.a:0 "Boom."
@@ -279,7 +279,7 @@
  FLEET_MANAGER_VIEW_NO_REINFORCE_TEXT:0 "§GNessuna Flotta richiede rinforzi§!"
  FLEET_MANAGER_VIEW_REINFORCE_TEXT:1 "$NUMFLEETS|Y$ Flotta/e da rinforzare con $NUMSHIPS|R$ Nave/i per $COST$"
  FLEET_MANAGER_VIEW_REINFORCE_COST:1 "Possiamo creare $NUMSHIPS|Y$ Nave/i di rinforzo per $COST$"
- FLEET_MANAGER_VIEW_REINFORCE_COST_NONE:1 "££alloys£ 0"
+ FLEET_MANAGER_VIEW_REINFORCE_COST_NONE:1 "£alloys£ 0"
  FLEET_MANAGER_CHOOSE_DESIGN:0 "Seleziona Design"
  FLEET_MANAGER_BUILD_QUEUE:0 "Coda di Costruzione"
  FLEET_MANAGER_HEALTH:0 "£ship_stats_hitpoints£ $VALUE|%0$"
@@ -413,7 +413,7 @@
  apoc.1.name:0 "Portale Abbandonato"
  apoc.1.desc:0 "Ai margini del Sistema §H[gateway_system.GetName]§! è stata localizzata una specie di antica stazione spaziale. Le forti tracce subspaziali che la circondano indicano che potrebbe trattarsi di una qualche sorta di "§HPortale§!", teoricamente parte di una rete di stazioni simili che un tempo forse permettevano di viaggiare tra diversi punti della galassia quasi istantaneamente.\n\nPresumendo che si tratti di un Portale, il suo attuale stato di abbandono lo rende inutilizzabile. Se riuscissimo a ripristinarlo, saremmo potenzialmente in grado di accedere ad altri Portali in funzione nella galassia, riuscendo così a percorrere distanze immense in pochi giorni."
  apoc.2.desc:0 "Abbiamo scoperto un altro Portale abbandonato, questa volta nel Sistema [gateway_system.GetName]. Proprio come il primo, anche questo è al momento inutilizzabile a causa delle sue cattive condizioni."
- apoc.3.desc:2 "Abbiamo localizzato quello che crediamo potrebbe essere un antico Portale subspaziale vicino §H[gateway_system.GetName]§!. Sembra che abbia fatto parte di una rete galattica composta da stazioni simili le quali, in stato operativo, permettono di viaggiare quasi istantaneamente da una parte all'altra della galassia.\n\nAd un certo punto del passato, la connessione con il resto della rete è stata interrotta; l'unica destinazione verso la quale può ora condurre è uno sconosciuto ammasso di stelle appena fuori dalla nostra galassia, denominato dai nostri astronomi §HAmmasso-L§!. La cosa ancora più intrigante è il portale è composto interamente di microscopici §HNaniti§! dal design sconosciuto.\n\nSebbene il Portale emetta una debole traccia energetica, è stato deliberatamente bloccato in un loop di manutenzione che ne impedisce l'attivazione. Finché non troveremo un modo per interrompere questo processo, l'Ammasso-L rimarrà fuori dalla nostra portata."
+ apoc.3.desc:3 "Abbiamo localizzato quello che crediamo potrebbe essere un antico Portale subspaziale vicino §H[gateway_system.GetName]§!. Sembra che abbia fatto parte di una rete galattica composta da stazioni simili le quali, in stato operativo, permettono di viaggiare quasi istantaneamente da una parte all'altra della galassia.\n\nAd un certo punto del passato, la connessione con il resto della rete è stata interrotta; l'unica destinazione verso la quale può ora condurre è uno sconosciuto ammasso di stelle appena fuori dalla nostra galassia, denominato dai nostri astronomi §HAmmasso-L§!. La cosa ancora più intrigante è il portale è composto interamente di microscopici §HNaniti§! dal design sconosciuto.\n\nSebbene il Portale emetta una debole traccia energetica, è stato deliberatamente bloccato in un loop di manutenzione che ne impedisce l'attivazione. Finché non troveremo un modo per interrompere questo processo, l'Ammasso-L rimarrà fuori dalla nostra portata."
  apoc.5.name:0 "Wormhole Naturale"
  apoc.5.desc:0 "Ai margini del Sistema §H[wormhole_system.GetName]§! abbiamo scoperto quello che sembra essere un fenomeno subspaziale naturale! Si è verificata una lacerazione nel tessuto spazio-temporale, che ha portato alla creazione di un "§HWormhole§!"; secondo i nostri scienziati potrebbe condurre ad un'anomalia simile dislocata in un'altra parte della galassia.\n\nA seconda della posizione del secondo Wormhole, ciò potrebbe consentire alle nostre navi di viaggiare da una parte all'altra della galassia in pochi giorni. Sfortunatamente, come la maggior parte di questi fenomeni naturali, è piuttosto instabile. Qualsiasi nave abbastanza folle da tentare di attraversarlo, verrebbe fatta a pezzi in pochi secondi."
  apoc.5.a:0 "Se fosse possibile stabilizzarlo in qualche modo..."

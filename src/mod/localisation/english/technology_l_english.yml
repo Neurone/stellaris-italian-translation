@@ -107,7 +107,7 @@
  tech_defense_platform_hull_1_desc:0 "Strutture rinforzate dotate di scudi antideflagrazione con un maggior fattore di assorbimento dei danni; assicureranno l'integrità strutturale delle piattaforme persino sotto attacchi pressanti."
  
  tech_habitat_1:0 "Habitat Orbitali"
- tech_habitat_1_desc:0 "Permette la costruzione di Habitat Orbitali ampiamente auto-sostenibili."
+ tech_habitat_1_desc:0 "Permette la costruzione di Habitat Orbitali ampiamente auto-sufficienti."
  
 
  #Spaceport Modules
@@ -424,7 +424,7 @@
  tech_auxiliary_fire_control_desc:1 "$FIRE_CONTROL_1_DESC$"
  
  # Resources
- tech_exotic_gases:1 "Raffinazione dei Gas Esotici"
+ tech_exotic_gases:0 "Raffinazione dei Gas Esotici"
  tech_exotic_gases_desc:0 "I Gas Esotici possono essere prodotti artificialmente, ma è un processo complicato che richiede attrezzature di raffinazione avanzate."
  tech_volatile_motes:0 "Impianti per Materiali Volatili"
  tech_volatile_motes_desc:1 "A prescindere dagli ovvi problemi di sicurezza, la creazione artificiale dei Granelli Volatili è un processo enormemente delicato e complicato che richiede attrezzature estremamente specializzate."

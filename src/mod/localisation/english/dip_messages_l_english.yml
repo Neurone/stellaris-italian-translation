@@ -210,7 +210,7 @@
  01_FALLEN_EMPIRE_ANGRY_DOW_ACCEPT:0 "Non siete altro che erbacce interstellari. È ora di sistemare il giardino."
  FALLEN_EMPIRE_MECH_ANGRY_DOW_ACCEPT_01:0 "Non siete altro che rottami interstellari. È ora di essere riciclati."
  01_AWAKENED_EMPIRE_DOW_ACCEPT:0 "Avevamo pianificato di sistemare il vostro piccolo impero più tardi. Non importa, è un momento buono come un altro."
- AWAKENED_EMPIRE_MECH_DOW_ACCEPT:0 "Avete davvero tutta questa fretta di essere distrutti? Così sia, allora."
+ AWAKENED_EMPIRE_MECH_DOW_ACCEPT_01:0 "Avete davvero tutta questa fretta di essere distrutti? Così sia, allora."
 
  # AI Personality-based replies
  # Honorbound Warriors
@@ -1060,7 +1060,7 @@
  01_ASK_TO_BE_RELEASED_SUBJECT_SELECT:0 "Pensi davvero che potrete sopravvivere senza la nostra protezione?"
  01_ASK_TO_BE_RELEASED_SUBJECT_PROPOSE:0 "Pensiamo di poter sopravvivere per conto nostro e vorremmo essere indipendenti."
  01_ASK_TO_BE_RELEASED_SUBJECT_ACCEPT:0 "Siamo tristi e dispiaciuti nel vederti andar via, [From.GetSpeciesName]."
- 01_ASK_TO_BE_RELEASED_SUBJECT_REFUSE:0 "No, non diventerete indipendenti. Non sopravvivereste per conto vostro."
+ 01_ASK_TO_BE_RELEASED_SUBJECT_REFUSE:1 "No, non diventerete indipendenti. Non sopravvivereste per conto vostro."
 
  01_NOT_ACTIVE_IN_WAR_WARNING:0 "Non siete molto attivi nella nostra guerra. Iniziate a prenderne parte o sperimenterete la nostra furia."
  01_NOT_ACTIVE_IN_WAR:0 "Non siete stati molto attivi in guerra. Abbiamo perso ogni fiducia in voi."
@@ -1338,7 +1338,7 @@
  01_INSULT_PROPOSE_IND_COL:0 "Il vostro brutale regime totalitario cadrà, e verrà la resa dei conti."
  02_INSULT_PROPOSE_IND_COL:0 "Avete mai considerato l'idea di lasciar pensare i vostri cittadini con la loro testa? Se avete paura che potrebbe condurvi ad una fine prematura... avete ragione."
  03_INSULT_PROPOSE_IND_COL:0 "È triste che possa esistere un impero totalitario come il vostro. È una vergogna per tutti gli esseri sapienti."
- 04_INSULT_PROPOSE_IND_COL:0 "La crudele oppressione della gente che vive sotto al vostro giogo finirà un giorno. Il vostro autoritarismo sarà la vostra rovina."
+ 04_INSULT_PROPOSE_IND_COL:1 "La crudele oppressione della gente che vive sotto al vostro giogo finirà un giorno. Il vostro autoritarismo sarà la vostra rovina."
  05_INSULT_PROPOSE_IND_COL:0 ""
  01_INSULT_PROPOSE_PHO_PHI:0 "Il vostro amore perverso per le creature aliene è una malattia. Non lo capite?"
  02_INSULT_PROPOSE_PHO_PHI:0 "È disgustoso vedere quanto abbracciate con leggerezza le altre culture. Non avete un po' di rispetto per voi stessi?"
@@ -2015,7 +2015,7 @@
 
  #  Misc Diplomatic Actions
  01_FORM_DP_SELECT:0 "Volete organizzare una reciproca difesa?"
- 01_FORM_DP_PROPOSE:0 "Non desideriamo trascinare il vostro impero in un conflitto, ma è chiaro che potremmo trarre dei benefici unendoci contro possibili minacce."
+ 01_FORM_DP_PROPOSE:1 "Non desideriamo trascinare il vostro impero in un conflitto, ma è chiaro che potremmo trarre dei benefici unendoci contro possibili minacce."
  01_FORM_DP_ACCEPT:0 "Voi guardate le nostre spalle, e noi le vostre."
  01_FORM_DP_REFUSE:0 "Ce la caveremo bene anche da soli."
  01_BREAK_DP_SELECT:0 "Volete porre fine al nostro patto difensivo?"
@@ -2086,7 +2086,7 @@
  01_BREAK_COMMERCIAL_PACT_ACCEPT:0 "Un vero peccato, [From.GetSpeciesNamePlural]. Avete indebolito entrambe le nostre economie."
 
  01_FORM_RESEARCH_AGREEMENT_SELECT:0 "Volete stringere un Accordo di Ricerca con noi, [From.GetSpeciesNamePlural]?"
- 01_FORM_RESEARCH_AGREEMENT_PROPOSE:0 "Abbiamo molto da imparare l'un l'altro, [From.GetSpeciesNamePlural]. Proponiamo la creazione di un Accordo di Ricerca tra i nostri imperi."
+ 01_FORM_RESEARCH_AGREEMENT_PROPOSE:1 "Abbiamo molto da imparare l'un l'altro, [From.GetSpeciesNamePlural]. Proponiamo la creazione di un Accordo di Ricerca tra i nostri imperi."
  01_FORM_RESEARCH_AGREEMENT_ACCEPT:0 "Molto bene. Condivideremo la nostra conoscenza con voi in cambio della vostra."
  01_FORM_RESEARCH_AGREEMENT_REFUSE:0 "No. La vostra primitiva tecnologia non ci interessa."
  01_BREAK_RESEARCH_AGREEMENT_SELECT:0 "Perché volete interrompere la cooperazione tra i nostri scienziati?"
@@ -2096,7 +2096,7 @@
  01_DEMAND_TRIBUTARY_SELECT:0 "Pensate che il popolo [Root.GetSpeciesAdj] vi debba un tributo?"
  01_DEMAND_TRIBUTARY_PROPOSE:0 "Non vi stiamo chiedendo di rinunciare alla vostra autonomia, [Root.GetSpeciesNamePlural], ma dovete pagare le vostre tasse."
  01_DEMAND_TRIBUTARY_ACCEPT:0 "Probabilmente questo è l'accordo migliore, data la nostra posizione."
- 01_DEMAND_TRIBUTARY_REFUSE:0 "Non tollereremo l'estorsione. Non avrete nulla da noi."
+ 01_DEMAND_TRIBUTARY_REFUSE:1 "Non tollereremo l'estorsione. Non avrete nulla da noi."
  01_ASK_BECOME_TRIBUTARY_SELECT:0 "C'è qualcuno qui ansioso di pagarci un tributo?"
  01_ASK_BECOME_TRIBUTARY_PROPOSE:0 "Vorremmo fare un accordo con voi per dimostrarvi la lealtà e la generosità che meritate."
  01_ASK_BECOME_TRIBUTARY_ACCEPT:0 "Questa sì che è un'offerta. Se solo anche gli altri fossero così generosi."

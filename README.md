@@ -3,7 +3,6 @@
 Questo mod, **compatibile** con l'**Ironmode** e gli **achievement di Steam**, sostituisce la lingua inglese con la lingua italiana.
 
 Compatibile con versione: **Shelley 2.5.***
-Da tradurre: DLC Ancient Relics
 
 Questa traduzione è ricavata per la maggior parte dai testi redatti diligentemente dal team [Battle of Paradox Italia](http://www.bopitalia.org) ed in particolare dal buon Puxxup - **Grande lavoro!**
 

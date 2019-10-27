@@ -529,7 +529,7 @@
  utopia.3400.name:0 "Un Sovrano Divino"
  utopia.3400.desc:0 "L'entità immortale conosciuta come §H[chosen_one.GetName]§!, prima un [chosen_one_species.GetName] ma ora qualcosa di più, ha attirato a sé un grande seguito di devoti. Adorato da molti come una divinità suprema, è stato ufficialmente incoronato [chosen_one.GetTitle] del nostro grandioso impero, ora e per sempre."
  utopia.3400.a:0 "Sicuramente un potente psionico, ma addirittura un Dio? Ne dubito."
- utopia.3400.b:0"Possa il suo regno raggiungere l'infinito... ed oltre!"
+ utopia.3400.b:0 "Possa il suo regno raggiungere l'infinito... ed oltre!"
  reject_god_emperor:0 "[chosen_one.GetName] rimarrà [chosen_one.GetTitle]."
  utopia.3401.name:0 "[chosen_one.GetTitle] su [From.Capital.GetName]"
  utopia.3401.desc:0 "Uno psionico estremamente potente ha preso il controllo di §H[From.GetName]§!! Questo essere immortale, chiamato "Il Prescelto" dai suoi fedeli, è stato incoronato su [From.Capital.GetName] tramite una sontuosa cerimonia. È stato inviato ad ogni governatore interstellare un comunicato che celebra il suo eterno regno."

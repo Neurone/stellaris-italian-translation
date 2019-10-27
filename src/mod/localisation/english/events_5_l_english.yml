@@ -68,3 +68,4 @@
  #action.7000.desc_fspiri: "$action.7000.desc_intro$ Purtroppo la popolazione locale ha reagito scetticamente e sospettosamente; i Leader della comunità hanno criticato la nostra iniziativa, definendola un insulto a tutto ciò in cui credono."
  #action.7000.desc_intro: "Gli ingegneri di [Root.Planet.GetName] riferiscono che la nostra prima forza lavoro robotica è operativa e pronta all'azione."
  ##action.7000.desc_intro: "$action.7000.desc_intro$"#
+ 

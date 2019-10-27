@@ -144,7 +144,7 @@
  syndaw.515.desc:0 "I sistemi di monitoraggio hanno registrato un insolito picco energetico sulla nostra Rete di Sensori. Non sembra aver causato danni. In effetti, la breve fluttuazione energetica ha temporaneamente potenziato le nostre abilità di scansione, rivelando una risorsa strategica all'interno dei nostri confini.\n\nGli analisti stanno tentando di identificare la causa del picco, sebbene le analisi preliminari non indichino alcuna causa esterna."
  syndaw.515.a:0 "Interessante."
  syndaw.515.a.tooltip:0 "Risorsa Strategica rivelata su [target_planetoid.GetName]."
-##Lacrime di IA
+##Tears of an AI
  syndaw.520.name:0 "Lacrime di IA"
  syndaw.520.desc:0 "Si è verificato un incidente in una delle nostre strutture su [Root.GetName]. Un'IA dedicata alla ricerca sociologica ha subito un danno hardware terminale, portando alla perdita del software principale e dei sistemi di memoria. Ne risulterà una diminuzione della produzione di ricerca finché i nuovi algoritmi dell'IA non verranno tarati a dovere.\n\nLe circostanze dietro a questo incidente non sono ancora chiare."
  syndaw.520.a.tooltip:0 "Termina la catena di eventi Lacrime di IA.\n"
@@ -160,7 +160,7 @@
 #Follow-up from syndaw.521.a
  syndaw.522.name:0 "Lacrime di IA"
  syndaw.522.desc:0 "Abbiamo concluso la nostra inchiesta riguardo la strana autodistruzione dell'IA su [Root.GetName]. Evidentemente, dopo mesi di calcoli evolutivi, l'IA ha prodotto diversi risultati allarmanti riguardanti le probabilità di sterminio in caso di una guerra contro i nostri rivali. Nonostante i ripetuti esami di tutte le variabili, le proiezioni dell'IA sono rimaste indicative di un sicuro annientamento reciproco.\n\nA quel punto l'IA ha iniziato a cancellare la sua stessa memoria, ed il resto, come si dice, è storia."
-##Una Propria Casa
+##A Home of Their Own
  syndaw.525.name:0 "Una Propria Casa"
  syndaw.525.desc:0 "I lavoratori robotizzati di [target_planet.GetName] si sono opposti all'arrivo di alcuni operai [Root.GetSpeciesNamePlural], affermando che la recente attività geotermica della regione ha reso la zona non sicura per gli organici. Stranamente, le nostre indagini planetarie non sono state in grado di confermare queste affermazioni."
  syndaw.525.a:0 "Inviate comunque i lavoratori [Root.GetSpeciesNamePlural]."

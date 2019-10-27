@@ -1376,13 +1376,13 @@
  ENIGMATIC_REPAIR:0 "Riparazione di BALDOR XXXXIII"
  ENIGMATIC_REPAIR_DESC:1 "La nostra ascensione è messa a repentaglio da un errore critico nei sistemi di BALDOR XXXXIII. L'entità necessita di immediate riparazioni."
  enigmatic_fatigue:0 "Affaticata"
- enigmatic_fatigue_desc:0 "La nostra POP è affaticata dal processo di ipnoterapia."
+ enigmatic_fatigue_desc:0 "La nostra popolazione è affaticata dal processo di ipnoterapia."
  enigmatic_sadness:0 "Beata Ignoranza"
- enigmatic_sadness_desc:0 "La nostra POP si sta abituando agli effetti collaterali di un intelletto superiore."
+ enigmatic_sadness_desc:0 "La nostra popolazione si sta abituando agli effetti collaterali di un intelletto superiore."
  enigmatic_madness:0 "Disturbo Post-Traumatico"
- enigmatic_madness_desc:0 "La nostra POP è ancora tormentata da incubi persistenti dovuti ad un'ascensione andata male."
+ enigmatic_madness_desc:0 "La nostra popolazione è ancora tormentata da incubi persistenti dovuti ad un'ascensione andata male."
  enigmatic_slumber:0 "Vegetale"
- enigmatic_slumber_desc:0 "Questa POP è intrappolata in un coma causato dall'ipnoterapia."
+ enigmatic_slumber_desc:0 "Questa popolazione è intrappolata in un coma causato dall'ipnoterapia."
  # Hatchling Curators Menu
  leviathans.508.j:0 "Parlateci della Prole del Vuoto."
  leviathans.550.name:0 "Prole del Vuoto"
@@ -1735,7 +1735,7 @@
 
  # drone station destroyed
  story.332.name:1 "$story.333.name$"
- story.332.desc:0 "Abbiamo distrutto la base dei Droni Minerari, riuscendo a recuperare la maggior parte delle loro scorte minerarie."
+ story.332.desc:1 "Abbiamo distrutto la base dei Droni Minerari, riuscendo a recuperare la maggior parte delle loro scorte di minerali e leghe prezione."
  story.332.a:0 "Indicibili ricchezze."
  story.332.b:0 "...e uno strano strumento..."
 
