@@ -1,6 +1,6 @@
 Questo mod, [b]compatibile con l'Ironmode e gli achievement di Steam[/b], sostituisce la lingua inglese con la lingua italiana.
 
-Version supportata: Shelley 2.5.*
+Versione supportata: Shelley 2.5.*
 
 La traduzione è ricavata per la maggior parte dai testi redatti diligentemente dal team Battle of Paradox Italia ed in particolare dal buon Puxxup - grande lavoro!
 

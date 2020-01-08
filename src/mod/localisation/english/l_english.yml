@@ -2852,8 +2852,8 @@
  d_collapsed_burrows_desc:0 "Questo luogo un tempo ospitava un'immensa rete di tunnel sotterranei abitati dall'Alveare, ma fu abbandonato a causa del sovrasfruttamento delle risorse locali e della fauna selvatica."
  d_ruined_building_blocker:0 "Rovine"
  d_ruined_building_blocker_desc:0 "Estese rovine impediscono ogni accesso."
- d_hibernating_lithoids:0 "£blocker£ Monoliti Litiodi"
- d_hibernating_lithoids_desc:0 "Affioramenti incredibilmente ricchi di minerali che sembrano essere composti da litioidi pietrificati."
+ d_hibernating_lithoids:0 "£blocker£ Monoliti Litoidi"
+ d_hibernating_lithoids_desc:0 "Affioramenti incredibilmente ricchi di minerali che sembrano essere composti da litoidi pietrificati."
 
  ####################################
  # Hull Sizes
@@ -3499,7 +3499,7 @@
  trait_machine_unit:0 "Macchine"
  trait_machine_unit_desc:0 "§LQuesta specie è costituita da terminali esecutivi di una singola Intelligenza Meccanica, in origine costruita dagli organici.§!\n"
  trait_lithoid:0 "Lithoid"
- trait_lithoid_desc:0 "§LQuesta specie ha una biologia a base di silicio e consuma minerali piuttosto che cibo. Sono più resistenti dei organici tradizionali e hanno metabolismi più lenti, il che li rende longevi ma lenti a riprodursi.§!\n"                         
+ trait_lithoid_desc:0 "§LQuesta specie ha una biologia a base di silicio e consuma minerali piuttosto che cibo. Sono più resistenti dei organici tradizionali e hanno metabolismi più lenti, il che li rende longevi ma lenti a riprodursi.§!\n"
  trait_robot_power_drills:0 "Trivelle"
  trait_robot_power_drills_desc:0 "§LEquipaggia un robot con una serie di trivelle elettriche, ed ogni cosa sembrerà un deposito minerario.§!\n"
  trait_robot_harvesters:0 "Raccoglitori"
@@ -6037,7 +6037,7 @@
  slavery_military_tooltip:1 "Gli §HSchiavi da Battaglia§! non possiedono bonus alla produzione di risorse, ma sono eccellenti soldati per le §HArmate§! locali."
  slavery_military_tooltip_delayed:1 "§LGli Schiavi da Battaglia sono servi armati, spesso addestrati dalla nascita nelle arti marziali e condizionati all'assoluta obbedienza. In cambio del servizio militare incondizionato possiedono più autonomia rispetto agli altri schiavi, e possono essere impiegati in una varietà di Lavori.§!"
  slavery_livestock:0 "Bestiame"
- slavery_livestock_tooltip:0 "Il §HBestiame§! non può essere impiegato per la produzione di risorse, ma viene regolarmente abbattuto per ricavare riserve di £food£ §HCibo§!."
+ slavery_livestock_tooltip:0 "Il §HBestiame§! non può essere impiegato per la produzione di risorse, ma viene regolarmente abbattuto per ricavare riserve di £food£ §HCibo§!.\n\nIl bestiame di litoidi produce invece £minerals£ §HMinerali§!."
  slavery_livestock_tooltip_delayed:0 "§LIl Bestiame è POP!§!"
  living_standard_utopian:1 "Abbondanza Utopica"
  living_standard_utopian_tooltip:1 "L'$living_standard_utopian$ assicura che ogni membro di questa specie abbia accesso a quasi ogni tipo di lusso esistente.\n\n$UTOPIAN_ABUNDANCE_POP_EFFECTS$\n\n$UNEMPLOYED_PRODUCE_UNITY_RESEARCH$"
