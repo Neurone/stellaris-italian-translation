@@ -133,7 +133,7 @@
  FUN_organ:0 "asco"
  FUN_mouth:0 "lamella"
  FUN_hand:0 "$PRE_FUN_hand$"
- PLANT:1 "Plantoidi"
+ PLANT:1 "Plantoide"
  PLANT_desc:1 "Le Classi di Specie non hanno alcun effetto sul nostro impero, ma i Plantoidi potrebbero considerare gli altri Plantoidi meno alieni rispetto ad altre Classi."
  PLANT_plural:1 "Plantoidi"
  PLANT_insult_01:1 "erbaccia"
