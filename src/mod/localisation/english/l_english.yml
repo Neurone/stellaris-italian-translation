@@ -6448,7 +6448,7 @@
  DIPLOMACY_STATUS_GUARANTEED:0 "Stiamo Garantendo la loro Indipendenza."
  DIPLOMACY_STATUS_GUARANTEEING:0 "Stanno Garantendo la nostra Indipendenza."
  DIPLOMACY_STATUS_SUPPORTING_INDEPENDENCE:0 "Stiamo Supportando la loro Indipendenza."
- DIPLOMACY_STATUS_WAR:0 "Non siamo in Guerra con loro."
+ DIPLOMACY_STATUS_WAR:0 "Siamo in Guerra con loro."
  DIPLOMACY_STATUS_TRADE:0 "Abbiamo stretto un Accordo Commerciale."
  DIPLOMACY_STATUS_INTEGRATED_BY_US:0 "Sono in Integrazione nel nostro impero."
  DIPLOMACY_STATUS_INTEGRATING_US:0 "Siamo in Integrazione nel loro impero."
