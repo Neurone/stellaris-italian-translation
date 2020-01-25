@@ -1,6 +1,6 @@
 {
     "name": "stellaris-italian-translation",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "description": "Mod per Stellaris. Aggiunge la lingua italiana tra quelle disponibili all'interno del gioco.",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
