@@ -229,7 +229,7 @@
  
  ### GUARDIAN 300-399 ARTIST
  leviathans.300.name:0 "La Compagnia Artigiana"
- leviathans.300.desc:0 "Salve, [my_country.GetRulerName]. Il sottoscritto, [artist_enclave.GetRulerName], direttore della Compagnia Artigiana, vi porge i suoi saluti.\n\nIn cosa possiamo esservi utili? Magari potremmo creare un'opera d'arte per il vostro divertimento? O forse volete sponsorizzare la nostra enclave nella sua creazione della bellezza trascendentale?"
+ leviathans.300.desc:1 "Salve, [my_country.GetRulerName]. Il sottoscritto, direttore della Compagnia Artigiana, vi porge i suoi saluti.\n\nIn cosa possiamo esservi utili? Magari potremmo creare un'opera d'arte per il vostro divertimento? O forse volete sponsorizzare la nostra enclave nella sua creazione della bellezza trascendentale?"
  leviathans.300.desc.continued:0 "Molto bene. Possiamo fare altro per voi?"
  leviathans.300.a:0 "Vogliamo commissionarvi un'opera d'arte."
  leviathans.300.a.reply:0 "Purtroppo non possiamo offrirvi di più, finché non avremo riscontri sulla produzione precedente. Abbiamo i nostri protocolli da rispettare."
@@ -346,7 +346,7 @@
  leviathans.506.a.reply:0 "Vi stiamo trasmettendo i rapporti di sorveglianza."
  
  leviathans.507.name:0 "Aiuto nella Ricerca"
- leviathans.507.desc:1 "Naturalmente. Siamo disposti ad offrirvi un accesso limitato ad un enorme archivio di dati per un periodo di dieci anni standard. Verrà conferito un forte impulso alla capacità di analisi e ricerca dei vostri §HLaboratori Scientifici§! planetari.\n\nPer questo servizio richiediamo un compenso, ma siamo certi che lo troverete molto conveniente, per il servizio ottenuto."
+ leviathans.507.desc:1 "Naturalmente. Siamo disposti ad offrirvi un accesso limitato ad un enorme archivio di dati per un periodo di dieci anni standard. Verrà conferito un forte impulso alla capacità di analisi e ricerca dei vostri §HLaboratori di Ricerca! planetari.\n\nPer questo servizio richiediamo un compenso, ma siamo certi che lo troverete molto conveniente, per il servizio ottenuto."
  leviathans.507.a:0 "Vorremmo usufruire del servizio."
  leviathans.507.a.reply:0 "Una scelta saggia. Le future generazioni dei cittadini [Root.GetSpeciesNamePlural] di sicuro vi saranno riconoscenti."
  

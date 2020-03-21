@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  
  ####################################
  # Anomaly Categories
@@ -56,7 +56,7 @@
  anomaly.4000.name:0 "La Vita Trova un Modo"
  anomaly.4000.desc:0 "Sembra che alcuni esemplari di flora su [From.GetName] abbiano sviluppato efficaci meccanismi di difesa attraverso la selezione naturale. Numerosi alberi e funghi rilasciano spore che agiscono come un potente acido sugli organismi non vegetali. Fortunatamente, l'Ufficiale Scientifico [Root.GetLeaderName] ha trovato un modo per neutralizzare alcuni costituenti di queste spore, rendendo le foreste del pianeta meno minacciose!"
  anomaly.4000.a.tooltip:1 "Conferisce il modificatore §YGiungle Acide§! a [From.GetName]:\n£blocker£ Palude Velenosa §R+3§!\n£society£ §G+2§!"
- anomaly.4005.name:0 "Sulle Spalle dei Giganti"
+ anomaly.4005.name:0 "Frammenti di Vita"
  anomaly.4005.desc:1 "Sembra che l'asteroide [From.GetName], ed i detriti che lo circondano, provengano da un ex pianeta!\n\nAll'interno del nucleo degli asteroidi possiamo trovare leghe di grande valore. Sono presenti anche tracce di vita batterica, ormai morta nel vuoto dello spazio. Questo dimostra che una volta il corpo celeste poteva ospitare la vita."
  anomaly.4005.a.tooltip:2 "Conferisce il modificatore §YEx Pianeta§! a [From.GetName]:\n£alloys£ §G+2§!"
  anomaly.4010.name:0 "Perduta nello Spazio"

@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
  ### AI Crisis
 
@@ -101,10 +101,10 @@
  crisis.2091.d.desc:0 "Un gran numero di ufficiali d'alto rango delle forze planetarie su §H[Root.GetName]§! si sono recentemente scoperti essere infiltrati Sintetici. Sfortunatamente, prima che le nostre squadre di contenimento tattico potessero neutralizzarli, alcuni di essi sono riusciti a far detonare un'enorme quantità di armamenti che stavano segretamente ammassando al di sotto di uno dei centri più popolati del pianeta.\n\nLe vittime civili sono imponenti, come pesanti sono anche i danni materiali."
  crisis.2091.a:0 "Queste infiltrazioni devono essere fermate!"
  synth_bombing_tooltip:0 "Su [Root.GetName] sono andate perdute molte vite ed infrastrutture."
- crisis.2092.name:0 "Spazioporto Distrutto dai Sintetici"
- crisis.2092.desc:0 "Lo Spazioporto di §H[Root.GetName]§! è stato distrutto! Stiamo ancora cercando di capire bene le dinamiche, ma sembra che diversi membri dell'equipaggio, incluso l'ingegnere capo, fossero stati rimpiazzati da infiltrati Sintetici.\n\nIn qualche modo devono aver messo le mani sui codici di autodistruzione. La maggior parte dell'equipaggio è riuscito ad evacuare verso la superficie planetaria di [Root.GetName] prima dell'esplosione, ma le perdite materiali sono sostanziali."
+ crisis.2092.name:1 "Base Stellare Distrutta dai Sintetici"
+ crisis.2092.desc:1 "La Base Stellare di §H[Root.GetName]§! è stata distrutta! Stiamo ancora cercando di capire bene le dinamiche, ma sembra che diversi membri dell'equipaggio, incluso l'ingegnere capo, fossero stati rimpiazzati da infiltrati Sintetici.\n\nIn qualche modo devono aver messo le mani sui codici di autodistruzione della Base Stellare. La maggior parte dell'equipaggio è riuscito ad evacuare verso la superficie planetaria di [Root.GetName] prima dell'esplosione, ma le perdite materiali sono sostanziali."
  crisis.2092.a:0 "È un disastro."
- synths_destroy_spaceport:0 "I sabotatori Sintetici hanno distrutto lo Spazioporto di [Root.GetName]."
+ synths_destroy_spaceport:0 "I sabotatori Sintetici hanno distrutto la Base Stellare di [Root.GetName]."
  crisis.2093.name:0 "Paura e Sospetto"
  crisis.2093.desc:0 "Gran parte della popolazione di §H[Root.GetName]§! è devastata dalla paura e dalla paranoia a causa delle recenti infiltrazioni sintetiche. I nostri cittadini accusano i propri vicini, colleghi e persino famigliari di essere impostori Sintetici.\n\nSi sono verificati diversi linciaggi ai danni di individui ingiustamente accusati di essere Sintetici. Alcuni agitatori hanno persino suggerito l'idea che la nostra intera leadership sia già stata sostituita da infiltrati Sintetici."
  crisis.2093.a:0 "Il Contingente vuole metterci uno contro l'altro."
@@ -130,9 +130,9 @@
  crisis.2314.name:0 "Breccia di Sicurezza"
  crisis.2314.desc:0 "Il Contingente è riuscito a penetrare le nostre difese. Abbiamo scoperto una sequenza ostile auto-replicante infiltrata nei nostri sistemi di sicurezza. Incorporato ad essa c'era un simpatico promemoria riguardante la missione galattica del Contingente: §Y<Uccidere. Mutilare. Smembrare.!>§!. Ora hanno accesso alle nostre funzioni principali, e finché non troveremo un modo per bloccare il segnale, saremo esposti ai loro attacchi."
  crisis.2314.a:0 "Siamo a rischio."
- crisis.2301.name:0 "Spazioporto Dirottato"
- crisis.2301.desc:0 "Abbiamo perso il controllo dello Spazioporti di §H[space_port_hijacked_planet.GetName]§!. Il Contingente ha utilizzato il Segnale Fantasma per disturbare il collegamento, dirottato i suoi moduli di controllo ed avviato l'autodistruzione. Sebbene fosse troppo tardi per salvarlo, abbiamo identificato e corretto questa particolare violazione, proteggendo gli altri Spazioporti da futuri attacchi simili."
- spaceport_hijacked:0 "Lo Spazioporto di [space_port_hijacked_planet.GetName] è stato infettato e distrutto dal Contingente."
+ crisis.2301.name:1 "Base Stellare Dirottata"
+ crisis.2301.desc:1 "Abbiamo perso il controllo della Base Stellare di §H[space_port_hijacked_planet.GetName]§!. Il Contingente ha utilizzato il Segnale Fantasma per disturbare il collegamento, dirottato i suoi moduli di controllo ed avviato l'autodistruzione. Sebbene fosse troppo tardi per salvarla, abbiamo identificato e corretto questa particolare violazione, proteggendo le altre basi da futuri attacchi simili."
+ spaceport_hijacked:1 "La Base Stellare di [space_port_hijacked_planet.GetName] è stata infettata e distrutta dal Contingente."
  crisis.2302.name:0 "Unità Scientifica Terminata!"
  crisis.2302.desc:0 "Il Contingente ha lanciato un assalto contro le nostre entità autonome di ricerca, aggirando i nostri protocolli di sicurezza e terminando l'Unità Scientifica [scientist.GetName]."
  crisis.2302.a:0 "Non accadrà di nuovo."

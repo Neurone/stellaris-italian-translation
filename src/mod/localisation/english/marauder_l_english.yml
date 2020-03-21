@@ -191,6 +191,8 @@
  leader_trait_general_mercenary_warrior_desc:0 "$leader_trait_mercenary_warrior_desc$"
  leader_trait_great_khan:0 "Il Gran Khan"
  leader_trait_great_khan_desc:0 "Il Gran Khan è un Leader carismatico, un brillante tattico e, se le voci sono vere, un potente psionico."
+ leader_trait_ruler_great_khan:0 "$leader_trait_great_khan$"
+ leader_trait_ruler_great_khan_desc:0 "$leader_trait_great_khan_desc$"
  marauder.50.name:0 "Contratto Mercenario Terminato"
  marauder.50.desc:0 "Il nostro contratto con i mercenari della §H[Root.GetName]§! è giunto al termine. Il loro Leader, l'Ammiraglio [Root.Leader.GetName], ha offerto l'estensione dei suoi servigi per altri cinque anni... ad un costo aggiuntivo.\n\nSe rifiutiamo, i mercenari andranno a cercare un impiego altrove."
  marauder.50.a:0 "Estendiamo il contratto."

@@ -2,7 +2,9 @@
 
 Questo mod, **compatibile** con l'**Ironmode** e gli **achievement di Steam**, sostituisce la lingua inglese con la lingua italiana.
 
-Compatibile con versione: **Shelley 2.5.***
+Compatibile con versione: **Verne 2.6.***
+
+Sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack del 24 ottobre 2019. E' da tradurre il DLC Federations (uscito il 17 marzo 2020) ed eventuali DLC successivi.
 
 Questa traduzione è ricavata per la maggior parte dai testi redatti diligentemente dal team [Battle of Paradox Italia](http://www.bopitalia.org) ed in particolare dal buon Puxxup - **Grande lavoro!**
 
@@ -69,7 +71,7 @@ Nel caso non fosse presente la cartella `mod` potete crearla voi normalmente. La
     <%USERPROFILE%>\Documents\Paradox Interactive\Stellaris\mod\stellaris-italian-translation.zip
     <%USERPROFILE%>\Documents\Paradox Interactive\Stellaris\mod\stellaris-italian-translation.mod
 
-### Versione sviluppo
+### Versione sviluppo o Steam
 
 La versione sviluppo del mod è utile per fare modifiche, test o per effettuare l'upload sullo Steam Workshop. La versione release **non permette** di fare l'upload sullo Steam Workshop.
 

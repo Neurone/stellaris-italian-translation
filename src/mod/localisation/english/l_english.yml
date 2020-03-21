@@ -3498,7 +3498,7 @@
  trait_hive_mind_desc:0 "§LQuesta specie è composta da individui semi-autonomi asserviti ad una singola, insondabile, vasta coscienza.§!\n"
  trait_machine_unit:0 "Macchine"
  trait_machine_unit_desc:0 "§LQuesta specie è costituita da terminali esecutivi di una singola Intelligenza Meccanica, in origine costruita dagli organici.§!\n"
- trait_lithoid:0 "Lithoid"
+ trait_lithoid:0 "Litoidi"
  trait_lithoid_desc:0 "§LQuesta specie ha una biologia a base di silicio e consuma minerali piuttosto che cibo. Sono più resistenti dei organici tradizionali e hanno metabolismi più lenti, il che li rende longevi ma lenti a riprodursi.§!\n"
  trait_robot_power_drills:0 "Trivelle"
  trait_robot_power_drills_desc:0 "§LEquipaggia un robot con una serie di trivelle elettriche, ed ogni cosa sembrerà un deposito minerario.§!\n"
