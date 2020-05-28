@@ -5,4 +5,4 @@ tags={
     "Translation"
 }
 picture="logo.jpg"
-supported_version="2.6.*"
+supported_version="2.7.*"

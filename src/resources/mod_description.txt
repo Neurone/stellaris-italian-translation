@@ -1,6 +1,6 @@
 Questo mod, [b]compatibile con l'Ironmode e gli achievement di Steam[/b], sostituisce la lingua inglese con la lingua italiana.
 
-Versione supportata: Verne 2.6.*
+Versione supportata: Wells 2.7.*
 
 Sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack del 24 ottobre 2019. E' da tradurre il DLC Federations (uscito il 17 marzo 2020) ed eventuali DLC successivi.
 
