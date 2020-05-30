@@ -2,18 +2,90 @@
 
 Questo mod, **compatibile** con l'**Ironmode** e gli **achievement di Steam**, sostituisce la lingua inglese con la lingua italiana.
 
-Compatibile con versione: **Verne 2.6.***
+Compatibile con versione: **Wells 2.7.***
 
-Sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack del 24 ottobre 2019. E' da tradurre il DLC Federations (uscito il 17 marzo 2020) ed eventuali DLC successivi.
+Sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack del 24 ottobre 2019. E' da tradurre il DLC Federations (uscito il 17 marzo 2020) ed eventuali DLC successivi, più alcune frasi sparse che Paradox ha ben deciso di inserire qua e là.
 
-Questa traduzione è ricavata per la maggior parte dai testi redatti diligentemente dal team [Battle of Paradox Italia](http://www.bopitalia.org) ed in particolare dal buon Puxxup - **Grande lavoro!**
+Benché questa traduzione sia basata in gran parte sui testi redatti diligentemente dal team [Battle of Paradox Italia](http://www.bopitalia.org) - ed in particolare dal buon Puxxup, **grande lavoro!** - a causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, per poter conservare ironmode e achievement ho dovuto lasciare non tradotte parte delle frasi (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.).
 
-NOTA BENE: a causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, per poter conservare ironmode e achievement ho dovuto rimuovere parte delle frasi presenti nel lavoro di traduzione originale di Puxxup (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.). Se avete già completato gli achievement e l'ironmode, o comunque non siete interessati alla cosa, usate il [mod di Puxxup](https://steamcommunity.com/sharedfiles/filedetails/?id=823306244) per un'esperienza di traduzione completa!
+Inoltre, per facilitare il confronto con il resto del mondo, ho scelto di non tradurre il nome degli achievement ma solo la loro descrizione.
 
-## Modifiche rispetto al mod ufficiale BoP
+Se avete già completato gli achievement e l'ironmode, o comunque non siete interessati alla cosa, usate il [mod di Puxxup](https://steamcommunity.com/sharedfiles/filedetails/?id=823306244) per un'esperienza di traduzione completa!
 
-- **compatibile con ironmode e achievement**
-- non modifico il nome degli achievement, solo la loro descrizione
+## Contribuire alla traduzione
+
+Paradox aggiorna spesso i propri prodotti, non solo aggiungendo nuovi DLC e nuovi dialoghi, ma anche correggendo dove e quando serve quelli vecchi. Questo significa che è difficile avere una traduzione sempre aggiornata al 100% all'ultima release, quindi ogni aiuto con le traduzioni è ben accetto :)
+
+Per come è strutturato il gioco, e poiché questo mod vuole mantenere gli achievement attivi, non è possibile aggiungere una lingua al gioco: l'unica alternativa per avere l'italiano è modificare una delle lingue disponibili. Per comodità quindi questo mod sovrascrive direttamente la lingua di default, ossia l'inglese.
+
+### Chiavi e valori
+
+La fonte principale di frasi da tradurre di trova all'interno della cartella [src/mod/localization/english](src/mod/localization/english). Ogni file contiene delle stringhe formate da una chiave, uguale per ogni linguaggio, dalla sua traduzione corrispondente. Es, all'iterno del file ai_crisis_l_english.yml si trova la linea:
+
+`crisis.2010.name:0 "Il Segnale Fantasma"`
+
+In questo caso `crisis.2010.name:0` è la chiave, mentre `"Il Segnale Fantasma"` è la traduzione. Da notare i doppi apici `"` che delimitano il valore vero e proprio della traduzione, in questo caso già tradotto.
+
+### Commenti
+Le linee che iniziano con il carattere speciale `#` sono dei commenti o delle frasi non più utilizzate. **Non sono da tradurre** perché non verranno mai visualizzate all'interno del gioco.
+
+### Una riga, una traduzione
+Non andate a capo durante la traduzione di un testo. Se serve andare a capo, si utilizza il doppio carattere speciale `\n\n` Lo vedrete utilizzare anche nella frase originale inglese, ma potrete usare il carattere per andare a capo in italiano dove preferite, non necessariamente nella stessa posizione della frase originale.
+
+### Caratteri speciali
+Alcune frasi contengono caratteri speciali quali `§H` oppure `§!`. **Non devono essere tradotti o rimossi**, il gioco li utilizza per dare enfasi alle frasi del gioco. Immaginate come se fossero dei delimitatori per le parole da mettere in grassetto, con `§H` che significa inizio grassetto e `§!` fine grassetto
+
+### Variabili
+Alcune frasi contengono delle variabili che possono essere racchiuse tra parentesi quadre - ad esempio `[Root.Capital.GetName]` - o dal carattere del dollaro - ad esempio `$ancrel.8010.intro$`. Queste parole **non vanno tradotte**: il gioco le sostituirà automaticamente in tempo reale con il valore corretto. **NOTA:** Alcune variabili in italiano vi creeranno problemi, in particolare tutte quelle che prevedono un articolo davanti, perché in italiano non sappiamo esattamente quale usare in anticipo. Prendete ad esempio la seguente frase:
+
+```yml
+mirror_trade_reply:0 "I was about to suggest that myself, for the benefit of all [Root.Owner.Species.GetNamePlural]!"
+```
+
+La traduzione corretta sarebbe:
+
+```yml
+mirror_trade_reply:0 "Stavo per suggerirlo io stesso, a beneficio di tutti/e i/gli/le [Root.Owner.Species.GetNamePlural]!"
+```
+
+Come potete notare, in inglese `the`, `of all`, ecc. funzionano praticamente sempre bene per tutto - _...of all Humanoids_, _...of all Reptilians_, ecc. - ma in italiano la specie potrebbe essere ad esempio "i Rettiliani", "gli Umanoidi", ecc. E questo solo per citare le specie esisteni e definite all'interno del file [name_lists_l_english.yml](src/mod/localisation/english/name_lists_l_english.yml). Ma in questo gioco anche l'utente può definire le sue specie personalizzate, quindi non lo sapremo mai con certezza a priori. Il gioco possiede variabili per il singolare e il plurale, ma non ad esempio per la differenza tra gli articoli da utilizzare.
+
+Una possibile soluzione è quella di prenderci qualche libertà durante la traduzione e scrivere ad esempio:
+
+```yml
+mirror_trade_reply:0 "Stavo per suggerirlo io stesso, a beneficio di tutto il popolo [From.GetSpeciesAdj]!"
+```
+
+In questo caso non solo ho aggiunto la parola `popolo`, ma ho usato la variabile utilizzata per definire l'aggettivo caratteristico della specie. All'interno del gioco quindi questa frase verrebbe tradotta con `popolo Rettiliano` o `popolo Umanoide`.
+
+In generale, se vi trovate in una _empasse_ sulla possibile traduzione, provate a vedere come è stato fatto in altri punti e seguite la stessa strada. Altrimenti aprite una segnalazione sul repo e discutiamo delle possibili traduzioni.
+
+### Codifica dei caratteri
+**La codifica dei caratteri (charset) deve essere UTF-8**. Per sicurezza utilizzate direttamente un editor di testo che supporti più charset come ad esempio [Notepad++](https://notepad-plus-plus.org/downloads/) e il charset corretto verrà riconosciuto senza problemi.
+![](meta/10.png)
+
+### Ok, capito, ma come modifico i file?
+
+Per contribuire alle traduzioni, potete clonare questo repository, aggiornare direttamente i file e poi procedere con una pull request per effettuare l'unione del vostro repository con quello principale.
+
+Se non siete pratici di `git`, il mio suggerimento è di diventarlo :) E' veramente semplice da utilizzare e vi permette di lavorare in locale sul vostro PC.
+
+Un'alternativa, è lavorare comunque sul vostro PC ma effettuare la proposta di modifica direttamente online. Una volta scaricato e tradotto il file che volete aggiornare:
+1. Tornate su questo repository, assicuratevi di essere sul branch **dev**
+![](meta/01.png)
+1. Navigate fino al file che volete aggiornare e premete l'icona in alto a destra per la modifica, la matita che dice "Edit this file"
+![](meta/02.png)
+1. GitHub vi avverte che non avete permessi di scrittura sul repo, che verrà creato un repository uguale a questo sulla vostra utenza e che verrà creato un nuovo ramo con le vostre modifiche. A quel punto, potrete proporre una pull request sul repository principale. Fate una modifica puntuale o, in caso di modifiche multiple, direttamente copia e incolla di tutto il contenuto del vostro file aggiornato
+![](meta/03.png)
+1. premete `Previw changes` per verificare che le modifiche siano quelle che vi aspettate. Se è tutto ok, inserite un messaggio che descrive brevemente la vostra modifica e premete **Propose file change**
+![](meta/04.png)
+1. A questo punto avete aggiornato il vostro repository, e potete procedere con la proposta di unione. Premete il pulsante **Create pull request**, modificate il testo del commit - se per qualche motivo volete cambiare il testo rispetto a quanto avete inserito precedentemente - e poi premete nuovamente **Create pull request** per confermate
+![](meta/05.png) ![](meta/06.png)
+1. La vostra pull request è stata inoltrata correttamente, risulta in stato aperto (_Open_) e non dovrebbe dare errori di unione (_This branch has no conflicts with the base branch_)
+![](meta/07.png)
+1. Attendete che la PR sia accettata e unita
+1. _Opzionale_. Una volta accetta la vostra PR sarà chiusa (_Closed_) e il vostro ramo con la modifica unito (_Merged_) a quello principale. Potete quindi decidere di cancellare il ramo che è rimasto nel vostro repository, visto che ha assolto al proprio compito di proporre la modifica che è stata accettata
+![](meta/08.png) ![](meta/09.png)
 
 ## Installazione mod da release
 
