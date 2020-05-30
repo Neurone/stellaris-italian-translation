@@ -32,7 +32,7 @@
  ring_world_3_intermediate_DESC:0 "Una sezione completamente funzionale ed abitabile del Pianeta ad Anello, completa di una biosfera attiva già pronta per l'insediamento."
  
  habitat_0_MEGASTRUCTURE_DETAILS:1 "Un §Y$pc_habitat$§! è una Stazione Spaziale teoricamente autosufficiente progettata per essere un'abitazione permanente."
- habitat_0_CONSTRUCTION_INFO_DELAYED:3 "Un Habitat può utilizzare esclusivamente £building£ §YEdifici§! progettati per gli Habitat."
+ habitat_0_CONSTRUCTION_INFO_DELAYED:4 "Un Habitat può utilizzare esclusivamente £building£ §YEdifici§! progettati per gli Habitat.  If built in orbit over a planet with £minerals£ §YMineral§!, £energy£ §YEnergy§!, or £physics£ £society£ £engineering£ §YResearch§! deposits, special £district£ §YDistricts§! will be available."
  habitat_0:0 "Habitat"
  habitat_0_DESC:0 "Una Stazione Abitabile in orbita attorno ad un pianeta inabitabile, in grado di contenere un certo numero di §HPOP§! ed §HEdifici§!, lontani dalla superficie."
 
@@ -59,13 +59,13 @@
  allow_machine_worlds:2 "§HSblocca Opzione di Terraformazione:§! Pianeta Meccanico"
  describe_machine_worlds:6 "I §YPianeti Meccanici§! sono pianeti speciali inospitali per la maggior parte degli organici, ma la quantità di £district£ Distretti §YGeneratori§! e §YMinerari§! che possono supportare non è limitata dalle Caratteristiche Planetarie. La £pop£ §YPOP§! che vive su un §YPianeta Meccanico§! avrà un aumento alla §YProduzione delle Risorse§! pari al §G+10%§! e l'§YUtilizzo delle Abitazioni§! sarà ridotto del §G10%§!. Qualsiasi £district£ §YDistretto Agricolo§! presente sul pianeta andrà distrutto."
  allow_hive_worlds:0 "§HSblocca Opzione di Terraformazione:§! Pianeta Alveare"
- describe_hive_worlds:0 "I §YPianeti Alveare§! sono pianeti speciali inospitali per la maggior parte della POP non connessa ad una Mente Alveare, ma la quantità di £district£ Distretti §YGeneratori§!, §YMinerari§! ed §YAgricoli§! che possono supportare non è limitata dalle Caratteristiche Planetarie. La £pop£ §YPOP§! che vive su un §YPianeta Alveare§! avrà un aumento alla §YProduzione delle Risorse§! pari al §G+10%§!."
+ describe_hive_worlds:1 "I §YPianeti Alveare§! sono pianeti speciali inospitali per la maggior parte della POP non connessa ad una Mente Alveare, ma la quantità di £district£ Distretti §YGeneratori§!, §YMinerari§! ed §YAgricoli§! che possono supportare non è limitata dalle Caratteristiche Planetarie, e i Distretti §Alveare§! sono più efficienti. La £pop£ §YPOP§! che vive su un §YPianeta Alveare§! avrà un aumento alla §YProduzione delle Risorse§! pari al §G+10%§!."
  
  ALLOW_PSI_CORPS:0 "L'edificio §H$building_psi_corps$§! è ora disponibile."
  ALLOW_PSI_ARMIES:0 "Le §H$psionic_army_plural$§! sono ora reclutabili."
  
  dyson_sphere_0_MEGASTRUCTURE_DETAILS:1 "Una §Y$dyson_sphere_5$§! ricopre completamente la stella selezionata, convertendo direttamente tutte le emissioni solari in £energy£."
- dyson_sphere_0_CONSTRUCTION_INFO_DELAYED:3 "Una $dyson_sphere_5$ offuscherà la stella, trasformando tutti i pianeti del sistema in Sterili o Ghiacciati.§!"
+ dyson_sphere_0_CONSTRUCTION_INFO_DELAYED:4 "Una $dyson_sphere_5$ offuscherà la stella, trasformando tutti i pianeti del sistema in Sterili o Ghiacciati.§!\n\nOgni candidato alla terraformazione presente nel sistema sarà rovinato."
  dyson_sphere_0:0 "Sito per Sfera di Dyson"
  dyson_sphere_0_DESC:0 "La stazione di costruzione serve come base per la futura installazione della Sfera di Dyson."
  dyson_sphere_1:0 "Struttura della Sfera di Dyson"
@@ -129,7 +129,8 @@
  requires_no_black_hole_neutron_star_pulsar:0 "$TRIGGER_FAIL$ Impossibile costruire Sfere di Dyson attorno a Buchi Neri, Stelle di Neutroni o Pulsar."
  requires_no_anomaly:1 "$TRIGGER_FAIL$ Impossibile da costruire su pianeti che possiedono Anomalie non ancora studiate, che siano state scoperte da noi o da un altro impero."
  requires_not_ring_world:0 "$TRIGGER_FAIL$ Impossibile da costruire su un Pianeta ad Anello."
- 
+ requires_barren_planet:1 "$TRIGGER_FAIL$Can only build on Barren worlds."
+
  progress.3.desc_08:0 "La nostra nave colonia ha toccato dolcemente il suolo tra la tentacolare savana che ricopre la maggior parte di §Y[Root.GetName]§!. L'aria è asciutta ma piacevole, e grandi mandrie di docili erbivori si possono osservare poco distanti dal luogo dell'atterraggio.\n\nLa nave è stata riconvertita in un quartier generale amministrativo per il nuovo insediamento, ed il suo reattore sta venendo rimosso per essere utilizzato come fonte energetica temporanea.\n\nCentinaia di piccole tende e rifugi prefabbricati stanno spuntando attorno allo scafo dell'ex nave spaziale, mentre i coloni iniziano a sbarcare in gran numero; la nostra prima città su un pianeta alieno."
  progress.3.desc_09:0 "La nostra nave colonia è riuscita, con grazia sorprendente, a districarsi tra le imponenti vette che disseminano il paesaggio di §Y[Root.GetName]§!. Ha toccato terra in una valle riparata che fungerà da luogo ideale per il primo sito d'atterraggio.\n\nLa nave è stata riconvertita in un quartier generale amministrativo per il nuovo insediamento, ed il suo reattore sta venendo rimosso per essere utilizzato come fonte energetica temporanea.\n\nCentinaia di piccole tende e rifugi prefabbricati stanno spuntando attorno allo scafo dell'ex nave spaziale, mentre i coloni iniziano a sbarcare in gran numero; la nostra prima città su un pianeta alieno."
  
@@ -278,7 +279,7 @@
  utopia.2013.name:0 "Nexus Ripristinato"
  utopia.2013.desc:0 "Il Nexus abbandonato vicino al Sistema [From.GetName] è stato completamente ripristinato, e riempito con le menti più brillanti del nostro impero. Riportata al suo scopo originario, la Megastruttura verrà ora utilizzata per rispondere alle questioni scientifiche più importanti del nostro tempo."
  utopia.2014.name:0 "Matrice Sentinella in Rovina"
- utopia.2014.desc:0 "Il Sistema [sentry_system.GetName], ad un certo punto della storia galattica, sembra aver ospitato un'immensa infrastruttura orbitale di dimensioni insolite che, nel tempo, è stata sistematicamente demolita. Sono presenti grandi concentrazioni di detriti in orbita geostazionaria attorno alla maggior parte dei corpi celesti del sistema, inclusi diversi scafi appartenuti ad antiche stazioni spaziali.\n\nIl più grande di questi scafi è quello di una colossale §HMatrice Sentinella§!. Le nostre scansioni iniziali suggeriscono che, quando fu operativa, fosse abbastanza potente da fornire una copertura in tempo reale dell'intera galassia."
+ utopia.2014.desc:1 "Il Sistema [sentry_system.GetName], ad un certo punto della storia galattica, sembra aver ospitato un'immensa infrastruttura orbitale di dimensioni insolite che, nel tempo, è stata sistematicamente demolita. Sono presenti grandi concentrazioni di detriti in orbita geostazionaria attorno alla maggior parte dei corpi celesti del sistema, inclusi diversi scafi appartenuti ad antiche stazioni spaziali.\n\nIl più grande di questi scafi è quello di una colossale §HMatrice Sentinella§!. Le nostre scansioni iniziali suggeriscono che, quando fu operativa, fosse abbastanza potente da fornire una copertura in tempo reale dell'intera galassia."
  utopia.2014.a:0 "Ne abbiamo già una."
  utopia.2015.name:0 "Matrice Sentinella Ripristinata"
  utopia.2015.desc:0 "Non è stato facile, ma i nostri ingegneri sono riusciti a ripristinare la Matrice Sentinella nel Sistema [From.GetName]. Gli scafi delle altre stazioni, ed i detriti che li circondavano, sono stati riconvertiti in materiali da costruzione per il processo di riparazione.\n\nPer la prima volta dopo eoni, la Matrice pulsa d'energia. Le sue potenti antenne possono nuovamente osservare ogni angolo della galassia."

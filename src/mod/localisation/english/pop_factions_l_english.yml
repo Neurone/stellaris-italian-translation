@@ -289,7 +289,7 @@
  TECHNOLOGIST_TECH_LEAP_DESC:0 "Possedere sempre una tecnologia all'avanguardia e non permettere che nessun altro impero ci superi li renderà felici."
  TECHNOLOGIST_TECH_LAG:0 "Arretramento"
  TECHNOLOGIST_RESEARCH_TREATIES:0 "Scienza Senza Confini"
- TECHNOLOGIST_RESEARCH_TREATIES_DESC:0 "Siglare Trattati di Ricerca con almeno §Y3§! altri imperi li renderà felici."
+ TECHNOLOGIST_RESEARCH_TREATIES_DESC:0 "Siglare Trattati di Ricerca con almeno §Y3§! altri imperi o essere in una Cooperativa di Ricerca renderà felici i [Root.GetName]."
  TECHNOLOGIST_FEW_RESEARCH_TREATIES:0 "$TECHNOLOGIST_RESEARCH_TREATIES$"
  TECHNOLOGIST_NO_SYNTH_ENVY:0 "Inviato Sintetico"
  TECHNOLOGIST_NO_SYNTH_ENVY_DESC:0 "Osservare altri imperi che impiegano POP Robotica, senza possedere un nostro equivalente domestico, sicuramente li contrarierà."

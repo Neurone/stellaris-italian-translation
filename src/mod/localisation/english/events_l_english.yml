@@ -20,6 +20,8 @@
  TRANSMISSION_NAME:0 "§H[From.GetName]§!"
  BATTLESTATIONS:0 "Ai posti di combattimento!"
  ONSCREEN:0 "Sullo schermo."
+ UNDERSTOOD:0 "Capito."
+ ACKNOWLEDGED:0 "Ricevuto."
  PROJECT_COMPLETE:0 "Progetto Speciale Completato"
  PROJECT_FAILURE:0 "Progetto Speciale Fallito"
  ANALYZE_COMPLETE:0 "Analisi Traccia SL Completata"
@@ -42,8 +44,12 @@
  TASTY:0 "Prede..."
  EXTERMINATE:0 "<< Organici identificati. Comunicazioni terminate. >>"
  DIG:0 "Continua a scavare!"
+ KEEP_SEARCHING:0 "Continuo a cercare."
+ THEIR_RESPONSE:0 "La risposta dei [From.GetAdj]"
+ DOTDOTDOT:0 "..."
  INTENSIFIES:0 "La crisi esistenziale si intensifica..."
- 
+ BLANK_STRING:0 ""
+
  ####################################
  # On-Action Events
  ####################################
@@ -1076,7 +1082,7 @@
  colony.164.a:0 "Lo stanno facendo... ora?"
  colony.164.b:0 "Questi miserabili vigliacchi sono la vergogna del nostro impero!"
  colony.164.c:0 "Eccellente. Chiunque dovrebbe dare una possibilità alla pace."
- colony.164.a.tooltip:0 "Fino a §Y4 POP§! di §H[Root.GetName]§! perdono ogni §YEtica Militarista§! ed ottengono l'etica §YPacifista Fanatico§!."
+ colony.164.a.tooltip:1 "Fino a §Y4 POP§! di §H[Root.GetName]§! perdono ogni §YEtica Militarista§! ed ottengono l'etica §YPacifista§!."
  colony.170.name:0 "Detriti Orbitali"
  colony.170.desc:0 "Lo spazio orbitale attorno a [Root.GetName] è disseminato di detriti lasciati dalla civiltà aliena che un tempo lo abitò. Prima che si spazzassero via da soli, il loro programma spaziale prevedeva il lancio di migliaia di primitivi satelliti e piattaforme missilistiche. Molti di essi vennero distrutti dalle armi anti-satellitari durante la devastante guerra nucleare, aggiungendo altra spazzatura al mix.\n\nLa nostra colonia in superficie si è sviluppata a tal punto che questa densa massa di detriti sta interferendo con le sue infrastrutture. Non possiamo utilizzare i satelliti, ed i voli civili sono estremamente limitati."
  colony.170.a:0 "Forse dovremmo fare qualcosa."
@@ -1430,7 +1436,7 @@
  primitive.29.desc:0 "La civiltà aliena su [From.Capital.GetName] è entrata in una nuova era storica, avendo sviluppato una società completamente industrializzata. I drammatici effetti di questa rivoluzione si possono notare su tutta la superficie... le fabbriche sono spuntate ovunque, gli avanzamenti nella medicina hanno portato ad un incremento della popolazione, e le nuove innovazioni scientifiche compaiono con allarmante regolarità."
  primitive.29.a:0 "Continuiamo l'osservazione."
  primitive.31.name:0 "Civiltà all'Età del Bronzo Rilevata"
- primitive.31.desc:0 "Gli alieni primitivi su [From.Capital.GetName] sono passati di recente dall'Era Neolitica ad una primordiale Età del Bronzo. Hanno iniziato ad utilizzare la metallurgia e sono comparsi i primi segni di comunicazione scritta. Città e grandi comunità stanno prendendo forma, ed ora gli alieni si stanno diffondendo su una significativa porzione della superficie."
+ primitive.31.desc:1 "Gli alieni primitivi su [From.Capital.GetName] sono passati di recente dall'Era Neolitica ad una primordiale Età del Bronzo. Hanno iniziato ad utilizzare la metallurgia e sono comparsi i primi segni di comunicazione scritta. Città e grandi comunità stanno prendendo forma, ed ora gli alieni si stanno diffondendo su una significativa porzione della superficie di [From.Capital.GetPlanetMoon]."
  primitive.31.a:0 "Stiamo assistendo alla nascita di una nuova cultura."
  primitive.40.name:0 "Incontro con i Primitivi"
  primitive.40.desc:0 "I nostri nuovi insediamenti su [Root.GetName] sono venuti in contatto con alcuni primitivi alieni autoctoni all'Età della Pietra. Si sono già verificati alcuni scontri violenti, e dovremmo decidere come comportarci con loro.\n\nPossiamo fortificare i nostri insediamenti all'interno di enclavi e costruirli in regioni remote in cui non vivono gli alieni. Questo limiterà la terra e le risorse a disposizione dei nostri coloni.\n\nUn'altra opzione potrebbe essere quella di trasferire gli alieni all'interno di riserve speciali, in cui possono essere tenuti isolati dal resto della colonia. Questo limiterebbe comunque lo spazio a nostra disposizione, ma in misura nettamente minore."
@@ -2432,7 +2438,8 @@
  pirate.10.a.birth:0 "Colpiamo al cuore di questa malvagità."
 
  pirate.15.name:0 "Rifugio Pirata Distrutto"
- pirate.15.desc:0 "La [From.From.GetName] segnala che i millenari galeoni pirati nel Sistema [From.From.GetStarName] sono stati distrutti. Fatta eccezione per alcuni ritardatari nei sistemi vicini, la pirateria galattica è ora un'eco del passato... per ora."
+ pirate.15.desc:1 "La [From.From.GetName] riferisce che i millenari galeoni pirati nel Sistema [From.From.GetStarName] sono stati distrutti. Fatta eccezione per alcuni ritardatari nei sistemi vicini, la pirateria galattica è ora un'eco del passato... per ora.\n\nWe were able to recover a considerable hoard of ill-gained loot from their strong room, a treasure which we promptly relocated to our own coffers."
+ pirate.15.desc2:0 "The [FromFrom.GetName] reports that the timeworn pirate galleons in the [FromFrom.GetStarName] system have been destroyed. Save for any stragglers in nearby systems, galactic piracy is a thing of the past... For now.\n\nWe were able to recover a considerable hoard of ill-gained loot from their strong room, including an ancient datapad which, startlingly, seems to offer fresh insights into how the mysterious L-Gates function."
 
  pirate.25.name:0 "Stazione Pirata Assaltata"
  pirate.25.desc:0 "La [pirate_slayers.GetName] ha distrutto la stazione pirata nel Sistema [pirate_slayers.GetStarName] ed ha recuperato la sua camera blindata."

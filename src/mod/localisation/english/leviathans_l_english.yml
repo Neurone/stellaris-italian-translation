@@ -346,7 +346,7 @@
  leviathans.506.a.reply:0 "Vi stiamo trasmettendo i rapporti di sorveglianza."
  
  leviathans.507.name:0 "Aiuto nella Ricerca"
- leviathans.507.desc:1 "Naturalmente. Siamo disposti ad offrirvi un accesso limitato ad un enorme archivio di dati per un periodo di dieci anni standard. Verrà conferito un forte impulso alla capacità di analisi e ricerca dei vostri §HLaboratori di Ricerca! planetari.\n\nPer questo servizio richiediamo un compenso, ma siamo certi che lo troverete molto conveniente, per il servizio ottenuto."
+ leviathans.507.desc:1 "Naturalmente. Siamo disposti ad offrirvi un accesso limitato ad un enorme archivio di dati per un periodo di dieci anni standard. Verrà conferito un forte impulso alla capacità di analisi e ricerca dei vostri §HLaboratori Scientifici! planetari.\n\nPer questo servizio richiediamo un compenso, ma siamo certi che lo troverete molto conveniente, per il servizio ottenuto."
  leviathans.507.a:0 "Vorremmo usufruire del servizio."
  leviathans.507.a.reply:0 "Una scelta saggia. Le future generazioni dei cittadini [Root.GetSpeciesNamePlural] di sicuro vi saranno riconoscenti."
  
@@ -781,6 +781,8 @@
 
  leader_trait_dragonslayer:0 "Ammazzadraghi"
  leader_trait_dragonslayer_desc:0 "Questo Ammiraglio ha dato prova del suo valore in battaglia."
+ leader_trait_dragonbane:0 "Dragonbane"
+ leader_trait_dragonbane_desc:0 "This Leader has seen intense combat, and lived to tell the tale."
 
  infinity_calculations:0 "Il Processore di Singolarità"
  infinity_calculations_desc:0 "Aiutando la Macchina dell'Infinito ci siamo resi degni di conoscere il segreto della sua esistenza. Un processore in grado di espandersi. Questo migliorerà notevolmente la nostra ricerca."

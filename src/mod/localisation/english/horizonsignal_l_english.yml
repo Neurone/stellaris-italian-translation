@@ -1,5 +1,8 @@
 ﻿l_english:
 
+ ### Ambient Object
+ NAME_Syzygy_Remains:0 "Syzygy Remains"
+
  ### EVENT CHAINS
  WORM_CHAIN_1_title:0 "Il Verme in Attesa: Segnali"
  WORM_CHAIN_1_desc:0 "Qualcosa ci ha raggiunti... proviene da un luogo in cui il tempo e lo spazio sono annodati assieme.\n\nCi desidera."
@@ -110,7 +113,7 @@
  SYZYGY_DEBRIS_PROJECT:0 "Indaga sui resti della Syzygy"
  SYZYGY_DEBRIS_PROJECT_DESC:0 "La Syzygy ha passato del tempo in un altro luogo. Un possibile futuro? Un universo parallelo? Potremmo saperne di più."
  
-  
+ 
  ################################################
  ##THE HORIZON SIGNAL: intro events to Verme chain 
  
@@ -204,14 +207,14 @@
  akx.9100.b:0 "Un infausto presagio."
 
  akx.9101.name:0 "Il Tempio del Loop: Tempo e Pietra"
- akx.9101.desc:0 "I nostri scienziati hanno scoperto molto sul tempio sotterraneo, ma rimane una domanda. Un'apertura sul soffitto, allineata all'altare, suggerisce che un tempo si doveva trattare di un calendario solare; ma è stato così danneggiato dal terremoto che non ne abbiamo la certezza. Se i costruttori volevano indicare una data in particolare, non sapremo mai di quale si trattasse. Abbiamo avuto più fortuna con l'alfabeto sconosciuto. Si tratta di una variante volgare di una scrittura ieratica più nota, non una lingua aliena, e siamo riusciti a decifrarla completamente. Il tempio è dedicato al "Verme che Attende" o §HVerme in Attesa§!. La maggior parte delle iscrizioni sono invocazioni poetiche che chiedono la sua venuta o, se lette nell'altro verso, la sua dipartita. È presente anche un gruppo di iscrizioni che descrive le 'operazioni dell'universo' che, secondo i nostri archeologi, contengono riferimenti ad equazioni avanzate... niente di nuovo, ma molto impressionanti per un tempio di quest'epoca. Dobbiamo però ancora trovare un fisico che confermi queste ipotesi.\n\nIl tempio non contiene segreti cosmici o armi aliene, da quanto possiamo vedere. Ma i suoi oscuri antri possiedono una distintiva bellezza minacciosa, e le invocazioni al Verme in Attesa ora vanno di moda. Sono entrate a far parte della musica popolare... e pubblicate in compilation."
+ akx.9101.desc:0 "I nostri scienziati hanno scoperto molto sul tempio sotterraneo, ma rimane una domanda. Un'apertura sul soffitto, allineata all'altare, suggerisce che un tempo si doveva trattare di un calendario solare; ma è stato così danneggiato dal terremoto che non ne abbiamo la certezza. Se i costruttori volevano indicare una data in particolare, non sapremo mai di quale si trattasse. Abbiamo avuto più fortuna con l'alfabeto sconosciuto. Si tratta di una variante volgare di una scrittura ieratica più nota, non una lingua aliena, e siamo riusciti a decifrarla completamente.\n\nIl tempio è dedicato al "Verme che Attende" o §HVerme in Attesa§!. La maggior parte delle iscrizioni sono invocazioni poetiche che chiedono la sua venuta o, se lette nell'altro verso, la sua dipartita. È presente anche un gruppo di iscrizioni che descrive le 'operazioni dell'universo' che, secondo i nostri archeologi, contengono riferimenti ad equazioni avanzate... niente di nuovo, ma molto impressionanti per un tempio di quest'epoca. Dobbiamo però ancora trovare un fisico che confermi queste ipotesi.\n\nIl tempio non contiene segreti cosmici o armi aliene, da quanto possiamo vedere. Ma i suoi oscuri antri possiedono una distintiva bellezza minacciosa, e le invocazioni al Verme in Attesa ora vanno di moda. Sono entrate a far parte della musica popolare... e pubblicate in compilation."
  akx.9101.a.notspiritual:0 "Aprite il Tempio del Loop al pubblico."
  akx.9101.a.notspiritual.tooltip:0 "Qualcosa dal nostro passato. Ciò che fu, sarà."
  akx.9101.a.spiritual:0 "Rendete il Tempio del Loop un luogo di pellegrinaggio."
  akx.9101.a.spiritual.tooltip:0 "La saggezza della fede dei nostri antenati. Ciò che fu, sarà. Aumenta la felicità del pianeta, tra le altre cose."
  akx.9101.b:0 "Riserva il Tempio per i soli studi accademici."
  akx.9101.b.tooltip:0 "Limitiamone l'accesso a chi ne ha davvero bisogno."
- akx.9101.c:0 "C'è qualcosa che non va, sigillate il Tempio."
+ akx.9101.c:1 "C'è qualcosa che non va. Sigillate il Tempio."
  #small bump to Influence, worm_events_available *not* set)
  akx.9101.c.tooltip:0 "Meglio un rimpianto che mille rimorsi."
 
@@ -258,18 +261,18 @@
 
  akx.9221.name:0 "Il Messaggero: Cala la Notte"
  akx.9221.desc:0 "[researchingscientist9220.GetName] ha ricreato il patrimonio genetico del Messaggero. Senza chiedere alcuna opinione, ha anche creato un agente retrovirale estremamente contagioso. Si sta dilagando tra i nostri pianeti. Sotto la sua influenza, gli appartenenti alla nostra specie dominante stanno cadendo in uno stato di coma metamorfico, risvegliandosi giorni dopo trasformati nella specie del Messaggero. Tutto ciò sta causando... un po' di agitazione."
- akx.9221.a:0 "È andato troppo oltre. Ora basta. Contenete l'epidemia."
+ akx.9221.a:0 "È andato troppo oltre. Contenete l'epidemia."
  akx.9221.a.tooltip:0 "Tutta la POP sul Pianeta Capitale verrà convertita, ma l'epidemia terminerà lì."
  akx.9221.b:0 "Contenete l'epidemia, ed epurate tutti i cittadini colpiti."
  akx.9221.b.tooltip:0 "Tutta la POP colpita verrà §REpurata§!: quasi l'intera popolazione di [Root.Capital.GetName]."
- akx.9221.c:0 "Ciò che fu, sarà. Cambieremo. Portatemi un campione dell'agente."
+ akx.9221.c:1 "Ciò che fu, sarà. Fate circolare un campione dell'agente."
  akx.9221.c.tooltip:0 "Verrà trasformata la nostra intera specie."
  
  ##################################
  ##A RENDEZVOUS: Worm-related event
  
  akx.9300.name:0 "Rendez-Vous"
- akx.9300.desc:0 "La [Root.GetName] è stata contatta... dalla §HSyzygy§! di [Root.Owner.GetName]. La comunicazione è avvenuta nonostante il fatto che non abbia inviato alcun ID riconoscibile, e nessuna nave con quel nome sia mai stata commissionata. L'ufficiale in comando della Syzygy sostiene di essere il Capitano [mirrored_syzygy_admiral.GetName]."
+ akx.9300.desc:1 "La [Root.GetName] è stata contatta... dalla §HSyzygy§! di [Root.Owner.GetName]. La comunicazione è avvenuta nonostante il fatto che non abbia inviato alcun ID riconoscibile, e nessuna nave con quel nome sia mai stata commissionata. L'ufficiale in comando della Syzygy sostiene di essere il Capitano $H[mirrored_syzygy_admiral.GetName]§!."
  akx.9300.a.admiralabsent:0 "Uhm. Il nostro ammiraglio che porta quel nome sta bene ed è altrove."
  akx.9300.a.admiralabsent.tooltip:0 "Aprite le comunicazioni."
  akx.9300.a.admiralpresent:0 "Interessante. [mirrored_syzygy_admiral.GetName] è qui."
@@ -285,11 +288,11 @@
  akx.9310.c.response:0 "§G"Il Loop è ciò che è venuto prima e ciò che verrà in seguito... il §!§HVerme in Attesa§!§G... e, suppongo, che il Verme sia il Loop. Diciamo che se il tempo è un labirinto"§!... il Capitano inizia a gesticolare inutilmente... §G"allora il Loop è il suo mostro. Od il suo creatore... no, non riesco a spiegarlo... ne saprete di più molto presto. L'avete già fatto, nel mio passato... Armi bloccate?"§!"
  akx.9310.d.notpacifist:0 "Arrenditi. Qualunque cosa tu abbia fatto, possiamo aiutarti."
  akx.9310.d.notpacifist.response:0 "§G"Troppo tardi"§!, esclama il Capitano, non senza rammarico, ed interrompe la trasmissione."
- akx.9310.d.fanaticpacifist:0 "Qualunque cosa sia successa, questo non è il nostro modo di fare. Arrenditi. Ti aiuteremo."
+ akx.9310.d.fanaticpacifist:1 "Uccidere non è il nostro modo di fare, e ti aiuteremo."
  akx.9310.d.fanaticpacifist.response:0 "Il Capitano esita per un lungo momento. Diventa evidente che il ponte della Syzygy è vuoto: non ci sono altri membri dell'equipaggio.\n\n§G"È troppo tardi per me,"§! esclama infine il Capitano, §G"ma avete ragione. Questo non è il nostro modo di fare. Farò ciò che devo fare."§! Interrompe la trasmissione.\n\nI sensori riferiscono che le armi della Syzygy sono disattivate; la nave si sta spegnendo. Poco dopo... si disattiva del tutto. Quando la nostra squadra di soccorso sale a bordo, non trova traccia di vita, e nessun segno del Capitano. Ma qualcuno ha di recente avuto accesso ai sistemi di sicurezza, disattivando i protocolli che impedivano l'accesso al nucleo."
  akx.9310.e:0 "Facciamola finita, allora."
  akx.9310.e.response:0 "§G"Passo e chiudo."§!\n\nIl Capitano saluta... sussultando come se il movimento tirasse una vecchia ferita... e termina la connessione."
- akx.9310.e.materialistic:0 "Prima che tu vada, dove sei stato hai imparato qualcosa?"
+ akx.9310.e.materialistic:0 "Prima che tu vada: hai imparato qualcosa di utile?"
  akx.9310.e.materialistic.response:0 "Il Capitano cela un sogghigno stirato.\n\n§G"Speravo che me lo domandaste. Vi sto inviando i dati. Passo e chiudo."§!"
  akx.9310.e.spiritual:0 "Ti ricorderemo nelle nostre preghiere."
  akx.9310.e.spiritual.response:0 "§G"Ed io ho un'altra preghiera per voi."§!\n\nIl Capitano recita una strana litania palindroma composta da ventisette parole che appassionerà i nostri teologi, ed interrompe la comunicazione."

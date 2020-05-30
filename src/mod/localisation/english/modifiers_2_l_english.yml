@@ -113,7 +113,11 @@
  drone_processing:0 "Lavorazione Dronica"
  drone_processing_desc:0 "Le lezioni imparate dagli Antichi Droni Minerari continuano a migliorare la nostra produzione ed efficienza nell'estrazione mineraria."
  spiritualist_attraction:0 "Attrazione Spiritualista"
+ spiritualist_attraction_desc:0 "A group of spiritualists is countering materialistic views of the cosmos, claiming that they limit our cultural growth."
  materialist_attraction:0 "Attrazione Materialista"
+ materialist_attraction_desc:0 "A group of materialists is pushing for our cultural advancement by seeking more tangible and progressive answers."
+ from_extra_federation_members:0 "From Members"
+ empire_size_mods:0 "Empire Size"
  ####################################
  # Pop Modifiers
  ####################################

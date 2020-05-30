@@ -1,15 +1,13 @@
-﻿Benvenuto!
+﻿Greetings!
 
-Stellaris ha (di nuovo) subito importanti modifiche! Nella versione 2.2 il fulcro dei cambiamenti si è concentrato sullo sviluppo dei pianeti e sull'economia del gioco. Lo scopo era quello di rendere la gestione dei pianeti più divertente e coinvolgente.
+Stellaris has been updated!
 
-Le caselle non ci sono più, e sono state rimpiazzate da Distretti, Edifici e Lavori. Ora potrai creare Distretti Cittadini, Agricoli, Minerari e Generatori, come vari Edifici con ruoli più specializzati. I Distretti e gli Edifici forniscono Lavori che, quando svolti da una POP, producono Risorse.
+There is now a Galactic Community which can be formed once enough empires have established communications with each other. You will be able to use your diplomatic clout to pass resolutions that may aid your cause or to weaken your enemies.
 
-Man mano che un pianeta otterrà più POP, sbloccherà altri Slot Edificio. Gli Edifici funzionano in modo simile al passato, ma ora la maggior parte di essi forniscono Lavoro piuttosto che produrre direttamente le risorse.
+Federations have been reworked, and can now level up and unlock new perks. You will need to maintain your Federation's Cohesion in order to gain experience.
 
-La versione 2.2 introduce anche un nuovo sistema di Rotte Commerciali. Essenzialmente ciò che dovrai fare è raccogliere Valore Commerciale (nello spazio e sui pianeti) aggiornando una Base Stellare vicina. Dovrai quindi impostare una Rotta Commerciale che conduca nuovamente verso il tuo Sistema Natale. Il Valore Commerciale verrà convertito in risorse utilizzabili una volta che avrà raggiunto la tua Capitale Commerciale.
-
-Ti raccomandiamo di dare un'occhiata al tutorial aggiornato!
+Envoys have been introduced to the game, and they allow you to perform certain diplomatic actions such as Improve Relations. Envoys can also be assigned to your Federation in order to improve Cohesion, or to the Galactic Community in order to increase your diplomatic clout.
 
 ---
 
-A causa delle dimensioni e della portata delle modifiche, i salvataggi precedenti alla versione 2.2 non saranno più compatibili. Se desideri continuare le tue vecchie partite con la versione 2.2, clicca sul link in basso e segui la guida per riportare Stellaris ad una versione precedente.
+Saved games from previous versions may not be compatible with version 2.6. If you wish to continue your old save in version 2.5.1, follow the forum link below and read the thread "How to revert Stellaris to a previous version."
