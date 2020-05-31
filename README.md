@@ -69,7 +69,8 @@ In generale, se vi trovate in una impasse sulla possibile traduzione, provate a 
 
 ### Codifica dei caratteri
 **La codifica dei caratteri (charset) deve essere UTF-8**. Per sicurezza utilizzate direttamente un editor di testo che supporti più charset come ad esempio [Notepad++](https://notepad-plus-plus.org/downloads/) e il charset corretto verrà riconosciuto senza problemi.
-![](meta/10.png)
+Da notare inoltre che i file di testo utilizzano dei caratteri speciali all'inizio per determinare l'ordine di scrittura dei byte (il [BOM](https://it.wikipedia.org/wiki/Byte_Order_Mark)). Usando il metodo del _copia e incolla_ questo dettaglio è trascurabile, e solitamente anche se si modificano file esistenti l'editor non tocca il BOM se è presente. Se avete comunque un'editor che vi permette di scegliere se applicare o meno il BOM, es. Notepad++ o Visual Studio Code, optate sempre per mantenerlo.
+![](meta/10.png) ![](meta/11.png)
 
 ### Ok, capito, ma come modifico i file?
 
