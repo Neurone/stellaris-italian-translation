@@ -393,6 +393,7 @@
  anomaly.2575.desc.intro:0 "La nostra dettagliata ispezione di [From.GetName] ha rivelato che in un tempo remoto può aver ospitato la vita. Sono presenti significativi depositi d'acqua ghiacciata ai poli e sotto la superficie. L'esistenza di una rete di vallate suggerisce che un tempo l'acqua poteva essere liquida."
  anomaly.2575.desc.1:0 "$anomaly.2575.desc.intro$\n\nLa terraformazione di questo corpo celeste può essere teoricamente possibile, ma non possediamo ancora la tecnologia adatta a questo compito monumentale."
  anomaly.2575.desc.2:0 "$anomaly.2575.desc.intro$\n\nIl costo energetico sarebbe folle, ma possediamo la tecnologia per terraformare gradualmente questo corpo celeste in qualcosa che potrebbe ospitare nuovamente la vita."
+ anomaly.2575.desc.3:0 "$anomaly.2575.desc.intro$\n\nUnfortunately the §YDyson Sphere§! in this system has removed any possibility of restoring the planet."
 
  utopia.3300.desc:0 "C'è una presenza qui, che occupa quest'intera regione del Velo. Abbiamo già incontrato degli spiriti, ma questo è qualcosa di diverso, qualcosa di immensamente più potente... di più antico.\n\nSembra non essersi ancora accorto di noi. Forse sta dormendo. Forse lo lasciamo semplicemente indifferente.\n\nForse dovremmo andarcene."
  utopia.3300.1.a:0 "§GCerchiamo di comunicare con la presenza§!"
