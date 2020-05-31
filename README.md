@@ -19,7 +19,6 @@ Paradox aggiorna spesso i propri prodotti, non solo aggiungendo nuovi DLC e nuov
 Per come è strutturato il gioco, e poiché questo mod vuole mantenere gli achievement attivi, non è possibile aggiungere una lingua al gioco: l'unica alternativa per avere l'italiano è modificare una delle lingue disponibili. Per comodità quindi questo mod sovrascrive direttamente la lingua di default, ossia l'inglese. La fonte principale di frasi da tradurre di trova all'interno della cartella [src/mod/localisation/english](src/mod/localisation/english).
 
 **ATTENZIONE**: alcuni file sono ancora in lavorazione per l'allineamento alla versione 2.7.2 e quindi molte chiavi potrebbero essere obsolete. Se state leggendo questo messaggio **NON perdete tempo** a modificare i seguenti file:
-- [ancient_relics_events_l_english.yml](src/mod/localisation/english/ancient_relics_events_l_english.yml)
 - [l_english.yml](src/mod/localisation/english/l_english.yml)
 - [megacorp_l_english.yml](src/mod/localisation/english/megacorp_l_english.yml)
 
@@ -69,8 +68,12 @@ In generale, se vi trovate in una impasse sulla possibile traduzione, provate a 
 
 ### Codifica dei caratteri
 **La codifica dei caratteri (charset) deve essere UTF-8**. Per sicurezza utilizzate direttamente un editor di testo che supporti più charset come ad esempio [Notepad++](https://notepad-plus-plus.org/downloads/) e il charset corretto verrà riconosciuto senza problemi.
-Da notare inoltre che i file di testo utilizzano dei caratteri speciali all'inizio per determinare l'ordine di scrittura dei byte (il [BOM](https://it.wikipedia.org/wiki/Byte_Order_Mark)). Usando il metodo del _copia e incolla_ questo dettaglio è trascurabile, e solitamente anche se si modificano file esistenti l'editor non tocca il BOM se è presente. Se avete comunque un'editor che vi permette di scegliere se applicare o meno il BOM, es. Notepad++ o Visual Studio Code, optate sempre per mantenerlo.
-![](meta/10.png) ![](meta/11.png)
+
+Da notare inoltre che i file di testo possono utilizzare dei caratteri speciali all'inizio per determinare l'ordine di scrittura dei byte (il [BOM](https://it.wikipedia.org/wiki/Byte_Order_Mark)). Usando il metodo del _copia e incolla_ questo dettaglio è trascurabile, e solitamente anche se si modificano file esistenti l'editor non tocca il BOM se è presente. Se avete comunque un'editor che vi permette di scegliere se applicare o meno il BOM, es. Notepad++ o Visual Studio Code, optate sempre per mantenerlo.
+
+![Notepad++ con codifica "UTF-8-BOM"](meta/10.png)
+
+![Visual Studio Code con codifica "UTF-8 with BOM"](meta/11.png)
 
 ### Ok, capito, ma come modifico i file?
 
