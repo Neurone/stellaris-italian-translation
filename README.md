@@ -18,10 +18,6 @@ Paradox aggiorna spesso i propri prodotti, non solo aggiungendo nuovi DLC e nuov
 
 Per come è strutturato il gioco, e poiché questo mod vuole mantenere gli achievement attivi, non è possibile aggiungere una lingua al gioco: l'unica alternativa per avere l'italiano è modificare una delle lingue disponibili. Per comodità quindi questo mod sovrascrive direttamente la lingua di default, ossia l'inglese. La fonte principale di frasi da tradurre di trova all'interno della cartella [src/mod/localisation/english](src/mod/localisation/english).
 
-**ATTENZIONE**: alcuni file sono ancora in lavorazione per l'allineamento alla versione 2.7.2 e quindi molte chiavi potrebbero essere obsolete. Se state leggendo questo messaggio **NON perdete tempo** a modificare i seguenti file:
-- [l_english.yml](src/mod/localisation/english/l_english.yml)
-- [megacorp_l_english.yml](src/mod/localisation/english/megacorp_l_english.yml)
-
 ### Chiavi e valori
 
 Ogni file contiene delle stringhe formate da una chiave, uguale per ogni linguaggio, e dalla sua traduzione corrispondente. Es., all'iterno del file [ai_crisis_l_english.yml](src/mod/localisation/english/ai_crisis_l_english.yml) si trova la linea:
