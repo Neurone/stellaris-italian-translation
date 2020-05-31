@@ -25,9 +25,11 @@ Per come è strutturato il gioco, e poiché questo mod vuole mantenere gli achie
 
 ### Chiavi e valori
 
-Ogni file contiene delle stringhe formate da una chiave, uguale per ogni linguaggio, dalla sua traduzione corrispondente. Es, all'iterno del file ai_crisis_l_english.yml si trova la linea:
+Ogni file contiene delle stringhe formate da una chiave, uguale per ogni linguaggio, e dalla sua traduzione corrispondente. Es., all'iterno del file [ai_crisis_l_english.yml](src/mod/localisation/english/ai_crisis_l_english.yml) si trova la linea:
 
-`crisis.2010.name:0 "Il Segnale Fantasma"`
+```yml
+crisis.2010.name:0 "Il Segnale Fantasma"
+```
 
 In questo caso `crisis.2010.name:0` è la chiave, mentre `"Il Segnale Fantasma"` è la traduzione. Da notare i doppi apici `"` che delimitano il valore vero e proprio della traduzione, in questo caso già tradotto.
 
@@ -58,12 +60,12 @@ Come potete notare, in inglese `the`, `of all`, ecc. funzionano praticamente sem
 Una possibile soluzione è quella di prenderci qualche libertà durante la traduzione e scrivere ad esempio:
 
 ```yml
-mirror_trade_reply:0 "Stavo per suggerirlo io stesso, a beneficio di tutto il popolo [From.GetSpeciesAdj]!"
+mirror_trade_reply:0 "Stavo per suggerirlo io stesso, a beneficio di tutto il popolo [Root.Owner.Species.GetAdj]!"
 ```
 
 In questo caso non solo ho aggiunto la parola `popolo`, ma ho usato la variabile utilizzata per definire l'aggettivo caratteristico della specie. All'interno del gioco quindi questa frase verrebbe tradotta con `popolo Rettiliano` o `popolo Umanoide`.
 
-In generale, se vi trovate in una _empasse_ sulla possibile traduzione, provate a vedere come è stato fatto in altri punti e seguite la stessa strada. Altrimenti aprite una segnalazione sul repo e discutiamo delle possibili traduzioni.
+In generale, se vi trovate in una impasse sulla possibile traduzione, provate a vedere come è stato fatto in altri punti e seguite la stessa strada. Altrimenti aprite una segnalazione sul repo e discutiamo delle possibili traduzioni.
 
 ### Codifica dei caratteri
 **La codifica dei caratteri (charset) deve essere UTF-8**. Per sicurezza utilizzate direttamente un editor di testo che supporti più charset come ad esempio [Notepad++](https://notepad-plus-plus.org/downloads/) e il charset corretto verrà riconosciuto senza problemi.

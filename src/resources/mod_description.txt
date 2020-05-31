@@ -8,4 +8,6 @@ La traduzione è ricavata per la maggior parte dai testi redatti diligentemente 
 
 [b]NOTA BENE[/b]: a causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, [u]per poter conservare ironmode e achievement ho dovuto rimuovere parte delle frasi presenti nel lavoro di traduzione originale di Puxxup[/u] (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.). Se avete già completato gli achievement e l'ironmode, o comunque non siete interessati alla cosa, usate il [url=https://steamcommunity.com/sharedfiles/filedetails/?id=823306244]mod di Puxxup[/url] per [b]un'esperienza di traduzione completa[/b]!
 
-Per costruire il vostro mod personale partendo da questo, potete usare [url=https://github.com/Neurone/stellaris-italian-translation]questo repository[/url] su github. Per suggerire modifiche o aggiornamenti alla traduzione potete utilizzare una pull request su github oppure utilizzare il forum ufficiale BOP (in quel caso di aggiungerò la traduzione solo se verrà rilasciata da BOP Italia).
+Per costruire il vostro mod personale partendo da questo, potete usare [url=https://github.com/Neurone/stellaris-italian-translation]questo repository[/url] su github.
+
+Per contribuire, suggerire modifiche o aggiornamenti alla traduzione potete utilizzare una pull request su github. Sempre su github trovate tutti i dettagli di come fare.
