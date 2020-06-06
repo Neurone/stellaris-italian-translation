@@ -4,7 +4,7 @@ Questo mod, **compatibile** con l'**Ironmode** e gli **achievement di Steam**, s
 
 Compatibile con versione: **Wells 2.7.***
 
-Sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack del 24 ottobre 2019. E' da tradurre il DLC Federations (uscito il 17 marzo 2020) ed eventuali DLC successivi, più alcune frasi sparse che Paradox ha ben deciso di inserire qua e là.
+Sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack del 24 ottobre 2019 e dalla release 1.6.0 è presente anche la prima versione della traduzione del DLC Federations (uscito il 17 marzo 2020).
 
 Benché questa traduzione sia basata in gran parte sui testi redatti diligentemente dal team [Battle of Paradox Italia](http://www.bopitalia.org) - ed in particolare dal buon Puxxup, **grande lavoro!** - a causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, per poter conservare ironmode e achievement ho dovuto lasciare non tradotte parte delle frasi (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.).
 
