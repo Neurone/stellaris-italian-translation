@@ -289,6 +289,7 @@
  action.14.a.mach:0 "Ricevuto."
  action.14.a.tooltip:2 "Modificatore §YShock Culturale§! aggiunto a §H[From.From.From.GetName]§!; riduce drasticamente la produzione e la stabilità per diversi anni."
  action.15.desc:1 "Abbiamo incontrato una nave aliena nel Sistema §Y[From.From.From.GetName]§!! Questi strani oggetti saranno identificati con il nome di §Y[From.GetName]§! finché non ne sapremo di più.\n\nDovremmo procedere con cautela..."
+ action.15.desc.enclave:0 "Abbiamo incontrato una nave aliena nel Sistema §Y[From.GetName]§!! Questi strani oggetti saranno identificati con il nome di §Y[target_enclave.GetName]§! finché non ne sapremo di più.\n\nDovremmo procedere con cautela..."
  action.20.name:0 "La Legge Entrerà in Vigore"
  action.20.desc:0 "L'intelligenza artificiale, in qualsiasi sua forma, è stata dichiarata illegale in tutto l'impero, e le autorità hanno iniziato a smantellare tutte le unità robotiche che violano questa legge.\n\nTutti gli Impianti d'Assemblaggio Robot responsabili della produzione di queste unità verranno riadattate per produrre semplici robot non sapienti."
  action.20.a:0 "Bene. Dobbiamo liberarci di questi abomini."
@@ -1059,6 +1060,7 @@
  colony.152.desc:0 "Il grande rifugio su [Root.GetName] è stato aperto. Per la sorpresa dei nostri scienziati, il vasto complesso ospita ancora milioni di sopravvissuti all'antica guerra nucleare che devastò il pianeta. Nonostante le loro limitate risorse, sono stati in grado di sostenere una società autosufficiente per secoli. All'inizio erano spaventati dai nostri scienziati, dato che non avevano mai incontrato un alieno prima d'ora, ma anche profondamente grati per essere riusciti ad aprire il rifugio.\n\nOltre ai sopravvissuti, siamo riusciti a trovare grandi depositi di equipaggiamento e macchinari specificamente progettati per ricostruire una civiltà dopo un olocausto nucleare. Gli oggetti posso essere utilizzati solo da questi alieni, ma sembrano più che lieti di unirsi ai nostri coloni sulla superficie, una volta riadattati alla luce solare."
  colony.152.a:0 "Ricostruiamo assieme questo pianeta."
  colony.152.b:0 "Eccellente. Preparate i collari da schiavo!"
+ colony.152.b.tooltip:0 "Queste popolazioni saranno rese schiave."
  colony.152.c:0 "Sigillate la feccia aliena nel rifugio e seppellite l'ingresso."
  colony.153.desc:0 "I nostri scienziati sono finalmente riusciti ad aprire l'antico rifugio su [Root.GetName], solo per farne fuoriuscire una marea di orrori mutanti... resti contorti degli abitanti originali.\n\nLe creature hanno massacrato la squadra di scienziati in pochi secondi, e sono quindi scomparsi tra le campagne. Migliaia di coloni sono stati macellati, ed interi insediamenti sono caduti di fronte all'orda famelica. Abbiamo fortificato le città rimaste e stabilito dei perimetri difensivi, ma potrebbe non bastare!"
  colony.153.a:0 "Alle armi!"
@@ -2426,7 +2428,9 @@
  pirate.2.e:0 "Pirati. Non ci serve questa feccia."
  pirate.2.f:0 "Gli affari devono continuare."
  pirate.2.g:1 "Verranno consegnati alla giustizia."
- 
+ pirate.2.h:0 "Devono tornare all'ovile."
+ pirate.2.i:0 "Dannati pirati..."
+
  pirate.5.name:0 "Pirati Spaziali"
  pirate.5.desc:0 "I vascelli che abbiamo incontrato in alcuni sistemi sono sicuramente in grado di ricevere e trasmettere comunicazioni standard.\n\nGli indicatori mostrano che la loro cultura è ampiamente spaziale, ed alcuni fenotipi osservati tra di loro corrispondono ad alcune civiltà senza dimora fissa.\n\nSfortunatamente, i loro equipaggi sono completamente disinteressati al dialogo civile. Da quel poco che siamo riusciti ad intercettare, sembra che siano principalmente dediti alla pirateria, e che occasionalmente reclutino alcuni elementi alla loro causa."
  pirate.5.a:0 "Deplorevole."

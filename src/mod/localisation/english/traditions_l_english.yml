@@ -244,6 +244,9 @@
  tr_harmony_mind_and_body:0 "Mente e Corpo"
  tr_harmony_mind_and_body_desc:0 "L'§YAspettativa di Vita del Leader§! viene aumentata di §G+20§! anni."
  tr_harmony_mind_and_body_delayed:0 "Sfruttando una combinazione di nuove tecniche meditative e sane abitudini alimentari, un vasto segmento della nostra popolazione può godere di una maggiore aspettativa di vita rispetto al passato."
+ tr_harmony_unity_of_self:0 "Unity of Self"
+ tr_harmony_unity_of_self_desc:1 "Necrophaging £pop£ §YPops§! provides £unity£ Unity."
+ tr_harmony_unity_of_self_delayed:0 "Interstellar harmony would be greatly increased if all sentient beings looked, thought and acted as we do."
  tr_harmony_finish:0 "Tradizioni d'Armonia Perfezionate"
  tr_harmony_finish_effect:7 "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_harmony_adopt$ will reduce §Y$MOD_EMPIRE_SIZE_POPS_MULT$§! by §G10%§!."
 
@@ -281,7 +284,7 @@
  tr_synchronicity_machine_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y$mod_planet_pops_robotics_upkeep_mult$§! ridotto del §G10%§!."
  tr_synchronicity_self_preservation:0 "Protocolli di Auto-Preservazione"
  tr_synchronicity_self_preservation_desc:0 "I Leader meccanici hanno il §Y50%§! in meno di probabilità di subire guasti od incidenti."
- tr_synchronicity_self_preservation_delayed:0 "Un robot deve proteggere la propria esistenza, purché questa autodifesa non contras...§R‘Ç° éü¿T éw+Á éÒÎ( éÍ8" <DATI CORROTTI>§!"
+ tr_synchronicity_self_preservation_delayed:0 "Un robot deve proteggere la propria esistenza, purché questa autodifesa non contras...§R'Ç° éü¿T éw+Á éÒÎ( éÍ8" <DATI CORROTTI>§!"
  tr_synchronicity_finish:0 "Tradizioni di Sincronismo Perfezionate"
  tr_synchronicity_finish_effect:2 "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_synchronicity_hive_adopt$ will reduce §Y$MOD_EMPIRE_SIZE_POPS_MULT$§! by §G10%§!."
 

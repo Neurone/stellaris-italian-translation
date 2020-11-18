@@ -147,7 +147,7 @@
  distar.9.name:0 "Difesa dal Super-Brillamento"
  distar.9.desc:0 "L'amministrazione planetaria è lieta di informarci che lo sviluppo della rete di scudi anti-super-brillamento attorno a [Root.GetName] si è rivelata un completo successo. Le nostre colonie non solo sono state protette dalle radiazioni, ma hanno potuto anche godere di un'incredibile spettacolo luminoso quando i venti solari hanno impattato contro la nuova rete di scudi."
  distar.10.name:0 "Super-Brillamento Colpisce [fromfrom.GetName]"
- distar.10.desc:0 "Un super-brillamento proveniente da [fromfrom.GetStarName] ha colpito l'atmosfera superiore di [fromfrom.GetName], a causa della nostra incapacità nel costruire per tempo una rete di scudi adeguata.\n\nIl plasma ionizzante e le tempeste magnetiche hanno devastato ogni dispositivo elettronico del pianeta, interferendo con la produzione energetica e inondando la popolazione di radiazioni. Gli effetti persisteranno per un bel po' di tempo."
+ distar.10.desc:0 "Un super-brillamento proveniente da [fromfromfrom.GetStarName] ha colpito l'atmosfera superiore di [fromfromfrom.GetName], a causa della nostra incapacità nel costruire per tempo una rete di scudi adeguata.\n\nIl plasma ionizzante e le tempeste magnetiche hanno devastato ogni dispositivo elettronico del pianeta, interferendo con la produzione energetica e inondando la popolazione di radiazioni. Gli effetti persisteranno per un bel po' di tempo."
  
  distar.15.name:0 "Spettro Energetico"
  distar.15.desc:0 "La composizione gassosa del disco di accrescimento attorno a [From.GetName] sembra essere responsabile dell'aberrazione cromatica mostrata dal buco nero. Il disco rifrange e riflette la luce sulla sua superficie, dando l'impressione di un arcobaleno nell'oscurità.\n\nSebbene questo arcobaleno sia solamente un'illusione ottica, le circostanze che lo creano non lo sono affatto. Il disco di accrescimento di [From.GetName] è estremamente energetico, un vero focolaio di scariche elettriche."
@@ -359,6 +359,7 @@
  distar.82.name:0 "Dio della Morte"
  distar.82.desc:0 "Dopo aver sovrastato le primitive difese approntate dai nativi su [dead_god_planet.GetName], le nostre forze sono state avvicinate da alcuni inviati del luogo. Sembra che i locali venerino i resti della gigantesca creatura sulla loro luna da generazioni immemori, come un dio della morte. Credono che, un giorno, il loro dio risorgerà e si trasformerà in un dio della rinascita, portando una nuova era di prosperità.\n\nEssendo arrivati dalle stelle con tecnologie al di fuori della loro comprensione, molti locali sembrano essere convinti di trovarsi di fronte agli araldi del loro dio della morte."
  distar.82.a:0 "Sicuramente ciò volgerà a nostro vantaggio."
+ distar.82.a.tt:0 "Every §H[worshipper_species.GetAdj]§! pop gains the modifier §Y$conviction$§! for §Y240§! months, granting §G+33%§! Happiness and §G+25%§! Resources from £pop£ Jobs."
  distar.82.b:0 "È ridicolo. Non ci presteremo a questa sceneggiata."
  distar.82.c:0 "Sì, ci manda il vostro dio. Presto vi unirete a lui."
  distar.82.d:0 "Fateli sparire dal mio pianeta e basta!"
@@ -1207,6 +1208,8 @@
  # Primordial Soup
  distar.2015.name:0 "Brodo Primordiale"
  distar.2015.desc:0 "All'interno di alcune tasche protette sulla superficie di [From.GetName], è presente una densa melma composta da semplici composti organici; i nostri ricercatori credono che possa trattarsi di un focolaio per l'abiogenesi, la formazione spontanea di vita organica dalla materia inanimata. [From.GetName] possiede un'atmosfera insolitamente densa per essere un pianeta sterile, che potrebbe renderlo abitabile per alcune forme di vita basilari.\n\nSebbene questa possa rappresentare un'opportunità unica per osservare quelli che potrebbero essere i primi stadi dell'origine della vita, sarebbe meglio mantenere basse le aspettative, dato che potrebbero volerci milioni di anni prima che la vita possa evolversi, sempre che lo faccia."
+ distar.2015.desc.terminator:0 "Nestled in sheltered pockets across [From.GetName]'s surface is a rich sludge of simple organic compounds that our research drones believe could be a hotbed for abiogenesis - the spontaneous formation of organic life from lifeless matter. [From.GetName] has an unusually thick atmosphere for a barren world, which could make it hospitable for simple lifeforms.\n\nNaturally, this is intolerable to us. We must snuff this cesspool of organic matter out before life has a chance to develop - even if that may lie millions of years in the future!"
+ distar.2015.A.machine:0 "Burn it with fire!"
  # Single-Minded
  distar.2020.name:0 "Un'Unica Mente"
  distar.2020.desc:0 "Ad una prima occhiata, [From.GetName] sembra essere abitato da una pletora di forme di vita coesistenti in un ecosistema simile al nostro, nel quale i nutrimenti ciclano nella catena alimentare tramite fotosintesi, decomposizione e predazione.\n\nTuttavia, ad un'osservazione più accurata, l'equipaggio ha scoperto che ogni forma di vita sul pianeta, sebbene sviluppatasi singolarmente, opera come un singolo organismo. Un organismo che risponde ad ogni interferenza esterna con feroce ed indiscriminata aggressività."
@@ -1952,7 +1955,7 @@
  distar.10956.a:0 "Vediamo chi arriverà per primo."
 
  distar.11500.a:0 "Cosa sapete riguardo i $lgates$?"
- distar.11500.a.tooltip.noclue:0 "I [From.GetName] ci metteranno qualche anno per scoprire un nuovo §Y$clue$§!."
+ distar.11500.a.tooltip.noclue:1 "I [From.GetName] impiegheranno approssimativamente una decade per scoprire ogni nuovo §Y$clue$§!."
  distar.11501.name:0 "$clues$"
  distar.11501.desc:0 "I $lgates$? Sì, come gli altri Portali sono più antichi anche del più vecchio $gov_stagnant_ascendancy$, ma siamo sicuri che ve ne siate già resi conto.\n\nCos'hanno di diverso? Dove conducono? Abbiamo deciso di non scavare troppo a fondo in alcuni misteri... sapete come si dice: "Il Blorg scottato, teme l'acqua fredda"; ma condivideremo alcune recenti scoperte che potrebbero essere correlate.\n\nAd un prezzo."
  distar.11501.a:0 "Vi prego."

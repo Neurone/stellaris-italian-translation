@@ -511,6 +511,8 @@
  leviathans.1018.alt.desc:0 "Il progetto ha dato i suoi frutti, ma ad un costo. Immergendo i resti del Divoratore Stellare nella stella del Sistema [guardians_stellarite_home_system.GetName] siamo riusciti a farla brillare un po' di più, ma la [Root.GetName] ed il suo equipaggio sono stati sommersi dalle esplosioni solari, in un ruggente inferno. Non ci sono sopravvissuti.\nI pianeti del sistema si stanno riscaldando, raggiungendo livelli di temperatura simili agli originali."
  leviathans.1018.a.tooltip:0 "La classe di tutti i pianeti del Sistema [guardians_stellarite_home_system.GetName] è stata modificata.\n\n[stellarite_rich_planet.GetName] diventa un Pianeta di Classe Gaia ed ottiene le seguenti risorse:\n£energy£ §G+25§!\n£minerals£ §G+10§!"
  leviathans.1018.b.tooltip:0 "La [Root.GetName] è andata distrutta.\n\nLa classe di tutti i pianeti del Sistema [guardians_stellarite_home_system.GetName] è stata modificata.\n\n[stellarite_rich_planet.GetName] diventa un Pianeta Tundra ed ottiene le seguenti risorse:\n£energy£ §G+10§!\n£minerals£ §G+15§!"
+ leviathans.1018.c.tooltip:0 "Changes the planet classes of all planets within the [guardians_stellarite_home_system.GetName] system.\n\n[stellarite_rich_planet.GetName] becomes a Gaia planet."
+ leviathans.1018.d.tooltip:0 "The [Root.GetName] is destroyed.\n\nChanges the planet classes of all planets within the [guardians_stellarite_home_system.GetName] system.\n\n[stellarite_rich_planet.GetName] becomes a Tundra planet."
 
  # INFINITY MACHINE
  leviathans.1030.name:0 "L'Equazione dell'Infinito"
@@ -703,7 +705,7 @@
 
  
  ### SPECIAL PROJECTS
- INVESTIGATE_ENCLAVE:0 "$ESTABLISH_COMMUNICATIONS$"
+ INVESTIGATE_ENCLAVE:1 "Investiga [target_enclave.GetName]"
  INVESTIGATE_ENCLAVE_DESC:0 "Dobbiamo saperne di più sui misteriosi alieni che risiedono nel §YSistema [Prev.From.GetName]§!. Se possiedono una forma di linguaggio, dobbiamo decifrarla e stabilire una comunicazione.\n\nRicompensa: £influence£ §GInfluenza§! o §SProgetto Speciale§!"
  STELLARITE_DEAD_PROJECT:0 "Divoratore Stellare"
  STELLARITE_DEAD_PROJECT_DESC:0 "Il divoratore di stelle è stato ucciso, il suo corpo ancora irradia l'energia dell'ultimo sole di cui si è nutrito. Studiandone il cadavere potremmo apprendere il segreto che gli permette di digerire i corpi più caldi dell'universo."

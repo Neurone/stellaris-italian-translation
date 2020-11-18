@@ -2,7 +2,7 @@
 
 Questo mod, **compatibile** con l'**Ironmode** e gli **achievement di Steam**, sostituisce la lingua inglese con la lingua italiana.
 
-Compatibile con versione: **Wells 2.7.***
+Compatibile con versione: **Butler 2.8.***
 
 Sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack del 24 ottobre 2019 e dalla release 1.6.0 è presente anche la prima versione della traduzione del DLC Federations (uscito il 17 marzo 2020).
 

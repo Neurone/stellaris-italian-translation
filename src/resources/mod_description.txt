@@ -1,6 +1,6 @@
 Questo mod, [b]compatibile con l'Ironmode e gli achievement di Steam[/b], sostituisce la lingua inglese con la lingua italiana.
 
-Versione supportata: Wells 2.7.*
+Versione supportata: Butler 2.8.*
 
 Sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack del 24 ottobre 2019 e la traduzione è ricavata per la maggior parte dai testi redatti diligentemente dal team Battle of Paradox Italia ed in particolare dal buon Puxxup - grande lavoro!
 

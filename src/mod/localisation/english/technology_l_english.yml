@@ -959,7 +959,7 @@
  tech_autocurating_vault:0 "Algoritmi Sociali Automatizzati"
  tech_autocurating_vault_desc:0 "Continue analisi asincrone di dati eterogenei consentono la modellazione accurata delle imprevedibili fluttuazioni sociali."
  tech_autocurating_vault_corporate:0 "Visibilità delle Acquisizioni"
- tech_autocurating_vault_desc_corporate:0 "La nostra corporazione possiede una lunga e gloriosa storia d'acquisizione di attività meno redditizie. Donando a tali acquisizioni una vasta visibilità pubblica, i nostri impiegati potranno sia trarre ispirazione dai possibili guadagni connessi che abituarsi ai necessari tagli al personale che ne derivano."
+ tech_autocurating_vault_desc_corporate:1 "A massive vault with public displays of our corporation's many glorious acquisitions will let employees draw inspiration from successful takeovers, and take warning of what happens when acquired companies fail to properly mesh into our broader business strategy."
  tech_autocurating_vault_machine_intelligence:0 "Hub Alfa"
  tech_autocurating_vault_desc_machine_intelligence:0 "Tutti i percorsi informativi conducono all'Hub, dove l'Intelligenza Meccanica può analizzarli ed interpretarli nel tempo libero."
  tech_holographic_rituals:0 "Rituali Olografici"
