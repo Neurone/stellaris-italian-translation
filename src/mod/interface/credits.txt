@@ -2639,10 +2639,15 @@ Darmac
 JakeTyler
 Nightmorphis
 Maneege
-Giuseppe "Neurone" Bertone
 
 #In-Game Tester
 Frank Pippo
+
+TRADUZIONI AGGIUNTIVE
+--------
+AndryRock
+Giuseppe "Neurone" Bertone
+
 
 --------
 

@@ -1,5 +1,5 @@
 name="Traduzione italiana"
-version="1.7.0"
+version="1.8.0"
 path="mod/stellaris-italian-translation"
 tags={
     "Translation"
