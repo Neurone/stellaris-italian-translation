@@ -461,7 +461,7 @@
  MOD_COUNTRY_STARBASE_CAPACITY_MULT:0 "$STARBASE_CAPACITY_TITLE$"
  MOD_STARBASE_TRADE_COLLECTION_RANGE_ADD:2 "Portata d'Acquisizione"
  MOD_STARBASE_TRADE_PROTECTION_RANGE_ADD:2 "Portata di Protezione"
- MOD_STARBASE_TRADE_PROTECTION_ADD:0 "Portata Commerciale"
+ MOD_STARBASE_TRADE_PROTECTION_ADD:0 "Protezione Commerciale"
  MOD_COUNTRY_LOCAL_TRADE_PROTECTION_ADD:0 "$MOD_STARBASE_TRADE_PROTECTION_ADD$"
  mod_starbase_buildings_cost_mult:0 "Costo Costruzione Base Stellare"
  mod_starbase_modules_cost_mult:0 "Costo Modulo Base Stellare"
