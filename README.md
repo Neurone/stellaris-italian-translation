@@ -18,6 +18,53 @@ Paradox aggiorna spesso i propri prodotti, non solo aggiungendo nuovi DLC e nuov
 
 Per come è strutturato il gioco, e poiché questo mod vuole mantenere gli achievement attivi, non è possibile aggiungere una lingua al gioco: l'unica alternativa per avere l'italiano è modificare una delle lingue disponibili. Per comodità quindi questo mod sovrascrive direttamente la lingua di default, ossia l'inglese. La fonte principale di frasi da tradurre di trova all'interno della cartella [src/mod/localisation/english](src/mod/localisation/english).
 
+### Cosa posso modificare?
+
+Tutto quello che trovate qui su GitHub è già traducibile senza rischi di disattivare gli achievement e l'iron mode, e in particolare i file che verranno sovrapposti a quelli del gioco si trovano tutti all'interno del percorso [src/mod](/src/mod).
+
+Se dovesse servire invece aggiungere un file non ancora presente su questo repository, prima di modificarlo bisogna assicurarsi che non sia incluso nella lista di file che vengono controllati all'avvio del gioco.
+
+Il file che indica a Stellaris la lista dei file _intoccabili_ si chiama `checksum_manifest.txt` e si trova all'interno della cartella principale di gioco. Attualmente il contenuto del file è il seguente:
+
+```
+directory 
+name = common
+sub_directories = yes
+file_extension = .txt
+
+directory 
+name = common
+sub_directories = yes
+file_extension = .lua
+
+directory
+name = common
+sub_directories = yes
+file_extension = .csv
+
+directory
+name = events
+sub_directories = yes
+file_extension = .txt
+
+directory
+name = map
+sub_directories = yes
+file_extension = .lua
+
+directory
+name = map
+sub_directories = yes
+file_extension = .txt
+
+directory
+name = localisation_synced
+sub_directories = yes
+file_extension = .yml
+```
+
+Prendendo ad esempio la prima sezione, significa che all'avvio del gioco verranno controllati tutti i file `.txt` all'interno della cartella `common` e tutte le sue sotto cartelle. Se anche solo un file di questo tipo viene modificato, il controllo fallisce e il gioco impedisce l'attivazione di iron mode e achievement. E lo stesso vale per tutte le altre sezioni indicate nel file di checksum.
+
 ### Chiavi e valori
 
 Ogni file contiene delle stringhe formate da una chiave, uguale per ogni linguaggio, e dalla sua traduzione corrispondente. Es., all'iterno del file [ai_crisis_l_english.yml](src/mod/localisation/english/ai_crisis_l_english.yml) si trova la linea:

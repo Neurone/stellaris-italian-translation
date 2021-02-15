@@ -7,7 +7,7 @@
 
  origin_necrophage:0 "Necrofagi"
  origin_necrophage_desc:0 "Questa civiltà si è evoluta come un parassita, nutrendosi delle altre forme di vita senzienti per crescere. Con l'espandersi della sua influenza nella galassia, altre specie verranno viste come apprendisti da portare nel loro gregge, o semplicemente come cibo per sostenere il loro crescente potere."
- civic_tooltip_necrophage_effects:0 "- Può convertire i Pop £pops£ delle altre specie in §Hspecie primarie§!.\n- Solo i Pop Necrofagi possono essere §Hcapi§! o prendere §Hlavori per governatore§!.\n- Inizia con §H12§ Pop! £pops£ di una specie secondaria e prepatente.\n- I pianeti abitabili garantiti sono invece §Hciviltà primitive§!."
+ civic_tooltip_necrophage_effects:0 "- Può convertire i Pop £pops£ delle altre specie in §Hspecie primarie§!.\n- Solo i Pop Necrofagi possono essere §Hcapi§! o prendere §Hlavori per governatore§!.\n- Inizia con §H12§! Pop £pops£ di una specie secondaria e prepatente.\n- I pianeti abitabili garantiti sono invece §Hciviltà primitive§!."
  civic_necrophage_secondary_species:0 "Specie Prepatente"
  trait_necrophage:0 "Necrofagi"
  trait_necrophage_desc:1 "§LQuesta specie di quasi-immortali procrea consumando popoli delle altre specie.§!"
