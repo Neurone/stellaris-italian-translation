@@ -142,7 +142,7 @@
  SENATE_FLOOR_VOTING:0 "§HVotazione per Emanare una Risoluzione§!"
  federation_leader_scaled_modifier:0 "Capacità della Flotta Federale"
 
- left_galactic_community:0 "Left Galactic Community"
+ left_galactic_community:0 "Uscito dalla Comunità Galattica"
  triggered_opinion_galactic_community_left:0 "$left_galactic_community$"
  JOIN_RECENTLY_LEFT:0 "£trigger_no£ §RYou cannot join the $GALACTIC_COMMUNITY$ after just having left it§!"
  JOIN_IN_BREACH:0 "£trigger_no£ §RNote that if you join the $GALACTIC_COMMUNITY$ at this point you will be considered in breach of galactic laws due to set Policies and will have to change them after joining or be at risk of denouncement§!"
