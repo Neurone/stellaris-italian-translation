@@ -671,27 +671,27 @@
  requires_federation_lvl_4:0 "§RRichiede una Federazione di livello §Y4§!.§!"
  requires_federation_lvl_5:0 "§RRichiede una Federazione di livello §Y5§!.§!"
 
- requires_centralization_low:0 "§RRequires $law_category_centralization$ to be §YLow§! or higher.§!"
- requires_centralization_medium:0 "§RRequires $law_category_centralization$ to be §YMedium§! or higher.§!"
- requires_centralization_high:0 "§RRequires $law_category_centralization$ to be §YHigh§! or higher.§!"
- requires_centralization_very_high:0 "§RRequires $law_category_centralization$ to be §YVery High§!.§!"
+ requires_centralization_low:0 "§RRichiede che la $law_category_centralization$ sia §YBassa§! or maggiore.§!"
+ requires_centralization_medium:0 "§RRichiede che la $law_category_centralization$ sia §YMedia§! o maggiore.§!"
+ requires_centralization_high:0 "§RRichiede che la $law_category_centralization$ sia §YAlta§! o maggiore.§!"
+ requires_centralization_very_high:0 "§RRichiede che la $law_category_centralization$ sia §YMolto Alta§!.§!"
 
- requires_strongest:0 "§RRequires $law_category_succession_type$ to be §Y$succession_type_strongest$§!.§!"
+ requires_strongest:0 "§RRichiede che il $law_category_succession_type$ sia §Y$succession_type_strongest$§!.§!"
 
- requires_megacorp_or_merchant:0 "§RRequires you to be either a §Y$gov_megacorporation$§! or to have the §Y$civic_merchant_guilds$§! civic.§!"
- disabled_for_hegemony:0 "§RA §Y$hegemony_federation$§! cannot ban subject nations from joining.§!"
- president_no_effect:0 "No effect."
+ requires_megacorp_or_merchant:0 "§RRichiede che tu sia una §Y$gov_megacorporation$§! o che tu abbia la civica §Y$civic_merchant_guilds$§! civic.§!"
+ disabled_for_hegemony:0 "§RUna §Y$hegemony_federation$§! non può vietare l'adesione di nazioni soggette.§!"
+ president_no_effect:0 "Nessun effetto."
 
- level_1:0 "Level 1"
- level_2:0 "Level 2"
- level_3:0 "Level 3"
- level_4:0 "Level 4"
- level_5:0 "Level 5"
+ level_1:0 "Livello 1"
+ level_2:0 "Livello 2"
+ level_3:0 "Livello 3"
+ level_4:0 "Livello 4"
+ level_5:0 "Livello 5"
 
- federation_acceptance_stronger:0 "Is too powerful"
+ federation_acceptance_stronger:0 "E' troppo potente"
  federation_acceptance_gestalt:0 "$ethic_gestalt_consciousness$"
- federation_acceptance_hegemony:0 "Hegemony Federation Type"
- federation_acceptance_research:0 "Technologically Superior"
+ federation_acceptance_hegemony:0 "Tipo di Federazione Egemonia"
+ federation_acceptance_research:0 "Tecnologicamente Superiore"
 
  federation_acceptance_honorbound_warriors:0 "$personality_honorbound_warriors$"
  federation_acceptance_evangelising_zealots:0 "$personality_evangelising_zealots$"
@@ -714,20 +714,20 @@
  federation_acceptance_fanatic_befrienders:0 "$personality_fanatic_befrienders$"
 
  #Contextual factors
- federation_acceptance_generally_positive:0 "Is generally positive"
- federation_acceptance_better_cohesion:0 "Cohesion is not §G90§! or higher"
- federation_acceptance_poor_cohesion:0 "Poor Cohesion"
- federation_acceptance_dont_lower_centralization:0 "Cohesion is §G50§! or higher"
- federation_acceptance_president:0 "Is Federation President"
- federation_acceptance_reduce_centralization:0 "Wants to reduce Centralization"
- federation_acceptance_reduce_fleet:0 "Wants to reduce Fleet Contribution"
- federation_acceptance_rotating:0 "Wants to change to Rotating"
- federation_acceptance_term_limit:0 "Wants a Term Limit"
- federation_acceptance_crisis:0 "Ongoing Crisis"
- federation_acceptance_subject:0 "Is a Subject"
- federation_acceptance_strong_president:0 "Is Strongest and President"
- federation_acceptance_weaker:0 "Is less powerful"
- federation_acceptance_has_subjects:0 "Has Subjects"
+ federation_acceptance_generally_positive:0 "È generalmente positivo"
+ federation_acceptance_better_cohesion:0 "La Coesione non è §G90§! o maggiore"
+ federation_acceptance_poor_cohesion:0 "Scarsa Coesione"
+ federation_acceptance_dont_lower_centralization:0 "La Coesione è §G50§! o maggiore"
+ federation_acceptance_president:0 "E' Presidente della Federazione"
+ federation_acceptance_reduce_centralization:0 "Vuole ridurre la Centralizzazione"
+ federation_acceptance_reduce_fleet:0 "Vuole ridurre la Contribuzione alla Flotta"
+ federation_acceptance_rotating:0 "Vuole cambiare a Rotazione"
+ federation_acceptance_term_limit:0 "Vuole un Termine Limite"
+ federation_acceptance_crisis:0 "Crisi in corso"
+ federation_acceptance_subject:0 "E' un Suddito"
+ federation_acceptance_strong_president:0 "E' il Più forte e Presidente"
+ federation_acceptance_weaker:0 "E' meno potente"
+ federation_acceptance_has_subjects:0 "Ha Sudditi"
 
  #Federation specific
  federation_acceptance_hegemony_federation:0 "$hegemony_federation$"
@@ -750,7 +750,7 @@
  #federation_acceptance_peaceful_traders_in_trade_federation: "$peaceful_traders$ in a $trade_federation$"
  federation_acceptance_warrior_culture:0 "$civic_warrior_culture$"
  federation_acceptance_technocracy:0 "$civic_technocracy$"
- federation_acceptance_no_psionic:0 "Lacks $psionics$"
+ federation_acceptance_no_psionic:0 "Non ha $psionics$"
  federation_acceptance_psionic:0 "$psionics$"
  federation_acceptance_corporate:0 "$gov_megacorporation$"
 
@@ -771,117 +771,117 @@
  ### MEGA SHIPYARD + JUGGERNAUT
  ####################
 
- tech_mega_shipyard:0 "Mega Shipyard"
- tech_mega_shipyard_desc:0 "A zero-G construction yard of overwhelming proportion, capable of performing several space ship assembly projects simultaneously."
+ tech_mega_shipyard:0 "Mega Cantiere Navale"
+ tech_mega_shipyard_desc:0 "Un cantiere di costruzione a gravità zero di proporzioni schiaccianti, in grado di eseguire contemporaneamente numerosi progetti di assemblaggio di navi spaziali."
  tech_juggernaut:0 "Juggernaut"
- tech_juggernaut_desc:0 "A mobile space base of unparalleled proportions, the Juggernaut ship class takes offensive warfare to a whole new level."
+ tech_juggernaut_desc:0 "Base spaziale mobile di proporzioni impareggiabili, la classe di navi Juggernaut porta la guerra offensiva ad un livello completamente nuovo."
 
- tech_advanced_metallurgy_1:0 "Ceramo-Metal Alloys"
- tech_advanced_metallurgy_1_desc:0 "The widespread use of advanced ceramics in industry can improve metallurgical yields."
- tech_advanced_metallurgy_2:0 "Durasteel-Laced Alloys"
- tech_advanced_metallurgy_2_desc:0 "By replacing antiquated ceramo-metal equipment with cutting edge technology, we can run our forges hotter and longer, increasing production."
- tech_consumer_good_refinement_1:0 "Market Analysis Algorithms"
- tech_consumer_good_refinement_1_desc:0 "Basic administrative AIs can be used to streamline supply and demand lines, reducing waste."
- tech_consumer_good_refinement_2:0 "Predictive Consumerism"
- tech_consumer_good_refinement_2_desc:0 "Using advanced AIs, we can reliably predict consumer demand before it exists."
+ tech_advanced_metallurgy_1:0 "Leghe Ceramo-Metalliche"
+ tech_advanced_metallurgy_1_desc:0 "L'uso diffuso di ceramiche avanzate nell'industria può migliorare le rese metallurgiche."
+ tech_advanced_metallurgy_2:0 "Leghe Duracciaio"
+ tech_advanced_metallurgy_2_desc:0 "Sostituendo le antiquate apparecchiature ceramo-metalliche con tecnologie all'avanguardia, possiamo far funzionare le nostre fucine a maggiori temperature e più a lungo, aumentando la produzione."
+ tech_consumer_good_refinement_1:0 "Algoritmi di Analisi di Mercato"
+ tech_consumer_good_refinement_1_desc:0 "Le IA amministrative di base possono essere utilizzate per snellire le linee di domanda e offerta, riducendo gli sprechi."
+ tech_consumer_good_refinement_2:0 "Consumismo Predittivo"
+ tech_consumer_good_refinement_2_desc:0 "Utilizzando IA avanzate, possiamo prevedere in modo affidabile la domanda dei consumatori prima che esista."
 
  ####################
  ### RESOLUTIONS
  ####################
 
- resolution_already_active:0 "£trigger_no£ This resolution is already active"
+ resolution_already_active:0 "£trigger_no£ Questa risoluzione è già attiva"
 
- environment_technology:0 "Environment and Technology"
- commerce_industry:0 "Commerce and Industry"
- defense_war:0 "Defense and War"
- politics_culture:0 "Politics and Culture"
- galactic_focus:0 "Galactic Priorities"
+ environment_technology:0 "Ambiente e Tecnologia"
+ commerce_industry:0 "Commercio e Industria"
+ defense_war:0 "Difesa e Guerra"
+ politics_culture:0 "Politiche e Cultura"
+ galactic_focus:0 "Priorità Galattiche"
 
- resolution_denounced:0 "Denounced"
+ resolution_denounced:0 "Denunciato"
 
  # Galactic Market
- resolution_category_galactic_market:0 "Galactic Market"
+ resolution_category_galactic_market:0 "Mercato Galattico"
 
- resolution_galactic_market_form:0 "Form the Galactic Market"
- resolution_galactic_market_form_desc:0 "De facto galactic trade, unbound by international diplomacy, has existed since the first two interstellar species met.\n\nAs galactic leaders we should agree that it is time to §Ylegitimize this commercial forum§! so that all may benefit."
- resolution_galactic_market_form_effect_success:0 "Begins the $action.96.name$ event chain."
- resolution_galactic_market_form_effect_failure:0 "The $action.106.name$ will not be formed yet."
+ resolution_galactic_market_form:0 "Forma il Mercato Galattico"
+ resolution_galactic_market_form_desc:0 "De facto il commercio galattico, non vincolato dalla diplomazia internazionale, esiste da quando le due prime specie interstellari si sono incontrate.\n\nIn quanto leader galattici, dovremmo convenire che è tempo di §Ylegittimare questo forum commerciale§! in modo che tutti possano trarne vantaggio."
+ resolution_galactic_market_form_effect_success:0 "Comincia la catena di eventi $action.96.name$."
+ resolution_galactic_market_form_effect_failure:0 "Il $action.106.name$ non verrà ancora formato."
 
  galactic_market_founded:0 "$resolution_galactic_market_form$"
 
  # Ecology
- resolution_category_ecology:0 "Ecological Protection"
+ resolution_category_ecology:0 "Protezione Ecologica"
 
- resolution_ecology_repeal_1:0 "§RRepeal $resolution_ecology_recycling_initiatives$§!"
- resolution_ecology_repeal_1_desc:0 "While protecting the environment is clearly important, the empires of the Galactic Community should be trusted to make their own decisions."
- resolution_ecology_repeal_1_effect_success:0 "Repeals the §Y$resolution_ecology_recycling_initiatives$§! resolution."
+ resolution_ecology_repeal_1:0 "§RRevoca $resolution_ecology_recycling_initiatives$§!"
+ resolution_ecology_repeal_1_desc:0 "Sebbene proteggere l'ambiente sia chiaramente importante, ci si dovrebbe fidare degli imperi della Comunità Galattica che prendono le proprie decisioni."
+ resolution_ecology_repeal_1_effect_success:0 "Revoca la risoluzione §Y$resolution_ecology_recycling_initiatives$§!."
 
- resolution_ecology_repeal_2:0 "§RRepeal $resolution_ecology_natural_sanctuaries$§!"
+ resolution_ecology_repeal_2:0 "§RRevoca $resolution_ecology_natural_sanctuaries$§!"
  resolution_ecology_repeal_2_desc:0 "$resolution_ecology_repeal_1_desc$"
- resolution_ecology_repeal_2_effect_success:2 "Repeals the §Y$resolution_ecology_natural_sanctuaries$§! resolution, leaving §Y$resolution_ecology_recycling_initiatives$§! as galactic law."
+ resolution_ecology_repeal_2_effect_success:2 "Revoca la risoluzione §Y$resolution_ecology_natural_sanctuaries$§!, lasciando §Y$resolution_ecology_recycling_initiatives$§! come legge galattica."
 
- resolution_ecology_repeal_3:0 "§RRepeal $resolution_ecology_integrated_gardens$§!"
+ resolution_ecology_repeal_3:0 "§RRevoca $resolution_ecology_integrated_gardens$§!"
  resolution_ecology_repeal_3_desc:0 "$resolution_ecology_repeal_1_desc$"
- resolution_ecology_repeal_3_effect_success:2 "Repeals the §Y$resolution_ecology_integrated_gardens$§! resolution, leaving §Y$resolution_ecology_natural_sanctuaries$§! as galactic law."
+ resolution_ecology_repeal_3_effect_success:2 "Revoca la risoluzione §Y$resolution_ecology_integrated_gardens$§!, lasciando §Y$resolution_ecology_natural_sanctuaries$§! come legge galattica."
 
- resolution_ecology_repeal_4:0 "§RRepeal $resolution_ecology_environmental_control_board$§!"
+ resolution_ecology_repeal_4:0 "§RRevoca $resolution_ecology_environmental_control_board$§!"
  resolution_ecology_repeal_4_desc:0 "$resolution_ecology_repeal_1_desc$"
- resolution_ecology_repeal_4_effect_success:2 "Repeals the §Y$resolution_ecology_environmental_control_board$§! resolution, leaving §Y$resolution_ecology_integrated_gardens$§! as galactic law."
+ resolution_ecology_repeal_4_effect_success:2 "Revoca la risoluzione §Y$resolution_ecology_environmental_control_board$§!, lasciando §Y$resolution_ecology_integrated_gardens$§! come legge galattica."
 
- resolution_ecology_repeal_5:0 "§RRepeal $resolution_ecology_paradise_initiative$§!"
+ resolution_ecology_repeal_5:0 "§RRevoca $resolution_ecology_paradise_initiative$§!"
  resolution_ecology_repeal_5_desc:0 "$resolution_ecology_repeal_1_desc$"
- resolution_ecology_repeal_5_effect_success:2 "Repeals the §Y$resolution_ecology_paradise_initiative$§! resolution, leaving §Y$resolution_ecology_environmental_control_board$§! as galactic law.\n\n"
+ resolution_ecology_repeal_5_effect_success:2 "Revoca la risoluzione §Y$resolution_ecology_paradise_initiative$§!, lasciando §Y$resolution_ecology_environmental_control_board$§! come legge galattica.\n\n"
 
- resolution_ecology_recycling_initiatives:0 "Pangalactic Recycling Initiatives"
- resolution_ecology_recycling_initiatives_desc:0 "We all benefit from reducing waste and reusing what we can. Sharing recycling protocols between the nations of the Galactic Community will help all of us."
+ resolution_ecology_recycling_initiatives:0 "Iniziative Pangalattiche di Riciclaggio "
+ resolution_ecology_recycling_initiatives_desc:0 "Tutti beneficiamo della riduzione degli sprechi e del riutilizzo di ciò che possiamo. La condivisione dei protocolli di riciclaggio tra le nazioni della Comunità Galattica aiuterà tutti noi."
 
- resolution_ecology_natural_sanctuaries:0 "Natural Sanctuaries"
- resolution_ecology_natural_sanctuaries_desc:0 "We should preserve natural spaces as parks, where citizens can escape from their troubles. Minor restrictions to heavy industry are required, but it's a low price to pay."
+ resolution_ecology_natural_sanctuaries:0 "Santuari Naturali"
+ resolution_ecology_natural_sanctuaries_desc:0 "Dobbiamo preservare gli spazi naturali come parchi, dove i cittadini possono sfuggire ai loro problemi. Sono necessarie restrizioni minori all'industria pesante, ma è un prezzo basso da pagare."
 
- resolution_ecology_integrated_gardens:0 "Integrated Gardens"
- resolution_ecology_integrated_gardens_desc:0 "By encouraging our citizens to grow their own food and mandating easy to use hydroponic systems, we can reduce our impact on the worlds we live in and enjoy more greenery."
+ resolution_ecology_integrated_gardens:0 "Giardini Integrati"
+ resolution_ecology_integrated_gardens_desc:0 "Incoraggiando i nostri cittadini a coltivare il proprio cibo e imponendo sistemi idroponici facili da usare, possiamo ridurre il nostro impatto sui mondi in cui viviamo e godere di più vegetazione."
 
- resolution_ecology_environmental_control_board:0 "Environmental Control Board"
- resolution_ecology_environmental_control_board_desc:0 "Industry cannot regulate itself. We need a multinational environmental control board with the power to oversee industry and development to shut down environmental abuse."
- resolution_ecology_environmental_control_board_tooltip:1 "Converting planets into an §YEcumenopolis§! or §YTerraforming§! them into anything other than a §YGaia World§! is §Rbanned§!."
+ resolution_ecology_environmental_control_board:0 "Comitato di Controllo Ambientale"
+ resolution_ecology_environmental_control_board_desc:0 "L'industria non può autoregolarsi. Abbiamo bisogno di un consiglio di comitato ambientale multinazionale con il potere di supervisionare l'industria e lo sviluppo per porre fine agli abusi ambientali."
+ resolution_ecology_environmental_control_board_tooltip:1 "Convertire pianeti in §YEcumenopoli§! o §YTerraformarli§! diversamente da un §YPianeta Gaia§! è §Rvietato§!."
 
- resolution_ecology_paradise_initiative:0 "The Paradise Initiative"
- resolution_ecology_paradise_initiative_desc:0 "With meticulous caretaking of our worlds, we can live in ecological harmony. It should be our goal to leave only memories behind where we tread."
+ resolution_ecology_paradise_initiative:0 "L'Iniziativa Paradiso"
+ resolution_ecology_paradise_initiative_desc:0 "Con una cura meticolosa dei nostri mondi, possiamo vivere in armonia ecologica. Il nostro obiettivo dovrebbe essere quello di lasciare indietro solo ricordi dove camminiamo."
 
  # Galactic Studies
 
- resolution_category_galacticstudies:0 "Unchained Knowledge"
+ resolution_category_galacticstudies:0 "Conoscenza Libera"
 
- resolution_galacticstudies_repeal_1:0 "§RRepeal $resolution_galacticstudies_cooperative_research_channels$§!"
- resolution_galacticstudies_repeal_1_desc:0 "Galactic law currently places significant amounts of intellectual property and national security issues at risk. We must repeal these misguided laws in order to protect our people."
- resolution_galacticstudies_repeal_1_effect_success:0 "Repeals the §Y$resolution_galacticstudies_cooperative_research_channels$§! resolution."
+ resolution_galacticstudies_repeal_1:0 "§RRevoca $resolution_galacticstudies_cooperative_research_channels$§!"
+ resolution_galacticstudies_repeal_1_desc:0 "La legge galattica attualmente mette a rischio quantità significative di proprietà intellettuale e problemi di sicurezza nazionale. Dobbiamo abrogare queste leggi fuorvianti per proteggere il nostro popolo."
+ resolution_galacticstudies_repeal_1_effect_success:0 "Revoca la risoluzione §Y$resolution_galacticstudies_cooperative_research_channels$§!."
 
- resolution_galacticstudies_repeal_2:0 "§RRepeal $resolution_galacticstudies_astral_studies_network$§!"
+ resolution_galacticstudies_repeal_2:0 "§RRevoca $resolution_galacticstudies_astral_studies_network$§!"
  resolution_galacticstudies_repeal_2_desc:0 "$resolution_galacticstudies_repeal_1_desc$"
- resolution_galacticstudies_repeal_2_effect_success:2 "Repeals the §Y$resolution_galacticstudies_astral_studies_network$§! resolution, leaving §Y$resolution_galacticstudies_cooperative_research_channels$§! as galactic law."
+ resolution_galacticstudies_repeal_2_effect_success:2 "Revoca la risoluzione §Y$resolution_galacticstudies_astral_studies_network$§!, lasciando §Y$resolution_galacticstudies_cooperative_research_channels$§! come legge galattica."
 
- resolution_galacticstudies_repeal_3:0 "§RRepeal $resolution_galacticstudies_advanced_xenostudies$§!"
+ resolution_galacticstudies_repeal_3:0 "§RRevoca $resolution_galacticstudies_advanced_xenostudies$§!"
  resolution_galacticstudies_repeal_3_desc:0 "$resolution_galacticstudies_repeal_1_desc$"
- resolution_galacticstudies_repeal_3_effect_success:2 "Repeals the §Y$resolution_galacticstudies_advanced_xenostudies$§! resolution, leaving §Y$resolution_galacticstudies_astral_studies_network$§! as galactic law.\n\n"
+ resolution_galacticstudies_repeal_3_effect_success:2 "Revoca la risoluzione §Y$resolution_galacticstudies_advanced_xenostudies$§!, lasciando §Y$resolution_galacticstudies_astral_studies_network$§! come legge galattica.\n\n"
 
- resolution_galacticstudies_repeal_4:0 "§RRepeal $resolution_galacticstudies_ethical_guideline_refactoring$§!"
+ resolution_galacticstudies_repeal_4:0 "§RRevoca $resolution_galacticstudies_ethical_guideline_refactoring$§!"
  resolution_galacticstudies_repeal_4_desc:0 "$resolution_galacticstudies_repeal_1_desc$"
- resolution_galacticstudies_repeal_4_effect_success:2 "Repeals the §Y$resolution_galacticstudies_ethical_guideline_refactoring$§! resolution, leaving §Y$resolution_galacticstudies_advanced_xenostudies$§! as galactic law.\n\n"
+ resolution_galacticstudies_repeal_4_effect_success:2 "Revoca la risoluzione §Y$resolution_galacticstudies_ethical_guideline_refactoring$§!, lasciando §Y$resolution_galacticstudies_advanced_xenostudies$§! come legge galattica.\n\n"
 
- resolution_galacticstudies_repeal_5:0 "§RRepeal $resolution_galacticstudies_extradimensional_experimentation$§!"
+ resolution_galacticstudies_repeal_5:0 "§RRevoca $resolution_galacticstudies_extradimensional_experimentation$§!"
  resolution_galacticstudies_repeal_5_desc:0 "$resolution_galacticstudies_repeal_1_desc$"
- resolution_galacticstudies_repeal_5_effect_success:2 "Repeals the §Y$resolution_galacticstudies_extradimensional_experimentation$§! resolution, leaving §Y$resolution_galacticstudies_ethical_guideline_refactoring$§! as galactic law.\n\n"
+ resolution_galacticstudies_repeal_5_effect_success:2 "Revoca la risoluzione §Y$resolution_galacticstudies_extradimensional_experimentation$§!, lasciando §Y$resolution_galacticstudies_ethical_guideline_refactoring$§! come legge galattica.\n\n"
 
- resolution_galacticstudies_cooperative_research_channels:0 "Cooperative Research Channels"
- resolution_galacticstudies_cooperative_research_channels_desc:0 "We should establish protocols that permit the scientists of the Galactic Community to share and review discoveries more easily."
+ resolution_galacticstudies_cooperative_research_channels:0 "Canali Cooperativi di Ricerca"
+ resolution_galacticstudies_cooperative_research_channels_desc:0 "Dovremmo stabilire protocolli che permettano agli scienziati della Comunità Galattica di condividere e rivedere le scoperte più facilmente."
 
- resolution_galacticstudies_astral_studies_network:0 "Astral Studies Network"
- resolution_galacticstudies_astral_studies_network_desc:0 "By linking our starbases together into a massive sensor mesh, we can greatly improve the quality of data that we gather."
- resolution_galacticstudies_astral_studies_network_tooltip:0 "Enhances the effectiveness of the §Y$sm_solar_panel_network$§!, §Y$sm_black_hole_observatory$§!, and §Y$sm_listening_post$§! starbase modules and buildings."
+ resolution_galacticstudies_astral_studies_network:0 "Rete di Studi Astrali"
+ resolution_galacticstudies_astral_studies_network_desc:0 "Collegando le nostre basi stellari in una massiccia rete di sensori, possiamo migliorare notevolmente la qualità dei dati che raccogliamo."
+ resolution_galacticstudies_astral_studies_network_tooltip:0 "Migliora l'efficienza dei moduli e edifici delle basi stellari §Y$sm_solar_panel_network$§!, §Y$sm_black_hole_observatory$§! e §Y$sm_listening_post$§!."
 
- resolution_galacticstudies_advanced_xenostudies:0 "Advanced Xenostudies"
- resolution_galacticstudies_advanced_xenostudies_desc:0 "There is much to learn from all of the cultures of the universe. We should add additional information gathering instrumentation to all starbases while working more closely with Enclaves."
- resolution_galacticstudies_advanced_xenostudies_tooltip:0 "Observation Posts provide additional £society£ §HSociety Research§! while §YObserving§! or §YInfiltrating§! primitive civilizations.\n\nEnhances the effectiveness of the §Y$sm_art_college$§!, §Y$sm_curator_think_tank$§!, and §Y$sm_trader_proxy_office$§! starbase buildings.\n\nThe §YArtificial Intelligence Outlawed§! and §YPassive Native Studies§! policies are §Rbanned§!."
+ resolution_galacticstudies_advanced_xenostudies:0 "Xenostudi Avanzati"
+ resolution_galacticstudies_advanced_xenostudies_desc:0 "C'è molto da imparare da tutte le culture dell'universo. Dovremmo aggiungere ulteriori strumenti per la raccolta di informazioni a tutte le basi stellari mentre lavoriamo più a stretto contatto con le Enclavi."
+ resolution_galacticstudies_advanced_xenostudies_tooltip:0 "Gli Avamposti forniscono £society£ §HRicerca Sociologica§! addizionale durante l'§YOsservazione§! o l'§YInfiltrazione§! di civiltà primitive.\n\nMigliora l'efficienza degli edifici delle basi stellari §Y$sm_art_college$§!, §Y$sm_curator_think_tank$§! e §Y$sm_trader_proxy_office$§!.\n\nLe Politiche §YIntelligenza Artificiale Fuorilegge§! e §YStudi Passivi sui Nativi§! sono §Rvietate§!."
 
  resolution_galacticstudies_ethical_guideline_refactoring:0 "Ethical Guideline Refactoring"
  resolution_galacticstudies_ethical_guideline_refactoring_desc:0 "To possess the ability to further science provides a moral imperative to do so, free from outdated ethical concepts that restrain us. We do what we must because we can."
