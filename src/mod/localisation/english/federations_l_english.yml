@@ -883,183 +883,183 @@
  resolution_galacticstudies_advanced_xenostudies_desc:0 "C'è molto da imparare da tutte le culture dell'universo. Dovremmo aggiungere ulteriori strumenti per la raccolta di informazioni a tutte le basi stellari mentre lavoriamo più a stretto contatto con le Enclavi."
  resolution_galacticstudies_advanced_xenostudies_tooltip:0 "Gli Avamposti forniscono £society£ §HRicerca Sociologica§! addizionale durante l'§YOsservazione§! o l'§YInfiltrazione§! di civiltà primitive.\n\nMigliora l'efficienza degli edifici delle basi stellari §Y$sm_art_college$§!, §Y$sm_curator_think_tank$§! e §Y$sm_trader_proxy_office$§!.\n\nLe Politiche §YIntelligenza Artificiale Fuorilegge§! e §YStudi Passivi sui Nativi§! sono §Rvietate§!."
 
- resolution_galacticstudies_ethical_guideline_refactoring:0 "Ethical Guideline Refactoring"
- resolution_galacticstudies_ethical_guideline_refactoring_desc:0 "To possess the ability to further science provides a moral imperative to do so, free from outdated ethical concepts that restrain us. We do what we must because we can."
- resolution_galacticstudies_ethical_guideline_refactoring_tooltip:0 "Empires must use the most powerful §YLeader Enhancement§! policy available to them or be in §RBreach of Galactic Law§!!\n\nEmpires that are §YEgalitarian§! may be unable to meet this requirement and will be in §RBreach of Galactic Law§!!"
+ resolution_galacticstudies_ethical_guideline_refactoring:0 "Modernizzazione dei Principi Etici"
+ resolution_galacticstudies_ethical_guideline_refactoring_desc:0 "Possedere la capacità di promuovere la scienza fornisce l'imperativo morale di farlo, libero da concetti etici obsoleti che ci frenano. Facciamo ciò che dobbiamo perché possiamo."
+ resolution_galacticstudies_ethical_guideline_refactoring_tooltip:0 "Gli imperi devono usare la più potente politica di §YMiglioramento Leader§! disponibile o saranno in §RViolazione della Legge Galattica§!!\n\nGli imperi §YEgualitari§! potrebbero non soddisfare questo requisito, e saranno in §RViolazione della Legge Galattica§!!"
 
- resolution_galacticstudies_extradimensional_experimentation:0 "Extradimensional Experimentation"
- resolution_galacticstudies_extradimensional_experimentation_desc:0 "Preliminary studies suggest that extensive use of reality-altering substances can grant researchers unexpected insights.\n\n§RAfter all, what's the worst that could happen?§!"
- resolution_galacticstudies_extradimensional_experimentation_tooltip:0 "Unlocks a planetary decision that consumes £sr_zro£ Zro to fund extradimensional research at Advanced Research Complexes."
+ resolution_galacticstudies_extradimensional_experimentation:0 "Sperimentazione Extradimensionale"
+ resolution_galacticstudies_extradimensional_experimentation_desc:0 "Studi preliminari suggeriscono che l'uso intensivo di sostanze che alterano la realtà può fornire ai ricercatori intuizioni inaspettate.\n\n§RDopo tutto, coe'è il peggio che potrebbe accadere?§!"
+ resolution_galacticstudies_extradimensional_experimentation_tooltip:0 "Sblocca una decisione planetaria che utilizza £sr_zro£ Zro per finanziare la ricerca extradimensionale ai Complessi di Ricerca Avanzati."
  pm_extradimensional_experimentation:0 "$resolution_galacticstudies_extradimensional_experimentation$"
- pm_extradimensional_experimentation_tooltip:0 "§Y$building_research_lab_3$§!:\n+1£sr_zro£ Zro upkeep\n+1£job_researcher£ $job_dimensional_portal_researcher$"
- pm_extradimensional_experimentation_desc:0 "Extradimensional studies are ongoing at this planet's Advanced Research Complexes.\n\n§RWhat could possibly go wrong?§!"
- extradimensional_experimentation_tooltip:0 "§YPlanetary Decision Unlocked:§! $pm_extradimensional_experimentation$"
+ pm_extradimensional_experimentation_tooltip:0 "§Y$building_research_lab_3$§!:\n+1£sr_zro£ Zro mantenimento\n+1£job_researcher£ $job_dimensional_portal_researcher$"
+ pm_extradimensional_experimentation_desc:0 "Studi Extradimensionali sono in corso nei Complessi di Ricerca Avanzati di questo pianeta.\n\n§RChe cosa potrebbe andare storto?§!"
+ extradimensional_experimentation_tooltip:0 "§YDecisionePlanetaria Sbloccata:§! $pm_extradimensional_experimentation$"
  decision_extradimensional_experimentation:0 "$resolution_galacticstudies_extradimensional_experimentation$"
  decision_extradimensional_experimentation_desc:0 "$pm_extradimensional_experimentation_desc$"
- decision_end_extradimensional_experimentation:0 "End $resolution_galacticstudies_extradimensional_experimentation$"
- decision_end_extradimensional_experimentation_desc:0 "This experimentation is dangerous and must end. What were we thinking?"
+ decision_end_extradimensional_experimentation:0 "Termina $resolution_galacticstudies_extradimensional_experimentation$"
+ decision_end_extradimensional_experimentation_desc:0 "Questa sperimentazione è pericolosa e deve finire. Cosa credevamo?"
  federations.10020.name:0 "$resolution_galacticstudies_extradimensional_experimentation$"
- federations.10020.desc:0 "The secrets of this universe are not all that is out there.\n\nThe Galactic Community has authorized the use of reality-altering substances to enhance our research, allowing our scientists in Advanced Research Complexes to probe other realities for the truth."
- federations.10020.desc_gestalt:0 "The secrets of this universe are not all that is out there.\n\nThe Galactic Community has authorized the use of reality-altering substances to enhance our research, allowing our research drones in Advanced Research Complexes to probe other realities for the truth."
+ federations.10020.desc:0 "I segreti di questo universo non sono tutto ciò che è là fuori.\n\nLa Comunità Galattica ha autorizzato l'uso di sostanze che alterano la realtà per migliorare la nostra ricerca, consentendo ai nostri scienziati nei Complessi di Ricerca Avanzati di sondare altre realtà per la verità."
+ federations.10020.desc_gestalt:0 "I segreti di questo universo non sono tutto ciò che è là fuori.\n\nLa Comunità Galattica ha autorizzato l'uso di sostanze che alterano la realtà per migliorare la nostra ricerca, consentendo ai nostri droni di ricerca nei Complessi di Ricerca Avanzati di sondare altre realtà per la verità."
 
 
  # Industry
- resolution_category_industry:0 "Industrial Development"
+ resolution_category_industry:0 "Sviluppo Industriale"
 
- resolution_industry_repeal_1:0 "§RRepeal $resolution_industry_regulatory_facilitation$§!"
- resolution_industry_repeal_1_desc:0 "The Galactic Community has no place meddling in industrial matters. We should not be forcing our views on other empires."
- resolution_industry_repeal_1_effect_success:0 "Repeals the §Y$resolution_industry_regulatory_facilitation$§! resolution."
+ resolution_industry_repeal_1:0 "§RRevoca $resolution_industry_regulatory_facilitation$§!"
+ resolution_industry_repeal_1_desc:0 "La Comunità Galattica non ha posto per intromettersi nelle questioni industriali. Non dovremmo forzare le nostre opinioni su altri imperi."
+ resolution_industry_repeal_1_effect_success:0 "Revoca la risoluzione §Y$resolution_industry_regulatory_facilitation$§!."
 
- resolution_industry_repeal_2:0 "§RRepeal $resolution_industry_collective_waste_management$§!"
+ resolution_industry_repeal_2:0 "§RReRevoca $resolution_industry_collective_waste_management$§!"
  resolution_industry_repeal_2_desc:0 "$resolution_industry_repeal_1_desc$"
- resolution_industry_repeal_2_effect_success:2 "Repeals the §Y$resolution_industry_collective_waste_management$§! resolution, leaving §Y$resolution_industry_regulatory_facilitation$§! as galactic law."
+ resolution_industry_repeal_2_effect_success:2 "Revoca la risoluzione §Y$resolution_industry_collective_waste_management$§!, lasciando §Y$resolution_industry_regulatory_facilitation$§! come legge galattica."
 
- resolution_industry_repeal_3:0 "§RRepeal $resolution_industry_building_a_better_tomorrow$§!"
+ resolution_industry_repeal_3:0 "§RRevoca $resolution_industry_building_a_better_tomorrow$§!"
  resolution_industry_repeal_3_desc:0 "$resolution_industry_repeal_1_desc$"
- resolution_industry_repeal_3_effect_success:2 "Repeals the §Y$resolution_industry_building_a_better_tomorrow$§! resolution, leaving §Y$resolution_industry_collective_waste_management$§! as galactic law."
+ resolution_industry_repeal_3_effect_success:2 "Revoca la risoluzione §Y$resolution_industry_building_a_better_tomorrow$§!, lasciando §Y$resolution_industry_collective_waste_management$§! come legge galattica."
 
- resolution_industry_repeal_4:0 "§RRepeal $resolution_industry_environmental_ordinance_waivers$§!"
+ resolution_industry_repeal_4:0 "§RRevoca $resolution_industry_environmental_ordinance_waivers$§!"
  resolution_industry_repeal_4_desc:0 "$resolution_industry_repeal_1_desc$"
- resolution_industry_repeal_4_effect_success:2 "Repeals the §Y$resolution_industry_environmental_ordinance_waivers$§! resolution, leaving §Y$resolution_industry_building_a_better_tomorrow$§! as galactic law."
+ resolution_industry_repeal_4_effect_success:2 "Revoca la risoluzione §Y$resolution_industry_environmental_ordinance_waivers$§!, lasciando §Y$resolution_industry_building_a_better_tomorrow$§! come legge galattica."
 
- resolution_industry_repeal_5:0 "§RRepeal $resolution_industry_project_cornucopia$§!"
+ resolution_industry_repeal_5:0 "§RRevoca $resolution_industry_project_cornucopia$§!"
  resolution_industry_repeal_5_desc:0 "$resolution_industry_repeal_1_desc$"
- resolution_industry_repeal_5_effect_success:2 "Repeals the §Y$resolution_industry_project_cornucopia$§! resolution, leaving §Y$resolution_industry_environmental_ordinance_waivers$§! as galactic law.\n\n"
+ resolution_industry_repeal_5_effect_success:2 "Revoca la risoluzione §Y$resolution_industry_project_cornucopia$§!, lasciando §Y$resolution_industry_environmental_ordinance_waivers$§! come legge galattica.\n\n"
 
- resolution_industry_regulatory_facilitation:0 "Regulatory Facilitation"
- resolution_industry_regulatory_facilitation_desc:0 "We should leave regulatory decisions to the experts. Industry leaders are the best qualified to identify wasteful regulations that impede productivity."
+ resolution_industry_regulatory_facilitation:0 "Facilitazione Normativa"
+ resolution_industry_regulatory_facilitation_desc:0 "Dobbiamo lasciare le decisioni normative agli esperti. I leader del settore sono i più qualificati per identificare normative dispendiose che ostacolano la produttività."
 
- resolution_industry_collective_waste_management:0 "Collective Waste Management"
- resolution_industry_collective_waste_management_desc:0 "Instead of forcing each mine or factory to bear the burden of dealing with industrial waste themselves, we should designate areas where we can store the leftovers of progress."
+ resolution_industry_collective_waste_management:0 "Gestione collettiva dei Rifiuti"
+ resolution_industry_collective_waste_management_desc:0 "Invece di costringere ogni miniera o fabbrica a sopportare l'onere di trattare i rifiuti industriali da sola, dovremmo designare aree in cui possiamo immagazzinare gli avanzi del progresso."
 
- resolution_industry_building_a_better_tomorrow:0 "Building a Better Tomorrow"
- resolution_industry_building_a_better_tomorrow_desc:0 "Progress cannot be limited by any obstacles that stand before us. Let us share techniques with one another to aid us in harnessing and dominating the natural world."
+ resolution_industry_building_a_better_tomorrow:0 "Costruire un Domani Migliore"
+ resolution_industry_building_a_better_tomorrow_desc:0 "Il progresso non può essere limitato da alcun ostacolo che ci troviamo di fronte. Condividiamo le tecniche tra noi per aiutarci a sfruttare e dominare il mondo naturale."
 
- resolution_industry_environmental_ordinance_waivers:0 "Environmental Ordinance Waivers"
- resolution_industry_environmental_ordinance_waivers_desc:0 "The Galactic Community should empower local councils to suspend antiquated rules that do not serve the public good and are simply blocking progress."
- resolution_industry_environmental_ordinance_waivers_tooltip:0 "Forge, Industry, and Refinery planetary designations gain additional bonuses."
+ resolution_industry_environmental_ordinance_waivers:0 "Deroghe alle Ordinanze Ambientali"
+ resolution_industry_environmental_ordinance_waivers_desc:0 "La Comunità Galattica dovrebbe autorizzare i consigli locali a sospendere le regole antiquate che non servono il bene pubblico e stanno semplicemente bloccando il progresso."
+ resolution_industry_environmental_ordinance_waivers_tooltip:0 "Le designazioni planetarie di Forgia, Industria e Raffineria ottengono bonus aggiuntivi."
 
- resolution_industry_project_cornucopia:0 "Project Cornucopia"
- resolution_industry_project_cornucopia_desc:0 "Near-endless resources are at our fingertips, if we have the courage to seize them. Just think of what wonders we could build if we conquer our fear."
- resolution_industry_project_cornucopia_tooltip:0 "Unlocks a §HPlanetary Decision§! that permits strip mining our worlds to uncover rich mineral deposits."
+ resolution_industry_project_cornucopia:0 "Progetto Cornucopia"
+ resolution_industry_project_cornucopia_desc:0 "Risorse pressoché infinite sono a nostra disposizione, se abbiamo il coraggio di coglierle. Pensa solo a quali meraviglie potremmo costruire se vincessimo la nostra paura."
+ resolution_industry_project_cornucopia_tooltip:0 "Sblocca una §HDecisione Planetaria§! che permette di minare a fondo i nostri mondi per scoprire ricchi depositi minerali."
 
  decision_project_cornucopia:0 "$resolution_industry_project_cornucopia$"
  decision_project_cornucopia_desc:0 "$resolution_industry_project_cornucopia_desc$"
- decision_project_cornucopia_effects_short:0 "Strip-mines this world, adding §G+4§! §Y$district_mining_plural$§!, §G+5%§! §Y$mod_planet_jobs_minerals_produces_mult$§!, and §R-20%§! §Y$pop_habitability$§!."
+ decision_project_cornucopia_effects_short:0 "Mina a fondo questo mondo, aggiungendo §G+4§! §Y$district_mining_plural$§!, §G+5%§! §Y$mod_planet_jobs_minerals_produces_mult$§!, e §R-20%§! §Y$pop_habitability$§!."
  d_project_cornucopia:0 "$resolution_industry_project_cornucopia$"
 
  federations.10000.name:0 "$resolution_industry_project_cornucopia$"
- federations.10000.desc:0 "Engineers from across the Galactic Community have come together to share ideas on ways to more exploit resources from our worlds.\n\nThe §HProject Cornucopia§! Planetary Decision is now available."
+ federations.10000.desc:0 "Gli ingegneri di tutta la Comunità Galattica si sono riuniti per condividere idee su come sfruttare maggiormente le risorse dei nostri mondi.\n\nLa Decisione Planetaria §HProgetto Cornucopia§! è ora disponibile."
 
  # Commerce
- resolution_category_commerce:0 "Galactic Commerce"
+ resolution_category_commerce:0 "Commercio Galattico"
 
- resolution_commerce_repeal_1:0 "§RRepeal $resolution_commerce_buzzword_standardization$§!"
- resolution_commerce_repeal_1_desc:0 "The free market should be left to its own devices without the meddling of the Galactic Community."
- resolution_commerce_repeal_1_effect_success:0 "Repeals the §Y$resolution_commerce_buzzword_standardization$§! resolution."
+ resolution_commerce_repeal_1:0 "§RRevoca $resolution_commerce_buzzword_standardization$§!"
+ resolution_commerce_repeal_1_desc:0 "Il libero mercato dovrebbe essere lasciato a se stesso senza l'ingerenza della Comunità Galattica."
+ resolution_commerce_repeal_1_effect_success:0 "Revoca la risoluzione §Y$resolution_commerce_buzzword_standardization$§!."
 
- resolution_commerce_repeal_2:0 "§RRepeal $resolution_commerce_leveraged_privateering$§!"
+ resolution_commerce_repeal_2:0 "§RRevoca $resolution_commerce_leveraged_privateering$§!"
  resolution_commerce_repeal_2_desc:0 "$resolution_commerce_repeal_1_desc$"
- resolution_commerce_repeal_2_effect_success:2 "Repeals the §Y$resolution_commerce_leveraged_privateering$§! resolution, leaving §Y$resolution_commerce_buzzword_standardization$§! as galactic law."
+ resolution_commerce_repeal_2_effect_success:2 "Revoca la risoluzione §Y$resolution_commerce_leveraged_privateering$§!, lasciando §Y$resolution_commerce_buzzword_standardization$§! come legge galattica."
 
- resolution_commerce_repeal_3:0 "§RRepeal $resolution_commerce_underdeveloped_system_utilization$§!"
+ resolution_commerce_repeal_3:0 "§RRevoca $resolution_commerce_underdeveloped_system_utilization$§!"
  resolution_commerce_repeal_3_desc:0 "$resolution_commerce_repeal_1_desc$"
- resolution_commerce_repeal_3_effect_success:1 "Repeals the §Y$resolution_commerce_underdeveloped_system_utilization$§! resolution, leaving §Y$resolution_commerce_leveraged_privateering$§! as galactic law."
+ resolution_commerce_repeal_3_effect_success:1 "Revoca la risoluzione §Y$resolution_commerce_underdeveloped_system_utilization$§!, lasciando §Y$resolution_commerce_leveraged_privateering$§! come legge galattica."
 
- resolution_commerce_repeal_4:0 "§RRepeal $resolution_commerce_holistic_asset_coordination$§!"
+ resolution_commerce_repeal_4:0 "§RRevoca $resolution_commerce_holistic_asset_coordination$§!"
  resolution_commerce_repeal_4_desc:0 "$resolution_commerce_repeal_1_desc$"
- resolution_commerce_repeal_4_effect_success:2 "Repeals the §Y$resolution_commerce_holistic_asset_coordination$§! resolution, leaving §Y$resolution_commerce_underdeveloped_system_utilization$§! as galactic law.\n\n"
+ resolution_commerce_repeal_4_effect_success:2 "Revoca la risoluzione §Y$resolution_commerce_holistic_asset_coordination$§!, lasciando §Y$resolution_commerce_underdeveloped_system_utilization$§! come legge galattica.\n\n"
 
- resolution_commerce_repeal_5:0 "§RRepeal $resolution_commerce_profit_maximization_engines$§!"
+ resolution_commerce_repeal_5:0 "§RRevoca $resolution_commerce_profit_maximization_engines$§!"
  resolution_commerce_repeal_5_desc:0 "$resolution_commerce_repeal_1_desc$"
- resolution_commerce_repeal_5_effect_success:2 "Repeals the §Y$resolution_commerce_profit_maximization_engines$§! resolution, leaving §Y$resolution_commerce_holistic_asset_coordination$§! as galactic law."
+ resolution_commerce_repeal_5_effect_success:2 "Revoca la risoluzione §Y$resolution_commerce_profit_maximization_engines$§!, lasciando §Y$resolution_commerce_holistic_asset_coordination$§! come legge galattica."
 
- resolution_commerce_buzzword_standardization:0 "Buzzword Standardization"
- resolution_commerce_buzzword_standardization_desc:0 "We have to enable our enterprises to work seamlessly with one another. Streamlining strategic communications empowers our agents, making hitting key performance metrics easier."
+ resolution_commerce_buzzword_standardization:0 "Parola d'ordine Standardizzazione"
+ resolution_commerce_buzzword_standardization_desc:0 "Dobbiamo consentire alle nostre imprese di lavorare senza problemi l'una con l'altra. La razionalizzazione delle comunicazioni strategiche consente ai nostri agenti di raggiungere più facilmente i parametri chiave delle prestazioni."
 
- resolution_commerce_leveraged_privateering:0 "Leveraged Privateering"
- resolution_commerce_leveraged_privateering_desc:0 "Trade is the lifeblood of the galaxy. All members of the Galactic Community should contribute to a multinational space force to combat piracy and other threats to free commerce."
+ resolution_commerce_leveraged_privateering:0 "Servizio Corsaro di Leva"
+ resolution_commerce_leveraged_privateering_desc:0 "Il commercio è la linfa vitale della galassia. Tutti i membri della Comunità Galattica dovrebbero contribuire a una forza spaziale multinazionale per combattere la pirateria e altre minacce al libero commercio."
 
- resolution_commerce_underdeveloped_system_utilization:0 "Underdeveloped System Utilization"
- resolution_commerce_underdeveloped_system_utilization_desc:0 "Failure to extract maximum value from the systems within our sphere of influence is a criminal waste. We propose that it be enforced as such and punished accordingly."
- resolution_commerce_underdeveloped_system_utilization_tooltip:0 "Observation Posts provide £consumer_goods£ §GConsumer Goods§! while §YObserving§! or §YInfiltrating§! primitive civilizations."
+ resolution_commerce_underdeveloped_system_utilization:0 "Utilizzo del Sistema sottosviluppato"
+ resolution_commerce_underdeveloped_system_utilization_desc:0 "Il fallimento nell'estrazione del massimo valore dai sistemi nella nostra sfera di influenza è uno spreco criminale. Proponiamo che venga considerato come tale e punito di conseguenza."
+ resolution_commerce_underdeveloped_system_utilization_tooltip:0 "Gli Avamposti forniscono £consumer_goods£ §GBeni di Consumo§! addizionali durante l'§YOsservazione§! o l'§YInfiltrazione§! di civiltà primitive."
 
- resolution_commerce_holistic_asset_coordination:0 "Holistic Asset Coordination"
- resolution_commerce_holistic_asset_coordination_desc:0 "To promote and facilitate an optimized logistic output, we should work together to stimulate a streamlined, galactic infrastructure for market and knowledge sharing."
+ resolution_commerce_holistic_asset_coordination:0 "Coordinamento Olistico delle Risorse"
+ resolution_commerce_holistic_asset_coordination_desc:0 "Per promuovere e facilitare un output logistico ottimizzato, dovremmo lavorare insieme per stimolare un'infrastruttura galattica semplificata per la condivisione del mercato e della conoscenza."
 
- resolution_commerce_profit_maximization_engines:0 "Profit Maximization Engines"
- resolution_commerce_profit_maximization_engines_desc:0 "We should build interlinked complexes of computers on each of our worlds that optimize the distribution of information and resources. The wealth must flow."
+ resolution_commerce_profit_maximization_engines:0 "Motori di Massimizzazione del Profitto"
+ resolution_commerce_profit_maximization_engines_desc:0 "Dovremmo costruire complessi interconnessi di computer su ciascuno dei nostri mondi che ottimizzano la distribuzione di informazioni e risorse. La ricchezza deve fluire."
 
  # The Greater Good
- resolution_category_greatergood:0 "The Greater Good"
+ resolution_category_greatergood:0 "Il Bene più Grande"
 
- resolution_greatergood_repeal_1:0 "§RRepeal $resolution_greatergood_workers_rights$§!"
- resolution_greatergood_repeal_1_desc:0 "The Galactic Community oversteps its bounds by attempting to tell its members how to live. Frankly, it's insulting."
- resolution_greatergood_repeal_1_effect_success:0 "Repeals the §Y$resolution_greatergood_workers_rights$§! resolution."
+ resolution_greatergood_repeal_1:0 "§RRevoca $resolution_greatergood_workers_rights$§!"
+ resolution_greatergood_repeal_1_desc:0 "La Comunità Galattica oltrepassa i suoi limiti tentando di dire ai suoi membri come vivere. Francamente, è un insulto."
+ resolution_greatergood_repeal_1_effect_success:0 "Revoca la risoluzione §Y$resolution_greatergood_workers_rights$§!."
 
- resolution_greatergood_repeal_2:0 "§RRepeal $resolution_greatergood_five_year_plans$§!"
+ resolution_greatergood_repeal_2:0 "§RRevoca $resolution_greatergood_five_year_plans$§!"
  resolution_greatergood_repeal_2_desc:0 "$resolution_greatergood_repeal_1_desc$"
- resolution_greatergood_repeal_2_effect_success:2 "Repeals the §Y$resolution_greatergood_five_year_plans$§! resolution, leaving §Y$resolution_greatergood_workers_rights$§! as galactic law."
+ resolution_greatergood_repeal_2_effect_success:2 "Revoca la risoluzione §Y$resolution_greatergood_five_year_plans$§!, lasciando §Y$resolution_greatergood_workers_rights$§! come legge galattica."
 
- resolution_greatergood_repeal_3:0 "§RRepeal $resolution_greatergood_greater_than_ourselves$§!"
+ resolution_greatergood_repeal_3:0 "§RRevoca $resolution_greatergood_greater_than_ourselves$§!"
  resolution_greatergood_repeal_3_desc:0 "$resolution_greatergood_repeal_1_desc$"
- resolution_greatergood_repeal_3_effect_success:2 "Repeals the §Y$resolution_greatergood_greater_than_ourselves$§! resolution, leaving §Y$resolution_greatergood_five_year_plans$§! as galactic law.\n\n"
+ resolution_greatergood_repeal_3_effect_success:2 "Revoca la risoluzione §Y$resolution_greatergood_greater_than_ourselves$§!, lasciando §Y$resolution_greatergood_five_year_plans$§! come legge galattica.\n\n"
 
- resolution_greatergood_repeal_4:0 "§RRepeal $resolution_greatergood_balance_in_the_middle$§!"
+ resolution_greatergood_repeal_4:0 "§RRevoca $resolution_greatergood_balance_in_the_middle$§!"
  resolution_greatergood_repeal_4_desc:0 "$resolution_greatergood_repeal_1_desc$"
- resolution_greatergood_repeal_4_effect_success:2 "Repeals the §Y$resolution_greatergood_balance_in_the_middle$§! resolution, leaving §Y$resolution_greatergood_greater_than_ourselves$§! as galactic law.\n\n"
+ resolution_greatergood_repeal_4_effect_success:2 "Revoca la risoluzione §Y$resolution_greatergood_balance_in_the_middle$§!, lasciando §Y$resolution_greatergood_greater_than_ourselves$§! come legge galattica.\n\n"
 
- resolution_greatergood_repeal_5:0 "§RRepeal $resolution_greatergood_universal_prosperity_mandate$§!"
+ resolution_greatergood_repeal_5:0 "§RRevoca $resolution_greatergood_universal_prosperity_mandate$§!"
  resolution_greatergood_repeal_5_desc:0 "$resolution_greatergood_repeal_1_desc$"
- resolution_greatergood_repeal_5_effect_success:2 "Repeals the §Y$resolution_greatergood_universal_prosperity_mandate$§! resolution, leaving §Y$resolution_greatergood_balance_in_the_middle$§! as galactic law.\n\n"
+ resolution_greatergood_repeal_5_effect_success:2 "Revoca la risoluzione §Y$resolution_greatergood_universal_prosperity_mandate$§!, lasciando §Y$resolution_greatergood_balance_in_the_middle$§! come legge galattica.\n\n"
 
- resolution_greatergood_workers_rights:0 "Charter of Worker's Rights"
- resolution_greatergood_workers_rights_desc:0 "It is only right for us to codify the rights of the worker and protect them from common abuses."
+ resolution_greatergood_workers_rights:0 "Carta dei Diritti de Lavoratore"
+ resolution_greatergood_workers_rights_desc:0 "È giusto che noi codifichiamo i diritti dei lavoratori e li proteggiamo dagli abusi comuni."
 
- resolution_greatergood_five_year_plans:0 "Five Year Plans"
- resolution_greatergood_five_year_plans_desc:0 "The governors of our worlds should be given the freedom necessary to propose and enact sweeping reforms for the betterment of all."
- resolution_greatergood_five_year_plans_tooltip:0 "Agri-World, Generator, and Mining planetary designations gain additional bonuses.\n\n§YBasic Subsistence§! living standard §Rbanned§!."
+ resolution_greatergood_five_year_plans:0 "Piani Quinquennali"
+ resolution_greatergood_five_year_plans_desc:0 "Ai governatori dei nostri mondi dovrebbe essere data la libertà necessaria per proporre e attuare riforme radicali per il miglioramento di tutti."
+ resolution_greatergood_five_year_plans_tooltip:0 "Le designazioni planetarie di Agricolo, Generatore, e Minerario ottengono bonus addizionali.\n\nLo Standard di Vita §YSussistenza di Base§! è §Rvietato§!."
 
- resolution_greatergood_greater_than_ourselves:0 "Greater Than Ourselves"
- resolution_greatergood_greater_than_ourselves_desc:0 "We ask much of our people, but sometimes we must ask more. We should reward those who are willing to place the Empire above their own needs and volunteer to head to the frontier."
- resolution_greatergood_greater_than_ourselves_tooltip:0 "Unlocks an edict that encourages unemployed worker and simple drone pops to voluntarily resettle themselves to suitable planets with jobs and housing within our empire.\n\n§YBasic Subsistence§! and §YStratified Economy§! living standards are §Rbanned§!.\n\n§YChattel Slavery§!, §YLivestock§!, and §YGrid Amalgamation§! slavery types are §Rbanned§!."
+ resolution_greatergood_greater_than_ourselves:0 "Più Grandi di Noi stessi"
+ resolution_greatergood_greater_than_ourselves_desc:0 "Chiediamo molto alla nostra gente, ma a volte dobbiamo chiedere di più. Dovremmo premiare coloro che sono disposti a porre l'Impero al di sopra dei propri bisogni e offrirsi volontari per dirigersi verso la frontiera."
+ resolution_greatergood_greater_than_ourselves_tooltip:0 "Sblocca un editto che incoraggia i lavoratori disoccupati e i pop droni semplici a reinsediarsi volontariamente su pianeti adatti con lavoro e alloggi all'interno del nostro impero.\n\nGli Standard di Vita §YSussistenza di Base§! e §YEconomia Stratificata§! sono §Rvietati§!.\n\nI tipi di schiavitù §YSchiavitù Manovale§!, §YBestiame§!, e §YGriglia d'Amalgamazione§! sono §Rvietati§!."
  edict_greater_than_ourselves:0 "$resolution_greatergood_greater_than_ourselves$"
- edict_greater_than_ourselves_desc:0 "Encourages unemployed worker and simple drone pops to voluntarily resettle themselves to suitable planets with jobs and housing within our empire."
- greater_than_ourselves_tooltip:0 "§YEdict Unlocked:§! $edict_greater_than_ourselves$"
+ edict_greater_than_ourselves_desc:0 "Incoraggia i lavoratori disoccupati e i pop droni semplici a reinsediarsi volontariamente su pianeti adatti con lavoro e alloggi all'interno del nostro impero."
+ greater_than_ourselves_tooltip:0 "§YEditto Sbloccato:§! $edict_greater_than_ourselves$"
  federations.10010.name:0 "$resolution_greatergood_greater_than_ourselves$"
- federations.10010.desc:0 "Alongside the rights enshrined in recent Galactic Community resolutions, we ask additional responsibilities of our workers.\n\nWe can now encourage unemployed workers to voluntarily resettle to other worlds we control that have available housing, jobs, and are of adequate habitability."
- federations.10010.desc_gestalt:0 "The Galactic Community has passed regulations granting additional privileges for their worker drones.\n\nWhile this is largely meaningless to us, we can at least benefit from some of the infrastructure they have created in order to resettle inactive simple drones."
+ federations.10010.desc:0 "Oltre ai diritti sanciti nelle recenti risoluzioni della Comunità Galattica, chiediamo ulteriori responsabilità ai nostri lavoratori.\n\nOra possiamo incoraggiare i lavoratori disoccupati a trasferirsi volontariamente in altri mondi che controlliamo che hanno a disposizione alloggi, posti di lavoro e sono di adeguata abitabilità."
+ federations.10010.desc_gestalt:0 "La Comunità Galattica ha approvato regolamenti che concedono privilegi aggiuntivi per i loro droni lavoratori.\n\nAnche se questo è in gran parte privo di significato per noi, possiamo almeno trarre vantaggio da alcune delle infrastrutture che hanno creato per reinsediare droni semplici inattivi."
 
- resolution_greatergood_balance_in_the_middle:0 "Balance in the Middle"
- resolution_greatergood_balance_in_the_middle_desc:0 "We must tackle inequality in all of its forms, enforcing fairness by any means necessary. What good is a feast if you have already had enough, and why should it go to waste when your neighbor is hungry?"
- resolution_greatergood_balance_in_the_middle_tooltip:0 "§YBasic Subsistence§!, §YStratified Economy§!, §YDecent Conditions§!, and §YAcademic Priviledge§! living standards are §Rbanned§!.\n\n§YSlavery§! of all types is §Rbanned§!."
+ resolution_greatergood_balance_in_the_middle:0 "Equilibrio nel Mezzo"
+ resolution_greatergood_balance_in_the_middle_desc:0 "Dobbiamo affrontare la disuguaglianza in tutte le sue forme, imponendo l'equità con ogni mezzo necessario. A che serve un banchetto se ne hai già abbastanza, e perché dovrebbe andare sprecato quando il tuo vicino ha fame?"
+ resolution_greatergood_balance_in_the_middle_tooltip:0 "Gli Standard di Vita §YSussistenza di Base§!, §YEconomia Stratificata§!, §YCondizioni Decenti§!, e §YPrivilegio Accademico§! sono §Rbanned§!.\n\nLa §YSchiavitù§! di ogni tipo è §Rvietata§!."
 
- resolution_greatergood_universal_prosperity_mandate:0 "Universal Prosperity Mandate"
- resolution_greatergood_universal_prosperity_mandate_desc:0 "If our galaxy spanning civilizations cannot provide for all of our people, then we have failed them. There is no excuse for anyone in the galaxy to want for anything. We should additionally act to redistribute excess wealth for the betterment of all."
- resolution_greatergood_universal_prosperity_mandate_tooltip:0 "All living standards other than §YShared Burdens§!, §YUtopian Abundance§!, §YChemical Bliss§!, or §YMandatory Pampering§! are §Rbanned§!.\n\n§YAssimilating§! organics into a §YDriven Assimilator§! or §YHive Mind§! empire is §Rbanned§!.\n\nEmpires that are not §YEgalitarian§! or §YRogue Servitors§! may be unable to meet these requirements and will be in §RBreach of Galactic Law§!!"
+ resolution_greatergood_universal_prosperity_mandate:0 "Mandato di Prosperità Universale"
+ resolution_greatergood_universal_prosperity_mandate_desc:0 "Se le nostre civiltà, che si estendono nella galassia, non possono provvedere a tutta al nostra gente, allora hanno fallito. Non ci sono scusa per fare desiderare qualcosa a qualcuno nella galassia. Dovremmo inoltre agire per ridistribuire la ricchezza in eccesso per il miglioramento di tutti."
+ resolution_greatergood_universal_prosperity_mandate_tooltip:0 "Ogni Standard di Vita eccetto §YOnere Condiviso§!, §YAbbondanza Utopica§!, §YFelicità Chimica§!, o §YCoccole Obbligatorie§! è §Rvietato§!.\n\n§YAssimilare§! organici in imperi §YAssimilatore Automatico§! o §YMente Alveare§! è §Rvietato§!.\n\nGli imperi non §YEgualitari§! o §YServitore Corrotto§! potrebbero non soddisfare questi requisiti, e saranno in §RViolazione della Legge Galattica§!!"
 
  # Mutual Defense
- resolution_category_mutualdefense:0 "Mutual Defense"
+ resolution_category_mutualdefense:0 "Difesa Reciproca"
 
- resolution_mutualdefense_repeal_1:0 "§RRepeal $resolution_mutualdefense_the_readied_shield$§!"
- resolution_mutualdefense_repeal_1_desc:0 "Federations and Defensive Pacts are where military matters should be discussed, not on the Senate Floor."
- resolution_mutualdefense_repeal_1_effect_success:0 "Repeals the §Y$resolution_mutualdefense_the_readied_shield$§! resolution."
+ resolution_mutualdefense_repeal_1:0 "§RRevoca $resolution_mutualdefense_the_readied_shield$§!"
+ resolution_mutualdefense_repeal_1_desc:0 "Le Federazioni e i Patti Difensivi sono il luogo in cui dovrebbero essere discusse le questioni militari, non il Senato."
+ resolution_mutualdefense_repeal_1_effect_success:0 "Revoca la risoluzione §Y$resolution_mutualdefense_the_readied_shield$§!."
 
- resolution_mutualdefense_repeal_2:0 "§RRepeal $resolution_mutualdefense_military_readiness_act$§!"
+ resolution_mutualdefense_repeal_2:0 "§RRevoca $resolution_mutualdefense_military_readiness_act$§!"
  resolution_mutualdefense_repeal_2_desc:0 "$resolution_mutualdefense_repeal_1_desc$"
- resolution_mutualdefense_repeal_2_effect_success:2 "Repeals the §Y$resolution_mutualdefense_military_readiness_act$§! resolution, leaving §Y$resolution_mutualdefense_the_readied_shield$§! as galactic law."
+ resolution_mutualdefense_repeal_2_effect_success:2 "Revoca la risoluzione §Y$resolution_mutualdefense_military_readiness_act$§!, lasciando §Y$resolution_mutualdefense_the_readied_shield$§! come legge galattica."
 
- resolution_mutualdefense_repeal_3:0 "§RRepeal $resolution_mutualdefense_enemy_of_my_enemy$§!"
+ resolution_mutualdefense_repeal_3:0 "§RRevoca $resolution_mutualdefense_enemy_of_my_enemy$§!"
  resolution_mutualdefense_repeal_3_desc:0 "$resolution_mutualdefense_repeal_1_desc$"
- resolution_mutualdefense_repeal_3_effect_success:2 "Repeals the §Y$resolution_mutualdefense_enemy_of_my_enemy$§! resolution, leaving §Y$resolution_mutualdefense_military_readiness_act$§! as galactic law.\n\n"
+ resolution_mutualdefense_repeal_3_effect_success:2 "Revoca la risoluzione §Y$resolution_mutualdefense_enemy_of_my_enemy$§!, lasciando §Y$resolution_mutualdefense_military_readiness_act$§! come legge galattica.\n\n"
 
- resolution_mutualdefense_repeal_4:0 "§RRepeal $resolution_mutualdefense_military_readiness_act$§!"
+ resolution_mutualdefense_repeal_4:0 "§RRevoca $resolution_mutualdefense_military_readiness_act$§!"
  resolution_mutualdefense_repeal_4_desc:0 "$resolution_mutualdefense_repeal_1_desc$"
- resolution_mutualdefense_repeal_4_effect_success:2 "Repeals the §Y$resolution_mutualdefense_military_readiness_act$§! resolution, leaving §Y$resolution_mutualdefense_enemy_of_my_enemy$§! as galactic law.\n\n"
+ resolution_mutualdefense_repeal_4_effect_success:2 "Revoca la risoluzione §Y$resolution_mutualdefense_military_readiness_act$§!, lasciando §Y$resolution_mutualdefense_enemy_of_my_enemy$§! come legge galattica.\n\n"
 
- resolution_mutualdefense_repeal_5:0 "§RRepeal $resolution_mutualdefense_renegade_containment$§!"
+ resolution_mutualdefense_repeal_5:0 "§RRevoca $resolution_mutualdefense_renegade_containment$§!"
  resolution_mutualdefense_repeal_5_desc:0 "$resolution_mutualdefense_repeal_1_desc$"
- resolution_mutualdefense_repeal_5_effect_success:2 "Repeals the §Y$resolution_mutualdefense_renegade_containment$§! resolution, leaving §Y$resolution_mutualdefense_military_readiness_act$§! as galactic law.\n\n"
+ resolution_mutualdefense_repeal_5_effect_success:2 "Revoca la risoluzione §Y$resolution_mutualdefense_renegade_containment$§!, lasciando §Y$resolution_mutualdefense_military_readiness_act$§! come legge galattica.\n\n"
 
  resolution_mutualdefense_naval_weight:0 "$MOD_DIPLO_WEIGHT_NAVAL_MULT$"
  resolution_mutualdefense_the_readied_shield:0 "The Readied Shield"
@@ -1067,7 +1067,7 @@
 
  resolution_mutualdefense_military_readiness_act:0 "Military Readiness Act"
  resolution_mutualdefense_military_readiness_act_desc:0 "Each member of the Galactic Community has a duty to themselves and to others to contribute to galactic defense."
- resolution_mutualdefense_military_readiness_act_tooltip:0 "Galactic Community members that are not vassals of another empire that are using less than half of their naval capacity are in §RBreach of Galactic Law§!."
+ resolution_mutualdefense_military_readiness_act_tooltip:0 "Galactic Community members that are not vassals of another empire that are using less than half of their naval capacity are in §RViolazione della Legge Galattica§!."
 
  resolution_mutualdefense_enemy_of_my_enemy:0 "The Enemy of My Enemy"
  resolution_mutualdefense_enemy_of_my_enemy_desc:0 "An enemy of one is the enemy of all. If one of our number is attacked, should we not permit any of our number to punish the offender?"
@@ -1075,9 +1075,9 @@
 
  resolution_mutualdefense_castigation_proclamation:0 "Castigation Proclamation"
  resolution_mutualdefense_castigation_proclamation_desc:0 "Those who are not with us are against us, and all who stand against Galactic Law must be punished."
- resolution_mutualdefense_castigation_proclamation_tooltip:0 "Any Empire in the Galactic Community can propose a resolution to §YDenounce§! an Empire in §RBreach of Galactic Law§! or that is not a Galactic Community member.\n\nThe §Y'Animosity'§! casus belli and §Y'Humiliation'§! wargoal can be used by empires with §YUnrestricted Wars§! against empires that have been §RDenounced§! by the Galactic Community or are in §RBreach of Galactic Law§!."
+ resolution_mutualdefense_castigation_proclamation_tooltip:0 "Any Empire in the Galactic Community can propose a resolution to §YDenounce§! an Empire in §RViolazione della Legge Galattica§! or that is not a Galactic Community member.\n\nThe §Y'Animosity'§! casus belli and §Y'Humiliation'§! wargoal can be used by empires with §YUnrestricted Wars§! against empires that have been §RDenounced§! by the Galactic Community or are in §RViolazione della Legge Galattica§!."
  resolution_mutualdefense_castigation_denouncement:0 "Castigation"
- resolution_mutualdefense_castigation_denouncement_desc:0 "A formal declaration denouncing the target empire. This proposal can target any empire that is either not a member of the Galactic Community or is in Breach of Galactic Law."
+ resolution_mutualdefense_castigation_denouncement_desc:0 "A formal declaration denouncing the target empire. This proposal can target any empire that is either not a member of the Galactic Community or is in Violazione della Legge Galattica."
 
  resolution_mutualdefense_renegade_containment:0 "Renegade Containment Doctrine"
  resolution_mutualdefense_renegade_containment_desc:0 "The benefits of membership in the Galactic Community are self-evident, and as such refusal to be a member clearly indicates ill intent. Members should be authorized to preempt any nefarious acts with force before non-members enact their plots."
@@ -1173,19 +1173,19 @@
 
  # Sanctions
 
- requires_something_illegal:0 "$TRIGGER_FAIL$Before any sanctions can be declared, a resolution must be passed that can cause an empire to be denounced or to be in breach of Galactic Law."
+ requires_something_illegal:0 "$TRIGGER_FAIL$Before any sanctions can be declared, a resolution must be passed that can cause an empire to be denounced or to be in violazione della Legge Galattica."
  resolution_category_sanctions_environment_technology:0 "Sanctions: $environment_technology$"
  resolution_category_sanctions_commerce_industry:0 "Sanctions: $commerce_industry$"
  resolution_category_sanctions_defense_war:0 "Sanctions: $defense_war$"
  resolution_category_sanctions_politics_culture:0 "Sanctions: $politics_culture$"
 
- sanctions_effect:0 "Empires that have been §RDenounced§! or are in §RBreach of Galactic Law§! have penalties applied to them."
+ sanctions_effect:0 "Empires that have been §RDenounced§! or are in §RViolazione della Legge Galattica§! have penalties applied to them."
 
  resolution_sanctions_tech:0 "Research Sanctions"
- resolution_sanctions_tech_desc:0 "We have been sanctioned by the Galactic Community for being §RDenounced§! or in §RBreach of Galactic Law§!."
+ resolution_sanctions_tech_desc:0 "We have been sanctioned by the Galactic Community for being §RDenounced§! or in §RViolazione della Legge Galattica§!."
 
  resolution_sanctions_tech_repeal_1:0 "§RRepeal $resolution_sanctions_tech_1$§!"
- resolution_sanctions_tech_repeal_1_desc:0 "The research sanctions that we have levied on empires in §RBreach of Galactic Law§! are too harsh. It is wrong to slow technological progress over matters that should be handled diplomatically."
+ resolution_sanctions_tech_repeal_1_desc:0 "The research sanctions that we have levied on empires in §RViolazione della Legge Galattica§! are too harsh. It is wrong to slow technological progress over matters that should be handled diplomatically."
  resolution_sanctions_tech_repeal_1_effect_success:0 "Repeals the §Y$resolution_sanctions_tech_1$§! resolution."
 
  resolution_sanctions_tech_repeal_2:0 "§RRepeal $resolution_sanctions_tech_2$§!"
@@ -1197,7 +1197,7 @@
  resolution_sanctions_tech_repeal_3_effect_success:2 "Repeals the §Y$resolution_sanctions_tech_3$§! resolution, leaving §Y$resolution_sanctions_tech_2$§! as galactic law."
 
  resolution_sanctions_tech_1:0 "Minor Research Sanctions"
- resolution_sanctions_tech_1_desc:0 "Empires that are in §RBreach of Galactic Law§! must permit regular inspections of their research facilities to ensure that they are in compliance with galactic requirements."
+ resolution_sanctions_tech_1_desc:0 "Empires that are in §RViolazione della Legge Galattica§! must permit regular inspections of their research facilities to ensure that they are in compliance with galactic requirements."
 
  resolution_sanctions_tech_2:0 "Moderate Research Sanctions"
  resolution_sanctions_tech_2_desc:0 "Stronger measures are needed to ensure compliance with Galactic Law."
@@ -1209,7 +1209,7 @@
  resolution_sanctions_economic_desc:0 "$resolution_sanctions_tech_desc$"
 
  resolution_sanctions_economic_repeal_1:0 "§RRepeal $resolution_sanctions_economic_1$§!"
- resolution_sanctions_economic_repeal_1_desc:0 "The economic sanctions that we have levied on empires in §RBreach of Galactic Law§! are too harsh. The burden is too great over matters that should be handled diplomatically."
+ resolution_sanctions_economic_repeal_1_desc:0 "The economic sanctions that we have levied on empires in §RViolazione della Legge Galattica§! are too harsh. The burden is too great over matters that should be handled diplomatically."
  resolution_sanctions_economic_repeal_1_effect_success:0 "Repeals the §Y$resolution_sanctions_economic_1$§! resolution."
 
  resolution_sanctions_economic_repeal_2:0 "§RRepeal $resolution_sanctions_economic_2$§!"
@@ -1221,7 +1221,7 @@
  resolution_sanctions_economic_repeal_3_effect_success:2 "Repeals the §Y$resolution_sanctions_economic_3$§! resolution, leaving §Y$resolution_sanctions_economic_2$§! as galactic law."
 
  resolution_sanctions_economic_1:0 "Minor Economic Sanctions"
- resolution_sanctions_economic_1_desc:0 "We should use a system of tariffs and inspections to encourage empires that are in §RBreach of Galactic Law§! to comply with galactic will."
+ resolution_sanctions_economic_1_desc:0 "We should use a system of tariffs and inspections to encourage empires that are in §RViolazione della Legge Galattica§! to comply with galactic will."
 
  resolution_sanctions_economic_2:0 "Moderate Economic Sanctions"
  resolution_sanctions_economic_2_desc:0 "Stronger measures are needed to ensure compliance with Galactic Law"
@@ -1245,7 +1245,7 @@
  resolution_sanctions_military_repeal_3_effect_success:2 "Repeals the §Y$resolution_sanctions_military_3$§! resolution, leaving §Y$resolution_sanctions_military_2$§! as galactic law."
 
  resolution_sanctions_military_1:0 "Minor Military Sanctions"
- resolution_sanctions_military_1_desc:0 "We must place sensible restrictions on the navies of empires that are in §RBreach of Galactic Law§!."
+ resolution_sanctions_military_1_desc:0 "We must place sensible restrictions on the navies of empires that are in §RViolazione della Legge Galattica§!."
 
  resolution_sanctions_military_2:0 "Moderate Military Sanctions"
  resolution_sanctions_military_2_desc:0 "Stronger measures are needed to ensure compliance with Galactic Law."
@@ -1314,15 +1314,15 @@
 
  resolution_galactic_focus_war_in_heaven_support_side_1:1 "Focus: Denounce [SecondSleeper.GetName]"
  resolution_galactic_focus_war_in_heaven_support_side_1_desc:2 "The [SecondSleeper.GetName] are clearly in the wrong in this war, and we should declare unified support for the [FirstSleeper.GetName]."
- resolution_galactic_focus_war_in_heaven_support_side_1_success:2 "Failure to join the §Y[FirstSleeper.GetName]§! in the §YWar in Heaven§! is considered a §RBreach of Galactic Law§!."
+ resolution_galactic_focus_war_in_heaven_support_side_1_success:2 "Failure to join the §Y[FirstSleeper.GetName]§! in the §YWar in Heaven§! is considered a §RViolazione della Legge Galattica§!."
 
  resolution_galactic_focus_war_in_heaven_support_side_2:1 "Focus: Denounce [FirstSleeper.GetName]"
  resolution_galactic_focus_war_in_heaven_support_side_2_desc:2 "The [FirstSleeper.GetName] are clearly in the wrong in this war, and we should declare unified support for the [SecondSleeper.GetName]."
- resolution_galactic_focus_war_in_heaven_support_side_2_success:2 "Failure to join the §Y[SecondSleeper.GetName]§! in the §YWar in Heaven§! is considered a §RBreach of Galactic Law§!."
+ resolution_galactic_focus_war_in_heaven_support_side_2_success:2 "Failure to join the §Y[SecondSleeper.GetName]§! in the §YWar in Heaven§! is considered a §RViolazione della Legge Galattica§!."
 
  resolution_galactic_focus_war_in_heaven_denounce_both:0 "Focus: Denounce Both Awakened Empires"
  resolution_galactic_focus_war_in_heaven_denounce_both_desc:1 "Both the [FirstSleeper.GetName] and the [SecondSleeper.GetName] are acting like children. Prepare a harshly worded letter for each."
- resolution_galactic_focus_war_in_heaven_denounce_both_success:0 "Joining either Awakened Empire in the §YWar in Heaven§! is considered a §RBreach of Galactic Law§!.\n\nEmpires that are not vassals of an Awakened Empire gain the listed bonuses."
+ resolution_galactic_focus_war_in_heaven_denounce_both_success:0 "Joining either Awakened Empire in the §YWar in Heaven§! is considered a §RViolazione della Legge Galattica§!.\n\nEmpires that are not vassals of an Awakened Empire gain the listed bonuses."
 
  galactic_focus_crisis_prethoryn:2 "$TRIGGER_FAIL$Defeat the Prethoryn Scourge"
  galactic_focus_crisis_prethoryn_desc:0 "The Prethoryn Scourge are a true crisis and a threat to the entire galaxy. We must unite and defeat the menace."
@@ -1393,7 +1393,7 @@
  alert_mia_reinforce_title:1 "Reinforcements In Transit"
  alert_mia_reinforce_instant:1 "At least one of our fleets is In Transit, reinforcing another. It will take them some time to reach their target fleet."
 
- alert_in_breach_title:0 "In Breach of Galactic Law"
+ alert_in_breach_title:0 "In Violazione della Legge Galattica"
  alert_in_breach_instant:0 "We are currently in breach of the Resolutions agreed upon by the Galactic Community!"
  triggered_opinion_galactic_community_in_breach:0 "$alert_in_breach_title$"
 
@@ -1538,9 +1538,9 @@
  CALL_IN_FAVOR_ENTRY:0 "$NUM|Y$ - $NAME|H$: §G+$VAL|$§!"
  CALL_IN_FAVORS_RESOULTION_CAP:0 "You have already reached the maximum amount of favors ($NUM|Y$) that can be used for a Resolution."
 
- IS_IN_BREACH:0 "$COUNTRY|Y$ is In Breach of galactic law"
+ IS_IN_BREACH:0 "$COUNTRY|Y$ is In Violazione della legge galattica"
  IS_IN_BREACH_DESC:0 "§REmpires that are In Breach, are subject to penalties from any Sanctions that have been Enacted.§!"
- IS_NOT_IN_BREACH:0 "$COUNTRY|Y$ is NOT in breach of galactic law"
+ IS_NOT_IN_BREACH:0 "$COUNTRY|Y$ is NOT in Violazione della legge galattica"
  SANCTIONS_MODIFIERS:0 "§HSanctions Modifiers:§!"
 
  GALACTIC_MODIFIERS:0 "Galactic Modifiers"
@@ -3229,7 +3229,7 @@
  FED_THE_BAREST_MINIMUM:0 "Give them the barest minimum to comply"
  FED_WE_WILL_RETAIN:0 "We will retain our current policies"
  FED_WE_WILL_NOT_SUBMIT:0 "We will not submit!"
- FED_WE_WILL_BE_IN_BREACH:0 "Our Empire will be in §RBreach of Galactic Law§!."
+ FED_WE_WILL_BE_IN_BREACH:0 "Our Empire will be in §RViolazione della Legge Galattica§!."
 
  federations.10100.desc:0 "The Galactic Community has passed the §Y$resolution_galacticstudies_advanced_xenostudies$§! resolution, forbidding empires from §Youtlawing AI§! or holding §Ynon-interference policies§! relating to primitives.\n\nOur Empire is currently in breach of this resolution. Shall we change our policies to be in compliance?"
  federations.10100.change_ai:0 "Our Empire will change our §Y$policy_artificial_intelligence_policy$§! policy to §Y$ai_servitude$§!."
