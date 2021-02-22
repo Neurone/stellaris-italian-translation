@@ -1062,26 +1062,26 @@
  resolution_mutualdefense_repeal_5_effect_success:2 "Revoca la risoluzione §Y$resolution_mutualdefense_renegade_containment$§!, lasciando §Y$resolution_mutualdefense_military_readiness_act$§! come legge galattica.\n\n"
 
  resolution_mutualdefense_naval_weight:0 "$MOD_DIPLO_WEIGHT_NAVAL_MULT$"
- resolution_mutualdefense_the_readied_shield:0 "The Readied Shield"
- resolution_mutualdefense_the_readied_shield_desc:0 "The universe is a dangerous place, and all members of the Galactic Community should be ready to defend their worlds whether it be against pirates, space creatures, or the unknown."
+ resolution_mutualdefense_the_readied_shield:0 "Lo Scudo Pronto"
+ resolution_mutualdefense_the_readied_shield_desc:0 "L'universo è un luogo pericoloso e tutti i membri della Comunità Galattica dovrebbero essere pronti a difendere i loro mondi, che si tratti di pirati, creature spaziali o l'ignoto."
 
- resolution_mutualdefense_military_readiness_act:0 "Military Readiness Act"
- resolution_mutualdefense_military_readiness_act_desc:0 "Each member of the Galactic Community has a duty to themselves and to others to contribute to galactic defense."
- resolution_mutualdefense_military_readiness_act_tooltip:0 "Galactic Community members that are not vassals of another empire that are using less than half of their naval capacity are in §RViolazione della Legge Galattica§!."
+ resolution_mutualdefense_military_readiness_act:0 "Atto di Prontezza Militare"
+ resolution_mutualdefense_military_readiness_act_desc:0 "Ogni membro della Comunità Galattica ha il dovere verso se stesso e verso gli altri di contribuire alla difesa galattica."
+ resolution_mutualdefense_military_readiness_act_tooltip:0 "I membri della Comunità Galattica, che non sono vassalli di un altro impero, che utilizzano meno della metà della loro capacità navale sono in §RViolazione della Legge Galattica§!."
 
- resolution_mutualdefense_enemy_of_my_enemy:0 "The Enemy of My Enemy"
- resolution_mutualdefense_enemy_of_my_enemy_desc:0 "An enemy of one is the enemy of all. If one of our number is attacked, should we not permit any of our number to punish the offender?"
- resolution_mutualdefense_enemy_of_my_enemy_tooltip:0 "Grants the §Y'Counterattack'§! casus belli on empires that are not Galactic Community members and are in an offensive war against a Galactic Community member."
+ resolution_mutualdefense_enemy_of_my_enemy:0 "Il Nemico del Mio Nemico"
+ resolution_mutualdefense_enemy_of_my_enemy_desc:0 "Un nemico di uno è il nemico di tutti. Se uno dei nostri viene attaccato, non dovremmo permettere a qualcuno dei nostri di punire l'autore del reato?"
+ resolution_mutualdefense_enemy_of_my_enemy_tooltip:0 "Fornisce il casus belli §Y'Contrattacco'§! verso imperi che non sono membri della Comunità Galattica e sono in una guerra offensiva contro un membro della Comunità Galattica.."
 
- resolution_mutualdefense_castigation_proclamation:0 "Castigation Proclamation"
- resolution_mutualdefense_castigation_proclamation_desc:0 "Those who are not with us are against us, and all who stand against Galactic Law must be punished."
- resolution_mutualdefense_castigation_proclamation_tooltip:0 "Any Empire in the Galactic Community can propose a resolution to §YDenounce§! an Empire in §RViolazione della Legge Galattica§! or that is not a Galactic Community member.\n\nThe §Y'Animosity'§! casus belli and §Y'Humiliation'§! wargoal can be used by empires with §YUnrestricted Wars§! against empires that have been §RDenounced§! by the Galactic Community or are in §RViolazione della Legge Galattica§!."
- resolution_mutualdefense_castigation_denouncement:0 "Castigation"
- resolution_mutualdefense_castigation_denouncement_desc:0 "A formal declaration denouncing the target empire. This proposal can target any empire that is either not a member of the Galactic Community or is in Violazione della Legge Galattica."
+ resolution_mutualdefense_castigation_proclamation:0 "Proclamazione del Castigo"
+ resolution_mutualdefense_castigation_proclamation_desc:0 "Coloro che non sono con noi sono contro di noi e tutti coloro che si oppongono alla Legge Galattica devono essere puniti."
+ resolution_mutualdefense_castigation_proclamation_tooltip:0 "Ogni Impero nella Comunità Galattica può proporre una risoluzione per §YDenunciare§! un Impero che è in §RViolazione della Legge Galattica§! o che non è membro della Comunità Galattica.\n\nIl casus belli §Y'Animosità'§! e l'obbiettivo §Y'Umiliazione'§! possono essere usati da imperi con §YGuerra Senza Restrizioni§! contro imperi che sono stati §RDenunciati§! dalla Comunità Galattica o che sono in §RViolazione della Legge Galattica§!."
+ resolution_mutualdefense_castigation_denouncement:0 "Castigo"
+ resolution_mutualdefense_castigation_denouncement_desc:0 "Una dichiarazione formale che denuncia l'impero bersaglio. Questa proposta può prendere di mira qualsiasi impero che non è membro della Comunità Galattica o è in violazione della Legge Galattica."
 
- resolution_mutualdefense_renegade_containment:0 "Renegade Containment Doctrine"
- resolution_mutualdefense_renegade_containment_desc:0 "The benefits of membership in the Galactic Community are self-evident, and as such refusal to be a member clearly indicates ill intent. Members should be authorized to preempt any nefarious acts with force before non-members enact their plots."
- resolution_mutualdefense_renegade_containment_tooltip:0 "Grants the §Y'Preemptive War'§! total war casus belli on empires that are not members of the Galactic Community for empires with §YUnrestricted Wars§!."
+ resolution_mutualdefense_renegade_containment:0 "Dottrina di Contenimento dei Rinnegati"
+ resolution_mutualdefense_renegade_containment_desc:0 "I benefici dell'appartenenza alla Comunità Galattica sono evidenti, e come tale il rifiuto di essere un membro indica chiaramente un cattivo intento. I membri dovrebbero essere autorizzati a prevenire qualsiasi atto nefasto con la forza prima che i non membri mettano in atto i loro complotti."
+ resolution_mutualdefense_renegade_containment_tooltip:0 "Fornisce il casus belli per Guerra Totale §Y'Guerra Preventiva'§! verso imperi che non sono membri della Comunità Galattica, agli imperi con §YGuerra Senza Restrizioni§!."
 
  # Rules of War
 
