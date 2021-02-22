@@ -6101,8 +6101,7 @@
  slavery_livestock_tooltip_delayed:0 "§LIl Bestiame è POP!§!"
  slavery_indentured:0 "Servitù a contratto"
  slavery_indentured_tooltip:0 "I §HServi a contratto§! possono eseguire Lavori da £pop_cat_worker£ §Y$pop_cat_worker$§! o £pop_cat_specialist£ §Y$pop_cat_specialist$§!, ma conservano più potere politico degli altri schiavi."
- slavery_indentured_tooltip_delayed:0 "§L
-In teoria possono saldare i loro debiti ed essere liberati, ma i loro contratti sono intenzionalmente strutturati in modo da rendere questo un non-problema.§!"
+ slavery_indentured_tooltip_delayed:0 "§LIn teoria possono saldare i loro debiti ed essere liberati, ma i loro contratti sono intenzionalmente strutturati in modo da rendere questo un non-problema.§!"
  living_standard_utopian:1 "Abbondanza Utopica"
  living_standard_utopian_tooltip:1 "L'$living_standard_utopian$ assicura che ogni membro di questa specie abbia accesso a quasi ogni tipo di lusso esistente.\n\n$UTOPIAN_ABUNDANCE_POP_EFFECTS$\n\n$UNEMPLOYED_PRODUCE_UNITY_RESEARCH$"
  living_standard_utopian_tooltip_delayed:0 "§LRealisticamente non possiamo soddisfare ogni desiderio provvedendo ad ogni bisogno. Ma possiamo provarci.§!"
