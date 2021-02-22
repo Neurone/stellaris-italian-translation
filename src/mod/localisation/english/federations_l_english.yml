@@ -776,10 +776,10 @@
  tech_juggernaut:0 "Juggernaut"
  tech_juggernaut_desc:0 "Base spaziale mobile di proporzioni impareggiabili, la classe di navi Juggernaut porta la guerra offensiva ad un livello completamente nuovo."
 
- tech_advanced_metallurgy_1:0 "Leghe Ceramo-Metalliche"
+ tech_advanced_metallurgy_1:0 "Leghe Ceramico-Metalliche"
  tech_advanced_metallurgy_1_desc:0 "L'uso diffuso di ceramiche avanzate nell'industria può migliorare le rese metallurgiche."
  tech_advanced_metallurgy_2:0 "Leghe Duracciaio"
- tech_advanced_metallurgy_2_desc:0 "Sostituendo le antiquate apparecchiature ceramo-metalliche con tecnologie all'avanguardia, possiamo far funzionare le nostre fucine a maggiori temperature e più a lungo, aumentando la produzione."
+ tech_advanced_metallurgy_2_desc:0 "Sostituendo le antiquate apparecchiature ceramico-metalliche con tecnologie all'avanguardia, possiamo far funzionare le nostre fucine a maggiori temperature e più a lungo, aumentando la produzione."
  tech_consumer_good_refinement_1:0 "Algoritmi di Analisi di Mercato"
  tech_consumer_good_refinement_1_desc:0 "Le IA amministrative di base possono essere utilizzate per snellire le linee di domanda e offerta, riducendo gli sprechi."
  tech_consumer_good_refinement_2:0 "Consumismo Predittivo"
