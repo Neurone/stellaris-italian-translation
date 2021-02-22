@@ -1085,46 +1085,46 @@
 
  # Rules of War
 
- resolution_category_rulesofwar:0 "Rules of War"
+ resolution_category_rulesofwar:0 "Regole di Guerra"
 
- resolution_rulesofwar_repeal_1:0 "§RRepeal $resolution_rulesofwar_guardian_angels$§!"
- resolution_rulesofwar_repeal_1_desc:0 "Might makes right. Attempting to hide the horrors of war by placing limits on it is just lying to ourselves. We should repeal these laws and untie our hands should a true threat appear."
- resolution_rulesofwar_repeal_1_effect_success:0 "Repeals the §Y$resolution_rulesofwar_guardian_angels$§! resolution."
+ resolution_rulesofwar_repeal_1:0 "§RRevoca $resolution_rulesofwar_guardian_angels$§!"
+ resolution_rulesofwar_repeal_1_desc:0 "Potrebbe fare bene. Tentare di nascondere gli orrori della guerra ponendovi dei limiti significa semplicemente mentire a noi stessi. Dovremmo abrogare queste leggi e slegarci le mani se dovesse apparire una vera minaccia."
+ resolution_rulesofwar_repeal_1_effect_success:0 "Revoca la risoluzione §Y$resolution_rulesofwar_guardian_angels$§!."
 
- resolution_rulesofwar_repeal_2:0 "§RRepeal $resolution_rulesofwar_reverence_for_life$§!"
+ resolution_rulesofwar_repeal_2:0 "§RRevoca $resolution_rulesofwar_reverence_for_life$§!"
  resolution_rulesofwar_repeal_2_desc:0 "$resolution_rulesofwar_repeal_1_desc$"
- resolution_rulesofwar_repeal_2_effect_success:2 "Repeals the §Y$resolution_rulesofwar_reverence_for_life$§! resolution, leaving §Y$resolution_rulesofwar_guardian_angels$§! as galactic law."
+ resolution_rulesofwar_repeal_2_effect_success:2 "Revoca la risoluzione §Y$resolution_rulesofwar_reverence_for_life$§!, lasciando §Y$resolution_rulesofwar_guardian_angels$§! come legge galattica."
 
- resolution_rulesofwar_repeal_3:0 "§RRepeal $resolution_rulesofwar_independent_tribunals$§!"
+ resolution_rulesofwar_repeal_3:0 "§RRevoca $resolution_rulesofwar_independent_tribunals$§!"
  resolution_rulesofwar_repeal_3_desc:0 "$resolution_rulesofwar_repeal_1_desc$"
- resolution_rulesofwar_repeal_3_effect_success:2 "Repeals the §Y$resolution_rulesofwar_independent_tribunals$§! resolution, leaving §Y$resolution_rulesofwar_reverence_for_life$§! as galactic law.\n\n"
+ resolution_rulesofwar_repeal_3_effect_success:2 "Revoca la risoluzione §Y$resolution_rulesofwar_independent_tribunals$§!, lasciando §Y$resolution_rulesofwar_reverence_for_life$§! come legge galattica.\n\n"
 
- resolution_rulesofwar_repeal_4:1 "§RRepeal $resolution_rulesofwar_last_resort_doctrine$§!"
+ resolution_rulesofwar_repeal_4:1 "§RRevoca $resolution_rulesofwar_last_resort_doctrine$§!"
  resolution_rulesofwar_repeal_4_desc:0 "$resolution_rulesofwar_repeal_1_desc$"
- resolution_rulesofwar_repeal_4_effect_success:2 "Repeals the §Y$resolution_rulesofwar_last_resort_doctrine$§! resolution, leaving §Y$resolution_rulesofwar_independent_tribunals$§! as galactic law.\n\n"
+ resolution_rulesofwar_repeal_4_effect_success:2 "Revoca la risoluzione §Y$resolution_rulesofwar_last_resort_doctrine$§!, lasciando §Y$resolution_rulesofwar_independent_tribunals$§! come legge galattica.\n\n"
 
- resolution_rulesofwar_repeal_5:0 "§RRepeal $resolution_rulesofwar_demobilization_initiative$§!"
+ resolution_rulesofwar_repeal_5:0 "§RRevoca $resolution_rulesofwar_demobilization_initiative$§!"
  resolution_rulesofwar_repeal_5_desc:0 "$resolution_rulesofwar_repeal_1_desc$"
- resolution_rulesofwar_repeal_5_effect_success:2 "Repeals the §Y$resolution_rulesofwar_demobilization_initiative$§! resolution, leaving §Y$resolution_rulesofwar_last_resort_doctrine$§! as galactic law.\n\n"
+ resolution_rulesofwar_repeal_5_effect_success:2 "Revoca la risoluzione §Y$resolution_rulesofwar_demobilization_initiative$§!, lasciando §Y$resolution_rulesofwar_last_resort_doctrine$§! come legge galattica.\n\n"
 
- resolution_rulesofwar_guardian_angels:0 "Guardian Angels Act"
- resolution_rulesofwar_guardian_angels_desc:0 "The soldiers that dedicate their lives to keeping our planets safe should be recognized and honored."
+ resolution_rulesofwar_guardian_angels:0 "Atto Angeli Guardiani"
+ resolution_rulesofwar_guardian_angels_desc:0 "Ai soldati che dedicano la loro vita a proteggere i nostri pianeti dovremmo essere riconoscenti e onorarli."
 
- resolution_rulesofwar_reverence_for_life:0 "Reverence for Life"
- resolution_rulesofwar_reverence_for_life_desc:0 "The horror of war on the scale of interstellar empires is a terrible thing. We should do what we can to limit its excesses to active combatants."
- resolution_rulesofwar_reverence_for_life_tooltip:0 "§YPurging§! (other than Displacement) and the use of §YWorld Crackers§! is §Rbanned§!."
+ resolution_rulesofwar_reverence_for_life:0 "Rispetto per la Vita"
+ resolution_rulesofwar_reverence_for_life_desc:0 "L'orrore della guerra sulla scala degli imperi interstellari è una cosa terribile. Dovremmo fare quello che possiamo per limitare i suoi eccessi ai combattenti attivi."
+ resolution_rulesofwar_reverence_for_life_tooltip:0 "L'§YEpurazione§! (eccetto la Dislocazione) e l'uso del §YFrantuma-Pianeti§! sono §Rvietati§!."
 
- resolution_rulesofwar_independent_tribunals:0 "Independent Tribunals"
- resolution_rulesofwar_independent_tribunals_desc:0 "Justice must occur for crimes soldiers commit, and civilian casualties must be accounted for. We should set up independent tribunals to investigate, try, and punish war crimes."
- resolution_rulesofwar_independent_tribunals_tooltip:0 "§YArmageddon§! and §YIndiscriminate§! bombardment stances, and using any Colossus weapon other than a §YGlobal Pacifier§! are §Rbanned§!."
+ resolution_rulesofwar_independent_tribunals:0 "Tribunali Independenti"
+ resolution_rulesofwar_independent_tribunals_desc:0 "Occorre giustizia per i crimini commessi dai soldati e tenere conto delle vittime civili. Dovremmo istituire tribunali indipendenti per indagare, processare e punire i crimini di guerra."
+ resolution_rulesofwar_independent_tribunals_tooltip:0 "Il bombardamento §YArmageddon§! e §YIndiscriminato§!, e l'uso di qualsiasi arma del Colosso eccetto il §YPacificatore Globale§! sono §Rvietati§!."
 
- resolution_rulesofwar_last_resort_doctrine:0 "Last Resort Doctrine"
- resolution_rulesofwar_last_resort_doctrine_desc:0 "War should be our last resort when all other forms of diplomacy fail. It should never be a tool that is used for unjustified purposes."
- resolution_rulesofwar_last_resort_doctrine_tooltip:0 "The §YUnrestricted Wars§! war philosophy is §Rbanned§!."
+ resolution_rulesofwar_last_resort_doctrine:0 "Dottrina dell'Ultima Spiaggia"
+ resolution_rulesofwar_last_resort_doctrine_desc:0 "La guerra dovrebbe essere la nostra ultima risorsa quando tutte le altre forme di diplomazia falliscono. Non dovrebbe mai essere uno strumento utilizzato per scopi ingiustificati."
+ resolution_rulesofwar_last_resort_doctrine_tooltip:0 "La filosofia di guerra §YGuerra Senza Restrizioni§! è §Rvietata§!."
 
- resolution_rulesofwar_demobilization_initiative:0 "Demobilization Initiative"
- resolution_rulesofwar_demobilization_initiative_desc:0 "Resources currently wasted on war could be better used for a myriad of other projects to better the lives of our civilians. We should put hard limits on military development and focus on improving things rather than destroying them."
- resolution_rulesofwar_demobilization_initiative_tooltip:0 "The §YMilitarized Economy§! economic policy is banned."
+ resolution_rulesofwar_demobilization_initiative:0 "Iniziativa di Smobilitazione"
+ resolution_rulesofwar_demobilization_initiative_desc:0 "Le risorse attualmente sprecate in guerra potrebbero essere meglio utilizzate per una miriade di altri progetti per migliorare la vita dei nostri civili. Dobbiamo porre limiti rigidi allo sviluppo militare e concentrarci sul miglioramento delle cose piuttosto che sulla loro distruzione."
+ resolution_rulesofwar_demobilization_initiative_tooltip:0 "La politica economica §YEconomia Militarizzata§! è §Rvietata§!."
 
  # Galactic Reforms
 
