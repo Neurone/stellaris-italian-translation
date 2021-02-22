@@ -3,7 +3,7 @@
 
  ORIGIN:0 "Origine"
  EMPIRE_ORIGIN:0 "$ORIGIN$"
- TOOLTIP_SETUP_ORIGIN:0 "Seleziona un Origine per il tuo Impero."
+ TOOLTIP_SETUP_ORIGIN:0 "Seleziona un'Origine per il tuo Impero."
  GAMESETUP_COUNTRY_INVALID_ORIGIN:0 "Devi selezionare un'Origine per continuare"
  ORIGIN_INITIALIZER_RESTRICTION:0 "Impossibile cambiare per l'Origine attualmente selezionata"
 
