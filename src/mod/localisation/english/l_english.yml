@@ -389,7 +389,7 @@
  CONFIRM:0 "Conferma"
  WHITE_PEACE:0 "Pace Bianca"
  STATUS_QUO:0 "Status Quo"
- OPPONENTS:0 "Avversari"
+ OPPONENTS:0 "Contrari"
  POP_PRODUCES_TIP:0 "Produce: $VALUE|Y$"
  POP_MAINTENANCE_TIP:3 "Mantenimento: $VALUE|Y$"
  DETAIL_MAINT_POP:3 "$SPECIES$: $VALUE|Y$"
