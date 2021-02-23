@@ -1632,57 +1632,57 @@
  ### Decisions
  ################
 
- decision_transplant_tree:0 "Transplant Tree of Life"
- decision_transplant_tree_desc:0 "A network of Trees must be established here for our Hive to flourish."
+ decision_transplant_tree:0 "Trapiante l'Alberodella Vita"
+ decision_transplant_tree_desc:0 "Una rete di Alberideve essere impiantata qui per permettere al nostro Alveare di prosperare."
 
  ################
  ### Colony Type
  ################
 
- col_bureau:0 "Bureaucratic Center"
- col_bureau_desc:1 "An entire world dedicated to the ever-expanding needs of the bureaucracy."
- col_bureaucracy_custom:1 "Administrative Capacity from Bureaucrats is increased by §G2§!.\nBureaucrat Job Upkeep reduced by §G10%§!. \n£pop£ Pop Ethics Shift Chance reduced by §G20%§!."
+ col_bureau:0 "Centro Burocratico"
+ col_bureau_desc:1 "Un intero mondo dedicato ai bisogni in continua espansione della burocrazia."
+ col_bureaucracy_custom:1 "La Capacità Amministravia dai Burocrati è aumentata di §G2§!.\nIl Mantenimento del Lavoro di Burocrate è ridotto del §G10%§!. \nProbabilità Cambio Etiche dei £pop£ Pop è ridotta del §G20%§!."
 
  ################
  ### Modifiers
  ################
 
- colonial_remains:0 "Colonial Remains"
- colonial_remains_desc:0 "Some remnants of our former colony remain. Using them as a base will make it easier to re-colonize this planet."
+ colonial_remains:0 "Resti Coloniali"
+ colonial_remains_desc:0 "Rimangono alcuni resti della nostra precedente colonia. Usarli come base renderà più facile ricolonizzare questo pianeta."
 
- colonial_spirit_mod:0 "Colonial Spirit"
- colonial_spirit_mod_desc:0 "Determined to forge a new life on the frontier, the forefathers of this colony had an astounding work ethic which become a time-honored tradition."
+ colonial_spirit_mod:0 "Spirito Coloniale"
+ colonial_spirit_mod_desc:0 "Determinati a forgiare una nuova vita sulla frontiera, gli antenati di questa colonia avevano un'etica del lavoro sbalorditiva che divenne una tradizione consolidata."
 
- prosp_uni_mod:0 "Prosperous Unification"
- prosp_uni_mod_desc:0 "Since Unification Day the economy has been booming!"
+ prosp_uni_mod:0 "Unificazione Prospera"
+ prosp_uni_mod_desc:0 "Dal Giorno dell'Unificazione l'economia è andata a gonfie vele!"
 
- no_lifetree:0 "No Tree of Life"
- no_lifetree_desc:0 "Without the Tree, we are incomplete."
+ no_lifetree:0 "Nessun Albero della Vita"
+ no_lifetree_desc:0 "Senza l'albero, siamo incompleti."
 
- MOD_VETO_COST_MULT:0 "Veto Cost"
- mod_council_member:0 "Council Member"
- mod_galactic_community_delegate:0 "Community Delegates"
+ MOD_VETO_COST_MULT:0 "Costo del Veto"
+ mod_council_member:0 "Membro del Consiglio"
+ mod_galactic_community_delegate:0 "Delegati della Comunità"
 
- mod_station_gatherers_energy_produces_mult:0 "Mining Station Energy Output"
- mod_unemployment_resources_energy_upkeep_add:0 "Unemployed Energy Upkeep"
- mod_damage_vs_country_type_gray_goo_mult:0 "Damage to Nanites"
+ mod_station_gatherers_energy_produces_mult:0 "Produzione di Energia della Stazione Mineraria"
+ mod_unemployment_resources_energy_upkeep_add:0 "Mantenimento Energetico dei Disoccupati"
+ mod_damage_vs_country_type_gray_goo_mult:0 "Danno ai Naniti"
 
- building_embassy:0 "Embassy Complex"
- building_embassy_desc:0 "This building forms the heart of the Empire's diplomatic efforts.\n\nDue to the need to be close to the seat of government, it can only be built at our Capital."
- building_grand_embassy:0 "Grand Embassy Complex"
- building_grand_embassy_desc:0 "The complex is intended to awe the viewer, rendering them more compliant in negotiations.\n\nDue to the need to be close to the seat of government, it can only be built at our Capital."
+ building_embassy:0 "Complesso dell'Ambasciata"
+ building_embassy_desc:0 "Questo edificio costituisce il cuore degli sforzi diplomatici dell'impero.\n\nPer la necessità di essere vicino alla sede del governo, può essere costruito solo nella nostra Capitale."
+ building_grand_embassy:0 "Gran Complesso dell'Ambasciata"
+ building_grand_embassy_desc:0 "Il complesso ha lo scopo di stupire lo spettatore, rendendolo più incline alle negoziazioni.\n\nPer la necessità di essere vicino alla sede del governo, può essere costruito solo nella nostra Capitale."
 
- building_corporate_embassy:0 "Corporate Embassy"
- building_corporate_embassy_desc:0 "Diplomacy is just advertising to governments instead of to the customer. This office analyzes local customs and trends to more efficiently target our efforts."
- building_disinformation_center:0 "Disinformation Center"
- building_disinformation_center_desc:0 "Through targeted advertisements and propaganda, we can control opinion and make the people agree with our version of the truth."
+ building_corporate_embassy:0 "Ambasciata Corporativa"
+ building_corporate_embassy_desc:0 "La diplomazia è solo pubblicità per i governi invece che per i clienti. Questo ufficio analizza le abitudini e le tendenze locali per indirizzare in modo più efficiente i nostri sforzi."
+ building_disinformation_center:0 "Centro di Disinformazione"
+ building_disinformation_center_desc:0 "Attraverso pubblicità mirate e propaganda, possiamo controllare l'opinione pubblica e mettere le persone d'accordo con la nostra versione della verità."
 
- opinion_galactic_community_supported_resolution:0 "Supported Resolution"
- opinion_galactic_community_opposed_resolution:0 "Opposed Resolution"
- opinion_galactic_community_veto_resolution:0 "Vetoed Resolution"
- opinion_galactic_community_emergency_measure_resolution:0 "Declared Emergency Measure"
+ opinion_galactic_community_supported_resolution:0 "Risoluzione Supportata"
+ opinion_galactic_community_opposed_resolution:0 "Risoluzione Ostacolata"
+ opinion_galactic_community_veto_resolution:0 "Veto su Risoluzione"
+ opinion_galactic_community_emergency_measure_resolution:0 "Dichiarata Misura di Emergenza"
 
- federation_law_category_centralization_cooldown:0 "Law Cooldown"
+ federation_law_category_centralization_cooldown:0 "Cooldown della Legge"
  federation_law_category_fleet_contribution_cooldown:0 "$federation_centralization_cooldown$"
  federation_law_category_succession_type_cooldown:0 "$federation_centralization_cooldown$"
  federation_law_category_succession_term_cooldown:0 "$federation_centralization_cooldown$"
@@ -1697,8 +1697,8 @@
  federation_law_category_free_migration_cooldown:0 "$federation_centralization_cooldown$"
  federation_law_category_separate_treaties_cooldown:0 "$federation_centralization_cooldown$"
 
- tc_favor:0 "Favors"
- tc_favor_desc:0 "Grants the other empire a favor to be used in the future."
+ tc_favor:0 "Favori"
+ tc_favor_desc:0 "Concede all'altro impero un favore da utilizzare in futuro."
 
  ### Feral Overload Colony Event Chain text
  feral_overload_00:0 "Loud Minority"
