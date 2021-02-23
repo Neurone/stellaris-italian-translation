@@ -1619,14 +1619,14 @@
  ### Events
  ################
 
- origin.3003.name:0 "Life-Tree Destroyed!"
- origin.3003.desc:0 "The ongoing bombardment of [planet.GetName] has destroyed our network of lifegiving Trees."
- origin.3100.name:1 "Recovered Cache"
- origin.3100.desc:2 "While clearing wreckage on [from.GetName] we discovered an ancient cache of technology which dates back to our former empire. Only a minimal amount of research should be required to reintegrate this knowledge into our technology base."
- origin.3101.name:0 "Colonial Remains"
- origin.3101.desc:0 "[planet.GetName] was once an important colony of the [owner.GetName], and some remnants of its infrastructure remain usable as a base to re-colonize the planet."
+ origin.3003.name:0 "Albero della Vita Distrutto!"
+ origin.3003.desc:0 "Il bombardamento in corso su [planet.GetName] ha distrutto la nostra rete di alberi donatori di vita."
+ origin.3100.name:1 "Nascondiglio Scoperto"
+ origin.3100.desc:2 "Mentre ripulivamo le macerie su [from.GetName] abbiamo scoperto un antico nascondiglio di tecnologia che risale al nostro precedente impero. Per reintegrare questa conoscenza nella nostra base tecnologica dovrebbe essere necessaria solo una quantità minima di ricerca."
+ origin.3101.name:0 "Resti Coloniali"
+ origin.3101.desc:0 "[planet.GetName] era una volta un'importante colonia per l'impero [owner.GetName], e alcuni resti della sua infrastruttura rimangono utilizzabili come base per ricolonizzare il pianeta."
 
- progress.3.desc_lith:0 "Our arrival on [planet.GetName] is nothing short of cataclysmic. A massive shockwave scours a continent clean of life, and the habitability level of [planet.GetName] drops noticeably as megatons of debris are thrown into the atmosphere. Our colonists - encased safely within the rocky core of the meteorite - will soon emerge and begin setting up prefabricated colonial infrastructure."
+ progress.3.desc_lith:0 "Il nostro arrivo su [planet.GetName] è a dir poco catastrofico. Un'onda d'urto imponente percorre un continente privo di vita e il livello di abitabilità di [planet.GetName] diminuisce notevolmente quando megatoni di detriti vengono gettati nell'atmosfera. I nostri coloni - incapsulati al sicuro all'interno del nnucle roccioso del meteorite - presto emergeranno e cominceranno ad allestire una struttura coloniale prefabbricata."
 
  ################
  ### Decisions
