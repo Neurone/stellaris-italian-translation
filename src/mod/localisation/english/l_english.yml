@@ -6293,7 +6293,7 @@
  FEDERATION_VIEW_FLEETS_HEADER:0 "Flotte"
  FEDERATION_VIEW_LAWS_HEADER:0 "Leggi"
  FEDERATION_VIEW_LEAVE_FEDERATION:0 "Lascia la Federazione"
- FEDERATION_VIEW_SHIP_DESIGNER:1 "Editor Navale della Federazione"
+ FEDERATION_VIEW_SHIP_DESIGNER:1 "Editor Navale Federale"
  FEDERATION_VIEW_LEADER_EMPIRE:1 "$EMPIRE$"
  FEDERATION_VIEW_NEXT_ROTATION:0 "Prossima rotazione:"
  FEDERATION_VIEW_NO_NEXT_ROTATION:0 "§RNessun Cambio di Leadership§!"
@@ -6312,7 +6312,7 @@
  FEDERATION_VIEW_FLEET_COUNT:0 "Flotte Federali: ($USED$/$CAP$)"
  FEDERATION_VIEW_FLEET_CLICK:0 "§GClicca per aprire la §HGestione Flotta§!.§!\nClick-Destro per raggiungere."
  FEDERATION_NAVAL_CAPACITY:0 "§HCapacità Navale Federale§!"
- FEDERATION_FLEET_DESC:1 "Le §HFlotte Federali§! sono flotte speciali controllate dal Presidente della Federazione. Vengono progettate nell'§HEditor Navale Federale§! e possono utilizzare tecnologie di ogni membro della Federazione. Le Flotte Federali non possiedono costi di mantenimento, ma non possono superare la §HCapacità Navale Federale§!, a cui ogni membro contribuisce con almeno il §Y$PERC|0%$§! della propria §HCapacità Navale§!."
+ FEDERATION_FLEET_DESC:1 "Le §HFlotte Federali§! sono flotte speciali controllate dal Presidente della Federazione. Vengono progettate nell'§HEditor Navale Federale§! e possono utilizzare tecnologie di ogni membro della Federazione. Le Flotte Federali non hanno costi di mantenimento, ma non possono superare la §HCapacità Navale Federale§!, a cui ogni membro contribuisce con almeno il §Y$PERC|0%$§! della propria §HCapacità Navale§!."
 
  POPUP_LEAVE_FEDERATION_TITLE:0 "Lascia la Federazione"
  POPUP_LEAVE_FEDERATION_DESC:0 "Vuoi lasciare la Federazione $FEDERATION|H$?"
