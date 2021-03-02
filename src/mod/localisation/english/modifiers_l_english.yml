@@ -171,6 +171,8 @@
  MOD_PLANET_EMIGRATION_PUSH_MULT:0 "$MOD_PLANET_EMIGRATION_PUSH_ADD$"
  MOD_POP_DECLINE_SPEED:0 "Velocità Declino POP"
  MOD_POP_DECLINE_SPEED_DESC:0 "Questo valore influisce sulla velocità di Declino della POP."
+ MOD_POP_PURGE_SPEED: "Velocità Epurazione POP"
+ MOD_POP_PURGE_SPEED_DESC: "Questo valore influenza la velocità di epurazione della popolazione."
  MOD_POP_GROWTH_REQ:1 "Durata Crescita"
  MOD_POP_GROWTH_REQ_DESC:1 "Questo valore influisce sulla quantità di Cibo necessaria ad una nuova POP per svilupparsi completamente."
  MOD_POP_GROWTH_REQ_MULT:1 "Durata Crescita"
@@ -1442,3 +1444,4 @@
  MOD_FEDERATION_LEADER_DIPLO_WEIGHT_FROM_MEMBERS_MULT:0 "Peso Diplomatico dai Membri della Federazione"
  MOD_COUNTRY_FEDERATION_FLEET_CONTRIBUTION_NAVAL_CAP_REDUCTION_DISCOUNT:0 "Riduzione della Capacità Navale dell'impero per la Contribuzione alla Flotta Federale"
  MOD_FEDERATION_FLEET_CAP_ADD:0 "Modificatore del cap della Flotta Federation"
+ MOD_POP_PURGE_MULT:0 "Velocità Epurazione POP"
