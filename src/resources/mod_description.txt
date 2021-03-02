@@ -1,4 +1,4 @@
-Questo mod, [b]compatibile con l'Ironmode e gli achievement di Steam[/b], sostituisce la lingua inglese con la lingua italiana.
+Questo mod, [b]compatibile con la modalità Ironman e gli achievement di Steam[/b], sostituisce la lingua inglese con la lingua italiana.
 
 Versione supportata: Butler 2.8.*
 
@@ -6,7 +6,7 @@ Sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack del 24 ottobr
 
 Grazie ad AndryRock (grande!) nell'ultima release del mod è presente la prima versione della traduzione del DLC Federations e la traduzione del DLC Necroids Species Pack!
 
-[b]NOTA BENE[/b]: a causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, [u]per poter conservare ironmode e achievement ho dovuto rimuovere parte delle frasi presenti nel lavoro di traduzione originale di Puxxup[/u] (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.). Se avete già completato gli achievement e l'ironmode, o comunque non siete interessati alla cosa, usate il [url=https://steamcommunity.com/sharedfiles/filedetails/?id=823306244]mod di Puxxup[/url] per [b]un'esperienza di traduzione completa[/b]!
+[b]NOTA BENE[/b]: a causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, [u]per poter conservare la modalità Ironman e achievement ho dovuto rimuovere parte delle frasi presenti nel lavoro di traduzione originale di Puxxup[/u] (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.). Se avete già completato gli achievement e la modalità Ironman, o comunque non siete interessati alla cosa, usate il [url=https://steamcommunity.com/sharedfiles/filedetails/?id=823306244]mod di Puxxup[/url] per [b]un'esperienza di traduzione completa[/b]!
 
 Per costruire il vostro mod personale partendo da questo, potete usare [url=https://github.com/Neurone/stellaris-italian-translation]questo repository[/url] su github.
 
