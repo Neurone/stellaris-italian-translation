@@ -408,7 +408,7 @@
  leviathans.525.b.reply:0 "Il portale dimensionale da cui è stata generata è la sua più grande debolezza... senza di esso, non potrebbe esistere nel nostro universo. Abbiamo identificato diversi punti deboli nella matrice energetica che potrebbero essere colpiti con armi convenzionali. Stiamo trasmettendo le coordinate in questo istante."
 
  leviathans.530.name:0 "Sciame Asteroidale"
- leviathans.530.desc:0 "Questi fastidiosi parassiti un tempo erano molto più diffusi nella nostra galassia. CI fu un tempo in cui non potevi avvicinarti ad un qualunque asteroide senza che queste piccole bestie sciamassero attorno alla tua nave!"
+ leviathans.530.desc:0 "Questi fastidiosi parassiti un tempo erano molto più diffusi nella nostra galassia. Ci fu un tempo in cui non potevi avvicinarti ad un qualunque asteroide senza che queste piccole bestie sciamassero attorno alla tua nave!"
  leviathans.530.a:0 "$leviathans.510.a$"
  leviathans.530.a.reply:0 "Sono forme di vita a base di silicio aggressivamente territoriali. Sebbene un tempo fossero una minaccia significativa per le civiltà spaziali, il loro numero si è drasticamente ridotto negli ultimi 500.000 anni, e gli esemplari sopravvissuti sono diventati piuttosto solitari.\n\nNonostante alcune voci sostengano il contrario, non ci sono prove che possiedano qualche tipo di intelligenza sapiente. Tendono ad insediarsi all'interno degli asteroidi, ed attaccano ogni cosa che reputino una minaccia."
  leviathans.530.b:0 "$leviathans.510.b$"

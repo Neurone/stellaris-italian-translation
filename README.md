@@ -18,9 +18,72 @@ Paradox aggiorna spesso i propri prodotti, non solo aggiungendo nuovi DLC e nuov
 
 Per come è strutturato il gioco, e poiché questo mod vuole mantenere gli achievement attivi, non è possibile aggiungere una lingua al gioco: l'unica alternativa per avere l'italiano è modificare una delle lingue disponibili. Per comodità quindi questo mod sovrascrive direttamente la lingua di default, ossia l'inglese. La fonte principale di frasi da tradurre di trova all'interno della cartella [src/mod/localisation/english](src/mod/localisation/english).
 
+### Stato della traduzione
+
+Di seguito i file principali e lo stato della loro traduzione rispetto alla versione 2.8.1 del gioco
+
+| nome file | stato traduzione |
+|--|--|
+|achievements_l_english.yml| completa|
+|ai_crisis_l_english.yml| completa|
+|ancient_relics_events_l_english.yml| parziale|
+|ancient_relics_l_english.yml| parziale|
+|apocalypse_l_english.yml| completa|
+|dip_messages_l_english.yml| completa|
+|diplo_stances_l_english.yml| completa|
+|distant_stars_l_english.yml| completa|
+|dlc_recommendations_l_english.yml| da tradurre|
+|event_chains_l_english.yml| completa|
+|events_2_l_english.yml| completa|
+|events_3_l_english.yml| completa|
+|events_4_l_english.yml| completa|
+|events_5_l_english.yml| completa|
+|events_l_english.yml| completa|
+|federations_anniversary_l_english.yml| da tradurre|
+|federations_l_english.yml| parziale|
+|federations_resolution_comments_l_english.yml| completa|
+|horizonsignal_l_english.yml| completa|
+|l_english.yml| parziale|
+|leviathans_l_english.yml| completa|
+|lithoids_l_english.yml| completa|
+|mandates_l_english.yml| completa|
+|marauder_l_english.yml| completa|
+|megacorp_l_english.yml| completa|
+|messages_l_english.yml| completa|
+|modifiers_2_l_english.yml| completa|
+|modifiers_3_l_english.yml| completa|
+|modifiers_l_english.yml| completa|
+|modifiers_utopia_l_english.yml| completa|
+|musicplayer_l_english.yml| completa|
+|name_lists_l_english.yml| completa|
+|necroids_l_english.yml| completata|
+|new_scripted_loc_l_english.yml| completata|
+|observer_events_l_english.yml| completata|
+|observer_l_english.yml| completata|
+|pop_factions_l_english.yml| completata|
+|prescripted_l_english.yml| completata|
+|projects_2_l_english.yml| completata|
+|projects_3_l_english.yml| completata|
+|projects_4_l_english.yml| completata|
+|projects_5_l_english.yml| completata|
+|projects_l_english.yml| completata|
+|scripted_loc_l_english.yml| completata|
+|ship_sections_l_english.yml| completata|
+|social_gui_l_english.yml| completata|
+|standalone_l_english.yml| completata|
+|synthetic_dawn_events_l_english.yml| completata|
+|technology_l_english.yml| completata|
+|traditions_l_english.yml| parziale|
+|triggers_effects_l_english.yml| parziale|
+|tutorial_l_english.yml| completa|
+|unrest_l_english.yml| completa|
+|utopia_ascension_l_english.yml| completa|
+|utopia_l_english.yml| completa|
+|utopia_megastructures_l_english.yml| completa|
+
 ### Cosa posso modificare?
 
-Tutto quello che trovate qui su GitHub è già traducibile senza rischi di disattivare gli achievement e l'iron mode, e in particolare i file che verranno sovrapposti a quelli del gioco si trovano tutti all'interno del percorso [src/mod](/src/mod).
+Tutto quello che trovate qui su GitHub è già traducibile senza rischi di disattivare gli achievement e l'ironmode, e in particolare i file che verranno sovrapposti a quelli del gioco si trovano tutti all'interno del percorso [src/mod](/src/mod).
 
 Se dovesse servire invece aggiungere un file non ancora presente su questo repository, prima di modificarlo bisogna assicurarsi che non sia incluso nella lista di file che vengono controllati all'avvio del gioco.
 
@@ -63,11 +126,11 @@ sub_directories = yes
 file_extension = .yml
 ```
 
-Prendendo ad esempio la prima sezione, significa che all'avvio del gioco verranno controllati tutti i file `.txt` all'interno della cartella `common` e tutte le sue sotto cartelle. Se anche solo un file di questo tipo viene modificato, il controllo fallisce e il gioco impedisce l'attivazione di iron mode e achievement. E lo stesso vale per tutte le altre sezioni indicate nel file di checksum.
+Prendendo ad esempio la prima sezione, significa che all'avvio del gioco verranno controllati tutti i file `.txt` all'interno della cartella `common` e tutte le sue sotto cartelle. Se anche solo un file di questo tipo viene modificato, il controllo fallisce e il gioco impedisce l'attivazione di ironmode e achievement. E lo stesso vale per tutte le altre sezioni indicate nel file di checksum.
 
 ### Chiavi e valori
 
-Ogni file contiene delle stringhe formate da una chiave, uguale per ogni linguaggio, e dalla sua traduzione corrispondente. Es., all'iterno del file [ai_crisis_l_english.yml](src/mod/localisation/english/ai_crisis_l_english.yml) si trova la linea:
+Ogni file contiene delle stringhe formate da una chiave, uguale per ogni linguaggio, e dalla sua traduzione corrispondente. Es., all'interno del file [ai_crisis_l_english.yml](src/mod/localisation/english/ai_crisis_l_english.yml) si trova la linea:
 
 ```yml
 crisis.2010.name:0 "Il Segnale Fantasma"

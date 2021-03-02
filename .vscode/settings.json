@@ -1,3 +1,14 @@
 {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "cSpell.words": [
+        "Lithoids",
+        "Necroids",
+        "Stellaris",
+        "droni",
+        "positronici",
+        "riconnessione",
+        "soggiogazione",
+        "tachionico"
+    ],
+    "cSpell.language": "en,it"
 }
