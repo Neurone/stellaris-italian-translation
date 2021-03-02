@@ -1,16 +1,16 @@
 # Traduzione italiana di Stellaris
 
-Questo mod, **compatibile** con l'**Ironmode** e gli **achievement di Steam**, sostituisce la lingua inglese con la lingua italiana.
+Questo mod, **compatibile** con la **modalità Ironman** e gli **achievement di Steam**, sostituisce la lingua inglese con la lingua italiana.
 
 Compatibile con versione: **Butler 2.8.***
 
 Sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack del 24 ottobre 2019, dalla release 1.6.0 è presente anche la prima versione della traduzione del DLC Federations (uscito il 17 marzo 2020) e dalla versione 1.8.0 è presente la traduzione del DLC Necroids Species Pack.
 
-Benché questa traduzione sia basata in gran parte sui testi redatti diligentemente dal team [Battle of Paradox Italia](http://www.bopitalia.org) - ed in particolare dal buon Puxxup, **grande lavoro!** - a causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, per poter conservare ironmode e achievement ho dovuto lasciare non tradotte parte delle frasi (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.).
+Benché questa traduzione sia basata in gran parte sui testi redatti diligentemente dal team [Battle of Paradox Italia](http://www.bopitalia.org) - ed in particolare dal buon Puxxup, **grande lavoro!** - a causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, per poter conservare la modalità Ironman e gli achievement ho dovuto lasciare non tradotte parte delle frasi (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.).
 
 Inoltre, per facilitare il confronto con il resto del mondo, ho scelto di non tradurre il nome degli achievement ma solo la loro descrizione.
 
-Se avete già completato gli achievement e l'ironmode, o comunque non siete interessati alla cosa, usate il [mod di Puxxup](https://steamcommunity.com/sharedfiles/filedetails/?id=823306244) per un'esperienza di traduzione completa!
+Se avete già completato gli achievement, o comunque non siete interessati alla cosa, usate il [mod di Puxxup](https://steamcommunity.com/sharedfiles/filedetails/?id=823306244) per un'esperienza di traduzione completa!
 
 ## Contribuire alla traduzione
 
@@ -83,7 +83,7 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 
 ### Cosa posso modificare?
 
-Tutto quello che trovate qui su GitHub è già traducibile senza rischi di disattivare gli achievement e l'ironmode, e in particolare i file che verranno sovrapposti a quelli del gioco si trovano tutti all'interno del percorso [src/mod](/src/mod).
+Tutto quello che trovate qui su GitHub è già traducibile senza rischi di disattivare la modalità Ironman e gli achievement, e in particolare i file che verranno sovrapposti a quelli del gioco si trovano tutti all'interno del percorso [src/mod](/src/mod).
 
 Se dovesse servire invece aggiungere un file non ancora presente su questo repository, prima di modificarlo bisogna assicurarsi che non sia incluso nella lista di file che vengono controllati all'avvio del gioco.
 
@@ -126,7 +126,7 @@ sub_directories = yes
 file_extension = .yml
 ```
 
-Prendendo ad esempio la prima sezione, significa che all'avvio del gioco verranno controllati tutti i file `.txt` all'interno della cartella `common` e tutte le sue sotto cartelle. Se anche solo un file di questo tipo viene modificato, il controllo fallisce e il gioco impedisce l'attivazione di ironmode e achievement. E lo stesso vale per tutte le altre sezioni indicate nel file di checksum.
+Prendendo ad esempio la prima sezione, significa che all'avvio del gioco verranno controllati tutti i file `.txt` all'interno della cartella `common` e tutte le sue sotto cartelle. Se anche solo un file di questo tipo viene modificato, il controllo fallisce e il gioco impedisce l'attivazione della modalità Ironman e degli achievement. E lo stesso vale per tutte le altre sezioni indicate nel file di checksum.
 
 ### Chiavi e valori
 
