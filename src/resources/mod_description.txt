@@ -2,11 +2,11 @@ Questo mod, [b]compatibile con la modalità Ironman e gli achievement di Steam[/
 
 Versione supportata: Butler 2.8.*
 
-Sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack del 24 ottobre 2019 e la traduzione è ricavata per la maggior parte dai testi redatti diligentemente dal team Battle of Paradox Italia ed in particolare dal buon Puxxup - grande lavoro!
+Sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack e, in particolare grazie a Nefando, abbiamo anche una prima versione corposa del DLC Federations! Grazie a AndryRock in particolare per la traduzione DLC Necroids Species Pack e per aver avviato la prima versione della traduzione del DLC Federations.
 
-Grazie ad AndryRock (grande!) nell'ultima release del mod è presente la prima versione della traduzione del DLC Federations e la traduzione del DLC Necroids Species Pack!
+[b]NOTA BENE[/b]: a causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, [u]per poter conservare la modalità Ironman e achievement non è possibile tradurre completamente tutte le frasi presenti nel gioco[/u] (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.). Se avete già completato gli achievement e la modalità Ironman, o comunque non siete interessati alla cosa, usate il [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2377568450]mod di MM_Winther[/url] per [b]un'esperienza di traduzione completa[/b]!
 
-[b]NOTA BENE[/b]: a causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, [u]per poter conservare la modalità Ironman e achievement ho dovuto rimuovere parte delle frasi presenti nel lavoro di traduzione originale di Puxxup[/u] (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.). Se avete già completato gli achievement e la modalità Ironman, o comunque non siete interessati alla cosa, usate il [url=https://steamcommunity.com/sharedfiles/filedetails/?id=823306244]mod di Puxxup[/url] per [b]un'esperienza di traduzione completa[/b]!
+Questo mod nasce a maggio 2019 partendo dai testi tradotti diligentemente dal team Battle of Paradox Italia ed in particolare dal buon Puxxup - grande lavoro! - non con l'obiettivo di offrire una traduzione alternativa ma con quello di mantenere la compatibilità con achievements e modalità Ironman.
 
 Per costruire il vostro mod personale partendo da questo, potete usare [url=https://github.com/Neurone/stellaris-italian-translation]questo repository[/url] su github.
 

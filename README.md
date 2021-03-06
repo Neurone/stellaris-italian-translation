@@ -4,13 +4,11 @@ Questo mod, **compatibile** con la **modalità Ironman** e gli **achievement di 
 
 Compatibile con versione: **Butler 2.8.***
 
-Sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack del 24 ottobre 2019, dalla release 1.6.0 è presente anche la prima versione della traduzione del DLC Federations (uscito il 17 marzo 2020) e dalla versione 1.8.0 è presente la traduzione del DLC Necroids Species Pack.
+Sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack e, in particolare grazie a Nefando, abbiamo anche una prima versione corposa del DLC Federations! Grazie a AndryRock in particolare per la traduzione DLC Necroids Species Pack e per aver avviato la prima versione della traduzione del DLC Federations.
 
-Benché questa traduzione sia basata in gran parte sui testi redatti diligentemente dal team [Battle of Paradox Italia](http://www.bopitalia.org) - ed in particolare dal buon Puxxup, **grande lavoro!** - a causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, per poter conservare la modalità Ironman e gli achievement ho dovuto lasciare non tradotte parte delle frasi (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.).
+A causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, **per poter conservare la modalità Ironman e achievement non è possibile tradurre completamente tutte le frasi presenti nel gioco** (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.). Se avete già completato gli achievement e la modalità Ironman, o comunque non siete interessati alla cosa, usate il [mod di MM_Winther](https://steamcommunity.com/sharedfiles/filedetails/?id=2377568450) per un'esperienza di traduzione completa.
 
-Inoltre, per facilitare il confronto con il resto del mondo, ho scelto di non tradurre il nome degli achievement ma solo la loro descrizione.
-
-Se avete già completato gli achievement, o comunque non siete interessati alla cosa, usate il [mod di Puxxup](https://steamcommunity.com/sharedfiles/filedetails/?id=823306244) per un'esperienza di traduzione completa!
+Questo mod nasce a maggio 2019 partendo dai testi tradotti diligentemente dal team Battle of Paradox Italia ed in particolare dal buon Puxxup - grande lavoro! - non con l'obiettivo di offrire una traduzione alternativa ma con quello di mantenere la compatibilità con achievements e modalità Ironman.
 
 ## Contribuire alla traduzione
 
@@ -20,7 +18,7 @@ Per come è strutturato il gioco, e poiché questo mod vuole mantenere gli achie
 
 ### Stato della traduzione
 
-Di seguito i file principali e lo stato della loro traduzione rispetto alla versione 2.8.1 del gioco
+Di seguito i file principali e lo stato della loro traduzione rispetto alla versione 2.8.1 del gioco:
 
 | nome file | stato traduzione |
 |--|--|
@@ -178,7 +176,7 @@ In generale, se vi trovate in una impasse sulla possibile traduzione, provate a 
 
 ### Codifica dei caratteri
 
-**La codifica dei caratteri (charset) deve essere UTF-8**. Per sicurezza utilizzate direttamente un editor di testo che supporti più charset come ad esempio [Notepad++](https://notepad-plus-plus.org/downloads/) e il charset corretto verrà riconosciuto senza problemi.
+**La codifica dei caratteri (charset) deve essere UTF-8 con BOM**. Per sicurezza utilizzate direttamente un editor di testo che supporti più charset come ad esempio [Notepad++](https://notepad-plus-plus.org/downloads/) e il charset corretto verrà riconosciuto senza problemi.
 
 Da notare inoltre che i file di testo possono utilizzare dei caratteri speciali all'inizio per determinare l'ordine di scrittura dei byte (il [BOM](https://it.wikipedia.org/wiki/Byte_Order_Mark)). Usando il metodo del _copia e incolla_ questo dettaglio è trascurabile, e solitamente anche se si modificano file esistenti l'editor non tocca il BOM se è presente. Se avete comunque un editor che vi permette di scegliere se applicare o meno il BOM, es. Notepad++ o Visual Studio Code, optate sempre per mantenerlo.
 
