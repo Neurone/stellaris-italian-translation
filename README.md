@@ -4,7 +4,7 @@ Questo mod, **compatibile** con la **modalità Ironman** e gli **achievement di 
 
 Compatibile con versione: **Butler 2.8.***
 
-Sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack e, in particolare grazie a @Nefando, abbiamo anche una prima versione corposa del DLC Federations! Grazie a AndryRock in particolare per la traduzione DLC Necroids Species Pack e per aver avviato la prima versione della traduzione del DLC Federations.
+Sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack e, in particolare grazie a [Nefando](https://github.com/Nefando), abbiamo anche una prima versione corposa del DLC Federations! Grazie a AndryRock in particolare per la traduzione DLC Necroids Species Pack e per aver avviato la prima versione della traduzione del DLC Federations.
 
 A causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, **per poter conservare la modalità Ironman e achievement non è possibile tradurre completamente tutte le frasi presenti nel gioco** (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.). Inoltre, per facilitare il confronto con il resto del mondo, non sono tradotti i moni degli achievement ma solo la loro descrizione. Se avete già completato gli achievement e la modalità Ironman, o comunque non siete interessati alla cosa, usate il [mod di MM_Winther](https://steamcommunity.com/sharedfiles/filedetails/?id=2377568450) per un'esperienza di traduzione completa. 
 
