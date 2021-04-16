@@ -1097,7 +1097,8 @@
  sentinels_planet_modifier_desc:1 "Ancient guardians watch over the planet inspiring unity and spirituality in our people."
  REPLICATE_THE_EVERMORE:0 "Replicare l'Aeternus"
  REPLICATE_THE_EVERMORE_DESC:0 "Una ricostruzione dell'Aeternus permetterà alle masse di accedere ad una fonte economica d'intrattenimento e relax, lasciando altresì gli alieni a godersi il loro paradiso eterno."
-
+ REPURPOSE_THE_EVERMORE:0 "Riproporre l'Aeternus"
+ REPURPOSE_THE_EVERMORE_DESC:0 "Noi non possiamo condannare il nostro per una eternità spesa contando legumi. Noi dobbiamo riproporre l'Aeternus to per addattarsi meglio alla nostra  idea di attività significativa."
 
 
  # "Trench World" Archaeological Site Reward Modifier
