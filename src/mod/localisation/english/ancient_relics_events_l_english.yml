@@ -812,13 +812,13 @@
  site_strange_flows:1 "Strani Flussi"
  site_strange_flows_intro:1 "Quello che dovrebbe essere un "normale" pianeta fuso sta facendo invece impazzire i sensori della Nave Scientifica.\n\nSi consigliano ulteriori studi."
  ancrel.9405.name:1 "Segni di Resistenza"
- ancrel.9405.desc:2 "The disturbances caused by the orbiting Science Ship's sensors are nothing compared to the complications being encountered down on the surface of [From.Planet.GetName]. Extreme magnetic fluctuations from some unknown source are making equipment go haywire.\n\nIt will be quite an ordeal to research this electromagnetic bedlam - but given enough time, answers will emerge."
+ ancrel.9405.desc:2 "I disturbi causati da i sensori della nave scientifica in orbita non sono niente in confronto alle complicazioni incontrante sulla superfice di [From.Planet.GetName]. Le fluttuazioni magnetiche estreme da una fonte sconosciuta stanno facendo impazzire l'attrezzatura.\n\nSarà un vero calvario fare ricerche su questa bolgia elettromagnetica, ma con abbastanza tempo, le risposte emergeranno."
  ancrel.9410.name:1 "Metallo"
- ancrel.9410.desc:2 "Once the surface expedition managed to solve the problems with the malfunctioning equipment, the nature of the wild magnetic fluctuations started to reveal itself.\n\nThe raging oceans and rivers of lava down on [From.Planet.GetName] are in fact not made up of conventional magma - it's molten metal! Metals of this temperature tend not to have particularly strong magnetic properties; not even the sheer volume of molten metal on [From.Planet.GetName] should create electromagneticism on this scale. So what is causing it?"
+ ancrel.9410.desc:2 "Una volta che la spedizione di superficie è riuscita a risolvere i problemi con l'attrezzatura malfunzionante, la natura delle fluttuazioni magnetiche selvagge ha iniziato a rivelarsi.\n\nGli oceani impetuosi e i fiumi di lava che scendono su [From.Planet.GetName] non sono infatti realizzati di magma convenzionale - è metallo fuso! I metalli a questa temperatura tendono a non avere proprietà magnetiche particolarmente forti; nemmeno l'enorme volume di metallo fuso su [From.Planet.GetName] dovrebbe creare elettromagnetismo su questa scala. Allora cosa lo sta causando?"
  ancrel.9415.name:1 "Il Risveglio della Stella di Neutroni"
  ancrel.9415.desc:2 "The Science Ship orbiting [FromFrom.Planet.GetName] has finally cracked the enigma of the magnetic fluctuations down on the planet.\n\nMillions of years ago, the planet came into close proximity with a special kind of neutron star. The magnetism of this neutron star effectively boiled the metals inside [FromFrom.Planet.GetName], turning them into the molten oceans we see today. The electromagneticism we've encountered is but a lingering echo of the original, cataclysmic event.\n\nWhere the neutron star is now remains a mystery - a quite disturbing mystery."
  ancrel.9420.name:1 "Fulminato!"
- ancrel.9420.desc:2 "The blatant disregard for conventional laws of physics has our science department considering "external forces" as an explanation for the strange properties of [FromFrom.Planet.GetName].\n\nAn impact crater - in combination with fusion drive particle traces found in orbit - suggests that the planet was fired upon by some kind of electric super-weapon at some point. The severity of the strike was such that all metals on the planet melted, and the planet is still crackling with residual electricity.\n\nWhat warranted such tremendous attack? We'll never know."
+ ancrel.9420.desc:2 "Il palese disprezzo per le leggi convenzionali della fisica ha indotto il nostro dipartimento di scienze a considerare le" forze esterne "come spiegazione per le strane proprietà di [FromFrom.Planet.GetName].\n\nUn cratere da impatto-in combinazione con tracce di particelle di unità di fusione trovate in orbita-suggerisce che a un certo punto il pianeta è stato colpito da una specie di superarma elettrica. La gravità del colpo è stata tale che tutti i metalli del pianeta si sono sciolti e il pianeta continua a scoppiettare per l'elettricità residua.\n\nChe cosa garantiva un attacco così tremendo? Non lo sapremo mai."
  ancrel.9425.name:1 "Per la Scienza!"
  ancrel.9425.desc:1 "Once the sensors had been re-calibrated to compensate for the interference, a new discovery was made: an abandoned research station, located on a nearby moon. Fragments of data were salvaged from the almost entirely burned-out records, detailing an experiment involving a giant, artificial magnet on the planet's surface.\n\nThe experiment was a bit too successful. It turned the planet's entire, metal crust into molten pools with an electromagnetic charge so intense that it fried the research station in an instant.\n\nWell... No progress without sacrifice."
  
@@ -1042,7 +1042,7 @@
  ancrel.4059.name:1 "Le Sentinelle"
  ancrel.4059.desc:1 "§HThe Sentinel with the broken wing turns to one of its peers and speaks.\n\n§!Please Divana, set them down. I wish to be freed from this prison. I can no longer count the days we have served our masters, toiling on this earth while they enjoy the heavens below. I am alive but dead, they are dead but alive. Will you not let me go?\n\n§HDivana looks at her with disgust.§!\n\nExcelsia, by the gods, keep it together. Our loved ones rest below. Have you forgotten our sin? We made a promise to guard their afterlives eternally. That is our only redemption.\n\n§HShe sizes us up.§!\n\nYou are no threat to us, [Root.owner.GetSpeciesNamePlural]. Leave us in peace and we will protect this planet eternally."
  ancrel.4059.a:0 "Cosa... siete?"
- ancrel.4059.a.response:1 "We are guardians of the gates to heaven - keepers of our people's immortality."
+ ancrel.4059.a.response:1 "Siamo i guardiani delle porte del paradiso - i custodi dell'immortalità del nostro popolo."
  ancrel.4059.b:0 "Accettiamo la vostra protezione."
  ancrel.4062.desc:0 "§HExcelsia approaches the archaeologists.§!\n\nPlease, I beg of you to end my suffering."
  ancrel.4059.e:0 "No. Ci servi."
@@ -1052,10 +1052,10 @@
  ancrel.4059.c:1 "Paradiso?"
  ancrel.4059.c.response:0 "Paradiso, sì... sebbene dubito che il vostro concetto di paradiso corrisponda a quello dei nostri padroni.\n\n§HSolleva un sopracciglio e sogghigna.§!\n\nI nostri padroni hanno gusti raffinati..."
  ancrel.4060.a.response:1 "Then you will die.\n\n§HThe other Sentinels brandish their weapons but Excelsia only smiles, a peaceful look upon her face.§!"
- ancrel.4060.name:1 "Transmission"
+ ancrel.4060.name:1 "Trasmissione"
  ancrel.4060.desc:1 "We cannot let you disturb the ground where our loved ones lie. Let them rest in peace and you will never have to worry about outside threats."
- ancrel.4060.a:1 "You will vacate this land instantly."
- ancrel.4060.b:1 "We could use your protection."
+ ancrel.4060.a:1 "Tu libererari questa terra immediatamente."
+ ancrel.4060.b:1 "Noi potremmo usare la tua protezione."
  ancrel.4060.b.response.tooltip:1 "Adds Sentinel defensive armies to this planet."
  ancrel.4061.name:0 "Reinventing the Evermore"
  ancrel.4061.desc:0 "We have replicated the Evermore and tailored it to our needs. Living out their fantasies in a virtual playground, without latency, has greatly heightened our inhabitants spirits and lessened their needs for material things.\n\nMeanwhile the humanoid aliens live on in the original Evermore, in a somewhat different take on paradise. They are locked in an abstract never-ending board game centered on galactic domination through the accumulation of legumes. It is impossible to say with certainty if they are happy. Their brows are deeply furrowed in what may, or may not, be an expression of alien joy."
@@ -1099,6 +1099,7 @@
  REPLICATE_THE_EVERMORE_DESC:0 "Una ricostruzione dell'Aeternus permetterà alle masse di accedere ad una fonte economica d'intrattenimento e relax, lasciando altresì gli alieni a godersi il loro paradiso eterno."
  REPURPOSE_THE_EVERMORE:0 "Riproporre l'Aeternus"
  REPURPOSE_THE_EVERMORE_DESC:0 "Noi non possiamo condannare il nostro per una eternità spesa contando legumi. Noi dobbiamo riproporre l'Aeternus to per addattarsi meglio alla nostra  idea di attività significativa."
+
 
 
  # "Trench World" Archaeological Site Reward Modifier
