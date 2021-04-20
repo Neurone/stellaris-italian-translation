@@ -1006,7 +1006,7 @@
  ancrel.4054.b.tooltip:0 "Se conserveremo le Sentinelle, questa regione non potrà essere utilizzata per altri scopi."
  ancrel.4054.c:0 "Radete al suolo quelle Xeno mostruosità."
  ancrel.4054.d:0 "Smantellate le statue e recuperate le leghe."
- # Destroy the Sentinels
+ # Distruggi Le Sentinelle
  DESTROY_SENTINELS:0 "Le Sentinelle"
  DESTROY_SENTINELS_DESC:0 "Lo spesso strato protettivo delle Sentinelle si è rivelato essere impenetrabile alle attrezzature ordinarie; gli archeologi hanno bisogno dell'aiuto del dipartimento ingegneristico per continuare."
  SECRET_TOMB:0 "Sotto Terra"
@@ -1034,9 +1034,9 @@
  ancrel.4076.a:0 "Metti le loro menti al lavoro con un po 'di scienza."
  ancrel.4076.b:0 "Modifica l'Aeternus per intrattenere le masse."
  ancrel.4077.name:0 "L'Aeternus"
- ancrel.4077.desc.a:0 "We have done it! The digitized population residing within the Evermore have been assigned to assist with scientific research on [from.owner.capital_scope.GetName]. They need very little rest and are quite happy to be doing something different..."
- ancrel.4077.desc.b:0 "We have done it! The Evermore simulation has been remodeled to better cater to the particular taste of our people. All our population can now live out their fantasies together with the digitized population in the Evermore paradise without latency. This has greatly improved their spirits and lessened their need for material things."
- ancrel.4058.desc:0 "The Sentinels have woken. The engineering team was just preparing to disassemble the broken Sentinel when a gentle shiver passed through the statues and they sprung to life, bodies humming and skin glowing. Radiation pulsating from their cores has made them malleable and transparent, revealing a digital grid of limbs.\n\nBefore anyone could react they had surrounded the archaeologists and suspended them within a force field. Now they wish to speak with us."
+ ancrel.4077.desc.a:0 "Ce l'abbiamo fatta! La popolazione digitalizzata residente all'interno dell'Aternus è stata assegnata per assistere con la ricerca scientifica su [from.owner.capital_scope.GetName]. Hanno bisogno di pochissimo riposo e sono abbastanza felici di fare qualcosa di diverso ..."
+ ancrel.4077.desc.b:0 "Ce l'abbiamo fatta! La simulazione del Aternus è stata rimodellata per soddisfare meglio il gusto particolare della nostra gente. Tutta la nostra popolazione può ora vivere le proprie fantasie insieme alla popolazione digitalizzata nel paradiso di Aternus senza latenza. Ciò ha notevolmente migliorato il loro spirito e diminuito il loro bisogno di cose materiali."
+ ancrel.4058.desc:0 "Le Sentinelle si sono svegliate. Il team di ingegneri si stava appena preparando a smontare la Sentinel rotta quando un leggero brivido attraversò le statue e queste ripresero vita, i corpi che ronzavano e la pelle risplendeva. La radiazione pulsante dai loro nuclei li ha resi malleabili e trasparenti, rivelando una griglia digitale di arti.\n\nPrima che qualcuno potesse reagire, avevano circondato gli archeologi e li avevano sospesi all'interno di un campo di forza. Adesso vogliono parlare con noi."
  ancrel.4058.a:0 "Ascoltiamole."
  ancrel.4058.b:0 "Zittitele per sempre!"
  ancrel.4059.name:1 "Le Sentinelle"
