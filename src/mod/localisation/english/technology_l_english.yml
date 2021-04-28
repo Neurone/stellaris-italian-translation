@@ -1107,7 +1107,9 @@
  gateway_kinetic_weapons:0 "§HPercorso Armi Cinetiche§!\n§EQuesta tecnologia ci condurrà ad ulteriori scoperte riguardanti le armi cinetiche.§!"
  gateway_energy_weapons:0 "§HPercorso Armi ad Energia§!\n§EQuesta tecnologia ci condurrà ad ulteriori scoperte riguardanti le armi ad energia.§!"
  gateway_power_generation:0 "§HGenerazione Energetica§!\n§EQuesta tecnologia ci condurrà ad ulteriori scoperte in diversi campi scientifici.§!"
- 
+ gateway_espionage:0 "§HPercorso delle operazioni segrete§!\n§EQuesta tecnologia porterà a ulteriori progressi nello spionaggio e nelle attività segrete.§!"
+ gateway_infrastructure:0 "§HPercorso infrastruttura§!\n§EQuesta tecnologia porterà a ulteriori progressi nelle infrastrutture civili.§!"
+
  #####################################
  # Enclave Techs
  #####################################

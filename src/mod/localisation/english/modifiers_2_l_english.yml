@@ -173,6 +173,7 @@
  mod_damage_vs_country_type_ai_empire_mult:1 "Danni alla Contingenza"
  mod_damage_vs_country_type_sentinels_mult:0 "Danni alle Sentinelle"
  mod_damage_vs_country_type_gate_builders_mult:0 "Danni ai Costruttori di Portali"
+ MOD_DAMAGE_VS_PLAYER_CRISIS_MULT:0 "Danni alle civiltà in cerca di crisi"
 
  ####################################
  # Opinion Modifiers

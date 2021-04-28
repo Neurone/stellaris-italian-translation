@@ -28,7 +28,7 @@
  MESSAGE_FLEET_ORDER_FINISH_MESSAGE_TYPE_TITLE:0 "Ordine Flotta Eseguito"
  MESSAGE_SYSTEM_SURVEYED_TITLE:0 "Sistema Ispezionato"
  AUTO_EXPLORE_CANCELED_MESSAGE_TYPE_TITLE:0 "Ordine Flotta Annullato"
- MESSAGE_FLEET_ORDER_AUTO_EXPLORE_CANCELED:0 "§H$FLEET$§! ha interrotto l'Auto-Esplorazione. Non può raggiungere o trovare altri sistemi non ispezionati."
+ MESSAGE_FLEET_ORDER_AUTO_EXPLORE_CANCELED:1 "§H$FLEET$§! ha interrotto il Rilevamento Automatico. Non può raggiungere o trovare altri sistemi non ispezionati."
  FLEET_BUILD_ORDER_CANCELED_MESSAGE_TYPE_TITLE:0 "$AUTO_EXPLORE_CANCELLED_MESSAGE_TYPE_TITLE$"
  MESSAGE_FLEET_BUILD_ORDER_CANCELED_MESSAGE:0 "$FLEET|H$ non è stata in grado di costruire una $STATION|H$ su $SYSTEM|H$. Le risorse sono state rimborsate."
  MESSAGE_BYPASS_EXPLORED:0 "Wormhole Esplorato"
@@ -106,6 +106,8 @@
  ACTION_FORM_COMMERCIAL_PACT_PROPOSAL_FAILED_RECIPIENT:0 "L'offerta di formare un Accordo Commerciale con §H[Actor.GetName]§! è scaduta ed è stata rifiutata automaticamente."
  ACTION_FORM_RESEARCH_AGREEMENT_PROPOSAL_FAILED_ACTOR:0 "La nostra offerta di formare un Accordo di Ricerca con §H[Recipient.GetName]§! è scaduta ed è stata rifiutata automaticamente."
  ACTION_FORM_RESEARCH_AGREEMENT_PROPOSAL_FAILED_RECIPIENT:0 "L'offerta di formare un Accordo di Ricerca con §H[Actor.GetName]§! è scaduta ed è stata rifiutata automaticamente."
+ ACTION_GUARANTEE_INDEPENDENCE_PROPOSAL_FAILED_ACTOR:0 "La nostra offerta per garantire l'indipendenza di §H[Recipient.GetName]§! è stata rifiutata."
+ ACTION_GUARANTEE_INDEPENDENCE_PROPOSAL_FAILED_RECIPIENT:0 "L'offerta di §H[Actor.GetName]§! per garantire la nostra indipendenza è scaduta ed è stata rifiutata automaticamente."
  ACTION_FORM_MIGRATION_PACT_PROPOSAL_FAILED_ACTOR:1 "La nostra offerta di formare un Trattato di Migrazione con §H[Recipient.GetName]§! è scaduta ed è stata rifiutata automaticamente."
  ACTION_FORM_MIGRATION_PACT_PROPOSAL_FAILED_RECIPIENT:1 "L'offerta di formare un Trattato di Migrazione da §H[Actor.GetName]§! è scaduta ed è stata rifiutata automaticamente."
  ACTION_INVITE_TO_ALLIANCE_PROPOSAL_FAILED_ACTOR:0 "§H[Recipient.GetName]§! ha rifiutato il nostro invito ad entrare nell'Alleanza."
@@ -165,7 +167,7 @@
  MESSAGE_MAKE_RIVAL_TITLE:0 "$RIVALRY$"
  MESSAGE_RECALL_EMBASSY_TITLE:0 "Ambasciatore Richiamata"
  MESSAGE_END_RIVALRY_TITLE:0 "$RIVALRY$ Terminata"
- MESSAGE_EMBASSY_TITLE:0 "Ambasciata Stabilita"
+ MESSAGE_EMBASSY_TITLE:1 "Stabilire Ambasciata"
  MESSAGE_DECLARE_WAR_TITLE:0 "Dichiarazione di Guerra"
  MESSAGE_OFFER_PEACE_TITLE:0 "Offerta di Pace"
  MESSAGE_INVITE_TO_ALLIANCE_TITLE:0 "Invito nell'Alleanza"
@@ -250,6 +252,7 @@
  ACTION_FORM_FEDERATION_NOTIFICATION:2 "L'Alleanza §H[From.GetAllianceName]§! ha votato per la formazione di una $FEDERATION$.\n\nHanno deciso di esplorare la galassia assieme."
  ACTION_INVITE_TO_FEDERATION_NOTIFICATION:2 "§H[Root.GetName]§! si è unito alla Federazione §H[From.GetAllianceName]§!.\n\nOra rimarranno uniti contro i loro nemici."
  ACTION_ASK_TO_JOIN_FEDERATION_NOTIFICATION:2 "§H[From.GetName]§! si è unito alla Federazione §H[Root.GetAllianceName]§!.\n\nOra rimarranno uniti contro i loro nemici."
+ ACTION_ASK_TO_LEAVE_FEDERATION_NOTIFICATION:0 "$ACTION_LEAVE_FEDERATION_NOTIFICATION$"
  ACTION_LEAVE_FEDERATION_NOTIFICATION:2 "§H[From.GetName]§! ha abbandonato la Federazione §H[Root.GetAllianceName]§!.\n\nPotrebbe rappresentare un'opportunità per noi..."
  ACTION_KICK_FROM_FEDERATION_NOTIFICATION:1 "La Federazione §H[From.GetAllianceName]§! ha votato per cacciare §H[Root.GetName]§!."
  ACTION_ASK_TO_BE_RELEASED_SUBJECT_NOTIFICATION:2 "§H[Root.GetName]§! ha concesso l'indipendenza a §H[From.GetName]§!.\n\nSembra che fossero troppo deboli per mantenere il controllo sui loro Sudditi."
@@ -286,6 +289,7 @@
    
  
  MESSAGE_DIPLOMACY_TITLE:0 "Diplomazia"
+
  ACTION_FORM_FEDERATION_PROPOSAL_FAILED_RECIPIENT:0 "$ACTION_INVITE_TO_ALLIANCE_PROPOSAL_FAILED_RECIPIENT$"
 
  ####################################
@@ -353,8 +357,8 @@
  COUNTRY_LEADER_DEATH:0 "Il nostro $CLASS|Y$, $LEADER|Y$ è morto!"
  HEIR_DEATH:0 "Il nostro §Y$HEIR$§!, $HEIRNAME|Y$ è morto!"
  RULER_ELECTED:0 "È stato eletto un nuovo Sovrano! $TITLE$ $LEADER|Y$ resterà in carica fino alle prossime elezioni, che avranno luogo il $TIME|Y$."
- RULER_ELECTED_UNTIL_DEATH:0 "$TITLE$ $LEADER|Y$! è stato scelto come nuovo Sovrano, e resterà in carica fino alla sua morte."
- RULER_ELECTED_HEIR:0 "Per ordine di successione, $TITLE$ $LEADER|Y$! è il nuovo Sovrano."
+ RULER_ELECTED_UNTIL_DEATH:1 "$TITLE$ $LEADER|Y$ è stato scelto come nuovo Sovrano, e resterà in carica fino alla sua morte."
+ RULER_ELECTED_HEIR:1 "Per ordine di successione, $TITLE$ $LEADER|Y$ è il nuovo Sovrano."
  MESSAGE_LEADER_DEATH_TITLE:0 "Leader Morto"
  MESSAGE_RULER_ELECTED_TITLE:0 "Sovrano Eletto"
  MESSAGE_RULER_ELECTED_UNTIL_DEATH_TITLE:0 "Sovrano Eletto"
@@ -411,7 +415,7 @@
  ####################################
  # Revolt
  ####################################
- MESSAGE_REVOLT:0 "La popolazione del Pianeta $PLANET|Y$! è in rivolta!"
+ MESSAGE_REVOLT:1 "La popolazione del Pianeta $PLANET|Y$! è in rivolta!"
  MESSAGE_PLANET_REVOLT_TITLE:0 "Rivolta!"
  
  ####################################
@@ -534,3 +538,9 @@ MESSAGE_SUBJECT_TYPE_CHANGED_TITLE:0 "Un Suddito ha Cambiato Status"
 #####################################
  MESSAGE_NEW_CLAIM_ON_SYSTEM_TITLE:1 "Impero Straniero Rivendica Nostro Sistema"
  MESSAGE_NEW_CLAIM_ON_SYSTEM:1 "Sebbene appartenga a noi, $COUNTRY|H$ ha audacemente rivendicato il Sistema $SYSTEM|H$!"
+
+#####################################
+# Star Destroyed
+#####################################
+ MESSAGE_STAR_DESTROYED:0 "Sistema Distrutto"
+ MESSAGE_STAR_DESTROYED_DESC:0 "Una massiccia supernova attivata da $ADJ$ §RStar-Eater§! ha distrutto $PLANET|Y$."

@@ -65,7 +65,7 @@
  SUPREMACIST_DOMINATION_DESC:0 "Dichiarare guerra contro uno o più Imperi Xeno li renderà felici per un po'."
  SUPREMACIST_NO_DOMINATION:0 "$SUPREMACIST_DOMINATION$"
  SUPREMACIST_GENE_MOD:0 "Purezza Genetica"
- SUPREMACIST_GENE_MOD_DESC:1 "Assicurarsi che tutta la POP abbia esattamente gli stessi tratti genetici li renderà felici."
+ SUPREMACIST_GENE_MOD_DESC:1 "Assicurarsi che tutta la popolazione abbia esattamente gli stessi tratti genetici li renderà felici."
  SUPREMACIST_IMPURE:0 "Impurità Popolo [Root.Owner.GetSpeciesAdj]"
  SUPREMACIST_NO_HARMONY:0 "Disarmonia"
  SUPREMACIST_HARMONY:0 "$SUPREMACIST_NO_HARMONY$"
@@ -88,7 +88,10 @@
  SUPREMACIST_CELEBRATE_DIVERSITY:0 "Celebrazione della Debolezza"
  SUPREMACIST_NO_CELEBRATE_DIVERSITY:0 "$SUPREMACIST_CELEBRATE_DIVERSITY$"
  SUPREMACIST_CELEBRATE_DIVERSITY_DESC:0 "Mettere in mostra gli Artefatti Minori di civiltà inferiori li contrarierà per un po'."
- 
+ SUPREMACIST_AGGRESSIVE_FIRST_CONTACT_POLICY:0 "Protocolli Aggressivo di Primo Contatto"
+ SUPREMACIST_NO_AGGRESSIVE_FIRST_CONTACT_POLICY:0 "$SUPREMACIST_AGGRESSIVE_FIRST_CONTACT_POLICY$"
+ SUPREMACIST_NO_AGGRESSIVE_FIRST_CONTACT_POLICY_DESC:0 "Abbiamo il diritto di prendere tutte le misure necessarie contro minacce sconosciute che potremmo incontrare mentre viaggiamo tra le stelle."
+
  # XENOISTS
  XENOIST_PASSIVE_STUDY:0 "Xenologia Indiretta"
  XENOIST_PASSIVE_STUDY_DESC:0 "Promulgare leggi a favore dello studio passivo dei nativi li renderà felici."
@@ -138,6 +141,12 @@
  XENOIST_PROCLAIM_SUPREMACY:0 "Bruciatori di Libri"
  XENOIST_NO_PROCLAIM_SUPREMACY:0 "$XENOIST_PROCLAIM_SUPREMACY$"
  XENOIST_PROCLAIM_SUPREMACY_DESC:0 "Distruggere gli Artefatti Minori, manifestando xenofobia, li contrarierà per un po'."
+ XENOIST_PROACTIVE_FIRST_CONTACT_POLICY:0 "Protocolli di Primo Contatto Proattivi"
+ XENOIST_ADOPT_PROACTIVE_FIRST_CONTACT_POLICY:0 "$XENOIST_PROACTIVE_FIRST_CONTACT_POLICY$"
+ XENOIST_PROACTIVE_FIRST_CONTACT_POLICY_DESC:0 "L'inserimento di un approccio pacifico e §Yproattivo§! per stabilire il primo contatto nelle nostre leggi farà piacere a [Root.GetName] in quest'era di esplorazione."
+ XENOIST_AGGRESSIVE_FIRST_CONTACT_POLICY:0 "Protocolli di Primo Contatto Aggressivi"
+ XENOIST_NO_AGGRESSIVE_FIRST_CONTACT_POLICY:0 "$XENOIST_AGGRESSIVE_FIRST_CONTACT_POLICY$"
+ XENOIST_AGGRESSIVE_FIRST_CONTACT_POLICY_DESC:0 "L'incapacità di legiferare contro l'§Yaggressione§! nei confronti di coloro che incontriamo nei nostri viaggi dispiacerà a [Root.GetName] in questa era di esplorazione."
 
  # IMPERIALISTS
  IMPERIALIST_PHILOSOPHY:0 "Diplomazia Aggressiva"
@@ -176,7 +185,6 @@
  IMPERIALIST_PEACEFUL_APPLICATIONS:0 "Spreco di Artefatti"
  IMPERIALIST_NO_PEACEFUL_APPLICATIONS:0 "$IMPERIALIST_PEACEFUL_APPLICATIONS$"
  IMPERIALIST_PEACEFUL_APPLICATIONS_DESC:0 "Sprecare gli Artefatti Minori per futili banalità li contrarierà per un po'."
-
  
  # ISOLATIONISTS
  ISOLATIONIST_PHILOSOPHY:0 "Prode Difesa"
@@ -221,6 +229,9 @@
  ISOLATIONIST_DEFENSIVE_STATIONS:0 "Difesa dello Spazio Profondo"
  ISOLATIONIST_DEFENSIVE_STATIONS_DESC:0 "Possedere almeno §Y1§! Stazione Militare in ogni sistema colonizzato li renderà felici."
  ISOLATIONIST_FEW_DEFENSIVE_STATIONS:0 "$ISOLATIONIST_DEFENSIVE_STATIONS$"
+ ISOLATIONIST_REPEAL_PROACTIVE_FIRST_CONTACT_POLICY:0 "Protocolli di Primo Contatto Proattivi"
+ ISOLATIONIST_NO_PROACTIVE_FIRST_CONTACT_POLICY:0 "$ISOLATIONIST_REPEAL_PROACTIVE_FIRST_CONTACT_POLICY$"
+ ISOLATIONIST_REPEAL_PROACTIVE_FIRST_CONTACT_POLICY_DESC:0 "La fazione [Root.GetName] non ritiene appropriato trasmettere informazioni su noi stessi attraverso le stelle a chiunque stia ascoltando."
 
  # TRADITIONALISTS
  TRADITIONALIST_NO_ROBOTS:0 "Vita Organica"
@@ -782,11 +793,11 @@
  faction.201.desc:0 "I loro templi sono deturpati, i loro dèi li hanno abbandonati."
 
  faction.202.title:0 "[parameter:heathens.GetName] Insultato"
- faction.202.desc:0 "Come conseguenza di una falla imbarazzante nella sicurezza, i membri della Fazione membri della Fazione [Root.GetName] hanno ottenuto un breve accesso ai nostri canali di comunicazione diplomatica. Hanno sfruttato questa opportunità per condannare ed insultare [parameter:heathens.GetName] per varie eresie commesse e debolezze morali insite nelle loro credenze.\n\nQuesto incidente non è stato preso bene dai religiosi [parameter:heathens.GetSpeciesNamePlural]."
+ faction.202.desc:1 "Come conseguenza di una falla imbarazzante nella sicurezza, i membri della Fazione membri della Fazione [Root.GetName] hanno ottenuto un breve accesso ai nostri canali di comunicazione diplomatica. Hanno sfruttato questa opportunità per condannare ed insultare [parameter:heathens.GetName] per varie eresie commesse e debolezze morali insite nelle loro credenze.\n\nQuesto incidente non è stato preso bene dai religiosi [parameter:heathens.GetSpeciesNamePlural]."
  faction.202.a:0 "Che imbarazzo."
  faction.202.a.tooltip:0 "§Y[parameter:enemy.GetName]§! aggiunge il modificatore d'opinione §YInsulto della Fazione§! al §nostro impero§!."
  faction.203.title:0 "Tentativo d'Insulto"
- faction.203.desc:0 "Come conseguenza di un'altra falla estremamente imbarazzante nella sicurezza, i membri della Fazione membri della Fazione [Root.GetName] hanno ottenuto un breve accesso ai nostri canali di comunicazione diplomatica. Hanno sfruttato ancora una volta questa opportunità per sminuire le credenze pagane di [parameter:heathens.GetName].\n\nTuttavia, i [parameter:heathens.GetSpeciesNamePlural] sembrano non essere stati presi alla sprovvista da questo ennesimo incidente, e pare che non gli abbiano dato troppa importanza."
+ faction.203.desc:1 "Come conseguenza di un'altra falla estremamente imbarazzante nella sicurezza, i membri della Fazione membri della Fazione [Root.GetName] hanno ottenuto un breve accesso ai nostri canali di comunicazione diplomatica. Hanno sfruttato ancora una volta questa opportunità per sminuire le credenze pagane di [parameter:heathens.GetName].\n\nTuttavia, i [parameter:heathens.GetSpeciesNamePlural] sembrano non essere stati presi alla sprovvista da questo ennesimo incidente, e pare che non gli abbiano dato troppa importanza."
  faction.203.a:0 "Sigh..."
 
  faction.204.title:0 "Insurrezione Religiosa!"
@@ -823,11 +834,11 @@
  ### Liberation Faction
 
  faction.501.title:0 "[parameter:enemy.GetName] Insultato"
- faction.501.desc:0 "Come conseguenza di una falla imbarazzante nella sicurezza, i membri della Fazione membri della Fazione [Root.GetName] hanno ottenuto un breve accesso ai nostri canali di comunicazione diplomatica. Hanno sfruttato questa opportunità per insultare gravemente [parameter:enemy.GetName] ed esigere l'immediata restituzione di [parameter:planet.GetName].\n\nQuesta cosa non è stata presa bene dai cittadini [parameter:enemy.GetSpeciesNamePlural]."
+ faction.501.desc:1 "Come conseguenza di una falla imbarazzante nella sicurezza, i membri della Fazione membri della Fazione [Root.GetName] hanno ottenuto un breve accesso ai nostri canali di comunicazione diplomatica. Hanno sfruttato questa opportunità per insultare gravemente [parameter:enemy.GetName] ed esigere l'immediata restituzione di [parameter:planet.GetName].\n\nQuesta cosa non è stata presa bene dai cittadini [parameter:enemy.GetSpeciesNamePlural]."
  faction.501.a:0 "Che imbarazzo."
  faction.501.a.tooltip:0 "§Y[parameter:enemy.GetName]§! aggiunge il modificatore d'opinione §YInsulto della Fazione§! al §nostro impero§!."
  faction.502.title:0 "Tentativo d'Insulto"
- faction.502.desc:0 "Come conseguenza di un'altra falla estremamente imbarazzante nella sicurezza, i membri della Fazione [Root.GetName] hanno ottenuto un breve accesso ai nostri canali di comunicazione diplomatica. Hanno nuovamente sfruttato questa opportunità per insultare gravemente [parameter:enemy.GetName] ed esigere l'immediata restituzione di [parameter:planet.GetName].\n\nTuttavia, i cittadini [parameter:enemy.GetSpeciesNamePlural] sembrano non essere stati presi alla sprovvista da questo ennesimo incidente, e pare che non gli abbiano dato troppa importanza."
+ faction.502.desc:1 "Come conseguenza di un'altra falla estremamente imbarazzante nella sicurezza, i membri della Fazione [Root.GetName] hanno ottenuto un breve accesso ai nostri canali di comunicazione diplomatica. Hanno nuovamente sfruttato questa opportunità per insultare gravemente [parameter:enemy.GetName] ed esigere l'immediata restituzione di [parameter:planet.GetName].\n\nTuttavia, i cittadini [parameter:enemy.GetSpeciesNamePlural] sembrano non essere stati presi alla sprovvista da questo ennesimo incidente, e pare che non gli abbiano dato troppa importanza."
  faction.502.a:0 "Sigh..."
  faction.503.title:0 "Ribellione Interventista!"
  faction.503.desc:0 "Abbiamo ricevuto rapporti su alcuni elementi radicali della Fazione [Root.GetName] che hanno formato un milizia ribelle estremamente organizzata su [planet.GetName].\n\nLa loro ribellione è ancora all'inizio, e sarebbe opportuno stroncarla sul nascere."

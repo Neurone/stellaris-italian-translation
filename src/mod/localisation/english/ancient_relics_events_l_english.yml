@@ -370,7 +370,7 @@
  ancrel.2042.name:0 "$city_of_bones$"
  ancrel.2042.desc:0 "Anche gli scavi mirati non sono stati d'aiuto per trovare uno scheletro completo della specie utilizzata per le costruzioni, né tantomeno fossili simili all'esterno della città stessa. Rimane un mistero la provenienza delle ossa che la civiltà perduta che abitava [From.Planet.GetName] utilizzò per costruire la loro città.\n\nI nostri ricercatori hanno iniziato ad ipotizzare che provengano da una specie simbiotica o fatta crescere in cattività nei dintorni della città. Ulteriori studi dovrebbero rivelare altro."
  ancrel.2043.name:0 "$city_of_bones$"
- ancrel.2043.desc:0 "I nostri scienziati hanno infine svelato l'origine delle ossa utilizzare per costruire la macabra città tra le dune sabbiose di [From.Planet.GetName]. Recenti scoperte hanno provato che le ossa appartengono ad una specie di rettili, da tempo estinta, nativi del pianeta; questa specie sviluppò una rara malattia genetica che ne causava l'esplosiva crescita di di organi e l'ossificazione dei tessuti molli.\n\nSembra che la civiltà perduta su [ From.Planet.GetName] avesse notato il diffondersi di tale malattia e l'avesse sfruttata, allevando selettivamente i rettili colpiti da essa per coltivare un rifornimento costante di materiali da costruzione, per poter vivere in quella landa desolata che chiamavano casa."
+ ancrel.2043.desc:1 "I nostri scienziati hanno infine svelato l'origine delle ossa utilizzare per costruire la macabra città tra le dune sabbiose di [From.Planet.GetName]. Recenti scoperte hanno provato che le ossa appartengono ad una specie di rettili, da tempo estinta, nativi del pianeta; questa specie sviluppò una rara malattia genetica che ne causava l'esplosiva crescita di di organi e l'ossificazione dei tessuti molli.\n\nSembra che la civiltà perduta su [From.Planet.GetName] avesse notato il diffondersi di tale malattia e l'avesse sfruttata, allevando selettivamente i rettili colpiti da essa per coltivare un rifornimento costante di materiali da costruzione, per poter vivere in quella landa desolata che chiamavano casa."
  ancrel.2043.a:0 "Raccapricciante."
  ancrel.2043.a.tooltip:0 "§HSblocca Decisione:§! $decision_tissue_growth_stimulants$"
  ancrel.2043.b.tooltip:0 "§HSblocca Decisione:§! $decision_explosive_fungifoam_housing$"
@@ -824,7 +824,7 @@
  
  ###Tutorial###
  tutorial.1337.name:0 "Artefatti Minori"
- tutorial.1337.desc:0 "Abbiamo scoperto alcuni Artefatti Minori. Si tratta di risorse esoteriche, un termine che comprende tutti gli oggetti che non capiamo e che potrebbero in effetti non avere uno scopo. Indipendentemente dallo scopo dell'oggetto, queste risorse possono essere utilizzate per compiere varie Decisioni tramite la schermata §HReliquie ed Artefatti Minori§!, una scheda all'interno della finestra §HTradizioni e Reliquie§!."
+ tutorial.1337.desc:1 "Abbiamo scoperto alcuni Artefatti Minori. Si tratta di risorse esoteriche, un termine che comprende tutti gli oggetti che non capiamo e che potrebbero in effetti non avere uno scopo. Indipendentemente dallo scopo dell'oggetto, queste risorse possono essere utilizzate per compiere varie Decisioni tramite la schermata §HReliquie ed Artefatti Minori§!, una scheda all'interno della interfaccia §HGestione Società§!."
 
  ancrel.6000.name:0 "Omnicodex"
  ancrel.6000.desc:0 "L'Omnicodex contiene i dati genetici dettagliati di migliaia di specie sapienti che un tempo abitavano la galassia. I nostri genetisti possono utilizzare questi dati per ricreare una specie estinta su uno dei nostri pianeti.\n\nUna volta selezionato il pianeta, i genetisti selezioneranno una specie dall'Omnicodex che sia adatta al suo clima."
@@ -930,7 +930,7 @@
  ancrel.4036.b:0 "Tu chi sei?"
  ancrel.4036.b.response:0 "Io sono l'Oracolo, un'intelligenza artificiale dotata della "vista". Il mio software mi permette di predire il vostro futuro con un'accuratezza del 74,99999%. Percepisco molti dubbi in voi. Dei grandi pericoli si appropinquano. La vostra società è colma di criminalità e perversione. Io posso eliminare questo dolore."
  ancrel.4036.c:0 "Quello è un processore quantistico multi-core? Ci sarebbe utile..."
- ancrel.4036.d:0 "Abbiamo alcuni individui piuttosto "problematici" su [Root.GetHomeWorldName]..."
+ ancrel.4036.d:1 "Abbiamo alcuni individui piuttosto "problematici" su [Root.Capital.GetName]..."
  ancrel.4036.d.tooltip:0 "Un Governatore di §GLivello 5§!, dotato della "vista", si unisce al nostro impero."
  ancrel.4036.e:0 "Integrazione del Nexus confermata."
  ancrel.4036.e.tooltip:0 "§G+1§! Decisione §Y$decision_machine_oracle$§! che fornisce i seguenti effetti:\n£crime£ $MOD_PLANET_CRIME_NO_HAPPINESS_ADD$ §R-15§!\n£stability£ $MOD_PLANET_STABILITY_ADD$ §G+20§!"
