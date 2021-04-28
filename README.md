@@ -2,11 +2,11 @@
 
 Questo mod, **compatibile** con la **modalità Ironman** e gli **achievement di Steam**, sostituisce la lingua inglese con la lingua italiana.
 
-Compatibile con versione: **Butler 2.8.***
+Compatibile con versione: **Dick 3.0.***
 
-Sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack e, in particolare grazie a [Nefando](https://github.com/Nefando), abbiamo anche una prima versione corposa del DLC Federations! Grazie a [AndryRock](https://github.com/AR-9217) in particolare per la traduzione DLC Necroids Species Pack e per aver avviato la prima versione della traduzione del DLC Federations.
+Grazie a [Nefando](https://github.com/Nefando), [AndryRock](https://github.com/AR-9217) e [Daddie2](https://github.com/Daddie2) sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack, una prima versione corposa del DLC Federations e parte di Nemesis!
 
-A causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, **per poter conservare la modalità Ironman e achievement non è possibile tradurre completamente tutte le frasi presenti nel gioco** (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.). Inoltre, per facilitare il confronto con il resto del mondo, **non sono tradotti volutamente i nomi degli achievement ma solo la loro descrizione**. Se avete già completato gli achievement e la modalità Ironman, o comunque non siete interessati alla cosa, usate il [mod di MM_Winther](https://steamcommunity.com/sharedfiles/filedetails/?id=2377568450) per un'esperienza di traduzione completa. 
+A causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, **per poter conservare la modalità Ironman e achievement non è possibile tradurre completamente tutte le frasi presenti nel gioco** (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.). Inoltre, per facilitare il confronto con il resto del mondo, **non sono tradotti volutamente i nomi degli achievement ma solo la loro descrizione**. Se avete già completato gli achievement e la modalità Ironman, o comunque non siete interessati alla cosa, usate il [mod di MM_Winther](https://steamcommunity.com/sharedfiles/filedetails/?id=2377568450) per un'esperienza di traduzione completa.
 
 Questo mod nasce a maggio 2019 partendo dai testi tradotti diligentemente dal team Battle of Paradox Italia ed in particolare dal buon Puxxup - grande lavoro! - non con l'obiettivo di offrire una traduzione alternativa ma con quello di mantenere la compatibilità con achievements e modalità Ironman.
 
@@ -46,7 +46,7 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |lithoids_l_english.yml| completa|
 |mandates_l_english.yml| completa|
 |marauder_l_english.yml| completa|
-|megacorp_l_english.yml| completa|
+|megacorp_l_english.yml| parziale|
 |messages_l_english.yml| completa|
 |modifiers_2_l_english.yml| completa|
 |modifiers_3_l_english.yml| completa|
@@ -55,6 +55,11 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |musicplayer_l_english.yml| completa|
 |name_lists_l_english.yml| completa|
 |necroids_l_english.yml| completa|
+|nemesis_content_l_english.yml| da tradurre|
+|nemesis_crisis_l_english.yml| da tradurre|
+|nemesis_custodian_l_english.yml| da tradurre|
+|nemesis_espionage_l_english.yml| da tradurre|
+|nemesis_intel_l_english.yml| da tradurre|
 |new_scripted_loc_l_english.yml| completa|
 |observer_events_l_english.yml| completa|
 |observer_l_english.yml| completa|
@@ -66,6 +71,7 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |projects_5_l_english.yml| completa|
 |projects_l_english.yml| completa|
 |scripted_loc_l_english.yml| completa|
+|ship_browser_l_english.yml| da tradurre|
 |ship_sections_l_english.yml| completa|
 |social_gui_l_english.yml| completa|
 |standalone_l_english.yml| completa|
@@ -78,6 +84,7 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |utopia_ascension_l_english.yml| completa|
 |utopia_l_english.yml| completa|
 |utopia_megastructures_l_english.yml| completa|
+|void_dweller_traditions_l_english.yml| da tradurre|
 
 ### Cosa posso modificare?
 
