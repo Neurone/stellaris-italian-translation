@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  IS_GALACTIC_CUSTODIAN:0 "$COUNTRY|Y$ is the Galactic Custodian"
  IS_NOT_GALACTIC_CUSTODIAN:0 "$COUNTRY|Y$ is not the Galactic Custodian"
  SET_GALACTIC_CUSTODIAN:0 "$COUNTRY|Y$ becomes the Galactic Custodian"

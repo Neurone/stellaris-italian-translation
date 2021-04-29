@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
 
  FIRST_CONTACT:0 "First contact with $NAME|Y$"
  FIRST_CONTACT_ICON_DESC:0 "We first encountered $NAME|Y$ here $DATE|Y$\n\n§GClick to handle this Contact.§!"
