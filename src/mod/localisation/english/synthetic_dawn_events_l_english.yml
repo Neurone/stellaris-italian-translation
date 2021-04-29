@@ -7,7 +7,7 @@
  syndaw.2.desc:0 "Abbiamo assimilato le unità sintetiche su [Root.GetName] nella nostra rete."
 
  syndaw.21.name:1 "§RUnità Persa§!"
- syndaw.21.desc:0 "L'Unità d'Ispezione §R[malfunctioning_leader.GetName]§! della [malfunctioning_leader.Ship.GetFleetName] ha cessato di funzionare a causa dell'esposizione involontaria e prolungata ad alcuni cavi dell'alta tensione non schermati."
+ syndaw.21.desc:1 "L'Unità d'Ispezione §R[malfunctioning_leader.GetName]§! della [malfunctioning_leader_fleet.GetFleetName] ha cessato di funzionare a causa dell'esposizione involontaria e prolungata ad alcuni cavi dell'alta tensione non schermati."
  syndaw.22.name:0 "$syndaw.21.name$"
  syndaw.22.desc:0 "L'Unità di Ricerca Ingegneristica §R[malfunctioning_leader.GetName]§! ha cessato di funzionare a causa di un applicatore di esoscheletri calibrato male, che ha esercitato una forza 2.984 volte maggiore di quella necessaria per fissare una copertura dorsale."
  syndaw.23.name:0 "$syndaw.21.name$"

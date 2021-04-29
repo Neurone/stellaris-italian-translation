@@ -18,7 +18,7 @@
  spiritual_happy_with_open_loop_temple_desc:0 "Ancora una volta, gli archi basaltici sussurrano con passi felpati ed eco di preghiere."
 
  waiting_world_ruins:0 "Rovine Desolate"
- waiting_world_ruins_desc:0 "Il vento soffia tra le rovine. Non si vede anima viva."
+ waiting_world_ruins_desc:1 "Il vento sospira tra le rovine. Nessuno si reca fin laggiù."
  d_mothballed_facilities:0 "Strutture in Disuso"
  d_mothballed_facilities_desc:0 "Distretti ed edifici terminati secondo i vecchi standard coloniali, ma ovviamente lasciati in disuso ed incuria per anni."
 
@@ -402,7 +402,7 @@
  akx.9510.b.tooltip:0 "Ciò causerà infelicità nella colonia."
 
  akx.9520.name:0 "Il Mondo in Attesa: Troppi"
- akx.9520.desc:1 "Arrivano notizie interessanti da [waiting_world.GetName], dove abbiamo trovato i distretti abbandonati. Un censimento mostra che il numero di coloni è più alto del previsto. I dati sulle nuove colonie sono sempre imprecisi, ma da quanto ne sappiamo sembra che tutti siano in possesso di documenti validi... e che nessuno abbia denunciato la presenza di stranieri. Ma o il tasso di natalità è estremamente alto, o ci troviamo di fronte ad un'immigrazione irregolare, o... qualcosa del genere. In qualche modo, la popolazione è maggiore di quanto dovrebbe essere."
+ akx.9520.desc:2 "Arrivano notizie interessanti da [waiting_world.GetName], dove abbiamo trovato i distretti abbandonati. Un censimento mostra che il numero di coloni è più alto del previsto. I dati sulle nuove colonie sono sempre imprecisi, ma da quanto ne sappiamo sembra che tutti siano in possesso di documenti validi... e che nessuno abbia denunciato la presenza di stranieri. Ma o il tasso di natalità è estremamente alto, o ci troviamo di fronte ad un'immigrazione irregolare, o... qualcosa del genere. In qualche modo, la popolazione è maggiore di quanto dovrebbe essere."
  akx.9520.a:1 "Distruggete quei distretti. Avremmo dovuto farlo molto tempo fa."
  akx.9520.b:0 "Indagate a fondo; tenete d'occhio la situazione."
 
@@ -412,7 +412,7 @@
  akx.9525.b:0 "Strano! Ma c'è sempre posto per altri coloni. Continuate ad indagare."
 
  akx.9530.name:0 "Il Mondo in Attesa: Uscita"
- akx.9530.desc:0 "Si è verificato un improvviso blackout nelle comunicazioni con [waiting_world.GetName]. In qualche modo c'era troppa gente laggiù. Ora, sembra che non ce ne sia del tutto. L'intera popolazione è semplicemente svanita durante la notte. Hanno lasciato il pianeta? Si sono nascosti? Hanno compiuto un genocidio di massa?"
+ akx.9530.desc:1 "Si è verificato un improvviso blackout nelle comunicazioni con [waiting_world.GetName]. In qualche modo c'era troppa gente laggiù. Ora, sembra che non ce ne sia del tutto. L'intera popolazione è semplicemente svanita durante la notte. Hanno lasciato il pianeta? Si sono nascosti? Hanno compiuto un genocidio di massa?"
  akx.9530.a:0 "Inviate una squadra ad indagare."
  akx.9530.b:0 "Abbandonate il pianeta immediatamente e mettetelo in quarantena."
  akx.9530.b.tooltip:0 "Ciò renderà il pianeta permanentemente inutilizzabile."
@@ -437,7 +437,7 @@
  akx.9541.b:0 "Ditelo a tutti. Che ci odino pure, basta che ci temano."
 
  akx.9545.name:0 "Il Mondo in Attesa: Tutto e Niente"
- akx.9545.desc:0 "La nostra squadra riferisce che la popolazione del pianeta è sana, normale ed apparentemente disorientata da tutto questo trambusto. Sono presenti alcune peculiarità, tuttavia. Un numero insolito di parti gemellari; una ripugnanza planetaria nei confronti della puntualità; ed alcune fluttuazioni nelle radiazioni solari, caratteristiche delle stelle pre-supernova. Osservano anche un certo numero di "eventi luminosi" sulla superficie, in cui la luce viene in qualche modo accumulata e rilasciata dalle funzioni prismatiche dell'atmosfera. Questi sono dati importanti e peculiari. Ma potrebbero essere una coincidenza. La sorte dei coloni rimane un mistero."
+ akx.9545.desc:1 "La nostra squadra riferisce che la popolazione del pianeta è sana, normale ed apparentemente disorientata da tutto questo trambusto. Sono presenti alcune peculiarità, tuttavia. Un numero insolito di parti gemellari; una ripugnanza planetaria nei confronti della puntualità; ed alcune fluttuazioni nelle radiazioni solari, caratteristiche delle stelle pre-supernova. Osservano anche un certo numero di "eventi luminosi" sulla superficie, in cui la luce viene in qualche modo accumulata e rilasciata dalle funzioni prismatiche dell'atmosfera. Questi sono dati importanti e peculiari. Ma potrebbero essere una coincidenza. La sorte dei coloni rimane un mistero."
  akx.9545.a:0 ""Ciò che sarà, fu.""
  akx.9545.b:0 "Coloni... i coloni sono strani."
 

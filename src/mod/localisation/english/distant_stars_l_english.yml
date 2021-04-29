@@ -146,7 +146,7 @@
  distar.7.b:0 "Capito."
  distar.9.name:0 "Difesa dal Super-Brillamento"
  distar.9.desc:0 "L'amministrazione planetaria è lieta di informarci che lo sviluppo della rete di scudi anti-super-brillamento attorno a [Root.GetName] si è rivelata un completo successo. Le nostre colonie non solo sono state protette dalle radiazioni, ma hanno potuto anche godere di un'incredibile spettacolo luminoso quando i venti solari hanno impattato contro la nuova rete di scudi."
- distar.10.name:0 "Super-Brillamento Colpisce [fromfrom.GetName]"
+ distar.10.name:1 "Super-Brillamento Colpisce [fromfromfrom.GetName]"
  distar.10.desc:0 "Un super-brillamento proveniente da [fromfromfrom.GetStarName] ha colpito l'atmosfera superiore di [fromfromfrom.GetName], a causa della nostra incapacità nel costruire per tempo una rete di scudi adeguata.\n\nIl plasma ionizzante e le tempeste magnetiche hanno devastato ogni dispositivo elettronico del pianeta, interferendo con la produzione energetica e inondando la popolazione di radiazioni. Gli effetti persisteranno per un bel po' di tempo."
  
  distar.15.name:0 "Spettro Energetico"
@@ -1580,7 +1580,7 @@
 
  distar.3032.name:0 "Integrazione Molluscoide"
  distar.3032.desc:0 "L'integrazione dei molluscoidi nella nostra società è completa.\n\nPer semplificarla, è stato dato loro il nome §Y[molluscoid_miners_species.GetName]§!. Si sono rivelati essere obbedienti e gran lavoratori, aumentando notevolmente la nostra produzione mineraria."
- distar.3032.a.tooltip:0 "La £pops£ POP [molluscoid_miners_species.GetName] è stata aggiunta nelle caselle libere di [Root.Capital.GetName]."
+ distar.3032.a.tooltip:1 "§Y6§! La £pops£ POP [molluscoid_miners_species.GetName] è stata aggiunta nelle caselle libere di §Y[Root.Capital.GetName]§!."
  distar.3032.b:0 "Sono qui... da qualche parte."
  distar.3032.b.tooltip:0 "A causa dell'elevata densità demografica di [Root.Capital.GetName], la specie [molluscoid_miners_species.GetName] è statisticamente insignificante per le politiche civili."
 

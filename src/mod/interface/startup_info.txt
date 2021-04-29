@@ -2,12 +2,14 @@
 
 Stellaris has been updated!
 
-There is now a Galactic Community which can be formed once enough empires have established communications with each other. You will be able to use your diplomatic clout to pass resolutions that may aid your cause or to weaken your enemies.
+The galaxy is now a more mysterious place - Intel such as full borders or details about governments are now hidden until revealed by a Spy Network, sufficient Trust, or through intelligence sharing from Diplomatic Pacts. Envoys can be assigned to manage Spy Networks in the diplomatic screen, and they have also taken over a greatly expanded First Contact system.
 
-Federations have been reworked, and can now level up and unlock new perks. You will need to maintain your Federation's Cohesion in order to gain experience.
+Colonies now produce Alloys and Consumer Goods using Industrial Districts, and several buildings have new effects that add additional jobs to certain districts. Planetary designations can be used to specialize Industrial District production towards either Alloys or Consumer Goods, and improvements have been made on colony and sector automation.
 
-Envoys have been introduced to the game, and they allow you to perform certain diplomatic actions such as Improve Relations. Envoys can also be assigned to your Federation in order to improve Cohesion, or to the Galactic Community in order to increase your diplomatic clout.
+Building Slots are now opened up by expanding the infrastructure of the colony by building City Districts or upgrading the colony's capital building.
+
+Biological pop growth now follows a curve where their growth accelerates on partially filled planets, but slows as the planet becomes crowded. All pops (including assembled ones) now require progressively more growth to create, greatly reducing the overall number in the late game.
 
 ---
 
-Saved games from previous versions may not be compatible with version 2.6. If you wish to continue your old save in version 2.5.1, follow the forum link below and read the thread "How to revert Stellaris to a previous version."
+Saved games from previous versions may not be compatible with version 3.0. If you wish to continue your old save in version 2.8.1, follow the forum link below and read the thread "How to revert Stellaris to a previous version."

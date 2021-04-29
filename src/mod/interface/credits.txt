@@ -1,3 +1,298 @@
+﻿#Stellaris: Nemesis Game Team
+--------
+##Creative Director
+
+Henrik Fåhraeus
+
+##Game Director
+
+Daniel Moregård
+
+##Producers
+
+Aziz Faghihinejad
+Daniel Lagergren
+Elin Holmberg
+Olga Shcherbak
+
+##Designers
+
+Markus Veit
+Stephen Muray
+
+##Additional Design
+
+Jesper Blomqvist
+
+##Technical Leads
+
+Gwenael Tranvouez
+Lorenzo Berni
+Rickard Lagerbäck
+
+##Programmers
+
+Anton Södergren
+Filip Kirsek
+Gustav Palmqvist
+Ilya Nikitin
+Johan Melin
+Jörgen Risholt
+Mathieu Ropert
+Oleg Istomin
+Tobias Luckey
+Ulrika Uddeborg
+
+##Additional Programming
+
+Daniel Bengtsson
+Marine Baghramyan
+Pierre du PlessisFåhraeus
+Peter Vestman
+
+##Content Design Leads
+
+Henrik Thyrwall
+Maximilian Olbers
+
+##Content Designers
+
+Douglas Furén
+Gemma Thomson
+Pierre du Plessis
+
+##Additional Content Design
+
+Byron Aytoun
+
+##UX Designers
+
+Doyle Merlin Daigle II
+Valeska Martins
+
+##Additional UX Design
+
+Mikhail Gofman
+
+##Art Producers
+
+Anton Wittberg Letoff
+Melinda Esponda Díaz
+
+##Art Lead
+
+Simon Gunnarsson
+
+##Concept Art
+
+Mattias Larsson
+Ylva Ljungqvist
+Ecbel Oueslati
+Alessandro Bragalini
+
+##UI Art
+
+Nicolas Lennman
+Jeremie Tauziede
+
+##3D Art
+
+Johan Lundqvist
+
+##Animation
+
+Fabian Soon
+Hanna Johansson
+
+##VFX
+
+Erik Forsström
+
+##Audio Director
+
+Björn Iversen
+
+##Sound Designers
+
+David Schlein-Andersen
+Franco Freda
+Tobey Evans
+
+##External Partners
+
+##Art
+
+N-iX Game & VR Studio
+Game Ace Studio
+
+##Embedded QA Lead
+
+Joseph Gardener
+
+##Embedded QA Project Coordinator
+
+Fenni Johansson
+Rebecca Romin
+
+##Embedded QA
+
+Byron Aytoun
+Daniel Teige
+Erik Elgerot
+Eva Mayer
+Struan McCallum
+
+##QA Central Team Lead
+
+Filippa Gannholm Kirsten
+
+##QLOC
+
+##QA Team Leader
+
+Adam Nowicki
+
+##Dedicated testers
+
+Marek Bombala
+Maciej Gutkowski
+Damian Szokalski
+
+##QA Testers (additional)
+
+Grzegorz Nowicki
+
+##Keywords Studios Katowice
+
+##FQA Project Manager
+
+Marcin Jankowski
+
+##FQA Associate Lead
+
+Marcin Sebesta
+
+##FQA Senior Tester
+
+Dawid Kolaczuch
+
+##FQA Testers
+
+Mikolaj Bizacki
+Krzysztof Bochenek
+Kamil Drezek
+Dawid Kabasinski
+Rafal Kaluza
+Natalia Lechnata
+Mateusz Mierzwa
+Konrad Ruminski
+
+##Beta Testers
+
+Francesco Teruzzi
+Jonathan Bagley
+Joshua "Mordaith" Smith
+Lumi Schildkraut
+Maik "Malthus" Wrba
+Marc Schmelzer
+Matthew Walsh
+Michael De Bona
+Nina Chance
+Sergey Demidov
+
+##Product Manager
+
+Simon Stackmann
+
+##Product Marketing Manager
+
+Pontus Rundqvist
+
+##Performance Marketing Manager
+
+Michiel Van Loo
+
+##Creative Director of Marketing
+
+Axel Ullberger
+
+##Marketing Creative Producer
+
+Oskar Petrén
+
+##Marketing Automation Specialists
+
+Johanna Kasurinen
+Karola Kiessling
+Annie Alström
+
+##Vice President Sales
+
+Johan Bolin
+
+##Acting Team Lead - Partner Relations
+
+Viktor Stadler
+
+##Partner Account Managers
+
+James Gardiner
+Albert Banda
+Ebba Frantzén
+Daniel Hjelmtorp
+
+##Trade Marketing Manager
+
+Jackson Downing
+
+##Commercial Manager
+
+Sofie Siggelin
+
+##Data Scientist
+
+Stephen White
+Eduarda Oliveira
+
+##User Researchers
+
+Yinyi Luo
+
+##Community Developer
+
+Ann-Charlotte Mörk
+
+##Influencer Relations Manager
+Jonathan Whitley
+
+##Community Ambassador
+
+Graeme Crawford
+Matthew Freake
+
+##Customer Support
+
+Christian Arvidsson
+Debbie Lane
+
+##Live Content
+
+Jimmy Tisell
+Anders Carlsson
+
+##Public Relations
+
+Nick Shepherd
+Michael Mason
+
+##Chief Dad Joke Officer
+
+Rikard The Pun-isher
+
+##Body Pillow Coordinator
+
+Mercedes Romero
+
 #Stellaris: Necroids Game Team
 --------
 ##EVP Creative Direction
@@ -30,6 +325,8 @@ Mathieu Ropert
 Ulrika Uddeborg
 
 ##Additional Programming
+Anton Södergren
+Filip Kirsek
 Pierre du Plessis
 
 ##Content Design Lead
@@ -189,7 +486,6 @@ Maik "Malthus" Wrba
 Marc Schmelzer
 Matthew Walsh
 Michael De Bona
-Maik "Malthus" Wrba
 Nina Chance
 
 ##Product Manager
@@ -1907,225 +2203,6 @@ Djordje Zivanovic
 Rikard The Pun-isher
 
 
-#Stellaris: Utopia Game Team
---------
-##EVP Creative Direction
-Johan Andersson
-
-##Game Director
-Martin Anward
-
-##Project Leads
-Rikard Åslund
-Jamie Wood
-
-##Designers
-Martin Anward
-Daniel Moregård
-
-##Programmers
-Mehrnaz Amanat Bari
-Daniel Eriksson
-Hampus Liljekvist
-Gustav Palmqvist
-Lysann Schlegel
-
-##Additional Programming
-Rikard Åslund
-Alexander Ivannikov
-
-##Content Designers
-Henrik Eklund
-Drikus Kuiper
-Maximilian Olbers
-Miranda van den Brink
-
-##Localization Manager
-Sara Wendel-Örtqvist
-
-##Art Coordinator
-Pernilla Sparrhult
-
-##Art Director
-Fredrik Toll
-
-##2D Art
-Simon Gunnarsson
-Pontus Olofsson
-
-##3D Art
-Joacim Carlberg
-Helena Kasper
-Johan Lundqvist
-
-##Additional Art
-Kentaro Kanamoto
-Room 8 Studio
-
-##Animation & Effects
-Niklas Tammpere
-
-##QA Managers
-Filippa Gannholm
-Felix Gladitz
-
-##Embedded QA
-Aziz Faghihinejad
-Markus Veit
-Leo Larsson
-Peter Skager
-
-##Community QA
-Carsten 't Mannetje
-
-##QA Testers
-Niall Bird
-Sebastian Borg
-Markus Grebe
-Katya Magnusson
-Daniel Moore
-Jesper Norberg
-Daniel Sjöberg
-Emil Tisander
-Albin Wallin
-
-##Audio Director
-Björn Iversen
-
-##Composer
-Andreas Waldetoft
-
-##Additional Sound Design
-David Schlein-Andersen
-
-## Beta Testers
-George Bancroft
-Lukasz Delra
-Mikael Hagman
-Paul Howell
-Rajeev D. Majumdar
-Anton Panas
-Dylan Skoda
-Francesco Teruzzi
-Matthew Walsh
-Djordje Zivanovic
-
-
-# Stellaris: Leviathans / Horizon Signal Game Team
---------
-##EVP Creative Direction
-Johan Andersson
-
-##Game Director
-Martin Anward
-
-##Project Lead
-Rikard Åslund
-
-##Designers
-Martin Anward
-Daniel Moregård
-
-##Additional Design
-Henrik Fåhraeus
-
-##Guest Writer
-Alexis Kennedy (Horizon Signal)
-
-##Programmers
-Daniel Eriksson
-Alexander Ivannikov
-Mehrnaz Amanat Bari
-Joakim Bennedich
-Hampus Liljekvist
-
-##Content Designers
-Maximilian Olbers
-Niclas Karlsson
-Rufus Tronde
-Henrik Eklund
-Miranda van den Brink
-
-##Localization Manager
-Sara Wendel-Örtqvist
-
-##Usermod Coordinators
-Joel Hansson
-Niklas Strid
-
-##Art Coordinator
-Pernilla Sparrhult
-
-##Art Director
-Fredrik Toll
-
-##Artists 2D
-Simon Gunnarsson
-Jonas Jakobsson
-Frida Eriksson
-
-##Artists 3D
-Helena Kasper
-Joacim Carlberg
-Johan Lundqvist
-
-##Animation & Effects
-Niklas Tammpere
-
-##Concept Artist
-Ylva Ljungqvist
-
-##QA Manager
-Mario Lasan
-
-##Embedded QA
-Aziz Faghihinejad
-Leo Larsson
-
-##Community QA
-Carsten 't Mannetje
-
-##QA Testers
-Albin Wallin
-Arthur Bialecki
-Carmille Gidfors
-Daniel Sjöberg
-Jesper Norberg
-Malin Jakobsson
-Markus Grebe
-Olga Koter
-Patric Lindbergh
-Peter Skager
-Sebastian Borg
-
-##Audio Director
-Björn Iversen
-
-##Composer
-Andreas Waldetoft
-
-##Additional Sound Design
-David Schlein-Andersen
-
-## Beta Testers
-Mark Charters
-Lukasz Damentko
-Dylan Anthony Skoda
-Cathrine Zangerl
-Michael Aaron Hoselton
-Jeroen Elfrink
-Christopher Kenneth O'Keefe
-Kamil Kowalczyk
-Erik Brian Olmstead
-Them Bo Bojesen Jensen
-Peter Deadman
-Richard Williams
-David Lockwood
-Edward Earl Chaney II
-Pablo Agustín Eralio
-Mitchell Alexander Cumming
-
-
 #Paradox Stellaris Game Team
 --------
 ##EVP Creative Direction
@@ -2647,6 +2724,7 @@ TRADUZIONI AGGIUNTIVE
 --------
 AndryRock
 Nefando
+Daddie2
 Giuseppe "Neurone" Bertone
 
 
