@@ -3,7 +3,7 @@
  # Misc
  ####################################
  SEPARATOR:0 "---"
- PLUS: "+"
+ PLUS:0 "+"
 
  ADJ_WITH_THE:0 "il $ADJ|Y$"
  OUR:0 "nostro"
@@ -1000,7 +1000,7 @@
  BUILDING_REPLACE_NO_BUILDING:0 "Nessun edificio da rimpiazzare"
  BUILDING_REPLACE_NOT_OWNED:0 "§RPossiamo rimpiazzare solo i nostri edifici.§!"
  BUILDING_REPAIR_NOT_RUINED:1 "§GEdificio non in rovina§!"
- BUILDING_REPAIR_CANNOT_SUPPORT_BUILDING:0 "§RTroppa poca POP sul pianeta per supportare questo edificio§!"
+ BUILDING_REPAIR_CANNOT_SUPPORT_BUILDING:1 "§RSlot di costruzione sul pianeta insufficienti per supportare la costruzione di questo edificio§!"
  BUILDING_REPAIR_ALREADY_REPAIRING:0 "§YL'Edificio è già in riparazione§!"
  BUILDING_REPAIR_BOMBARDED:0 "Pianeta sotto bombardamento."
  BUILDING_UPGRADING:0 "Edificio in aggiornamento"
@@ -1456,6 +1456,11 @@
  FE_CRISES_TOOLTIP:2 "§HPotenza delle Crisi§!\nControlla la potenza delle flotte nelle crisi finali. Più alto sarà il moltiplicatore, più pericolose saranno le crisi finali."
  FE_PRIMITIVE_WORLDS:0 "Civiltà Primitive"
  FE_PRIMITIVE_WORLDS_TOOLTIP:0 "§HCiviltà Primitive§!\nControlla la prevalenza delle Civiltà Primitive (Pre-SL) nella galassia. Più alto sarà, più facilmente incontrerai Civiltà Primitive."
+ FE_LOGISTIC_CEILING:0 "Logistic Growth Ceiling"
+ FE_LOGISTIC_CEILING_TOOLTIP:0 "§H$FE_LOGISTIC_CEILING$§!\nThis controls how large the pop growth bonuses are when planets are in the middle of their logistic curve. The higher it is, the faster pops will grow.\n\n§RWarning:§! This setting has late game performance and balance implications if increased."
+ FE_GROWTH_SCALE:0 "Growth Required Scaling"
+ FE_GROWTH_SCALE_TOOLTIP:0 "§H$FE_GROWTH_SCALE$§!\nThis controls how much growth is required for each pop in the empire. The higher it is, the slower pops will grow.\n\n§RWarning:§! Lowering this has significant performance and balance implications, and decreasing $FE_LOGISTIC_CEILING$ alongside it is highly recommended."
+
  POP_FACTION_SUPPORTERS:0 "Sostenitori"
  POP_FACTION_SUPPRESSED:0 "Il supporto a questa fazione diminuirà di $VALUE$ al mese fino alla sua totale soppressione."
  GOTO_DESC:0 "Sposta la visuale su $NAME|Y$"
@@ -2315,6 +2320,7 @@
  TIME_RESOURCE:0 "$DAYS|Y$ £time£"
  RESOURCES_STORED_MAX:0 "Quantità: $VALUE|Y0$/$MAX|Y0$"
  GALACTIC_OBJECT_HABITABILITY:1 "$CLASS$, £planetsize£ $SIZE|Y$, $VALUE$"
+ GALACTIC_OBJECT_HABITABILITY_BEST_SPECIES:0 " ($SPECIES|H$)"
  PLANET_MAP_ICON_TERRAFORMING:1 "Terraformazione in $CLASS$, $VALUE$\n(£time£ $TIME|Y$)"
  TERRAFORMING_TO:0 "Terraformazione in $CLASS|Y$"
  CLOSE_SECTOR_MANAGEMENT:0 "Chiudi Gestione Settoriale"
@@ -6085,7 +6091,7 @@
  SORT_BY_RELATION:0 "§HSort by Relation§!"
  SORT_BY_INTEL_LEVEL:0 "§HSort by Intel Level§!"
  SORT_BY_SPYNETWORK_LEVEL:0 "§HSort by Spy Network Level§!"
- SORT_BY_SPYPOWER:0 "§HSort by Spy Power§!"
+ SORT_BY_SPYPOWER:1 "§HSort by $INFILTRATION_LEVEL$§!"
  SELECT_TARGET_EMPIRE:0 "§HSelect Target Empire§!"
 
  OPINION_DESC:0 "L'opinione dell'Impero §T$EMPIRE|H$ verso $PLAYER|H$: $VAL|+=$§!"
@@ -6286,7 +6292,7 @@
  purge_neutering_tooltip_delayed:0 "§LPensatela come la graduale eliminazione di un popolo. Il nostro impero va incontro al futuro, solo che alcuni non saranno dei nostri.§!"
  purge_labor_camps:0 "Lavori Forzati"
  purge_labor_camps_tooltip:0 "La POP influenzata lavorerà fino alla morte e potrà essere utilizzata per produrre £food£ §HCibo§! e £minerals£ §HMinerali§! fino all'eventuale dipartita."
- purge_labor_camps_tooltip_delayed:0 "§LCon questo estremo sacrificio, almeno saranno di qualche utilità.§!"
+ purge_labor_camps_tooltip_delayed:0 "§LCon questo sacrificio almeno saranno stati di qualche utilità.§!"
  purge_processing:0 "Macellazione"
  purge_processing_tooltip:1 "La POP influenzata verrà trasformata in [Root.GetPurgeProcessingResource] fino alla loro morte."
  purge_processing_tooltip_delayed:0 "§LÈ un fatto triste ma inevitabile... qualcuno è semplicemente destinato ad alimentare le ambizioni di chi è superiore.§!"
@@ -6591,6 +6597,7 @@
  GOAL:0 "Goal"
  INTEL:0 "Intel:"
  DIPLOMACY_VIEW_ORIGIN_UNKNOWN:0 "We do not know what origin this Empire has."
+ DIPLOMACY_VIEW_CIVICS_UNKNOWN:0 "We do not know what civics this Empire has."
 
  ####################################
  # Diplomacy Icons Tooltips
@@ -7504,6 +7511,7 @@
  requires_actor_not_criminal_heritage:0 "$TRIGGER_FAIL$§RSiamo §Y$civic_criminal_heritage$§!. Non facciamo affari apertamente.§!"
  requires_recipient_not_criminal_heritage:0 "$TRIGGER_FAIL$§RSono §Y$civic_criminal_heritage$§!. Non fanno affari apertamente.§!"
  requires_actor_to_be_federation_leader:0 "$TRIGGER_FAIL$§ROnly the leader of a §Y$hegemony_federation$§! may approve new members.§!"
+ diplo_action_no_low_intel:0 "$TRIGGER_FAIL$§RThey are reticent to discuss this proposal. We do not know enough about them to find out why.§!"
 
  ####################################
  # Basic Resources
@@ -7528,7 +7536,7 @@
  unity:0 "Unità"
  unity_desc:3 "§EL'§H$unity$§! (£unity£) viene utilizzata per sbloccare nuove §HTradizioni§!. Possiamo aumentarne la produzione costruendo £building£ §HMonumenti Autoctoni§! od altri edifici che forniscano lavori che producono Unità.§!"
  consumer_goods:0 "Beni di Consumo"
- consumer_goods_desc:1 "§EI §H$consumer_goods$§! (£consumer_goods£) sono risorse avanzate che rappresentano vari gadget, risorse di lusso e merci che garantiscono alla tua £pop£ §HPOP§! un buon tenore di vita, e che permettono di intraprendere £job£ §HLavori§! intellettuali come il £job_researcher£ §HRicercatore§!. Possiamo ottenerne di più nei seguenti modi:\n§Y1.§! Costruendo £building£ §HIndustrie Civili§! sui pianeti colonizzati.\n§Y2.§! Acquistandoli nel §HMercato§!.§!"
+ consumer_goods_desc:2 "§E§H$consumer_goods$§! (£consumer_goods£) is an advanced resource that represents the various gadgets, luxuries and goods necessary to give your £pop£ §HPops§! a good life and to perform intellectual £job£ §HJobs§! such as £job_researcher£ §HResearch§!. You can gain more by:\n§Y1.§! Building £building£ §HCivilian Industries§! buildings on the surface of colonized planets.\n§Y2.§! Building £district£ §HIndustrial Districts§! on the surface of colonized planets.\n§Y3.§! Buying more on the §HMarket§!.§!"
 
  ENERGY_DEFICIT_DESC:1 "§RIl nostro impero è in $DEFICIT|E$ in quanto stiamo spendendo più §HCrediti Energetici§! di quanti ne produciamo, e le nostre riserve si sono esaurite.§!"
 
@@ -7594,7 +7602,7 @@
  rare_crystals:0 "Cristalli Rari"
  rare_crystals_desc:0 "Questi cristalli possiedono proprietà che li rendono estremamente efficienti nella concentrazione dei raggi laser; rappresentano anche un componente essenziale nel campo dell'elettronica avanzata. In più, molte culture li utilizza come decorazioni ed ornamenti."
  alloys:0 "Leghe"
- alloys_desc:1 "Le §E§HLeghe§! (£alloys£) sono risorse avanzate dalle varie applicazioni militari, essenziali nella costruzione di §HNavi§! e §HBasi Stellari§!. Possiamo ottenerle nei seguenti modi:\n§Y1.§! Costruendo £building£ §HFonderie di Leghe§! sui pianeti colonizzati.\n§Y2.§! Acquistandole nel §HMercato§!.§!"
+ alloys_desc:2 "§E§HAlloys§! (£alloys£) are advanced resources with a military application, which we need to construct §HShips§! and §HStarbases§!. We can gain more by:\n§Y1.§! Building £building£ §HAlloy Foundries§! buildings on the surface of colonized planets.\n§Y2.§! Building £district£ §HIndustrial Districts§! on the surface of colonized planets.\n§Y3.§! Buying more on the §HMarket§!.§!"
 
  sr_zro:0 "Zro"
  sr_zro_desc:0 "Un aerosol estremamente raro composto da particelle esotiche. Si è depositato su vari pianeti tramite gli impatti dei meteoriti, ma la sua vera origine rimane un mistero. Se ingerito da individui psionicamente dotati, lo Zro agisce come una droga molto potente che aumenta le capacità PSI ma che causa estrema dipendenza."
@@ -7750,7 +7758,9 @@
  building_clone_vats_desc:3 "Clone Vats break down simple organic materials like food to generate Organic Pop Assembly."
  tooltip_organic_and_artificial_assembly_warning:0 "§RNote: Organic and Mechanical Pop Assembly are mutually exclusive and do not stack.§!"
  building_slave_processing:0 "Impianto di Trattamento degli Schiavi"
- building_slave_processing_desc:0 "Questo grande ed imponente impianto viene utilizzato per trattare gli schiavi ed estinguere ogni traccia di libero arbitrio presente. L'Impianto di Trattamento degli Schiavi è richiesto per la creazione di Armate di Schiavi."
+ building_slave_processing_desc:0 "Questo grande ed imponente impianto viene utilizzato per trattare gli schiavi ed estinguere ogni traccia di libero arbitrio presente."
+ building_slave_processing_migrate_effect_desc:0 "Unemployed §Y$SLAVES$§! on this planet are subject to §YAutomatic Resettlement§! to other colonies."
+ building_slave_processing_slave_army_effect_desc:0 "Permits the recruitment of §Y$slave_army_plural$§!.\n\n"
  building_robotics_assembly_plant:0 "Impianto d'Assemblaggio Robot"
  building_robotics_assembly_plant_desc:0 "L'Impianto d'Assemblaggio Robot è richiesto per la creazione di Armate Robotiche.\nFornisce §Y1§! POP §H$ROBOT_POP_SPECIES_1$§! all'Anno\nMantenimento POP: £energy£ §Y1§!"
  building_robotics_assembly_plant_2:1 "Impianto d'Assemblaggio Androidi"
@@ -7797,7 +7807,7 @@
  building_plague_memorial_desc:0 "Un memoriale in ricordo delle vittime della terribile epidemia che infestò la loro casa. Rimane a testimonianza della sopravvivenza dell'impero."
  building_energy_grid:0 "Rete Energetica"
  building_energy_grid_desc:0 "Una rete elettrica attentamente calibrata per ottimizzare la produzione dei generatori."
- building_energy_grid_effect_desc:1 "Each §Y$district_industrial$§! on the planet provides §G+1§! £job_artisan£ §Y$job_artisan$§! job"
+ building_energy_grid_effect_desc:2 "Increases the base production of £energy£ §YEnergy§! producing jobs by §G1§!."
  building_energy_nexus:0 "Fulcro Energetico"
  building_energy_nexus_desc:0 "Quest'enorme struttura concentra tutte le reti energetiche planetarie, aumentandone l'efficienza."
  building_mineral_purification_plant:2 "Impianto di Raffinazione Mineraria"
@@ -9645,7 +9655,7 @@
  alert_inactive_civics_instant:0 "Abbiamo delle Scelte Civiche non attive che non stanno fornendo alcun beneficio."
  alert_set_war_goal_title:0 "Obiettivo Bellico Mancante"
  alert_set_war_goal_instant:0 "Siamo in guerra e non abbiamo ancora impostato un Obiettivo Bellico."
- alert_set_war_goal_entry:1 "[$INDEX$] $NAME|H$ ($DAYS|H$ giorni rimanenti)"
+ alert_set_war_goal_entry:2 "[$INDEX$] $NAME|H$ ($DAYS|H$ days left)"
  alert_capped_resources_title:0 "Deposito Risorse Pieno"
  alert_capped_resources_instant:0 "Alcune delle nostre risorse hanno superato il limite di capacità dei depositi. Ogni futura entrata di queste risorse verrà sprecata."
  alert_capped_resources_delayed:0 "Abbiamo superato il limite di capacità per queste risorse:"
@@ -10288,7 +10298,7 @@
  drone_policy_thinker_desc:0 "I $pop_cat_complex_drone_plural$ che creano le merci lavorate avranno la priorità della Mente, diventando più produttivi a scapito dei $pop_cat_simple_drone_plural$.\n\n"
 
  policy_robot_pop_policy:0 "Lavoratori Robotici"
- policy_robot_pop_policy_desc:0 "L'invenzione dei robot autonomi potrebbe soppiantare i lavoratori della nostra specie o, col tempo, persino sorpassarli. Dobbiamo decidere la nostra posizione su un'automazione di così vasta scala.\n"
+ policy_robot_pop_policy_desc:1 "Il solo concetto di robot autonomi porta all'idea che i lavoratori della nostra specie possano un giorno essere soppiantati e forse, col tempo, superati. Dobbiamo decidere la nostra posizione su questa automazione su larga scala.\n"
 
  robot_pops_outlawed:0 "Fuorilegge"
  robots_outlawed_name:0 "Lavoratori Robotici Fuorilegge"
@@ -11855,10 +11865,10 @@
  lesser_space_cloud:0 "$space_cloud$"
  lesser_space_cloud_plural:0 "$space_cloud_plural$"
  
-  SCORE_FROM_MEGASTRUCTURES:0 "From megastructures: $VALUE$"
+ SCORE_FROM_MEGASTRUCTURES:1 "From Megastructures: $VALUE$"
  FLEET_REINFORCE_NO_SHIPYARD:0 "No shipyard available to build fleet"
 
- SPYNET_THERE_ARE_AVAILABLE_ASSETS:0 "§GThere are available assets§!"
+ SPYNET_THERE_ARE_AVAILABLE_ASSETS:1 "§GThere are available assets§!\n$ESPIONAGE_ASSET_CLICK_ASSIGN$"
  SPYNET_THERE_ARE_NO_AVAILABLE_ASSETS:0 "§RThere are no available assets§!"
 
  crisis_empire_base:0 "Crisis"

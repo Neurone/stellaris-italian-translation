@@ -69,7 +69,9 @@
  d_machine_minerals_desc:0 "Le risorse di minerale raffinato di un intero sistema solare vengono raccolte qui in cumuli delle dimensioni di un continente."
  d_organic_slurry:0 "Liquame organico"
  d_organic_slurry_desc:0 "Un oceano di liquame organico, i residui di lavorazione della precedente biomassa di un pianeta."
-
+ d_resource_consolidation_1:0 "Malfunctioning Replicator Bay"
+ d_resource_consolidation_1_desc:0 "The replicator bay built into the Machine World is malfunctioning, producing endless piles of $MACHINE_hand_plural$."
+ 
  juggernaut:0 "Juggernaut"
  juggernaut_plural:0 "Juggernaut"
  mega_shipyard_0:0 "Sito di costruzione del $mega_shipyard_3$"

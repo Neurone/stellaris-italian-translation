@@ -529,6 +529,7 @@ MESSAGE_SUBJECT_TYPE_CHANGED_TITLE:0 "Un Suddito ha Cambiato Status"
 
  MESSAGE_NEW_CASUS_BELLI_TARGET_TITLE:1 "Soggetti a Casus Belli"
  MESSAGE_NEW_CASUS_BELLI_TARGET:1 "$COUNTRY|H$ può ora utilizzare il Casus Belli $CASUS_BELLI|H$ contro di noi!"
+ MESSAGE_NEW_CASUS_BELLI_TRIAL_OF_ADVANCEMENT_TARGET:0 "Tutti i membri dell'§HEmpire§! che §Hnon fanno parte del consiglio§! possono usare il Casus Belli $CASUS_BELLI|H$ contro di noi!"
 
  MESSAGE_LOST_CASUS_BELLI_TITLE:0 "Casus Belli Annullato"
  MESSAGE_LOST_CASUS_BELLI:1 "Non possiamo più utilizzare il Casus Belli $CASUS_BELLI|H$ contro $COUNTRY|H$"
@@ -543,4 +544,5 @@ MESSAGE_SUBJECT_TYPE_CHANGED_TITLE:0 "Un Suddito ha Cambiato Status"
 # Star Destroyed
 #####################################
  MESSAGE_STAR_DESTROYED:0 "Sistema Distrutto"
- MESSAGE_STAR_DESTROYED_DESC:0 "Una massiccia supernova attivata da $ADJ$ §RStar-Eater§! ha distrutto $PLANET|Y$."
+ MESSAGE_STAR_DESTROYED_DESC:0 "Una massiccia supernova attivata da $ADJ$ §RStar-Eater§! ha distrutto il sistema $PLANET|Y$."
+ 

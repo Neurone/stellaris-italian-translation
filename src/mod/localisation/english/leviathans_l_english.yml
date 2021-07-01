@@ -371,12 +371,12 @@
 
 
  leviathans.599.name:0 "Compra Informazioni"
- leviathans.599.desc: 0 "Dato che sei uno dei nostri clienti fidati, siamo in grado di divulgare alcune informazioni sui nostri... clienti meno favoriti. Quello che farai con queste informazioni dipende interamente da te, ovviamente.\n\nDi chi vuoi sapere?"
- leviathans.599.a: 0 "Parlaci di [curator_customer_1.GetName]."
- leviathans.599.b: 0 "Cosa sai di [curator_customer_2.GetName]?"
- leviathans.599.c: 0 "Vorremmo sapere di [curator_customer_3.GetName]."
- leviathans.599.d: 0 "Ci interessa [curator_customer_4.GetName]."
- leviathans.599.yes.reply: 0 "Eccellente. Le informazioni ti saranno trasferite immediatamente tramite il collegamento dati interstellare più sicuro della galassia."
+ leviathans.599.desc:0 "Dato che sei uno dei nostri clienti fidati, siamo in grado di divulgare alcune informazioni sui nostri... clienti meno favoriti. Quello che farai con queste informazioni dipende interamente da te, ovviamente.\n\nDi chi vuoi sapere?"
+ leviathans.599.a:0 "Parlaci di [curator_customer_1.GetName]."
+ leviathans.599.b:0 "Cosa sai di [curator_customer_2.GetName]?"
+ leviathans.599.c:0 "Vorremmo sapere di [curator_customer_3.GetName]."
+ leviathans.599.d:0 "Ci interessa [curator_customer_4.GetName]."
+ leviathans.599.yes.reply:0 "Eccellente. Le informazioni ti saranno trasferite immediatamente tramite il collegamento dati interstellare più sicuro della galassia."
 
  leviathans.596.desc:0 "Sembrerebbe che abbiamo sovrastimato la vostra capacità di agire da impero civile. Strano... in genere identifichiamo a prima vista la gente violenta.\n\nOvviamente, l'accesso ai nostri archivi sarà immediatamente revocato."
  leviathans.597a.desc:0 "Pazzi! Attaccandoci avete condannato le vostre future generazioni ad una misera esistenza ipo-tecnologica!"

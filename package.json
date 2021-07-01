@@ -1,6 +1,6 @@
 {
     "name": "stellaris-italian-translation",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "Mod per Stellaris. Sostituisce la lingua inglese con la lingua italiana.",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"

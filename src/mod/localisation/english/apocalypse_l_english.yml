@@ -222,7 +222,7 @@
  gateway_final_DESC:0 "Un condotto che attraversa il tessuto stesso del subspazio e permette di viaggiare rapidamente verso altri Portali."
  gateway_final_MEGASTRUCTURE_DETAILS:0 "Impossibile costruire un Portale troppo distante dal pozzo gravitazionale di un sistema"
  MEGASTRUCTURE_BUILD_OUTSIDE_GRAVITY_WELL:0 "Impossibile costruire un Portale all'interno del pozzo gravitazionale di un sistema"
- MEGASTRUCTURE_BUILD_CANNOT_MOVE_TO_TARGET:0 "Impossibile costruire un Portale in un sistema irragiungibile"
+ MEGASTRUCTURE_BUILD_CANNOT_MOVE_TO_TARGET:0 "Impossibile costruire un Portale in un sistema irraggiungibile"
  MEGASTRUCTURE_BUILD_INSIDE_SYSTEM_RADIUS:0 ""
  NUM_GATEWAYS:0 "Portali Abbandonati"
  NUM_GATEWAYS_TOOLTIP:2 "§HPortali Abbandonati§!\nMoltiplica la quantità normale di Portali Abbandonati generati nella galassia."
@@ -377,7 +377,7 @@
 
  planet_destruction.101.name:0 "Pianeta Frantumato"
  planet_destruction.102.name:0 "La Distruzione Planetaria"
- planet_destruction.101.desc:0 "Il dolce dondolio di [From.GetName], seguito dalla fratturazione della crosta superficiale e della sfasatura della magnetosfera, si placa mentre il Colosso completa il suo catastrofico incarico.\n\nLa pura violenza di un pianeta morente è ardua da comprendere, ma la funerea bellezza del nucleo ardende che si raffredda nel gelido spazio è innegabile."
+ planet_destruction.101.desc:0 "Il dolce dondolio di [From.GetName], seguito dalla fratturazione della crosta superficiale e della sfasatura della magnetosfera, si placa mentre il Colosso completa il suo catastrofico incarico.\n\nLa pura violenza di un pianeta morente è ardua da comprendere, ma la funerea bellezza del nucleo ardente che si raffredda nel gelido spazio è innegabile."
  planet_destruction.101.a.purifexter:0 "Stupendo."
 
  planet_destruction.301.name:0 "Frangente Neutronico"

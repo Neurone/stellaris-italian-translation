@@ -156,7 +156,7 @@
  DIFFICULTY_NORMAL:0 "§YNormale§!"
  DIFFICULTY_HARD:0 "§HDifficile§!"
  DIFFICULTY_HELL:0 "§RInfernale§!"
- DIFFICULTY_EXTRA_HELL: "$DIFFICULTY_HELL$$EXTRA|R$"
+ DIFFICULTY_EXTRA_HELL:0 "$DIFFICULTY_HELL$$EXTRA|R$"
  LEADER_BONUS:0 "Bonus Leader: $BONUS|Y$"
  ARCHAEOLOGICAL_SITE_CHALLENGE:0 "§HLivello di Sfida§!\nIndica quanto impegnativo sia il Sito, relativamente al livello dello Scienziato attualmente assegnato."
  ARCHAEOLOGICAL_SITE_BREAKTHROUGH:0 "Probabilità di Svolta"

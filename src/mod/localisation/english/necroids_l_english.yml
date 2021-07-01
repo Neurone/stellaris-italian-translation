@@ -13,6 +13,7 @@
  trait_necrophage_desc:1 "§LQuesta specie di quasi-immortali procrea consumando popoli delle altre specie.§!"
  building_necrophage_elevation_chamber:0 "Camera dell'Elevazione"
  building_necrophage_elevation_chamber_desc:0 "Quelli che attendono la trasformazione spendono i loro giorni studiando le pratiche e i rituali dei [This.Owner.GetSpeciesNamePlural] nella tranquillità della Camera dell'Elevazione."
+ building_necrophage_elevation_chamber_scaling_tooltip:0 "Per assicurare una fornitura costante di £job_necro_apprentice£ $job_necro_apprentice_plural$, il numero di posti di lavoro forniti scala tra §Y1§! e §Y3§!, a seconda della §Ypop growth§!".\n\n"
  building_necrophage_house_of_apotheosis:0 "Casa dell'Apoteosi"
  building_necrophage_house_of_apotheosis_desc:0 "Una casa di inenarrabile splendore dove coloro che attendono la loro apoteosi come [This.Owner.GetSpeciesNamePlural] possono trascorrere in tranquillità i loro ultimi giorni nelle loro forme originali."
  job_necro_apprentice_effect_desc:1 "£job_necro_apprentice£ $job_necro_apprentice_plural$ trasformano £consumer_goods£ §Y$consumer_goods$§! e £food£ §Y$food$§! in £unity£ §Y$unity$§! e £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!.\nOgni §Y10§! anni, £job_necro_apprentice£ $job_necro_apprentice_plural$ vengono trasformati in §Y[This.Owner.GetSpeciesNamePlural]§! durante un §YRituale di Elevazione§!."
@@ -30,7 +31,7 @@
  RULER_JOB_NECROPHAGE_TRIGGER:0 "Questo lavoro può essere solo svolto da Pop Necrofagi Liberi che non vengono epurati."
  opinion_necrophage:1 "Sparizioni Misteriose"
  opinion_necrophage_our_species:0 "Necrofizzato la nostra Specie"
- disables_necrophage_features:0 "§RScegliendo questo Tratto di Ascensione verrano disabilitate le meccaniche Necrofaghe.§!"
+ disables_necrophage_features:0 "§RScegliendo questo Tratto di Ascensione verranno disabilitate le meccaniche Necrofaghe.§!"
  MESSAGE_NECROPHAGE_POPS_NECROPHAGED_TITLE:0 "Pop Necrofizzati"
  MESSAGE_NECROPHAGE_POPS_NECROPHAGED:1 "Abbiamo convertito $VALUE|Y$ £pops£ Pop alla nostra specie in una Cerimonia di Elevazione su $PLANET|Y$."
 
@@ -67,7 +68,7 @@
  mod_job_mortal_initiate_per_pop_short:0 "\n§G+1§! £mod_job_mortal_initiate_add£ per $VALUE$ £pop£"
 
  edict_sacrifice_togetherness:0 "Sacrificio: Fratellanza"
- edict_sacrifice_togetherness_desc:0 "I più devoti tra noi vengono preparati per incontrare il loro destino, affinchè la nostra società diventi più unita. Che la nostra unità splenda nella solitaria oscurità dello spazio!"
+ edict_sacrifice_togetherness_desc:0 "I più devoti tra noi vengono preparati per incontrare il loro destino, affinché la nostra società diventi più unita. Che la nostra unità splenda nella solitaria oscurità dello spazio!"
  edict_sacrifice_togetherness_tooltip:0 "§RUccide tutti i £job_mortal_initiate£ $job_mortal_initiate_plural$.§! Ogni sacrificio aumenta le probabilità di guadagni aggiuntivi in £unity£ Unità, fino a §G+35%§! in totale."
  sacrifice_togetherness_mod:0 "Sacrificio Aggiuntivo: Fratellanza"
  sacrifice_togetherness_mod_desc:0 "I più devoti tra noi hanno incontrato il loro destino; il loro sacrificio rafforza la nostra proclamazione di fratellanza. Che la nostra unità splenda nella solitaria oscurità dello spazio!"
@@ -124,7 +125,7 @@
  necroids.200.tooltip.5:0 "$necroids.200.tooltip.base$ §H+30% £unity£ produzione Unità§!."
 
  necroids.201.name:0 "Un Sacrificio Fatto: [root.GetAdj] Armonia"
- necroids.201.desc:0 "Mormorii eccitati rieccheggiano sul [root.GetName]. I pellegrini aspettano nei luoghi di culto da loro scelti, sostenuti da un'eccitazione del tutto in contrasto con qualsiasi stanchezza fisica che potrebbero aver sopportato.\n\nI rituali della nostra società sono stati osservati e investiti negli appena emersi $job_mortal_initiate_plural$, le cui silenziose processioni sono state accolte con cortesi espressioni di gratitudine. Il principale $job_death_priest$ su [capital_scope.GetName] ha condotto un vigoroso sermone, invitando i fedeli a cogliere la gioia in ogni momento. Quando è arrivato il momento culminante, ogni $job_mortal_initiate$ ha proceduto verso la camera sacrificale sotto applausi estatici. Ciascuno adesso ha incontrato la propria fine, lasciando in eredità un benevole studio."
+ necroids.201.desc:0 "Mormorii eccitati riecheggiano sul [root.GetName]. I pellegrini aspettano nei luoghi di culto da loro scelti, sostenuti da un'eccitazione del tutto in contrasto con qualsiasi stanchezza fisica che potrebbero aver sopportato.\n\nI rituali della nostra società sono stati osservati e investiti negli appena emersi $job_mortal_initiate_plural$, le cui silenziose processioni sono state accolte con cortesi espressioni di gratitudine. Il principale $job_death_priest$ su [capital_scope.GetName] ha condotto un vigoroso sermone, invitando i fedeli a cogliere la gioia in ogni momento. Quando è arrivato il momento culminante, ogni $job_mortal_initiate$ ha proceduto verso la camera sacrificale sotto applausi estatici. Ciascuno adesso ha incontrato la propria fine, lasciando in eredità un benevole studio."
  necroids.201.tooltip.1:0 "$necroids.200.tooltip.base$ §H+10% £happiness£ Felicità Pop§!."
  necroids.201.tooltip.2:0 "$necroids.200.tooltip.base$ §H+20% £happiness£ Felicità Pop§!."
  necroids.201.tooltip.3:0 "$necroids.200.tooltip.base$ §H+30% £happiness£ Felicità Pop§!."

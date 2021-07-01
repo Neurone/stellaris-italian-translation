@@ -1,6 +1,6 @@
 Questo mod, [b]compatibile con la modalità Ironman e gli achievement di Steam[/b], sostituisce la lingua inglese con la lingua italiana.
 
-Versione supportata: Dick 3.0.*
+Versione supportata: Dick v3.0.*
 
 Grazie a Nefando, AndryRock e Daddie2 sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack, una prima versione corposa del DLC Federations e parte di Nemesis!
 
