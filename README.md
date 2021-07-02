@@ -18,7 +18,7 @@ Per come è strutturato il gioco, e poiché questo mod vuole mantenere gli achie
 
 ### Stato della traduzione
 
-Di seguito i file principali e lo stato della loro traduzione rispetto alla versione 2.8.1 del gioco:
+Di seguito i file principali e lo stato della loro traduzione rispetto alla versione v3.0.3 del gioco:
 
 | nome file | stato traduzione |
 |--|--|
@@ -141,7 +141,7 @@ Ogni file contiene delle stringhe formate da una chiave, uguale per ogni linguag
 crisis.2010.name:0 "Il Segnale Fantasma"
 ```
 
-In questo caso `crisis.2010.name:0` è la chiave, mentre `"Il Segnale Fantasma"` è la traduzione. Da notare i doppi apici `"` che delimitano il valore vero e proprio della traduzione, in questo caso già tradotto.
+In questo caso `crisis.2010.name` è la chiave, `0` è la versione (in caso di aggiornamenti alla chiave la versione viene incrementata), mentre `"Il Segnale Fantasma"` è la traduzione. Da notare i doppi apici `"` che delimitano il valore vero e proprio della traduzione, in questo caso già tradotto.
 
 ### Commenti
 
