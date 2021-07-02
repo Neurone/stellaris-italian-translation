@@ -2742,7 +2742,7 @@
  diplomatic.1021.b:0 "Non possiamo permetterci un incidente diplomatico. Annullate l'esercitazione."
  diplomatic.1021.c:0 "I nostri diplomatici appianeranno la situazione."
  exercise_diplomatic_hardline:0 "Diamo una risposta diplomatica dalla linea dura alla loro antipatica protesta."
- exercise_diplomatic_cancelled:0 "Annulliamo le manovre attuali per migliorare i rapporti con i membri del popolo [From.GetSpeciesAdj]. L'esercito non ne sarà felice.\n\n"
+ exercise_diplomatic_canceled:0 "Annulliamo le manovre attuali per migliorare i rapporti con i membri del popolo [From.GetSpeciesAdj]. L'esercito non ne sarà felice.\n\n"
  exercise_diplomatic_conciliatory:0 "Inviamo una risposta conciliante per minimizzare i danni diplomatici, ma continuiamo l'esercitazione."
  diplomatic.1022.desc:0 "Abbiamo ricevuto la vostra mal formulata obiezione contro l'esercitazione militare delle nostre gloriose forze navali nel Sistema [exercise_system.GetName]. Dato che, come sarete bene a conoscenza, quel sistema si trova all'interno dei nostri confini, non vediamo come possa essere minimamente affar vostro.\n\nFareste bene a non inviarci altre sconsiderate comunicazioni diplomatiche in futuro.\n\nFine della trasmissione."
  diplomatic.1022.a:0 "È intollerabile!"

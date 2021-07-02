@@ -1,15 +1,15 @@
-﻿Greetings!
+﻿Saluti!
 
-Stellaris has been updated!
+Stellaris è stato aggiornato!
 
-The galaxy is now a more mysterious place - Intel such as full borders or details about governments are now hidden until revealed by a Spy Network, sufficient Trust, or through intelligence sharing from Diplomatic Pacts. Envoys can be assigned to manage Spy Networks in the diplomatic screen, and they have also taken over a greatly expanded First Contact system.
+La galassia è ora un luogo più misterioso - informazioni come i confini completi o i dettagli sui governi sono ora nascosti fino a quando non vengono rivelati da una Rete di Spie, da una fiducia sufficiente o attraverso la condivisione di informazioni dai Patti Diplomatici. Gli inviati possono essere assegnati alla gestione delle Reti di Spie nella schermata diplomatica, e hanno anche assunto un sistema di Primo Contatto notevolmente ampliato.
 
-Colonies now produce Alloys and Consumer Goods using Industrial Districts, and several buildings have new effects that add additional jobs to certain districts. Planetary designations can be used to specialize Industrial District production towards either Alloys or Consumer Goods, and improvements have been made on colony and sector automation.
+Le colonie ora producono leghe e beni di consumo usando i distretti industriali, e diversi edifici hanno nuovi effetti che aggiungono posti di lavoro a certi distretti. Le designazioni planetarie possono essere usate per specializzare la produzione dei distretti industriali verso leghe o beni di consumo, e sono stati fatti miglioramenti nell'automazione delle colonie e dei settori.
 
-Building Slots are now opened up by expanding the infrastructure of the colony by building City Districts or upgrading the colony's capital building.
+Gli slot di costruzione si aprono ora espandendo l'infrastruttura della colonia costruendo distretti cittadini o migliorando l'edificio capitale della colonia.
 
-Biological pop growth now follows a curve where their growth accelerates on partially filled planets, but slows as the planet becomes crowded. All pops (including assembled ones) now require progressively more growth to create, greatly reducing the overall number in the late game.
+La crescita dei pop biologici ora segue una curva in cui la loro crescita accelera sui pianeti parzialmente riempiti, ma rallenta quando il pianeta diventa affollato. Tutti i pop (compresi quelli assemblati) ora richiedono progressivamente più crescita per essere creati, riducendo notevolmente il numero complessivo nel late game.
 
 ---
 
-Saved games from previous versions may not be compatible with version 3.0. If you wish to continue your old save in version 2.8.1, follow the forum link below and read the thread "How to revert Stellaris to a previous version."
+I salvataggi delle versioni precedenti potrebbero non essere compatibili con la versione 3.0. Se desideri continuare il tuo vecchio salvataggio nella versione 2.8.1, segui il link del forum qui sotto e leggi il thread "Come riportare Stellaris a una versione precedente".

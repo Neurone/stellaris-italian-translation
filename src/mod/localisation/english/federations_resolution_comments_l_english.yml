@@ -119,7 +119,7 @@
  ethic_xenophobe_request_hostile:0 "Prima ci sostenete, prima possiamo andare ognuno per la sua strada."
  ethic_xenophobe_request_hostile_0:0 "Mettiamo in chiaro una cosa: il $GREETER$ non ha bisogno del vostro aiuto. Tuttavia, non saremmo necessariamente avversi al vostro sostegno nel prossimo voto..."
  ethic_xenophobe_request_hostile_1:0 "Il mio governo mi ha ordinato di chiedere la vostra assistenza nel prossimo voto. Ora, vi prego di scusarmi mentre cerco la camera d'igenizzazione più vicina."
- ethic_xenophobe_request_hostile_2:1 "Questa cosidetta "[global_event_country.GetGalCommunityOrGalImperium]" è una farsa aliena, ma staremo al gioco... per ora."
+ ethic_xenophobe_request_hostile_2:1 "Questa cosiddetta "[global_event_country.GetCommunityOrImperium]" è una farsa aliena, ma staremo al gioco... per ora."
  ethic_xenophobe_request_hostile_3:0 "Se questa risoluzione fallisce, avremo la prova concreta che tutte le altre razze aliene stanno cospirando contro di noi."
  ethic_xenophobe_request_hostile_4:0 "Mai prima d'ora avevo visto così tante... indecorose creature nello stesso posto. [global_event_country.GetGalCommunityOrGalImperium] è davvero sorprendente."
 
