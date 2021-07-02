@@ -24,8 +24,8 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |--|--|
 |achievements_l_english.yml| completa|
 |ai_crisis_l_english.yml| completa|
-|ancient_relics_events_l_english.yml| **parziale**|
-|ancient_relics_l_english.yml| **parziale**|
+|ancient_relics_events_l_english.yml| completa|
+|ancient_relics_l_english.yml| completa|
 |apocalypse_l_english.yml| completa|
 |dip_messages_l_english.yml| completa|
 |diplo_stances_l_english.yml| completa|
@@ -37,7 +37,7 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |events_4_l_english.yml| completa|
 |events_5_l_english.yml| completa|
 |events_l_english.yml| completa|
-|federations_anniversary_l_english.yml| **da tradurre**|
+|federations_anniversary_l_english.yml| **parziale**|
 |federations_l_english.yml| **parziale**|
 |federations_resolution_comments_l_english.yml| completa|
 |horizonsignal_l_english.yml| completa|
@@ -56,7 +56,7 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |name_lists_l_english.yml| completa|
 |necroids_l_english.yml| completa|
 |nemesis_content_l_english.yml| **da tradurre**|
-|nemesis_crisis_l_english.yml| **da tradurre**|
+|nemesis_crisis_l_english.yml| completa|
 |nemesis_custodian_l_english.yml| **da tradurre**|
 |nemesis_espionage_l_english.yml| **da tradurre**|
 |nemesis_intel_l_english.yml| **da tradurre**|

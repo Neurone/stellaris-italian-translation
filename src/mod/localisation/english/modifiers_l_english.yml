@@ -74,7 +74,7 @@
  MOD_MEGASTRUCTURE_BUILD_SPEED_ADD:0 "Velocità Costr. Megastruttura"
  MOD_MEGASTRUCTURE_PRODUCTION_MULT:0 "Produzione Risorse Megastruttura"
  MOD_MEGASTRUCTURE_BUILD_COST_MULT:0 "Costo Costruzione Megastruttura"
- MOD_DIPLO_WEIGHT_SPRAWL_MULT:0 "Peso Diplomatico da Estensione Imperiale"
+ MOD_DIPLO_WEIGHT_SPRAWL_MULT:0 "Peso Diplomatico da Espansione Imperiale"
  MOD_DIPLO_WEIGHT_NAVAL_MULT:0 "Peso Diplomatico da Potenza Navale"
  MOD_DIPLO_WEIGHT_ECONOMY_MULT:0 "Peso Diplomatico da Economia"
  MOD_DIPLO_WEIGHT_TECHNOLOGY_MULT:0 "Peso Diplomatico da Tecnologia"
