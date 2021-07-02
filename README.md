@@ -46,7 +46,7 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |lithoids_l_english.yml| completa|
 |mandates_l_english.yml| completa|
 |marauder_l_english.yml| completa|
-|megacorp_l_english.yml| parziale|
+|megacorp_l_english.yml| **parziale**|
 |messages_l_english.yml| completa|
 |modifiers_2_l_english.yml| completa|
 |modifiers_3_l_english.yml| completa|

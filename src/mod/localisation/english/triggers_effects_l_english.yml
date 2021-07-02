@@ -953,7 +953,7 @@
  RANDOM_LIST_EFFECT:0 "§YCapiterà una delle seguenti $SIZE$ opzioni:§!\n"
  RANDOM_EFFECT:0 "§Y$CHANCE$%§! di probabilità che "
  NO_EFFECT:0 "Nessun Effetto"
- CREATE_FLEET_FROM_NAVAL_CAP_EFFECT:1 "$COUNTRY|Y$ riceve una flotta $PERC|Y%$ della dimensione della sua capacità navale, con proprietario di tipo $OWNER_TYPE|Y$".
+ CREATE_FLEET_FROM_NAVAL_CAP_EFFECT:1 "$COUNTRY|Y$ riceve una flotta $PERC|Y%$ della dimensione della sua capacità navale, con proprietario di tipo $OWNER_TYPE|Y$."
  ADD_MINERALS_EFFECT:3 "£minerals£ §YMinerali§!: $NUM$\n"
  ADD_FOOD_EFFECT:3 "£food£ §YCibo§!: $NUM$\n"
  ADD_PHYSICS_EFFECT:3 "£physics£ §YRicerca Fisica§!: $NUM$\n"
@@ -1075,7 +1075,7 @@
  JOIN_WAR_EFFECT:0 "$FIRST|Y$ si unisce a $SECOND|Y$ come alleato di guerra."
  AN_ATTACKER:0 "un attaccante"
  A_DEFENDER:0 "un difensore"
- JOIN_WAR_ON_SIDE_EFFECT:1 "$FIRST|Y$ si unisce come $SIDE$ nella guerra contro $ENEMY|Y$".
+ JOIN_WAR_ON_SIDE_EFFECT:1 "$FIRST|Y$ si unisce come $SIDE$ nella guerra contro $ENEMY|Y$."
  JOIN_WAR_ON_SIDE_COUNTRY_EFFECT:0 "$FIRST|Y$ si unisce a $SECOND|Y$ come alleato nella loro guerra contro $ENEMY|Y$."
  JOIN_ALLIANCE_EFFECT:0 "$SECOND|Y$ si unisce all'Alleanza $ALLIANCE|Y$."
  JOIN_ALLIANCE_EFFECT_2:0 "$SECOND|Y$ si unisce in una Federazione con $FIRST|Y$."
@@ -1238,7 +1238,7 @@
  HAS_MODIFIER:0 "Possiede il modificatore $MODNAME|Y$"
  effect_every_owned_pop_species:1 "Tutte le Specie Possedute"
  effect_every_owned_species:0 "$effect_every_owned_pop_species$"
- STORE_GALCOM_LEADER_BACKUP_DATA_EFFECT:0 "Memorizzata una copia delle proprietà del leader della Comunità Galattica $COUNTRY$".
+ STORE_GALCOM_LEADER_BACKUP_DATA_EFFECT:0 "Memorizzata una copia delle proprietà del leader della Comunità Galattica $COUNTRY$."
  RESTORE_GALCOM_LEADER_BACKUP_DATA_EFFECT:0 "Ripristinato il backup delle proprietà del leader della comunità galattica su $COUNTRY$."
  ROOM_NAME_OVERRIDE_EFFECT:0 "Imposta il nome della stanza in background di $COUNTRY|Y$ su "$ROOM_NAME|Y$""
 
@@ -1431,9 +1431,9 @@
  HAS_FEDERATION_TYPE:0 "$FEDERATION|Y$ è $TYPE|Y$"
  HAS_NOT_FEDERATION_TYPE:0 "$FEDERAZIONE|Y$ non è $TYPE|Y$"
 
- DESTROY_ESPIONAGE_OPERATION_EFFECT:0 "Conclude l'operazione di spionaggio $NAME|Y$".
+ DESTROY_ESPIONAGE_OPERATION_EFFECT:0 "Conclude l'operazione di spionaggio $NAME|Y$."
  ADD_ESPIONAGE_INFORMATION_EFFECT:0 "Aggiunge informazioni $VALUE$"
- ADD_SPY_NETWORK_LEVEL:0 "Cambia il livello di infiltrazione con $LEVEL$".
+ ADD_SPY_NETWORK_LEVEL:0 "Cambia il livello di infiltrazione con $LEVEL$."
 
  SET_FEDERATION_SUCCESSION_TYPE:0 "Imposta il tipo di successione $TYPE|Y$ per $FEDERATION|Y$"
  SET_FEDERATION_SUCCESSION_TERM:0 "Imposta il termine di successione $TERM|Y$ per $FEDERAZIONE|Y$"
@@ -1690,8 +1690,8 @@
  HAS_GOVERNMENT:1 "Ha un governo di tipo $GOV|Y$"
  HAS_NOT_GOVERNMENT:1 "Non ha un governo di tipo $GOV|Y$"
 
- ADD_INTEL_EFFECT:1 "$ACTOR|Y$ ottiene $INTEL$ Intel su $TARGET|Y$".
- ADD_INTEL_REPORT_EFFECT:0 "$ACTOR|Y$ ottiene $LEVEL$ $CATEGORY|Y$ Intel su $TARGET|Y$ per $DAYS|Y$ giorni".
+ ADD_INTEL_EFFECT:1 "$ACTOR|Y$ ottiene $INTEL$ Intel su $TARGET|Y$."
+ ADD_INTEL_REPORT_EFFECT:0 "$ACTOR|Y$ ottiene $LEVEL$ $CATEGORY|Y$ Intel su $TARGET|Y$ per $DAYS|Y$ giorni."
 
  CHECK_MODIFIER_VALUE:0 "Il valore di $MODIFIER$ ($VAL1$) è $COMPARATOR$ $VAL2|Y$"
  CHECK_MODIFIER_VALUE_NOT:0 "Il valore di $MODIFIER$ ($VAL1$) non è $COMPARATOR$ $VAL2|Y$"
@@ -1699,7 +1699,7 @@
  TRIGGER_IS_TOTAL_WAR:0 "È una guerra totale"
  TRIGGER_IS_NOT_TOTAL_WAR:0 "Non è una guerra totale"
 
- CREATE_ESPIONAGE_ASSET:2 "Ottieni $TYPE|Y$ risorsa da usare contro il $COUNTRY|Y$".
+ CREATE_ESPIONAGE_ASSET:2 "Ottieni $TYPE|Y$ risorsa da usare contro il $COUNTRY|Y$."
  DESTROY_ESPIONAGE_ASSET:1 "Distruggi $TYPE|Y$ risorsa di spionaggio"
  ASSIGN_ESPIONAGE_ASSET:1 "Assegna la risorsa di spionaggio $TYPE|Y$"
  UNASSIGN_ESPIONAGE_ASSET:1 "Disassegnare $TYPE|Y$ risorsa di spionaggio"
@@ -1708,8 +1708,8 @@
  CAN_SET_POLICY_TRIGGER:0 "Può impostare la politica su $POLICY_GROUP|Y$ su $OPTION|Y$"
  CAN_NOT_SET_POLICY_TRIGGER:0 "Impossibile impostare la politica su $POLICY_GROUP|Y$ su $OPTION|Y$"
 
- WOULD_WORK_TYPE_TRIGGER:0 "Accetterebbe qualsiasi lavoro $JOB$ che diventa disponibile".
- WOULD_NOT_WORK_JOB_TYPE_TRIGGER:0 "Non accetterebbe nessun lavoro $JOB$ che diventa disponibile".
+ WOULD_WORK_TYPE_TRIGGER:0 "Accetterebbe qualsiasi lavoro $JOB$ che diventa disponibile."
+ WOULD_NOT_WORK_JOB_TYPE_TRIGGER:0 "Non accetterebbe nessun lavoro $JOB$ che diventa disponibile."
 
  HAS_PATH_TRIGGER:0 "$COUNTRY|Y$ segue il percorso di crisi di $PATH|Y$"
  HAS_NOT_PATH_TRIGGER:0 "$COUNTRY|Y$ NON segue il percorso di crisi $PATH|Y$"
@@ -1717,9 +1717,9 @@
  HAS_NOT_MENACE_PERK_TRIGGER:0 "Non ha il Perk Minaccia: $PERK|Y$"
  SELECT_CRISIS_PATH:0 "$COUNTRY$ adotta il $PATH$"
  UNLOCK_MENACE_PERK:0 "$COUNTRY$ sblocca il Perk Minaccia $PERK$"
- COMPLETE_CRISIS_OBJECTIVE:3 "L'obiettivo di crisi di $OBJ|Y$ è completato, garantendo $REWARD|G$ Menace".
+ COMPLETE_CRISIS_OBJECTIVE:3 "L'obiettivo di crisi di $OBJ|Y$ è completato, garantendo $REWARD|G$ Menace."
  DEACTIVATE_MENACE_PERK:0 "Il Perk Minaccia $PERK$ è stato disattivato per $COUNTRY$"
- ACTIVATE_CRISIS_PROGRESSION:1 "Permette al $COUNTRY$ di progredire verso il §Diventare il §Rischio§!§!".
+ ACTIVATE_CRISIS_PROGRESSION:1 "Permette al $COUNTRY$ di progredire verso il §Diventare il §Rischio§!§!."
 
  ADD_VICTORY_SCORE_EFFECT:0 "$VALORE$ viene aggiunto al Punteggio di Vittoria di $COUNTRY|Y$"
 

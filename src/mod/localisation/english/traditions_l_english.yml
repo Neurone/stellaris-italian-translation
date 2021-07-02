@@ -275,7 +275,7 @@
  tr_synchronicity_instinctive_synchronization_delayed:0 "Il nostro alveare in crescita ha maggiori esigenze di lavoro sincronizzato e di sviluppo."
  tr_synchronicity_integrated_preservation:1 "Preservazione Integrata"
   tr_synchronicity_integrated_preservation_desc:4 "§Y$job_coordinator_plural$§! produce §Y3§! addizionale £mod_country_admin_cap_add£ §Y$MOD_COUNTRY_ADMIN_CAP_ADD$§! e riduce §Y$MOD_PLANET_CRIME_NO_HAPPINESS_ADD$§! di 2."
- tr_synchronicity_integrated_preservation_delayed:5 "La nostra rete in crescita richiede manutenzione e debugging regolari, quindi più risorse saranno dedicate al nostro $job_coordinator_plural$".
+ tr_synchronicity_integrated_preservation_delayed:5 "La nostra rete in crescita richiede manutenzione e debugging regolari, quindi più risorse saranno dedicate al nostro $job_coordinator_plural$."
  tr_synchronicity_collective_reasoning:1 "Ragionamento Collettivo"
  tr_synchronicity_collective_reasoning_desc:1 "£mod_pop_amenities_usage_no_happiness_mult£ §Y$MOD_POP_AMENITIES_USAGE_NO_HAPPINESS_MULT$§! ridotto del §G10%§!."
  tr_synchronicity_collective_reasoning_delayed:1 "Sincronizzando vari gruppi di droni, è possibile ottenere un utilizzo più efficiente dei servizi planetari!"
@@ -710,7 +710,7 @@ tradition_adaptability:0 "Adattabilità"
  synthetic_empire_psionic_ascension:0 "$TRIGGER_FAIL$Gli Imperi Sintetici non possono percorrere il percorso dell'Ascensione Psionica."
 
  allow_gaia:0 "Ci permette di terraformare i pianeti per farli diventare di Classe §YGaia§!."
- no_rev_engineering:1 "Le operazioni di §Y$operation_steal_technology$§! falliranno automaticamente se usate contro di noi e i §YDetriti§! delle nostre navi distrutte non possono essere studiati da altri imperi".
+ no_rev_engineering:1 "Le operazioni di §Y$operation_steal_technology$§! falliranno automaticamente se usate contro di noi e i §YDetriti§! delle nostre navi distrutte non possono essere studiati da altri imperi."
  allow_raiding:0 "Sblocca l'Atteggiamento di Bombardamento Orbitale §Y$bombardment_raiding$§!, che ci permette di rapire la POP dei pianeti assediati e trasferirla sui nostri."
 
  ap_defender_of_the_galaxy_effect_opinion:0 "Tutti aumentano la propria £opinion£ §YOpinione§! di §G+20§!"

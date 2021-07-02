@@ -1088,7 +1088,7 @@
  ancrel.4078.b:0 "Un vero [owner.GetSpeciesNamePlural] vive della terra."
 
  the_evermore_modifier:1 "Emozioni Economiche"
- the_evermore_modifier_desc:0 "L'Aeternus, originariamente un regno virtuale in cui le coscienze digitalizzate degli alieni vivevano in eterna beatitudine, è stato riproposto in un parco giochi per le masse".
+ the_evermore_modifier_desc:0 "L'Aeternus, originariamente un regno virtuale in cui le coscienze digitalizzate degli alieni vivevano in eterna beatitudine, è stato riproposto in un parco giochi per le masse."
  the_evermore_evil_modifier:0 "$the_evermore_modifier$"
  the_evermore_evil_modifier_desc:0 "$the_evermore_modifier_desc$"
  study_the_sentinels_modifier:0 "L'Aeternus"

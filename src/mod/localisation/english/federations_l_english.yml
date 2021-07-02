@@ -1473,10 +1473,10 @@
  harm_relations_desc:0 "Inviare un Emissario per peggiorare attivamente le relazioni diminuirà la loro opinione delnostro impero su base mensile.\n\nNon potremo assegnarlo nuovamente per §Y£time£360§!."
  ENVOY_harm_relations:0 "Impegnato a peggiorare le relazioni con $LOCATION|H$"
 
- galactic_community:0 "[global_event_country.GetGalCommunityOrGalImperium]"
+ galactic_community:0 "Comunità Galattica"
  galactic_community_click_to_open:1 "§GClicca per aprire $GALACTIC_COMMUNITY$§!"
  galactic_community_TITLE:0 "$galactic_community$"
- galactic_community_desc:0 "Inviare un Emissario a rappresentare i nostri interessi nella [global_event_country.GetGalCommunityOrGalImperium] aumenterà il nostro Peso Diplomatico del §G+10%§!.\n\nNon potremo assegnarlo nuovamente per §Y£time£360§!."
+ galactic_community_desc:0 "Inviare un Emissario a rappresentare i nostri interessi nella Comunità Galattica aumenterà il nostro Peso Diplomatico del §G+10%§!.\n\nNon potremo assegnarlo nuovamente per §Y£time£360§!."
 
  galactic_empire_TITLE:0 "$GALACTIC_EMPIRE$"
  galactic_empire_desc:0 "Sending an envoy to represent our interests in the $GALACTIC_EMPIRE$ will increase our Diplomatic Weight by §G+10%§!.\n\nWe will be unable to reassign them for §Y£time£360§!."
@@ -1491,7 +1491,7 @@
  IN_RECESS_HELP:0 "\n§HIl Senato è attualmente in pausa.§!\nDai il tuo Supporto alle Risoluzioni Proposte nella Coda per influenzare quale Risoluzione andrà in discussione quando comincerà la prossima Sessione."
 
  ENVOYS_HEADER:0 "§HEmissari§!"
- ENVOYS_STATUS:0 "$ASSIGNED|Y$ su $TOTAL|Y$ Emissari hanno incarichi\n\nGli Emissari possono essere inviati ad altri imperi per compiti diplomatici, per rappresentarti nella [global_event_country.GetGalCommunityOrGalImperium], o per mantenere la Federazione.\n\nalcune §YCiviche§!, §YEdifici§!, §YVantaggio della Federazione§!, e la costruzione di un'§YAssemblea Interstellare§! possono fornirti Emissari addizionali."
+ ENVOYS_STATUS:0 "$ASSIGNED|Y$ su $TOTAL|Y$ Emissari hanno incarichi\n\nGli Emissari possono essere inviati ad altri imperi per compiti diplomatici, per rappresentarti nella Comunità Galattica, o per mantenere la Federazione.\n\nalcune §YCiviche§!, §YEdifici§!, §YVantaggio della Federazione§!, e la costruzione di un'§YAssemblea Interstellare§! possono fornirti Emissari addizionali."
  ASSIGN_ENVOY:0 "Assegna Emissario"
  ASSIGN_ENVOY_NOT_MEMBER_TOOLTIP:0 "§HAssegna Emissario§!\n§RDevi essere un membro della comunità Galattica per assegnare emissari§!"
  ASSIGN_ENVOY_TOOLTIP:0 "§HAssegna Emissario§!\n§GClic per aprire il pannello Assegna Emissario!"
@@ -2000,7 +2000,7 @@ COUNCIL_SIZE:0 "Seggi: $SIZE|Y$"
 
  ### On The Shoulders Of Giants - Dark Secret Arc Site
  site_dark_secret:0 "Segreto Oscuro"
- site_dark_secret_intro:1 "Le coordinate puntano a un luogo arbitrario sulla superficie di [From.Planet.GetName]. Scansioni più ravvicinate non indicano nulla di straordinario ".
+ site_dark_secret_intro:1 "Le coordinate puntano a un luogo arbitrario sulla superficie di [From.Planet.GetName]. Scansioni più ravvicinate non indicano nulla di straordinario."
  origin.1290.name:0 "Caverna Nascosta"
  origin.1290.desc:1 "La squadra che abbiamo inviato sulla superficie di [From.Planet.GetName] ha incontrato molti più ostacoli del previsto.\n\nLe coordinate che abbiamo ricevuto nell'antica base di ricerca aliena indicavano una parte eccezionalmente scoscesa di [From.Planet.GetName], dove il paesaggio era pieno di superfici rocciose verticali e profondi crepacci.\n\nLa squadra ha insistito e alla fine ha raggiunto il luogo indicato: una formazione di grotte naturali. Non c'è bisogno di chiedere loro di dare un'occhiata più da vicino; l'esplorazione è già in corso."
  origin.1290.a:0 "Procedete."

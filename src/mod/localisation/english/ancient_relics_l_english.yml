@@ -568,8 +568,8 @@
 
  cybrex_warform:0 "Cybrex Warform"
  cybrex_warform_desc:0 "Questo robot titanico sovrasta la maggior parte degli edifici, con una potenza di fuoco sufficiente a devastare le città."
- relic_cybrex_passive:0 "Permette di costruire eserciti §Y$cybrex_warform$§! nella tua capitale".
- relic_cybrex_active:0 "Produce £leghe£§Y5000§!".
+ relic_cybrex_passive:0 "Permette di costruire eserciti §Y$cybrex_warform$§! nella tua capitale."
+ relic_cybrex_active:0 "Produce £leghe£§Y5000§!."
 
  ##################
  # Decisions

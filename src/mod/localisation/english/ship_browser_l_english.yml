@@ -3,12 +3,12 @@
  SHIP_GRAPHICS_PREVIEW:0 "Anteprima delle classi di navi"
  SHIP_GRAPHICS_REQUIRED_DLC:0 "DLC richiesto"
  SHIP_GRAPHICS_MISSING_DLC_TOOLTIP:0 "§Clicca per vedere l'anteprima delle navi $CULTURE_NAME$§!"
- SHIP_GRAPHICS_ZOOM_IN_TOOLTIP:0 "Usa la §Rotella di scorrimento del mouse in avanti§! per ingrandire".
- SHIP_GRAPHICS_ZOOM_OUT_TOOLTIP:0 "Usa §GRotella di scorrimento del mouse all'indietro§! per rimpicciolire".
+ SHIP_GRAPHICS_ZOOM_IN_TOOLTIP:0 "Usa la §Rotella di scorrimento del mouse in avanti§! per ingrandire."
+ SHIP_GRAPHICS_ZOOM_OUT_TOOLTIP:0 "Usa §GRotella di scorrimento del mouse all'indietro§! per rimpicciolire."
  SHIP_GRAPHICS_ROTATE_TOOLTIP:0 "Tieni premuto e trascina il §Tasto destro del mouse§! sul modello della nave per ruotare."
- SHIP_GRAPHICS_CORVETTE_DESC:0 "Le corvette sono la prima classe di navi militari disponibili per gli imperi. Sono veloci, agili ed economiche".
- SHIP_GRAPHICS_DESTROYER_DESC:1 "I cacciatorpediniere scambiano l'agilità e la velocità di una corvetta per una maggiore potenza di fuoco e uno scafo più spesso".
- SHIP_GRAPHICS_CRUISER_DESC:0 "Gli incrociatori sono versatili e resistenti, in grado di assorbire e infliggere danni".
+ SHIP_GRAPHICS_CORVETTE_DESC:0 "Le corvette sono la prima classe di navi militari disponibili per gli imperi. Sono veloci, agili ed economiche."
+ SHIP_GRAPHICS_DESTROYER_DESC:1 "I cacciatorpediniere scambiano l'agilità e la velocità di una corvetta per una maggiore potenza di fuoco e uno scafo più spesso."
+ SHIP_GRAPHICS_CRUISER_DESC:0 "Gli incrociatori sono versatili e resistenti, in grado di assorbire e infliggere danni."
  SHIP_GRAPHICS_BATTLESHIP_DESC:0 "Le corazzate sono costose ma potenti. Con il loro grande raggio di tiro, eccellono nel ferire un avversario prima che possa contrattaccare."
  SHIP_GRAPHICS_TITAN_DESC:1 "Sebbene siano immensamente potenti di per sé, i Titani possono anche usare le abilità Aura per potenziare le navi amiche."
  SHIP_GRAPHICS_JUGGERNAUT_DESC:1 "Costruire un Juggernaut è una grande impresa per qualsiasi impero. Queste enormi navi funzionano sia come cantieri navali mobili che come navi di supporto."
@@ -16,8 +16,8 @@
  SHIP_GRAPHICS_OUTPOST_DESC:0 "Un avamposto è il livello più basso di una base stellare, avendo poca funzione se non quella di segnare la proprietà di un sistema stellare."
  SHIP_GRAPHICS_STARBASE_CITADEL_DESC:0 "Una Cittadella è il livello più alto aggiornabile di una base stellare. Dotata di immense difese, una Cittadella è un osso duro per qualsiasi nemico."
  SHIP_GRAPHICS_TRANSPORT_DESC:0 "Le navi da trasporto trasportano eserciti per assaltare i pianeti ostili durante una guerra. Essendo disarmate e non armate, richiedono una flotta di supporto quando si trovano in territorio ostile."
- SHIP_GRAPHICS_SCIENCE_DESC:0 "Le navi scientifiche sono usate principalmente per esplorare nuovi sistemi stellari e ricercare anomalie. Essendo una nave civile, sono disarmate e vulnerabili".
- SHIP_GRAPHICS_CONSTRUCTOR_DESC:0 "Le navi da costruzione sono necessarie per costruire qualsiasi stazione spaziale. Essendo una nave civile, sono disarmate, non armate e vulnerabili".
- SHIP_GRAPHICS_COLONIZER_DESC:0 "Le navi colonia trasportano i coloni dai pianeti colonizzati a quelli nuovi per la colonizzazione. Essendo una nave civile, sono disarmate, non armate e vulnerabili".
+ SHIP_GRAPHICS_SCIENCE_DESC:0 "Le navi scientifiche sono usate principalmente per esplorare nuovi sistemi stellari e ricercare anomalie. Essendo una nave civile, sono disarmate e vulnerabili."
+ SHIP_GRAPHICS_CONSTRUCTOR_DESC:0 "Le navi da costruzione sono necessarie per costruire qualsiasi stazione spaziale. Essendo una nave civile, sono disarmate, non armate e vulnerabili."
+ SHIP_GRAPHICS_COLONIZER_DESC:0 "Le navi colonia trasportano i coloni dai pianeti colonizzati a quelli nuovi per la colonizzazione. Essendo una nave civile, sono disarmate, non armate e vulnerabili."
  SHIP_GRAPHICS_SHIP_SIZE_LOCKED_DESC:0 "§Questa classe di navi richiede il DLC $SHIP_SIZE_NAME$.§!
 

@@ -1,6 +1,6 @@
 ﻿l_english:
 
- FIRST_CONTACT:0 "First contact with $NAME|Y$"
+ FIRST_CONTACT:0 "Primo contatto con $NAME|Y$"
  FIRST_CONTACT_ICON_DESC:0 "We first encountered $NAME|Y$ here $DATE|Y$\n\n§GClick to handle this Contact.§!"
  FIRST_CONTACT_ICON_ENVOY_DESC:1 "We first encountered $NAME|Y$ here $DATE|Y$.\n\nOur envoy $ENVOY|Y$ is working here to find out more about these aliens.\n\n§GClick to handle this Contact.§!"
  FIRST_CONTACT_NAME_WITH_LOCATION:0 "First Contact with $NAME|Y$ at $LOC|Y$"
@@ -17,10 +17,10 @@
  first_contact:0 "First Contact"
  first_contact_desc:0 "Sending an envoy to investigate these aliens will help us find out more about them and potentially establish diplomatic relations.\n\nWe will be unable to reassign them for §Y£time£360§!."
  ESPIONAGE:0 "Espionage"
- ESPIONAGE_IS_UNAVAILABLE:0 "Unavailable"
+ ESPIONAGE_IS_UNAVAILABLE:0 "Non disponibile"
  SPY_NETWORK_POWER:1 "Spy Network Bandwidth: $CURRENT|0$/$TOTAL|0$"
- FINISH_CURRENT_OPERATION_STAGE_EFFECT:0 "Finish current phase"
- intel:0 "Intel"
+ FINISH_CURRENT_OPERATION_STAGE_EFFECT:0 "Completa la fase corrente"
+ intel:0 "Intelligence"
  INTEL_VALUE:0 "Intel : $VALUE|Y$"
  STALE_RELATIVE_POWER_WITHOUT_STALE:0 "$STRING$"
  STALE_RELATIVE_POWER:0 "$STRING$ (Stale)"
