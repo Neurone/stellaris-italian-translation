@@ -24,24 +24,24 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |--|--|
 |achievements_l_english.yml| completa|
 |ai_crisis_l_english.yml| completa|
-|ancient_relics_events_l_english.yml| parziale|
-|ancient_relics_l_english.yml| parziale|
+|ancient_relics_events_l_english.yml| **parziale**|
+|ancient_relics_l_english.yml| **parziale**|
 |apocalypse_l_english.yml| completa|
 |dip_messages_l_english.yml| completa|
 |diplo_stances_l_english.yml| completa|
 |distant_stars_l_english.yml| completa|
-|dlc_recommendations_l_english.yml| da tradurre|
+|dlc_recommendations_l_english.yml| **da tradurre**|
 |event_chains_l_english.yml| completa|
 |events_2_l_english.yml| completa|
 |events_3_l_english.yml| completa|
 |events_4_l_english.yml| completa|
 |events_5_l_english.yml| completa|
 |events_l_english.yml| completa|
-|federations_anniversary_l_english.yml| da tradurre|
-|federations_l_english.yml| parziale|
+|federations_anniversary_l_english.yml| **da tradurre**|
+|federations_l_english.yml| **parziale**|
 |federations_resolution_comments_l_english.yml| completa|
 |horizonsignal_l_english.yml| completa|
-|l_english.yml| parziale|
+|l_english.yml| **parziale**|
 |leviathans_l_english.yml| completa|
 |lithoids_l_english.yml| completa|
 |mandates_l_english.yml| completa|
@@ -55,11 +55,11 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |musicplayer_l_english.yml| completa|
 |name_lists_l_english.yml| completa|
 |necroids_l_english.yml| completa|
-|nemesis_content_l_english.yml| da tradurre|
-|nemesis_crisis_l_english.yml| da tradurre|
-|nemesis_custodian_l_english.yml| da tradurre|
-|nemesis_espionage_l_english.yml| da tradurre|
-|nemesis_intel_l_english.yml| da tradurre|
+|nemesis_content_l_english.yml| **da tradurre**|
+|nemesis_crisis_l_english.yml| **da tradurre**|
+|nemesis_custodian_l_english.yml| **da tradurre**|
+|nemesis_espionage_l_english.yml| **da tradurre**|
+|nemesis_intel_l_english.yml| **da tradurre**|
 |new_scripted_loc_l_english.yml| completa|
 |observer_events_l_english.yml| completa|
 |observer_l_english.yml| completa|
@@ -71,20 +71,20 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |projects_5_l_english.yml| completa|
 |projects_l_english.yml| completa|
 |scripted_loc_l_english.yml| completa|
-|ship_browser_l_english.yml| da tradurre|
+|ship_browser_l_english.yml| completa|
 |ship_sections_l_english.yml| completa|
 |social_gui_l_english.yml| completa|
 |standalone_l_english.yml| completa|
 |synthetic_dawn_events_l_english.yml| completa|
 |technology_l_english.yml| completa|
-|traditions_l_english.yml| parziale|
-|triggers_effects_l_english.yml| parziale|
-|tutorial_l_english.yml| parziale|
+|traditions_l_english.yml| completa|
+|triggers_effects_l_english.yml| completa|
+|tutorial_l_english.yml| **parziale**|
 |unrest_l_english.yml| completa|
 |utopia_ascension_l_english.yml| completa|
 |utopia_l_english.yml| completa|
 |utopia_megastructures_l_english.yml| completa|
-|void_dweller_traditions_l_english.yml| da tradurre|
+|void_dweller_traditions_l_english.yml| completa|
 
 ### Cosa posso modificare?
 
