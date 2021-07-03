@@ -47,7 +47,7 @@ Ulrika Uddeborg
 
 Daniel Bengtsson
 Marine Baghramyan
-Pierre du PlessisFåhraeus
+Pierre du Plessis
 Peter Vestman
 
 ##Content Design Leads
@@ -141,6 +141,11 @@ Daniel Teige
 Erik Elgerot
 Eva Mayer
 Struan McCallum
+
+##Additional Embedded QA
+
+Jaan Lohikoski Håkansson
+Sebastian Borg
 
 ##QA Central Team Lead
 
@@ -2665,7 +2670,7 @@ Spanish - QLOC
 French - S&H Entertainment Localization
 German - S&H Entertainment Localization
 Polish - QLOC
-Russian - The Most Games
+Russian & Simplified Chinese - The Most Games
 Brazilian Portuguese - S&H Entertainment Localization
 
 ##Beta Testers

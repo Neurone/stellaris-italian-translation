@@ -3,7 +3,8 @@
     "version": "2.1.0",
     "description": "Mod per Stellaris. Sostituisce la lingua inglese con la lingua italiana.",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "dev": "npx grunt dev",
+        "release": "npx grunt"
     },
     "author": "",
     "license": "MIT",

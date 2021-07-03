@@ -68,7 +68,7 @@
  MOD_POP_RESETTLEMENT_COST_MULT:0 "Costo Trasferimento"
  MOD_TRADITION_COST_EMPIRE_SIZE_MULT:1 "Costo Tradizione dalle Dimensioni Imperiali"
  MOD_TECH_COST_EMPIRE_SIZE_MULT:1 "Costo Tecnologia dalle Dimensioni Imperiali"
- MOD_COLONY_START_NUM_POPS_ADD:0 "POP Extra Quando Stabilisci una Colonia"
+ MOD_COLONY_START_NUM_POPS_ADD:0 "POP extra quando stabilisci Colonia"
  MOD_COUNTRY_TERRAFORM_SPEED_MULT:0 "Velocità Terraformazione"
  MOD_MEGASTRUCTURE_BUILD_SPEED_MULT:0 "Velocità Costr. Megastruttura"
  MOD_MEGASTRUCTURE_BUILD_SPEED_ADD:0 "Velocità Costr. Megastruttura"

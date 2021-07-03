@@ -195,7 +195,7 @@ Da notare inoltre che i file di testo possono utilizzare dei caratteri speciali 
 
 Per contribuire alle traduzioni, potete clonare questo repository, aggiornare direttamente i file e poi procedere con una pull request per effettuare l'unione del vostro repository con quello principale.
 
-Se non siete pratici di `git`, il mio suggerimento è di diventarlo :) E' veramente semplice da utilizzare e vi permette di lavorare in locale sul vostro PC.
+Se non siete pratici di `git`, il mio suggerimento è di diventarlo :) È veramente semplice da utilizzare e vi permette di lavorare in locale sul vostro PC.
 
 Un'alternativa, è lavorare comunque sul vostro PC ma effettuare la proposta di modifica direttamente online. Una volta scaricato e tradotto il file che volete aggiornare:
 

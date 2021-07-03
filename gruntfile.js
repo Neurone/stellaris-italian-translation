@@ -38,6 +38,12 @@ module.exports = function (grunt) {
                     }
                 ]
             },
+            testing: {
+                expand: true,
+                cwd: 'build/dist',
+                src: '**',
+                dest: 'd:/Users/giuse/Documents/Paradox Interactive/Stellaris/mod/'
+            }
         },
         compress: {
             build: {
@@ -64,5 +70,5 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
 
     grunt.registerTask('default', ['clean:init', 'copy:release', 'compress:build', 'copy:complete', 'compress:release', 'clean:complete']);
-    grunt.registerTask('dev', ['clean:init', 'copy:dev']);
+    grunt.registerTask('dev', ['clean:init', 'copy:dev', 'copy:testing']);
 };
