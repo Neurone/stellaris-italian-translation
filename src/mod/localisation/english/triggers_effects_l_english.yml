@@ -1571,7 +1571,7 @@
  any_enslaved_species_trigger:1 "Qualsiasi specie con pops asserviti"
  any_owned_species_trigger:1 "Qualsiasi specie posseduta"
  any_fleet_in_system_trigger:1 "Qualsiasi flotta nel sistema"
- any_fleet_trigger:1 "Qualsiasi flotta posseduta"
+ any_owned_fleet_trigger:1 "Qualsiasi flotta posseduta"
  any_fleet_in_orbit_trigger:1 "Qualsiasi flotta in orbita"
  count_owned_fleet_trigger:0 "Numero di flotte possedute$CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$"
  count_owned_fleet_all_trigger:0 "$IS_ALL_NOT$ Le flotte possedute soddisfano le seguenti condizioni"

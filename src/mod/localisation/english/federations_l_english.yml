@@ -337,7 +337,7 @@
  law_category_fleet_contribution:0 "Contributo alla Flotta"
  law_category_fleet_contribution_desc:0 "Queste Leggi determinano quanta Capacità Navale i nostri Membri dedicano alla Flotta della Federazione."
  fleet_contribution_none:0 "Nessuno"
- fleet_contribution_none_desc:0 "Questa federazione non sostiene alcuno sforzo collaborativo militare ."
+ fleet_contribution_none_desc:0 "Questa federazione non sostiene alcuno sforzo collaborativo militare."
  fleet_contribution_low:0 "Basso"
  fleet_contribution_low_desc:0 "Questa federazione sostiene uno sforzo collaborativo militare minore."
  fleet_contribution_medium:0 "Medio"

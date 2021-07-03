@@ -2,7 +2,7 @@
  SHIP_GRAPHICS_BROWSER:0 "Seleziona l'aspetto della nave"
  SHIP_GRAPHICS_PREVIEW:0 "Anteprima delle classi di navi"
  SHIP_GRAPHICS_REQUIRED_DLC:0 "DLC richiesto"
- SHIP_GRAPHICS_MISSING_DLC_TOOLTIP:0 "§Clicca per vedere l'anteprima delle navi $CULTURE_NAME$§!"
+ SHIP_GRAPHICS_MISSING_DLC_TOOLTIP:0 "§GClicca per vedere l'anteprima delle navi $CULTURE_NAME$§!"
  SHIP_GRAPHICS_ZOOM_IN_TOOLTIP:0 "Usa la §Rotella di scorrimento del mouse in avanti§! per ingrandire."
  SHIP_GRAPHICS_ZOOM_OUT_TOOLTIP:0 "Usa §GRotella di scorrimento del mouse all'indietro§! per rimpicciolire."
  SHIP_GRAPHICS_ROTATE_TOOLTIP:0 "Tieni premuto e trascina il §Tasto destro del mouse§! sul modello della nave per ruotare."
@@ -19,5 +19,5 @@
  SHIP_GRAPHICS_SCIENCE_DESC:0 "Le navi scientifiche sono usate principalmente per esplorare nuovi sistemi stellari e ricercare anomalie. Essendo una nave civile, sono disarmate e vulnerabili."
  SHIP_GRAPHICS_CONSTRUCTOR_DESC:0 "Le navi da costruzione sono necessarie per costruire qualsiasi stazione spaziale. Essendo una nave civile, sono disarmate, non armate e vulnerabili."
  SHIP_GRAPHICS_COLONIZER_DESC:0 "Le navi colonia trasportano i coloni dai pianeti colonizzati a quelli nuovi per la colonizzazione. Essendo una nave civile, sono disarmate, non armate e vulnerabili."
- SHIP_GRAPHICS_SHIP_SIZE_LOCKED_DESC:0 "§Questa classe di navi richiede il DLC $SHIP_SIZE_NAME$.§!
+ SHIP_GRAPHICS_SHIP_SIZE_LOCKED_DESC:0 "§Questa classe di navi richiede il DLC $SHIP_SIZE_NAME$.§!"
 

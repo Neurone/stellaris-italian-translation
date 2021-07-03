@@ -1,5 +1,5 @@
 name="Traduzione italiana"
-version="2.0.3"
+version="2.0.9"
 tags={
     "Translation"
 }

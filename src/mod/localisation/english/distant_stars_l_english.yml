@@ -296,7 +296,7 @@
  distar.60.name:0 "Destino Radioso"
  distar.60.desc:0 "I frammenti irradiati che l'equipaggio della [Root.GetName] ha rilevato nell'orbita di [From.GetName] sono in effetti i resti di una nave spaziale. Possiedono un design piuttosto particolare, diverso da tutti quelli che conosciamo.\n\nAbbiamo estratto alcuni dati dai computer danneggiati della nave, registrati in una lingua aliena mai vista prima, ed intraducibile.\n\nStudiando i resti, l'Ufficiale Scientifico [Root.GetLeaderName] pensa che il veicolo, conosciuto con il nome di "Kohtalo", abbia subito un errore di navigazione mentre usciva dal viaggio SL, che l'ha portato troppo vicino ai raggi gamma emessi da [From.GetName]. Grandi porzioni della nave sono state distrutte a causa della radiolisi. Non si registrano sopravvissuti."
  distar.61.name:0 "Déjà Vu"
- distar.61.desc:0 "I sensori hanno rilevato una nave che sembra possedere identiche proprietà dei resti trovati nel Sistema [kohtalo_second_fleet.GetStarName] . Ci stanno chiamando!"
+ distar.61.desc:0 "I sensori hanno rilevato una nave che sembra possedere identiche proprietà dei resti trovati nel Sistema [kohtalo_second_fleet.GetStarName]. Ci stanno chiamando!"
  distar.62.name:0 "Déjà Vu"
  distar.62.desc:0 "§EL'equipaggio della strana nave identica al relitto trovato nel Sistema [ouroboros_system.GetName] sembra entusiasta nel parlare con noi, sebbene i nostri traduttori non riescano a decodificare la loro lingua. Si identificano tramite un'espressione verbale roca che suona come "Kohtalo", un nome che abbiamo già sentito prima.\n\nForse potremmo comunicare tramite dati non elaborati.§!"
  distar.62.a:0 "Provate a chiedere perché sono qui."
