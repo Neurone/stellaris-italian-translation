@@ -88,8 +88,8 @@
  EMPIRE_SIZE_FROM_PLANETS:0 "Da $NUM|Y$ $COLONY_COLONIES$: $VALUE$"
  EMPIRE_SIZE_FROM_BRANCH_OFFICES:0 "Da $NUM|Y$ $OFFICE_OFFICES$: $VALUE$"
  EMPIRE_SIZE_FROM_POPS:1 "From $NUM|Y$ $POP_POPS$: $VALUE$"
- EMPIRE_SIZE_EFFECTS:2 "As §Y$EMPIRE_SIZE$§! is $VALUE|1R$ higher than §Y$MOD_COUNTRY_ADMIN_CAP_ADD$§!, we suffer from §Y$empire_size_over_cap$§!, which applies the following penalties:"
- EMPIRE_SIZE_NO_EFFECTS:1 "While §Y$EMPIRE_SIZE$§! is lower than §Y$MOD_COUNTRY_ADMIN_CAP_ADD$§!, no penalties are applied."
+ EMPIRE_SIZE_EFFECTS:2 "Nel momento in cui l'§Y$EMPIRE_SIZE$§! è pù grande della §Y$MOD_COUNTRY_ADMIN_CAP_ADD$§! di almeno $VALUE|1R$ soffriremo di §Y$empire_size_over_cap$§!, il che farà scattare le seguenti penalità:"
+ EMPIRE_SIZE_NO_EFFECTS:1 "Finché l'§Y$EMPIRE_SIZE$§! è minore della §Y$MOD_COUNTRY_ADMIN_CAP_ADD$§! non vengono applicate penalità."
  EMPIRE_SIZE_EFFECTS_TECH:3 "Technology Cost: §Y+$VALUE|%0$§!"
  EMPIRE_SIZE_EFFECTS_TRADITIONS:3 "Tradition Adoption Cost: §Y+$VALUE|%0$§!"
  EMPIRE_SIZE_PENALTY_MULT:1 "La §YPenalità all'$EMPIRE_SIZE$§! è modificata da:"
@@ -129,7 +129,7 @@
  BRANCH_OFFICE_NOT_COMMERCIAL_PACT:1 "£trigger_no£ §RDobbiamo possedere un Accordo Commerciale od essere Confederati con il proprietario di questo pianeta per poter stabilire qui una $BRANCH_OFFICE$§!"
  BRANCH_OFFICE_CRIMINAL_HERITAGE_HAS_TRUCE:0 "£trigger_no£ §RDobbiamo essere in Pace e non in Tregua con il proprietario di questo pianeta per poter stabilire qui una $BRANCH_OFFICE$§!"
  BRANCH_OFFICE_CRIMINAL_COOLDOWN:0 "£trigger_no£ §RLe autorità locali hanno di recente chiuso la nostra $BRANCH_OFFICE$ su questo pianeta e sono ancora in guardia nei confronti dei nostri agenti.§!"
- BRANCH_OFFICE_NOT_FALLEN_EMPIRES:0 "£trigger_no£ §RFallen Empires will never allow interstellar corporations to establish franschises on their worlds§!"
+ BRANCH_OFFICE_NOT_FALLEN_EMPIRES:0 "£trigger_no£ §RGli imperi caduti non permetteranno mai alle corporazioni interstellari di stabilire dei franchising sui loro mondi§!"
 
  ENABLE_BUILDING:0 "Abilita Edificio"
  ENABLE_BUILDING_DESC:0 "Possiamo abilitare l'edificio perché produca nuovamente benefici per il pianeta. Se lo faremo, dovremo pagarne i costi di Mantenimento."
@@ -153,9 +153,9 @@
  NO_SPECIES_FOR_DECLINE:0 "§RSu questo pianeta non sono presenti specie che possano essere obbligate a declinare.§!"
  FORCED_DECLINE_ALREADY_PURGING:0 "§RImpossibile impostare una Specie Indesiderata mentre sul pianeta è in corso un'epurazione.§!"
 
- LOGISTIC_GROWTH_LOW:0 "§E§YBase Growth§!§! is decreased because of low population."
- LOGISTIC_GROWTH_MED:1 "§E§YBase Growth§! is increased because there is a balance between population and the §YPlanet Capacity§!.§!"
- LOGISTIC_GROWTH_HIGH:1 "§E§YBase Growth§! is decreased because the population is approaching the §YPlanet Capacity§!.\n\nBuilding additional £housing£§YHousing§! or clearing £blocker£ §YBlockers§! increases Capacity.§!"
+ LOGISTIC_GROWTH_LOW:0 "La §E§YCrescita Base§!§! è diminuita a causa della bassa popolazione."
+ LOGISTIC_GROWTH_MED:1 "La §E§YCrescita Base§! è diminuita poiché c'è bilanciamento tra la popolazione attuale e la §YCapacità Planetaria§!.§!"
+ LOGISTIC_GROWTH_HIGH:1 "La §E§YCrescita Base§! è diminuita perché la popolazione si sta avvicinando alla §YCapacità Planetaria§!.\n\nCostruire altre £housing£§YAbitazioni§! or liberare £blocker£ §YOstacoli§! aumenterà la Capacità Planetaria.§!"
 
  FORCED_GROWTH:0 "Specie Prioritaria"
  FORCED_GROWTH_TITLE:0 "Imposta Specie Prioritaria"
