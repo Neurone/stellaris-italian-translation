@@ -932,7 +932,7 @@
  
  job_gas_extractor:0 "Estrattore di Gas"
  job_gas_extractor_plural:0 "Estrattori di Gas"
- job_gas_extractor_desc:1 "Gli Estrattori di Gas utilizzano metodi avanzati di frantumazione idraulica per liberare i rari gas esotici dai loro rifugi rocciosi."."
+ job_gas_extractor_desc:1 "Gli Estrattori di Gas utilizzano metodi avanzati di frantumazione idraulica per liberare i rari gas esotici dai loro rifugi rocciosi."
  job_gas_extractor_effect_desc:1 "I £job_gas_extractor£ $job_gas_extractor_plural$ producono £exotic_gases£ §Y$exotic_gases$§!"
  mod_job_gas_extractor_add:0 "Lavoro da $job_gas_extractor$"
  mod_job_gas_extractor_per_pop:0 "§G+1§! Lavoro da $job_gas_extractor$ ogni $VALUE$ POP"
@@ -1452,11 +1452,11 @@
  mod_planet_pops_organics_minerals_upkeep_mult:0 "Mantenimento Minerale della Popolazione"
  mod_planet_pops_robotics_upkeep_mult:0 "Mantenimento dei Robot"
  mod_planet_pop_assemblers_upkeep_mult:0 "Costo Assemblaggio Popolazione"
- mod_planet_jobs_slave_produces_mult:1 "$pop_cat_slave$ Pop Resource Output"
- mod_planet_jobs_worker_produces_mult:2 "$pop_cat_worker$ Pop Resource Output"
- mod_planet_jobs_specialist_produces_mult:2 "$pop_cat_specialist$ Pop Resource Output"
- mod_planet_jobs_ruler_produces_mult:2 "$pop_cat_ruler$ Pop Resource Output"
- mod_planet_jobs_simple_drone_produces_mult:1 "$pop_cat_simple_drone$ Output"
+ mod_planet_jobs_slave_produces_mult:1 "Produzione Risorse POP $pop_cat_slave$"
+ mod_planet_jobs_worker_produces_mult:2 "Produzione Risorse POP $pop_cat_worker$"
+ mod_planet_jobs_specialist_produces_mult:2 "Produzione Risorse POP $pop_cat_specialist$"
+ mod_planet_jobs_ruler_produces_mult:2 "Produzione Risorse POP $pop_cat_ruler$"
+ mod_planet_jobs_simple_drone_produces_mult:1 "Produzione Risorse POP $pop_cat_simple_drone$"
  mod_planet_jobs_complex_drone_produces_mult:0 "Produzione $pop_cat_complex_drone_plural$"
  mod_planet_jobs_robotic_produces_mult:0 "Produzione Robot"
  mod_planet_jobs_consumer_goods_produces_mult:0 "£consumer_goods£ $consumer_goods$ da £job£ Jobs"
@@ -1567,12 +1567,12 @@
  minerals_relic_desc:0 "Questa strana macchina può in qualche modo richiamare i minerali dal suolo senza toccare i materiali circostanti."
  energy_relic:0 "Acceleratore Energetico"
  energy_relic_desc:0 "Quando connesso ad un generatore sufficientemente grande, questo dispositivo utilizza alcune tecniche incomprensibili per produrre ulteriore energia."
- MOD_COUNTRY_ENVOYS_ADD:0 "Available Envoys"
- MOD_ENVOY_IMPROVE_RELATIONS_MULT:0 "Envoy Improve Relations"
- MOD_ENVOY_HARM_RELATIONS_MULT:0 "Envoy Harm Relations"
+ MOD_COUNTRY_ENVOYS_ADD:0 "Ambasciate Disponibili"
+ MOD_ENVOY_IMPROVE_RELATIONS_MULT:0 "L'Ambasciata Migliora le Relazioni"
+ MOD_ENVOY_HARM_RELATIONS_MULT:0 "L'Ambasciata Mina le Relazioni"
 
- mod_planet_synapse_drones_admin_cap_tooltip:0 "£mod_country_admin_cap_add£ $MOD_COUNTRY_ADMIN_CAP_ADD$ from\n£job_synapse_drone£ $job_synapse_drone_plural$: §G+10%§!"
- mod_planet_coordinators_admin_cap_tooltip:0 "£mod_country_admin_cap_add£ $MOD_COUNTRY_ADMIN_CAP_ADD$ from\n£job_coordinator£ $job_coordinator_plural$: £mod_country_admin_cap_add£ §G+1§!"
+ mod_planet_synapse_drones_admin_cap_tooltip:0 "£mod_country_admin_cap_add£ $MOD_COUNTRY_ADMIN_CAP_ADD$ da\n£job_synapse_drone£ $job_synapse_drone_plural$: §G+10%§!"
+ mod_planet_coordinators_admin_cap_tooltip:0 "£mod_country_admin_cap_add£ $MOD_COUNTRY_ADMIN_CAP_ADD$ da\n£job_coordinator£ $job_coordinator_plural$: £mod_country_admin_cap_add£ §G+1§!"
 
  #requires_building_capital:0 "§RRequires §Y$building_capital$§! on planet.§!"
  requires_building_machine_capital:0 "§RRichiede §Y$building_machine_capital$§! sul pianeta.§!"
@@ -2889,7 +2889,7 @@
 
 # Ship Components
  ORBITAL_TRASH_1:0 "Dispersore Orbitale di Rifiuti"
- ORBITAL_TRASH_1_DESC:0 "Questo componente riversa su un pianeta milioni di proiettili ad alta velocità al minuto, travolgendo le griglie difensive con dati spazzatura. Le navi equipaggiate con questo componente infliggeranno più danni durante il bombardamento orbitale."."
+ ORBITAL_TRASH_1_DESC:0 "Questo componente riversa su un pianeta milioni di proiettili ad alta velocità al minuto, travolgendo le griglie difensive con dati spazzatura. Le navi equipaggiate con questo componente infliggeranno più danni durante il bombardamento orbitale."
 
  # Events
 

@@ -1950,7 +1950,7 @@
 
  requires_no_binary_trinary:0 "$TRIGGER_FAIL$Impossibile da costruire in Sistemi Binari o Ternari."
  
- distar.10956.name:0 "L'Ammasso-L Chiama"
+ distar.10956.name:0 "L'Ammasso 'L' Chiama"
  distar.10956.desc:0 "Le nostre spie comunicano che §H[lgate_warning_country.GetName]§! è vicino ad ottenere abbastanza informazioni sui Portali-L per sbloccare quello che controlla. Ciò darà loro accesso all'Ammasso-L ed ai suoi segreti!\n\nSe vogliamo arrivare per primi, dobbiamo raddoppiare i nostri sforzi e trovare più indizi sui Portali-L!"
  distar.10956.a:0 "Vediamo chi arriverà per primo."
 

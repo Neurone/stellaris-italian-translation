@@ -21,8 +21,8 @@
  TRIGGER_HAS_ENVOY_TASK_STRENGTHEN_IMPERIAL_AUTHORITY_NOT:0 "Non sta rafforzando l'autorità imperiale"
  TRIGGER_HAS_ENVOY_TASK_UNDERMINE_IMPERIAL_AUTHORITY:0 "Sta minando l'autorità imperiale"
  TRIGGER_HAS_ENVOY_TASK_UNDERMINE_IMPERIAL_AUTHORITY_NOT:0 "Non sta minando l'autorità imperiale"
- TRIGGER_HAS_ENVOY_TASK_BUILD_SPY_NETWORK:0 "Sta costruendo una rete di spie"
- TRIGGER_HAS_ENVOY_TASK_BUILD_SPY_NETWORK_NOT:0 "Non sta costruendo una rete di spie"
+ TRIGGER_HAS_ENVOY_TASK_BUILD_SPY_NETWORK:0 "Sta costruendo una rete di spionaggio"
+ TRIGGER_HAS_ENVOY_TASK_BUILD_SPY_NETWORK_NOT:0 "Non sta costruendo una rete di spionaggio"
 
  TRIGGER_HAS_ENVOY_TASK_NONE:0 "È inattivo"
  TRIGGER_HAS_ENVOY_TASK_NONE_NOT:0 "Non è inattivo"

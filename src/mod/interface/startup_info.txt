@@ -2,7 +2,7 @@
 
 Stellaris è stato aggiornato!
 
-La galassia è ora un luogo più misterioso - informazioni come i confini completi o i dettagli sui governi sono ora nascosti fino a quando non vengono rivelati da una Rete di Spie, da una fiducia sufficiente o attraverso la condivisione di informazioni dai Patti Diplomatici. Gli inviati possono essere assegnati alla gestione delle Reti di Spie nella schermata diplomatica, e hanno anche assunto un sistema di Primo Contatto notevolmente ampliato.
+La galassia è ora un luogo più misterioso - informazioni come i confini completi o i dettagli sui governi sono ora nascosti fino a quando non vengono rivelati da una Rete di Spionaggio, da una fiducia sufficiente o attraverso la condivisione di informazioni dai Patti Diplomatici. Gli inviati possono essere assegnati alla gestione delle Reti di Spionaggio nella schermata diplomatica, e hanno anche assunto un sistema di Primo Contatto notevolmente ampliato.
 
 Le colonie ora producono leghe e beni di consumo usando i distretti industriali, e diversi edifici hanno nuovi effetti che aggiungono posti di lavoro a certi distretti. Le designazioni planetarie possono essere usate per specializzare la produzione dei distretti industriali verso leghe o beni di consumo, e sono stati fatti miglioramenti nell'automazione delle colonie e dei settori.
 

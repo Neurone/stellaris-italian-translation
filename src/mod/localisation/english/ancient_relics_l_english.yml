@@ -583,9 +583,9 @@
  lithoids_arc_site_minerals:0 "Sito Archeologico"
  lithoids_arc_site_minerals_desc:0 "Lo studio di un sito archeologico all'interno delle miniere planetarie ha arrestato ogni operazione mineraria."
  evermore_science:0 "Sempre più scienza"
- evermore_science_desc:0 "La popolazione digitalizzata che risiede all'interno dell'Evermore è stata assegnata ad assistere nella ricerca scientifica".
+ evermore_science_desc:0 "La popolazione digitalizzata che risiede all'interno dell'Evermore è stata assegnata ad assistere nella ricerca scientifica."
  evermore_joy:0 "Sempre più divertimento"
- evermore_joy_desc:0 "La popolazione di questo mondo può vivere le proprie fantasie insieme alla popolazione digitalizzata nel paradiso dell'Evermore".
+ evermore_joy_desc:0 "La popolazione di questo mondo può vivere le proprie fantasie insieme alla popolazione digitalizzata nel paradiso dell'Evermore."
  drums_of_war:0 "Tamburi di Guerra"
  ether_drake_triumph:0 "Trionfo sul Drago Etereo"
  worm_scales:0 "Influenza delle Scaglie del Verme"
@@ -754,7 +754,7 @@
  d_sentinels_monument:0 "$sentinels_planet_modifier$"
  d_sentinels_monument_desc:0 "$sentinels_planet_modifier$"
  d_sentinels_metal:0 "Sentinels"
- d_sentinels_metal_desc:0 "I resti rotti di nove monumentali automi fatti di una lega metallica insolita offrono un'ampia disponibilità di §Metallo Vivente§!".
+ d_sentinels_metal_desc:0 "I resti rotti di nove monumentali automi fatti di una lega metallica insolita offrono un'ampia disponibilità di §Metallo Vivente§!."
  ancrel.10001.name:0 "$tech_arcane_deciphering$"
  ancrel.10001.desc:0 "Lo studio degli artefatti ci ha fatto avanzare nella ricerca."
  ancrel.10002.name:0 "$tech_arcane_deciphering$"
