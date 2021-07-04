@@ -2562,7 +2562,7 @@ COUNCIL_SIZE:0 "Seggi: $SIZE|Y$"
  doomsday_first_colony:0 "Safe Haven"
  doomsday_first_colony_desc:0 "The colonization of our first habitable planet has instilled a new sense of hope in the populace. It proves that life is possible beyond the confines of our doomed homeworld."
 
- origin_lost_colony:0 "Lost Colony"
+ origin_lost_colony:0 "Colonia Perduta"
  origin_lost_colony_desc:0 "This civilization originated as a lost and forgotten colony, separated from its homeworld long ago. The struggling colonists endured many hardships before they were able to build up the necessary technological and industrial base that would allow for a return to space."
  START_SCREEN_LOST_COLONY:0 "How exactly the original [GetSpeciesName] colonists arrived on [Root.Capital.GetName] is poorly documented, but we know they traveled a great distance in primitive starships. Many were lost during the journey, and conditions on the surface of our new homeworld were harsh at first.\n\nFamines, wildlife attacks, and countless other challenges were overcome, and eventually the planet was tamed. Surging population numbers and massive construction efforts soon gave us the means to return to the stars.\n\nOur old homeworld is still out there somewhere. There are no living [GetSpeciesNamePlural] on [Root.Capital.GetName] old enough to have laid eyes on it, but the fate of our ancestral home still occupies our minds."
  origin_tooltip_lost_colony_effects:1 "- An Advanced Empire of this species is spawned somewhere in the galaxy"
