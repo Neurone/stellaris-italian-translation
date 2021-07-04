@@ -711,7 +711,7 @@ tradition_adaptability:0 "Adattabilità"
 
  allow_gaia:0 "Ci permette di terraformare i pianeti per farli diventare di Classe §YGaia§!."
  no_rev_engineering:1 "Le operazioni di §Y$operation_steal_technology$§! falliranno automaticamente se usate contro di noi e i §YDetriti§! delle nostre navi distrutte non possono essere studiati da altri imperi."
- allow_raiding:0 "Sblocca l'Atteggiamento di Bombardamento Orbitale §Y$bombardment_raiding$§!, che ci permette di rapire la POP dei pianeti assediati e trasferirla sui nostri."
+ allow_raiding:0 "Sblocca il Bombardamento Orbitale §Y$bombardment_raiding$§!, che ci permette di rapire la £pop£ POP dei pianeti assediati e trasferirla sui nostri."
 
  ap_defender_of_the_galaxy_effect_opinion:0 "Tutti aumentano la propria £opinion£ §YOpinione§! di §G+20§!"
  ap_defender_of_the_galaxy_modifier_desc:0 "Danno alle Fazioni delle Crisi Finali: §G+50%§!"
