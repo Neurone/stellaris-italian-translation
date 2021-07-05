@@ -245,58 +245,67 @@ Installare le dipendenze:
 
 Creare il mod:
 
-    npx grunt
+    npm run release
 
 L'output sarà simile al seguente:
 
-    ~\stellaris-italian-translation> npx grunt
-    npx: installed 1 in 2.252s
-    Path must be a string. Received undefined
-    ~\stellaris-italian-translation\node_modules\grunt\bin\grunt
-    Running "clean:folder" (clean) task
-    >> 91 paths cleaned.
+    > stellaris-italian-translation@2.1.0 release
+    > npx grunt
 
-    Running "copy:standalone" (copy) task
-    Created 1 directory, copied 86 files
+    Running "clean:init" (clean) task
+    >> 83 paths cleaned.
 
-    Running "compress:main" (compress) task
-    >> Compressed 87 files.
+    Running "copy:release" (copy) task
+    Created 5 directories, copied 73 files
+
+    Running "compress:build" (compress) task
+    >> Compressed 78 files.
 
     Running "copy:complete" (copy) task
     Copied 1 file
 
+    Running "compress:release" (compress) task
+    >> Compressed 2 files.
+
+    Running "clean:complete" (clean) task
+    >> 2 paths cleaned.
+
     Done.
 
-Verrà creato il file `stellaris-italian-translation-x.x.x.zip` all'interno della cartella `build\dist`, dove `x.x.x` sarà la versione corrente del mod (es. `1.0.0`).
+Verrà creato il file `stellaris-italian-translation-x.x.x.zip` all'interno della cartella `build\dist`, dove `x.x.x` sarà la versione corrente del mod (in questo esempio `2.1.0`).
 
 Per installare il mod, scompattare il file all'interno della cartella:
 
-    <%USERPROFILE%>\Documents\Paradox Interactive\Stellaris\mod
+    (Windows)   : %USERPROFILE%\Documents\Paradox Interactive\Stellaris\mod
+    (GNU/Linux) : ~/.local/share/Paradox Interactive/Stellaris/mod
+    (Mac)       : ~/Documents/Paradox Interactive/Stellaris/mod
 
 Nel caso non fosse presente la cartella `mod` potete crearla voi normalmente. La struttura finale dei file sarà la seguente:
 
-    <%USERPROFILE%>\Documents\Paradox Interactive\Stellaris\mod\stellaris-italian-translation.zip
-    <%USERPROFILE%>\Documents\Paradox Interactive\Stellaris\mod\stellaris-italian-translation.mod
+    [...]/Paradox Interactive/Stellaris/mod/stellaris-italian-translation.zip (zip con tutte le risorse del mod)
+    [...]/Paradox Interactive/Stellaris/mod/stellaris-italian-translation.mod (descrittore del mod)
 
-### Versione sviluppo o Steam
+### Versione sviluppo o per Workshop Steam
 
-La versione sviluppo del mod è utile per fare modifiche, test o per effettuare il caricamento sullo Steam Workshop. La versione release **non permette** di fare il caricamento sullo Steam Workshop.
+La versione sviluppo del mod è utile per fare modifiche, test o per effettuare il caricamento sul Workshop Steam. **La versione release non permette di fare il caricamento sul Workshop Steam**.
 
 Creare il mod in versione sviluppo:
 
-    npx grunt dev
+    npm run dev
 
 L'output sarà simile al seguente:
 
-    ~\stellaris-italian-translation> npx grunt dev
-    npx: installed 1 in 2.625s
-    Path must be a string. Received undefined
-    ~\stellaris-italian-translation\node_modules\grunt\bin\grunt
-    Running "clean:folder" (clean) task
-    >> 0 paths cleaned.
+    > stellaris-italian-translation@2.1.0 dev
+    > npx grunt dev
+
+    Running "clean:init" (clean) task
+    >> 83 paths cleaned.
 
     Running "copy:dev" (copy) task
+    Created 5 directories, copied 75 files
 
+    Running "copy:testing" (copy) task
+    Created 6 directories, copied 75 files
 
     Done.
 
@@ -305,11 +314,13 @@ Verrà creata la cartella `build\dist` e all'interno troverete un file ed una ca
     stellaris-italian-translation\*
     stellaris-italian-translation.mod
 
-Per installare il mod, copiate tutto **il contenuto** della cartella `build\dist` all'interno della cartella:
+Lo script copierà automaticamente tutti file necessari per il test nella cartella dei mod, in particolare:
 
-    <%USERPROFILE%>\Documents\Paradox Interactive\Stellaris\mod
+    (Windows)   : %USERPROFILE%\Documents\Paradox Interactive\Stellaris\mod
+    (GNU/Linux) : ~/.local/share/Paradox Interactive/Stellaris/mod
+    (Mac)       : ~/Documents/Paradox Interactive/Stellaris/mod
 
-Nel caso non fosse presente la cartella `mod` potete crearla voi normalmente. La struttura finale dei file sarà la seguente:
+La struttura finale dei file sarà la seguente:
 
-    <%USERPROFILE%>\Documents\Paradox Interactive\Stellaris\mod\stellaris-italian-translation\...
-    <%USERPROFILE%>\Documents\Paradox Interactive\Stellaris\mod\stellaris-italian-translation.mod
+    [...]/Paradox Interactive/Stellaris/mod/stellaris-italian-translation/... (cartella contenente tutte le risorse del mod)
+    [...]/Paradox Interactive/Stellaris/mod/stellaris-italian-translation.mod (descrittore del mod)
