@@ -1,0 +1,2709 @@
+﻿#Stellaris: Nemesis Game Team
+--------
+##Creative Director
+
+Henrik Fåhraeus
+
+##Game Director
+
+Daniel Moregård
+
+##Producers
+
+Aziz Faghihinejad
+Daniel Lagergren
+Elin Holmberg
+Olga Shcherbak
+
+##Designers
+
+Markus Veit
+Stephen Muray
+
+##Additional Design
+
+Jesper Blomqvist
+
+##Technical Leads
+
+Gwenael Tranvouez
+Lorenzo Berni
+Rickard Lagerbäck
+
+##Programmers
+
+Anton Södergren
+Filip Kirsek
+Gustav Palmqvist
+Ilya Nikitin
+Johan Melin
+Jörgen Risholt
+Mathieu Ropert
+Oleg Istomin
+Tobias Luckey
+Ulrika Uddeborg
+
+##Additional Programming
+
+Daniel Bengtsson
+Marine Baghramyan
+Pierre du Plessis
+Peter Vestman
+
+##Content Design Leads
+
+Henrik Thyrwall
+Maximilian Olbers
+
+##Content Designers
+
+Douglas Furén
+Gemma Thomson
+Pierre du Plessis
+
+##Additional Content Design
+
+Byron Aytoun
+
+##UX Designers
+
+Doyle Merlin Daigle II
+Valeska Martins
+
+##Additional UX Design
+
+Mikhail Gofman
+
+##Art Producers
+
+Anton Wittberg Letoff
+Melinda Esponda Díaz
+
+##Art Lead
+
+Simon Gunnarsson
+
+##Concept Art
+
+Mattias Larsson
+Ylva Ljungqvist
+Ecbel Oueslati
+Alessandro Bragalini
+
+##UI Art
+
+Nicolas Lennman
+Jeremie Tauziede
+
+##3D Art
+
+Johan Lundqvist
+
+##Animation
+
+Fabian Soon
+Hanna Johansson
+
+##VFX
+
+Erik Forsström
+
+##Audio Director
+
+Björn Iversen
+
+##Sound Designers
+
+David Schlein-Andersen
+Franco Freda
+Tobey Evans
+
+##External Partners
+
+##Art
+
+N-iX Game & VR Studio
+Game Ace Studio
+
+##Embedded QA Lead
+
+Joseph Gardener
+
+##Embedded QA Project Coordinator
+
+Fenni Johansson
+Rebecca Romin
+
+##Embedded QA
+
+Byron Aytoun
+Daniel Teige
+Erik Elgerot
+Eva Mayer
+Struan McCallum
+
+##Additional Embedded QA
+
+Jaan Lohikoski Håkansson
+Sebastian Borg
+
+##QA Central Team Lead
+
+Filippa Gannholm Kirsten
+
+##QLOC
+
+##QA Team Leader
+
+Adam Nowicki
+
+##Dedicated testers
+
+Marek Bombala
+Maciej Gutkowski
+Damian Szokalski
+
+##QA Testers (additional)
+
+Grzegorz Nowicki
+
+##Keywords Studios Katowice
+
+##FQA Project Manager
+
+Marcin Jankowski
+
+##FQA Associate Lead
+
+Marcin Sebesta
+
+##FQA Senior Tester
+
+Dawid Kolaczuch
+
+##FQA Testers
+
+Mikolaj Bizacki
+Krzysztof Bochenek
+Kamil Drezek
+Dawid Kabasinski
+Rafal Kaluza
+Natalia Lechnata
+Mateusz Mierzwa
+Konrad Ruminski
+
+##Beta Testers
+
+Francesco Teruzzi
+Jonathan Bagley
+Joshua "Mordaith" Smith
+Lumi Schildkraut
+Maik "Malthus" Wrba
+Marc Schmelzer
+Matthew Walsh
+Michael De Bona
+Nina Chance
+Sergey Demidov
+
+##Product Manager
+
+Simon Stackmann
+
+##Product Marketing Manager
+
+Pontus Rundqvist
+
+##Performance Marketing Manager
+
+Michiel Van Loo
+
+##Creative Director of Marketing
+
+Axel Ullberger
+
+##Marketing Creative Producer
+
+Oskar Petrén
+
+##Marketing Automation Specialists
+
+Johanna Kasurinen
+Karola Kiessling
+Annie Alström
+
+##Vice President Sales
+
+Johan Bolin
+
+##Acting Team Lead - Partner Relations
+
+Viktor Stadler
+
+##Partner Account Managers
+
+James Gardiner
+Albert Banda
+Ebba Frantzén
+Daniel Hjelmtorp
+
+##Trade Marketing Manager
+
+Jackson Downing
+
+##Commercial Manager
+
+Sofie Siggelin
+
+##Data Scientist
+
+Stephen White
+Eduarda Oliveira
+
+##User Researchers
+
+Yinyi Luo
+
+##Community Developer
+
+Ann-Charlotte Mörk
+
+##Influencer Relations Manager
+Jonathan Whitley
+
+##Community Ambassador
+
+Graeme Crawford
+Matthew Freake
+
+##Customer Support
+
+Christian Arvidsson
+Debbie Lane
+
+##Live Content
+
+Jimmy Tisell
+Anders Carlsson
+
+##Public Relations
+
+Nick Shepherd
+Michael Mason
+
+##Chief Dad Joke Officer
+
+Rikard The Pun-isher
+
+##Body Pillow Coordinator
+
+Mercedes Romero
+
+#Stellaris: Necroids Game Team
+--------
+##EVP Creative Direction
+
+Johan Andersson
+
+##Game Director
+
+Daniel Moregård
+
+##Producer
+
+Aziz Faghihinejad
+
+##Designer
+
+Stephen Muray
+
+##Technical Leads
+
+Gwenael Tranvouez
+Rickard Lagerbäck
+
+##Programmers
+
+Gustav Palmqvist
+Ilya Nikitin
+Lorenzo Berni
+Mathieu Ropert
+Ulrika Uddeborg
+
+##Additional Programming
+Anton Södergren
+Filip Kirsek
+Pierre du Plessis
+
+##Content Design Lead
+
+Henrik Thyrwall
+
+##Content Designers
+
+Douglas Furen
+Gemma Thomson
+Pierre du Plessis
+
+##UX Designer
+
+Doyle Merlin Daigle II
+
+##Localization Manager
+
+Sara Wendel-Örtqvist
+
+##Art and Audio Department Director
+
+Adrian Banninga
+
+##Art Director
+
+Fredrik Toll
+
+##Art Producers
+
+Anton Wittberg Letoff
+Melinda Esponda Díaz
+
+##Art Lead
+
+Simon Gunnarsson
+
+##Concept Art
+
+Ahmed Albastaki
+Mattias Larsson
+Ylva Ljungqvist
+Ecbel Oueslati
+
+##2D Art
+
+Ylva Ljungqvist
+
+##3D Art
+
+Johan Lundqvist
+
+##Animation
+
+Fabian Soon
+Niklas Tammpere
+
+##VFX
+
+Erik Forsström
+
+##Audio Director
+
+Björn Iversen
+
+##Sound Designers
+
+Franco Freda
+Gustav Landerholm
+
+##External Partners
+
+##Art
+
+N-iX Game & VR Studio
+Ringtail Studios
+
+##Audio
+
+##Voice Recording Studio
+
+Punch & Roll Studio
+
+##Necroid VO
+
+Kate Fleetwood
+
+##Embedded QA
+
+Byron Aytoun
+Erik Elgerot
+Eva Mayer
+Markus Veit
+
+##QA Team Lead - Central
+
+Filippa Gannholm Kirsten
+
+##Project Coordinator
+
+Joseph Gardener
+
+##QLOC
+
+## QA Team Leader
+
+Adam Nowicki
+
+## Dedicated testers
+
+Marek Bombala
+Maciej Gutkowski
+Damian Szokalski
+
+##QA Testers (additional)
+
+Ewa Angielska
+Sofiane Boukoffa
+Joanna Kucharzyk
+Jacek Mroczek
+Piotr Mugerman
+Bartlomiej Mycyk
+Piotr Pieniak
+Lukasz Rembisz
+Mateusz Soja
+Damian Szokalski
+
+##Keywords Studios Katowice
+
+##FQA Project Manager
+
+Marcin Jankowski
+
+##FQA Associate Lead
+
+Marcin Sebesta
+
+##FQA Senior Tester
+
+Michal Sosnowski
+
+##FQA Testers
+
+Mikolaj Bizacki
+Jacek Brzozowski
+Leszek Jaworek
+Tomasz Setlak
+Stanislaw Skalski
+Michal Szczudlo
+Michal Wylag
+
+##Beta Testers
+
+Francesco Teruzzi
+Josh "Mordaith" Smith
+Maik "Malthus" Wrba
+Marc Schmelzer
+Matthew Walsh
+Michael De Bona
+Nina Chance
+
+##Product Manager
+
+Simon Stackmann
+
+##Product Marketing Manager
+
+Pontus Rundqvist
+
+##Performance Marketing Manager
+
+Michiel Van Loo
+
+##Creative Director of Marketing
+
+Axel Ullberger
+
+##Marketing Creative Producer
+
+Oskar Petrén
+
+##Marketing Automation Specialists
+
+Johanna Kasurinen
+
+##Commercial Manager
+
+Viktor Stadler
+
+##Trade Marketing Manager
+
+Jackson Downing
+
+##Data Scientist
+
+Stephen White
+
+##User Researchers
+
+Yinyi Luo
+
+##Community Manager
+
+Ann-Charlotte Mörk
+
+##Community Ambassador
+
+Graeme Crawford
+Matthew Freake
+
+##Customer Support
+
+Christian Arvidsson
+Debbie Lane
+
+##Live Content
+
+Jimmy Tisell
+Anders Carlsson
+
+##Chief Dad Joke Officer
+
+Rikard The Pun-isher
+
+##Body Pillow Coordinator
+
+Mercedes Romero
+
+#Stellaris: Federations Game Team
+--------
+##EVP Creative Direction
+
+Johan Andersson
+
+##Game Director
+
+Daniel Moregård
+
+##Producers
+
+Aziz Faghihinejad
+Jamie Wood
+
+##Designer
+
+Stephen Muray
+
+##Technical Leads
+
+Gwenael Tranvouez
+Rickard Lagerbäck
+
+##Programmers
+
+Carl Carenvall
+Emelie Nordstrand Lindgren
+Gustav Palmqvist
+Ilya Nikitin
+Lorenzo Berni
+Mathieu Ropert
+Ulrika Uddeborg
+Zack Holmgren
+
+##Content Design Lead
+
+Henrik Thyrwall
+
+##Content Designers
+
+David Ballantyne
+Douglas Furen
+Gemma Thomson
+Miranda van den Brink
+Pierre du Plessis
+
+##UX Designer
+
+Doyle Merlin Daigle II
+
+##Localization Manager
+
+Sara Wendel-Örtqvist
+
+##Art and Audio Department Director
+
+Adrian Banninga
+
+##Art Director
+
+Fredrik Toll
+
+##Art Producers
+
+Melinda Esponda Diaz
+Philipp Glietsch
+
+##Art Lead
+
+Simon Gunnarsson
+
+##Concept Art
+
+Mattias Larsson
+Ecbel Oueslati
+
+##2D Art
+
+Ahmed Albastaki
+Ylva Ljungqvist
+
+##3D Art
+
+Johan Lundqvist
+
+##Animation & Effects
+
+Erik Forsström
+Fabian Soon
+Niklas Tammpere
+
+##Additional Art
+
+N-iX Game & VR Studio
+
+##Audio Director
+
+Björn Iversen
+
+##Senior Sound Designer
+
+Franco Freda
+
+##Composer
+
+Meyer
+
+##The Voice of VIR
+
+Kola Krauze
+
+##Embedded QA
+
+Erik Elgerot
+Eva Mayer
+Markus Veit
+
+##QA Team Lead - Central
+
+Filippa Gannholm Kirsten
+
+##Project Coordinators
+
+William Riggott
+Anna Johansson
+Joseph Gardener
+Nicholas Meredith
+Paul Depre
+
+##QA Testers
+
+Joseph Gardener
+
+##QLOC
+
+##QA Team Leaders
+
+Adam Nowicki
+Kamil Uszynski
+
+##QA Testers (dedicated)
+
+Maciej Gutkowski
+Stanislaw Szczerbik
+Marek Bombala
+
+##QA Testers (additional)
+
+Ewa Angielska
+Sofiane Boukoffa
+Joanna Kucharzyk
+Jacek Mroczek
+Piotr Mugerman
+Bartlomiej Mycyk
+Piotr Pieniak
+Lukasz Rembisz
+Mateusz Soja
+Damian Szokalski
+
+##Keywords Studios Katowice
+
+##FQA Project Manager
+
+Marcin Jankowski
+
+##Senior FQA Testers
+
+Marcin Sebesta
+Grzegorz Dabrowski
+
+##FQA Testers
+
+Adam Bialecki
+Mikolaj Bizacki
+Jacek Brzozowski
+Dawid Kolaczuch
+Martyna Sliwa
+Tamara Dybala
+Dawid Fulczyk
+Wojciech Lukesz
+Artur Marcinkowski
+Patryk Peikert
+Adrian Piotrowski
+Ewa Popowicz
+Natalia Poreba
+Olivier Purak
+Konrad Ruminski
+Adam Staron
+Michal Stokowski
+Antoni Student
+Maciej Stelmaszyk
+Michal Zawolek
+
+##Beta Testers
+
+George Bancroft
+Thomas Boby
+Nina Chance
+Philip Curtis
+Michael De Bona
+Lukasz Delra
+Sergey Demidov
+Harel Eilam
+Patrick France
+Brian Haddad
+Mikael Hagman
+Musa von Homeyer
+Paul Howell
+Rajeev D. Majumdar
+Anton Panas
+Woosuk Park
+Marc Schmelzer
+Dylan Skoda
+Francesco Teruzzi
+Andrew Vawter
+Matthew Walsh
+Maik Wrba
+Djordje Zivanovic
+
+##Product Manager
+
+Simon Stackmann
+
+##Product Marketing Manager
+
+Pontus Rundqvist
+
+##Performance Marketing Manager
+
+Michiel Van Loo
+
+##Creative Director of Marketing
+
+Steven Wells
+
+##Marketing Creative Producer
+
+Marcus Herbertsson
+
+##Marketing Automation Specialists
+
+Alexander Nordkvist
+Johanna Kasurinen
+
+##Commercial Manager
+
+Viktor Stadler
+
+##Trade Marketing Manager
+
+Jackson Downing
+
+##Data Scientist
+
+Kayle Sneed
+
+##User Researchers
+
+Hanna Löhman
+Yinyi Luo
+
+##Community Developer
+
+Dale Emasiri
+
+##Community Manager
+
+Ann-Charlotte Mörk
+
+##Community Ambassador
+
+Graeme Crawford
+Krzysztof "Harlot" Biernat
+Matthew Freake
+
+##Customer Support
+
+Christian Arvidsson
+Debbie Lane
+
+##Live Content
+
+Jimmy Tisell
+Anders Carlsson
+
+##Chief Dad Joke Officer
+
+Rikard The Pun-isher
+
+##Body Pillow Coordinator
+
+Mercedes Romero
+
+
+#Stellaris: Lithoids Game Team
+--------
+##EVP Creative Direction
+
+Johan Andersson
+
+##Game Director
+
+Daniel Moregård
+
+##Producers
+
+Aziz Faghihinejad
+Jamie Wood
+
+##Designers
+
+Stephen Muray
+
+##Technical Lead
+
+Gwenael Tranvouez
+
+##Programmers
+
+Carl Carenvall
+Zack Holmgren
+Emelie Nordstrand Lindgren
+Ilya Nikitin
+Gustav Palmqvist
+
+##Content Design Lead
+
+Henrik Thyrwall
+
+##Content Designers
+
+David Ballantyne
+Miranda van den Brink
+Douglas Furen
+Dee Majek
+Gemma Thomson
+
+##UX Designer
+
+Doyle Merlin Daigle II
+
+##Localization Manager
+
+Sara Wendel-Örtqvist
+
+##Art Manager
+
+Adrian Banninga
+
+##Art Director
+
+Fredrik Toll
+
+##Art Producers
+
+Melinda Esponda Diaz
+Philipp Glietsch
+
+##2D Art
+
+Simon Gunnarsson
+Mattias Larsson
+Ylva Ljungqvist
+Ecbel Oueslati
+
+##3D Art
+
+Johan Lundqvist
+
+##Additional Art
+
+N-iX
+
+##Animation & Effects
+
+Erik Forsström
+Fabian Soon
+Niklas Tammpere
+
+##Verification Manager
+
+Andreas Renström
+
+##QA Managers
+
+Felix Gladitz
+Tegan Harris
+
+##QA Team Lead - Central
+
+Filippa Gannholm Kirsten
+
+##Embedded QA
+
+Eva Mayer
+Markus Veit
+
+##Project Coordinator
+
+Anna Johansson
+Nicholas Meredith
+
+##QA Testers
+
+Paul Depre
+Joseph Gardener
+Jesper Norberg
+William Riggott
+
+##QLOC QA Project Manager
+
+Maciej Grabowski
+
+## QLOC QA Team Leaders
+
+Adam Nowicki
+
+## QLOC QA Testers (Dedicated)
+
+Maciej Gutkowski
+Stanislaw Szczerbik
+
+## QLOC QA Testers (Additional)
+
+Bartlomiej Beton
+Arash Golzad
+Bartlomiej Mycyk
+Mateusz Soja
+Piotr Spychala
+Lukasz Rembisz
+  
+##Audio Director
+
+Björn Iversen
+
+##Senior Sound Designer
+
+Franco Freda
+
+##Composer
+
+Meyer
+
+##The Voice of VIR
+
+Kola Krauze
+
+##Beta Testers
+
+George Bancroft
+Thomas Boby
+Nina Chance
+Philip Curtis
+Michael De Bona
+Lukasz Delra
+Sergey Demidov
+Harel Eilam
+Patrick France
+Mikael Hagman
+Musa von Homeyer
+Paul Howell
+Rajeev D. Majumdar
+Anton Panas
+Woosuk Park
+Marc Schmelzer
+Dylan Skoda
+Francesco Teruzzi
+Andrew Vawter
+Matthew Walsh
+Maik Wrba
+Djordje Zivanovic
+
+##Product Manager
+
+Simon Stackmann
+
+##Product Marketing Manager
+
+Pontus Rundqvist
+
+##Performance Marketing Manager
+
+Rania Samara
+
+##Creative Director of Marketing
+
+Steven Wells
+
+##Marketing Automation Specialist
+
+Alexander Nordkvist
+
+##Commercial Manager
+
+Viktor Stadler
+
+##Data Scientist
+
+Kayle Sneed
+
+##User Researchers
+
+Henrik Edlund
+Hanna Löhman
+
+##Community Developer
+
+Dale Emasiri
+
+##Customer Suppor
+
+Christian Arvidsson
+Debbie Lane
+
+##Chief Dad Joke Officer
+
+Rikard The Pun-isher
+
+##Body Pillow Coordinator
+
+Mercedes Romero
+
+
+#Stellaris: Ancient Relics Game Team
+--------
+##EVP Creative Direction
+
+Johan Andersson
+
+##Game Director
+
+Daniel Moregård
+
+##Producers
+
+Aziz Faghihinejad
+Jamie Wood
+
+##Designers
+
+Mikael Andersson
+Stephen Muray
+Markus Veit
+
+##Technical Lead
+
+Gwenael Tranvouez
+
+##Programmers
+
+Carl Carenvall
+Zack Holmgren
+Emelie Nordstrand Lindgren
+Ilya Nikitin
+Gustav Palmqvist
+Evan Wu
+
+##Content Design Lead
+
+Henrik Thyrwall
+
+##Content Designers
+
+David Ballantyne
+Miranda van den Brink
+Douglas Furen
+Dee Majek
+Maximilian Olbers
+Rufus Tronde
+
+##Additional Writing
+
+Jamie Wood
+
+##UX Designer
+
+Doyle Merlin Daigle II
+
+##Localization Manager
+
+Sara Wendel-Örtqvist
+
+##Art Manager
+
+Adrian Banninga
+
+##Art Director
+
+Fredrik Toll
+
+##Art Producer
+
+Philipp Glietsch
+
+##2D Art
+
+Simon Gunnarsson
+Ylva Ljungqvist
+
+##3D Art
+
+Johan Lundqvist
+
+##Additional Art
+
+N-iX
+
+##Animation & Effects
+
+Ylva Ljungqvist
+
+##Verification Manager
+
+Andreas Renström
+
+##QA Managers
+
+Felix Gladitz
+Tegan Harris
+
+##QA Team Lead - Central
+
+Filippa Gannholm Kirsten
+
+##Embedded QA
+
+Eva Mayer
+Markus Veit
+
+##Project Coordinators
+
+Anna Johansson
+William Riggott
+
+##QA Testers
+
+Ewan Cowhig Croft
+Paul Depre
+Joseph Gardener
+Anna Johansson
+Jesper Norberg
+Nicholas Meredith
+William Riggott
+
+##QLOC QA Project Manager
+
+Maciej Grabowski
+
+## QLOC QA Team Leaders
+
+Justyna Janicka
+Marcin Jankowski
+Grzegorz Niedziela
+
+## QLOC QA Testers (Dedicated)
+
+Maciej Gutkowski
+Olga Kowaluk
+Jedrzej Korpak
+
+## QLOC QA Testers (Additional)
+
+Jozef Brzostek
+Bartlomiej Hajdyla
+Piotr Jedut
+Grzegorz Lewinski
+Tomasz Lisek
+Rafal Mucha
+Piotr Mugerman
+Bartlomiej Mycyk
+Maciej Osica
+Angela Pellegrino
+Lukasz Rembisz
+Alex Schuncke
+Michal Siwiecki
+Jan Starosz
+Maksymilian Szczepanczyk
+Stanislaw Szczerbik
+Gabriel Urban
+Bartlomiej Wyciszkiewicz
+  
+##Audio Director
+
+Björn Iversen
+
+##Senior Sound Designer
+
+Franco Freda
+
+##Composer
+
+Meyer
+
+##The Voice of VIR
+
+Kola Krauze
+
+##Beta Testers
+
+George Bancroft
+Philip Curtis
+Lukasz Delra
+Sergey Demidov
+Harel Eilam
+Mikael Hagman
+Musa von Homeyer
+Paul Howell
+Rajeev D. Majumdar
+Anton Panas
+Marc Schmelzer
+Dylan Skoda
+Francesco Teruzzi
+Matthew Walsh
+Maik Wrba
+Djordje Zivanovic
+
+With special thanks to Glavius for valued contributions in AI
+
+##Product Owner
+
+Bevan Davies
+
+##Product Marketing Managers
+
+Sebastian Forsström
+Pontus Rundqvist
+
+##Partner Account Manager
+
+Fang Chen
+
+##Analytics
+
+Kayle Sneed
+
+##User Researchers
+
+Henrik Edlund
+Hanna Löhman
+Jean-Luc Potte
+
+##Community Manager
+
+Dale Emasiri
+
+##Chief Dad Joke Officer
+
+Rikard The Pun-isher
+
+##Body Pillow Coordinator
+
+Mercedes Romero
+
+
+#Stellaris: MegaCorp Game Team
+--------
+##EVP Creative Direction
+
+Johan Andersson
+
+##Game Director
+
+Martin Anward
+
+##Producers
+
+Aziz Faghihinejad
+Jamie Wood
+
+##Designers
+
+Martin Anward
+Daniel Moregård
+Markus Veit
+
+##Technical Lead
+
+Gwenael Tranvouez
+
+##Programmers
+
+Carl Carenvall
+Zack Holmgren
+Emelie Nordstrand Lindgren
+Ilya Nikitin
+Gustav Palmqvist
+Lysann Schlegel
+Magne Skjæran
+
+##Content Designers
+
+David Ballantyne
+Miranda van den Brink
+Dee Majek
+Maximilian Olbers
+Henrik Thyrwall
+
+##UX Designer
+
+Tomas Friberg
+
+##Localization Manager
+
+Sara Wendel-Örtqvist
+
+##Art Manager
+
+Adrian Banninga
+
+##Art Director
+
+Fredrik Toll
+
+##2D Art
+
+Simon Gunnarsson
+Ylva Ljungqvist
+
+##3D Art
+
+Johan Lundqvist
+
+##Additional Art
+
+Mattias Larsson
+Flavio Verna
+N-iX
+
+##Animation & Effects
+
+Niklas Tammpere
+
+##QA Manager
+
+Felix Gladitz
+
+##QA Team Lead - Central
+
+Filippa Gannholm Kirsten
+
+##Embedded QA
+
+Eva Mayer
+Markus Veit
+
+##QA Testers
+
+Ewan Cowhig Croft
+Joseph Gardener
+Markus Grebe
+Tegan Harris
+Anna Johansson
+Jesper Norberg
+William Riggott
+Albin Wallin
+Andreas Witzén
+
+##QLOC QA Project Manager
+
+Maciej Grabowski
+
+## QLOC QA Team Leaders
+
+Justyna Janicka
+Marcin Jankowski
+Grzegorz Niedziela
+
+## QLOC QA Testers (Dedicated)
+
+Maciej Gutkowski
+Jedrzej Korpak
+Olga Kowaluk
+
+## QLOC QA Testers (Additional)
+
+Ewa Angielska
+Maciej Bartnik
+Sofiane Boukoffa
+Piotr Jedut
+Joanna Kucharzyk
+Grzegorz Lewinski
+Tomasz Lisek
+Mateusz Marczak
+Piotr Mugerman
+Bartlomiej Mycyk
+Jan Nowakowski
+Angela Pellegrino
+Tomasz Prusicki
+Michal Siwiecki
+Jan Starosz
+Maksymilian Szczepanczyk
+Stanislaw Szczerbik
+Gabriel Urban
+
+##Audio Director
+
+Björn Iversen
+
+##Senior Sound Designer
+
+Franco Freda
+
+##Sound Designer
+
+David Schlein-Andersen
+
+##Composer
+
+Meyer
+
+##Voice Recording Studio
+
+SIDE UK
+
+##VO Project Manager
+
+Craig Holanhan
+
+##VO Director
+
+Kate Saxon
+
+##The Worker
+
+Kola Krauze
+
+##Slick Corporation
+
+Christina Cole
+
+##Ruthless Conglomerate
+
+Eric Meyers
+
+##The Voice of VIR
+
+Kola Krauze
+
+##Beta Testers
+
+George Bancroft
+Philip Curtis
+Lukasz Delra
+Harel Eilam
+Mikael Hagman
+Musa von Homeyer
+Paul Howell
+Rajeev D. Majumdar
+Anton Panas
+Marc Schmelzer
+Dylan Skoda
+Francesco Teruzzi
+Matthew Walsh
+Djordje Zivanovic
+
+##Product Owner
+
+Bevan Davies
+
+##Product Marketing Manager
+
+Sebastian Forsström
+
+##Partner Account Manager
+
+Fang Chen
+
+##Analytics
+
+Kayle Sneed
+
+##User Researchers
+
+Henrik Edlund
+Hanna Löhman
+Jean-Luc Potte
+
+##Community Manager
+
+Dale Emasiri
+
+##Chief Dad Joke Officer
+
+Rikard The Pun-isher
+
+##Body Pillow Coordinator
+
+Mercedes Romero
+
+
+#Stellaris: Distant Stars Game Team
+--------
+##EVP Creative Direction
+
+Johan Andersson
+
+##Game Director
+
+Martin Anward
+
+##Project Leads
+
+Aziz Faghihinejad
+Jamie Wood
+
+##Designers
+
+Martin Anward
+Daniel Moregård
+
+##Technical Lead
+
+Gwenael Tranvouez
+
+##Programmers
+
+Carl Carenvall
+Hampus Liljekvist
+Emelie Nordstrand Lindgren
+Ilya Nikitin
+Gustav Palmqvist
+Lysann Schlegel
+
+##Content Designers
+
+Miranda van den Brink
+Linus Dilén
+Henrik Eklund
+Dee Majek
+Maximilian Olbers
+
+##UX Designer
+
+Tomas Friberg
+
+##Localization Manager
+
+Sara Wendel-Örtqvist
+
+##Art Manager
+
+Adrian Banninga
+
+##Art Director
+
+Fredrik Toll
+
+##2D Art
+
+Simon Gunnarsson
+Ylva Ljungqvist
+
+##3D Art
+
+Johan Lundqvist
+
+##Additional Art
+
+Emma Jonsson
+N-iX
+
+##Animation & Effects
+
+Niklas Tammpere
+
+##QA Manager
+
+Felix Gladitz
+
+##QA Team Lead - Central
+
+Filippa Gannholm
+
+##Embedded QA
+
+Sebastian Borg
+Aziz Faghihinejad
+Eva Mayer
+Markus Veit
+
+##Community QA
+
+Carsten 't Mannetje
+
+##QA Testers
+
+Linus Dilén
+Joshua Evans
+Joseph Gardener
+Markus Grebe
+Tegan Harris
+Eva Mayer
+Jesper Norberg
+William Riggott
+Daniel Sjöberg
+Daniel Teige
+Albin Wallin
+
+##QLOC QA Project Manager
+
+Maciej Grabowski
+
+## QLOC QA Team Leaders
+
+Karolina Jagnyziak
+Marcin Jankowski
+
+## QLOC QA Testers (Core)
+
+Bartosz Maciejewski
+Oskar Nowak
+Uros Rudolf
+Jan Starosz
+Maksymilian Szczepanczyk
+Gabriel Urban
+
+## QLOC QA Testers (Additional)
+
+Abel Perez Abalde
+Sofiane Boukoffa
+Filip Gutowski
+Tomasz Lisek
+Jakub Potapczyk
+Michal Wagrocki
+
+##Audio Director
+
+Björn Iversen
+
+##Senior Sound Designer
+
+Franco Freda
+
+##Composer
+
+Meyer
+
+##The Voice of VIR
+
+Kola Krauze
+
+##Beta Testers
+
+George Bancroft
+Philip Curtis
+Lukasz Delra
+Harel Eilam
+Mikael Hagman
+Musa von Homeyer
+Paul Howell
+Rajeev D. Majumdar
+Anton Panas
+Marc Schmelzer
+Dylan Skoda
+Francesco Teruzzi
+Matthew Walsh
+Djordje Zivanovic
+
+##Chief Dad Joke Officer
+
+Rikard The Pun-isher
+
+##Body Pillow Coordinator
+
+Mercedes Romero
+
+
+#Stellaris: Apocalypse Game Team
+--------
+##EVP Creative Direction
+
+Johan Andersson
+
+##Game Director
+
+Martin Anward
+
+##Project Lead
+
+Jamie Wood
+
+##Designers
+
+Martin Anward
+Daniel Moregård
+
+##Technical Lead
+
+Gwenael Tranvouez
+
+##Programmers
+
+Carl Carenvall
+Daniel Eriksson
+Hampus Liljekvist
+Emelie Nordstrand Lindgren
+Gustav Palmqvist
+Lysann Schlegel
+
+##Content Designers
+
+Miranda van den Brink
+Henrik Eklund
+Dee Majek
+Maximilian Olbers
+
+##UX Designer
+
+Tomas Friberg
+
+##Localization Manager
+
+Sara Wendel-Örtqvist
+
+##Art Coordinator
+
+Pernilla Sparrhult
+
+##Art Manager
+
+Adrian Banninga
+
+##Art Director
+
+Fredrik Toll
+
+##2D Art
+
+Simon Gunnarsson
+Pontus Olofsson
+
+##3D Art
+
+Joacim Carlberg
+Johan Lundqvist
+
+##Additional Art
+
+Helena Kasper
+Timor Khanagov
+Ylva Ljungqvist
+N-iX
+Room 8 Studio
+
+##Animation & Effects
+
+Niklas Tammpere
+
+##QA Manager
+
+Felix Gladitz
+
+##QA Team Lead - Central
+
+Filippa Gannholm
+
+##Embedded QA
+
+Sebastian Borg
+Aziz Faghihinejad
+Markus Veit
+
+##Community QA
+
+Carsten 't Mannetje
+
+##QA Testers
+
+Matthew Frary
+Joseph Gardener
+Markus Grebe
+Tegan Harris
+Eva Mayer
+Jesper Norberg
+William Riggott
+Daniel Sjöberg
+Albin Wallin
+
+## QLOC QA Team Leaders
+
+Karolina Jagnyziak
+Marcin Jankowski
+
+## QLOC QA Testers (Core)
+
+Bartosz Maciejewski
+Oskar Nowak
+Uros Rudolf
+Jan Starosz
+Maksymilian Szczepanczyk
+Gabriel Urban
+
+## QLOC QA Testers (Additional)
+
+Abel Perez Abalde
+Sofiane Boukoffa
+Michal Wagrocki
+
+##Audio Director
+
+Björn Iversen
+
+##Senior Sound Designer
+
+Franco Freda
+
+#Sound Designer
+
+David Schlein-Andersen
+
+##Composer
+
+Andreas Waldetoft
+
+##The Voice of VIR
+
+Kola Krauze
+
+##Beta Testers
+
+George Bancroft
+Lukasz Delra
+Mikael Hagman
+Paul Howell
+Rajeev D. Majumdar
+Anton Panas
+Dylan Skoda
+Francesco Teruzzi
+Matthew Walsh
+Djordje Zivanovic
+
+##Chief Dad Joke Officer
+
+Rikard The Pun-isher
+
+
+#Stellaris: Humanoids Species Pack Game Team
+--------
+##EVP Creative Direction
+
+Johan Andersson
+
+##Game Director
+
+Martin Anward
+
+##Project Leads
+
+Kristian Laustsen
+Jamie Wood
+
+##Designers
+
+Martin Anward
+Daniel Moregård
+
+##Technical Lead
+
+Gwenael Tranvouez
+
+##Programmers
+
+Hampus Liljekvist
+Emelie Nordstrand Lindgren
+Gustav Palmqvist
+Lysann Schlegel
+
+##Additional Programming
+
+Mikael Berg
+Hans Rönnbäck
+
+##Content Designers
+
+Miranda van den Brink
+Henrik Eklund
+Dee Majek
+Maximilian Olbers
+
+##UX Designer
+
+Tomas Friberg
+
+##Localization Manager
+
+Sara Wendel-Örtqvist
+
+##Art Coordinator
+
+Pernilla Sparrhult
+
+##Art Director
+
+Fredrik Toll
+
+##2D Art
+
+Simon Gunnarsson
+Pontus Olofsson
+
+##3D Art
+
+Joacim Carlberg
+Johan Lundqvist
+
+##Additional Art
+
+Timor Khanagov
+N-iX
+
+##Animation & Effects
+
+Niklas Tammpere
+
+##QA Managers
+
+Filippa Gannholm
+Felix Gladitz
+
+##Embedded QA
+
+Sebastian Borg
+Aziz Faghihinejad
+Markus Veit
+
+##Community QA
+
+Carsten 't Mannetje
+
+##QA Testers
+
+Sebastian Borg
+Matthew Frary
+Markus Grebe
+Tegan Harris
+Eva Mayer
+Jesper Norberg
+Daniel Sjöberg
+Albin Wallin
+
+##Additional QA - QLOC
+
+Team Leader - Marcin Jankowski
+Bartosz Maciejewski
+Oskar Nowak
+Uros Rudolf
+Jan Starosz
+Maksymilian Szczepanczyk
+Gabriel Urban
+
+##Audio Director
+
+Björn Iversen
+
+##Composer
+
+Andreas Waldetoft
+
+##Remix Artist
+
+Meyer
+
+##Voice Recording Studio
+
+Red Pipe Studios
+
+##Sound Engineer
+
+Robert Eklund
+
+##Alternate VIR Voice Actors
+
+The Diplomat - Bernadette O'Neill
+The Soldier - Talya Pulver-Lindqvist
+The Technocrat - Alan Adler
+
+##Beta Testers
+
+George Bancroft
+Lukasz Delra
+Mikael Hagman
+Paul Howell
+Rajeev D. Majumdar
+Anton Panas
+Dylan Skoda
+Francesco Teruzzi
+Matthew Walsh
+Djordje Zivanovic
+
+##Chief Dad Joke Officer
+
+Rikard The Pun-isher
+
+
+#Stellaris: Synthetic Dawn Game Team
+--------
+##EVP Creative Direction
+
+Johan Andersson
+
+##Game Director
+
+Martin Anward
+
+##Project Leads
+
+Kristian Laustsen
+Jamie Wood
+
+##Designers
+
+Martin Anward
+Daniel Moregård
+
+##Programmers
+
+Daniel Eriksson
+Hampus Liljekvist
+Gustav Palmqvist
+Lysann Schlegel
+Gwenael Tranvouez
+
+##Additional Programming
+
+Mikael Berg
+Hans Rönnbäck
+
+##Content Designers
+
+Miranda van den Brink
+Henrik Eklund
+Dee Majek
+Maximilian Olbers
+
+##UX Designer
+
+Tomas Friberg
+
+##Localization Manager
+
+Sara Wendel-Örtqvist
+
+##Art Coordinator
+
+Pernilla Sparrhult
+
+##Art Director
+
+Fredrik Toll
+
+##2D Art
+
+Simon Gunnarsson
+Pontus Olofsson
+
+##3D Art
+
+Joacim Carlberg
+Helena Kasper
+Johan Lundqvist
+
+##Additional Art
+
+Timor Khanagov
+Room 8 Studio
+
+##Animation & Effects
+
+Niklas Tammpere
+
+##QA Managers
+
+Filippa Gannholm
+Felix Gladitz
+
+##Embedded QA
+
+Sebastian Borg
+Aziz Faghihinejad
+Markus Veit
+
+##Community QA
+
+Carsten 't Mannetje
+
+##QA Testers
+
+Sebastian Borg
+Matthew Frary
+Markus Grebe
+Tegan Harris
+Eva Mayer
+Jesper Norberg
+Daniel Sjöberg
+Albin Wallin
+
+##Audio Director
+
+Björn Iversen
+
+##Composer
+
+Andreas Waldetoft
+
+##Additional Sound Design
+
+David Schlein-Andersen
+
+##Recording Studio
+
+Red Pipe Studios
+
+##Sound Engineer
+
+Kim Creutzer
+
+##Alternate VIR Voice Actors
+
+Authoritarian VIR - Antony Hartley
+Egalitarian VIR - David Bradish
+Hive Mind VIR - The Paradox Hive Mind
+Militarist VIR - Bernadette O'Neill
+Pacifist VIR - Jessica Calmhede
+Spiritualist VIR - Erika Moldenhauer
+Xenophile VIR - Noha Mousbah
+Xenophobe VIR - John Power
+Materalist VIR - Josh Lenn
+Machine Intelligence VIR - Bryan McAllister
+
+##Beta Testers
+
+George Bancroft
+Lukasz Delra
+Mikael Hagman
+Paul Howell
+Rajeev D. Majumdar
+Anton Panas
+Dylan Skoda
+Francesco Teruzzi
+Matthew Walsh
+Djordje Zivanovic
+
+##Chief Dad Joke Officer
+
+Rikard The Pun-isher
+
+
+#Paradox Stellaris Game Team
+--------
+##EVP Creative Direction
+Johan Andersson
+
+##Game Director
+Henrik Fåhraeus
+
+##Project Lead
+Rikard Åslund
+
+##Producer
+Anna Norrevik
+
+##Designers
+Henrik Fåhraeus
+Joakim Andreasson
+Daniel Moregård
+
+##Additional Designers
+Johan Andersson
+
+##Programmers
+Daniel Eriksson
+Alexander Ivannikov
+Mehrnaz Amanat Bari
+Rikard Åslund
+Joakim Bennedich
+
+##Additional Programmers
+Johan Lerström
+Jonas Wickerström
+Martin Anward
+Mohammed Al-Sader
+Niklas Strid
+
+##Lead Content Designer
+Henrik Eklund
+
+##Content Designers
+Maximilian Olbers
+Niclas Karlsson
+David Ballantyne
+Rufus Tronde
+
+##Art Director
+Fredrik Toll
+
+##Artists 2D
+Aline Gladh
+Simon Gunnarsson
+Jonas Jakobsson
+Jenny Holmer
+
+##Concept Artist
+Erik Nilsson
+
+##Cover Artist
+Aline Gladh
+
+##Additional Artists 2D
+Frida Eriksson
+Anton Hultdin
+Johan Lundqvist
+Pontus Olofsson
+Timor Khanagov
+Carlos Lundhall
+
+##Artists 3D
+Joakim Larsen
+Markus Krantz
+Viktor Nyström
+Magnus Nyström
+Maxemilian Roberts
+Robin Skog
+Helena Kasper
+Staffan Norling
+Marcus Persson
+Fredrik Toll
+
+##Animators
+Niklas Tammpere
+Nancy Lai
+
+##Additional Animators
+Patrick Kling
+
+##Embedded QA
+Olga Koter
+Aziz Faghihinejad
+Leo Larsson
+Karim Muammar
+
+##QA
+Peter Skager
+Daniel Sjöberg
+Daniel Olsson
+Patric Lindbergh
+Malin Jakobsson
+Rufus Magnusson
+Carsten t'Mannetje
+
+##Additional QA
+Alexander Lundström
+
+##Audio Director
+Björn Iversen
+
+##Composer
+Andreas Waldetoft
+
+##Voice Actor
+Kola Krauze
+
+##Additional Sound Designer
+Martin Skogehall
+
+##Interface Designer
+Daniel Moregård
+
+##Manual
+Troy Goodfellow
+
+
+#Paradox Development Studio
+--------
+##EVP Studios
+Mattias Lilja
+
+##VP Development
+Thomas Johansson
+
+##Executive Producer
+Linda Kiby
+
+##Producer
+Anna Norrevik
+
+##Associate Producer/Editor/Localisation Manager
+Sara Wendel-Örtqvist
+
+##DLC Manager
+Pernilla Sparrhult
+
+##Wiki Creator and Curator
+Magne Skjæran
+
+##Technical Scripters
+Niklas Strid
+Joel Hansson
+
+##Technical Director
+Fredrik Zetterman
+
+##Acting Engine Lead
+John Wordsworth
+
+##Programmer Manager
+Olof Björk
+
+##Engine Programmers
+Marcus Beausang
+John Wordsworth
+Rickard Nyberg
+
+##Build Engineer
+Per Hasselström
+
+##Tools Programmer
+Johan Yngman
+
+##3D Art Manager
+Fredrik Toll
+
+##2D Art Manager
+Pontus Olofsson
+
+##Script Manager
+Tobias Bodlund
+
+##QA Manager
+Mario Lasan
+
+##QA
+Filippa Gannholm
+Zeke Lugmair
+Jake Leiper-Ritchie
+Jesper Norberg
+Alexander Oltner
+Emil Tisander
+
+##Community Manager
+Björn Blomberg
+
+##Engine Team
+John Wordsworth
+Marcus Beausang
+Per Hasselström
+Johan Yngman
+Richard Nyberg
+
+##Content Designers
+Jakob Have
+Marcus Olsen
+Henrik Lohmander
+Mathilda Bjarnehed
+Camilla Isaksson
+Petter Vilberg
+
+##Programmers
+Henrik Hansson
+Jimmy Rönn
+Ilya Nikitin
+Igor Aleksandrowicz
+Gwenael Tranvouez
+Gustav Palmqvist
+Tomasz Kowalczyk
+Carl Carenvall
+Martin Hesselborn
+Rickard Lagerbäck
+Petter Hansson
+
+##Artists
+Staffan Norling
+Mats Virtanen 
+Bjarne Hallberg
+
+##Designers
+Chris King
+Dan Lind
+
+##Project Leads
+Anna Norrevik
+Martin Anward
+
+
+#Paradox Stellaris Team
+--------
+##Brand Management
+Tomas Härenstam
+
+##Marketing
+Steven K Wells
+
+##Community
+Graham Murphy
+Björn Blomberg
+
+##Sales
+Daniel Lagergren
+Fang Chen
+
+QA Project Coordinators
+Niklas Ivarsson
+Malin Furöstam
+
+
+#Paradox Interactive
+--------
+#Management 
+ 
+##CEO
+Fredrik Wester
+
+##CFO
+Andras Vajlok
+
+##COO
+Susana Meza Graham
+
+##CPO
+Johan Sjöberg
+
+##CIO 
+John Hargelid
+
+##Manager of Paradox Studio Group
+Mattias Lilja
+
+##VP Products
+Shams Jorjani
+
+##CMO
+Daniela Sjunnesson
+Production Team
+
+##Production Manager
+Jörgen Björklund
+
+##Senior Producers
+Andreas Renström
+Florian Schwarzer
+Joe Fricano
+
+##Producers
+Staffan Berglén
+Patrick Berglind
+Kandra Dahlgren
+Robin Cederholm
+
+##Associate Producers
+Angelica Uhlan
+Peter Cornelius
+Niklas Lundström
+
+
+#Games User Research Team
+--------
+##User Research Manager
+Karl Leino
+
+##User Researcher
+Tobias Viklund
+Jean-Luc Potte
+Henrik Edlund
+Johan Dorell
+
+##Associate User Researcher
+Anna Ström
+
+#QA Team 
+
+##Senior QA Manager
+Artur Foxander
+
+##QA Manager
+Loke Norman
+
+##QA Specialists
+Felix Gladitz
+Niklas Ivarsson
+Andrei Zainea
+
+##QA Testers
+Pontus Anehäll
+Emil Andersson
+Bengin Bayrak
+Erik Elgerot
+Malin Furöstam
+Victor Järnberg
+Kimberly Stinson
+Daniel Teige
+
+
+#Brand Management Team
+--------
+##Brand Managers
+Marco Behrmann
+Stefan Eld
+Tomas Härenstam
+Jakob Munthe
+
+##Process Manager
+Martin Park
+
+##Acquisition Associate
+Nils Brolin
+
+#Marketing & Sales
+
+##Chief Marketing Officer
+Daniela Sjunnesson
+
+##VP of Marketing
+Petra Takeva
+
+##Creative Director of Marketing 
+Steven K Wells
+
+##Trailer & Video Producer
+Marcus Herbertsson
+
+##Streaming Producer
+Anders Carlsson
+ 
+##Event Production Manager
+Veronica Gunlycke
+ 
+##Senior Community Manager
+Malin Söderberg
+
+##Community Developer
+Zeke Lugmair
+
+##Forum And Support Manager
+Christian Arvidsson
+ 
+##Online Marketing Manager
+Mats Wall
+
+##Front End Developer
+Alberto Blázquez
+
+##Email Marketing Manager
+Andreas Nyberg
+
+##User Acquisition Manager
+Mi Ahnhem Thomsen
+
+##Graphics Producers 
+Max Collin
+Adam Skarin
+
+##Sales Managers
+Filip Sirc
+Fang Chen
+
+##Direct Sales Developer 
+Daniel Lagergren
+
+
+#Tech, Analytics & Development
+--------
+##Technical Director
+Christian Westman
+
+##Sr Backend developer
+Anders Törlind
+
+##Backend developers
+Alexander Altanis
+Mikael Berg
+
+##Web Developer
+Johan Li
+
+##Analytics Team
+Magnus Eriksson
+Niklas Nordansjö
+
+##IT Manager
+Henrik Hjelm
+
+##IT Technician
+Johannes Ek
+Richard Lindkvist
+
+
+#Legal
+--------
+##Senior Legal Counsel
+Juliette Auverny-Bennetot
+
+##Legal Counsel
+Andreas Ruthberg-Sällquist
+
+##Paralegal
+Emilia Oscarsson
+
+
+#Special Thanks
+--------
+Matthijs Hoving 
+
+
+#External Partners
+--------
+##Localisation
+Spanish - QLOC
+French - S&H Entertainment Localization
+German - S&H Entertainment Localization
+Polish - QLOC
+Russian & Simplified Chinese - The Most Games
+Brazilian Portuguese - S&H Entertainment Localization
+
+##Beta Testers
+Markus Grebe
+Lukasz Damentko
+Magne Skjæran
+Kamil Kowalczyk
+Michael Aaron Hoselton
+Peter Deadman
+Dylan Anthony Skoda
+Christopher Kenneth O'Keefe
+Cathrine Zangerl
+Jeroen Elfrink
+Erik Brian Olmstead
+Them Bo Bojesen Jensen
+Tomasz Wieczorek
+Mark Charters
+Samuel Frederick Allessandro Marrello
+Isaac Lamb
+Christian Borrelli
+Fabian Schneider
+
+##Voice Recording Studio:
+Cineast Dub AB
+
+
+--------
+
+
+Special thanks to all our forum members,
+partners and supporters,
+who are integral to our success.
+
+
+
+FORZA DJURGÅR'N!
