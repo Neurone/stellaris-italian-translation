@@ -103,7 +103,7 @@
  hunting_hyacinth_2_poi:0 "Analizza Sistema"
  hunting_hyacinth_2_poi_desc:0 "Le traccia ionica della Giacinto conduce a questo sistema. Servono ulteriori indagini."
  extradimensional_invasion_1_poi:0 "Il Portale Dimensionale"
- extradimensional_invasion_1_poi_desc:0 "Il portale da cui fuoriescono gli invasori extradimensionali è stato rilevato nel Sistema [extradimensional_system.GetName]. Finché non verrà distrutto potranno continuare ad ottenere rinforzi."
+ extradimensional_invasion_1_poi_desc:0 "Il portale da cui fuoriescono gli invasori extra dimensionali è stato rilevato nel Sistema [extradimensional_system.GetName]. Finché non verrà distrutto potranno continuare ad ottenere rinforzi."
  extradimensional_invasion_2_poi:0 "Il Secondo Portale"
  extradimensional_invasion_2_poi_desc:0 "Un secondo portale dimensionale è comparso nel Sistema [second_portal_system.GetName]. Come il primo portale, fornisce l'ingresso a navi extradimensionali ostili nella nostra galassia."
  extradimensional_invasion_3_poi:0 "Il Terzo Portale"
@@ -123,7 +123,7 @@
  extradimensional_invasion_4_poi:0 "Ancore Dimensionali"
  extradimensional_invasion_4_poi_desc:0 "Gli invasori stanno costruendo delle strane stazioni spaziali che agiscono come "ancore" dimensionali... condotti che aumentano la loro abilità di movimento tramite i Wormhole. Più Ancore riusciranno ad attivare, più di frequente riusciranno a richiamare rinforzi dal loro regno.\n\nQueste Ancore sembrano rinforzare significativamente l'integrità subspaziale del Portale Dimensionale. Il Portale risulterà pressoché invulnerabile alle armi finché ci saranno delle Ancore attive!"
  extradimensional_invasion_chain_2_title:0 "L'Aberrante"
- extradimensional_invasion_chain_2_desc:0 "È comparsa una seconda fazione di invasori extradimensionali nella nostra galassia, non meno ostile della prima. Fortunatamente, sembra che gli extradimensionali combattano anche l'uno contro l'altro."
+ extradimensional_invasion_chain_2_desc:0 "È comparsa una seconda fazione di invasori extra dimensionali nella nostra galassia, non meno ostile della prima. Fortunatamente, sembra che gli extra dimensionali combattano anche l'uno contro l'altro."
  extradimensional_invasion_chain_3_title:0 "Il Veemente"
  extradimensional_invasion_chain_3_desc:0 "Una terza fazione extradimensionale è emersa da un altro Wormhole. Sebbene siano in procinto di consumare tutta la vita della nostra galassia, sembra che abbiano anche ingaggiato una sorta di battaglia con le altre due fazioni provenienti dalla loro dimensione."
 
