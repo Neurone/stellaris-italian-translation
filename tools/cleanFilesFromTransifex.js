@@ -1,4 +1,4 @@
-// Prepara i file per l'upload su Transifex
+// Ripulisce i file scaricati da Transifex
 
 const fs = require('fs');
 const { file } = require('grunt');
@@ -30,13 +30,14 @@ fs.readdir(srcFolder, (err, files) => {
         });
 });
 
-// Prepara il file per l'upload a Transifex
+// Ripulisce file scaricato da Transifex
 function prepareFile(folder, fileName) {
     const liner = new lineByLine(folder + fileName);
 
     let line;
     let lineNumber = 0;
 
+    fileName = fileName.replace("for_use_stellaris-italian-translation_", "");
     let file = fs.createWriteStream(dstFolder + fileName, {
         'flags': 'w'
     });
@@ -46,10 +47,9 @@ function prepareFile(folder, fileName) {
 
     while (line = liner.next()) {
         line = line.toString("utf-8");
-        //if (!(line.startsWith("#") || line.startsWith(" #"))) {
-        line = removeVersion(line);
-        line = escapeInnerQuotes(line);
-        //}
+        line = restoreVersion(line);
+        line = restoreQuotes(line);
+        //line = restoreNewLine(line);
         file.write(line + "\n");
         lineNumber++;
     }
@@ -58,13 +58,10 @@ function prepareFile(folder, fileName) {
     file.end();
 }
 
-function removeVersion(line) {
-    return line.replace(/:\d\d/, ":").replace(/:\d/, ":");
+function restoreVersion(line) {
+    return line.replace(/: \"/, ":0 \"");
 }
 
-function escapeInnerQuotes(line) {
-    line = line.replace(/: "/, ": <!<!<!").replace(/"$/, "<!<!<!").replace(/" #/, "<!<!<! #")
-    line = line.replace(/"/g, "\\\"")
-    line = line.replace(/<!<!<!/g, "\"")
-    return line;
+function restoreQuotes(line) {
+    return line.replace(/\\\"/g, "\"");
 }

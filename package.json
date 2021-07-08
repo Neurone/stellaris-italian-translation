@@ -4,7 +4,10 @@
     "description": "Mod per Stellaris. Sostituisce la lingua inglese con la lingua italiana.",
     "scripts": {
         "dev": "npx grunt dev",
-        "release": "npx grunt"
+        "release": "npx grunt",
+        "clean-transifex-files": "node tools/cleanFilesFromTransifex.js tools/from-transifex tools/to-mod",
+        "prepare-en-files-for-transifex": "node tools/prepareFilesForTransifex.js src/reference/localisation/english tools/to-transifex-en",
+        "prepare-it-files-for-transifex": "node tools/prepareFilesForTransifex.js src/mod/localisation/english tools/to-transifex-it"
     },
     "author": "",
     "license": "MIT",

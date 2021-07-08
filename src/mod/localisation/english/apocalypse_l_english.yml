@@ -689,7 +689,7 @@
  WAROVERVIEW_BATTLE_THEIR_SHIPS_LOST:0 "$NUM|G$ navi perdute"
  WAROVERVIEW_BATTLE_THEIR_ARMIES_LOST:0 "$NUM|G$ armate perdute"
  OCCUPATION_SUMMARY:0 "Occupazione"
- OCCUPATION_SUMMARY_LONG:0 "Sfinimento da Occupazione dovuto ai $SYSTEMS|R$ sistemi e $PLANETS|R$ pianeti occupati";
+ OCCUPATION_SUMMARY_LONG:0 "Sfinimento da Occupazione dovuto ai $SYSTEMS|R$ sistemi e $PLANETS|R$ pianeti occupati"
  
  FLEET_TEMPLATE_COMMAND_MAX_MULTIPLE:0 "Aggiungere $NUM|Y$ navi supererebbe il limite di comando per questa flotta."
  FLEET_TEMPLATE_COMMAND_MIN_MULTIPLE:0 "Non posso rimuovere $NUM|Y$ navi dal template della nave"
