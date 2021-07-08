@@ -46,10 +46,11 @@ function prepareFile(folder, fileName) {
 
     while (line = liner.next()) {
         line = line.toString("utf-8");
-        //if (!(line.startsWith("#") || line.startsWith(" #"))) {
-        line = removeVersion(line);
-        line = escapeInnerQuotes(line);
-        //}
+        line = line.trimEnd();
+        if (!(line.startsWith("#") || line.startsWith(" #"))) {
+            line = removeVersion(line);
+            line = escapeInnerQuotes(line);
+        }
         file.write(line + "\n");
         lineNumber++;
     }

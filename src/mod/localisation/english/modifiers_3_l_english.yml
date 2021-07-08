@@ -121,7 +121,7 @@
  syndaw_unfriendly_robots:0 "Tensioni sull'Integrazione Robotica"
  syndaw_unfriendly_robots_desc:0 "Le tensioni tra la popolazione robotica ed organica del pianeta hanno ridotto la nostra produzione di £unity£ Unità."
  syndaw_research_malus:0 "Fallimento IA"
- syndaw_research_malus_desc:1 "Un'IA scientifica coinvolta nella ricerca sociologica ha subito dei danni hardware ed è attualmente in sostituzione."
+ syndaw_research_malus_desc:0 "Un'IA scientifica coinvolta nella ricerca sociologica ha subito dei danni hardware ed è attualmente in sostituzione."
 
  ####################################
  # Ship/Fleet Modifiers 
@@ -141,7 +141,7 @@
  pop_angered:0 "Inferocita"
  pop_pleased:0 "Compiaciuta"
  alien_infection:0 "Infezione Aliena"
- alien_music:0 "Musica Aliena" 
+ alien_music:0 "Musica Aliena"
 
  ####################################
  # DEBUG STUFF
