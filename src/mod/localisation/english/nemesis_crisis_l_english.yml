@@ -2,10 +2,10 @@
 
 # Ascension Perk name
  ap_become_the_crisis:0 "Diventa la Crisi"
- ap_become_the_crisis_desc:1 "Tutte le grandi opere richiedono un sacrificio. Il resto della galassia potrà non capire, ma obbediranno."
+ ap_become_the_crisis_desc:0 "Tutte le grandi opere richiedono un sacrificio. Il resto della galassia potrà non capire, ma obbediranno."
 
- # Minaccia name
- menace_name:1 "$menace$:"
+ # Menace name
+ menace_name:0 "$menace$:"
  
  # Crisis Path names
  crisis_path_destruction_name:0 "Via della Distruzione"
@@ -72,17 +72,17 @@
 
  ### menp_undertaker:0 "Undertaker"
  ### menp_undertaker_desc:0 "'Death' is such a strong word. We are merely returning their matter to its initial state."
- ### crisis_perks_destruction_undertaker_unlock:0 "Purge 50 £pops£ Pops per sbloccare questo $crisis_perk$."
- ### undertaker_passive:0 "Purging generates £menace£ Minaccia."
+ ### crisis_perks_destruction_undertaker_unlock:0 "Purge 50 £pops£ Pops to unlock this $crisis_perk$."
+ ### undertaker_passive:0 "Purging generates £menace£ Menace."
  ### undertaker_active:0 "Purging speed is greatly increased, and generates £alloy£ Alloys."
  ### menp_ship-chipper:0 "Ship-chipper"
  ### menp_ship-chipper_desc:0 "All these metal constructs moving about in orderly fashion... It needs to stop."
- ### crisis_perks_destruction_ship-chipper_unlock:0 "Destroy 100 ships in order per sbloccare questo $crisis_perk$."
+ ### crisis_perks_destruction_ship-chipper_unlock:0 "Destroy 100 ships in order to unlock this $crisis_perk$."
  ### menp_ship-chipper_passive:0 "Your fleets take -25% damage in combat."
  ### menp_ship-chipper_active:0 "Your fleets have +50% weapon damage."
  ### menp_death_from_above:0 "Death From Above"
  ### menp_death_from_above_desc:0 "No place to run, no place to hide. In fact, no 'place' at all."
- ### crisis_perks_destruction_death_from_above_unlock:0 "Destroy 10 buildings through bombardment per sbloccare questo $crisis_perk$."
+ ### crisis_perks_destruction_death_from_above_unlock:0 "Destroy 10 buildings through bombardment to unlock this $crisis_perk$."
  ### menp_death_from_above_passive:0 "When bombarding, Planet Devastation is 20% faster."
  ### menp_death_from_above_active:0 "Unlocks Armageddon Bombardment."
  
@@ -119,22 +119,22 @@
  crisis_perks_deception_shadowplay_active:0 "Ottieni §G+20 Intel§! sugli altri imperi."
  
  # Crisis UI
- MENACE_VALUE:1 "£menace£ $VAL|0$"
+ MENACE_VALUE:0 "£menace£ $VAL|0$"
  GAINING_MENACE:0 "Completa gli Obiettivi Minaccia per ottenere più Minaccia."
- MENACE_DESC:1 "La Minaccia è una misura della tua risonanza con le energie calamitose del Velo."
+ MENACE_DESC:0 "La Minaccia è una misura della tua risonanza con le energie calamitose del Velo."
  CRISIS_TAB:0 "Crisi"
- CRISIS_OBJECTIVES:1 "Obiettivi Minaccia"
+ CRISIS_OBJECTIVES:0 "Obiettivi Minaccia"
  CRISIS_OBJECTIVE_GAINED:0 "Minaccia ottenuta"
- CRISIS_OBJECTIVE_REWARD:1 "$REWARD$"
- CRISIS_OBJECTIVE_PROGRESS:1 "Abbiamo ottenuto £menace£ $AMOUNT$ da questo Obiettivo Minaccia."
+ CRISIS_OBJECTIVE_REWARD:0 "$REWARD$"
+ CRISIS_OBJECTIVE_PROGRESS:0 "Abbiamo ottenuto £menace£ $AMOUNT$ da questo Obiettivo Minaccia."
  CRISIS_LEVEL_PROGRESS:0 "$CURRENT|0$/$REQUIRED$"
- UNLOCKED:1 "§GSbloccati§!"
+ UNLOCKED:0 "§GSbloccati§!"
  CRISIS_LEVEL_LOCKED:0 "Richiesto per sbloccare questo livello:\n"
- CRISIS_LEVEL_UNLOCKED:1 "A $LEVEL$, ottieni un Progetto Speciale e le ricompense:\n"
- CRISIS_LEVELS_DESC:1 "Per avanzare attraverso i livelli di Crisi, completa Obiettivi Minaccia e ricerca i Progetti Speciali della Crisi nel Registro Situazione"
- CRISIS_LEVEL_UNLOCK_MENACE:1 "Ha la Minaccia £menace£ §Y$MENACE$§!"
+ CRISIS_LEVEL_UNLOCKED:0 "A $LEVEL$, ottieni un Progetto Speciale e le ricompense:\n"
+ CRISIS_LEVELS_DESC:0 "Per avanzare attraverso i livelli di Crisi, completa Obiettivi Minaccia e ricerca i Progetti Speciali della Crisi nel Registro Situazione"
+ CRISIS_LEVEL_UNLOCK_MENACE:0 "Ha la Minaccia £menace£ §Y$MENACE$§!"
  MENACE_CURRENT_VALUE:0 "Valore Attuale: §Y$VALUE|0$§!"
- PERK:1 "§H$crisis_perk$§! - "
+ PERK:0 "§H$crisis_perk$§! - "
  crisis_level_1:0 "Minaccia"
  crisis_level_2:0 "Pericolo"
  crisis_level_3:0 "Rischio"
@@ -145,10 +145,10 @@
  crisis_level_3_desc:0 "Livello Crisi 3"
  crisis_level_4_desc:0 "Livello Crisi 4"
  crisis_level_5_desc:0 "Livello Crisi 5"
- CRISIS_DESCRIPTION_TITLE:1 "Impero della Crisi"
- CRISIS_DESCRIPTION:1 "Quelli della comunità galattica che avrebbero tracciato il lungo arco della storia nel futuro hanno teorizzato a lungo di una §RCrisi§! in arrivo. Una minaccia esistenziale per tutti gli esseri viventi che richiederebbe un'unità di intenti senza precedenti, e sacrifici, da sconfiggere. Se è possibile, ovviamente, sconfiggerla davvero.\n\nLe predizioni popolari riguardo la natura di questa crisi erano fantasiose come l'invasione di un ghiottone extragalattico, o le macchine intelligenti della galassia che insorgono in un'insignificante ribellione, o una guerra di successione che si riversa da un altro piano di esistenza, ma...\n\nOra è chiaro che saresti sempre stato §Rtu§!."
- CRISIS_HOWTO_TITLE:1 "Minaccia & Motore"
- CRISIS_HOWTO:1 "Persegui §HObiettivi Minaccia§! mentre la Crisi genera £menace£ §YMinaccia§!, sbloccando il potenziale distruttivo del tuo Impero nella tua missione per completare la Megastruttura del Motore Eterofasico e ricostruire la galassia a tua immagine."
+ CRISIS_DESCRIPTION_TITLE:0 "Impero della Crisi"
+ CRISIS_DESCRIPTION:0 "Quelli della comunità galattica che avrebbero tracciato il lungo arco della storia nel futuro hanno teorizzato a lungo di una §RCrisi§! in arrivo. Una minaccia esistenziale per tutti gli esseri viventi che richiederebbe un'unità di intenti senza precedenti, e sacrifici, da sconfiggere. Se è possibile, ovviamente, sconfiggerla davvero.\n\nLe predizioni popolari riguardo la natura di questa crisi erano fantasiose come l'invasione di un ghiottone extragalattico, o le macchine intelligenti della galassia che insorgono in un'insignificante ribellione, o una guerra di successione che si riversa da un altro piano di esistenza, ma...\n\nOra è chiaro che saresti sempre stato §Rtu§!."
+ CRISIS_HOWTO_TITLE:0 "Minaccia & Motore"
+ CRISIS_HOWTO:0 "Persegui §HObiettivi Minaccia§! mentre la Crisi genera £menace£ §YMinaccia§!, sbloccando il potenziale distruttivo del tuo Impero nella tua missione per completare la Megastruttura del Motore Eterofasico e ricostruire la galassia a tua immagine."
  crisis_level_2_req_tooltip:0 "£trigger_no£  Ha completato il §Yprimo§! §H$become_the_crisis_chain$§! Progetto Speciale"
  crisis_level_3_req_tooltip:0 "£trigger_no£  Ha completato il §Ysecondo§! §H$become_the_crisis_chain$§! Progetto Speciale"
  crisis_level_4_req_tooltip:0 "£trigger_no£  Ha completato il §Yterzo§! §H$become_the_crisis_chain$§! Progetto Speciale"
@@ -178,8 +178,8 @@
  TRADITIONS_TAB_SHORT:0 "Vantaggi Tradizioni e Ascensione"
  RELICS_TAB_SHORT:0 "Reliquie"
  CRISIS_TAB_SHORT:0 "Crisi"
- CRISIS_TAB_DISABLED:1 "Disponibile solo con il Vantaggio Ascensione $TRAD|Y$"
- CRISIS_TAB_DESC:2 ""
+ CRISIS_TAB_DISABLED:0 "Disponibile solo con il Vantaggio Ascensione $TRAD|Y$"
+ CRISIS_TAB_DESC:0 ""
 
  new_crisis_perks_tt:0 "\n§GSono state sbloccate nuovi Vantaggi della Crisi§!"
  can_advance_crisis_progression:0 "Il prossimo livello della nostra §YProgressione di Crisi§! è stato sbloccato"
@@ -192,7 +192,7 @@
  count_owned_army_all_trigger:0 "$IS_ALL_NOT$ Eserciti Posseduti soddisfano i requisiti seguenti"
 
  triggered_opinion_crisis_empire:0 "Impero della Crisi"
- triggered_opinion_crisis_empire_neighbor:1 "Impero della Crisi vicino"
+ triggered_opinion_crisis_empire_neighbor:0 "Impero della Crisi vicino"
 
  personality_became_the_crisis:0 "Aspirante della Crisi"
  personality_became_the_crisis_desc:0 "Gli Aspiranti della Crisi sono aspiranti messaggeri di sventura galattica, sostenuti da poteri inconoscibili."
