@@ -1,6 +1,6 @@
 ﻿l_english:
 
- marauder.1.name:1 "Incontro con [encountered_marauder.GetRealName]"
+ marauder.1.name:0 "Incontro con [encountered_marauder.GetRealName]"
  marauder.1.desc:0 "Dopo aver decodificato ciò che conta come una lingua tra loro, [This.Owner.GetEnvoy] [This.Leader.GetName] ha identificato §H[encountered_marauder.GetName]§! come civiltà nomade conosciuta come §H[encountered_marauder.GetName]§!. Occupano un certo di numero di grandi stazioni spaziali nel Sistema §H[marauder_system.GetName]§! che ospitano un gran numero dei loro abitanti in condizioni di squallido sovraffollamento. Nonostante ciò, o forse proprio per questo, sembrano aver sviluppato una forte coltura marziale. La vita trascorsa nel gelido vuoto dello spazio sembra essere diventata la normalità per loro, e si sono rivelati molto adatti alla guerra spaziale.\n\nNon possiedono un governo centrale con cui comunicare. Invece, sembrano essere divisi in varie fazioni continuamente in lotta per le risorse ed il rispetto. Data la loro numerosa popolazione e le capacità straordinarie dei loro cantieri navali, queste continue lotte interne sembrano essere l'unica cosa che impedisce loro di crescere sino a diventare una minaccia significativa per la pace galattica."
  marauder.1.a:0 "Tentate di contattarli."
  marauder.3.name:0 "Guerrieri [From.GetSpeciesNamePlural] Avvistati"
@@ -168,7 +168,7 @@
  marauder_3_tribute:0 "$marauder_1_tribute$"
  marauder_3_tribute_desc:0 "$marauder_1_tribute_desc$"
 
- marauder.35.1.desc:1 "Ah ah! Siete veramente folli, forestieri. Volevate che attaccassimo gli antichi?\n\nNon penso proprio."
+ marauder.35.1.desc:0 "Ah ah! Siete veramente folli, forestieri. Volevate che attaccassimo gli antichi?\n\nNon penso proprio."
  marauder.35.2.desc:0 "HYEEEEEEEEEEEEEEEEEEIIIIIIIIIIIIIIIIIIIEEEEEEEEEEEE!!!!!!!!!!!\n\nNo, dwamak. Siamo folli, ma non abbastanza tra lanciarci sui dwamak caduti."
  marauder.35.3.desc:0 "Sebbene siano miscredenti, la Signora del Vuoto non vorrebbe che sprecassimo le nostre navi nel vano tentativo di colpire le razze antiche.\n\nVerrà il loro tempo... tra un millennio o due."
  
@@ -290,7 +290,7 @@
  marauder.506.name:0 "Gran Khan Sconfitto"
  marauder.506.desc:0 "Nonostante il presunto genio militare, [great_khan.GetName], il Gran Khan di [From.GetName], ha subito una sconfitta nel Sistema [khan_death_system.GetName]. Quando l'armata che comandava è caduta in battaglia contro le forze di [khan_destroyer.GetName], il Gran Khan e gli ufficiali più importanti sono fuggiti nell'iperspazio con una piccola navicella.\n\nIn questo momento, [great_khan.GetName] sta assemblando una nuova armata per riprendere la sua conquista, ma questa vittoria ha donato una breve tregua a coloro che si oppongono all'inesorabile avanzata dei [From.GetSpeciesNamePlural]."
  marauder.506.a:0 "Quindi il Gran Khan non è così infallibile."
- marauder.508.desc:2 "Qui parla il Gran Khan [great_khan.GetName] di [From.GetName]. La mia sconfitta per mano degli intrepidi [khan_destroyer.GetSpeciesNamePlural] è stata una piccola battuta d'arresto, nulla di più. I guerrieri [khan_destroyer.GetSpeciesNamePlural] sono coraggiosi e degni avversari, ma cadranno anch'essi.\n\nLa marea della storia si sta diffondendo sulla galassia, e nulla potrà fermarla. La mia nuova armata è pronta."
+ marauder.508.desc:0 "Qui parla il Gran Khan [great_khan.GetName] di [From.GetName]. La mia sconfitta per mano degli intrepidi [khan_destroyer.GetSpeciesNamePlural] è stata una piccola battuta d'arresto, nulla di più. I guerrieri [khan_destroyer.GetSpeciesNamePlural] sono coraggiosi e degni avversari, ma cadranno anch'essi.\n\nLa marea della storia si sta diffondendo sulla galassia, e nulla potrà fermarla. La mia nuova armata è pronta."
  marauder.508.desc.1:0 "$marauder.508.desc$ Alla fine di questa guerra, i miei leali Satrapi saranno ricompensati per il loro aiuto."
  marauder.508.desc.2:0 "$marauder.508.desc$ Giuratemi fedeltà, finché siete ancora in tempo."
  marauder.508.desc.3:0 "$marauder.508.desc$ Chiunque tenterà di sbarrarmi il cammino verrà distrutto."
@@ -402,14 +402,14 @@
  marauder.665.a:0 "Che sta succedendo laggiù?"
 
  marauder.670.name:0 "La Fine della Satrapia"
- marauder.670.desc:1 "Tra il caos e l'instabilità causati dalla morte del Gran Khan, il nostro status di Satrapia dell'Orda è annullato; il nostro giuramento di fedeltà era rivolto solo al Gran Khan. Siamo nuovamente liberi di perseguire il nostro destino.\n\nTutto il personale militare dell'Orda presente nel Sistema [Root.Capital.solar_system.GetName] hanno abbandonato le loro posizioni per riunirsi al loro popolo, non prima di aver demolito qualsiasi materiale bellico sul loro cammino."
+ marauder.670.desc:0 "Tra il caos e l'instabilità causati dalla morte del Gran Khan, il nostro status di Satrapia dell'Orda è annullato; il nostro giuramento di fedeltà era rivolto solo al Gran Khan. Siamo nuovamente liberi di perseguire il nostro destino.\n\nTutto il personale militare dell'Orda presente nel Sistema [Root.Capital.solar_system.GetName] hanno abbandonato le loro posizioni per riunirsi al loro popolo, non prima di aver demolito qualsiasi materiale bellico sul loro cammino."
  marauder.670.a:0 "Siamo liberi."
  marauder.671.name:0 "Guarnigioni del Khanato Abbandonate"
  marauder.671.desc:0 "Mentre il Nuovo Khanato lotta per mantenere il controllo sui territori del Gran Khan, la sua leadership militare ha deciso di consolidare ulteriormente le proprie forze. Di conseguenza, hanno richiamato tutto il personale dalle stazioni di guarnigione e le hanno smantellate."
  marauder.671.a:0 "Stanno perdendo il controllo."
 
-marauder_skirmishing:0 "La Cote"
-marauder_skirmishing_desc:0 "Le continue schermaglie di confine contro i Predoni hanno temprato le nostre flotte, aumentandone l'efficacia in combattimento."
+ marauder_skirmishing:0 "La Cote"
+ marauder_skirmishing_desc:0 "Le continue schermaglie di confine contro i Predoni hanno temprato le nostre flotte, aumentandone l'efficacia in combattimento."
  marauder.701.name:0 "Rifugiati [marauder_neighbor_species.GetName]"
  marauder.701.desc:0 "Diverse navi da carico contenenti alcuni rifugiati [marauder_neighbor_species.GetName] hanno attraversato il nostro spazio. Sembra che questi esuli siano stati cacciati dalle decrepite stazioni spaziali che un tempo chiamavano casa durante qualche sorta di rituale, il tutto in nome del controllo demografico. È stato permesso loro di insediarsi su §H[Root.GetName]§!."
  marauder.701.a:0 "Sono i benvenuti."
