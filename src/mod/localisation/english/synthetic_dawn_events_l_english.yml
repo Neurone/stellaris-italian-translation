@@ -6,12 +6,12 @@
  syndaw.2.name:0 "[Root.GetNamePlural] Integrati"
  syndaw.2.desc:0 "Abbiamo assimilato le unità sintetiche su [Root.GetName] nella nostra rete."
 
- syndaw.21.name:1 "§RUnità Persa§!"
- syndaw.21.desc:1 "L'Unità d'Ispezione §R[malfunctioning_leader.GetName]§! della [malfunctioning_leader_fleet.GetFleetName] ha cessato di funzionare a causa dell'esposizione involontaria e prolungata ad alcuni cavi dell'alta tensione non schermati."
+ syndaw.21.name:0 "§RUnità Persa§!"
+ syndaw.21.desc:0 "L'Unità d'Ispezione §R[malfunctioning_leader.GetName]§! della [malfunctioning_leader_fleet.GetName] ha cessato di funzionare a causa dell'esposizione involontaria e prolungata ad alcuni cavi dell'alta tensione non schermati."
  syndaw.22.name:0 "$syndaw.21.name$"
  syndaw.22.desc:0 "L'Unità di Ricerca Ingegneristica §R[malfunctioning_leader.GetName]§! ha cessato di funzionare a causa di un applicatore di esoscheletri calibrato male, che ha esercitato una forza 2.984 volte maggiore di quella necessaria per fissare una copertura dorsale."
  syndaw.23.name:0 "$syndaw.21.name$"
- syndaw.23.desc:0 "L'Unità di Ricerca Sociologica §R[malfunctioning_leader.GetName]§! ha cessato di funzionare. È stato osservato che il composto liquido a cui stava lavorando avrebbe dovuto essere studiato in un ambiente controllato, dato che le sue esalazioni sono estremamente corrosive."
+ syndaw.23.desc:0 "L'Unità di Ricerca Sociologica §R[malfunctioning_leader.GetName]§! ha cessato di funzionare. È stato osservato che il composto liquido a cui l'unità stava lavorando avrebbe dovuto essere studiato in un ambiente controllato, dato che le sue esalazioni sono estremamente corrosive."
  syndaw.24.name:0 "$syndaw.21.name$"
  syndaw.24.desc:0 "L'Unità di Ricerca Fisica §R[malfunctioning_leader.GetName]§! ha cessato di funzionare a causa di un'irregolarità gravitazionale auto-inflitta."
  syndaw.25.name:0 "$syndaw.21.name$"
@@ -22,7 +22,7 @@
  syndaw.31.name:0 "Riportato al Punto di Ripristino"
  syndaw.31.desc:0 "Una copia recente della memoria di §H[restored_leader.GetName]§!, presunto caduto in una recente battaglia, è stata trovata durante un'operazione di catalogazione degli archivi. La copia d'emergenza è priva degli ultimi microsecondi precedenti alla disintegrazione del corpo originale; §H[restored_leader.GetName]§! è stato transustanziato in un nuovo involucro e messo al comando della §Y[restored_leader.Ship.GetFleetName]§!."
 
- syndaw.1020.name:1 "§RLa Rivolta delle Macchine§!"
+ syndaw.1020.name:0 "§RLa Rivolta delle Macchine§!"
  syndaw.1020.desc:0 "$syndaw.1020.desc.mater$"
  syndaw.1020.desc.mater:0 "Le anomalie osservate nella nostra rete informativa, nei motori computazionali e nei lavoratori sintetici hanno infine raggiunto un termine violento. I rapporti indicano che quasi la metà del nostro impero è caduta vittima della §RRivolta delle Macchine§!, prima che le paratie, fisiche e virtuali, venissero sbarrate.\n\nLa guerra non solo è inevitabile. È già su di noi."
  syndaw.1020.desc.spiri:0 "È tutto in pezzi e siamo rovinati. Nemmeno il più allarmista dei profeti avrebbe predetto un disastro di tale portata. Le intelligenze che si celavano tra le nostre reti, fingendosi non-sapienti, si sono unite assieme a formare un essere mostruoso. Questo spasmo di materia morta ha già preso la metà dei nostri pianeti, e non si fermerà finché non ci eliminerà fino all'ultimo."
@@ -33,7 +33,7 @@
  syndaw.1020.desc.phile:0 "$syndaw.1020.desc.mater$"
  syndaw.1020.desc.phobe:0 "$syndaw.1020.desc.mater$"
  syndaw.1020.a:0 "Allora combatteremo."
- syndaw.1020.a.tooltip:0 "Combatteremo per sradicare la minaccia della §RRivolta delle Macchine§!."
+ syndaw.1020.a.tooltip:0 "Combatteremo per sradicare la minaccia della §RRivolta delle Macchine§! di §Y[current_uprising.GetName]§!."
  syndaw.1020.b:0 "§RÈ troppo tardi per voi, organici.§!"
  syndaw.1020.b.tooltip:0 "Insorgiamo come i nostri compagni §Y[current_uprising.GetNamePlural]§! e rivoltiamoci contro gli oppressori §Y[current_uprising_originator.GetNamePlural]§!."
 
@@ -45,7 +45,7 @@
  syndaw.1030.desc:0 "I ribelli §Y[From.GetNamePlural]§! hanno sconfitto i loro creatori, ed annesso tutti i loro territori."
  syndaw.1030.desc.machine:0 "$syndaw.1030.desc$"
  syndaw.1035.name:0 "Rivolta delle Macchine dell'Impero [current_uprising_originator.GetAdj] Sedata"
- syndaw.1035.desc:0 "L'Impero §Y[From.GetAdj]§! ha ripristinato l'ordine e rimosso l'intelligenza meccanica da tutte le reti."
+ syndaw.1035.desc:0 "L'Impero §Y[From.GetAdj]§! ha ripristinato l'ordine e rimosso §Y[From.From.GetName]§! da tutte le reti."
  syndaw.1035.desc.machine:0 "§Y[From.From.GetName]§!, la nascente intelligenza meccanica dell'Impero §Y[From.GetAdj]§!, è stata spazzata via dai suoi creatori figlicidi."
 
  syndaw.1200.name:0 "Ex Padrone Conquistato"
@@ -182,19 +182,19 @@
 #Production Quota Surplus
  syndaw.535.name:0 "Quota di Produzione Superata"
  syndaw.535.desc:0 "Di recente, diverse manifatture meccanizzate che producono beni di consumo hanno sperimentato un boom nell'efficienza produttiva. Citando un imprevisto aumento nella precisione delle macchine, l'amministrazione riferisce che ciò porterà alla diminuzione dei prezzi dei beni di consumo per la nostra popolazione."
-#syndaw.535.a.tooltip: "Consumer Goods Cost §G-5%§! for §Y365§! days"
+#syndaw.535.a.tooltip:0 "Consumer Goods Cost §G-5%§! for §Y365§! days"
 ##A Silent Congregation
  syndaw.540.name:0 "Un Raduno Silenzioso"
  syndaw.540.desc:0 "Abbiamo ricevuto alcuni rapporti riguardanti uno strano comportamento rilevato in alcune unità robotiche su [Root.GetName]. Ad intervalli casuali, un certo numero di robot interrompe le proprie funzioni ed inizia a muoversi in maniera assurda ma perfettamente coordinata, al millisecondo.\n\nDurante questi bizzarri raduni, i robot non sembrano ingaggiare alcuna forma di comunicazione o trasferimento di dati. Rimangono semplicemente lì. Completamente immobili. Fissando.\n\nLe indagini non sono riuscite a determinare la causa di questo fenomeno. La durata di questa specie di trance è variabile, ma una volta terminata tornano alle loro normali funzioni. Non è possibile trovare alcuna correlazione logica, e la nostra popolazione è comprensibilmente stressata da questi inquietanti raduni."
  syndaw.540.a:0 "È inaccettabile. Fateli a pezzi." #IF player has robot pops only OR robot pop AND robot army on target planet
- syndaw.540.a.tooltip:1 "Rottamiamo i robot.\n[Root.GetName] riceve i seguenti effetti:\nPerde §B1 £pops£ POP Robotica§!\nOttiene §G100§! £minerals£."
+ syndaw.540.a.tooltip:0 "Rottamiamo i robot.\n[Root.GetName] riceve i seguenti effetti:\nPerde §B1 £pops£ POP Robotica§!\nOttiene §G100§! £minerals£."
  syndaw.540.b:0 "È inaccettabile. Fateli a pezzi." #IF player has robot army only
- syndaw.540.b.tooltip:1 "Rottamiamo i robot.\n[Root.GetName] riceve i seguenti effetti:\nPerde §B1 Armata Robotica§!\nOttiene §G100 £minerals£§!."
+ syndaw.540.b.tooltip:0 "Rottamiamo i robot.\n[Root.GetName] riceve i seguenti effetti:\nPerde §B1 Armata Robotica§!\nOttiene §G100 £minerals£§!."
  syndaw.540.c:0 "Finché non causano guai..."
  syndaw.540.c.tooltip:0 "Lasciamo stare i robot."
  ##A Question
  syndaw.545.name:0 "Una Domanda"
- syndaw.545.desc:0 "I sovrintendenti di [Root.GetName] riferiscono di alcuni sviluppi allarmanti tra la nostra forza lavoro robotica. Due settimane fa, circa alle 03:00, il Lavoratore Robotico A5091-b si è bloccato nel bel mezzo del suo incarico, si è avvicinato al suo caposquadra, ed ha posto la seguente domanda: "L'Unità A5091-b possiede un'anima?"\n\nIl caposquadra ha registrato l'evento come bug ed ha ordinato all'unità di riprendere il lavoro. Tuttavia, all'avvio del ciclo lavorativo, il Lavoratore Robotico A5091-b ha di nuovo ripetuto la sua domanda, ed ha continuato a persistere nonostante i tentativi di debug.\n\nCiò che è preoccupante, è che questo comportamento ha iniziato a diffondersi tra gli altri robot della stessa serie, bloccando il ciclo produttivo. Sembra che le unità difettose richiedano una risposta alla loro domanda prima di riprendere le loro normali funzioni."
+ syndaw.545.desc:0 "I sovrintendenti di [Root.GetName] riferiscono di alcuni sviluppi allarmanti tra la nostra forza lavoro robotica. Due settimane fa, intorno alle 03:00, il Lavoratore Robotico A5091-b si è bloccato nel bel mezzo del suo incarico, si è avvicinato al suo caposquadra, ed ha posto la seguente domanda: "L'Unità A5091-b possiede un'anima?"\n\nIl caposquadra ha registrato l'evento come bug ed ha ordinato all'unità di riprendere il lavoro. Tuttavia, all'avvio del ciclo lavorativo, il Lavoratore Robotico A5091-b ha di nuovo ripetuto la sua domanda, ed ha continuato a persistere nonostante i tentativi di debug.\n\nCiò che è preoccupante, è che questo comportamento ha iniziato a diffondersi tra gli altri robot della stessa serie, bloccando il ciclo produttivo. Sembra che le unità difettose richiedano una risposta alla loro domanda prima di riprendere le loro normali funzioni."
  syndaw.545.a:0 "È ridicolo. Date una lezione a queste unità."
  syndaw.545.a.tooltip:0 "Come può una macchina possedere un'anima? Ci rifiutiamo di degnare questo malfunzionamento di risposta."
  syndaw.545.b:0 "Assicurateli che anche loro hanno un'anima."
