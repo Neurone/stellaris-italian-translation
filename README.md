@@ -2,7 +2,7 @@
 
 Questo mod, **compatibile** con la **modalità Ironman** e gli **achievement di Steam**, sostituisce la lingua inglese con la lingua italiana.
 
-Compatibile con versione: **Dick v3.0.***
+Basato sulla versione: **Dick v3.0.3**
 
 Grazie a [Nefando](https://github.com/Nefando), [AndryRock](https://github.com/AR-9217) e [Daddie2](https://github.com/Daddie2) sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack, una prima versione corposa del DLC Federations e parte di Nemesis!
 
@@ -93,7 +93,7 @@ Se dovesse servire invece aggiungere un file non ancora presente su questo repos
 
 Il file che indica a Stellaris la lista dei file _intoccabili_ si chiama `checksum_manifest.txt` e si trova all'interno della cartella principale di gioco. Attualmente il contenuto del file è il seguente:
 
-```
+```txt
 directory 
 name = common
 sub_directories = yes
@@ -198,34 +198,38 @@ Se non siete pratici di `git`, il mio suggerimento è di diventarlo :) È verame
 
 Un'alternativa, è lavorare comunque sul vostro PC ma effettuare la proposta di modifica direttamente online. Una volta scaricato e tradotto il file che volete aggiornare:
 
-1. Tornate su questo repository, assicuratevi di essere sul branch **dev**
-![](meta/01.png)
+1. Tornate su questo repository, assicuratevi di essere sul ramo **dev**
+![Ramo dev](meta/01.png)
 
 1. Navigate fino al file che volete aggiornare e premete l'icona in alto a destra per la modifica, la matita che dice "Edit this file"
-![](meta/02.png)
+![Modifica file](meta/02.png)
 
 1. GitHub vi avverte che non avete permessi di scrittura sul repo, che verrà creato un repository uguale a questo sulla vostra utenza e che verrà creato un nuovo ramo con le vostre modifiche. A quel punto, potrete proporre una pull request sul repository principale. Fate una modifica puntuale o, in caso di modifiche multiple, direttamente copia e incolla di tutto il contenuto del vostro file aggiornato
-![](meta/03.png)
+![Modifica file](meta/03.png)
 
 1. premete `Preview changes` per verificare che le modifiche siano quelle che vi aspettate. Se è tutto ok, inserite un messaggio che descrive brevemente la vostra modifica e premete **Propose file change**
-![](meta/04.png)
+![Anteprima modifiche](meta/04.png)
 
 1. A questo punto avete aggiornato il vostro repository, e potete procedere con la proposta di unione. Premete il pulsante **Create pull request**, modificate il testo del commit - se per qualche motivo volete cambiare il testo rispetto a quanto avete inserito precedentemente - e poi premete nuovamente **Create pull request** per confermate
-![](meta/05.png) ![](meta/06.png)
+![Verifica differenze](meta/05.png) ![Crea pull request](meta/06.png)
 
 1. La vostra pull request è stata inoltrata correttamente, risulta in stato aperto (_Open_) e non dovrebbe dare errori di unione (_This branch has no conflicts with the base branch_)
-![](meta/07.png)
+![Stato pull request](meta/07.png)
 
 1. Attendete che la PR sia accettata e unita
 
 1. _Opzionale_. Una volta accetta la vostra PR sarà chiusa (_Closed_) e il vostro ramo con la modifica unito (_Merged_) a quello principale. Potete quindi decidere di cancellare il ramo che è rimasto nel vostro repository, visto che ha assolto al proprio compito di proporre la modifica che è stata accettata
-![](meta/08.png) ![](meta/09.png)
+![Ramo unito](meta/08.png) ![Cancella ramo](meta/09.png)
 
 ## Installazione mod da release
 
 Trovate le release già pronte del mod nell'apposita sezione [releases](https://github.com/Neurone/stellaris-italian-translation/releases). Scaricate la release che vi interessa e decomprimetela all'interno della cartella:
 
-    <%USERPROFILE%>\Documents\Paradox Interactive\Stellaris\mod
+```txt
+(Windows)   : %USERPROFILE%\Documents\Paradox Interactive\Stellaris\mod
+(GNU/Linux) : ~/.local/share/Paradox Interactive/Stellaris/mod
+(Mac)       : ~/Documents/Paradox Interactive/Stellaris/mod
+```
 
 Nel caso non fosse presente la cartella `mod` potete crearla voi normalmente.
 
@@ -233,56 +237,68 @@ Nel caso non fosse presente la cartella `mod` potete crearla voi normalmente.
 
 Clonare il repository:
 
-    git clone https://github.com/Neurone/stellaris-italian-translation.git
+```bash
+git clone https://github.com/Neurone/stellaris-italian-translation.git
+```
 
 Installare le dipendenze:
 
-    cd stellaris-italian-translation
-    npm install
+```bash
+cd stellaris-italian-translation
+npm install
+```
 
 ### Versione release
 
 Creare il mod:
 
-    npm run release
+```bash
+npm run release
+```
 
 L'output sarà simile al seguente:
 
-    > stellaris-italian-translation@2.1.0 release
-    > npx grunt
+```bash
+> stellaris-italian-translation@2.1.0 release
+> npx grunt
 
-    Running "clean:init" (clean) task
-    >> 83 paths cleaned.
+Running "clean:init" (clean) task
+>> 83 paths cleaned.
 
-    Running "copy:release" (copy) task
-    Created 5 directories, copied 73 files
+Running "copy:release" (copy) task
+Created 5 directories, copied 73 files
 
-    Running "compress:build" (compress) task
-    >> Compressed 78 files.
+Running "compress:build" (compress) task
+>> Compressed 78 files.
 
-    Running "copy:complete" (copy) task
-    Copied 1 file
+Running "copy:complete" (copy) task
+Copied 1 file
 
-    Running "compress:release" (compress) task
-    >> Compressed 2 files.
+Running "compress:release" (compress) task
+>> Compressed 2 files.
 
-    Running "clean:complete" (clean) task
-    >> 2 paths cleaned.
+Running "clean:complete" (clean) task
+>> 2 paths cleaned.
 
-    Done.
+Done.
+```
 
 Verrà creato il file `stellaris-italian-translation-x.x.x.zip` all'interno della cartella `build\dist`, dove `x.x.x` sarà la versione corrente del mod (in questo esempio `2.1.0`).
 
 Per installare il mod, scompattare il file all'interno della cartella:
 
-    (Windows)   : %USERPROFILE%\Documents\Paradox Interactive\Stellaris\mod
-    (GNU/Linux) : ~/.local/share/Paradox Interactive/Stellaris/mod
-    (Mac)       : ~/Documents/Paradox Interactive/Stellaris/mod
+```txt
+(Windows)   : %USERPROFILE%\Documents\Paradox Interactive\Stellaris\mod
+(GNU/Linux) : ~/.local/share/Paradox Interactive/Stellaris/mod
+(Mac)       : ~/Documents/Paradox Interactive/Stellaris/mod
+```
 
 Nel caso non fosse presente la cartella `mod` potete crearla voi normalmente. La struttura finale dei file sarà la seguente:
 
-    [...]/Paradox Interactive/Stellaris/mod/stellaris-italian-translation.zip (zip con tutte le risorse del mod)
-    [...]/Paradox Interactive/Stellaris/mod/stellaris-italian-translation.mod (descrittore del mod)
+```txt
+[...]/Paradox Interactive/Stellaris/mod/stellaris-italian-translation.zip (zip con tutte le risorse del mod)
+[...]/Paradox Interactive/Stellaris/mod/stellaris-italian-translation.mod (descrittore del mod)
+```
 
 ### Versione sviluppo o per Workshop Steam
 
@@ -290,36 +306,46 @@ La versione sviluppo del mod è utile per fare modifiche, test o per effettuare 
 
 Creare il mod in versione sviluppo:
 
-    npm run dev
+```bash
+npm run dev
+```
 
 L'output sarà simile al seguente:
 
-    > stellaris-italian-translation@2.1.0 dev
-    > npx grunt dev
+```bash
+> stellaris-italian-translation@2.1.0 dev
+> npx grunt dev
 
-    Running "clean:init" (clean) task
-    >> 83 paths cleaned.
+Running "clean:init" (clean) task
+>> 83 paths cleaned.
 
-    Running "copy:dev" (copy) task
-    Created 5 directories, copied 75 files
+Running "copy:dev" (copy) task
+Created 5 directories, copied 75 files
 
-    Running "copy:testing" (copy) task
-    Created 6 directories, copied 75 files
+Running "copy:testing" (copy) task
+Created 6 directories, copied 75 files
 
-    Done.
+Done.
+```
 
 Verrà creata la cartella `build\dist` e all'interno troverete un file ed una cartella:
 
-    stellaris-italian-translation\*
-    stellaris-italian-translation.mod
+```txt
+stellaris-italian-translation\*
+stellaris-italian-translation.mod
+```
 
 Lo script copierà automaticamente tutti file necessari per il test nella cartella dei mod, in particolare:
 
-    (Windows)   : %USERPROFILE%\Documents\Paradox Interactive\Stellaris\mod
-    (GNU/Linux) : ~/.local/share/Paradox Interactive/Stellaris/mod
-    (Mac)       : ~/Documents/Paradox Interactive/Stellaris/mod
+```txt
+(Windows)   : %USERPROFILE%\Documents\Paradox Interactive\Stellaris\mod
+(GNU/Linux) : ~/.local/share/Paradox Interactive/Stellaris/mod
+(Mac)       : ~/Documents/Paradox Interactive/Stellaris/mod
+```
 
 La struttura finale dei file sarà la seguente:
 
-    [...]/Paradox Interactive/Stellaris/mod/stellaris-italian-translation/... (cartella contenente tutte le risorse del mod)
-    [...]/Paradox Interactive/Stellaris/mod/stellaris-italian-translation.mod (descrittore del mod)
+```txt
+[...]/Paradox Interactive/Stellaris/mod/stellaris-italian-translation/... (cartella contenente tutte le risorse del mod)
+[...]/Paradox Interactive/Stellaris/mod/stellaris-italian-translation.mod (descrittore del mod)
+```

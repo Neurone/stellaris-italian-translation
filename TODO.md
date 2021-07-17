@@ -10,15 +10,6 @@ DA INSERIRE
 |nemesis_intel_l_english.yml| **da tradurre**|
 |tutorial_l_english.yml| **parziale**|
 
-
-|projects_2_l_english.yml| completa|
-|projects_3_l_english.yml| completa|
-|projects_4_l_english.yml| completa|
-|projects_5_l_english.yml| completa|
-|projects_l_english.yml| completa|
-|scripted_loc_l_english.yml| completa|
-|ship_browser_l_english.yml| completa|
-|ship_sections_l_english.yml| completa|
 |social_gui_l_english.yml| completa|
 |standalone_l_english.yml| completa|
 |synthetic_dawn_events_l_english.yml| completa|
