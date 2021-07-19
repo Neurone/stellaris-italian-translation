@@ -10,7 +10,7 @@ DA INSERIRE
 |nemesis_intel_l_english.yml| **da tradurre**|
 |tutorial_l_english.yml| **parziale**|
 
-|traditions_l_english.yml| completa|
+
 |triggers_effects_l_english.yml| completa|
 |utopia_ascension_l_english.yml| completa|
 |utopia_l_english.yml| completa|
