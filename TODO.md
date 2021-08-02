@@ -11,7 +11,6 @@ DA INSERIRE
 |tutorial_l_english.yml| **parziale**|
 
 
-|triggers_effects_l_english.yml| completa|
 |utopia_ascension_l_english.yml| completa|
 |utopia_l_english.yml| completa|
 |utopia_megastructures_l_english.yml| completa|
