@@ -10,10 +10,5 @@ DA INSERIRE
 |nemesis_intel_l_english.yml| **da tradurre**|
 |tutorial_l_english.yml| **parziale**|
 
-
-|utopia_ascension_l_english.yml| completa|
-|utopia_l_english.yml| completa|
-|utopia_megastructures_l_english.yml| completa|
-
-
-trasformare perk in beneficio
+[] trasformare perk in beneficio
+[] verificare `[Root.GetPlanetMoon]`

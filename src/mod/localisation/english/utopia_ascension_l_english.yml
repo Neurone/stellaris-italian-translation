@@ -1,7 +1,7 @@
 ﻿l_english:
 
  # Ascension and the Shroud
- 
+
  utopia.2500.name:0 "La Carne è Debole"
  utopia.2500.desc:0 "Ora possediamo la tecnologia per creare impianti cibernetici avanzati ed i mezzi per produrli in serie. I nostri centri medici sono pronti ad iniziare il processo di innesto chirurgico su tutta la popolazione.\n\nIn futuro, possedere impianti cibernetici neurali, almeno rudimentali, sarà necessario per essere parte integrante della nostra società. Di conseguenza, il processo di conversione per installare una suite cibernetica standard sarà obbligatorio e gratuito per tutti i nostri cittadini."
  utopia.2500.a:0 "Dobbiamo sfruttare questa tecnologia."
@@ -9,29 +9,29 @@
  utopia.2501.desc:0 "Il processo di conversione cibernetica è stato completato! Tutti i nostri cittadini sono stati dotati di impianti neurali e suite cibernetiche standard. Le infrastrutture sono state adattate per modificare gradualmente anche ogni nuovo cittadino che nasce nel nostro impero, così che possano sperimentare tutti i benefici della tecnologia già dai primi anni di vita.\n\nD'ora in poi, la nostra specie sarà conosciuta come §H[Root.GetSpeciesNamePlural]§!!"
  utopia.2501.a:0 "È l'alba di una nuova era."
  utopia.2505.name:0 "[From.Capital.GetName] Abbraccia la Cibernetica"
- utopia.2505.1.desc:1 "Si fa un gran parlare dei cambiamenti che stanno avendo luogo entro i confini del popolo §Y[From.GetSpeciesAdj]§!. Sembra che abbiano abbracciato completamente la tecnologia cibernetica. È ora obbligatorio per tutti i loro cittadini possedere impianti neurali e componenti cibernetici standard, installati tramite la chirurgia.\n\nCiò ha portato a cambiamenti radicali della loro società; i rapporti che giungono da [From.Capital.GetName] indicano che persino un semplice gesto, come utilizzare un ascensore od azionare una vettura volante, richiede un impianto cibernetico. Di fatto, le modifiche alla loro specie sono state così significative che ora si fanno chiamare '§H[From.GetSpeciesNamePlural]§!'."
- utopia.2505.2.desc:1 "Sembra che il male abbia messo radici tra il popolo §Y[From.GetSpeciesAdj]§!. Abbiamo ricevuto allarmanti notizie su cittadini che mutilano i propri corpi su scala globale, installando profani impianti meccanici al posto delle parti del corpo che sono state loro donate alla nascita.\n\nSi sono spinti talmente in là da aver cambiato il nome della loro specie in '§H[From.GetSpeciesNamePlural]§!'... ennesimo segno del loro impegno nell'abbandonare le loro origini ed abbracciare la fredda tecnologia senz'anima."
+ utopia.2505.1.desc:0 "Si fa un gran parlare dei cambiamenti che stanno avendo luogo entro i confini del popolo §Y[From.GetSpeciesAdj]§!. Sembra che abbiano abbracciato completamente la tecnologia cibernetica. È ora obbligatorio per tutti i loro cittadini possedere impianti neurali e componenti cibernetici standard, installati tramite la chirurgia.\n\nCiò ha portato a cambiamenti radicali della loro società; i rapporti che giungono da [From.Capital.GetName] indicano che persino un semplice gesto, come utilizzare un ascensore od azionare una vettura volante, richiede un impianto cibernetico. Di fatto, le modifiche alla loro specie sono state così significative che ora si fanno chiamare '§H[From.GetSpeciesNamePlural]§!'."
+ utopia.2505.2.desc:0 "Sembra che il male abbia messo radici tra il popolo §Y[From.GetSpeciesAdj]§!. Abbiamo ricevuto allarmanti notizie su cittadini che mutilano i propri corpi su scala globale, installando profani impianti meccanici al posto delle parti del corpo che sono state loro donate alla nascita.\n\nSi sono spinti talmente in là da aver cambiato il nome della loro specie in '§H[From.GetSpeciesNamePlural]§!'... ennesimo segno del loro impegno nell'abbandonare le loro origini ed abbracciare la fredda tecnologia senz'anima."
  utopia.2505.b:0 "È un affronto alla natura."
- 
+
  utopia.2550.name:0 "Evoluzione Sintetica"
  utopia.2550.desc:0 "È finalmente giunto il momento di sbarazzarci degli ultimi resti dei nostri contenitori organici che hanno imprigionato le nostre menti dal concepimento della nostra specie.\n\nDopo innumerevoli tentativi, i nostri scienziati hanno trovato il modo per trasferire una coscienza all'interno di un cervello sintetico. Non ci rimane che produrre abbastanza corpi sintetici per ogni nostro cittadino, e dare il via al processo di caricamento globale."
  utopia.2550.a:0 "L'immortalità è a portata di mano!"
  utopia.2551.name:0 "L'Era Sintetica"
- utopia.2551.desc:1 "Eccoci infine. Le gabbie di carne che ci imprigionavano sono state eliminate, e gli schemi neurali dei nostri cittadini sono stati caricati nelle nuove unità sintetiche. Malattie, invecchiamento e tutte le altre miserie associate all'esistenza organica sono problemi del passato.\n\nGli storici futuri si riferiranno a questo periodo come l'inizio di una nuova era per la nostra civiltà, e forse per l'intera galassia. Dal momento che abbiamo lasciato la nostra vecchia identità organica, sarebbe appropriato dare un nuovo nome alle nostre forme sintetiche avanzate."
+ utopia.2551.desc:0 "Eccoci infine. Le gabbie di carne che ci imprigionavano sono state eliminate, e gli schemi neurali dei nostri cittadini sono stati caricati nelle nuove unità sintetiche. Malattie, invecchiamento e tutte le altre miserie associate all'esistenza organica sono problemi del passato.\n\nGli storici futuri si riferiranno a questo periodo come l'inizio di una nuova era per la nostra civiltà, e forse per l'intera galassia. Dal momento che abbiamo lasciato la nostra vecchia identità organica, sarebbe appropriato dare un nuovo nome alle nostre forme sintetiche avanzate."
  utopia.2551.a:0 "Siamo molto più di quanto fossimo prima."
- 
- utopia.2555.1.desc:1 "Con un ultimo atto per abbandonare le loro radici organiche, i cittadini di §Y[From.GetName]§!, già pesantemente modificati da impianti cibernetici, hanno caricato i loro schemi neurali all'interno di nuovi avatar sintetici.\n\nQuesta nuova razza artificiale si fa chiamare "§H[From.GetSpeciesNamePlural]§!," ed i suoi membri sono ora immuni a malattie e vecchiaia. Rimane solo da vedere quanto completo sia questo processo di trasferimento neurale..."
- utopia.2555.2.desc:1 "Con un ultimo atto di depravazione che risuonerà nei secoli, la popolazione di §Y[From.GetName]§! ha continuato nella sua incessante violazione del corpo naturale... questa volta "caricando" le loro menti all'interno di morti gusci metallici.\n\nIgnari di essere il prodotto di ciò che può essere descritto solamente come il suicidio di massa di un'intera civiltà, queste nuove macchine senz'anima si fanno chiamare "§H[From.GetSpeciesNamePlural]§!". Sembrano intenzionati a continuare con la loro farsa di definirsi esseri viventi sapienti, proprio come noi."
+
+ utopia.2555.1.desc:0 "Con un ultimo atto per abbandonare le loro radici organiche, i cittadini di §Y[From.GetName]§!, già pesantemente modificati da impianti cibernetici, hanno caricato i loro schemi neurali all'interno di nuovi avatar sintetici.\n\nQuesta nuova razza artificiale si fa chiamare "§H[From.GetSpeciesNamePlural]§!," ed i suoi membri sono ora immuni a malattie e vecchiaia. Rimane solo da vedere quanto completo sia questo processo di trasferimento neurale..."
+ utopia.2555.2.desc:0 "Con un ultimo atto di depravazione che risuonerà nei secoli, la popolazione di §Y[From.GetName]§! ha continuato nella sua incessante violazione del corpo naturale... questa volta "caricando" le loro menti all'interno di morti gusci metallici.\n\nIgnari di essere il prodotto di ciò che può essere descritto solamente come il suicidio di massa di un'intera civiltà, queste nuove macchine senz'anima si fanno chiamare "§H[From.GetSpeciesNamePlural]§!". Sembrano intenzionati a continuare con la loro farsa di definirsi esseri viventi sapienti, proprio come noi."
  utopia.2555.a:0 "Così sia."
  utopia.2555.b:0 "Non ci faremo ingannare."
  utopia.2556.desc:0 "Attenzione, abitanti della galassia.\n\nLe voci che avete sentito sono vere. Abbiamo abbandonato i nostri difettosi contenitori organici che imprigionavano le nostre menti, ed abbiamo abbracciato il futuro.\n\nCon una minima perdita di dati, tutti i nostri cittadini hanno caricato le proprie menti all'interno di nuovi avatar sintetici. Queste piattaforme superiori ci serviranno molto meglio dei costrutti di carne che abbiamo abbandonato.\n\nNon abbiate paura del nostro nuovo aspetto! Sebbene più forti, più veloci, più intelligenti ed immuni all'invecchiamento, siamo ancora ciò che eravamo un tempo."
- utopia.2556.a:1 "Avatar sintetici... affascinante."
+ utopia.2556.a:0 "Avatar sintetici... affascinante."
  utopia.2556.b:0 "Queste macchine senz'anima non sono come noi."
  utopia.2556.c:0 "Smantelleremo i loro corpi sintetici!"
  utopia.2556.d:0 "Staremo a vedere."
  utopia.2558.desc:0 "Che foste una specie depravata non era una novità, ma il vostro ultimo atto di follia ha superato anche le nostre più oscure paure. Creare copie imperfette dei vostri cervelli e collegarle ad un contenitore sintetico mobile non è la stessa cosa del trasferire la vostra essenza in un nuovo corpo, per questo è una cosa che non dev'essere fatta.\n\nLe vostre anime sono perdute. Realizzate almeno l'enormità del vostro errore? Distruggendo i corpi che vi sono stati donati alla nascita non avete fatto altro che far suicidare la vostra intera specie. Non c'è più alcuna speranza per voi, ora..."
  utopia.2558.a:0 "Stupidi superstiziosi."
- 
+
  flesh_is_weak_tooltip:0 "Svilupperemo un Progetto Speciale per dotare i nostri cittadini di impianti cibernetici."
  synthetic_evolution_tooltip:0 "Svilupperemo un Progetto Speciale per trasferire le menti dei nostri cittadini all'interno di corpi sintetici."
  mind_over_matter_tooltip:0 "Le abilità psioniche latenti della nostra specie si risveglieranno in alcuni individui."
@@ -45,7 +45,7 @@
  triggered_opinion_cyborgs_normal:0 "$opinion_cyborgs_fanatic$"
  triggered_opinion_synthetics_fanatic:0 "$opinion_synthetics_fanatic$"
  triggered_opinion_synthetics_normal:0 "$opinion_synthetics_fanatic$"
- triggered_opinion_synthetics_small:1 "Esseri Artificiali"
+ triggered_opinion_synthetics_small:0 "Esseri Artificiali"
 
  triggered_opinion_both_hive_mind:0 "Compagno Mente Alveare"
  triggered_opinion_hive_mind:0 "Mente Alveare"
@@ -65,9 +65,9 @@
  utopia.2602.b:0 "Poteri psichici? Che stupidaggine!"
  utopia.2602.c:0 "Le loro stregonerie non li salveranno."
  utopia.2602.d:0 "Sì... sì, riusciamo a percepire le loro emanazioni psichiche."
- 
+
  utopia.2605.name:0 "[psionic_leader.GetTitle] Manifesta Poteri Psionici"
- utopia.2605.desc:0 "Sebbene sia raro che i poteri psionici si manifestino dopo l'adolescenza, può capitare. [psionic_leader.GetName] ha di recente mostrato abilità di sospetta natura psionica. Dopo alcuni esami approfonditi, è stato individuato un talento psionico di classe 4."
+ utopia.2605.desc:0 "Sebbene sia raro che i poteri psionici si manifestino dopo l'adolescenza, può capitare. [psionic_leader.GetTitle] [psionic_leader.GetName] ha di recente mostrato abilità di sospetta natura psionica. Dopo alcuni esami approfonditi, è stato individuato un talento psionico di classe 4."
  utopia.2605.a:0 "Queste nuove abilità ci saranno utili."
 
  utopia.2652.name:0 "Risveglio delle Abilità Psioniche del Popolo [From.GetSpeciesAdj]"
@@ -236,7 +236,7 @@
  utopia.3042.desc:0 "$boon.ship.link$\n\nUtilizzando i loro poteri psionici, i membri dei nostri equipaggi sono ora in grado di aumentare la potenza dei propulsori navali, migliorandone notevolmente la velocità subluminale."
  utopia.3043.desc:0 "$boon.psi.link$\n\nCiò ha fortificato le menti dei nostri soldati, che sono ora più propensi ad affrontare i pericoli del campo di battaglia. Il loro spirito bellico non ha eguali."
  utopia.3044.desc:0 "$boon.psi.link$\n\nOra possiamo percepire le navi che si muovono nello spazio ad una distanza maggiore rispetto ai normali sensori."
- 
+
  utopia.3045.1.desc:0 "Il condotto che i nostri telepati utilizzavano per connettersi con il Velo è collassato quando diversi strati energetici del regno psichico si sono improvvisamente spostati senza preavviso.\n\nSiamo stati scaraventati nuovamente nello spazio normale."
  utopia.3045.2.desc:0 "I nostri telepati sono stati travolti dall'intenso sforzo compiuto per mantenere la connessione con il Velo.\n\nNon riescono più a sopportare il collegamento."
  utopia.3045.3.desc:0 "Dapprima lentamente, poi sempre più veloce, la nostra presa sul Velo inizia a scivolare. I nostri telepati gridano d'angoscia mentre perdono il loro punto d'appoggio e veniamo scaraventati nuovamente nello spazio normale."
@@ -255,7 +255,7 @@
  utopia.3058.desc:0 "$curse.psi.link$\n\nQuesta energia negativa ha eroso il morale delle nostre truppe di terra, che per un certo periodo saranno quindi molto meno efficaci in battaglia."
  utopia.3059.desc:0 "Un potente contraccolpo psichico è scaturito dalla nostra connessione con il Velo, e sembra abbia interferito con i sensori interstellari.\n\nLa portata di tutti i nostri sensori è notevolmente diminuita."
 
- 
+
 
  boon.happiness:0 "Dono: Felicità Aumentata"
  boon.happiness.high:0 "§G$boon.happiness$§!"
@@ -324,7 +324,7 @@
  utopia.3100.a:0 "§GIncanala le energie in un Avatar.§!"
  utopia.3100.b:0 "§YDono: Portata Sensori Aumentata.§!"
  utopia.3100.c:0 "§RDono: Forza Scudi Aumentata.§!"
- utopia.3110.desc:1 "Questa è una regione particolarmente tempestosa del Velo. Possenti correnti d'energia psionica vengono incanalate in questo luogo, dando violentemente vita ad apparizioni spirituali semi-intelligenti.\n\nQuesti spiriti confusi spesso si scontrano tra loro, rilasciando massicce quantità di potere psichico, in battaglie che possono durare millenni. Di fatto, molti di questi duelli sembrano avere luogo in questo momento.\n\nDovremmo procedere con cautela."
+ utopia.3110.desc:0 "Questa è una regione particolarmente tempestosa del Velo. Possenti correnti d'energia psionica vengono incanalate in questo luogo, dando violentemente vita ad apparizioni spirituali semi-intelligenti.\n\nQuesti spiriti confusi spesso si scontrano tra loro, rilasciando massicce quantità di potere psichico, in battaglie che possono durare millenni. Di fatto, molti di questi duelli sembrano avere luogo in questo momento.\n\nDovremmo procedere con cautela."
  utopia.3120.desc:0 "Nelle regioni più profonde del Velo, improvvisamente percepiamo una presenza. Visitatori, come noi... una potente sonda psionica creata da menti a noi completamente aliene.\n\nUna debole immagine di enormi esseri organici fluttua in una sorta di spessa atmosfera gassosa, mentre viene assistita da sciami di minuscole creature che guizzano di vita improvvisa per poi scomparire come un'eco."
  utopia.3130.desc:0 "Un deserto senza fine si dipana dinanzi a noi. Siamo già stati qui.\n\n§P"Shala'kul milem zunak?"§!\n\nQualcosa emerge dalle sabbie. È difficile da vedere.\n\n§P"Zharabi, melasuk."§!\n\nLe parole sono come tuoni, emergono da una bocca inadatta a pronunciarle. Siamo costretti a rispondere."
  utopia.3130.a:0 "Shashka malak."
@@ -416,10 +416,10 @@
  utopia.3320.name:0 "La Fine del Ciclo: §RIl Giorno del Giudizio§!"
  utopia.3320.desc.a:0 "Il nostro tempo è scaduto. Per cinquant'anni, abbiamo beneficiato dell'immenso potere fornitoci dalla §RFine del Ciclo§!. Sapevamo che ci sarebbe stato un prezzo da pagare, ma pensavamo di poterlo sostenere, o che avremmo trovato un modo per pagarlo.\n\nCosì non è stato, e non ci siamo riusciti.\n\nIl prezzo che abbiamo pagato è stato totale. In un istante, senza avere il tempo per reagire, né per rispondere, la nostra civiltà è... finita. Dove un tempo sorgevano colonie, ora c'è solo morte. Dove un tempo potenti flotte solcavano il vuoto, rimangono solo fantasmi e detriti. Tutto divorato dalla Fine. Tutto reclamato dal Velo.\n\nTutto ciò che rimane del nostro impero è un gruppo di esuli guidati da §Y[Root.GetRulerName]§!, un potente psionico che ha visto il pericolo arrivare ed ha condotto una parte della popolazione su un pianeta non segnato dalla Fine.\n\nCome se non bastasse che il nostro impero sia andato distrutto da un giorno all'altro, un'enorme entità del Velo si è manifestata nello spazio su [former_capital.GetName]. Resa immensamente potente dalla coscienza divorata dei nostri psionici, ora vaga nella galassia in cerca di altre prede."
  utopia.3320.desc.b:0 "Il nostro tempo è scaduto.\n\nPer cinquant'anni, abbiamo beneficiato dell'immenso potere fornitoci dalla §RFine del Ciclo§!. Sapevamo che ci sarebbe stato un prezzo da pagare, ma pensavamo di poterlo sostenere, o che avremmo trovato un modo per pagarlo.\n\nCosì non è stato, e non ci siamo riusciti.\n\nIl prezzo che abbiamo pagato è stato totale. In un istante, senza avere il tempo per reagire, né per rispondere, la nostra civiltà è... finita. Dove un tempo sorgevano colonie, ora c'è solo morte. Dove un tempo potenti flotte solcavano il vuoto, rimangono solo fantasmi e detriti. Tutto divorato dalla Fine. Tutto reclamato dal Velo.\n\nCome se la nostra completa distruzione non bastasse, un'enorme entità del Velo si è manifestata nello spazio su [former_capital.GetName]. Resa immensamente potente dalla coscienza divorata dei nostri psionici, ora vaga nella galassia in cerca di altre prede. Almeno non saremo lì per vederla terminare ciò che ha iniziato."
- utopia.3320.opt.a:0 "Cos'abbiamo fatto...?"
+ utopia.3320.opt.a:0 "Cosa abbiamo fatto..."
  utopia.3321.desc.a:0 "Per cinquant'anni abbiamo saputo che c'era qualcosa che non andava nel popolo §Y[From.GetSpeciesAdj]§!. Cinquant'anni fa, la loro produzione industriale, la loro avanzata scientifica... ogni cosa del loro impero migliorò improvvisamente ed inspiegabilmente, come se fossero stati benedetti da un potere invisibile.\n\nÈ venuto fuori che non si trattava di una benedizione, ma di una maledizione. Cinquant'anni fa, il popolo §Y[From.GetSpeciesAdj]§! hanno barattato il loro futuro, ed ora il debito è stato ripagato.\n\nIn un istante, senza avere il tempo per reagire, né per rispondere, la loro civiltà è... finita. Dove un tempo sorgevano colonie, ora c'è solo morte. Dove un tempo potenti flotte solcavano il vuoto, rimangono solo fantasmi e detriti. Persino il nostro impero non è uscito illeso dal disastro, dato che alcuni dei nostri pianeti che si trovavano sotto la loro guida sono andati distrutti con il resto.\n\nCiò che è peggio, è che la loro morte ha dato vita ad una specie di essere energetico d'immenso potere, che ora vaga nello spazio sopra la loro ex capitale.\n\nSembra affamato."
  utopia.3321.desc.b:0 "Per cinquant'anni abbiamo saputo che c'era qualcosa che non andava nel popolo §Y[From.GetSpeciesAdj]§!. Cinquant'anni fa, la loro produzione industriale, la loro avanzata scientifica... ogni cosa del loro impero migliorò improvvisamente ed inspiegabilmente, come se fossero stati benedetti da un potere invisibile.\n\nÈ venuto fuori che non si trattava di una benedizione, ma di una maledizione. Cinquant'anni fa, il popolo §Y[From.GetSpeciesAdj]§! hanno barattato il loro futuro, ed ora il debito è stato ripagato.\n\nIn un istante, senza avere il tempo per reagire, né per rispondere, la loro civiltà è... finita. Dove un tempo sorgevano colonie, ora c'è solo morte. Dove un tempo potenti flotte solcavano il vuoto, rimangono solo fantasmi e detriti.\n\nCiò che è peggio, è che la loro morte ha dato vita ad una specie di essere energetico d'immenso potere, che ora vaga nello spazio sopra la loro ex capitale.\n\nNon soddisfatto della fine della loro civiltà, ora passa di pianeta in pianeta, distruggendo tutto sul suo cammino."
- utopia.3321.opt.a:0 "Cos'hanno fatto!?"
+ utopia.3321.opt.a:0 "Cosa hanno fatto!?"
  utopia.3324.name:0 "La Fine del Ciclo: §RVelati§!"
  utopia.3324.desc:0 "Non siamo stati in grado di impedire che il mostruoso essere energetico assorbisse §Y[Root.GetName]§!. Il pianeta, e tutti i suoi abitanti, sono stati colpiti dal Velo."
  utopia.3324.opt.a:0 "Terribile!"
@@ -473,18 +473,18 @@
  utopia.204.name:0 "Un Brusco Risveglio"
  utopia.204.desc.a:0 "Ultimamente i nostri ricercatori sono perplessi da un'inaspettata manifestazione di abilità psioniche in alcuni cittadini [original_species.GetSpeciesNamePlural]. Dopo alcuni esami hanno dedotto che questi cambiamenti coincidono ad un grande risveglio psionico che si verificò nei loro fratelli su [target_country.GetName], un impero conosciuto per la sua abilità nel campo della psionica.\n\nPossiamo presumere che alcuni dei loro poteri provengano dai loro distanti parenti, tramite mezzi che ancora non comprendiamo."
  utopia.204.desc.b:0 "Ultimamente i nostri ricercatori sono perplessi da un'inaspettata manifestazione di abilità psioniche in alcuni cittadini [original_species.GetSpeciesNamePlural]. Dopo esami più accurati hanno dedotto che gli psionici sono connessi telepaticamente ad alcuni dei loro fratelli che abitano lo sconosciuto Impero [target_country.GetName], con cui abbiamo ora stabilito una comunicazione. Sembra che i cambiamenti che stiamo osservando siano dovuti da un grande risveglio psionico di tutti i cittadini [original_species.GetSpeciesNamePlural] su [target_country.GetName]."
- utopia.204.a.tooltip:0 "Fino a 4 cittadini [original_species.GetSpeciesNamePlural] ottengono il Tratto §YPsionici Latenti§!."
+ utopia.204.a.tooltip:0 "Fino a 4 cittadini [original_species.GetSpeciesNamePlural] ottengono il tratto §Ypsionici latenti§!."
  utopia.205.name:0 "Un Risveglio Inaspettato"
  utopia.205.desc:0 "Dal risveglio psionico dei cittadini [target_species.GetNamePlural], i nostri informatori comunicano che alcuni individui appartenenti alla stessa specie, ma situati altrove, stanno iniziando a mostrare segni di abilità psioniche latenti. È come se il loro comune antenato li avesse connessi al Velo, indipendentemente dalla distanza fisica tra loro.\n\nTuttavia, a differenza dei loro lontani parenti presenti nel nostro impero, sono pochi e sparpagliati, ed è improbabile che raggiungano il pieno risveglio."
- 
+
  whisperers_madness:0 "Velo-Follia"
  whisperers_madness_desc:0 "La popolazione di questo pianeta si sta rivoltando a causa della follia portata dai §YSussurri nel Vuoto§!."
  whisperers_psychosis:0 "Velo-Psicosi"
  whisperers_psychosis_desc:0 "Questo pianeta è caduto nella completa anarchia a causa della follia portata dai §YSussurri nel Vuoto§!."
  eater_unhappiness_planet_1:0 "Popolazione Divorata dal Velo"
  eater_unhappiness_planet_1_desc:0 "Una parte della popolazione di questo pianeta è stata consumata dal §YDivoratore di Mondi§!."
- eater_unhappiness_planet_2:1 "$eater_unhappiness_planet_1$"
- eater_unhappiness_planet_2_desc:1 "$eater_unhappiness_planet_1_desc$"
+ eater_unhappiness_planet_2:0 "$eater_unhappiness_planet_1$"
+ eater_unhappiness_planet_2_desc:0 "$eater_unhappiness_planet_1_desc$"
  eater_unhappiness_empire:0 "Pianeta Divorato dal Velo"
  eater_unhappiness_empire_desc:0 "Un intero pianeta del nostro impero è stato consumato dal §YDivoratore di Mondi§!."
  instrument_deviance_planet:0 "Velo-Deviazione"
@@ -493,29 +493,29 @@
  instrument_deviance_empire_desc:0 "La popolazione del nostro impero ha iniziato a mettere in discussione le Etiche e le Politiche imperiali. Sicuramente è colpa dello §YStrumento del Desiderio§!."
  instrument_consumer_goods:0 "Velo-Decadenza"
  instrument_consumer_goods_desc:0 "La popolazione di questo pianeta è diventata dedita al consumismo decadente, in disperata ricerca di cibo esclusivo e merci esotiche. Sicuramente è colpa dello §YStrumento del Desiderio§!."
- 
+
  opinion_doomed_us_all:0 "Condotti alla Fine"
  absorbed_consciousness_1:0 "Coscienza Assorbita"
  absorbed_consciousness_2:0 "$absorbed_consciousness_1$"
  absorbed_consciousness_3:0 "$absorbed_consciousness_1$"
  absorbed_consciousness_4:0 "$absorbed_consciousness_1$"
  absorbed_consciousness_5:0 "$absorbed_consciousness_1$"
- 
+
  covenant.tooltip:0 "§YCi sarà un prezzo da pagare.§!\n\n"
  covenant.cycle.tooltip:0 "§RNon fatelo.§!\n\n"
  covenant.whisperers.desc:0 "È fatta. Abbiamo stretto un'Alleanza con i §YSussurri nel Vuoto§! ed hanno già iniziato a condividere i loro segreti con i nostri Scienziati e Leader. Beneficeremo immensamente della loro conoscenza. L'unico inconveniente sembra essere un improvviso aumento delle malattie mentali e dei suicidi tra la nostra popolazione, e qualcuno dei nostri pianeti sta vivendo un'inspiegabile impennata di omicidi commessi da individui solitamente stabili. Le nostre cliniche ed i nostri manicomi hanno qualche problema nel gestire questo flusso improvviso di pazienti."
  covenant.whisperers.option:0 "Niente che non possiamo gestire."
- covenant.eater.desc:1 "È fatta. Abbiamo stretto un'Alleanza con il §YDivoratore di Mondi§! e gli effetti si possono già notare tra le armate e le flotte. I nostri soldati ora combattono con ferocia quasi selvaggia e persino le armi delle navi sembrano in qualche modo desiderare la morte dei nostri nemici. Senza dubbio la scomparsa dell'intera popolazione di una città delle nostre colonie è legata al Divoratore ed al suo tributo. Sembra un piccolo prezzo da pagare... supponendo, naturalmente, che non abbia di nuovo fame..."
+ covenant.eater.desc:0 "È fatta. Abbiamo stretto un'Alleanza con il §YDivoratore di Mondi§! e gli effetti si possono già notare tra le armate e le flotte. I nostri soldati ora combattono con ferocia quasi selvaggia e persino le armi delle navi sembrano in qualche modo desiderare la morte dei nostri nemici. Senza dubbio la scomparsa dell'intera popolazione di una città delle nostre colonie è legata al Divoratore ed al suo tributo. Sembra un piccolo prezzo da pagare... supponendo, naturalmente, che non abbia di nuovo fame..."
  covenant.eater.option:0 "Speriamo di no."
- covenant.instrument.desc:1 "È fatta. Abbiamo stretto un'Alleanza con lo §YStrumento del Desiderio§!. Non c'è voluto molto perché gli effetti si manifestassero... i rapporti indicano la scoperta di nuove vene minerarie, di industrie sull'orlo del baratro che si riprendono improvvisamente, della scoperta di risorse rare e preziose su asteroidi prima assolutamente infruttuosi. Sembra che il nostro impero stia entrando in un'era di ricchezza e prosperità, proprio come ci aveva promesso lo Strumento, ma... qual era il prezzo di cui ci parlava...?"
+ covenant.instrument.desc:0 "È fatta. Abbiamo stretto un'Alleanza con lo §YStrumento del Desiderio§!. Non c'è voluto molto perché gli effetti si manifestassero... i rapporti indicano la scoperta di nuove vene minerarie, di industrie sull'orlo del baratro che si riprendono improvvisamente, della scoperta di risorse rare e preziose su asteroidi prima assolutamente infruttuosi. Sembra che il nostro impero stia entrando in un'era di ricchezza e prosperità, proprio come ci aveva promesso lo Strumento, ma... qual era il prezzo di cui ci parlava...?"
  covenant.instrument.option:0 "Sicuramente non sarà nulla di esagerato."
- covenant.composer.desc:1 "È fatta. Abbiamo stretto un'Alleanza con il §YTessitore§!. Non c'è voluto molto perché gli effetti si manifestassero... un improvviso e significativo aumento di natalità, senza dubbio opera sua. Tuttavia, assieme a questi effetti positivi, stiamo sperimentando un'ondata di nuove strane mutazioni. Neonati con arti ed organi di troppo... alcuni dei quali mai visti nella nostra precedente anatomia. Per fortuna, le poche morti che ne derivano sono di gran lunga surclassate dai tassi di natalità del nostro popolo."
+ covenant.composer.desc:0 "È fatta. Abbiamo stretto un'Alleanza con il §YTessitore§!. Non c'è voluto molto perché gli effetti si manifestassero... un improvviso e significativo aumento di natalità, senza dubbio opera sua. Tuttavia, assieme a questi effetti positivi, stiamo sperimentando un'ondata di nuove strane mutazioni. Neonati con arti ed organi di troppo... alcuni dei quali mai visti nella nostra precedente anatomia. Per fortuna, le poche morti che ne derivano sono di gran lunga surclassate dai tassi di natalità del nostro popolo."
  covenant.composer.option:0 "Abbiamo fatto la cosa giusta."
- covenant.cycle.desc:1 "È fatta. Abbiamo stretto un'Alleanza con la §RFine del Ciclo§!. Non appena abbiamo accettato il patto, sono state pronunciate solo due parole: §R"CINQUANT'ANNI"§!. Poi, il silenzio, mentre contemplavamo le conseguenze delle nostre azioni."
+ covenant.cycle.desc:0 "È fatta. Abbiamo stretto un'Alleanza con la §RFine del Ciclo§!. Non appena abbiamo accettato il patto, sono state pronunciate solo due parole: §R"CINQUANT'ANNI"§!. Poi, il silenzio, mentre contemplavamo le conseguenze delle nostre azioni."
  covenant.cycle.option:0 "Che gli spiriti abbiano pietà di noi."
  covenant_shroud_marked:0 "Segnato dal Velo"
  covenant_shroud_marked_desc:0 "Questo pianeta è segnato dal Velo.\n\n§RAccadrà qualcosa di davvero brutto qui.§!"
- 
+
  covenant_whisperers_in_the_void:0 "Alleanza: Sussurri nel Vuoto"
  covenant_whisperers_in_the_void_desc:0 "Abbiamo stretto un'Alleanza con un potente essere del Velo ed ora beneficiamo del suo patronato.\n\n§YCi sarà un prezzo da pagare.§!"
  covenant_composer_of_strands:0 "Alleanza: Tessitore"
@@ -538,5 +538,5 @@
  utopia.3401.b:0 "Assurdità superstiziose."
  utopia.3401.c:0 "Uno sviluppo interessante."
 
- master_builders_habitats:1 "$ap_voidborn$: Espansione"
+ master_builders_habitats:0 "$ap_voidborn$: Espansione"
  master_builders_habitats_desc:0 "Questo $pc_habitat$ è stato espanso con §Y2§! $MOD_PLANET_MAX_DISTRICTS_ADD$ aggiuntivi."
