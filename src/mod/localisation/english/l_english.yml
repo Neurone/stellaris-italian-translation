@@ -1958,17 +1958,17 @@
 
  LEADER_IDLING_IN:1 "§GDisponibile§!"
  LEADER_MOVING_TO:0 "In viaggio verso $LOCATION|H$, arriverà tra $DAYS|Y$ giorno/i"
- LEADER_LEADING:1 "Sta guidando\n$LOCATION|H$"
- LEADER_TECHING:1 "Sta dirigendo una\nRicerca di $AREA|H$"
- LEADER_GOVERNING:1 "Sta governando\n$LOCATION|H$"
- LEADER_GOVERNING_CORE_SECTOR:1 "Sta governando il\n§HSettore primario$!"
- LEADER_GOVERNING_SECTOR:1 "Sta governando il\nSettore $LOCATION|H$"
+ LEADER_LEADING:1 "Impegnato al comando\n$LOCATION|H$"
+ LEADER_TECHING:1 "Impegnato a guidare una\nRicerca di $AREA|H$"
+ LEADER_GOVERNING:1 "Impegnato ad amministrare\n$LOCATION|H$"
+ LEADER_GOVERNING_CORE_SECTOR:1 "Impegnato ad amministrare il\n§HSettore primario$!"
+ LEADER_GOVERNING_SECTOR:1 "Impegnato ad amministrare il\nSettore $LOCATION|H$"
  LEADER_RULING:0 "Governa da $LOCATION|H$"
- LEADER_RESEARCHING:1 "Sta indagando su\n$LOCATION|H$"
- LEADER_SURVEYING:1 "Sta ispezionando\n$LOCATION|H$"
+ LEADER_RESEARCHING:1 "Impegnato in un'indagine su\n$LOCATION|H$"
+ LEADER_SURVEYING:1 "Impegnato in una ispezione\n$LOCATION|H$"
  LEADER_GALACTIC_COMMUNITY:1 "Sta rappresentando i nostri interessi nella $GALACTIC_COMMUNITY|H$"
  LEADER_FEDERATION:0 "Sta rappresentando i nostri interessi all'interno della $FEDERATION|H$."
- LEADER_INVESTIGATING:0 "Impegnato a ispezionare\n$LOCATION|H$"
+ LEADER_INVESTIGATING:0 "Impegnato in un'indagine su\n$LOCATION|H$"
 
  GOVERNOR:0 "§YGovernatore: $NAME|H$§!"
 
@@ -5112,7 +5112,7 @@
  EMERGENCY_FTL_NO_ESCAPE:0 "§RLa flotta non ha un luogo in cui fuggire.§!"
  ONLY_FEDERATION_LEADER_CAN_BUILD_SHIPS:2 "Solo il Leader della Federazione può costruire navi federali"
  FEDERATION_NAVAL_CAPACITY_FULL:0 "Costruendo questa nave la flotta federale raggiungerà la massima capacità!"
- COMMAND_LIMIT_FLEET_TOOLTIP:0 "$COMMAND_LIMIT$ Utilizzo: §Y$SIZE|0$/$MAX|0$§!"
+ COMMAND_LIMIT_FLEET_TOOLTIP:0 "Utilizzo $COMMAND_LIMIT$: §Y$SIZE|0$/$MAX|0$§!"
  NAVY_SIZE_TITLE:0 "Capacità Navale"
  NAVY_LIMIT_VALUE:1 "$NAVY_SIZE_TITLE$ $SIZE$/$LIMIT$"
  FLEET_SIZE_TITLE:2 "Dimensione Flotta"
@@ -5152,7 +5152,7 @@
 
  NAVY_SIZE_DESC:3 "§ESuperando la tua §H$NAVY_SIZE_TITLE$§! tutte le navi avranno costi di mantenimento aumentati. La §H$NAVY_SIZE_TITLE$§! viene principalmente aumentata dalla quantità di §HPOP§! e di §HOrmeggi delle Basi Stellari§!, oltre che da alcune §HTecnologie§! e §HTradizioni§!.§!"
  
- over_starbase_capacity:0 "Supera la Capacità di Basi Stellari"
+ over_starbase_capacity:0 "Stiamo superando la Capacità di Basi Stellari"
  
  STARBASE_CAPACITY_TITLE:0 "Capacità di Basi Stellari"
  STARBASE_CAPACITY_TOOLTIP:0 "Possiamo supportare un massimo di $MAX|0Y$ Basi Stellari aggiornate. Gli Avamposti non contano."
@@ -9838,11 +9838,11 @@
  ANOMALY_LEADER_LEVEL_DESC_INST:0 "§TLivello Scienziato: $VAL|Y$§!"
  ANOMALY_RESEARCH_TIME_HEADER:0 "Durata Studio: $TIME$\n\t   Base: $BASE_TIME|0Y$"
  ANOMALY_RESEARCH_TIME_MODIFIER:0 "   Difficoltà ($DIFFICULTY$:$LEVEL_DIFF|+=$):$DAYS_DIFF|-=0$"
- ANOMALY_RESEARCH_PROGRESS_DESC:0 "Avanzamento Studio: $PROGRESS|Y1$/$TOTAL|0Y$($SPEED|+=2$/Day)\n   Base: $BASE|1Y$\n"
+ ANOMALY_RESEARCH_PROGRESS_DESC:0 "Avanzamento Studio: $PROGRESS|Y1$/$TOTAL|0Y$ ($SPEED|+=2$/Giorno)\n   Base: $BASE|1Y$\n"
  ANOMALY_RESEARCH_DIFF_DESC:0 "Lo §Hscienziato§! trova quest'§HAnomalia§! $DIFFICULTY$ ($LEVEL_DIFF|+=$ livelli), quindi avrà bisogno di altri $DAYS_DIFF|-0$ giorni per studiarla"
  ANOMALY_RESEARCH_TOTAL_TIME:0 "Durata Totale: $TIME$"
  ANOMALY_SPEED_MODIFIER_DESC:1 "§HVelocità Studio Anomalia§!"
- ANOMALY_LEVEL_DESC_DELAYED:2 "Il livello di un'§HAnomalia§! indica la probabile complessità che si dovrà affrontare per studiarla. L'§HAbilità§! relativa dello scienziato ad essa assegnato determina quanto tempo gli occorrerà per studiarla."
+ ANOMALY_LEVEL_DESC_DELAYED:2 "Il livello di un'§HAnomalia§! riflette la complessità prevista per la sua ricerca. Il relativo livello di §HAbilità§! dello Scienziato assegnato determina il tempo che gli sarà necessario per completare la ricerca dell'§HAnomalia§!."
 
  ####################################
  # Edicts

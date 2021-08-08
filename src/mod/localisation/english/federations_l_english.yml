@@ -424,7 +424,7 @@
  federation_build_fleets_everyone_desc:0 "Ogni membro può ordinare la costruzione di navi per la Flotta Federale."
 
  FEDERATION_ONLY_LEADER_BUILDS_FLEETS:1 "Solo il leader della federazione può costruire flotte federali!"
- FROM_FEDERATION_PERKS:0 "Dai Vantaggi della Federazione"
+ FROM_FEDERATION_PERKS:0 "Dai Benefici della Federazione"
  FEDERATION_PRESIDENT:0 "§BPresidente§!"
  FEDERATION_COHESION:0 "Coesione"
  FEDERATION_LEVEL:0 "Level: $LEVEL|0$"
@@ -1491,7 +1491,7 @@
  IN_RECESS_HELP:0 "\n§HIl Senato è attualmente in pausa.§!\nDai il tuo Supporto alle Risoluzioni Proposte nella Coda per influenzare quale Risoluzione andrà in discussione quando comincerà la prossima Sessione."
 
  ENVOYS_HEADER:0 "§HEmissari§!"
- ENVOYS_STATUS:0 "$ASSIGNED|Y$ su $TOTAL|Y$ Emissari hanno incarichi\n\nGli Emissari possono essere inviati ad altri imperi per compiti diplomatici, per rappresentarti nella Comunità Galattica, o per mantenere la Federazione.\n\nAlcune §YScelte Civiche§!, §YEdifici§!, §YVantaggi della Federazione§! e la costruzione di un'§YAssemblea Interstellare§! possono fornire Emissari addizionali."
+ ENVOYS_STATUS:0 "$ASSIGNED|Y$ su $TOTAL|Y$ Emissari hanno incarichi\n\nGli Emissari possono essere inviati ad altri imperi per compiti diplomatici, per rappresentarti nella Comunità Galattica, o per mantenere la Federazione.\n\nAlcune §YScelte Civiche§!, §YEdifici§!, §YBenefici della Federazione§! e la costruzione di un'§YAssemblea Interstellare§! possono fornire Emissari addizionali."
  ASSIGN_ENVOY:0 "Assegna Emissario"
  ASSIGN_ENVOY_NOT_MEMBER_TOOLTIP:0 "§HAssegna Emissario§!\n§RDevi essere un membro della comunità Galattica per assegnare emissari§!"
  ASSIGN_ENVOY_TOOLTIP:0 "§HAssegna Emissario§!\n§GClic per aprire il pannello Assegna Emissario!"

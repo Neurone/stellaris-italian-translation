@@ -505,7 +505,7 @@
  # Edicts
  ####################################
  MESSAGE_INVALIDATED_EDICT_TITLE:0 "Editto Annullato"
- COUNTRY_EDICT_BECAME_INVALID:0 "L'Editto $EDICT|Y$ è stato annullato dal momento che le condizioni richieste non sono più soddisfatte."
+ COUNTRY_EDICT_BECAME_INVALID:0 "L'Editto $EDICT|Y$ è stato annullato dal momento che non rispetta più le precondizioni richieste."
  MESSAGE_EXPIRED_EDICT_TITLE:0 "Editto Scaduto"
  COUNTRY_EDICT_EXPIRED:0 "L'Editto $EDICT|Y$ che influenzava il nostro impero è scaduto."
  PLANET_EDICT_EXPIRED:0 "L'Editto $EDICT|Y$ che influenzava il Pianeta $PLANET$ è scaduto."
