@@ -12,3 +12,6 @@ tradurre e verificare [] perk => beneficio
 |nemesis_intel_l_english.yml| **da tradurre**|
 |tutorial_l_english.yml| **parziale**|
 
+
+
+[] verificare "Defending Armies" => "Eserciti di Difesa"
