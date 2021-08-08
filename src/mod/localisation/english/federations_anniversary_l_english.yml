@@ -175,7 +175,7 @@
 
  xeno_comedy_envoy:0 "Xeno Commedia"
  xeno_comedy_envoy_desc:0 "Le malefatte di un inviato straniero hanno provocato molta allegria nella nostra società."
- opinion_envoy_insult_take:0 "Inviato che insulta"
+ opinion_envoy_insult_taken:0 "Inviato che insulta"
  opinion_envoy_insult_laughed_at:0 "Inviato che se la ride"
 
  getenvoy_machine:0 "unità diplomatica"
@@ -310,7 +310,7 @@
  envoy_events.19.desc.egalitarian:0 "$envoy_events.18.desc.base$ $envoy_events.18.desc.egalitarian.base$ $envoy_events.19.desc.end$"
  envoy_events.19.desc.authoritarian:0 "$envoy_events.18.desc.base$ $envoy_events.18.desc.authoritarian.base$ $envoy_events.19.desc.end$"
  envoy_events.19.A:0 "Con le nostre parole convinceremo."
- opinione_discussione_ideologica:0 "Disputa ideologica"
+ opinion_ideological_dispute:0 "Disputa ideologica"
  federation_militarist_ideology:0 "Diffusione ideologica della federazione"
  federation_militarist_ideology_desc:0 "La nostra appartenenza alla federazione sta permettendo ai valori militaristi di diventare sempre più diffusi nella nostra nazione."
  federation_pacifist_ideology:0 "$federation_militarist_ideology$"

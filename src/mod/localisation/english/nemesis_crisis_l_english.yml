@@ -189,7 +189,7 @@
  unlock_crisis_cruiser:0 "§Y$crisis_cruiser_plural$§! sono ora disponibili per la costruzione"
  
  count_owned_army_trigger:0 "Numero di Eserciti Posseduti$CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$"
- count_owned_army_all_trigger:0 "$IS_ALL_NOT$ Eserciti Posseduti soddisfano i requisiti seguenti"
+ count_owned_army_all_trigger:0 "$IS_ALL_NOT$ gli Eserciti Posseduti soddisfano le seguenti condizioni"
 
  triggered_opinion_crisis_empire:0 "Impero della Crisi"
  triggered_opinion_crisis_empire_neighbor:0 "Impero della Crisi vicino"
