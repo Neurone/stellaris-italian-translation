@@ -1562,7 +1562,7 @@
  any_ground_combat_defender_trigger:0 "Qualunque esercito in difesa"
  effect_random_ground_combat_defender:0 "Esercito difensore casuale"
  effect_every_ground_combat_defender:0 "Ogni esercito in difesa"
- count_ground_combat_defender_trigger:0 "Numero di eserciti in difesa$CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$"
+ count_ground_combat_defender_trigger:0 "Numero di Eserciti di Difesa$CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$"
  count_ground_combat_defender_all_trigger:0 "$IS_ALL_NOT$ gli Eserciti di Difesa soddisfano le seguenti condizioni"
 
  TRIGGER_ROBOT_SPECIES:0 "$SPECIES|Y$ è una specie robotica"
