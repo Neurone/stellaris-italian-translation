@@ -1,6 +1,6 @@
 ﻿l_english:
- megastructure_demands_rejected:1 "Richiesta di Megastruttura Rifiutata"
- megastructure_demands_rejected_desc:1 "La POP è amareggiata perché non viene ascoltata."
+ megastructure_demands_rejected:0 "Richiesta di Megastruttura Rifiutata"
+ megastructure_demands_rejected_desc:0 "La POP è amareggiata perché non viene ascoltata."
  opinion_ringworld_terms_denied:0 "Richiesta Rifiutata"
  opinion_ringworld_terms_accepted:0 "Richiesta Accettata"
  mod_tradition_harmony_natural_equilibrium:0 "Dalla Tradizione §Y$tr_harmony_natural_equilibrium$§!:"

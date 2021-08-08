@@ -31,7 +31,7 @@
  RULER_JOB_NECROPHAGE_TRIGGER:0 "Questo lavoro può essere solo svolto da Pop Necrofagi Liberi che non vengono epurati."
  opinion_necrophage:0 "Sparizioni Misteriose"
  opinion_necrophage_our_species:0 "Necrofizzato la nostra Specie"
- disables_necrophage_features:0 "§RScegliendo questo Tratto di Ascensione verranno disabilitate le meccaniche Necrofaghe.§!"
+ disables_necrophage_features:0 "§RScegliendo questo Beneficio d'Ascensione verranno disabilitate le meccaniche Necrofaghe.§!"
  MESSAGE_NECROPHAGE_POPS_NECROPHAGED_TITLE:0 "Pop Necrofizzati"
  MESSAGE_NECROPHAGE_POPS_NECROPHAGED:0 "Abbiamo convertito $VALUE|Y$ £pops£ Pop alla nostra specie in una Cerimonia di Elevazione su $PLANET|Y$."
 

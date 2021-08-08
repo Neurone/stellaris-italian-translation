@@ -1387,7 +1387,7 @@
  seize_precursor_artifact:0 "Dichiara l'artefatto proprietà dell'impero e requisiscilo.\n\n"
  leave_precursor_artifact:0 "Lascia l'artefatto alle cure del collezionista."
  precursor.311.desc:0 "Saluti da [artifact_seller.Capital.GetName]. C'è una questione sulla quale il mio governo desidera discutere.\n\nSiamo a conoscenza che i vostri archeologi stanno studiando da un po' di tempo l'antica civiltà conosciuta col nome di [Root.GetPrecursorCiv]. È comprensibile, dato che un tempo i loro territori coprivano larga parte del vostro attuale impero.\n\nSta di fatto, che i loro confini si estendevano anche fino ai nostri territori, e che i nostri archeologi hanno scoperto un discreto numero di artefatti unici. Se per caso foste interessati, saremmo disposti a vendervene uno."
- precursor.311.a:0 "Un po' caro, ma accettiamo."
+ precursor.311.a:0 "Costoso, ma accettiamo."
  precursor.311.a.reply:0 "Eccellente. Organizzeremo subito il trasporto dell'artefatto verso [Root.Capital.GetName]."
  precursor.311.b:0 "Abbiamo una controproposta..."
  precursor.311.b.reply:0 "Sapete davvero come mercanteggiare, non ci aspettavamo di meno da voi. Accettiamo la vostra offerta."

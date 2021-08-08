@@ -721,10 +721,10 @@
 
  HAS_MEGASTRUCTURE:0 "Possiede la Megastruttura $TYPE|Y$"
  HAS_NOT_MEGASTRUCTURE:0 "NON possiede la Megastruttura $TYPE|Y$"
- NUM_ASCENSION_PERKS_NOT_TRIGGER:0 "Il numero di Bonus d'Ascensione NON è $COMPARATOR$ $NUM|Y$"
- NUM_ASCENSION_PERKS_TRIGGER:0 "Il numero di Bonus d'Ascensione è $COMPARATOR$ $NUM|Y$"
- NUM_ASCENSION_PERK_SLOTS_NOT_TRIGGER:0 "Il numero di Slot Bonus d'Ascensione NON è $COMPARATOR$ $NUM|Y$"
- NUM_ASCENSION_PERK_SLOTS_TRIGGER:0 "Il numero di Slot Bonus d'Ascensione è $COMPARATOR$ $NUM|Y$"
+ NUM_ASCENSION_PERKS_NOT_TRIGGER:0 "Il numero di Benefici d'Ascensione NON è $COMPARATOR$ $NUM|Y$"
+ NUM_ASCENSION_PERKS_TRIGGER:0 "Il numero di Benefici d'Ascensione è $COMPARATOR$ $NUM|Y$"
+ NUM_ASCENSION_PERK_SLOTS_NOT_TRIGGER:0 "Il numero di Slot Beneficio d'Ascensione NON è $COMPARATOR$ $NUM|Y$"
+ NUM_ASCENSION_PERK_SLOTS_TRIGGER:0 "Il numero di Slot Beneficio d'Ascensione è $COMPARATOR$ $NUM|Y$"
 
  NUM_SECTORS_TRIGGER:0 "Il numero di settori è $COMPARATOR$ $NUM|Y$"
  NUM_SECTORS_NOT_TRIGGER:0 "Il numero di settori NON è $COMPARATOR$ $NUM|Y$"
@@ -1257,8 +1257,8 @@
  set_halted_effect:0 "Megastruttura Ferma per $DAYS|Y$ Giorni."
  TRIGGER_HAS_TRADITION:0 "Possiede la Tradizione $TRADITION|Y$"
  TRIGGER_NOT_HAS_TRADITION:0 "NON possiede la Tradizione $TRADITION|Y$"
- TRIGGER_HAS_ASCENSION_PERK:0 "Possiede il Bonus d'Ascensione $TRADITION|Y$"
- TRIGGER_NOT_HAS_ASCENSION_PERK:0 "NON possiede il Bonus d'Ascensione $TRADITION|Y$"
+ TRIGGER_HAS_ASCENSION_PERK:0 "Possiede il Beneficio d'Ascensione $TRADITION|Y$"
+ TRIGGER_NOT_HAS_ASCENSION_PERK:0 "NON possiede il Beneficio d'Ascensione $TRADITION|Y$"
  TRIGGER_EXCESS_FOOD:0 "Possiede il $COMPARE$ $VAL0|0Y%$ di Cibo in eccesso"
  TRIGGER_NOT_EXCESS_FOOD:0 "NON possiede il $COMPARE$ $VAL0|0Y%$ di Cibo in eccesso"
  RESOURCE_MARKET_PRICE:0 "$TYPE$ per $AMOUNT$ unità di $RESOURCE$ è $COMPARE$ $VAL|Y$" #$TYPE$ = RESOURCE_MARKET_PRICE_NOT_SET/SELL/BUY
@@ -1716,9 +1716,9 @@
  HAS_MENACE_PERK_TRIGGER:0 "Ha il Beneficio Minaccia: $PERK|Y$"
  HAS_NOT_MENACE_PERK_TRIGGER:0 "Non ha il Beneficio Minaccia: $PERK|Y$"
  SELECT_CRISIS_PATH:0 "$COUNTRY$ adotta il $PATH$"
- UNLOCK_MENACE_PERK:0 "$COUNTRY$ sblocca il Perk Minaccia $PERK$"
+ UNLOCK_MENACE_PERK:0 "$COUNTRY$ sblocca il Beneficio Minaccia $PERK$"
  COMPLETE_CRISIS_OBJECTIVE:0 "L'obiettivo di crisi di $OBJ|Y$ è completato, garantendo $REWARD|G$ Menace."
- DEACTIVATE_MENACE_PERK:0 "Il Perk Minaccia $PERK$ è stato disattivato per $COUNTRY$"
+ DEACTIVATE_MENACE_PERK:0 "Il Beneficio Minaccia $PERK$ è stato disattivato per $COUNTRY$"
  ACTIVATE_CRISIS_PROGRESSION:0 "Permette al $COUNTRY$ di progredire verso il §Diventare il §Rischio§!§!."
 
  ADD_VICTORY_SCORE_EFFECT:0 "$VALUE$ viene aggiunto al Punteggio di Vittoria di $COUNTRY|Y$"
