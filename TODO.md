@@ -2,7 +2,8 @@ REVIEW
 
 tradurre e verificare [] perk => beneficio
 
-|federations_anniversary_l_english.yml| **parziale**|
+|federations_anniversary_l_english.yml, in progress traduzione, perk verificato
+
 |federations_l_english.yml| **parziale**|
 |l_english.yml| **parziale**|
 |megacorp_l_english.yml| **parziale**|
