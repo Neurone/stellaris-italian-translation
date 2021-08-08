@@ -1,31 +1,33 @@
 // Prepara i file per l'upload su Transifex
 
 const fs = require('fs');
-const { file } = require('grunt');
+const {
+    file
+} = require('grunt');
 const lineByLine = require('n-readlines');
 
 // Seleziona la cartella da esaminare
 let srcFolder = process.argv[2];
 if (srcFolder === '' || srcFolder === undefined) {
-    console.warn("Attenzione: serve specificare la cartella contenente i file da leggere come primo parametro.");
+    console.warn('Attenzione: serve specificare la cartella contenente i file da leggere come primo parametro.');
     return false;
 }
-if (!srcFolder.endsWith("/")) srcFolder += "/";
+if (!srcFolder.endsWith('/')) srcFolder += '/';
 
 // Seleziona la cartella di output
 let dstFolder = process.argv[3];
 if (dstFolder === '' || dstFolder === undefined) {
-    console.warn("Attenzione: serve specificare la cartella di output come secondo parametro.");
+    console.warn('Attenzione: serve specificare la cartella di output come secondo parametro.');
     return false;
 }
-if (!dstFolder.endsWith("/")) dstFolder += "/";
+if (!dstFolder.endsWith('/')) dstFolder += '/';
 
 // Elenca tutti i file della cartella
 fs.readdir(srcFolder, (err, files) => {
-    if (err) console.error(err)
+    if (err) console.error(err);
     else
         files.forEach(element => {
-            if (fs.lstatSync(srcFolder + element).isFile() && element != ".gitkeep")
+            if (fs.lstatSync(srcFolder + element).isFile() && element != '.gitkeep')
                 prepareFile(srcFolder, element);
         });
 });
@@ -41,31 +43,31 @@ function prepareFile(folder, fileName) {
         'flags': 'w'
     });
     file.on('error', function (err) {
-        console.error("> Error", err);
+        console.error(' Error', err);
     });
 
     while (line = liner.next()) {
-        line = line.toString("utf-8");
+        line = line.toString('utf-8');
         line = line.trimEnd();
-        if (!(line.startsWith("#") || line.startsWith(" #"))) {
+        if (!(line.startsWith('#') || line.startsWith(' #'))) {
             line = removeVersion(line);
             line = escapeInnerQuotes(line);
         }
-        file.write(line + "\n");
+        file.write(line + '\n');
         lineNumber++;
     }
 
-    console.log(fileName, lineNumber, "linee elaborate");
+    console.log(fileName, lineNumber, 'linee elaborate');
     file.end();
 }
 
 function removeVersion(line) {
-    return line.replace(/:\d\d/, ":").replace(/:\d/, ":");
+    return line.replace(/:\d\d/, ':').replace(/:\d/, ':');
 }
 
 function escapeInnerQuotes(line) {
-    line = line.replace(/: "/, ": <!<!<!").replace(/"$/, "<!<!<!").replace(/" #/, "<!<!<! #")
-    line = line.replace(/"/g, "\\\"")
-    line = line.replace(/<!<!<!/g, "\"")
+    line = line.replace(/: "/, ': <!<!<!').replace(/"$/, '<!<!<!').replace(/" #/, '<!<!<! #');
+    line = line.replace(/"/g, '\\"');
+    line = line.replace(/<!<!<!/g, '"');
     return line;
 }

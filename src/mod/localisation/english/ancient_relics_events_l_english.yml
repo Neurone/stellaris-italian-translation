@@ -900,7 +900,7 @@
  ancrel.8110.desc:0 "Alcuni antichi registri, parzialmente tradotti, sono stati ritrovati tra le rovine di [From.Planet.GetName]. §H[Root.GetLeaderName]§! riferisce che contengono diverse specifiche tecniche che potrebbero risultare molto utili per i nostri scienziati."
 
  ancrel.6049.name:0 "Fossili Scoperti su [Root.GetName]"
- ancrel.6049.desc:0 "In una valle celata su [Root.GetPlanetMoon] sono stati ritrovati alcuni resti fossili che non sembrano appartenere ad alcuna specie indigena di §H[Root.GetName]§!. Sono databili tutti all'incirca allo stesso periodo di 3,6 milioni di anni fa, con uno scarto di qualche secolo.\n\nOgnuna di queste specie sembra essersi evoluta all'interno della propria biosfera, e sembrano esser state tutte sapienti. Stranamente, ognuno degli individui fossilizzati ritrovati sembra aver subito una morte violenta."
+ ancrel.6049.desc:0 "In una valle nascosta su §H[Root.GetName]§ sono stati ritrovati alcuni resti fossili che non sembrano appartenere ad alcuna specie indigena. Risalgono tutti approssimativamente allo stesso periodo, nell'arco di pochi secoli, di circa 3,6 milioni di anni fa.\n\nOgnuna di queste specie sembra essersi evoluta in una sua peculiare biosfera, e tutte sembrano essere state senzienti. Stranamente, ogni singolo fossile trovato finora mostra i segni di una fine violenta."
 
  site_robot_debris:0 "Detriti Robotici"
  site_robot_debris_intro:0 "L'intera superficie di questo piccolo asteroide è ricoperta di detriti robotici, intrappolati nel debole campo gravitazionale. Sembrano essere tutti di natura militare, e sono abbastanza da creare diverse armate, se non fossero completamente distrutti ed impossibili da riparare."

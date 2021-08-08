@@ -30,7 +30,7 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |dip_messages_l_english.yml| completa|
 |diplo_stances_l_english.yml| completa|
 |distant_stars_l_english.yml| completa|
-|dlc_recommendations_l_english.yml| **parziale**|
+|dlc_recommendations_l_english.yml| completa|
 |event_chains_l_english.yml| completa|
 |events_2_l_english.yml| completa|
 |events_3_l_english.yml| completa|
