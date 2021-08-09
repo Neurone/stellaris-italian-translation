@@ -2,6 +2,8 @@ REVIEW
 
 tradurre e verificare [] perk => beneficio
 
+|tutorial_l_english.yml, in progress
+
 |federations_anniversary_l_english.yml, in progress traduzione, perk verificato
 
 |federations_l_english.yml| **parziale**|
@@ -11,5 +13,5 @@ tradurre e verificare [] perk => beneficio
 |nemesis_custodian_l_english.yml| **da tradurre**|
 |nemesis_espionage_l_english.yml| **da tradurre**|
 |nemesis_intel_l_english.yml| **da tradurre**|
-|tutorial_l_english.yml| **parziale**|
+
 

@@ -1372,7 +1372,7 @@
  TRIGGER_IS_VALID_PLANET_KILLER_TARGET:0 "Può colpire $TARGET|Y$ con il suo Distruttore Planetario"
  TRIGGER_NOT_IS_VALID_PLANET_KILLER_TARGET:0 "NON può colpire $TARGET|Y$ con il suo Distruttore Planetario"
 
- EFFECT_SET_HOME_BASE:0 "Imposta la Casa Base di $FLEET|Y$ su $BASE|Y$."
+ EFFECT_SET_HOME_BASE:0 "Imposta la Base di $FLEET|Y$ su $BASE|Y$."
 
  any_war_participant_trigger:0 "Qualunque Partecipante alla Guerra"
 

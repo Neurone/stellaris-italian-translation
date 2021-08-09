@@ -411,7 +411,7 @@
  PLANETARY_DEFICIT:0 "Deficit Planetario"
  PLANETARY_INPUT:0 "Mantenimento Risorse"
  DECISIONS_TITLE:0 "Decisioni"
- DECISIONS_TOOLTIP:0 "§SDecisioni§!\nQuesti sono ordini o pratiche specifiche per il pianeta, che possono essere imposte temporaneamente spendendo alcune delle nostre risorse."
+ DECISIONS_TOOLTIP:0 "§SDecisioni Planetarie§!\nSi tratta di ordini o pratiche specifiche del pianeta che possono essere temporaneamente applicate spendendo alcune delle nostre risorse."
  GOVERNOR_TITLE:0 "Governatore"
  TERRAFORM_TITLE:0 "Terraforma"
  BUILDING_DETAILS_TITLE:0 "Dettagli Edificio"
@@ -2915,7 +2915,7 @@
 
  cara_home_main.title:1 "$NAME_Caravaneer_Home$"
  cara_home_direct1:1 "La $NAME_Caravaneer_Home$ vi da il benvenuto nella $NAME_Chors_Compass$, casa ancestrale di disparate carovane galattiche e gioco d'azzardo. Avete sentito bene."
- cara_home_direct2:1 "Benvenuti sulla $NAME_Tradestation_Tungle$, il miglior luogo per il vostro tempo libero e casa base per le flotte dei Carovanieri!"
+ cara_home_direct2:1 "Benvenuti sulla $NAME_Tradestation_Tungle$, il miglior luogo per il vostro tempo libero e base per le flotte dei Carovanieri!"
  cara_home_direct3:1 "I sapienti con profili psicologici particolarmente vulnerabili alle attività che creano dipendenza sono pregati di stare lontani dalle $slots$ e dai $lootboxes$.\n\nSe odiano il divertimento, così sia!"
  cara_home_direct4:0 "Siete sapienti scommettitori?"
  cara_home_direct5:0 "Offriamo brividi ad alto e basso rischio, a seconda di ciò che si adatta meglio ai vostri gusti."
@@ -4157,17 +4157,17 @@
 
  #Tutorial
  TUTORIAL_GOVERNMENTVIEW_MARKET_TITLE:0 "Il Mercato"
- TUTORIAL_GOVERNMENTVIEW_MARKET_DESC:0 "Tramite la schermata del §SMercato§! possiamo acquistare e vendere risorse. All'inizio si tratterà solamente di un mercato interno ma, se abbastanza imperi ci contatteranno, potremmo creare un §SMercato Galattico§!.\n\nLe risorse possono essere acquistate e vendute tramite gli appositi pulsanti, ma dobbiamo prestare attenzione alla variazione del loro prezzo in base alla domanda ed all'offerta. In questa sezione possono anche essere stipulati accordi §SMensili§!."
+ TUTORIAL_GOVERNMENTVIEW_MARKET_DESC:0 "Tramite la schermata del §SMercato§! possiamo acquistare e vendere risorse. All'inizio si tratterà solamente di un mercato interno ma, se abbastanza imperi ci contatteranno, potremmo creare un §SMercato Galattico§!.\n\nLe risorse possono essere acquistate e vendute tramite gli appositi pulsanti, ma dobbiamo prestare attenzione alla variazione del loro prezzo in base alla domanda e all'offerta. In questa sezione possono anche essere stipulati accordi §SMensili§!."
  TUTORIAL_GOVERNMENTVIEW_SLAVE_MARKET_TITLE:0 "Il Mercato degli Schiavi"
  TUTORIAL_GOVERNMENTVIEW_SLAVE_MARKET_DESC:1 "Si dice spesso che la vita è a buon mercato, ma lo sostengono solamente coloro che non devono affrontare i costi di spedizione interplanetari e le tasse d'importazione.\n\nIl §SMercato degli Schiavi§! ci permette di acquistare e vendere §SPOP§! che verrà automaticamente consegnata sul pianeta selezionato."
  TUTORIAL_TRADE_VIEW_TITLE:0 "Rotte Commerciali"
  TUTORIAL_TRADE_VIEW_DESC:1 "Man mano che il nostro impero crescerà, il §SCommercio§! tra i nostri pianeti diverrà molto importante per la nostra economia. Le §SBasi Stellari§! acquisiscono il §SValore Commerciale§! all'interno dei loro sistemi e lo reindirizzano verso la §SCapitale§!, dove verrà convertito in §SCrediti Energetici§!.\n\nCostruendo degli §SHub Commerciali§! facciamo sì che una §SBase Stellare§! possa acquisire anche il §SValore Commerciale§! dei sistemi adiacenti. Le Rotte Commerciali ricche possono attirare §SPirati§!, sebbene possano essere contrastati da flotte di §SPattuglia§!, e da §SModuli Difensivi§! delle §SBasi Stellari§!. I §SModuli Hangar§! risultano particolarmente efficaci in questo caso."
  TUTORIAL_PLANETVIEW_CORPORATE_TITLE:0 "Panoramica Corporativa"
- TUTORIAL_PLANETVIEW_CORPORATE_DESC:0 "La scheda della corporazione permette alle §SMegacorporazioni§! di costruire §SFiliali§! sui pianeti degli altri imperi, a patto che abbiano firmato i documenti necessari. Una volta costruita una Filiale, possiamo anche visualizzarla ed aggiornarla. Come sappiamo, le grandi Corporazioni desiderano solamente il meglio per i propri clienti, nonostante gli eventi del 23° ciclo."
+ TUTORIAL_PLANETVIEW_CORPORATE_DESC:0 "Il pannello della corporazione permette alle §SMegacorporazioni§! di costruire §SFiliali§! sui pianeti degli altri imperi, a patto che abbiano firmato i documenti necessari. Una volta costruita una Filiale, possiamo anche visualizzarla ed aggiornarla. Come sappiamo, le grandi Corporazioni desiderano solamente il meglio per i propri clienti, nonostante gli eventi del 23° ciclo."
  TUTORIAL_GOVERNMENTVIEW_POLICIES_TITLE:0 "Politiche"
- TUTORIAL_GOVERNMENTVIEW_POLICIES_DESC:0 "La scheda delle §SPolitiche§! racchiude tutte le politiche governative che hanno effetto sull'intero impero.\n\nSpesso sono presenti alcune posizioni da prendere riguardo ogni §SPolitica§!, sebbene potremmo essere limitati dalla tecnologia e dalle nostre §SEtiche§!." #
+ TUTORIAL_GOVERNMENTVIEW_POLICIES_DESC:0 "Il pannello delle §SPolitiche§! racchiude tutte le politiche governative che hanno effetto sull'intero impero.\n\nSpesso sono presenti alcune posizioni da prendere riguardo ogni §SPolitica§!, sebbene potremmo essere limitati dalla tecnologia e dalle nostre §SEtiche§!." #
  TRADE_VIEW_DESC:0 "Man mano che il nostro impero crescerà, il §SCommercio§! tra i nostri pianeti diverrà molto importante per la nostra economia. Le §SBasi Stellari§! con degli §SHub Commerciali§! acquisiscono il §SValore Commerciale§! all'interno dei loro sistemi e lo reindirizzano verso la §SCapitale§!, dove verrà convertito in §SCrediti Energetici§!.\n\nPossedere più §SHub Commerciali§! permette ad una §SBase Stellare§! di acquisire anche il §SValore Commerciale§! dei sistemi adiacenti. Le Rotte Commerciali ricche possono attirare §SPirati§!, sebbene possano essere contrastati da flotte di §SPattuglia§!, e da §SModuli Difensivi§! delle §SBasi Stellari§!. I §SModuli Hangar§! risultano particolarmente efficaci in questo caso."
- PLANETVIEW_CORPORATE_DESC:0 "La scheda della corporazione permette alle §SMegacorporazioni§! di costruire §SFiliali§! sui pianeti degli altri imperi, a patto che abbiano firmato i documenti necessari. Una volta costruita una Filiale, possiamo anche visualizzarla ed aggiornarla. Come sappiamo, le grandi Corporazioni desiderano solamente il meglio per i propri clienti, nonostante gli eventi del 23° ciclo."
+ PLANETVIEW_CORPORATE_DESC:0 "Il pannello della corporazione permette alle §SMegacorporazioni§! di costruire §SFiliali§! sui pianeti degli altri imperi, a patto che abbiano firmato i documenti necessari. Una volta costruita una Filiale, possiamo anche visualizzarla ed aggiornarla. Come sappiamo, le grandi Corporazioni desiderano solamente il meglio per i propri clienti, nonostante gli eventi del 23° ciclo."
  RESETTLE_NOT_OWNER:0 "Dobbiamo possedere il pianeta per riallocare la POP."
  RESETTLE_LIST_ENTRY:0 "$PLANET$ / $TYPE$ / $HABIT$ / $JOBS$ / £housing£ $HOUSING$"
  RESETTLE_LIST_JOBS:0 "£job£ $JOBS$"

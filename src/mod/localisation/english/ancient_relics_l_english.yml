@@ -29,13 +29,13 @@
  MINOR_ARTIFACTS:0 "Artefatti Minori"
  RELICS_FOUND:0 "Reliquie Ritrovate"
  RELICS_FOUND_TOOLTIP:0 "Il nostro impero ha ritrovato $NUM|Y$ Reliquia/e"
- ACTIVATE_RELIC_FOR_TRIUMPH:0 "Attivare il Tripudio da Reliquia"
+ ACTIVATE_RELIC_FOR_TRIUMPH:0 "Attivare Reliquia per il Trionfo"
  CLICK_ACTIVATE_RELIC_FOR_TRIUMPH:0 "§GClicca per $ACTIVATE_RELIC_FOR_TRIUMPH$§!"
- ACTIVATE_RELIC_FOR_TRIUMPH_TOOLTIP:0 "Clicca su una Reliquia per attivare un Tripudio ed ottenere effetti imperiali temporanei."
- ACTIVE_TRIUMPH:0 "Tripudio Attivo"
- ACTIVE_TRIUMPH_TEXT:0 "Tripudio Attivo Per:"
+ ACTIVATE_RELIC_FOR_TRIUMPH_TOOLTIP:0 "Clicca su una Reliquia per attivare un Trionfo e ottenere effetti temporanei in tutto l'impero."
+ ACTIVE_TRIUMPH:0 "Trionfo Attivo"
+ ACTIVE_TRIUMPH_TEXT:0 "Trionfo Attivo Per:"
  ACTIVE_TRIUMPH_VALUE:0 "£time£ $VALUE|0$"
- ACTIVE_TRIUMPH_TOOLTIP:0 "Attualmente '$NAME|Y$' è attivo.\nIl Tripudio sarà attivo per altri $NUM|Y0$ giorno/i."
+ ACTIVE_TRIUMPH_TOOLTIP:0 "Attualmente '$NAME|Y$' è attivo.\nIl Trionfo sarà attivo per altri $NUM|Y0$ giorno/i."
  ACTIVE_EFFECTS:0 "§EEffetti Attivi:§!"
  PASSIVE_EFFECTS:0 "§EEffetti Passivi:§!"
  PASSIVE_EFFECTS_RESOURCE_TOOLTIP:0 "$NAME$: §G+$AMOUNT|*0$§! "
@@ -49,7 +49,7 @@
 
  #Tutorial
  TUTORIAL_RELICS_VIEW_TITLE:0 "Reliquie ed Artefatti Minori"
- TUTORIAL_RELICS_VIEW_DESC:0 "La schermata delle Reliquie permette di visualizzare ed attivare le §YReliquie§!; consente anche di prendere decisioni riguardo gli §YArtefatti Minori§!. Le decisioni indicate come "(Decisione Planetaria)" vengono mostrate qui solo per comodità e possono essere attivate dalla schermata delle Decisioni Planetarie."
+ TUTORIAL_RELICS_VIEW_DESC:0 "Il pannello delle Reliquie permette di visualizzare ed attivare le §YReliquie§!; consente anche di prendere decisioni riguardo gli §YArtefatti Minori§!. Le decisioni indicate come "(Decisione Planetaria)" vengono mostrate qui solo per comodità e possono essere anche promulgate dal pannello delle Decisioni Planetarie."
 
  TUTORIAL_ARCHAEOLOGY_VIEW_TITLE:0 "Archeologia"
  TUTORIAL_ARCHAEOLOGY_VIEW_DESC:0 "La finestra dell'Archeologia mostra i dettagli del §YSito Archeologico§! selezionato. Ogni volta che vengono compiuti progressi, puoi rivedere le fasi precedenti cliccando sulle icone runiche.\n\nPer svelare i segreti di un Sito, uno Scienziato dovrà compiere una §YSvolta Archeologica§! ed avanzare verso le sue varie fasi. Gli Scienziati con §YTratti rilevanti ed Abilità maggiori§! accelereranno l'avanzamento delle fasi, mentre un alto livello di Difficoltà del Sito lo rallenteranno. Ogni Scienziato che studia un Sito abbastanza a lungo, accumulerà §YIndizi§! che lo porteranno più facilmente a compiere una Svolta Archeologica."
@@ -241,7 +241,7 @@
  ##################
  # MINOR ARTIFACTS
  ##################
- artifact_sell_collector:0 "Vendi ad un Collezionista Privato"
+ artifact_sell_collector:0 "Vendi a Collezionisti Privati"
  artifact_sell_collector_desc:0 "Metti all'asta alcuni dei nostri Artefatti Minori per i collezionisti privati."
  artifact_arcane_deciphering:0 "Ingegneria Inversa sulla Tecnologia Arcana"
  artifact_arcane_deciphering_desc:0 "Smonta e studia alcuni dei nostri Artefatti Minori per vedere quali intuizioni porteranno alla nostra ricerca scientifica."
@@ -587,7 +587,7 @@
  evermore_joy:0 "Sempre più divertimento"
  evermore_joy_desc:0 "La popolazione di questo mondo può vivere le proprie fantasie insieme alla popolazione digitalizzata nel paradiso dell'Evermore."
  drums_of_war:0 "Tamburi di Guerra"
- ether_drake_triumph:0 "Trionfo sul Drago Etereo"
+ ether_drake_triumph:0 "Trionfo del Drago Etereo"
  worm_scales:0 "Influenza delle Scaglie del Verme"
  unbidden_ritual:0 "Rituale dell'Indesiderato"
  contingency_calculation:0 "Calcolo del Contingente"

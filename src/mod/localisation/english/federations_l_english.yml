@@ -21,7 +21,7 @@
  origin_post_apocalyptic_desc:0 "Battezzata dal fuoco nucleare, questa civiltà ha affrontato l'annientamento totale - ed è sopravvissuta. Devastati ma incessanti, hanno ricostruito la civiltà dalle ceneri del vecchio mondo."
  origin_shattered_ring:0 "Anello in rovina"
  origin_shattered_ring_desc:1 "Questa civiltà abita un Mondo ad Anello costruito da precursori sconosciuti. Se sarà compreso e completamente riparato, garantirà loro un grande potere."
- origin_tooltip_shattered_ring_effects:0 "Comincia con un §YMondo ad Anello§! parzialmente ditrutto come pianeta natale.\nIl Mondo ad Anello inizierà con un §Y$d_arcane_generator$§! che è in grado di mantenere alcuni dei tuoi segmenti.\nLa preferenza di abitabilità è impostata su §Y$trait_pc_ringworld_habitable_preference$§!, rendendo indesiderabili altri tipi di insediamento."
+ origin_tooltip_shattered_ring_effects:0 "Comincia con un §YMondo ad Anello§! parzialmente distrutto come pianeta natale.\nIl Mondo ad Anello inizierà con un §Y$d_arcane_generator$§! che è in grado di mantenere alcuni dei tuoi segmenti.\nLa preferenza di abitabilità è impostata su §Y$trait_pc_ringworld_habitable_preference$§!, rendendo indesiderabili altri tipi di insediamento."
  origin_tooltip_shattered_ring_effects_lithoid:0 "§R- ATTENZIONE: Origine sfidante per i Litoidi a causa della scarsità di minerali.§!\n$origin_tooltip_shattered_ring_effects$"
  origin_remnants:0 "Resti"
  origin_remnants_desc:0 "Questa civiltà una volta si espandeva nel vuoto, controllando gran parte della Galassia. Alla fine furono sconfitti e quasi distrutti, ma dopo un lungo periodo di decadenza stanno tornando alle stelle."
@@ -31,13 +31,13 @@
  origin_tooltip_tree_effects:0 "Il nostro Alveare ottiene molti bonus vivendo su un pianeta con un Albero della Vita presente, o subisce penalità se è assente. Le navi colonia sono più costose, ma forniranno ai nuovi pianeti il ​​germoglio del proprio giovane Albero."
  origin_lithoid:0 "Nascita calamitosa"
  origin_lithoid_desc:0 "Non nativi del loro "pianeta natale", questi Litoidi arrivarono lì quando un meteorite si schiantò sul pianeta e uccise la maggior parte della vita nativa."
- origin_tooltip_lithoid_effects:0 "Comincia con un deposito §YEnorme Cratere§! sul tuo pianeta natale, che fornisce disrtetti totali e distretti minerari addizionali.\nPuò costruire navi colonia meteoriche che viaggiano a grande velocità ma danneggiano i loro pianeti bersaglio."
+ origin_tooltip_lithoid_effects:0 "Comincia con un deposito §YEnorme Cratere§! sul tuo pianeta natale, che fornisce distretti totali e distretti minerari addizionali.\nPuò costruire navi colonia meteoriche che viaggiano a grande velocità ma danneggiano i loro pianeti bersaglio."
  origin_machine:0 "Consolidamento delle risorse"
  origin_machine_desc:0 "Questa Intelligenza Meccanica ha consolidato da tempo tutte le risorse del suo sistema domestico nel suo mondo capitale, coprendolo interamente con Macchinari."
  origin_tooltip_machine_effects:0 "Comincia con un §YMondo Meccanico§! come pianeta natale"
 
  d_arcane_generator:0 "Generatore Arcano"
- d_arcane_generator_desc:0 "Questa antica macchina sembra rispondere alle nostre esigenze producendo le risorse necessarie al mentenimento di alcuni dei nostri segmenti."
+ d_arcane_generator_desc:0 "Questa antica macchina sembra rispondere alle nostre esigenze producendo le risorse necessarie al mantenimento di alcuni dei nostri segmenti."
  d_decrepit_tunnels_1:1 "£blocker£ Tunnel decrepiti"
  d_decrepit_tunnels_1_desc:0 "Questi antichi e decrepiti tunnel non sono mai stati esplorati o ripuliti."
  d_decrepit_tunnels_2:0 "$d_decrepit_tunnels_1$"
@@ -82,7 +82,7 @@
  mega_shipyard_2:0 "Nucleo del $mega_shipyard_3$"
  mega_shipyard_2_DESC:0 "Il nucleo del $mega_shipyard_3$ contiene gran parte delle infrastrutture necessarie per spostare ed elaborare le grandi quantità di materiali necessari per alimentare gli ormeggi di produzione."
  mega_shipyard_3:0 "Mega Cantiere Navale"
- mega_shipyard_3_DESC:0 "Con una moltitudine di ormeggi per la produzione navale riforniti da un nucleo di elaborazione iper-efficiente, la capacità produttiva del Mega Cantiere Navale eclissa quella di qualsiasi altra Base Stellare."
+ mega_shipyard_3_DESC:0 "Con una moltitudine di ormeggi per la produzione navale riforniti da un nucleo di elaborazione iper efficiente, la capacità produttiva del Mega Cantiere Navale eclissa quella di qualsiasi altra Base Stellare."
  mega_shipyard_ruined:0 "$mega_shipyard_3$ in rovina"
  mega_shipyard_ruined_DESC:0 "Questo $mega_shipyard_3$ non costruirà alcuna nave senza ingenti riparazioni."
  mega_shipyard_ruined_MEGASTRUCTURE_DETAILS:0 "Questo $mega_shipyard_3$ ha visto giorni migliori. Non costruirà più alcuna nave senza ingenti riparazioni."
@@ -113,13 +113,13 @@
  SHIP_AURA_PD_PENETRATION:0 "Emettitori ECM"
  SHIP_AURA_BOMBARDMENT:0 "Impianto Munizioni"
 
- START_SCREEN_SRW:0 "Se mai abbiamo saputo come la nostra gente è arrivata su [GetHomeWorldName], la nostra storia lo ha dimenticato da tempo. Quello che sappiamo è che poco più di 2000 anni fa un inconcepibile cataclisma ha distrutto gran parte dell'Anello e ucciso la maggior parte della popolazione, e che la nostra gente è sorta da quelle rovine.\n\nLa nostra civiltà è cresciuta, fiorita e ora è pronta per esplorare la galassia -di nuovo o per la prima volta. Ma nonostante tutti i nostri progressi, abbiamo ancora molta strada da fare prima di poter capire e riparare il Ringworld che è la nostra casa."
+ START_SCREEN_SRW:0 "Se mai abbiamo saputo come la nostra gente è arrivata su [GetHomeWorldName], la nostra storia lo ha dimenticato da tempo. Quello che sappiamo è che poco più di 2000 anni fa un inconcepibile cataclisma ha distrutto gran parte dell'Anello e ucciso la maggior parte della popolazione, e che la nostra gente è sorta da quelle rovine.\n\nLa nostra civiltà è cresciuta, fiorita e ora è pronta per esplorare la galassia, di nuovo o per la prima volta. Ma nonostante tutti i nostri progressi, abbiamo ancora molta strada da fare prima di poter capire e riparare il Mondo ad Anello che è la nostra casa."
 
- START_SCREEN_REMNANTS:0 "Una volta, il nostro impero si esteedeva nel vuoto. Una volta, le nostre flotte controllavano gran parte della Galassia. Poi è arrivata la sconfitta e La Caduta. Finalmente, dopo millenni di purgatorio, è tempo di tornare alle stelle! A lungo la nostra civiltà si è ricostruita, fino al punto del viaggio interstellare. La galassia sarà di nuovo nostra!\n\nMolte regioni su [GetHomeWorldName] sono ancora in rovina, liberare queste aree potrebbe rivelare risorse perdute e tecnologia dimenticata."
+ START_SCREEN_REMNANTS:0 "Una volta, il nostro impero si estendeva nel vuoto. Una volta, le nostre flotte controllavano gran parte della Galassia. Poi è arrivata la sconfitta e La Caduta. Finalmente, dopo millenni di purgatorio, è tempo di tornare alle stelle! A lungo la nostra civiltà si è ricostruita, fino al punto del viaggio interstellare. La galassia sarà di nuovo nostra!\n\nMolte regioni su [GetHomeWorldName] sono ancora in rovina, liberare queste aree potrebbe rivelare risorse perdute e tecnologia dimenticata."
 
  START_SCREEN_TREE:0 "Quando la nostra coscienza collettiva si è svegliata, abbiamo servito l'Albero. E l'Albero ci ha servito. Ci prendiamo cura dell'Albero, nutriamo l'Albero, proteggiamo l'Albero. E l'Albero ci nutre. Per il bene dell'Albero, ci siamo sparsi su [GetHomeWorldName], piantando e proteggendo i germogli dell'Albero ovunque andassimo.\n\nIl nostro mondo ha servito l'Albero per secoli ormai, eppure temiamo che l'Albero non sia del tutto sicuro poiché abbiamo imparato qualcosa sui pericoli che potrebbero distruggere un pianeta. Sappiamo da tempo che questo non è l'unico mondo; la galassia è piena di pianeti senza Albero e noi desideriamo cambiare tutto questo. L'Albero deve essere protetto. L'Albero deve diffondersi. L'Albero deve Crescere."
 
- START_SCREEN_LITHOID:0 "Sebbene le nostre vere origini siano sconosciute, sappiamo che i nostri antenati presapienti arrivarono su un vasto meteorite che si schiantò contro [GetHomeWorldName] in un cataclisma di fuoco che spazzò via la maggior parte degli abitanti nativi.\n\nDa allora, il primo [GetSpeciesName] primitivo si è diffuso su [GetHomeWorldName], si è evoluto e si è moltiplicato. La nostra civiltà si è diffusa e ha prosperato, e con l'invenzione dell'Hyperdrive siamo pronti per esplorare la galassia."
+ START_SCREEN_LITHOID:0 "Sebbene le nostre vere origini siano sconosciute, sappiamo che i nostri antenati pre sapienti arrivarono su un vasto meteorite che si schiantò contro [GetHomeWorldName] in un cataclisma di fuoco che spazzò via la maggior parte degli abitanti nativi.\n\nDa allora, il primo [GetSpeciesName] primitivo si è diffuso su [GetHomeWorldName], si è evoluto e si è moltiplicato. La nostra civiltà si è diffusa e ha prosperato, e con l'invenzione dell'Iperguida siamo pronti per esplorare la galassia."
 
  rediscover_tech:0 "\nQueste rovine probabilmente contengono parte della nostra conoscenza perduta."
 
