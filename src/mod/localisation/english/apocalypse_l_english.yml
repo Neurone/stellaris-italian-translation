@@ -370,7 +370,7 @@
  NUM_HYPERLANES:0 "Densità Iperlinee"
 
  pc_ringworld_shielded:0 "Segmento Schermato"
- pc_ringworld_shielded_desc:0 "Questa sezione del Pianeta ad Anello è schermata da una sorta di barriera energetica impenetrabile che blocca ogni scansione della superficie."
+ pc_ringworld_shielded_desc:0 "Questa sezione del Pianeta Anello è schermata da una sorta di barriera energetica impenetrabile che blocca ogni scansione della superficie."
  pc_habitat_shielded:0 "Habitat Schermato"
  pc_habitat_shielded_desc:0 "Questo Habitat è schermato da una sorta di barriera energetica impenetrabile che blocca ogni scansione dell'interno."
  FLEETORDER_EXPLORE_BUTTON:0 "Esplora Sistema"

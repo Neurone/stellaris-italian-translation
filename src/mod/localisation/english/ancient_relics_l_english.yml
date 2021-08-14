@@ -22,8 +22,8 @@
  tech_ring_world_desc:0 "$ring_world_1_MEGASTRUCTURE_DETAILS$"
  RING_WORLD_SHOW_NAME:0 "$pc_ringworld_habitable$"
 
- add_research_options_galactic_wonders_utopia:0 "Opzioni di ricerca ottenute:\n£engineering_research£§Y$tech_ring_world$§!\n£physics_research£§Y$tech_dyson_sphere$§!\nIl Pianeta ad Anello e la Sfera di Dyson sono Megastrutture incredibilmente potenti."
- add_research_options_galactic_wonders_utopia_megacorp:0 "Opzioni di ricerca ottenute:\n£engineering_research£§Y$tech_ring_world$§!\n£physics_research£§Y$tech_matter_decompressor$§!\n£physics_research£§Y$tech_dyson_sphere$§!\nIl Pianeta ad Anello, il Decompressore di Materia e la Sfera di Dyson sono Megastrutture incredibilmente potenti."
+ add_research_options_galactic_wonders_utopia:0 "Opzioni di ricerca ottenute:\n£engineering_research£§Y$tech_ring_world$§!\n£physics_research£§Y$tech_dyson_sphere$§!\nIl Pianeta Anello e la Sfera di Dyson sono Megastrutture incredibilmente potenti."
+ add_research_options_galactic_wonders_utopia_megacorp:0 "Opzioni di ricerca ottenute:\n£engineering_research£§Y$tech_ring_world$§!\n£physics_research£§Y$tech_matter_decompressor$§!\n£physics_research£§Y$tech_dyson_sphere$§!\nIl Pianeta Anello, il Decompressore di Materia e la Sfera di Dyson sono Megastrutture incredibilmente potenti."
 
  RELICS:0 "$relics$"
  MINOR_ARTIFACTS:0 "Artefatti Minori"
@@ -665,30 +665,30 @@
 
  district_rw_farming:0 "Segmento Agricolo"
  district_rw_farming_plural:0 "Segmenti Agricoli"
- district_rw_farming_desc:0 "Mari sterminati di campi coltivati si estendono lungo questa sezione del Pianeta ad Anello, fornendo enormi quantità di cibo."
+ district_rw_farming_desc:0 "Mari sterminati di campi coltivati si estendono lungo questa sezione del Pianeta Anello, fornendo enormi quantità di cibo."
  district_rw_generator:0 "Segmento Generatore"
  district_rw_generator_plural:0 "Segmenti Generatori"
- district_rw_generator_desc:0 "File di reattori riempiono questa sezione del Pianeta ad Anello, fornendo enormi quantità di energia."
+ district_rw_generator_desc:0 "File di reattori riempiono questa sezione del Pianeta Anello, fornendo enormi quantità di energia."
  district_rw_science:0 "Segmento di Ricerca"
  district_rw_science_plural:0 "Segmenti di Ricerca"
- district_rw_science_desc:0 "Strutture di ricerca di ogni tipo riempiono questa sezione del Pianeta ad Anello."
+ district_rw_science_desc:0 "Strutture di ricerca di ogni tipo riempiono questa sezione del Pianeta Anello."
  district_rw_commercial:0 "Segmento Commerciale"
  district_rw_commercial_plural:0 "Segmenti Commerciali"
- district_rw_commercial_desc:0 "L'industria civile e le infrastrutture popolano questa sezione del Pianeta ad Anello dedicata al commercio."
+ district_rw_commercial_desc:0 "L'industria civile e le infrastrutture popolano questa sezione del Pianeta Anello dedicata al commercio."
 
  district_rw_city:0 "Segmento Cittadino"
  district_rw_city_plural:0 "Segmenti Cittadini"
- district_rw_city_desc:0 "Immensi centri urbani riempiono questa sezione del Pianeta ad Anello, fornendo un gran numero di abitazioni ed uffici per gli impiegati."
+ district_rw_city_desc:0 "Immensi centri urbani riempiono questa sezione del Pianeta Anello, fornendo un gran numero di abitazioni ed uffici per gli impiegati."
  district_rw_hive:0 "Segmento Alveare"
  district_rw_hive_plural:0 "Segmenti Alveari"
- district_rw_hive_desc:0 "Guglie torreggianti si estendono da questa sezione del Pianeta ad Anello, luoghi in cui i droni si radunano quando non lavorano per riposare e nutrirsi."
+ district_rw_hive_desc:0 "Guglie torreggianti si estendono da questa sezione del Pianeta Anello, luoghi in cui i droni si radunano quando non lavorano per riposare e nutrirsi."
  district_rw_nexus:0 "Segmento Nexus"
  district_rw_nexus_plural:0 "Segmenti Nexus"
- district_rw_nexus_desc:0 "Una moltitudine di distretti efficienti sono presenti in questa sezione del Pianeta ad Anello, che forniscono ai droni un luogo per la manutenzione e le riparazioni prima di tornare ai loro incarichi."
+ district_rw_nexus_desc:0 "Una moltitudine di distretti efficienti sono presenti in questa sezione del Pianeta Anello, che forniscono ai droni un luogo per la manutenzione e le riparazioni prima di tornare ai loro incarichi."
 
  district_rw_industrial:0 "Segmento Industriale"
  district_rw_industrial_plural:0 "Segmenti Industriali"
- district_rw_industrial_desc:0 "Fabbriche rumorose e potenti macchinari riempiono questa sezione del Pianeta ad Anello, fornendo una solida base industriale per l'Impero."
+ district_rw_industrial_desc:0 "Fabbriche rumorose e potenti macchinari riempiono questa sezione del Pianeta Anello, fornendo una solida base industriale per l'Impero."
 
  ##################
  # DEPOSITS
@@ -784,14 +784,14 @@
  ancrel.10030.desc:0 "Artefatti inestimabili riempiono le Stazioni Espositive, portando il passato nel presente per ispirare il futuro.\n\nQuesto è un giorno glorioso."
  ancrel.10030.phobe.desc:0 "La grandiosità del nostro impero è tale che ora possiamo riempire le Stazioni Espositive della nostra $mega_art_installation_3$ di artefatti inestimabili.\n\nChe gli xeno ammirino le nostre opere e disperino."
 
- col_ring_research:0 "Pianeta ad Anello Scientifico"
- col_ring_research_desc:0 "Quest'intera sezione del Pianeta ad Anello è dedicata alla tecnologia ed alla conoscenza"
- col_ring_farming:0 "Pianeta ad Anello Agricolo"
- col_ring_farming_desc:0 "I campi sterminati di questa sezione del Pianeta ad Anello sono supportati dalle infrastrutture per massimizzare il potenziale di crescita del raccolto"
- col_ring_trade:0 "Pianeta ad Anello Commerciale"
+ col_ring_research:0 "Pianeta Anello Scientifico"
+ col_ring_research_desc:0 "Quest'intera sezione del Pianeta Anello è dedicata alla tecnologia ed alla conoscenza"
+ col_ring_farming:0 "Pianeta Anello Agricolo"
+ col_ring_farming_desc:0 "I campi sterminati di questa sezione del Pianeta Anello sono supportati dalle infrastrutture per massimizzare il potenziale di crescita del raccolto"
+ col_ring_trade:0 "Pianeta Anello Commerciale"
  col_ring_trade_desc:0 "Se non puoi acquistarlo qui, o non esiste o non lo volevi veramente"
- col_ring_generator:0 "Pianeta ad Anello Generatore"
- col_ring_generator_desc:0 "Connettendo assieme i segmenti generatori di questa sezione del Pianeta ad Anello viene prodotta una quantità enorme di energia"
+ col_ring_generator:0 "Pianeta Anello Generatore"
+ col_ring_generator_desc:0 "Connettendo assieme i segmenti generatori di questa sezione del Pianeta Anello viene prodotta una quantità enorme di energia"
 
  SHIP_SIZE_CAPACITY:0 "£$SHIP_ICON$£ $SHIP_SIZE$ : §Y$VALUE$/$MAX$§!"
 
