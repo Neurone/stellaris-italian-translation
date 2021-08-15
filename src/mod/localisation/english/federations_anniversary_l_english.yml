@@ -961,9 +961,9 @@
 ###########
 
 
- edict_extended_healthcare_coverage:0 "Extended Healthcare Coverage"
- edict_extended_healthcare_coverage_desc:0 "This Edict provides additional resources to §Y$building_clinic$§! and §Y$building_hospital$§! facilities."
- edict_extended_healthcare_coverage_tooltip:0 "Planets with §Y$building_clinic$§! or §Y$building_hospital$§! gain §G+10%§! §YPop Growth§!."
+ edict_extended_healthcare_coverage:0 "Copertura Sanitaria Estesa"
+ edict_extended_healthcare_coverage_desc:0 "Questo Editto fornisce risorse aggiuntive alle §Y$building_clinic$§! e ai §Y$building_hospital$§!."
+ edict_extended_healthcare_coverage_tooltip:0 "Pianeti con §Y$building_clinic$§! o §Y$building_hospital$§! guadagnano §G+10%§! di §YCrescita Pop§!."
 
  edict_nutritional_plenitude:0 "$food_policy_generous$"
  edict_nutritional_plenitude_desc:0 "$food_policy_generous_desc$"
@@ -971,53 +971,53 @@
  edict_nutritional_plenitude_hive:0 "$food_policy_generous$"
  edict_nutritional_plenitude_hive_desc:0 "$food_policy_generous_desc$"
 
- edict_evacuation_protocols:0 "Evacuation Protocols"
- edict_evacuation_protocols_desc:0 "We must establish a new home and prepare to evacuate our homeworld."
+ edict_evacuation_protocols:0 "Protocolli di Evacuazione"
+ edict_evacuation_protocols_desc:0 "Dobbiamo stabilire una nuova casa e prepararci ad evacuare il nostro pianeta natale."
 
- edict_extended_shifts:0 "Extended Shifts"
- edict_extended_shifts_desc:0 "We must ask our workers to toil harder. Some blood, sweat and tears may be necessary for the Greater Good."
+ edict_extended_shifts:0 "Turni Estesi"
+ edict_extended_shifts_desc:0 "Dobbiamo chiedere ai nostri lavoratori di faticare di più. Un po' di sangue, sudore e lacrime possono essere necessari per il Bene Superiore."
 
- edict_drone_overdrive:0 "Drone Overdrive"
- edict_drone_overdrive_desc:0 "Our drones will be worked harder, as more resources are required."
+ edict_drone_overdrive:0 "Sovraccarico Droni"
+ edict_drone_overdrive_desc:0 "I nostri droni lavoreranno più duramente man mano che saranno necessarie più risorse."
 
- edict_expanded_breeding_program:0 "Expanded Breeding Program"
- edict_expanded_breeding_program_desc:0 "This Edict provides additional resources to the spawning pools."
- edict_expanded_breeding_program_tooltip:0 "Planets with §Y$building_spawning_pool$§! gain §G+10%§! §YPop Growth§!."
+ edict_expanded_breeding_program:0 "Programma di Allevamento Amplificato"
+ edict_expanded_breeding_program_desc:0 "Questo Editto fornisce risorse aggiuntive alle Vasche di Riproduzione."
+ edict_expanded_breeding_program_tooltip:0 "Pianeti con §Y$building_spawning_pool$§! guadagnano §G+10%§! di §YCrescita Pop§!."
 
  edict_expanded_breeding_program_servitor:0 "$edict_expanded_breeding_program$"
- edict_expanded_breeding_program_servitor_desc:0 "Using gamification and point-based reward schemes, we will subtly encourage our Bio-Trophies to fill our Organic Sanctuaries."
- edict_expanded_breeding_program_servitor_tooltip:0 "Planets with §Y$building_organic_sanctuary$§! or §Y$building_organic_paradise$§! gain §G+10%§! §YPop Growth§!."
+ edict_expanded_breeding_program_servitor_desc:0 "Usando la gamification e schemi di ricompensa basati sui punti, incoraggeremo sottilmente i nostri Bio-Trofei a riempire i nostri Santuari Biologici."
+ edict_expanded_breeding_program_servitor_tooltip:0 "Pianeti con un §Y$building_organic_sanctuary$§! o un §Y$building_organic_paradise$§! guadagnano §G+10%§! di §YCrescita Pop§!."
 
- edict_fortify_the_border:0 "Fortify the Border"
- edict_fortify_the_border_desc:0 "Defense of our systems is paramount. This Edict will direct additional resources to these ends."
+ edict_fortify_the_border:0 "Fortificare il Confine"
+ edict_fortify_the_border_desc:0 "La difesa dei nostri sistemi è fondamentale. Questo editto dirigerà risorse aggiuntive a questo fine."
 
- edict_fleet_supremacy:0 "Fleet Supremacy"
- edict_fleet_supremacy_desc:0 "Our navy is our best means to project power. This Edict will prioritize them above lesser needs."
+ edict_fleet_supremacy:0 "Supremazia Navale"
+ edict_fleet_supremacy_desc:0 "La nostra flotta è il nostro miglior mezzo per proiettare potere. Questo Editto le darà la priorità rispetto alle necessità minori."
 
- edict_farming_subsidies_tooltip:0 "Increases the upkeep of £job_farmer£ $job_farmer_plural$ by £energy£§Y0.5§!"
+ edict_farming_subsidies_tooltip:0 "Aumenta il costo di mantenimento degli £job_farmer£ $job_farmer_plural$ di £energy£§Y0.5§!"
 
- edict_capacity_subsidies:0 "Capacity Subsidies"
+ edict_capacity_subsidies:0 "Sussidi Energetici"
  edict_capacity_subsidies_desc:0 "$edict_capacity_overload_desc$"
- edict_capacity_subsidies_tooltip:0 "Increases the upkeep of £job_technician£ $job_technician_plural$ by £energy£§Y0.5§!"
+ edict_capacity_subsidies_tooltip:0 "Aumenta il costo di mantenimento dei £job_technician£ $job_technician_plural$ di £energy£§Y0.5§!"
 
- edict_mining_subsidies:0 "Mining Subsidies"
+ edict_mining_subsidies:0 "Sussidi Minerari"
  edict_mining_subsidies_desc:0 "$edict_production_targets_desc$"
- edict_mining_subsidies_tooltip:0 "Increases the upkeep of £job_miner£ $job_miner_plural$ by £energy£§Y0.5§!"
+ edict_mining_subsidies_tooltip:0 "Aumenta il costo di mantenimento dei £job_miner£ $job_miner_plural$ di £energy£§Y0.5§!"
 
- edict_industrial_subsidies:0 "Industrial Subsidies"
- edict_industrial_subsidies_desc:0 "Success can be measured by the acquisition of things. This Edict provides our factories with additional resources so production can be increased."
- edict_industrial_subsidies_tooltip:0 "Increases the upkeep of £job_artisan£ $job_artisan_plural$ by £energy£§Y1§!"
+ edict_industrial_subsidies:0 "Sussidi Industriali"
+ edict_industrial_subsidies_desc:0 "Il successo si misura con l'acquisizione di cose. Questo Editto fornisce alle nostre fabbriche risorse aggiuntive per aumentare la produzione."
+ edict_industrial_subsidies_tooltip:0 "Aumenta il costo di mantenimento degli £job_artisan£ $job_artisan_plural$ di £energy£§Y1§!"
 
- edict_forge_subsidies:0 "Forge Subsidies"
- edict_forge_subsidies_desc:0 "Our empire thirsts for more specialized alloys and precious metals. This Edict provides our foundries with additional resources so production can be increased."
- edict_forge_subsidies_tooltip:0 "Increases the upkeep of £job_foundry£ $job_foundry_plural$ by £energy£§Y1§!"
+ edict_forge_subsidies:0 "Sussidi alle Fonderie"
+ edict_forge_subsidies_desc:0 "Il nostro impero ha sete di leghe più specializzate e di metalli preziosi. Questo Editto fornisce alle nostre fonderie risorse aggiuntive per aumentare la produzione."
+ edict_forge_subsidies_tooltip:0 "Aumenta il costo di mantenimento degli £job_foundry£ $job_foundry_plural$ di £energy£§Y1§!"
 
- edict_research_subsidies:0 "Research Subsidies"
- edict_research_subsidies_desc:0 "Knowledge is power. This Edict focuses our efforts on advancing technology."
- edict_research_subsidies_tooltip:0 "Increases the upkeep of £job_researcher£ $job_researcher_plural$ by £energy£§Y1§!"
+ edict_research_subsidies:0 "Sussidi di Ricerca"
+ edict_research_subsidies_desc:0 "La conoscenza è potere. Questo Editto concentra i nostri sforzi sul progresso della tecnologia."
+ edict_research_subsidies_tooltip:0 "Aumenta il costo di mantenimento dei £job_researcher£ $job_researcher_plural$ di £energy£§Y1§!"
 
- edict_veneration_of_saints:0 "Veneration of Saints"
- edict_veneration_of_saints_desc:0 "Rather than focusing exclusively on this temporal world, we should provide our spiritual guides with whatever they need to prepare us for the next."
+ edict_veneration_of_saints:0 "Venerazione dei Santi"
+ edict_veneration_of_saints_desc:0 "Invece di concentrarci esclusivamente su questo mondo passeggero, dovremmo fornire alle nostre guide spirituali tutto ciò di cui hanno bisogno per prepararci al prossimo."
 
 ###########
 # OTHER

@@ -39,7 +39,7 @@
  TRIGGER_INTEL_AVAILABLE_NOT:0 "$INTEL|Y$ non è disponibile per $COUNTRY$"
  TRIGGER_INTEL_STALE:0 "$INTEL|Y$ è stantio per $COUNTRY$"
  TRIGGER_INTEL_STALE_NOT:0 "$INTEL|Y$ non è stantio per $COUNTRY$"
- INTEL_DETAILS:1 "Intelligence Corrente: $CURRENT_INTEL|Y$ / $TARGET_INTEL|Y$"
+ INTEL_DETAILS:1 "Intelligence Attuale: $CURRENT_INTEL|Y$ / $TARGET_INTEL|Y$"
  INTEL_TARGET_BREAKDOWN:1 "La tua Intelligence su $TARGET_EMPIRE|Y$ tenderà vero il più alto tra:"
  INTEL_TARGET_BREAKDOWN_CONTENT:2 "Intelligence di Base: $FROM_MODIFIER|Y$\nAccordi Diplomatici: $FROM_DIPLO_PACTS|Y$\nDalla Fiducia: $FROM_TRUST|Y$\nDall'Infiltrazione: $FROM_SPY_NETWORK|Y$"
  INTEL_CATEGORY_LEVEL:0 "$CATEGORY$: $LEVEL$"

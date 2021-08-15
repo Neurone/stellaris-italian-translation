@@ -54,7 +54,7 @@
  TUTORIAL_GOVERNMENTVIEW_BUDGET_TITLE:0 "Budget"
  TUTORIAL_GOVERNMENTVIEW_BUDGET_DESC:0 "Il §SBudget§! registra le §SEntrate§! e le §SUscite§! mensili del nostro impero, indicate in Crediti Energetici. Qui possiamo anche tener traccia di vari effetti che influenzano la nostra economia."
  TUTORIAL_GOVERNMENTVIEW_DECISIONS_TITLE:0 "Editti"
- TUTORIAL_GOVERNMENTVIEW_DECISIONS_DESC:0 "Qui possono essere attivati gli §SEditti§! imperiali, studi che possiamo compiere spendendo una parte delle nostre risorse."
+ TUTORIAL_GOVERNMENTVIEW_DECISIONS_DESC:0 "Qui possono essere emanati §SEditti§ imperiali, pratiche che possono essere imposte spendendo una parte delle nostre risorse."
  TUTORIAL_GOVERNMENTVIEW_DEMOGRAPHICS_TITLE:0 "Demografia"
  TUTORIAL_GOVERNMENTVIEW_DEMOGRAPHICS_DESC:0 "Il pannello §SDemografia§! tiene traccia dello sviluppo della nostra popolazione imperiale.\n\nMostra anche i §STratti§! dominanti della nostra §SPOP§!, i modificatori della produttività, la felicità e molti altri aspetti."
  TUTORIAL_EMPIREVIEW_LEADERS_TITLE:0 "Pannello Leader"

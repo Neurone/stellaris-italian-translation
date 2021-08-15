@@ -20,8 +20,8 @@
  origin_post_apocalyptic:0 "$civic_post_apocalyptic$"
  origin_post_apocalyptic_desc:0 "Battezzata dal fuoco nucleare, questa civiltà ha affrontato l'annientamento totale - ed è sopravvissuta. Devastati ma incessanti, hanno ricostruito la civiltà dalle ceneri del vecchio mondo."
  origin_shattered_ring:0 "Anello in rovina"
- origin_shattered_ring_desc:1 "Questa civiltà abita un Mondo ad Anello costruito da precursori sconosciuti. Se sarà compreso e completamente riparato, garantirà loro un grande potere."
- origin_tooltip_shattered_ring_effects:0 "Comincia con un §YMondo ad Anello§! parzialmente distrutto come pianeta natale.\nIl Mondo ad Anello inizierà con un §Y$d_arcane_generator$§! che è in grado di mantenere alcuni dei tuoi segmenti.\nLa preferenza di abitabilità è impostata su §Y$trait_pc_ringworld_habitable_preference$§!, rendendo indesiderabili altri tipi di insediamento."
+ origin_shattered_ring_desc:1 "Questa civiltà abita un Pianeta Anello costruito da precursori sconosciuti. Se sarà compreso e completamente riparato, garantirà loro un grande potere."
+ origin_tooltip_shattered_ring_effects:0 "Comincia con un §YPianeta Anello§! parzialmente distrutto come pianeta natale.\nIl Pianeta Anello inizierà con un §Y$d_arcane_generator$§! che è in grado di mantenere alcuni dei tuoi segmenti.\nLa preferenza di abitabilità è impostata su §Y$trait_pc_ringworld_habitable_preference$§!, rendendo indesiderabili altri tipi di insediamento."
  origin_tooltip_shattered_ring_effects_lithoid:0 "§R- ATTENZIONE: Origine sfidante per i Litoidi a causa della scarsità di minerali.§!\n$origin_tooltip_shattered_ring_effects$"
  origin_remnants:0 "Resti"
  origin_remnants_desc:0 "Questa civiltà una volta si espandeva nel vuoto, controllando gran parte della Galassia. Alla fine furono sconfitti e quasi distrutti, ma dopo un lungo periodo di decadenza stanno tornando alle stelle."
@@ -113,7 +113,7 @@
  SHIP_AURA_PD_PENETRATION:0 "Emettitori ECM"
  SHIP_AURA_BOMBARDMENT:0 "Impianto Munizioni"
 
- START_SCREEN_SRW:0 "Se mai abbiamo saputo come la nostra gente è arrivata su [GetHomeWorldName], la nostra storia lo ha dimenticato da tempo. Quello che sappiamo è che poco più di 2000 anni fa un inconcepibile cataclisma ha distrutto gran parte dell'Anello e ucciso la maggior parte della popolazione, e che la nostra gente è sorta da quelle rovine.\n\nLa nostra civiltà è cresciuta, fiorita e ora è pronta per esplorare la galassia, di nuovo o per la prima volta. Ma nonostante tutti i nostri progressi, abbiamo ancora molta strada da fare prima di poter capire e riparare il Mondo ad Anello che è la nostra casa."
+ START_SCREEN_SRW:0 "Se mai abbiamo saputo come la nostra gente è arrivata su [GetHomeWorldName], la nostra storia lo ha dimenticato da tempo. Quello che sappiamo è che poco più di 2000 anni fa un inconcepibile cataclisma ha distrutto gran parte dell'Anello e ucciso la maggior parte della popolazione, e che la nostra gente è sorta da quelle rovine.\n\nLa nostra civiltà è cresciuta, fiorita e ora è pronta per esplorare la galassia, di nuovo o per la prima volta. Ma nonostante tutti i nostri progressi, abbiamo ancora molta strada da fare prima di poter capire e riparare il Pianeta Anello che è la nostra casa."
 
  START_SCREEN_REMNANTS:0 "Una volta, il nostro impero si estendeva nel vuoto. Una volta, le nostre flotte controllavano gran parte della Galassia. Poi è arrivata la sconfitta e La Caduta. Finalmente, dopo millenni di purgatorio, è tempo di tornare alle stelle! A lungo la nostra civiltà si è ricostruita, fino al punto del viaggio interstellare. La galassia sarà di nuovo nostra!\n\nMolte regioni su [GetHomeWorldName] sono ancora in rovina, liberare queste aree potrebbe rivelare risorse perdute e tecnologia dimenticata."
 
@@ -1443,7 +1443,7 @@
 
  CHANGE_FEDERATION_TYPE:0 "Cambia Tipo di Federazione"
  CHANGE_FEDERATION_TYPE_DESC:0 "Sei sicuro che vuoi passare a $TYPE|Y$? Questo riporterà la Federazione al §YLivello 1§!. Verrà applicata una penalità alla Coesione di $PENALTY|+0$(per membro)"
- CHANGE_FEDERATION_TYPE_CURRENT_DESC:0 "Tipo di federazione corrente selezionato"
+ CHANGE_FEDERATION_TYPE_CURRENT_DESC:0 "Tipo di federazione attualmente selezionato"
 
  RIGHT_CLICK_TO_VIEW_PROPOSED:0 "§HClic una Risoluzione proposta nella Coda per vederne i dettagli§!"
  PROPOSE_RESOLUTION_NAME:0 "Proponi una Risoluzione!"
@@ -1625,7 +1625,7 @@ COUNCIL_SIZE:0 "Seggi: $SIZE|Y$"
  CANNOT_BREAK_DIPLO_ACTION_UNTIL:0 "Impossibile fino al $DATE|Y$ dal momento che questa decisione è stata influenzata da §HFavori§!."
  SORT_BY_FAVORS:0 "§HOrdina per Favori§!"
  SORT_BY_DIPLO_WEIGHT:0 "§HOrdina per Peso Diplomatico§!"
- CURRENT_VALUE:0 "Valore Corrente: $VALUE|Y$"
+ CURRENT_VALUE:0 "Valore Attuale: $VALUE|Y$"
  BASE_DIPLOMATIC_WEIGHT_VALUE:0 "Peso Diplomatico Base: $VALUE|Y$"
  FROM_EMPIRE_SIZE_VALUE:0 "Da Dimensione Impero: $VALUE|Y$"
  FROM_FLEETS_VALUE:0 "Dalle Flotte: $VALUE|Y$"

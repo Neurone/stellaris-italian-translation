@@ -971,10 +971,10 @@
  mod_job_preacher_per_pop_short:0 "\n§G+1§! £mod_job_preacher_add£ ogni $VALUE$ £pop£"
 
  # Specialist Jobs
- job_foundry:0 "Metallurgista"
- job_foundry_plural:0 "Metallurgisti"
+ job_foundry:0 "Operaio Metallurgico"
+ job_foundry_plural:0 "Operai Metallurgici"
  job_foundry_desc:0 "Sono necessari operai estremamente specializzati per trasformare i minerali grezzi in leghe da utilizzare nelle costruzioni avanzate."
- job_foundry_effect_desc:0 "I £job_foundry£ $job_foundry_plural$ trasformano £minerals£ §Y$minerals$§! in £alloys£ §Y$alloys$§!"
+ job_foundry_effect_desc:0 "Gli £job_foundry£ $job_foundry_plural$ trasformano i £minerals£ §Y$minerali$§! in £alloys£ §Y$alloys$§!"
  mod_job_foundry_add:0 "Lavoro da $job_foundry$"
  mod_job_foundry_per_pop:0 "§G+1§! Lavoro da $job_foundry$ ogni $VALUE$ POP"
  mod_job_foundry_per_pop_short:0 "\n§G+1§! £mod_job_foundry_add£ ogni $VALUE$ £pop£"
