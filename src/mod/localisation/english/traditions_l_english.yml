@@ -149,7 +149,7 @@
  tr_domination_synaptic_extensions_delayed:0 "L'immensa portata della Mente dev'essere estesa ancora di più. Ulteriori estensioni sinaptiche permetteranno il controllo efficiente di altri droni."
  tr_domination_modular_depot:0 "Depositi Modulari"
  tr_domination_modular_depot_desc:0 "L'§Y$EMPIRE_SIZE$§! dovuta ai §YDistretti§! è ridotta del §G25%§!."
- tr_domination_modular_depot_delayed:0 "Per massimizzare il numero di droni che possono essere messi in campo, gli edifici che compongono i nostri distretti devono diventare più efficienti. Un design modulare fornirebbe molta più flessibilità."
+ tr_domination_modular_depot_delayed:0 "Per massimizzare il numero di droni che possono essere messi in campo, gli edifici che compongono i nostri distretti devono diventare più efficienti. Una progettazione modulare fornirebbe molta più flessibilità."
 
  tr_domination_workplace_motivators:0 "Motivatori sul Luogo di Lavoro"
  tr_domination_workplace_motivators_desc:0 "§HSblocca l'Editto:§! $edict_extended_shifts$\nProduzione di risorse da §Y$pop_cat_worker_plural$§! e §Y$pop_cat_slave_plural$§! aumentata del §G5%§!."

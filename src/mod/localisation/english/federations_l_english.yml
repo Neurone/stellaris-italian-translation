@@ -98,7 +98,7 @@
 
  # Encountering Ruined Mega Shipyard
  feda.5.name:0 "$mega_shipyard_ruined$"
- feda.5.a.desc:2 "Nelle vaste distese del sistema [mega_shipyard_system.GetName] si trova una vasta struttura di design alieno. Nonostante il suo stato decrepito, i nostri scienziati confermano che la megastruttura è in realtà una combinazione di diversi cantieri navali - un §Y$mega_shipyard_3$§!.\n\nSe dovessimo acquisire le conoscenze su come riparare questo magnifico impianto industriale, le nostre capacità di produzione aumenterebbero immensamente."
+ feda.5.a.desc:2 "Nelle vaste distese del sistema [mega_shipyard_system.GetName] si trova una vasta struttura di progettazione aliena. Nonostante il suo stato decrepito, i nostri scienziati confermano che la megastruttura è in realtà una combinazione di diversi cantieri navali - un §Y$mega_shipyard_3$§!.\n\nSe dovessimo acquisire le conoscenze su come riparare questo magnifico impianto industriale, le nostre capacità di produzione aumenterebbero immensamente."
  feda.5.b.desc:3 "Nelle vaste distese del sistema [mega_shipyard_system.GetName] si trova una vast struttura di un §Y$mega_shipyard_3$§! - simile a quello da noi progettato. La megastruttura è tuttavia in uno stato decrepito e necessita di ampie riparazioni per essere riportata in linea."
  feda.5.c.desc:0 "Una rapida scansione dello spazio circostante ha accertato che la megastruttura eoni fa ha sofferto di una sorta di grave sovraccarico di energia, probabilmente a causa di una specie di massiccia tempesta di energia che attraversava il sistema."
  feda.5.a:0 "Immagina di averne due!"

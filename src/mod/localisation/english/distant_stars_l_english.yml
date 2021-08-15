@@ -994,7 +994,7 @@
  STOP_TIME_LOOP_DESC:0 "Abbiamo approntato un progetto per interrompere il loop temporale."
  # AMBIENT OBJECTS:
  broken_star_lifting_platform:0 "Piattaforma Stellare Abbandonata"
- broken_star_lifting_platform_desc:0 "Una piattaforma abbandonata dallo sconosciuto design alieno fluttua senza meta attorno ad una stella."
+ broken_star_lifting_platform_desc:0 "Una piattaforma abbandonata di progettazione aliena sconosciuta fluttua senza meta attorno ad una stella."
  broken_star_lifting_platform_tooltip:0 "$broken_star_lifting_platform_desc$"
  star_lifting_platform:0 "Piattaforma Stellare"
  star_lifting_platform_desc:0 "La piattaforma stellare aumenta la produzione di vento solare bombardando la stella con fasci di microonde. Questa energia può essere assorbita tramite una piattaforma d'estrazione."
@@ -1005,9 +1005,9 @@
 
 # ANOMALY CATEGORIES:
  debris_gasgiant_category_temp:0 "Antico Scafo"
- debris_gasgiant_category_temp_desc:0 "Un enorme relitto dall'antico design orbita attorno a [From.GetName]."
+ debris_gasgiant_category_temp_desc:0 "Un enorme relitto di progettazione antica orbita attorno a [From.GetName]."
  star_lifting_category:0 "Piattaforma Stellare Deserta"
- star_lifting_category_desc:0 "Una piattaforma disattivata dal design alieno fluttua senza meta attorno ad una stella. Forse alcuni studi approfonditi potrebbero rivelarne lo scopo."
+ star_lifting_category_desc:0 "Una piattaforma disattivata di progettazione aliena fluttua senza meta attorno ad una stella. Forse alcuni studi approfonditi potrebbero rivelarne lo scopo."
  abandoned_outpost_category:0 "Stazione d'Osservazione Abbandonata"
  abandoned_outpost_category_desc:0 "Una vecchia e semi-distrutta stazione d'osservazione orbita attorno a [big_rip_planet.GetName], ma non si notano segni di vita intelligente su di essa. Un'indagine più approfondita potrebbe rivelarne il motivo."
  ast_debris_field_1_cat_2:0 "$AST_DEBRIS_FIELD_1_CAT$"
@@ -1085,8 +1085,9 @@
  distar.1021.a:0 "Una batteria solare tutta per noi!"
  distar.1021.b:0 "Aah molluschi... Viscidi corpi, viscide menti..."
  distar.1022.name:0 "Raggi Microonde Molluscoidi"
- distar.1022.desc.a:0 "L'equipaggio della [star_lifting_ship.GetName] non ci ha messo molto per capire che il design della piattaforma stellare è, usando le parole dell'Ufficiale Scientifico [star_lifting_leader.GetName], il lavoro di un folle. I fasci di microonde erano grezzi, calibrati male, ed avrebbero avuto bisogno di molte regolazioni per funzionare a dovere. Tuttavia, si sono rivelati perfetti come arma."
- distar.1022.desc.b:0 "I nostri tentativi per utilizzare come armi i fasci a microonde dei Molluscoidi sono falliti... in modo spettacolare. Appena attivati, è subito stato chiaro che il loro design era stato progettato decisamente male, ma i nostri scienziati non sono stati in grado di accorgersene prima. Per fortuna sono riusciti a lasciare la piattaforma prima che esplodesse in una magnifica nube di fuoco a forma di fungo, splendido baluardo del fallimento scientifico."
+ distar.1022.desc.a:0 "L'equipaggio della [star_lifting_ship.GetName] non ci ha messo molto per capire che il progetto della piattaforma stellare è, usando le parole dell'Ufficiale Scientifico [star_lifting_leader.GetName], il lavoro di un folle. I fasci di microonde erano grezzi, calibrati male, ed avrebbero avuto bisogno di molte regolazioni per funzionare a dovere. Tuttavia, si sono rivelati perfetti come arma."
+ distar.1022.desc.b:0 "Il nostro tentativo di armare i fasci di microonde dei Molluscoidi è fallito... in modo spettacolare. All'attivazione, si è scoperto che la progettazione dei raggi era difettosa oltre ogni comprensione e l'equipaggio scientifico è scampato per un pelo all'esplosione della piattaforma, magnifica manifestazione - a forma di fungo - del fallimento scientifico."
+
  distar.1022.a:0 "Eccellente."
  distar.1022.b:0 "Un disastro."
  distar.1022.c:0 "Questi molluscoidi non capiscono nulla di scienza..."
@@ -1193,7 +1194,7 @@
  distar.2000.desc:0 "Tra i detriti abbiamo scoperto i resti distrutti di un ex pianeta abitabile. I modelli di frammentazione e carbonizzazione dei resti suggeriscono che fu fatto esplodere con fasci concentrati d'energia termica, finché non si spezzò per la pressione. Ciò ha permesso al nucleo di fuoriuscire e solidificarsi in grumi di minerali d'alta qualità."
  # Weapon Testing
  distar.2005.name:0 "Campo di Prova"
- distar.2005.desc:0 "Sembra che su [From.GetName] l'apocalisse sia giunta molte volte. Le scansioni superficiali rivelano come il pianeta sia stato bruciato, bombardato, sconquassato e devastato in quello che sembrerebbe essere uno dei più estesi test bellici mai visti prima d'ora.\n\nSebbene siano stati compiuti molti tentativi per eliminare completamente il pianeta, sembra che gli alieni non avessero ancora sviluppato una tecnologia adeguata per riuscirci. L'Ufficiale Scientifico [Root.GetLeaderName] ha raccolto un vasto assortimento di armi distrutte, nella speranza di riuscire a ricostruirne il design."
+ distar.2005.desc:0 "Sembra che su [From.GetName] l'apocalisse sia giunta molte volte. Le scansioni superficiali rivelano come il pianeta sia stato bruciato, bombardato, sconquassato e devastato in quello che sembrerebbe essere uno dei più estesi test bellici mai visti prima d'ora.\n\nSebbene siano stati compiuti molti tentativi per eliminare completamente il pianeta, sembra che gli alieni non avessero ancora sviluppato una tecnologia adeguata per riuscirci. L'Ufficiale Scientifico [Root.GetLeaderName] ha raccolto un vasto assortimento di armi distrutte, nella speranza di riuscire a ricavarne i progetti."
  distar.2005.a:0 "Analizzate i campioni."
  distar.2005.b:0 "Lasciate stare."
  distar.2006.name:0 "Laser Alieni"
@@ -1589,7 +1590,7 @@
 
  ### Alien Machine ###
  distar.3040.name:0 "Macchina Aliena"
- distar.3040.desc:0 "Ulteriori scansioni suggeriscono che la macchina sia ancora operativa, sebbene il suo scopo rimanga del tutto sconosciuto.\n\nL'Ufficiale Scientifico [Root.GetLeaderName] non ha mai visto nulla di simile. Alcuni dei suoi materiali sembrano familiari, ma molti sono strani e decisamente alieni, così come il design dei suoi componenti.\n\nLa macchina sembrerebbe possedere quella che sembra una console, con un oggetto che spicca in modo particolare: una grande leva ritorta di un materiale sconosciuto."
+ distar.3040.desc:0 "Ulteriori scansioni suggeriscono che la macchina sia ancora operativa, sebbene il suo scopo rimanga del tutto sconosciuto.\n\nL'Ufficiale Scientifico [Root.GetLeaderName] non ha mai visto nulla di simile. Alcuni dei suoi materiali sembrano familiari, ma molti sono strani e decisamente alieni, così come la progettazione dei suoi componenti.\n\nLa macchina sembrerebbe possedere quella che sembra una console, con un oggetto che spicca in modo particolare: una grande leva ritorta di un materiale sconosciuto."
  distar.3040.a:0 "Tirate la leva."
  distar.3040.a.tooltip:0 "L'Ufficiale Scientifico [Root.GetLeaderName] tira la strana leva."
  distar.3040.b:0 "Fatela a pezzi."

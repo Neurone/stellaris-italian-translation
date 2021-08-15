@@ -105,7 +105,7 @@
  action.1.ar:0 "§E[Root.GetRulerName] vi saluta a nome del popolo [Root.GetAdj].§!"
 
  anomaly.168.d.tooltip:0 "Inizia un rinascimento religioso che farà avanzare le Etiche §YSpiritualiste§!."
- precursor.2200.desc.b:0 "Dopo aver ispezionato l'immenso Pianeta Anello trovato nel Sistema §Y[From.GetStarName]§!, l'Ufficiale Scientifico §Y[Root.GetLeaderName]§! ha comunicato che possiede un design molto simile al nostro, nonostante la sua età.\n\nTuttavia, è presente una differenza fondamentale, le sezioni dell'anello sembrano in parte costruite con una nuova risorsa a noi sconosciuta. I rapporti iniziali la descrivono come una sorta di "metallo vivente". Qualunque cosa sia, dovremmo studiarla meglio."
+ precursor.2200.desc.b:0 "Dopo aver ispezionato l'immenso Pianeta Anello trovato nel Sistema §Y[From.GetStarName]§!, l'Ufficiale Scientifico §Y[Root.GetLeaderName]§! ha comunicato che si fonda su una progettazione molto simile alla nostra, nonostante la sua età.\n\nTuttavia, è presente una differenza fondamentale, le sezioni dell'anello sembrano in parte costruite con una nuova risorsa a noi sconosciuta. I rapporti iniziali la descrivono come una sorta di "metallo vivente". Qualunque cosa sia, dovremmo studiarla meglio."
 
  requires_planets_for_material:0 "$TRIGGER_FAIL$ Impossibile da costruire in un sistema senza corpi planetari da cui ricavare materiali."
  requires_no_existing_megastructure:0 "$TRIGGER_FAIL$ Impossibile da costruire a causa della presenza di una Megastruttura."

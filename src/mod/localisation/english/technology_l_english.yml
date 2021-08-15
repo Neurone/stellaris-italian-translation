@@ -101,7 +101,7 @@
  tech_starbase_5_desc:0 "I progetti per un'immensa stazione da guerra in grado di contrastare diverse flotte d'assalto. Se riusciremo a realizzarle, queste Cittadelle diverranno monumenti alla nostra grandezza."
 
  tech_modular_engineering:0 "Ingegneria Modulare"
- tech_modular_engineering_desc:0 "Procedure di costruzione delle Basi Stellari che utilizzano design modulari per ridurre il costo ed il tempo di creazione."
+ tech_modular_engineering_desc:0 "Procedure di costruzione delle Basi Stellari che utilizzano progetti modulari per ridurre il costo ed il tempo di creazione."
 
  tech_defense_platform_hull_1:0 "Integrità Strutturale Migliorata"
  tech_defense_platform_hull_1_desc:0 "Strutture rinforzate dotate di scudi antideflagrazione con un maggior fattore di assorbimento dei danni; assicureranno l'integrità strutturale delle piattaforme persino sotto attacchi pressanti."
@@ -129,7 +129,7 @@
  tech_strike_craft_2:0 "Velivoli d'Assalto Migliorati"
  tech_strike_craft_2_desc:0 "La nuova generazione di veicoli d'assalto, con avionica migliorata, migliori caratteristiche di maneggevolezza ed armamenti più potente."
  tech_strike_craft_3:0 "Velivoli d'Assalto Avanzati"
- tech_strike_craft_3_desc:0 "Un ulteriore perfezionamento del design dei veicoli d'assalto che li rende il sogno di ogni pilota. Le loro performance sono di gran lunga superiori a quelle dei modelli precedenti."
+ tech_strike_craft_3_desc:0 "Un ulteriore perfezionamento del progetto dei veicoli d'assalto che li rende il sogno di ogni pilota. Le loro performance sono di gran lunga superiori a quelle dei modelli precedenti."
 
  # Armies and Attachments - Engineering
  tech_planetary_defenses:0 "Difese Planetarie"
@@ -237,7 +237,7 @@
  tech_construction_templates:0 "Modelli Costruttivi"
  tech_construction_templates_desc:0 "Modelli standardizzati prefabbricati che riducono enormemente i tempi di costruzione degli edifici."
  tech_robomodding:0 "Modelli Meccanici"
- tech_robomodding_desc:0 "Modelli di montaggio riscrivibili che permettono la creazione di design sintetici su misura."
+ tech_robomodding_desc:0 "Modelli di montaggio riscrivibili che permettono la creazione di progetti sintetici su misura."
  tech_robomodding_m:0 "Modelli Meccanici"
  tech_robomodding_m_desc:0 "La standardizzazione dei modelli d'assemblaggio permette di migliorare la specializzazione della popolazione dronica."
  tech_robomodding_points_1:0 "Standardizzazione Trans-Modello"
@@ -348,7 +348,7 @@
  tech_torpedoes_2:0 "Siluri Corazzati"
  tech_torpedoes_2_desc:0 "Siluri spaziali aggiornati dotati di corazza per resistere meglio alle difese nemiche. Alla detonazione, la corazza di distrugge in frammenti che causano ulteriori danni."
  tech_torpedoes_3:0 "Siluri Devastatori"
- tech_torpedoes_3_desc:0 "Siluri avanzati con testate estremamente potenti. Possiedono un design più affilato, motori più potenti e modulatori di scudo aggiornati per scivolare attraverso gli scudi deflettori."
+ tech_torpedoes_3_desc:0 "Siluri avanzati con testate estremamente potenti. Hanno un più affusolato, motori più potenti e modulatori di scudo aggiornati per scivolare attraverso gli scudi deflettori."
 
  # ###################################
  # Physics

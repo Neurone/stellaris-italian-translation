@@ -11,7 +11,7 @@
  01_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_ALL:0 "Bollettino Informativo: Il Rifugio Alfa è il primo rifugio costruito dal Popolo [Root.GetSpeciesAdj] per il Progetto Custode. È in grado di contenere circa 10 miliardi di esseri organici sapienti nella sua Unità Abitativa, ed oltre 30 miliardi aggiuntivi nelle camere di stasi criogenica."
  02_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_ALL:0 "Bollettino Informativo: Il Rifugio Beta fu progettato per essere dedicato completamente alle Unità Abitative, ma alcuni problemi relativi alla capacità hanno obbligato a destinarne l'utilizzo alle capsule criogeniche. §Y<NOTA: Il Rifugio Beta è attualmente al completo e non accetta altri rifugiati.>§!"
  03_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_ALL:0 "Bollettino Informativo: Il Rifugio Gamma fu progettato per ottimizzarne al massimo la capacità. Può ospitare centinaia di miliardi di esseri organici sapienti in stasi criogenica. §Y<NOTA: Il Rifugio Gamma è attualmente al completo e non accetta altri rifugiati.>§!"
- 04_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_ALL:0 "Bollettino Informativo: Il Rifugio Delta fu progettato focalizzandosi sulla sopravvivenza. È dotato di uno scudo rinforzato e di un design compartimentale in grado di salvaguardare gli abitanti organici anche nell'improbabile caso in cui l'integrità della struttura ad anello venga compromessa."
+ 04_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_ALL:0 "Bollettino Informativo: Il Rifugio Delta fu progettato focalizzandosi sulla sopravvivenza. È dotato di uno scudo rinforzato e di una progettazione compartimentale in grado di salvaguardare gli abitanti organici anche nell'improbabile caso in cui l'integrità della struttura ad anello venga compromessa."
  01_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_S:0 "In passato, numerose civiltà sintetiche hanno contribuito al Progetto Custode, donando risorse, flotte e potenza di calcolo. Speriamo di ottenere anche il vostro contributo."
  02_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_S:0 "È nostro dovere salvaguardare le civiltà organiche della galassia, [From.GetSpeciesName]. Sono già troppe le vittime causate dagli attacchi dei §R<<ERRORE: DATI CORROTTI>>§!."
  03_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_S:0 "Rilevato segnale corrotto, livelli di corruzione entro i limiti accettabili. Si consiglia al Popolo [From.GetSpeciesAdj] di rafforzare i protocolli di comunicazione. È vitale salvaguardarsi contro l'influenza §R<<ERRORE: DATI CORROTTI>>§!."
@@ -720,7 +720,7 @@
  A_MECH_FRIENDLY_GREETING_03:0 "[From.GetSpeciesNamePlural]. Parliamo un po' alle spalle degli organici. Li rende paranoici."
  A_MECH_FRIENDLY_GREETING_04:0 "C'era un tempo in cui ammiravamo la purezza meccanica della vostra forma persino più della nostra. Ma l'assimilazione è la via verso l'ascensione."
  A_MECH_WAR_GREETING_01:0 "Abbiamo assorbito le menti dei più grandi tattici miliari di molte civiltà. Permetteteci di dimostrarvelo."
- A_MECH_WAR_GREETING_02:0 "Vi distruggeremo, e poi miglioreremo il vostro design."
+ A_MECH_WAR_GREETING_02:0 "Vi distruggeremo, e poi miglioreremo sfruttando i vostri progetti navali."
  A_MECH_VASSAL_GREETING_01:0 "Noi assorbiamo le facoltà intellettive degli organici. Ed a vostra volta, voi assorbite le nostre."
  A_MECH_VASSAL_GREETING_01_DISLOYAL:0 "La vostra incapacità nell'assorbire efficacemente i satelliti in un insieme funzionante non è mai stata più lampante."
 

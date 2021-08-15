@@ -16,6 +16,8 @@ Paradox aggiorna spesso i propri prodotti, non solo aggiungendo nuovi DLC e nuov
 
 Per come è strutturato il gioco, e poiché questo mod vuole mantenere gli achievement attivi, non è possibile aggiungere una lingua al gioco: l'unica alternativa per avere l'italiano è modificare una delle lingue disponibili. Per comodità quindi questo mod sovrascrive direttamente la lingua di default, ossia l'inglese. La fonte principale di frasi da tradurre di trova all'interno della cartella [src/mod/localisation/english](src/mod/localisation/english).
 
+**Se non siete avvezzi all'utilizzo di git o GitHub per la modifica dei file, potete utilizzare in alternativa il progetto dedicato su [Transifex](https://www.transifex.com/internet-of-peers/stellaris-italian-translation)**.
+
 ### Stato della traduzione
 
 Di seguito i file principali e lo stato della loro traduzione rispetto alla versione v3.0.3 del gioco:
