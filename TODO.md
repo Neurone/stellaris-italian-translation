@@ -15,3 +15,4 @@ tradurre e verificare [] perk => beneficio
 |nemesis_intel_l_english.yml| **da tradurre**|
 
 
+Nave da Costruzione => versione più corta per interfaccia sarebbe meglio

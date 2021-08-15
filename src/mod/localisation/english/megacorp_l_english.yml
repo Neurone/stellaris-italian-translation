@@ -3209,7 +3209,7 @@
   # Crystals for pops
  fleet2dealdesc6:0 "Onorevoli [Root.GetSpeciesNamePlural], abbiamo un'offerta speciale per voi... Numa vede dell'enorme potenziale nel vostro popolo, e vorrebbe accogliere alcuni di voi tra le sue fila. In cambio, questi inestimabili cristalli saranno vostri...$fleetdeal_explanation$"
  # Cruiser
- fleet2dealdesc7:0 "Ecco la Fortuna, la nostra più fidata nave guardiana... è stata scelta dalla déa per scortare il nostro sacro carico nella galassia ed ha respinto numerosi blasfemi, pirati, infedeli e mostri del vuoto... chiunque interferisse con il sentiero divino di Numa! Eppure, sembra nuova di pacca...\n\nSì, ci ha servito bene, ed ora può essere vostra in cambio di una modesta donazione...$fleetdeal_explanation$"
+ fleet2dealdesc7:0 "Ecco la Fortuna, la nostra più fidata nave guardiana... è stata scelta dalla déa per scortare il nostro sacro carico nella galassia ed ha respinto numerosi blasfemi, pirati, infedeli e mostri del vuoto... chiunque interferisse con il sentiero divino di Numa! E nonostante tutto è ancora come nuova...\n\nSì, ci ha servito bene ed ora, in cambio di una modesta donazione, può essere vostra...$fleetdeal_explanation$"
  # Districts for Machines
  fleet2dealdesc8:0 "Perdonate la nostra invadenza, ma abbiamo notato che il vostro pianeta, §Y[fleet2deal8planet.GetName]§!, possiede un potenziale unico al momento non sfruttato. Può essere aperto un passaggio verso il suo sacro nucleo, così che possa sgorgare il flusso di ricchezze!\n\nPermetteteci di svelarvi le ricchezze nascoste nelle vostre terre. Ovviamente, in cambio di una modesta donazione.$fleetdeal_explanation$"
  fleet2deal8.tooltip:0 "   Fornisce: $mod_district_generator_max$: §G+3§!\n   $MOD_PLANET_MAX_DISTRICTS_ADD$: §G+2§!"
@@ -4157,7 +4157,7 @@
 
  #Tutorial
  TUTORIAL_GOVERNMENTVIEW_MARKET_TITLE:0 "Il Mercato"
- TUTORIAL_GOVERNMENTVIEW_MARKET_DESC:0 "Tramite la schermata del §SMercato§! possiamo acquistare e vendere risorse. All'inizio si tratterà solamente di un mercato interno ma, se abbastanza imperi ci contatteranno, potremmo creare un §SMercato Galattico§!.\n\nLe risorse possono essere acquistate e vendute tramite gli appositi pulsanti, ma dobbiamo prestare attenzione alla variazione del loro prezzo in base alla domanda e all'offerta. In questa sezione possono anche essere stipulati accordi §SMensili§!."
+ TUTORIAL_GOVERNMENTVIEW_MARKET_DESC:0 "Tramite il pannello del §SMercato§! possiamo acquistare e vendere risorse. All'inizio si tratterà solamente di un mercato interno ma, se abbastanza imperi ci contatteranno, potremmo creare un §SMercato Galattico§!.\n\nLe risorse possono essere acquistate e vendute tramite gli appositi pulsanti, ma dobbiamo prestare attenzione alla variazione del loro prezzo in base alla domanda e all'offerta. In questa sezione possono anche essere stipulati accordi §SMensili§!."
  TUTORIAL_GOVERNMENTVIEW_SLAVE_MARKET_TITLE:0 "Il Mercato degli Schiavi"
  TUTORIAL_GOVERNMENTVIEW_SLAVE_MARKET_DESC:1 "Si dice spesso che la vita è a buon mercato, ma lo sostengono solamente coloro che non devono affrontare i costi di spedizione interplanetari e le tasse d'importazione.\n\nIl §SMercato degli Schiavi§! ci permette di acquistare e vendere §SPOP§! che verrà automaticamente consegnata sul pianeta selezionato."
  TUTORIAL_TRADE_VIEW_TITLE:0 "Rotte Commerciali"

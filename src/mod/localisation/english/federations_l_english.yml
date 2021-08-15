@@ -69,8 +69,8 @@
  d_machine_minerals_desc:0 "Le risorse di minerale raffinato di un intero sistema solare vengono raccolte qui in cumuli delle dimensioni di un continente."
  d_organic_slurry:0 "Liquame organico"
  d_organic_slurry_desc:0 "Un oceano di liquame organico, i residui di lavorazione della precedente biomassa di un pianeta."
- d_resource_consolidation_1:0 "Malfunctioning Replicator Bay"
- d_resource_consolidation_1_desc:0 "The replicator bay built into the Machine World is malfunctioning, producing endless piles of $MACHINE_hand_plural$."
+ d_resource_consolidation_1:0 "Baia Replicatrice Malfunzionante"
+ d_resource_consolidation_1_desc:0 "La Baia Replicatrice costruita sul Pianeta Meccanico non funziona correttamente e produce mucchi infiniti di $MACHINE_hand_plural$."
  
  juggernaut:0 "Juggernaut"
  juggernaut_plural:0 "Juggernaut"
@@ -283,7 +283,7 @@
  FEDERATION_PRESIDENT_MEMBER:0 "§EPresidente della Federazione§!"
  FEDERATION_ECONOMIC_POWER:0 "Potere economico: $POWER|Y$"
  FEDERATION_DIPLOMATIC_WEIGHT_POWER:0 "Potere diplomatico: $POWER|Y$"
- FEDERATION_TECH_POWER:0 "Potere tecnologico: $POWER|Y$"
+ FEDERATION_TECH_POWER:0 "Potere Tecnologico: $POWER|Y$"
  FEDERATION_FLEET_POWER:0 "Potere Flotta: $POWER|Y$"
  FEDERATION_TOTAL_COHESION:0 "Coesione totale: $COHESION|0+$"
  FEDERATION_MONTHLY_COHESION:0 "§HImpatto mensile Coesione:§! $COHESION|2+$"
@@ -299,7 +299,7 @@
  FEDERATION_ENVOYS_COHESION:0 "Emissari totali: $ENVOYS|+0$\n\tImpatto Coesione: $IMPACT|+2$"
  FEDERATION_ENVOYS_COUNTRY:0 "\t$NAME$: $COUNT|Y0$"
  FEDERATION_ENVOYS_CONTRIBUTORS:0 "§EContributori Emissari:§! ($VALUE|Y$)"
- FEDERATION_ENVOYS_SLACKERS:0 "Memberi Non Contributori:"
+ FEDERATION_ENVOYS_SLACKERS:0 "Membri Non Contributori:"
  FEDERATION_ENVOYS_SLACKER:0 "\t$NAME|R$"
  FEDERATION_ENVOYS_DESC:0 "Gli §E§HEmissari§! sono rappresentanti dei membri all'interno della federazione. Aumentano la §HCoesione della Federazione§! lavorando duro per mantenere la nostra federazione unita.§!"
  FEDERATION_LEVEL_PERKS_DESC:0 "§EVantaggi livello $LEVEL$:§!"
@@ -395,7 +395,7 @@
  succession_power_economy:0 "Economia"
  succession_power_economy_desc:0 "Il presidente dovrebbe essere scelto dall'impero con l'§Yeconomia§! più forte."
  succession_power_tech:0 "Tecnologia"
- succession_power_tech_desc:0 "Il presidente dovrebbe essere scelto dall'impero con la §Ytechnology§! più avanzata."
+ succession_power_tech_desc:0 "Il presidente dovrebbe essere scelto dall'impero con la §Ytecnologia§! più avanzata."
  succession_power_fleet:0 "Flotte"
  succession_power_fleet_desc:0 "Il presidente dovrebbe essere scelto dall'impero con le §Yflotte§! più grandi e potenti."
  succession_power_diplomatic_weight:0 "Peso Diplomatico"
@@ -405,7 +405,7 @@
  law_category_succession_term:0 "Termine di Successione"
  law_category_succession_term_desc:0 "Queste Leggi determinano quando un Membro viene scelto come Presidente."
  succession_term_status_change:0 "Cambio di Status"
- succession_term_status_change_desc:0 "Un nuovo presidente viene scelto quando un altro membro lo surpassa del §Y25%§!."
+ succession_term_status_change_desc:0 "Un nuovo presidente viene scelto quando un altro membro lo supera del §Y25%§!."
  ### Status change value set in FEDERATION_LEADER_POWER_THRESHOLD
  succession_term_years_10:0 "10 Anni"
  succession_term_years_10_desc:0 "Imposta una durata per certi Tipi di Successione."
@@ -466,7 +466,7 @@
  vote_weight_equal:0 "Uguale"
  vote_weight_equal_desc:0 "Ogni membro ha 1 voto, e ogni voto ha lo stesso valore."
  vote_weight_diplomatic:0 "Diplomatico"
- vote_weight_diplomatic_desc:0 "I Voti sono sterminati dal Peso Diplomatico. I Membri più influenti esrcitano maggiore potere."
+ vote_weight_diplomatic_desc:0 "I Voti sono sterminati dal Peso Diplomatico. I Membri più influenti esercitano maggiore potere."
 
  law_category_war_declaration_vote:0 "Dichiarazione di Guerra"
  law_category_war_declaration_vote_desc:0 "Queste Leggi determinano come Dichiariamo Guerra."
@@ -501,21 +501,21 @@
 
 
  law_category_free_migration:0 "Migrazione Libera"
- law_category_free_migration_desc:0 "Questo determina se la Migrazione Libera è soncentita tra i Membri nella Federazione."
+ law_category_free_migration_desc:0 "Determina se è consentita la Migrazione Libera tra i Membri nella Federazione."
  free_migration_no:0 "Non consentita"
- free_migration_no_desc:0 "I Membridevono firmare Trattati di Migrazione individuali."
+ free_migration_no_desc:0 "I Membri devono firmare Trattati di Migrazione individuali."
  free_migration_yes:0 "Consentita"
  free_migration_yes_desc:0 "I Trattati di Migrazione sono gratuiti e automatici tra tutti i Membri nella Federazione."
 
  law_category_separate_treaties:0 "Trattati Separati"
- law_category_separate_treaties_desc:0 "Questo determina se ai Membri è consentito avere Trattati Separati al di fuori della Federazione."
+ law_category_separate_treaties_desc:0 "Determina se è consentito ai Membri avere Trattati Separati al di fuori della Federazione."
  treaties_separate_yes:0 "Permessi"
  treaties_separate_yes_desc:0 "I Membri della Federazione possono firmare accordi diplomatici con imperi fuori dalla federazione."
  treaties_separate_no:0 "Proibiti"
  treaties_separate_no_desc:0 "Ai Membri della Federazione è proibito avere Accordi di Ricerca, Commerciali o Trattati di Migrazione con imperi fuori della Federazione."
 
  law_category_challenge:0 "Tipo di Sfida di Successione"
- law_category_challenge_desc:0 "Definisce quale tipo di sfida sarà usato per determinare il prossimo presidente della federatione."
+ law_category_challenge_desc:0 "Definisce quale tipo di sfida sarà usato per determinare il prossimo presidente della federazione."
  challenge_type_arena_combat:0 "Combattimento nell'Arena"
  challenge_type_psionic_battle:0 "Battaglia Psionica"
  challenge_type_bidding_war:0 "Regola d'Oro"
@@ -539,7 +539,7 @@
  damage_crisis_1_modifier_desc:0 "Danno alle Fazioni delle Crisi Finali: §G+25%§!"
 
  # Limits of diplomatic actions
- federation_internal_migration:0 "La §Y$law_category_free_migration$§! §Rè §Y$free_migration_yes$§! per Legge Federale, pertanto abbiamo già un trattato di migrazione di default.§!"
+ federation_internal_migration:0 "La §Y$law_category_free_migration$§! §Rè §Y$free_migration_yes$§! per Legge Federale, pertanto abbiamo già un trattato di migrazione di base.§!"
  federation_actor_no_separate_treaties:0 "Stipulare §Y$law_category_separate_treaties$§! §Rè §Y$treaties_separate_no$§! per Legge Federale, pertanto non possiamo avere trattati separati con imperi che non sono membri della nostra federazione.§!"
  federation_recipient_no_separate_treaties:0 "§RPer loro stipulare §Y$law_category_separate_treaties$§! è §Y$treaties_separate_no$§! per Legge Federale, pertanto non possono concludere un tale accordo.§!"
  federation_automatic_research:0 "§RAbbiamo già §YAccordi di Ricerca§! gratuiti e automatici essendo memrbi di una federazione $research_federation$.§!"
@@ -1043,7 +1043,7 @@
 
  resolution_greatergood_balance_in_the_middle:0 "Equilibrio nel Mezzo"
  resolution_greatergood_balance_in_the_middle_desc:0 "Dobbiamo affrontare la disuguaglianza in tutte le sue forme, imponendo l'equità con ogni mezzo necessario. A che serve un banchetto se ne hai già abbastanza, e perché dovrebbe andare sprecato quando il tuo vicino ha fame?"
- resolution_greatergood_balance_in_the_middle_tooltip:0 "Gli Standard di Vita §YSussistenza di Base§!, §YEconomia Stratificata§!, §YCondizioni Decenti§!, e §YPrivilegio Accademico§! sono §Rbanned§!.\n\nLa §YSchiavitù§! di ogni tipo è §Rvietata§!."
+ resolution_greatergood_balance_in_the_middle_tooltip:0 "Gli Standard di Vita §YSussistenza di Base§!, §YEconomia Stratificata§!, §YCondizioni Decenti§!, e §YPrivilegio Accademico§! sono §Rvietati§!.\n\nLa §YSchiavitù§! di ogni tipo è §Rvietata§!."
 
  resolution_greatergood_universal_prosperity_mandate:0 "Mandato di Prosperità Universale"
  resolution_greatergood_universal_prosperity_mandate_desc:0 "Se le nostre civiltà, che si estendono nella galassia, non possono provvedere a tutta al nostra gente, allora hanno fallito. Non ci sono scusa per fare desiderare qualcosa a qualcuno nella galassia. Dovremmo inoltre agire per ridistribuire la ricchezza in eccesso per il miglioramento di tutti."

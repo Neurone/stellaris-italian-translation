@@ -68,7 +68,7 @@
  anomaly.6660.desc.gravity_desc_mach:0 "$anomaly.6660.desc.start$ Sebbene la gravità del pianeta sia tutt'altro che ideale per gli esseri organici, i nostri algoritmi di calibrazione gravitazionale superiori non risentiranno di quest'anomalia.\n\n$anomaly.6660.desc.end$"
  anomaly.6660.desc.wildlife:0 "$anomaly.6660.desc.start$ Gli animali trovati su questo pianeta sembrano ostili e complicheranno non poco la vita dei potenziali coloni.\n\n$anomaly.6660.desc.end$"
  anomaly.6660.desc.titan:0 "$anomaly.6660.desc.start$ Il pianeta ospita forme di vita mastodontiche con con cui sembra prudente non interagire.\n\n$anomaly.6660.desc.end$"
- anomaly.6660.desc.resources:0 "$anomaly.6660.desc.start$ Per la sua composizione, questo pianeta offre risorse che conviene cogliere.\n\n$anomaly.6660.desc.end$"
+ anomaly.6660.desc.resources:0 "$anomaly.6660.desc.start$ A causa della sua composizione e della sua storia, questo pianeta offre risorse extra e dovremmo approfittarne per raccoglierle.\n\n$anomaly.6660.desc.end$"
  anomaly.6660.desc.beauty:0 "$anomaly.6660.desc.start$ La bellezza dei paesaggi offerti da [From.GetName] gli conferisce un valore aggiunto che sarà molto gradito a forme di vita biologicamente compatibili.\n\n$anomaly.6660.desc.end$"
  anomaly.6660.desc.atmosphere:0 "$anomaly.6660.desc.start$ L'atmosfera contiene gas speciali che potrebbero influenzare la nostra popolazione, quindi dovremmo essere cauti.\n\n$anomaly.6660.desc.end$"
  anomaly.6660.desc.atmosphere_mach:0 "$anomaly.6660.desc.start$ L'atmosfera contiene gas che potrebbero disturbare le funzioni di un sistema nervoso organico.\n\n$anomaly.6660.desc.end$"
@@ -76,7 +76,8 @@
  anomaly.6660.desc.lush_mach:0 "$anomaly.6660.desc.start$ La fauna non ha difficoltà a prosperare, e fornirebbe alle forme di vita organiche un'ampia gamma di risorse vitali.\n\n$anomaly.6660.desc.end$"
  anomaly.6660.desc.terrible:0 "$anomaly.6660.desc.start$ L'ambiente è duro ed ostile; non l'ideale per un insediamento.\n\n$anomaly.6660.desc.end$"
  anomaly.6660.desc.terrible_mach:0 "$anomaly.6660.desc.start$ L'ambiente è duro ed ostile; non adatto alle forme di vita organiche.\n\n$anomaly.6660.desc.end$"
- anomaly.6660.desc.end:0 "Incontreremo di sicuro altre situazioni simili nel nostro processo d'espansione. Non dobbiamo sottovalutare l'intralcio che potrebbero rappresentare."
+ anomaly.6660.desc.end:0 "Ci imbatteremo sicuramente in altre anomalie simili nell'esplorazione di nuovi pianeti, e non dovremmo sottovalutare l'impatto che potrebbero avere sulla nostra espansione."
+
  anomaly.6660.a.tooltip:0 "È comparso un Modificatore Planetario su [From.GetName]."
 
  ####################################

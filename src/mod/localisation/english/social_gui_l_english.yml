@@ -47,5 +47,5 @@
  SOCIAL_JOIN_ACCEPTED:0 "La tua richiesta di partecipazione è stata accettata"
  SOCIAL_JOIN_DECLINED:0 "La tua richiesta di partecipazione è stata rifiutata"
  SOCIAL_INCOMPATIBLE_VERSION:0 "Sembra tu abbia delle incompatibilità di versione o di mod. Spiacente, ma non potete giocare insieme in questo momento"
- INVITE_CANTCONNECT_RESOLUTION:0 "Non posso elaborare l'invito in questo momento. Dovresti essere nel menù principale o nella schermata del multi giocatore per accettare l'invito"
- JOIN_CANTCONNECT_RESOLUTION:0 "Non posso elaborare la richiesta di partecipazione in questo momento. Dovresti essere nel menù principale o nella schermata del multi giocatore per accettare l'invito"
+ INVITE_CANTCONNECT_RESOLUTION:0 "Non posso elaborare l'invito in questo momento. Dovresti essere nel menù principale o nella schermata del multigiocatore per accettare l'invito"
+ JOIN_CANTCONNECT_RESOLUTION:0 "Non posso elaborare la richiesta di partecipazione in questo momento. Dovresti essere nel menù principale o nella schermata del multigiocatore per accettare l'invito"
