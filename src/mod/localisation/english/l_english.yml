@@ -172,7 +172,7 @@
  CYBORG_SPECIES_MUST_BE_ORGANIC:0 "$MACHINE_SPECIES_MUST_BE_ORGANIC$"
  MACHINE_SPECIES_NOT_MACHINE:0 "$TRIGGER_FAIL$ La specie deve essere §YMeccanica§!."
  MACHINE_SPECIES_MACHINE:0 "$TRIGGER_FAIL$ La specie non deve essere §YMeccanica§!."
- ASSIMILATOR_SPECIES_NOT_CYBORG:0 "$TRIGGER_FAIL$ La specie deve essere §YMeccanica§! o §YCibernetica§."
+ ASSIMILATOR_SPECIES_NOT_CYBORG:0 "$TRIGGER_FAIL$ La specie deve essere §YMeccanica§! o §YCibernetica§!."
  MUST_NOT_BE_DOMINANT_SPECIES:0 "$TRIGGER_FAIL$ La specie non deve essere già quella dominante dell'impero."
  SPECIES_MUST_BE_ASSIMILATING:1 "$TRIGGER_FAIL$ La specie deve avere Cittadinanza §Y$citizenship_assimilation$§!."
  SPECIES_MUST_NOT_BE_ASSIMILATING:1 "$TRIGGER_FAIL$ La specie non deve avere Cittadinanza §Y$citizenship_assimilation$§!."

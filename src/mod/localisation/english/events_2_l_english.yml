@@ -100,7 +100,7 @@
  ####################################
 
  anomaly.75.name:0 "Cervello di Pietra"
- anomaly.75.desc:0 "La scansione di [From.GetName], un asteroide particolarmente massiccio, ha fornito esiti affascinanti. Il nucleo della roccia è interamente ricoperto da una rete di cristalli conduttori che trasmettono una debole carica elettrica. L'equipaggio della [Root.GetName] riconosce questa matrice come una primitiva rete neurale e ritiene che il corpo celeste stia in qualche modo pensando, se non che sia del tutto sapiente. Chiedono il permesso di estrarre il nucleo e di trasportarlo alla stazione orbitale più vicina per ricerche più approfondite."
+ anomaly.75.desc:0 "Dalla scansione di [From.GetName], un asteroide particolarmente massiccio, emergono risultati affascinanti. Il nucleo della roccia è attraversato da una rete di cristalli conduttori che trasportano una debole carica elettrica. L'equipaggio della [Root.GetName] riconosce questa matrice come un reticolo neurale primitivo e crede che il corpo celeste stia in qualche modo pensando, se non che sia completamente senziente. Chiedono il permesso di estrarre il nucleo e di trasportarlo alla più vicina stazione orbitale per uno studio più approfondito."
  anomaly.75.a:0 "Facciamo così."
  anomaly.75.b:0 "Usate quello che riuscite a ricavare dallo studio della superficie."
  anomaly.75.b.tooltip:0 "Aggiunge il modificatore §YCervello di Pietra§! a [From.GetName]:\n£physics£ §G+8§!"
