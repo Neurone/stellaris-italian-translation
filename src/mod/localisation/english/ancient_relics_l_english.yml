@@ -204,7 +204,7 @@
  MEGASTRUCTURE_STAGE_UNLOCK_TOOLTIP_PRODUCES:0 "Produce: $PRODUCES$\n"
  MEGASTRUCTURE_STAGE_UNLOCK_TOOLTIP_UPKEEP:0 "Mantenimento: $UPKEEP$\n"
 
- EXCAVATION_PROGRESS_TOOLTIP:0 "§HFasi di Scavo§!\nI Siti Archeologici vengono studiati seguendo delle fasi, al termine delle quali viene lanciato un dado.\n\nLa prossima fase terminerà tra £time£ $DAYS|Y$"
+ EXCAVATION_PROGRESS_TOOLTIP:0 "§HFasi di Scavo§!\nI Siti Archeologici vengono studiati seguendo delle fasi, al termine delle quali viene lanciato un dado.\n\nLa fase attuale terminerà tra £time£ $DAYS|Y$"
  LEADER_MODIFIERS:0 "§HModificatori del Leader§!"
 
  ARCHAEOLOGICAL_SITE:0 "Sito Archeologico"
