@@ -1579,7 +1579,7 @@
 
  CLICK_TO_VIEW_GALACTIC_COMMUNITY: "§GClicca per vedere la [global_event_country.GetGalCommunityOrGalImperium]§!"
 
-COUNCIL_SIZE: "Seggi: $SIZE|Y$"
+ COUNCIL_SIZE: "Seggi: $SIZE|Y$"
  COUNCIL_SIZE_TOOLTIP: "§EThe number of seats on the §H[global_event_country.GetGalCouncilOrImpCouncil]§! is dictated by §HCouncil§! Resolutions§!"
  SET_COUNCIL_SIZE_DESC: "Set the number of positions on the $GALACTIC_COUNCIL$ to $VALUE|Y$"
  council_member: "Council Member"
