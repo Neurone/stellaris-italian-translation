@@ -10,9 +10,9 @@
  opinion_abandoned_apology:0 "$opinion_abandoned$"
  opinion_abandoned_insult:0 "$opinion_abandoned$"
  assassination_forgiven:0 "Ostilità Perdonata"
- 
+
  ####################################
- # Empire Modifiers 
+ # Empire Modifiers
  ####################################
  media_coverage_positive_high:0 "Copertura Mediatica Estremamente Positiva"
  media_coverage_positive_medium:0 "Copertura Mediatica Molto Positiva"
@@ -40,9 +40,9 @@
  alien_genome_research:0 "Ricerca Genoma Alieno"
  syndaw_research_bonus:0 "Overclocking Computazionale"
  syndaw_production_surplus:0 "Quota di Produzione Superata"
- 
+
  ####################################
- # Edicts 
+ # Edicts
  ####################################
  edict_masters_writings_politics:0 "Insegnamenti del Maestro: Il Bene Superiore"
  edict_masters_writings_politics_desc:0 "Traduzione degli insegnamenti di una filosofa aliena. Potremmo compiere grandi passi avanti nel settore delle infrastrutture seguendo il suo consiglio per unire le persone attraverso l'autosacrificio.\n\n"Una nazione forte è costruita sul sacrificio delle comodità, finché ad ognuno verrà chiesto di condividere il fardello." - Telisa, la Narrastorie\n\n"
@@ -58,9 +58,9 @@
  edict_renewable_energy_desc:0 "Possiamo limitare ulteriormente l'uso di combustibili tossici e di risorse non rinnovabili, al fine di promuovere la ricerca di nuovi metodi di produzione energetica. Questo potrebbe aiutarci ad avvicinarci ad un ciclo energetico perfetto, migliorando così anche l'ambiente per il nostro popolo.\n\n"
  edict_super_sensors:0 "Ricerche Estese sui Sensori"
  edict_super_sensors_desc:0 "Dopo aver terminato lo studio dei sensori avanzati, possediamo abbastanza informazioni per fornire risorse aggiuntive atte al miglioramento delle nostre scansioni. Tramite questa iniziativa, per i nostri tecnici sarebbe molto più semplice trovare oggetti interessanti ai confini dei nostri sistemi.\n\n"
- 
+
  ####################################
- # Planet Modifiers 
+ # Planet Modifiers
  ####################################
  acid_jungles:0 "Giungle Acide"
  acid_jungles_desc:0 "L'evoluzione ha prodotto alberi e fogliame che rilasciano acidi e rendono il terreno estremamente pericoloso."
@@ -124,7 +124,7 @@
  syndaw_research_malus_desc:0 "Un'IA scientifica coinvolta nella ricerca sociologica ha subito dei danni hardware ed è attualmente in sostituzione."
 
  ####################################
- # Ship/Fleet Modifiers 
+ # Ship/Fleet Modifiers
  ####################################
  ship_survey_boost:0 "Ispezione Migliorata"
  alien_racing_ship:0 "Nave Scientifica"
@@ -132,7 +132,7 @@
  protege_onboard:0 "Equipaggio Promettente"
  ship_master_cruiser:0 "Progetto Navale dei Precursori"
  ship_excess_power:0 "Potenza in Eccesso"
- 
+
  ####################################
  # Pop Modifiers
  ####################################
@@ -146,4 +146,4 @@
  ####################################
  # DEBUG STUFF
  ####################################
- 
+

@@ -3,7 +3,7 @@
  ####################################
  # Special Research Projects
  ####################################
- 
+
  MIGRATING_FORESTS_1_PROJECT:0 "Studiare le Foreste Erranti"
  MIGRATING_FORESTS_1_PROJECT_DESC:0 "Molti dei nostri scienziati sperano che, continuando gli studi su questa flora aliena, possa essere trovata una soluzione che non comporti la distruzione delle foreste."
  MIGRATING_FORESTS_2_PROJECT:0 "Bruciare le Foreste Erranti"
@@ -192,8 +192,8 @@
  CYBREX_ARCHEOLOGY_11_DESC:0 "Un modulo di una stazione di ricerca Cybrex, contenente i resti di un qualche tipo di creatura cibernetica, è stato trovato nell'orbita di [From.GetName]."
  CYBREX_HOMEWORLD_PROJECT:0 "$cybrex_1_poi$"
  CYBREX_HOMEWORLD_PROJECT_DESC:0 "$cybrex_1_poi_desc$"
- 
- 
+
+
  TARBLAC_PROCUREMENT:0 "Gli Sfuggenti Tarblac"
  TARBLAC_PROCUREMENT_DESC:0 "I Tarblac sono stati trovati nelle profondità del Pianeta Oceanico [This.GetName]."
  TASSARGOID_PROCUREMENT:0 "I Possenti Tassargoid"
@@ -236,7 +236,7 @@
  SYNTH_INFILTRATION_PROJECT_DESC:0 "Degli infiltrati sintetici travestiti da [Root.GetSpeciesNamePlural] operano su [Root.GetName]. Abbiamo bisogno di trovare un metodo affidabile ed efficiente per la loro identificazione."
  CAPTURE_QUEEN:0 "Catturare la Regina"
  CAPTURE_QUEEN_DESC:0 "Dopo una recente battaglia spaziale nel Sistema [queen_system.GetName], una Regina Prethoryn è stata gravemente ferita e creduta morta dal resto dello Sciame. La creatura, tuttavia, è ancora viva. Catturarla sarebbe un grande colpo."
- 
+
  ESTABLISH_COMMUNICATIONS:0 "Indagare su [Prev.From.GetName]"
  ESTABLISH_COMMUNICATIONS_DESC:0 "Abbiamo bisogno di conoscere meglio i misteriosi alieni a cui abbiamo dato il nome in codice §Y[Prev.From.GetName]§!. Se possiedono un linguaggio, dobbiamo decifrarlo e stabilire una comunicazione\n\nRicompensa: £influence£ §GInfluenza§! sul §SProgetto Speciale§!"
  INVESTIGATE_SPACE_AMOEBA:0 "$ESTABLISH_COMMUNICATIONS$"

@@ -29,7 +29,7 @@
  ancrel.6015.desc:0 "Questo asteroide, un tempo, serviva come capitale nascosta di un impero interstellare relativamente grande, che dominò su questa sezione della galassia migliaia di anni fa. Da questo centro di comando fortificato, l'élite comandava assieme a migliaia di ufficiali militari e civili, amministrando l'impero al riparo dalle violente rappresaglie che le loro dure politiche spesso scatenavano.\n\nI contatti con il resto dell'impero venivano gestiti esclusivamente tramite trasmissioni subspaziali criptate, ed un singolo cargo faceva visite periodiche per rifornire la base e trasferire il personale."
  ancrel.6020.name:0 "Gli Ultimi Giorni"
  ancrel.6020.desc:0 "Da quello che siamo riusciti a capire, sembrerebbe che il cargo di rifornimento sia entrato in collisione con l'asteroide a causa di un malfunzionamento ai propulsori. L'esplosione ha danneggiato la porta blindata e distrutto il trasmettitore subspaziale dell'asteroide, tagliando ogni contatto col mondo esterno.\n\nIntrappolati e senza speranza di soccorso, gli abitanti dell'asteroide sono lentamente morti di fame o suicidio. Gli ultimi registri confermano che l'impero, improvvisamente privato della sua capitale, è precipitato nella guerra civile e nell'anarchia."
- 
+
  site_hunting_ground:0 "Resti Fossili"
  site_hunting_ground_intro:0 "In una grande valle celata su [From.Planet.GetName] sono stati ritrovati dei resti fossili appartenenti a diverse specie che sembrano non essere indigene del pianeta. Sono stati datati tutti allo stesso periodo, con qualche secolo di scarto, 3,6 milioni di anni fa.\n\nOgnuna di queste specie sembra essersi evoluta in una propria biosfera, e sembrano essere state tutte sapienti. Stranamente, ogni individuo fossile ritrovato finora mostra segni di morte violenta."
  ancrel.6050.name:0 "Altri Resti"
@@ -42,7 +42,7 @@
  ancrel.6065.desc:0 "Gli archeologi che stanno studiando il capanno da caccia sono incappati in diversi riferimenti riguardanti una leggendaria guerriera Retarax conosciuta solamente come §H"La Cacciatrice"§!. Apparentemente fu la loro assassina più letale, rinomata in tutto il Dominio per aver personalmente massacrato migliaia di alieni su Mak'vaehl.\n\nNon è chiaro se si tratti di realtà o finzione, ma secondo le leggende Retarax, la Cacciatrice fu uccisa all'interno della valle da una preda che la superò in astuzia. Presumibilmente, anche quella volta, stava brandendo la leggendaria §H"Lama della Cacciatrice"§!."
  ancrel.6070.name:0 "La Lama della Cacciatrice"
  ancrel.6070.desc:0 "Dopo aver faticosamente attraversato tutta la Valle di Mak'vaehl in cerca di tracce della leggendaria Cacciatrice, gli archeologi hanno infine trovato il luogo del suo ultimo riposo. Il suo scheletro fossilizzato è stato ritrovato avvinghiato in lotta a quello di un grande artropode cornuto, i cui artigli ancora stringevano l'elsa di una spada perfettamente conservata.\n\nDeve trattarsi della §HLama della Cacciatrice§!. L'arma è composta da un materiale sconosciuto ed è abbastanza affilata da tagliare come burro la nostra più spessa corazza."
- 
+
  ancrel.6099.name:0 "Campo Camaleontico Svelato"
  ancrel.6099.desc:0 "Sulla superficie di §H[tomb_planet.GetName]§!, un corpo celeste senza vita nel nostro spazio, è stato scoperto un qualche tipo di campo camaleontico che celava un'antica struttura. L'ha casualmente scorto un mercantile, notando che un asteroide caduto sulla superficie è stato deviato dal campo stesso."
  ancrel.6099.a:0 "Dovremmo indagare."
@@ -466,7 +466,7 @@
 
  tissue_growth_stimulants:0 "Stimolanti per la Crescita dei Tessuti"
  tissue_growth_stimulants_desc:0 "$decision_tissue_growth_stimulants_desc$"
- 
+
  explosive_fungifoam_housing:0 "Unità Abitative Fungiformi"
  explosive_fungifoam_housing_desc:0 "Modificando geneticamente l'antico virus trovato nella Città d'Ossa, ed adattandolo ad un fungo locale, i nostri scienziati sono in grado di creare dei moduli abitativi auto-generanti per le nostre unità meccaniche."
 
@@ -632,7 +632,7 @@
  ancrel.9060.desc:0 "Sebbene molto astratte, le iscrizioni sul cubo si sono rivelate essere delle costellazioni. Ciò non è saltato subito all'occhio in quanto sembrano essere state disegnate prendendo come punto d'osservazione un luogo al di fuori della galassia. Dopo questa rivelazione, risolvere il rompicapo è stato un gioco da ragazzi. Si tratta, infatti, di una mappa.\n\nUna volta risolto il rompicapo, il cubo si è illuminato, rivelando una visuale olografica di un sistema solare vicino e focalizzandosi su una particolare posizione nella cintura esterna. Le osservazioni di questo luogo hanno rivelato un ammasso particolarmente denso di detriti rocciosi, alcuni grandi come un continente. Una volta ispezionati, sono apparsi essere i resti di un intero pianeta che è andato distrutto eoni fa.\n\nQualunque cosa abbia ispirato la creazione di questo enorme edificio, è scomparsa da tempo."
  ancrel.9065.name:0 "Antica Approvazione"
  ancrel.9065.desc:0 "La risoluzione del rompicapo si è rivelata piuttosto difficile. L'allineamento delle iscrizioni non bastava, dovevano essere anche sistemate in un determinato ordine, e man mano che si procedeva venivano modificate le sequenze precedenti, in permutazioni pressoché infinite. C'è voluto molto tempo, ma alla fine è stato sbloccato.\n\nNon appena l'ultima serie è stata sistemata, il cubo è esploso in milioni di minuscoli punti di luce. Queste lucine hanno danzato in aria per qualche istante, prima di riunirsi a formare delle parole in una lingua sconosciuta. Stranamente, tutti i testimoni di questo evento hanno compreso il messaggio senza conoscere le parole. Per qualche secondo, prima di scomparire per sempre, è comparsa la scritta: §HAvete superato la Prova. Agiremo di conseguenza.§!"
- 
+
  site_shot_into_the_ground:0 "Buco nel Terreno"
  site_shot_into_the_ground_intro:0 "La telemetria orbitale mostra un enorme cratere da impatto sulla superficie di [From.Planet.GetName]. Non è stato causato da un meteorite, in quanto il cratere è sorprendentemente profondo rispetto al suo diametro. In realtà, l'effettiva profondità non può ancora essere determinata, dato che parte di esso è soffocato dai detriti che scivolano all'interno, bloccando ogni scansione orbitale.\n\nSembra che l'unico modo per capire cosa giace sul fondo sia uno scavo tradizionale."
  ancrel.9070.name:0 "Si Scava"
@@ -808,7 +808,7 @@
  ancrel.9395.desc:0 "La ragione dietro le numerose visite a questo asteroide è diventata chiara quando la spedizione ha ritrovato un enorme magazzino al suo interno. La roccia morta servì come deposito per qualche specie spaziale; offriva rifornimento e manutenzione alle navi prima che partissero per lo spazio profondo. Ciò potrebbe indicare una civiltà aliena priva delle conoscenze sul viaggio SL, ma spinti da molta motivazione nell'esplorare lo spazio.\n\nPerché l'asteroide fu abbandonato rimane un mistero, ma siamo riusciti a recuperare una piccola quantità di materiali. Chi trova tiene!"
  ancrel.9400.name:0 "Sorgi e Splendi"
  ancrel.9400.desc:0 "All'interno dell'asteroide la spedizione ha compiuto una scoperta affascinante. Centinaia di migliaia di capsule criogeniche allineate in vaste camere scavate nella roccia. Ogni capsula è aperta ed inattiva, dando come l'impressione che siano già servite al loro scopo.\n\nLa teoria più comune è che l'asteroide servì come una sorta di navicella da colonizzazione, lanciata nello spazio verso qualche habitat prospero. In prossimità della destinazione, i sistemi automatici risvegliarono il carico addormentato, che lasciò l'asteroide tramite piccole navicelle per raggiungere la loro nuova casa."
- 
+
  site_strange_flows:0 "Strani Flussi"
  site_strange_flows_intro:0 "Quello che dovrebbe essere un "normale" pianeta fuso sta facendo invece impazzire i sensori della Nave Scientifica.\n\nSi consigliano ulteriori studi."
  ancrel.9405.name:0 "Segni di Resistenza"
@@ -821,7 +821,7 @@
  ancrel.9420.desc:0 "Il palese disprezzo per le leggi convenzionali della fisica ha indotto il nostro dipartimento di scienze a considerare le" forze esterne "come spiegazione per le strane proprietà di [FromFrom.Planet.GetName].\n\nUn cratere da impatto-in combinazione con tracce di particelle di unità di fusione trovate in orbita-suggerisce che a un certo punto il pianeta è stato colpito da una specie di superarma elettrica. La gravità del colpo è stata tale che tutti i metalli del pianeta si sono sciolti e il pianeta continua a scoppiettare per l'elettricità residua.\n\nChe cosa garantiva un attacco così tremendo? Non lo sapremo mai."
  ancrel.9425.name:0 "Per la Scienza!"
  ancrel.9425.desc:0 "Una volta ricalibrati i sensori per compensare l'interferenza, è stata fatta una nuova scoperta: una stazione di ricerca abbandonata, situata su una luna vicina. Frammenti di dati sono stati recuperati dalle registrazioni quasi completamente bruciate, descrivendo un esperimento che coinvolge un gigantesco magnete artificiale sulla superficie del pianeta. \n\nL'esperimento ha avuto un po 'troppo successo. Ha trasformato l'intera crosta metallica del pianeta in pozze fuse con una carica elettromagnetica così intensa da friggere la stazione di ricerca in un istante.\n\nBene ... Nessun progresso senza sacrificio. "
- 
+
  ###Tutorial###
  tutorial.1337.name:0 "Artefatti Minori"
  tutorial.1337.desc:0 "Abbiamo scoperto alcuni Artefatti Minori. Si tratta di risorse esoteriche, un termine che comprende tutti gli oggetti che non capiamo e che potrebbero in effetti non avere uno scopo. Indipendentemente dallo scopo dell'oggetto, queste risorse possono essere utilizzate per compiere varie Decisioni tramite la schermata §HReliquie ed Artefatti Minori§!, una scheda all'interno della interfaccia §HGestione Società§!."
@@ -1105,7 +1105,7 @@
  # "Trench World" Archaeological Site Reward Modifier
  modern_trench_war:0 "Guerra di Trincea Moderna"
  modern_trench_war_desc:0 "Le scoperte archeologiche compiute su un pianeta un tempo assediato da gigantesche creature simili a lumache, hanno condotto a nuove ed efficaci intuizioni su come utilizzare l'ambiente come protezione. Ciò migliorerà la capacità di sopravvivenza delle nostre armate durante i combattimenti difensivi contro gli attacchi di terra... persino contro gigantesche lumache spaziali!"
- 
+
  # "Ebb & Flow" Archaeological Site Reward Modifier
  forced_mindfulness:0 "Consapevolezza Forzata"
  forced_mindfulness_desc:0 "Durante il periodo in cui sono rimasti intrappolati nel letale labirinto pieno di lava, i nostri archeologi hanno sviluppato una routine di rilassamento mentale. I principi fondamentali di questo esercizio sono ora diffusi in tutto l'impero."

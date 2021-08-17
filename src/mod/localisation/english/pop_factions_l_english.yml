@@ -288,7 +288,7 @@
  TRADITIONALIST_RELIGIOUS_FINDING:0 "Conforto nel Passato"
  TRADITIONALIST_NO_RELIGIOUS_FINDING:0 "$TRADITIONALIST_RELIGIOUS_FINDING$"
  TRADITIONALIST_RELIGIOUS_FINDING_DESC:0 "Trovare significati religiosi negli Artefatti Minori li renderà felici per un po'."
- 
+
  # TECHNOLOGISTS
  TECHNOLOGIST_ROBOTS:0 "Amore Artificiale"
  TECHNOLOGIST_ROBOTS_DESC:0 "Mantenere una popolazione di almeno §Y6§! POP Robotica li renderà felici."
@@ -443,7 +443,7 @@
  POP_FACTION_NO_EFFECTS_DESC:0 "I membri della Fazione $FACTION$ non genereranno mai alcun effetto."
  POP_FACTION_NO_CURRENT_EFFECTS:0 "Nessun effetto al momento"
  POP_FACTION_NO_CURRENT_EFFECTS_DESC:0 "I membri della Fazione $FACTION$ al momento non generano alcun effetto."
- 
+
  ### SEPARATIST
 
  # Separatist Demands
@@ -451,7 +451,7 @@
  POP_FACTION_SEPARATIST_DEMAND_DESC_1:0 "Stabilisci un nuovo settore con §H[parameter:planet.GetName]§! come sua capitale."
  POP_FACTION_SEPARATIST_DEMAND_TITLE_2:0 "Indipendenza di §H[parameter:planet.GetName]§!"
  POP_FACTION_SEPARATIST_DEMAND_DESC_2:0 "Libera §H[parameter:planet.GetName]§! e rendila capitale di un impero indipendente."
- 
+
  ### PLANET SEPARATISTS
  POP_FACTION_PLANET_SEPARATIST_DEMAND_TITLE:0 "Indipendenza di [parameter:Planet.GetName]"
  POP_FACTION_PLANET_SEPARATIST_DEMAND_DESC:0 "I Separatisti vogliono che §Y[parameter:Planet.GetName]§! sia indipendente."
@@ -474,7 +474,7 @@
  POP_FACTION_PLANET_SEPARATIST_RECENT_SABOTAGE:0 "Rivolte Recenti"
  POP_FACTION_PLANET_SEPARATIST_SABOTAGE_DESC:0 "Le rivolte sul pianeta §Rdanneggiano§! un edificio."
  POP_FACTION_PLANET_SEPARATIST_NOTHING_TO_RUIN:0 "Nessun Edificio Integro"
- 
+
  ### Sector separatists
  pft_sector_separatists:0 "Separatisti di Settore"
  pft_sector_separatists_desc:0 "I Separatisti di settore possono comparire sui pianeti all'interno di un settore, cercando di liberare le regioni confinanti dal dominio imperiale. Se ottengono abbastanza sostegno popolare, possono anche imbracciare le armi.\n\n§HI Separatisti di settore non compariranno mai nel nostro settore primario.§!"
@@ -484,9 +484,9 @@
  POP_FACTION_SECTOR_SEPARATIST_GRANT_INDEPENDENCE_DESC:0 "Concedi l'indipendenza alle colonie del §YSettore [parameter:sector.GetName]§!."
  POP_FACTION_SECTOR_SEPARATIST_IS_NOT_OCCUPIED:0 "Nessun pianeta del settore è occupato"
  POP_FACTION_SECTOR_SEPARATIST_NO_GROUND_COMBAT:0 "Su nessun pianeta del settore sono in corso combattimenti di terra"
- 
- 
- 
+
+
+
  ### NATIONALISTS
 
  pft_nationalist:0 "Rimpatriatori"
@@ -672,11 +672,11 @@
  POP_FACTION_PRETENDER_DEMAND_DESC:0 "[Root.Owner.GetRulerTitle] §Y[Root.Owner.GetRulerName]§! verrà esiliato e §Y[parameter:pretender.GetName]§! salirà al potere."
  POP_FACTION_PRETENDER_INSTALL_TITLE:0 "Insedia Pretendente"
  POP_FACTION_PRETENDER_INSTALL_DESC:0 "Insedia §Y[parameter:pretender.GetName]§! come nuovo Sovrano."
- 
+
  ########################################
  # FACTION EVENTS
  ########################################
- 
+
  ### New Events
  factions.1.title:0 "Fazione Fondata"
  factions.1.desc:0 "Una nuova Fazione si è di recente fatta strada nel panorama della nostra politica interna. Si fanno chiamare [Root.GetName] e, sotto la leadership del loro fondatore, [Root.Leader.GetTitle] [Root.Leader.GetName], i loro membri stanno spingendo per farci prendere in considerazione ciò che li preoccupa.\n\nÈ probabile che, in futuro, assisteremo all'emergere di altre fazioni, man mano che la nostra popolazione crescerà e che le loro etiche inizieranno a discostarsi. Una fazione contrariata rappresenterà una fonte di problemi, ma coloro che approveranno le azioni del governo potrebbero rivelarsi utili..."
@@ -691,7 +691,7 @@
  factions.1.desc.totalitarian:0 "I suoi membri ci stanno spingendo ad un'estrema centralizzazione del potere politico e militare.\n\n"
  factions.1.desc.traditionalist:0 "I suoi membri supportano i valori spiritualisti e conservatori.\n\n"
  factions.1.desc.xenoist:0 "I suoi membri ci stanno spingendo per avere relazioni amichevoli con le specie aliene.\n\n"
- 
+
  factions.2000.title:0 "[TargetFaction.Owner.GetName] - Cambio di Etiche Governative"
  factions.2000.desc.start:0 "A seguito di un lungo periodo di supporto verso una determinata Fazione, §Y[TargetFaction.Owner.GetName]§! si è infine unito ad essa, adottando i suoi valori e le sue politiche chiave."
  factions.2000.desc.imperialist:0 "Come risultato dell'annessione di questa Fazione nel Governo, l'impero è diventato più §HMilitarista§!.\n\n"
@@ -703,7 +703,7 @@
  factions.2000.desc.totalitarian:0 "Come risultato dell'annessione di questa Fazione nel Governo, l'impero è diventato più §HAutoritario§!.\n\n"
  factions.2000.desc.traditionalist:0 "Come risultato dell'annessione di questa Fazione nel Governo, l'impero è diventato più §HSpiritualista§!.\n\n"
  factions.2000.desc.xenoist:0 "Come risultato dell'annessione di questa Fazione nel Governo, l'impero è diventato più §HXenofilo§!.\n\n"
- 
+
  ### Loyalists
  faction.4.title:0 "Richieste Lealiste"
  faction.4.desc:0 "I Lealisti sono fedeli a [Root.Owner.GetRulerTitle] [Root.Owner.GetRulerName] di [Root.Owner.GetName], e non hanno richieste."

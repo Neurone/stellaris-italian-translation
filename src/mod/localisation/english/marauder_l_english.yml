@@ -171,7 +171,7 @@
  marauder.35.1.desc:0 "Ah ah! Siete veramente folli, forestieri. Volevate che attaccassimo gli antichi?\n\nNon penso proprio."
  marauder.35.2.desc:0 "HYEEEEEEEEEEEEEEEEEEIIIIIIIIIIIIIIIIIIIEEEEEEEEEEEE!!!!!!!!!!!\n\nNo, dwamak. Siamo folli, ma non abbastanza tra lanciarci sui dwamak caduti."
  marauder.35.3.desc:0 "Sebbene siano miscredenti, la Signora del Vuoto non vorrebbe che sprecassimo le nostre navi nel vano tentativo di colpire le razze antiche.\n\nVerrà il loro tempo... tra un millennio o due."
- 
+
  marauder.40.1.desc:0 "Sì, possiamo farlo. Molti dei nostri più grandi guerrieri sono alla ricerca di nuove sfide ed opportunità.\n\nSe potete permettervi il prezzo di sangue per liberarli dai loro servizi parentali, saranno lieti di seguirvi e combattere le vostre battaglie."
  marauder.40.2.desc:0 "HYEEEIIIEEEEEEE!! Sì, sì! Molti guerrieri sarebbero lieti di combattere per la grana dwamak! Serve solo il giusto incentivo."
  marauder.40.3.desc:0 "Sì, i nostri più grandi guerrieri sono disposti a seguire i vostri soldati in battaglia. Grazie ai vostri crediti energetici, saremo in grado di sottostare al Suo volere con maggior fervore.\n\nScoprirai che una vita al servizio della Signora del Vuoto ha reso i nostri ufficiali efficaci e senza paura."
@@ -237,7 +237,7 @@
  marauder.112.1.desc:0 "È eccitante, non è vero? Il brivido della battaglia! I nostri migliori guerrieri che affrontano il massimo che avete da offrire. Vedremo chi ne uscirà vittorioso!"
  marauder.112.2.desc:0 "Dwamak, che vuoi? Siamo impegnati a sfasciare i vostri sistemi!"
  marauder.112.3.desc:0 "Serviamo esclusivamente il Suo volere e, per il momento, quelli con le tasche abbastanza gonfie da poterci assoldare contro di te. Finché il risultato sarà la morte dei miscredenti, la Signora del Vuoto approverà."
- 
+
  marauder.104.name:0 "Predoni su [Root.GetName]"
  marauder.104.desc:0 "I predoni [marauder_country.GetSpeciesNamePlural] sono sbarcati su §H[Root.GetName]§!! Hanno lanciato diverse navicelle dalle flotte in orbita, colpendo vari insediamenti periferici e ritirandosi col bottino. Le nostre forze difensive sulla superficie non hanno avuto il tempo di reagire."
  marauder.104.a:0 "Maledetta feccia."
@@ -453,7 +453,7 @@
  HORDE_SUCCESSOR_WAR_GREETING_04:0 "Verrete distrutti! Il Gran Khan lo chiede!"
  HORDE_SUCCESSOR_WAR_GREETING_05:0 "In nome dello spirito del Gran Khan, il vostro impero brucerà!"
  HORDE_SUCCESSOR_WAR_GREETING_06:0 "Il Gran Khan ci ha insegnato come comportarci con gente come voi."
- 
+
  FRIENDLY_COLOSSUS_GREETING_01:0 "Avete visto il nostro Colosso? Un vero prodigio tecnologico. Saremo lieti di ospitare una vostra delegazione per un tour delle sue aree non classificate."
  FRIENDLY_COLOSSUS_GREETING_02:0 "Non preoccupatevi per il nostro Colosso. La sua forza distruttiva è destinata solo ai nostri nemici, non agli amici."
  NEUTRAL_COLOSSUS_GREETING_01:0 "Le nostre parole sono sostenute dalla potenza distruttiva di un Colosso!"

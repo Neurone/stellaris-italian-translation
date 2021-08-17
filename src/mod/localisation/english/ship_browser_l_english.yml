@@ -20,4 +20,4 @@
  SHIP_GRAPHICS_CONSTRUCTOR_DESC:0 "Le navi da costruzione sono necessarie per costruire qualsiasi stazione spaziale. Essendo una nave civile, sono disarmate, non armate e vulnerabili."
  SHIP_GRAPHICS_COLONIZER_DESC:0 "Le navi colonia trasportano i coloni dai pianeti colonizzati a quelli nuovi per la colonizzazione. Essendo una nave civile, sono disarmate, non armate e vulnerabili."
  SHIP_GRAPHICS_SHIP_SIZE_LOCKED_DESC:0 "§RQuesta classe di navi richiede il DLC $SHIP_SIZE_NAME$.§!"
- 
+

@@ -7,22 +7,22 @@
  # Rear sections have a flavor-name followed by the key-word "Bulwark"
  #
  ####################################
- 
+
 
  ####################################
  # Juggernaut
  ####################################
- 
+
  CORE_JUGGERNAUT_SECTION:0 "Juggernaut"
- 
+
  ####################################
  # Titan
  ####################################
- 
+
  TITAN_BOW:0 "Prua del Titano"
  TITAN_MID:0 "Centro del Titano"
  TITAN_STERN:0 "Poppa del Titano"
- 
+
  ####################################
  # Battleship
  ####################################
@@ -52,14 +52,14 @@
 
  ####################################
  # Constructor
- #################################### 
+ ####################################
  CONSTRUCTOR_MID_M1S1:0 "Nave da Costruzione"
  CONSTRUCTOR_MID_S3:0 "Nucleo di Sviluppo"
  CONSTRUCTOR_MID_MU1:0 "Nucleo di Fusione"
 
  ####################################
  # Corvette
- #################################### 
+ ####################################
  CORVETTE_MID_M1S1:0 "Nave Lanciamissili"
  CORVETTE_MID_S3:0 "Intercettore"
  CORVETTE_MID_S1:0 "Nucleo di Scambio"
@@ -67,7 +67,7 @@
 
  ####################################
  # Cruiser
- #################################### 
+ ####################################
  CRUISER_BOW_L1:0 "Artiglieria di Prua"
  CRUISER_BOW_M1S2:0 "Missili di Prua"
  CRUISER_BOW_M2:0 "Cannoni di Prua"
@@ -80,7 +80,7 @@
 
  ####################################
  # Destroyer
- #################################### 
+ ####################################
  DESTROYER_BOW_M1S2:0 "Cannoniera di Prua"
  DESTROYER_BOW_S3:0 "Prua da Picchetto"
  DESTROYER_BOW_L1:0 "Artiglieria di Prua"
@@ -90,14 +90,14 @@
 
  ####################################
  # Science
- #################################### 
+ ####################################
  SCIENCE_MID_M1S1:0 "Nave Scientifica"
  SCIENCE_MID_S3:0 "Nucleo Pioniere"
  SCIENCE_MID_MU1:0 "Nucleo Intuizione"
- 
+
  ####################################
  # Science
- #################################### 
+ ####################################
  LIGHT_MILITARY_STATION_SECTION:0 "Sezione Stazione Leggera"
  PD_MILITARY_STATION_SECTION:0 "Sezione Stazione Punto di Difesa"
  MEDIUM_MILITARY_STATION_SECTION:0 "Sezione Stazione Media"
@@ -112,7 +112,7 @@
 
  ####################################
  # Other
- #################################### 
+ ####################################
  MISSILE_DEFAULT:0 "Sezione Missilistica"
  DEFAULT_CONSTRUCTION_SECTION:0 "Nave da Costruzione"
  DEFAULT_COLONIZATION_SECTION:0 "Nave Colonia"

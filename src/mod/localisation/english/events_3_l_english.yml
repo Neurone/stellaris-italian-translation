@@ -1,5 +1,5 @@
 ﻿l_english:
- 
+
  ####################################
  # Anomaly Categories
  ####################################
@@ -49,7 +49,7 @@
  NUKE_PLANET_DESC:0 "La desolazione nucleare è evidentemente un segno di una civiltà precedente. I nostri scanner stanno captando attività in determinate zone."
  ARID_PLANET_CAT:0 "Distese Aride"
  ARID_PLANET_DESC:0 "[From.GetName] non è uno dei luoghi più accoglienti, ma se le nostre esplorazioni iniziali dicono il vero, potrebbe contenere alcune risorse preziose."
- 
+
  ####################################
  # Anomaly Events
  ####################################
@@ -416,7 +416,7 @@
  anomaly_failure.4170.b.tooltip:0 "$anomaly_failure.4170.base.tooltip$ ed uccide §R1§! POP."
  anomaly_failure.4170.c.tooltip:0 "$anomaly_failure.4170.base.tooltip$ ed uccide §R2§! POP."
  anomaly_failure.4170.d.tooltip:0 "$anomaly_failure.4170.base.tooltip$ ed uccide §R3§! POP."
- 
+
  ####################################
  # Colony Events
  ####################################

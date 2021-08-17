@@ -3,7 +3,7 @@
  ####################################
  # Event Chains
  ####################################
- 
+
  test_chain_title:0 "Misteri su [Root.GetName]"
  test_chain_desc:0 "Si stanno manifestando strani fenomeni su [Root.GetName]."
  test_chain_2_title:0 "Misteri su [Root.GetName]"
@@ -71,11 +71,11 @@
  hunting_hyacinth_desc:0 "La Giacinto, la nave gemella dell'arca che ha portato i nostri antenati su [Root.Capital.GetName], avrebbe dovuto raggiungerci dalla Terra un secolo fa. Dobbiamo scoprire che ne è stato di lei."
  nomads_observation_chain_title:0 "Insoliti Viaggiatori Spaziali"
  nomads_observation_chain_desc:0 "Abbiamo rilevato, all'interno dei nostri confini, degli strani alieni di cui non riusciamo a decodificare le comunicazioni. Dato che per noi è impossibile tradurre il loro linguaggio, possiamo solo aspettare e vedere chi sono e cosa vogliono."
- 
+
  ####################################
  # Points of Interest
  ####################################
- 
+
  hijacked_cult_fleet_poi:0 "Flotta Cultista"
  hijacked_cult_fleet_poi_desc:0 "I cultisti sono riusciti a costruire una piccola flotta in un edificio segreto su [Root.Capital.GetName]. Appena scoperti, sono fuggiti sulle loro navi verso [hijacked_fleet_planet.GetName]. Devono essere distrutti prima che causino altri danni!"
  cultist_search_1_poi:0 "Cerca [cultists_1.GetName]"
@@ -128,7 +128,7 @@
  extradimensional_invasion_chain_3_desc:0 "Una terza fazione extradimensionale è emersa da un altro Wormhole. Sebbene siano in procinto di consumare tutta la vita della nostra galassia, sembra che abbiano anche ingaggiato una sorta di battaglia con le altre due fazioni provenienti dalla loro dimensione."
 
  precursor_activity:0 "Segni di Attività dei Precursori"
- 
+
  new_precursor.1_poi:0 "Rapporti sull'Attività dei Precursori"
  new_precursor.1_poi_desc:0 "È stata portata alla nostra attenzione la probabile posizione di alcuni artefatti od importanti informazioni appartenute ad una civiltà di Precursori."
  new_precursor_anomaly:0 "Scoperta una nuova Anomalia dei Precursori su §L[precursor_planet.GetName]§!."
@@ -151,13 +151,13 @@
  extradimensional_kills_others_3:0 "§GQualcuno Ha Ucciso il Veemente§!"
  extradimensional_victims_3:0 "§RVascelli Recuperati§!"
  extradimensional_planets_3:0 "§RPianeti Recuperati§!"
- 
+
  infested_worlds:0 "§YPianeti Infestati§!"
  infested_worlds_cleansed:0 "§YPianeti Infestati Ripuliti§!"
  prethoryn_kills_us:0 "§GPrethoryn Sterminati per Mano Nostra§!"
  prethoryn_kills_others:0 "§GPrethoryn Sterminati dagli Altri§!"
  prethoryn_victims:0 "§RVascelli Consumati dal Flagello§!"
- 
+
  refugees.1.name:0 "Arrivo di Rifugiati [Root.GetSpeciesNamePlural]"
  refugees.1.desc.1:0 "Una flottiglia di navi civili con a bordo rifugiati §Y[Root.GetSpeciesNamePlural]§! fuggiti da §Y[RefugeeEscapedFrom.GetName]§! è arrivata nel nostro spazio. È stato permesso loro di stabilirsi su §H[Root.Planet.GetName]§!.\n\nQuesti sfortunati reietti sono stati espulsi con la forza dalle loro case dalle autorità dei [RefugeeEscapedFrom.GetSpeciesNamePlural]. Da allora viaggiano di sistema in sistema, in una disperata ricerca per una nuova casa, prima che anche l'ultima razione di cibo finisca."
  refugees.1.desc.2:0 "Una piccola flotta di navi martoriate con a bordo alcuni rifugiati §Y[Root.GetSpeciesNamePlural]§! in fuga da §Y[RefugeeEscapedFrom.GetName]§! è arrivata nel nostro spazio. Dopo averli sfamati e medicato i feriti, è stato permesso loro di stabilirsi su §H[Root.Planet.GetName]§!.\n\nQuesti cenciosi e terrorizzati rifugiati sono i pochi sopravvissuti del programma di sterminio perpetrato dalle autorità dei [RefugeeEscapedFrom.GetSpeciesNamePlural] contro la loro specie. Devono la loro vita ad una ferrovia sotterranea raffazzonata in fretta e furia e ad alcuni comprensivi mercanti."

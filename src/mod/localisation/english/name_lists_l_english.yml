@@ -3,8 +3,8 @@
  ####################################
  # Species Classes
  ####################################
- 
- 
+
+
  HUM:0 "Umanoide"
  HUM_desc:0 "La Classe della Specie non ha alcun effetto sul tuo Impero, ma le Specie di Classe Umanoide potrebbero considerare gli altri Umanoidi meno alieni rispetto ad altre Classi di Specie."
  HUM_plural:0 "Umanoidi"
@@ -434,7 +434,7 @@
  LITHOID_hand_plural:0 "appendici"
  LITHOID_tooth:0 "frammento masticatorio"
  LITHOID_tooth_plural:0 "frammenti masticatori"
- 
+
  SWARM:0 "Sciame"
  EXD:0 "Extradimensionali"
 

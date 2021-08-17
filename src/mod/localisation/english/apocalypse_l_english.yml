@@ -1,11 +1,11 @@
 ﻿l_english:
 
- ###      #        ##      #  #     ###     ###     # #     ###     #       #       ###     ###       ## 
- #  #     #       #  #     ## #     #        #      # #      #      #       #       #       #  #     #   
- ###      #       ####     # ##     ##       #      ##       #      #       #       ##      ###       #  
- #        #       #  #     #  #     #        #      # #      #      #       #       #       #  #       # 
- #        ###     #  #     #  #     ###      #      # #     ###     ###     ###     ###     #  #     ##  
- 
+ ###      #        ##      #  #     ###     ###     # #     ###     #       #       ###     ###       ##
+ #  #     #       #  #     ## #     #        #      # #      #      #       #       #       #  #     #
+ ###      #       ####     # ##     ##       #      ##       #      #       #       ##      ###       #
+ #        #       #  #     #  #     #        #      # #      #      #       #       #       #  #       #
+ #        ###     #  #     #  #     ###      #      # #     ###     ###     ###     ###     #  #     ##
+
  FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_CRACKER:0 "Distruzione di $PLANET|Y$"
  FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_SHIELDER:0 "Schermatura di $PLANET|Y$"
  FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NUKE:0 "Bombardamento di $PLANET|Y$"
@@ -15,9 +15,9 @@
  FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS:0 "Meccanizzazione POP di $PLANET|Y$"
  FLEETORDER_PLANET_KILLER_WINDUP:0 "Caricamento Arma: $PROGRESS|Y0%$"
  FLEETORDER_PLANET_KILLER_FIRING:0 "Arma in Azione: $PROGRESS|Y0%$"
- 
+
  STATUS_QUO_CREATE_NEW_EMPIRE:0 "Un nuovo impero di $SPECIES|Y$ verrà creato come alleato o suddito di $ACTOR|Y$ a partire da $SYSTEMS|H$ sistemi occupati da $TARGET|Y$"
- 
+
  MESSAGE_DESC_FOR_PLANET_KILLER_CRACKER:0 "è stato completamente distrutto dal"
  MESSAGE_DESC_FOR_PLANET_KILLER_SHIELDER:0 "è stato rinchiuso da uno scudo impenetrabile tramite il"
  MESSAGE_DESC_FOR_PLANET_KILLER_NEUTRON:0 "è stato epurato da ogni forma di vita superiore tramite il"
@@ -95,12 +95,12 @@
  apoc.130.a.weaker:0 "Allarmante."
  apoc.130.a.stronger:0 "All'improvviso, uno sfidante."
  apoc.130.a.pacif:0 "Ripugnante."
- 
-  ##     ###      ##      ###      ###       ##       ##     ###     #   #     ###     ###     #   # 
- #        #      #  #     #  #     #  #     #  #     #       #       #   #      #      #       #   # 
-  #       #      ####     ###      ###      ####      #      ##      #   #      #      ##      # # # 
-   #      #      #  #     #  #     #  #     #  #       #     #        # #       #      #       # # # 
- ##       #      #  #     #  #     ###      #  #     ##      ###       #       ###     ###      # #  
+
+  ##     ###      ##      ###      ###       ##       ##     ###     #   #     ###     ###     #   #
+ #        #      #  #     #  #     #  #     #  #     #       #       #   #      #      #       #   #
+  #       #      ####     ###      ###      ####      #      ##      #   #      #      ##      # # #
+   #      #      #  #     #  #     #  #     #  #       #     #        # #       #      #       # # #
+ ##       #      #  #     #  #     ###      #  #     ##      ###       #       ###     ###      # #
 
  STARBASE_STARBASE_TAB:0 "Base Stellare"
  STARBASE_DEFENSES_TAB:0 "Difese"
@@ -198,10 +198,10 @@
  STARBASE_BUILDQUEUE_DOWN:0 "§GClicca per spostare l'oggetto verso il basso.\nShift+Click per spostare l'oggetto in fondo.§!"
  STARBASE_MODIFIER_EFFECTS:0 "Effetti Modificatore"
 
-  ##       ##      ###     ###     #   #      ##      #   #      ## 
- #        #  #      #      #       #   #     #  #      # #      #   
- # ##     ####      #      ##      # # #     ####       #        #  
- #  #     #  #      #      #       # # #     #  #       #         # 
+  ##       ##      ###     ###     #   #      ##      #   #      ##
+ #        #  #      #      #       #   #     #  #      # #      #
+ # ##     ####      #      ##      # # #     ####       #        #
+ #  #     #  #      #      #       # # #     #  #       #         #
   ##      #  #      #      ###      # #      #  #       #       ##
 
  gateway_ruined:0 "Portale Inattivo"
@@ -237,7 +237,7 @@
  requires_starhold:0 "§RRichiede l'aggiornamento a §Y$starbase_starhold$§!.§!"
  requires_starfortress:0 "§RRichiede l'aggiornamento a §Y$starbase_starfortress$§!.§!"
  requires_citadel:0 "§RRichiede l'aggiornamento a §Y$starbase_citadel$§!.§!"
- 
+
  requires_colonized_planet:0 "§RRichiede un proprio pianeta nel sistema.§!"
  requires_trade_planet:0 "§RRichiede un Pianeta Colonizzato o un'§YEnclave dei Mercanti§! nel sistema.§!"
  requires_black_hole:0 "§RRichiede un §Y$pc_black_hole$§! nel sistema.§!"
@@ -246,14 +246,14 @@
  requires_curator_agreement:0 "§RRichiede un §YAccordo Diplomatico§! con l'Enclave dei Curatori locale.§!"
  requires_artist_agreement:0 "§RRichiede un §YAccordo Diplomatico§! con l'Enclave degli Artisti locale.§!"
  requires_artisans:0 "§RRichiede un'§YEnclave degli Artisti§! nel sistema.§!"
-  
+
  requires_technology_gateway_activation:0 "$TRIGGER_FAIL$Richiede la Tecnologia £physics£ §Y$tech_gateway_activation$§!."
  requires_technology_gateway_construction:0 "$TRIGGER_FAIL$Richiede la Tecnologia £physics£ §Y$tech_gateway_construction$§!."
 
  NAVY_SIZE_STARBASES_TITLE:0 "Dalle Basi Stellari"
  TECH_UNLOCK_STARBASE_MODULE:0 "§HSblocca Modulo Base Stellare:§! $NAME$"
  TECH_UNLOCK_STARBASE_BUILDING:0 "§HSblocca Sezione Base Stellare:§! $NAME$"
- 
+
  tech_ftl_inhibitor:0 "Inibitore SL"
  tech_ftl_inhibitor_desc:0 "Dei generatori di pozzo gravitazionale possono essere utilizzati per creare sacche localizzate di spazio in cui sia impossibile entrare con sicurezza nell'iperspazio. L'immensa quantità d'energia richiesta e le dimensioni dei generatori li rendono impossibile da installare al di fuori di una Base Stellare."
  ION_CANNON_CORE:0 "Nucleo del Cannone Ionico"
@@ -309,7 +309,7 @@
  INCREASE_FM:0 "$INCREASE_HEADER$\n§GClicca per aumentare il numero di navi con questo stesso progetto utilizzate per questa flotta§!\n§YShift-click§! per incrementare del prossimo multiplo di 10, §YControl-click§! per aggiungere il massimo di navi possibili"
  REINFORCE_ALL_FM:0 "§HRinforza Tutte§!\n§GClicca per rinforzare tutte le flotte alla capacità massima§!"
  ADD_DESIGN_FM:0 "§HAggiungi Progetto Navale alla Flotta§!\n§GClicca per aggiungere un nuovo Progetto Navale a questa flotta§!"
- 
+
  FLEET_VIEW_OPEN_FLEET_MANAGER:0 "§HGestione della Flotta§!\n§GClicca per aprire la Gestione della Flotta per questa flotta§!"
  FLEET_VIEW_DESIGN_UPGRADABLE:0 "Progetto Aggiornabile"
 
@@ -348,7 +348,7 @@
  uneasy_faith_desc:0 "La popolazione è in qualche modo consapevole che il loro fervore religioso non proviene interamente da loro stessi."
  neutron_bombarded:0 "Bombardamento Neutronico"
  neutron_bombarded_desc:0 "L'ecosistema del pianeta si sta ancora riprendendo dagli effetti devastanti di un Frangente Neutronico."
- 
+
  opinion_cracked_my_world:0 "Ha Frantumato il Nostro Pianeta"
  opinion_cracked_a_world:0 "Ha Frantumato un Pianeta"
  opinion_swept_my_world:0 "Ha Eliminato le Forme di Vita Sapienti del Nostro Pianeta"
@@ -365,7 +365,7 @@
  opinion_swept_a_primitive_world_phile:0 "$opinion_cracked_a_primitive_world_phile$"
  opinion_assimiliated_a_primitive_world:0 "Ha Assimilato un Pianeta Primitivo"
  opinion_assimiliated_a_primitive_world_phile:0 "$opinion_cracked_a_primitive_world_phile$"
- 
+
  NUM_HYPERLANES_TOOLTIP:0 "§HDensità Iperlinee§!\nMoltiplica la quantità normale di Iperlinee generate nella galassia."
  NUM_HYPERLANES:0 "Densità Iperlinee"
 
@@ -679,7 +679,7 @@
  irassian_minerals_desc:0 "Questo cantiere navale in rovina, un tempo ormeggio principale della Flotta Stellare Irassiana, ora giace sulla superficie del pianeta, trasformato in un ricchissimo giacimento minerario."
  irassian_energy:0 "Sito di Produzione Energetica"
  irassian_energy_desc:0 "Questo gigante gassoso fu il centro principale di produzione energetica del Concordato Irassiano, durante i primi stadi dell'espansione interstellare. Un denso anello di antiche stazioni energetiche orbitali ancora circonda il pianeta."
- 
+
  ARMIES_LOST:0 "Sfinimento da Guerra dovuto alla Perdita di Armate"
  ARMIES_LOST_LONG:0 "$ATTR|R$ dovuto alle $ARMIES|R$ armate perdute"
  SHIPS_LOST:0 "Sfinimento da Guerra dovuto alla Perdita di Navi"
@@ -690,6 +690,6 @@
  WAROVERVIEW_BATTLE_THEIR_ARMIES_LOST:0 "$NUM|G$ armate perdute"
  OCCUPATION_SUMMARY:0 "Occupazione"
  OCCUPATION_SUMMARY_LONG:0 "Sfinimento da Occupazione dovuto ai $SYSTEMS|R$ sistemi e $PLANETS|R$ pianeti occupati"
- 
+
  FLEET_TEMPLATE_COMMAND_MAX_MULTIPLE:0 "Aggiungere $NUM|Y$ navi supererebbe il limite di comando per questa flotta."
  FLEET_TEMPLATE_COMMAND_MIN_MULTIPLE:0 "Non posso rimuovere $NUM|Y$ navi dal template della nave"

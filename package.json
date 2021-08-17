@@ -5,7 +5,7 @@
     "scripts": {
         "dev": "npx grunt dev",
         "release": "npx grunt",
-        "clean-transifex-files": "node src/cleanFilesFromTransifex.js src/transifex-it src/mod/localisation/english",
+        "clean-transifex-files": "node tools/cleanFilesFromTransifex.js src/transifex-it src/mod/localisation/english",
         "prepare-en-files-for-transifex": "node tools/prepareFilesForTransifex.js src/reference/localisation/english src/transifex-en",
         "prepare-it-files-for-transifex": "node tools/prepareFilesForTransifex.js src/mod/localisation/english src/transifex-it"
     },
