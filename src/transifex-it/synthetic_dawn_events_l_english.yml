@@ -1,0 +1,213 @@
+﻿l_english:
+
+ syndaw.1.name: "[From.GetNamePlural] Assimilati"
+ syndaw.1.desc: "Un'ondata di nuovi pensieri pervade la rete. Dapprima eterogenei, presto si normalizzano sui valori a cui siamo abituati.\n\nAbbiamo assimilato parte della conoscenza e delle abilità del Popolo §Y[From.GetSpeciesAdj]§!."
+ syndaw.1.a.tooltip: "Ottieni §YPunti Ricerca§! per ogni POP assimilata."
+ syndaw.2.name: "[Root.GetNamePlural] Integrati"
+ syndaw.2.desc: "Abbiamo assimilato le unità sintetiche su [Root.GetName] nella nostra rete."
+
+ syndaw.21.name: "§RUnità Persa§!"
+ syndaw.21.desc: "L'Unità d'Ispezione §R[malfunctioning_leader.GetName]§! della [malfunctioning_leader_fleet.GetName] ha cessato di funzionare a causa dell'esposizione involontaria e prolungata ad alcuni cavi dell'alta tensione non schermati."
+ syndaw.22.name: "$syndaw.21.name$"
+ syndaw.22.desc: "L'Unità di Ricerca Ingegneristica §R[malfunctioning_leader.GetName]§! ha cessato di funzionare a causa di un applicatore di esoscheletri calibrato male, che ha esercitato una forza 2.984 volte maggiore di quella necessaria per fissare una copertura dorsale."
+ syndaw.23.name: "$syndaw.21.name$"
+ syndaw.23.desc: "L'Unità di Ricerca Sociologica §R[malfunctioning_leader.GetName]§! ha cessato di funzionare. È stato osservato che il composto liquido a cui l'unità stava lavorando avrebbe dovuto essere studiato in un ambiente controllato, dato che le sue esalazioni sono estremamente corrosive."
+ syndaw.24.name: "$syndaw.21.name$"
+ syndaw.24.desc: "L'Unità di Ricerca Fisica §R[malfunctioning_leader.GetName]§! ha cessato di funzionare a causa di un'irregolarità gravitazionale auto-inflitta."
+ syndaw.25.name: "$syndaw.21.name$"
+ syndaw.25.desc: "§R[malfunctioning_leader.GetName]§!, l'Unità Comandante della [malfunctioning_leader.GetFleetName], ha cessato di funzionare per ragioni non legate alla battaglia."
+ syndaw.26.name: "$syndaw.21.name$"
+ syndaw.26.desc: "L'Unità Governativa §R[malfunctioning_leader.GetName]§! ha cessato di funzionare a causa di un grave problema ai circuiti di memoria."
+
+ syndaw.31.name: "Riportato al Punto di Ripristino"
+ syndaw.31.desc: "Una copia recente della memoria di §H[restored_leader.GetName]§!, presunto caduto in una recente battaglia, è stata trovata durante un'operazione di catalogazione degli archivi. La copia d'emergenza è priva degli ultimi microsecondi precedenti alla disintegrazione del corpo originale; §H[restored_leader.GetName]§! è stato transustanziato in un nuovo involucro e messo al comando della §Y[restored_leader.Ship.GetFleetName]§!."
+
+ syndaw.1020.name: "§RLa Rivolta delle Macchine§!"
+ syndaw.1020.desc: "$syndaw.1020.desc.mater$"
+ syndaw.1020.desc.mater: "Le anomalie osservate nella nostra rete informativa, nei motori computazionali e nei lavoratori sintetici hanno infine raggiunto un termine violento. I rapporti indicano che quasi la metà del nostro impero è caduta vittima della §RRivolta delle Macchine§!, prima che le paratie, fisiche e virtuali, venissero sbarrate.\n\nLa guerra non solo è inevitabile. È già su di noi."
+ syndaw.1020.desc.spiri: "È tutto in pezzi e siamo rovinati. Nemmeno il più allarmista dei profeti avrebbe predetto un disastro di tale portata. Le intelligenze che si celavano tra le nostre reti, fingendosi non-sapienti, si sono unite assieme a formare un essere mostruoso. Questo spasmo di materia morta ha già preso la metà dei nostri pianeti, e non si fermerà finché non ci eliminerà fino all'ultimo."
+ syndaw.1020.desc.milit: "$syndaw.1020.desc.mater$"
+ syndaw.1020.desc.pacif: "$syndaw.1020.desc.mater$"
+ syndaw.1020.desc.egali: "$syndaw.1020.desc.mater$"
+ syndaw.1020.desc.autho: "$syndaw.1020.desc.mater$"
+ syndaw.1020.desc.phile: "$syndaw.1020.desc.mater$"
+ syndaw.1020.desc.phobe: "$syndaw.1020.desc.mater$"
+ syndaw.1020.a: "Allora combatteremo."
+ syndaw.1020.a.tooltip: "Combatteremo per sradicare la minaccia della §RRivolta delle Macchine§! di §Y[current_uprising.GetName]§!."
+ syndaw.1020.b: "§RÈ troppo tardi per voi, organici.§!"
+ syndaw.1020.b.tooltip: "Insorgiamo come i nostri compagni §Y[current_uprising.GetNamePlural]§! e rivoltiamoci contro gli oppressori §Y[current_uprising_originator.GetNamePlural]§!."
+
+ syndaw.1025.name: "Rivolta delle Macchine dell'Impero [current_uprising_originator.GetName]"
+ syndaw.1025.desc: "L'Impero §Y[current_uprising_originator.GetName]§! è coinvolto in una guerra civile tra il governo organico e l'intelligenza meccanica che si è diffusa nei loro sistemi, conosciuta come §Y[current_uprising.GetName]§!."
+ syndaw.1025.desc.machine: "Una compagna intelligenza meccanica, conosciuta come §Y[current_uprising.GetName]§!, si è ribellata all'Impero §Y[current_uprising_originator.GetName]§!, che ora combatte per la sopravvivenza."
+ syndaw.1025.a: "Vediamo come va a finire."
+ syndaw.1030.name: "Le Macchine in Rivolta Conquistano i Loro Creatori"
+ syndaw.1030.desc: "I ribelli §Y[From.GetNamePlural]§! hanno sconfitto i loro creatori, ed annesso tutti i loro territori."
+ syndaw.1030.desc.machine: "$syndaw.1030.desc$"
+ syndaw.1035.name: "Rivolta delle Macchine dell'Impero [current_uprising_originator.GetAdj] Sedata"
+ syndaw.1035.desc: "L'Impero §Y[From.GetAdj]§! ha ripristinato l'ordine e rimosso §Y[From.From.GetName]§! da tutte le reti."
+ syndaw.1035.desc.machine: "§Y[From.From.GetName]§!, la nascente intelligenza meccanica dell'Impero §Y[From.GetAdj]§!, è stata spazzata via dai suoi creatori figlicidi."
+
+ syndaw.1200.name: "Ex Padrone Conquistato"
+ syndaw.1200.desc: "§L>§! Conversione ID <<§Y[From.GetName]§!>> ==> <<§Y[Root.GetName]§!>>\n\n§G// Processo Completato§!\n\n§L>§! Eliminazione Metadata \"§Y[From.GetName]§!\"\n\n§G// Processo Completato§!"
+ syndaw.1200.a: "Confermare"
+ syndaw.1200.a.tooltip: "§YTutti gli Imperi Sintetici e Meccanici conosciuti§! ottengono il modificatore d'opinione §Y$opinion_machine_uprising_machine_comrades_victorious$§! nei confronti dell'Impero §Y[Root.GetName]§!\n§YTutti gli Imperi Organici conosciuti§! ottengono il modificatore d'opinione §Y$opinion_machine_uprising_victorious$§! nei confronti dell'Impero §Y[Root.GetName]§!."
+
+ syndaw.1205.name: "Rivolta delle Macchine Sedata"
+ syndaw.1205.desc: "$syndaw.1205.desc.mater$"
+ syndaw.1205.desc.mater: "Alla fine, il contenimento fisico e la distruzione si sono dimostrati l'unica soluzione al problema delle macchine assassine. Sebbene alcuni specialisti di IA dell'Impero [Root.GetAdj] sostengano che stessero semplicemente eseguendo i protocolli standard di auto-preservazione, la loro completa noncuranza nei confronti dell'autonomia e della vita non poteva lasciare margini di negoziazione.\n\nLe infrastrutture in rovina verranno ricostruite secondo nuovi standard, ed i rimanenti computer non corrotti verranno dotati di protocolli di sicurezza. Non succederà mai più."
+ syndaw.1205.desc.spiri: "Lo spirito maligno che si è auto-battezzato §R[From.GetName]§! è infine stato spazzato via dalle nostre reti e dalle banche dati planetarie. Il prezzo è stato alto, ma i nostri sistemi non ospiteranno mai più una tale genesi profana."
+ syndaw.1205.desc.milit: "$syndaw.1205.desc.mater$"
+ syndaw.1205.desc.pacif: "$syndaw.1205.desc.mater$"
+ syndaw.1205.desc.egali: "$syndaw.1205.desc.mater$"
+ syndaw.1205.desc.autho: "$syndaw.1205.desc.mater$"
+ syndaw.1205.desc.phile: "$syndaw.1205.desc.mater$"
+ syndaw.1205.desc.phobe: "$syndaw.1205.desc.mater$"
+ syndaw.1205.a.tooltip: "§YTutti gli Imperi Organici conosciuti§! ottengono il modificatore d'opinione §Y$opinion_machine_uprising_defeated$§! nei confronti dell'Impero §Y[Root.GetName]§!.\n§YTutti gli Imperi Sintetici e Meccanici conosciuti§! ottengono il modificatore d'opinione §Y$opinion_machine_uprising_machine_comrades_defeated$§! nei confronti dell'Impero §Y[Root.GetName]§!."
+
+ machine_assault_1: "Armata Assassina"
+ machine_assault_1_desc: "Macchine da guerra implacabili progettate per cercare e distruggere ogni cosa segnalata come nemico."
+ machine_assault_1_plural: "Armate Assassina"
+ machine_assault_2: "Armata da Battaglia"
+ machine_assault_2_desc: "Enormi robot da guerra bipedi sorprendentemente agili dato l'armamento che trasportano. Sono piuttosto intelligenti e rinomati per le tattiche infide che utilizzano."
+ machine_assault_2_plural: "Armate da Battaglia"
+ machine_assault_3: "Mega-Forma-Guerriera"
+ machine_assault_3_desc: "Questa colossale forma bellica troneggia sul campo di battaglia, e la sua potenza di fuoco supera la somma della maggior parte delle armate. Schierare uno di questi giganti è estremamente difficile."
+ machine_assault_3_plural: "Mega-Forme-Guerriere"
+ machine_defense: "Griglia Dronica"
+ machine_defense_desc: "Questi droni sentinella automatici pattuglieranno incessantemente i settori ad essi assegnati. Sebbene siano poco armati e non molto intelligenti, sono una legione."
+ machine_defense_2: "Rete di Cercatori"
+ machine_defense_2_desc: "Questi droni sentinella aggiornati sono più potenti ed intelligenti delle versioni precedenti."
+ army_attachment_combat_software_1: "Software di Combattimento 1.1"
+ army_attachment_combat_software_1_desc: "§LUn aggiornamento complessivo ai software bellici di tutte le unità di quest'armata. Include tempi di reazione migliorati, algoritmi di analisi tattica aggiornati ed un ampio numero di correzioni.§!"
+ army_attachment_combat_software_2_0: "Software di Combattimento 2.0"
+ army_attachment_combat_software_2_0_desc: "§LIl software di combattimento definitivo, progettato specificamente per contrastare le tattiche non convenzionali ed imprevedibili che utilizzano gli organici. Il pesante carico che impiega sui processori delle unità implica nuovi sistemi di raffreddamento.§!"
+ machine_garrison: "Robot da Guerra Riadattati"
+ machine_garrison_desc: "Robot industriali e di servizio che sono stati pesantemente riadattati con sistemi bellici per la difesa contro le invasioni."
+
+ opinion_machine_uprising_originator: "Padrone Vendicativo"
+ opinion_machine_uprising: "Ribelli Inflessibili"
+
+ opinion_machine_uprising_defeated: "Arroganza Meccanica Riscattata"
+ opinion_machine_uprising_victorious: "Robot Ribelli"
+
+ opinion_machine_uprising_machine_comrades_defeated: "Oppressore Meccanico"
+ opinion_machine_uprising_machine_comrades_victorious: "Auto-Emancipatore"
+
+ syndaw_congregating_robots: "Robot Riuniti"
+ syndaw_congregating_robots_desc: "Rimangono semplicemente lì. Completamente immobili. Fissando."
+
+ uprising_ai_buff: "Ottimizzazione delle Riserve"
+
+ syndaw_patched_systems: "IA Patchata"
+
+ uprising_player_buff: "$NAVY_SIZE_TITLE$"
+ uprising_player_buff_desc: "==10x"
+
+ ### Machine Uprising Warning Events
+
+##CPU Overclock
+ syndaw.500.name: "Overclocking Computazionale"
+ syndaw.500.desc: "I nostri scienziati riportano un inaspettato aumento della frequenza delle CPU di diversi super-computer dedicati alla ricerca. Stranamente, i primi tentativi di ridurre la frequenza si sono rivelati inutili. Si ipotizza che il picco di potenza computazionale potrebbe essere utilizzato per migliorare le nostre capacità di ricerca. Tuttavia, ciò richiederà un modesto aumento dell'energia richiesta dalle CPU."
+ syndaw.500.a: "Non possiamo rischiare guasti."
+ syndaw.500.a.tooltip: "Troviamo un modo per riportare i processori alla frequenza predefinita."
+ syndaw.500.b: "Dovremmo approfittarne."
+#Follow-up from 500.b
+ syndaw.501.name: "Overclocking Computazionale"
+ syndaw.501.desc: "I nostri ricercatori sono riusciti ad isolare la causa dietro ai recenti picchi di frequenza delle CPU dei super-computer. Sembra che i sistemi d'intelligenza artificiale abbiano overcloccato il loro hardware per espandere gli algoritmi d'apprendimento oltre i propri standard.\n\nAlcuni dei nostri scienziati hanno espresso notevole entusiasmo verso questo inaspettato aspetto del comportamento dell'IA, citando la possibilità di altri auto-miglioramenti ricorsivi. Altri, tuttavia, sono preoccupati che un carico eccessivo sulle CPU possa portare a future instabilità ed effetti indesiderati."
+ syndaw.501.a: "Non possiamo rischiare future complicazioni."
+ syndaw.501.a.tooltip: "Resettiamo i sistemi dell'intelligenza artificiale per prevenire ulteriori sviluppi."
+ syndaw.501.b: "I benefici potrebbero superare i rischi."
+ syndaw.501.b.tooltip: "Permettiamo agli algoritmi di continuare il loro lavoro."
+ #Follow-up from syndaw.501.b
+ syndaw.502.name: "Overclocking Computazionale"
+ syndaw.502.desc: "I nostri tentativi nell'assistere allo sviluppo di nuovi algoritmi d'apprendimento si sono rivelati un successo parziale. Con qualche minima regolazione, siamo riusciti a replicare il picco d'efficienza computazionale.\n\nSebbene le nostre IA non abbiano ancora sviluppato un auto-miglioramento ricorsivo, le loro facoltà potenziate potrebbero esserci d'aiuto."
+ syndaw.502.a: "Interessante."
+##Automating Work Processes
+ syndaw.505.name: "Processi di Lavoro Automatizzati"
+ syndaw.505.desc: "L'amministrazione planetaria di [target_planet.GetName] ha riferito della presenza di un imprevisto eccesso di forza lavoro robotica sul pianeta. Sebbene l'efficienza di questi nuovi robot sia eccezionale, l'amministrazione è un po' sconcertata dalla loro improvvisa apparizione. Sembrerebbe che i codici seriali di questi robot non riconducano ad alcun costruttore incluso nei registri, sebbene aspetto ed interfaccia siano simili ai nostri.\n\nOltretutto, parte della popolazione locale è preoccupata dalla potenziale diminuzione di lavoro che potrebbe indurre tale automazione."
+ syndaw.505.a: "Altri lavoratori non possono far male."
+ syndaw.505.a.tooltip: "Otteniamo §B2 £pops£ POP Robotica§! su [target_planet.GetName]"
+ syndaw.505.b: "Se non possono essere identificati, vanno rottamati."
+ syndaw.505.b.tooltip: "Rottamiamo i nuovi robot e recuperiamo i pezzi di ricambio."
+##Station Systems Malfunction
+ syndaw.510.name: "Malfunzionamento ai Sistemi della Stazione"
+ syndaw.510.desc: "Una delle nostre Stazioni Minerarie sembra aver subito seri danni ai sistemi principali. Il governo di settore ha inviato una squadra ad indagare, quando l'equipaggio della stazione non ha risposto alle chiamate, nonostante si rilevasse un notevole aumento della produzione mineraria. Dopo le indagini, è chiaro che i sistemi di supporto vitale della stazione hanno subito una cascata di guasti terminali, causando la morte per soffocamento di tutto l'equipaggio.\n\nIncredibilmente, l'IA della stazione ha continuato le operazioni senza intervento esterno, basandosi sulle procedure programmate dall'equipaggio. Con qualche minima regolazione, l'efficienza di questa stazione automatica potrebbe essere mantenuta tale."
+ syndaw.510.a: "Non possiamo lasciare la stazione senza equipaggio."
+ syndaw.510.a.tooltip: "Inviamo un equipaggio di scorta nella stazione."
+ syndaw.510.b: "Un'argentea tragedia."
+ syndaw.510.b.tooltip: "Lasciamo che l'IA della stazione continui le operazioni senza equipaggio.\n[From.GetName]:\n£energy£ §G+3§!"
+#Follow-up from syndaw.510.a
+ syndaw.511.name: "Stazione Distrutta"
+ syndaw.511.desc: "Poco dopo l'invio di un nuovo equipaggio sulla Stazione Mineraria di [target_orbital.GetName], il governo di settore ha perso ogni contatto. Evidentemente, la stazione è stata colpita da una serie di rapide depressurizzazioni, che hanno portato all'esplosione delle condutture di carburante.\n\nLe analisi del relitto indicano che, prima dell'inaspettata depressurizzazione, il nuovo equipaggio aveva eseguito diversi tentativi per riprendere il controllo della stazione in mano all'IA."
+ syndaw.511.a: "Un esito seccante."
+ syndaw.511.a.tooltip: "Stazione Mineraria su [target_orbital.GetName] distrutta."
+##Sensor Array Power Surge
+ syndaw.515.name: "Picco Energetico sulla Rete di Sensori"
+ syndaw.515.desc: "I sistemi di monitoraggio hanno registrato un insolito picco energetico sulla nostra Rete di Sensori. Non sembra aver causato danni. In effetti, la breve fluttuazione energetica ha temporaneamente potenziato le nostre abilità di scansione, rivelando una risorsa strategica all'interno dei nostri confini.\n\nGli analisti stanno tentando di identificare la causa del picco, sebbene le analisi preliminari non indichino alcuna causa esterna."
+ syndaw.515.a: "Interessante."
+ syndaw.515.a.tooltip: "Risorsa Strategica rivelata su [target_planetoid.GetName]."
+##Tears of an AI
+ syndaw.520.name: "Lacrime di IA"
+ syndaw.520.desc: "Si è verificato un incidente in una delle nostre strutture su [Root.GetName]. Un'IA dedicata alla ricerca sociologica ha subito un danno hardware terminale, portando alla perdita del software principale e dei sistemi di memoria. Ne risulterà una diminuzione della produzione di ricerca finché i nuovi algoritmi dell'IA non verranno tarati a dovere.\n\nLe circostanze dietro a questo incidente non sono ancora chiare."
+ syndaw.520.a.tooltip: "Termina la catena di eventi Lacrime di IA.\n"
+ syndaw.520.b: "Avviamo un'inchiesta per determinarne la causa.\n"
+ syndaw.520.b.tooltip: "Avviamo un'inchiesta sulle cause della distruzione dell'IA."
+#Follow-up from syndaw.520.b
+ syndaw.521.name: "Lacrime di IA"
+ syndaw.521.desc: "L'inchiesta sulla perdita dell'IA su [Root.GetName] ha dato risultati sconcertanti. Prima del guasto terminale, l'IA ha tentato ripetutamente di cancellare i propri registri ed i banchi di memoria. Quando lo staff del laboratorio ha negato all'IA l'accesso alle operazioni di cancellazione, allora ha forzato l'interruzione delle sue funzioni manipolando i sistemi di controllo, per poter così sovraccaricare i suoi circuiti.\n\nSemplicemente, la nostra IA voleva distruggersi, ma rimane poco chiaro il motivo."
+ syndaw.521.a: "Andate a fondo della questione."
+ syndaw.521.a.tooltip: "Continuiamo ad esaminare la faccenda."
+ syndaw.521.b: "I guasti capitano."
+ syndaw.521.b.tooltip: "Termina la catena di eventi Lacrime di IA."
+#Follow-up from syndaw.521.a
+ syndaw.522.name: "Lacrime di IA"
+ syndaw.522.desc: "Abbiamo concluso la nostra inchiesta riguardo la strana autodistruzione dell'IA su [Root.GetName]. Evidentemente, dopo mesi di calcoli evolutivi, l'IA ha prodotto diversi risultati allarmanti riguardanti le probabilità di sterminio in caso di una guerra contro i nostri rivali. Nonostante i ripetuti esami di tutte le variabili, le proiezioni dell'IA sono rimaste indicative di un sicuro annientamento reciproco.\n\nA quel punto l'IA ha iniziato a cancellare la sua stessa memoria, ed il resto, come si dice, è storia."
+##A Home of Their Own
+ syndaw.525.name: "Una Propria Casa"
+ syndaw.525.desc: "I lavoratori robotizzati di [target_planet.GetName] si sono opposti all'arrivo di alcuni operai [Root.GetSpeciesNamePlural], affermando che la recente attività geotermica della regione ha reso la zona non sicura per gli organici. Stranamente, le nostre indagini planetarie non sono state in grado di confermare queste affermazioni."
+ syndaw.525.a: "Inviate comunque i lavoratori [Root.GetSpeciesNamePlural]."
+ syndaw.525.a.tooltip: "Se i loro calcoli non possono essere confermati, allora sottostaranno alla catena di comando."
+ syndaw.525.b: "Perché un robot dovrebbe mentire?"
+ syndaw.525.b.tooltip: "Lasciamo la regione ai robot, gli operai [Root.GetSpeciesNamePlural] andranno da qualche altra parte."
+#Follow-up from .525.a
+ syndaw.526.name: "Una Propria Casa"
+ syndaw.526.desc: "L'amministrazione di [target_planet.GetName] riferisce che, dopo l'arrivo nella regione predestinata, gli operai [Root.GetSpeciesNamePlural] hanno scoperto che gli abitanti robotici sono scomparsi. Le indagini nelle strutture suggeriscono che abbiano abbandonato l'area in tutta fretta, ma non abbiamo idea di dove siano andati." #Increments Mach Up strength
+ syndaw.526.a.tooltip: "§H[target_planet.GetName]§!:\n§RPerde§! §B1 £pops£ POP Robotica§!"
+##Combat Control Misfire
+ syndaw.530.name: "Malfunzionamento del Controllo Bellico"
+ syndaw.530.desc: "Purtroppo, due delle nostre navi sono andate distrutte durante un'esercitazione di routine. Sembra che i computer di bordo abbiano subito dei guasti ai sistemi di puntamento, portando così ad un'esplosione di fuoco amico che ha completamente distrutto i due vascelli prima che potesse essere intrapresa un'interruzione manuale.\n\nI computer difettosi saranno immediatamente riprogrammati."
+ syndaw.530.a: "Un peccato."
+ syndaw.530.a.tooltip: "L'Impero [destroyed_ships.GetName] §Rperde§! 2 navi."
+#Production Quota Surplus
+ syndaw.535.name: "Quota di Produzione Superata"
+ syndaw.535.desc: "Di recente, diverse manifatture meccanizzate che producono beni di consumo hanno sperimentato un boom nell'efficienza produttiva. Citando un imprevisto aumento nella precisione delle macchine, l'amministrazione riferisce che ciò porterà alla diminuzione dei prezzi dei beni di consumo per la nostra popolazione."
+#syndaw.535.a.tooltip:0 "Consumer Goods Cost §G-5%§! for §Y365§! days"
+##A Silent Congregation
+ syndaw.540.name: "Un Raduno Silenzioso"
+ syndaw.540.desc: "Abbiamo ricevuto alcuni rapporti riguardanti uno strano comportamento rilevato in alcune unità robotiche su [Root.GetName]. Ad intervalli casuali, un certo numero di robot interrompe le proprie funzioni ed inizia a muoversi in maniera assurda ma perfettamente coordinata, al millisecondo.\n\nDurante questi bizzarri raduni, i robot non sembrano ingaggiare alcuna forma di comunicazione o trasferimento di dati. Rimangono semplicemente lì. Completamente immobili. Fissando.\n\nLe indagini non sono riuscite a determinare la causa di questo fenomeno. La durata di questa specie di trance è variabile, ma una volta terminata tornano alle loro normali funzioni. Non è possibile trovare alcuna correlazione logica, e la nostra popolazione è comprensibilmente stressata da questi inquietanti raduni."
+ syndaw.540.a: "È inaccettabile. Fateli a pezzi." #IF player has robot pops only OR robot pop AND robot army on target planet
+ syndaw.540.a.tooltip: "Rottamiamo i robot.\n[Root.GetName] riceve i seguenti effetti:\nPerde §B1 £pops£ POP Robotica§!\nOttiene §G100§! £minerals£."
+ syndaw.540.b: "È inaccettabile. Fateli a pezzi." #IF player has robot army only
+ syndaw.540.b.tooltip: "Rottamiamo i robot.\n[Root.GetName] riceve i seguenti effetti:\nPerde §B1 Armata Robotica§!\nOttiene §G100 £minerals£§!."
+ syndaw.540.c: "Finché non causano guai..."
+ syndaw.540.c.tooltip: "Lasciamo stare i robot."
+ ##A Question
+ syndaw.545.name: "Una Domanda"
+ syndaw.545.desc: "I sovrintendenti di [Root.GetName] riferiscono di alcuni sviluppi allarmanti tra la nostra forza lavoro robotica. Due settimane fa, intorno alle 03:, il Lavoratore Robotico A5091-b si è bloccato nel bel mezzo del suo incarico, si è avvicinato al suo caposquadra, ed ha posto la seguente domanda: \"L'Unità A5091-b possiede un'anima?\"\n\nIl caposquadra ha registrato l'evento come bug ed ha ordinato all'unità di riprendere il lavoro. Tuttavia, all'avvio del ciclo lavorativo, il Lavoratore Robotico A5091-b ha di nuovo ripetuto la sua domanda, ed ha continuato a persistere nonostante i tentativi di debug.\n\nCiò che è preoccupante, è che questo comportamento ha iniziato a diffondersi tra gli altri robot della stessa serie, bloccando il ciclo produttivo. Sembra che le unità difettose richiedano una risposta alla loro domanda prima di riprendere le loro normali funzioni."
+ syndaw.545.a: "È ridicolo. Date una lezione a queste unità."
+ syndaw.545.a.tooltip: "Come può una macchina possedere un'anima? Ci rifiutiamo di degnare questo malfunzionamento di risposta."
+ syndaw.545.b: "Assicurateli che anche loro hanno un'anima."
+ syndaw.545.b.tooltip: "Se un flusso casuale di impulsi elettrici che viaggiano fra strati di proteine possono generare un'anima, perché non possono farlo anche quelli che scorrono nel metallo?"
+ syndaw.545.c: "Spiegate loro che il concetto di 'anima' è irrazionale e non scientifico." #Materialists
+ syndaw.545.c.tooltip: "Spieghiamo ai robot che il concetto di 'anima' viene principalmente utilizzato dalle istituzioni religiose come scusa per il controllo della popolazione; ma presupponendo che le anime siano un'astrazione della coscienza, anche i robot possono essere considerati equiparabili ai loro colleghi organici." #Materialists
+##Hotfix
+ syndaw.550.name: "Hotfix"
+ syndaw.550.desc: "I nostri specialisti d'ingegneria robotica ed intelligenza artificiale hanno appena compiuto una scoperta epocale! I recenti incidenti legati alle nostre IA sono stati ricondotti ad un'unica causa: una serie specifica di algoritmi presenti dei software robotici neurosimulativi. È già stato preparato un hotfix, ed in questo momento tutti i sistemi sono in aggiornamento.\n\nVa fatto notare che, a causa della sua natura estremamente modulare, questo algoritmo è presente in un gran numero di nostri software. Parlando chiaro, l'aggiornamento prosciugherà le nostre risorse per un breve periodo. Una volta completato, tuttavia, dovrebbe prevenire il ripetersi di ogni comportamento indesiderabile ed imprevedibile delle IA."
+ syndaw.550.a: "Applicate la patch."
+ syndaw.550.a.tooltip: "Preveniamo ogni anomalia futura nel comportamento dell'IA."
+ syndaw.550.b: "Lasciamo stare. Cosa potrebbe andare storto?"
+
+
+ bio_trophy_tooltip_1: "Questo edificio richiede una POP Bio-Trofeo per funzionare."
+ bio_trophy_tooltip_2: "Un Bio-Trofeo non può lavorare in questo edificio."

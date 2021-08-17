@@ -5,9 +5,9 @@
     "scripts": {
         "dev": "npx grunt dev",
         "release": "npx grunt",
-        "clean-transifex-files": "node tools/cleanFilesFromTransifex.js tools/from-transifex tools/to-mod",
-        "prepare-en-files-for-transifex": "node tools/prepareFilesForTransifex.js src/reference/localisation/english tools/to-transifex-en",
-        "prepare-it-files-for-transifex": "node tools/prepareFilesForTransifex.js src/mod/localisation/english tools/to-transifex-it"
+        "clean-transifex-files": "node src/cleanFilesFromTransifex.js src/transifex-it src/mod/localisation/english",
+        "prepare-en-files-for-transifex": "node tools/prepareFilesForTransifex.js src/reference/localisation/english src/transifex-en",
+        "prepare-it-files-for-transifex": "node tools/prepareFilesForTransifex.js src/mod/localisation/english src/transifex-it"
     },
     "author": "",
     "license": "MIT",

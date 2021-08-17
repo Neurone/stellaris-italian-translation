@@ -1,6 +1,2 @@
 /node_modules
 /build
-/tools/from-transifex
-/tools/to-mod
-/tools/to-transifex-it
-/tools/to-transifex-en

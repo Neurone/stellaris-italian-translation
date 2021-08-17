@@ -1,0 +1,114 @@
+﻿l_english:
+
+ ####################################
+ # Special Projects
+ ####################################
+
+ ### Story Events
+
+ AMOEBAS_1_PROJECT: "Osservazione Amebe Spaziale"
+ AMOEBAS_1_PROJECT_DESC: "Assegna un dipartimento scientifico alla raccolta ed al confronto dei dati relativi alle Amebe Spaziali."
+
+ CRYSTALS_1_PROJECT: "Osservazione Entità Cristalline"
+ CRYSTALS_1_PROJECT_DESC: "Assegna un dipartimento scientifico alla raccolta ed al confronto dei dati relativi alle Entità Cristalline."
+
+ DRONES_1_PROJECT: "Osservazione Droni Minerari"
+ DRONES_1_PROJECT_DESC: "Assegna un dipartimento scientifico alla raccolta ed al confronto dei dati relativi agli Antichi Droni Minerari."
+
+ CLOUDS_1_PROJECT: "Osservazione Nubi del Vuoto"
+ CLOUDS_1_PROJECT_DESC: "Assegna un dipartimento scientifico alla raccolta ed al confronto dei dati relativi alle Nubi del Vuoto."
+
+ CRYSTAL_CONSTRUCT_PROJECT: "Il Costrutto di Cristallo"
+ CRYSTAL_CONSTRUCT_PROJECT_DESC: "Assegna un dipartimento scientifico alla raccolta ed al confronto dei dati relativi al Costrutto Cristallino."
+
+ MINING_BASE_PROJECT: "L'Hub di Lavorazione"
+ MINING_BASE_PROJECT_DESC: "Assegna un dipartimento scientifico allo studio remoto dell'ultimo Hub di Lavorazione degli Antichi Droni Minerari conosciuto."
+
+ ### Anomaly Events
+
+ DEAL_WITH_FLORA: "Aggressione Vegetale"
+ DEAL_WITH_FLORA_DESC: "La flora del pianeta è straordinariamente capace, aggressiva in maniera preoccupante, e sicuramente degna di uno studio più accurato."
+
+ OLD_GODS_BENEFACTRESS_PROJECT: "Antichi Dèi: La Benefattrice"
+ OLD_GODS_BENEFACTRESS_PROJECT_DESC: "Ogni superficie del Santuario della Benefattrice è ricoperta da una complessa rete di pittogrammi, che sembrano raccontare una storia molto più grande rispetto alle favole che sono sopravvissute nei secoli su [Root.Owner.Capital.GetName].\n\nAnche se sono in apparenza solo lontanamente correlati all'antico linguaggio [Root.Owner.GetSpeciesName] conosciuto, la tecnologia attuale ci dovrebbe permettere di decifrare i pittogrammi, avendo abbastanza tempo e risorse."
+ OLD_GODS_UNDAUNTED_PROJECT: "Antichi Dèi: L'Imperterrito"
+ OLD_GODS_UNDAUNTED_PROJECT_DESC: "Il tempio in cui si trova il santuario dell'Imperterrito è, secondo i miti che lo circondano, pieno di congegni di origine e funzione ignota. Tutt'altra cosa rispetto ai semplici enigmi ed alle prove di forza che un tempo riempivano i suoi templi su [Root.Owner.Capital.GetName]; qui invece i suoi testi sacri potranno essere letti solo da chi ne sarà degno.\n\nDetto questo, i nostri sofisticati strumenti di analisi dovrebbero rendere semplice la risoluzione di questi enigmi."
+ OLD_GODS_PERCIPIENT_PROJECT: "Antichi Dèi: Il Percettivo"
+ OLD_GODS_PERCIPIENT_PROJECT_DESC: "Le pareti del luogo che ospita il santuario del Percettivo sono rivestite con spessi strati di lacca a base minerale, ma il santuario risulta spoglio.\n\nI racconti del Percettivo sono narrati solo a coloro abbastanza acuti da comprenderli... è solo questione di capire cos'è necessario percepire."
+
+ LIMBO_1_PROJECT: "Nel Limbo"
+ LIMBO_1_PROJECT_DESC: "Un vault alieno pieno di dispositivi d'archiviazione che non aspettano altro che essere recuperati."
+
+ PROJECTING_MOON_PROJECT: "Proiezioni"
+ PROJECTING_MOON_PROJECT_DESC: "Un pianeta insolito con una luna singolare; le normali tecniche di scansione non forniscono risultati soddisfacenti, è quindi necessario un approccio più pratico."
+
+ GRIMACING_PLANET_PROJECT: "Pianeta Turbolento"
+ GRIMACING_PLANET_PROJECT_DESC: "La superficie agitata di questo pianeta può essere stabilizzata rendendola potenzialmente abitabile, se agiamo in fretta."
+
+ OLFACTORY_PROJECT: "Studio Olfattivo"
+ OLFACTORY_PROJECT_DESC: "Sembra che un artefatto alieno trasmetta informazioni attraverso lo sprigionare di composti aromatici."
+
+ ULTIMATE_WEAPON_PROJECT: "L'Arma Definitiva"
+ ULTIMATE_WEAPON_PROJECT_DESC: "Un deposito di armi giace nascosto da qualche parte sul pianeta. Se riuscissimo a trovarlo, potrebbe fornirci nuove tecnologie militari per il nostro impero."
+
+ REFINE_ROCK_PROJECT: "Bombardamento Positronico"
+ REFINE_ROCK_PROJECT_DESC: "La dispersione controllata di positroni dall'orbita può trasformare i minerali nativi del pianeta in una forma più utile."
+
+ CRYSTAL_CODEX_PROJECT: "Codice Cristallino"
+ CRYSTAL_CODEX_PROJECT_DESC: "Una formazione di minerali contiene informazioni codificate sotto forma di ologrammi. La sua struttura è familiare, ma la densità dei dati rende la decodifica un'ardua sfida."
+
+ ALIEN_BARRACKS_PROJECT: "Caserme Aliene"
+ ALIEN_BARRACKS_PROJECT_DESC: "Uno studio xeno-socio-archeologico più approfondito di queste rovine può fornire informazioni su una macchina da guerra aliena."
+
+ ROBOT_MINERALS_PROJECT: "Reclamato dalla Natura"
+ ROBOT_MINERALS_PROJECT_DESC: "Un complesso ricoperto dalla vegetazione che può ospitare importanti segreti."
+
+ BALANCE_ECOSYSTEM_PROJECT: "Ecosistema Equilibrato"
+ BALANCE_ECOSYSTEM_PROJECT_DESC: "È stato formulato un piano per tentare di equilibrare la biosfera di questo pianeta, utilizzando solo gli strumenti a disposizione su una Nave Scientifica standard.\n\nPotrebbero presentarsi delle conseguenze impreviste."
+
+ HEAD_IN_SAND_PROJECT: "Testa Sotto la Sabbia"
+ HEAD_IN_SAND_PROJECT_DESC: "Una flotta militare può tentare di recuperare una nave sotterrata da tempo."
+
+ THE_PRINCE_PROJECT: "Il Principe"
+ THE_PRINCE_PROJECT_DESC: "È stata trovata una banca dati fluttuante nello spazio che non conteneva nient'altro che un lungo frammento di testo, scritto in uno strano, eppure familiare, linguaggio alieno."
+
+ EMERGENCY_BUOY_PROJECT: "Boa d'Emergenza"
+ EMERGENCY_BUOY_PROJECT_DESC: "Un oggetto gravemente danneggiato che sembra agire come ripetitore per un segnale di comunicazione."
+
+ WRECKED_FLEET_1: "Trasmissione Monumentale"
+ WRECKED_FLEET_1_DESC: "Decodifica il messaggio proveniente dal monolite."
+
+ WRECKED_FLEET_2: "Antica Flotta dell'Alleanza"
+ WRECKED_FLEET_2_DESC: "Dispiega un team di ingegneri per rendere di nuovo operative le navi recuperate."
+
+ MANUFACTORY_PROJECT: "Ripristino Minerario"
+ MANUFACTORY_PROJECT_DESC: "Dispiega un team di ingegneri per rendere di nuovo operativa un'antica stazione orbitale."
+
+### Colony Events
+
+ HELPFUL_DRONES_1_PROJECT: "Lasciato Indietro"
+ HELPFUL_DRONES_1_PROJECT_DESC: "Stiamo ricevendo delle strane letture dalla luna del pianeta. Potrebbe non essere nulla.\n\nMa potrebbe essere qualcosa. Con una nave in orbita ad agire da ripetitore, gli scienziati della colonia scansioneranno con attenzione la superficie della luna, al fine di raggiungere il cuore della questione."
+ POLLEN_1_PROJECT: "Studio Floreale"
+ POLLEN_1_PROJECT_DESC: "Alcuni esemplari di flora nativa del pianeta mostrano diverse proprietà potenzialmente interessanti."
+ POLLEN_2_PROJECT: "Studio del Lavoro"
+ POLLEN_2_PROJECT_DESC: "Diversi recenti studi compiuti da rinomati centri di ricerca [Root.Owner.GetSpeciesName] propongono una serie di modi alternativi per organizzare una vasta forza lavoro. Un esaustivo meta-studio di queste nuove idee potrebbe fornire la risposta al problema del declino della produttività in ambienti coloniali difficili."
+ POLLEN_3_PROJECT: "Un Senso di Catastrofe Imminente"
+ POLLEN_3_PROJECT_DESC: "La situazione sul pianeta infestato dal polline ha preso una svolta potenzialmente pericolosa. È della massima importanza una valutazione rapida della situazione della colonia, in particolare dei suoi volatili fattori ambientali.\n\nUna volta che tutte le minacce saranno state individuate, può essere redatto ed eseguito in poche ore un piano d'azione."
+
+### Starting Events
+
+# Wanderlust
+ ROGUE_SCIENTIST_1_PROJECT: "Cambiare Aria: Cosa si è Lasciato Dietro"
+ ROGUE_SCIENTIST_1_PROJECT_DESC: "La partenza di soppiatto del Presidente da questo sistema, ha lasciato una quantità sconcertante di residui energetici che si vanno ad aggiungere ai venti solari.\n\nSperiamo che una completa analisi di queste energie ci possa indirizzare verso la destinazione del Presidente e, se necessario, rendere più facile il loro tracciamento in futuro."
+
+# Mass Extinction
+ MASSEX_1_PROJECT: "Analisi: Fratturato"
+ MASSEX_1_PROJECT_DESC: "Ricostruisci il passato traumatico di questo corpo celeste."
+ MASSEX_2_PROJECT: "Analisi: Bruciato"
+ MASSEX_2_PROJECT_DESC: "Ricostruisci il passato traumatico di questo corpo celeste."
+ MASSEX_3_PROJECT: "Analisi: Desolato"
+ MASSEX_3_PROJECT_DESC: "Ricostruisci il passato traumatico di questo corpo celeste."
+ MASSEX_4_PROJECT: "Analisi: Nocivo"
+ MASSEX_4_PROJECT_DESC: "Ricostruisci il passato traumatico di questo corpo celeste."
+ MASSEX_5_PROJECT: "Analisi: Freddo"
+ MASSEX_5_PROJECT_DESC: "Ricostruisci il passato traumatico di questo corpo celeste."

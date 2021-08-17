@@ -1,0 +1,42 @@
+﻿l_english:
+
+ ####################################
+ # Special Projects
+ ####################################
+
+ hallucinogen_removal: "Rimozione Allucinogeno"
+ hallucinogen_removal_DESC: "Tentativo di rimozione dell'allucinogeno dall'atmosfera di [Root.GetName]."
+ impact_defence_system: "Sistema di Difesa dagli Asteroidi"
+ impact_defence_system_DESC: "Dobbiamo capire come proteggere al meglio la colonia di [Root.GetName] dai frequenti impatti di asteroidi che flagellano il pianeta."
+ titanic_life_study_normal: "Studio della Vita Titanica"
+ titanic_life_study_normal_DESC: "Studiando la Vita Titanica di [Root.GetName], potremmo cercare di capirli e persino di comunicare con loro."
+ titanic_life_study_mean: "Autopsia della Vita Titanica"
+ titanic_life_study_mean_DESC: "Raccogliendo la Vita Titanica di [Root.GetName], dovremmo presto capire come sfruttarla al meglio!"
+ titanic_life_study_nice: "Monitoraggio della Vita Titanica"
+ titanic_life_study_nice_DESC: "Monitorando attentamente la Vita Titanica di [Root.GetName], speriamo di poter coesistere pacificamente con essa."
+ retaliatory_genome_mapping: "Mappatura del Genoma per Ritorsione"
+ retaliatory_genome_mapping_DESC: "Inviando una nave verso il Pianeta Natale alieno, potremmo acquisire da loro gli stessi dati che sospettiamo abbiano rubato a noi."
+ woodwind_instrument_investigation: "Indagine sullo Strumento Ligneo"
+ woodwind_instrument_investigation_DESC: "Dobbiamo capire da che materiale è composto il misterioso strumento che sembra avere un effetto rilassante sulla nostra biologia."
+ disappearing_pops_project: "Scomparsa su [missing_pops_planet.GetName]"
+ disappearing_pops_project_DESC: "Le forze dell'ordine locali di [missing_pops_planet.GetName] richiedono il supporto di una squadra militare per reprimere i disordini mentre indagano su una recente ondata di misteriose sparizioni."
+ mystery_cream_project: "Senza Età"
+ mystery_cream_project_DESC: "La nuova crema anti-età si sta diffondendo a macchia d'olio per tutto l'impero, e si è dimostrata davvero in grado di stimolare la rigenerazione cellulare. Se riuscissimo ad identificarne il principio attivo potremmo riuscire ad utilizzarlo per produrre effetti più duraturi."
+ cream_origin_project: "Alla Ricerca di un'Esistenza Senza Rughe"
+ cream_origin_project_DESC: "Dobbiamo trovare l'origine di questa crema."
+ MAGNETIC_PLANET_RESEARCH_PROJECT: "Indagine sul Mistero Magnetico di [Root.GetName]"
+ MAGNETIC_PLANET_RESEARCH_PROJECT_DESC: "Diversi strani disturbi magnetici hanno preso vita su [Root.GetName]. Fino a poco tempo fa la loro causa era un mistero ma, con i dati raccolti dagli eventi ripetuti, dovrebbe ora esser possibile svelare la verità che si cela dietro di essi."
+ ROGUEMOON_PROJECT: "Indagine sulla Misteriosa Luna di [Root.GetName]"
+ ROGUEMOON_PROJECT_DESC: "Avviamo un'ispezione dettagliata di [event_target:roguemoon.Planet.GetName] e tentiamo di capire da dove arrivi."
+ DPORTAL_PROJECT: "Sondaggio del Portale Dimensionale su [Root.GetName]"
+ DPORTAL_PROJECT_DESC: "Dobbiamo indagare e capire dove conduce il Portale Dimensionale."
+ DPORTAL_PROJECT_SCIENCE: "Chiudere il Portale!"
+ DPORTAL_PROJECT_SCIENCE_DESC: "Dev'esserci un modo per chiudere questo portale, e la scienza lo troverà!"
+ DPORTAL_PROJECT_PRAYER: "Chiudere il Portale!"
+ DPORTAL_PROJECT_PRAYER_DESC: "Un portale del genere potrà sicuramente essere contrastato dall'energia positiva!"
+ DPORTAL_PROJECT_PSI_PRAYER: "Chiudere il Portale!"
+ DPORTAL_PROJECT_PSI_PRAYER_DESC: "Un portale del genere potrà sicuramente essere contrastato dall'energia psionica!"
+ DPORTAL_PROJECT_ROCKS: "Chiudere il Portale!"
+ DPORTAL_PROJECT_ROCKS_DESC: "Forse lanciandoci dentro abbastanza rocce potremmo bloccare il portale..."
+
+

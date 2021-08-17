@@ -351,3 +351,15 @@ La struttura finale dei file sarà la seguente:
 [...]/Paradox Interactive/Stellaris/mod/stellaris-italian-translation/... (cartella contenente tutte le risorse del mod)
 [...]/Paradox Interactive/Stellaris/mod/stellaris-italian-translation.mod (descrittore del mod)
 ```
+
+## Configurazione di integrazione per Transifex
+
+```yml
+filters:
+  - filter_type: dir
+    file_format: YAML_GENERIC
+    source_file_extension: yml
+    source_language: en
+    source_file_dir: src/transifex-en/
+    translation_files_expression: 'src/transifex-<lang>/'
+```

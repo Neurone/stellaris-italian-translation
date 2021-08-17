@@ -34,6 +34,9 @@ fs.readdir(srcFolder, (err, files) => {
 
 // Prepara il file per l'upload a Transifex
 function prepareFile(folder, fileName) {
+    // Escludo eventuali file da non tradurre
+    if (fileName === 'new_scripted_loc_l_english.yml') return;
+
     const liner = new lineByLine(folder + fileName);
 
     let line;
