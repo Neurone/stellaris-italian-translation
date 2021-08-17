@@ -1,7 +1,7 @@
 ﻿l_english:
 
  SITLOG:0 "Registro Eventi Aggiornato"
- 
+
  ####################################
  # Advisor Tutorial Messages
  ####################################
@@ -188,7 +188,7 @@
 
  advisor.1.desc_keenminds:0 "I am VIR, a prototype synthetic intelligence developed by the keenest minds in our civilization to serve as your advisor. I shall endeavor to carry out my duties with the utmost efficiency."
  advisor.1.desc_honortoserve:0 "I am VIR, a prototype synthetic intelligence developed under utmost secrecy by the military. I am honored to serve as your advisor and strategic analyst."
- 
+
  advisor.1.desc_filler:0 "Può modificare il livello del tutorial in ogni momento nel §HMenu Impostazioni§!."
  advisor.1.a:0 "§GTUTORIAL COMPLETO§!"
  advisor.1.b:0 "§YSOLO CONSIGLI§!"
