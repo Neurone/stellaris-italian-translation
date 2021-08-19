@@ -77,7 +77,6 @@
  anomaly.6660.desc.terrible: "$anomaly.6660.desc.start$ L'ambiente è duro ed ostile; non l'ideale per un insediamento.\n\n$anomaly.6660.desc.end$"
  anomaly.6660.desc.terrible_mach: "$anomaly.6660.desc.start$ L'ambiente è duro ed ostile; non adatto alle forme di vita organiche.\n\n$anomaly.6660.desc.end$"
  anomaly.6660.desc.end: "Ci imbatteremo sicuramente in altre anomalie simili nell'esplorazione di nuovi pianeti, e non dovremmo sottovalutare l'impatto che potrebbero avere sulla nostra espansione."
-
  anomaly.6660.a.tooltip: "È comparso un Modificatore Planetario su [From.GetName]."
 
  ####################################
