@@ -182,7 +182,7 @@
 #Production Quota Surplus
  syndaw.535.name: "Quota di Produzione Superata"
  syndaw.535.desc: "Di recente, diverse manifatture meccanizzate che producono beni di consumo hanno sperimentato un boom nell'efficienza produttiva. Citando un imprevisto aumento nella precisione delle macchine, l'amministrazione riferisce che ciò porterà alla diminuzione dei prezzi dei beni di consumo per la nostra popolazione."
-#syndaw.535.a.tooltip:0 "Consumer Goods Cost §G-5%§! for §Y365§! days"
+#syndaw.535.a.tooltip: "Consumer Goods Cost §G-5%§! for §Y365§! days"
 ##A Silent Congregation
  syndaw.540.name: "Un Raduno Silenzioso"
  syndaw.540.desc: "Abbiamo ricevuto alcuni rapporti riguardanti uno strano comportamento rilevato in alcune unità robotiche su [Root.GetName]. Ad intervalli casuali, un certo numero di robot interrompe le proprie funzioni ed inizia a muoversi in maniera assurda ma perfettamente coordinata, al millisecondo.\n\nDurante questi bizzarri raduni, i robot non sembrano ingaggiare alcuna forma di comunicazione o trasferimento di dati. Rimangono semplicemente lì. Completamente immobili. Fissando.\n\nLe indagini non sono riuscite a determinare la causa di questo fenomeno. La durata di questa specie di trance è variabile, ma una volta terminata tornano alle loro normali funzioni. Non è possibile trovare alcuna correlazione logica, e la nostra popolazione è comprensibilmente stressata da questi inquietanti raduni."
