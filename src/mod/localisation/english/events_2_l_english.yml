@@ -209,7 +209,7 @@
  anomaly.168.c:0 "Ma cosa possiamo imparare da questo?"
  anomaly.168.c.tooltip:0 "Indipendentemente dalla veridicità o dalla validità dei testi sacri, resta il fatto che condividiamo concetti religiosi con un'antica, sconosciuta razza di viaggiatori spaziali."
  anomaly.168.d:0 "Camminiamo sulle orme del divino!"
- #anomaly.168.d.tooltip:0 "Start a religious renaissance.\nYour native population gains the §YFanatic Spiritualist§! and §YAuthoritarian§! Ethics."
+ #anomaly.168.d.tooltip:1 "Start a religious renaissance.\nYour native population gains the §YFanatic Spiritualist§! and §YAuthoritarian§! Ethics."
  anomaly.169.name:0 "Accettare il Mandato Divino"
  anomaly.169.desc:0 "Il popolo [Root.GetSpeciesAdj] invoca qualcuno per guidarlo nella sua nuova, vecchia fede."
  anomaly.169.a:0 "Non dobbiamo cambiare il modo in cui facciamo le cose."

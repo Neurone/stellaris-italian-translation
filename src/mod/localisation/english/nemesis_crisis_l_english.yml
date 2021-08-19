@@ -6,7 +6,7 @@
 
  # Menace name
  menace_name:0 "$menace$:"
- 
+
  # Crisis Path names
  crisis_path_destruction_name:0 "Via della Distruzione"
  crisis_path_destruction_desc:0 "L'ordine è innaturale. La vera natura della materia è in uno stato caotico./n/nNon stiamo distruggendo l'universo - lo stiamo riparando."
@@ -16,7 +16,7 @@
 
  crisis_path_deception_name:0 "Via dell'Inganno"
  crisis_path_deception_desc:0 "Se tutti guardano agli sciocchi che danzano al centro dell'attenzione, puoi fare molto di più nell'ombra."
- 
+
  # Menacing Actions
  menacing_actions_name:0 "Azioni Minacciose"
  menacing_actions_destruction_title:0 "$menacing_actions_name$ - $crisis_path_destruction_name$"
@@ -47,7 +47,7 @@
  menacing_actions_supremacy_invade_primitives_desc:0 "Invadere mondi primitivi produrrà §H1§! £menace£ Minaccia per £pops£ Pop."
  menacing_actions_supremacy_sent_marauders_title:0 "Invia un Raid di Predoni"
  menacing_actions_supremacy_sent_marauders_desc:0 "Inviare un Raid di Predoni produrrà §H50§! £menace£ Minaccia per £pops£ Pop."
- 
+
  # Menacing Actions - Deception
  menacing_actions_deception_force_resolution_title:0 "Forzare la proposta attraverso l'opposizione"
  menacing_actions_deception_force_resolution_desc:0 "Forzare una proposta - nonostante la maggioranza degli elettori si opponga - produrrà §H5§! £menace£ Minaccia."
@@ -59,7 +59,7 @@
  menacing_actions_deception_call_in_favor_desc:0 "Chiamare un favore produrrà §H1§! £menace£ Minaccia per £favor£ Favore."
  menacing_actions_deception_win_humiliation_war_title:0 "Vinci una Guerra di Umiliazione"
  menacing_actions_deception_win_humiliation_war_desc:0 "Vincere una Guerra di Umiliazione produrrà §H200§! £menace£ Minaccia."
- 
+
  # Crisis Perks
  crisis_perk:0 "Beneficio della Crisi"
  crisis_perk_plural:0 "Benefici della Crisi"
@@ -85,7 +85,7 @@
  ### crisis_perks_destruction_death_from_above_unlock:0 "Destroy 10 buildings through bombardment to unlock this $crisis_perk$."
  ### menp_death_from_above_passive:0 "When bombarding, Planet Devastation is 20% faster."
  ### menp_death_from_above_active:0 "Unlocks Armageddon Bombardment."
- 
+
  crisis_perks_supremacy_privateering_title:0 "Pirateria"
  crisis_perks_supremacy_privateering_desc:0 "Attaccarli noi stessi?! Oh, per favore - Abbiamo persone che lo fanno per noi."
  crisis_perks_supremacy_privateering_unlock:0 "Assumi un totale di 4 Flotte di Predoni per sbloccare questo $crisis_perk$."
@@ -117,7 +117,7 @@
  crisis_perks_deception_shadowplay_unlock:0 "Completa §H10 Operazioni§! per sbloccare questo $crisis_perk$."
  crisis_perks_deception_shadowplay_passive:0 "Le azioni di spionaggio sono più veloci del +20%, e hanno un costo del -20%."
  crisis_perks_deception_shadowplay_active:0 "Ottieni §G+20 Intel§! sugli altri imperi."
- 
+
  # Crisis UI
  MENACE_VALUE:0 "£menace£ $VAL|0$"
  GAINING_MENACE:0 "Completa gli Obiettivi Minaccia per ottenere più Minaccia."
@@ -173,7 +173,7 @@
  LOCKED_RED:0 "§RBloccata§!"
  FROM_PERKS:0 "Dai Benefici Minaccia"
  MENACE_PERK_EFFECTS_DESC:0 "$EFFECTS$\n$EFFECT$"
- 
+
  menace:0 "Minaccia"
  TRADITIONS_TAB_SHORT:0 "Benefici delle Tradizioni e d'Ascensione"
  RELICS_TAB_SHORT:0 "Reliquie"
@@ -187,7 +187,7 @@
  unlock_crisis_corvette:0 "§Y$crisis_corvette_plural$§! sono ora disponibili per la costruzione"
  unlock_crisis_destroyer:0 "§Y$crisis_destroyer_plural$§! sono ora disponibili per la costruzione"
  unlock_crisis_cruiser:0 "§Y$crisis_cruiser_plural$§! sono ora disponibili per la costruzione"
- 
+
  count_owned_army_trigger:0 "Numero di Eserciti Posseduti$CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$"
  count_owned_army_all_trigger:0 "$IS_ALL_NOT$ gli Eserciti Posseduti soddisfano le seguenti condizioni"
 

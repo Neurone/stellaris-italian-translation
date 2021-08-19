@@ -64,7 +64,7 @@
  syndaw.1205.desc.phile:0 "$syndaw.1205.desc.mater$"
  syndaw.1205.desc.phobe:0 "$syndaw.1205.desc.mater$"
  syndaw.1205.a.tooltip:0 "§YTutti gli Imperi Organici conosciuti§! ottengono il modificatore d'opinione §Y$opinion_machine_uprising_defeated$§! nei confronti dell'Impero §Y[Root.GetName]§!.\n§YTutti gli Imperi Sintetici e Meccanici conosciuti§! ottengono il modificatore d'opinione §Y$opinion_machine_uprising_machine_comrades_defeated$§! nei confronti dell'Impero §Y[Root.GetName]§!."
- 
+
  machine_assault_1:0 "Armata Assassina"
  machine_assault_1_desc:0 "Macchine da guerra implacabili progettate per cercare e distruggere ogni cosa segnalata come nemico."
  machine_assault_1_plural:0 "Armate Assassina"
