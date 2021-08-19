@@ -242,11 +242,11 @@
  tech_robomodding_m_desc: "La standardizzazione dei modelli d'assemblaggio permette di migliorare la specializzazione della popolazione dronica."
  tech_robomodding_points_1: "Standardizzazione Trans-Modello"
  tech_robomodding_points_1_desc: "Il miglioramento delle pratiche produttive permette di effettuare enormi alterazioni ai lavoratori sintetici senza comprometterne le funzioni chiave."
- #tech_robomodding_points_1_modifier_desc:0 "$species_trait_points_add$: $POINTS|0=+$"
+ #tech_robomodding_points_1_modifier_desc: "$species_trait_points_add$: $POINTS|0=+$"
  # TEMP
  tech_robomodding_points_2: "Circuiti Sostituibili"
  tech_robomodding_points_2_desc: "Il miglioramento delle pratiche produttive permette di effettuare alterazioni radicali ai lavoratori sintetici senza comprometterne le funzioni chiave."
- #tech_robomodding_points_2_modifier_desc:0 "$species_trait_points_add$: $POINTS|0=+$"
+ #tech_robomodding_points_2_modifier_desc: "$species_trait_points_add$: $POINTS|0=+$"
  # TEMP
  tech_matter_generator: "Generazione della Materia"
  tech_matter_generator_desc: "Utilizzando una vasta quantità di energia siamo in grado di convertire la luce in materia a partire dal nulla."
@@ -256,10 +256,10 @@
  # Space Mining
  tech_space_construction: "Costruzione Spaziale"
  tech_space_construction_desc: "La costruzione nello spazio propone ai nostri tecnici nuove sfide di progettazione che devono essere risolte prima di poter creare stazioni nell'orbita di altri pianeti."
- #tech_mine_rare_resources_t1:0 "Zero-Gravity Refining"
- #tech_mine_rare_resources_t1_desc:0 "New refining techniques are necessary in order to process the many exotic materials we are finding as we explore the galaxy."
- #tech_mine_rare_resources_t3:0 "Nanoparticle Extraction"
- #tech_mine_rare_resources_t3_desc:0 "An efficient way of extracting nanoparticles will allow us to exploit new strategic resources that were previously beyond our reach."
+ #tech_mine_rare_resources_t1: "Zero-Gravity Refining"
+ #tech_mine_rare_resources_t1_desc: "New refining techniques are necessary in order to process the many exotic materials we are finding as we explore the galaxy."
+ #tech_mine_rare_resources_t3: "Nanoparticle Extraction"
+ #tech_mine_rare_resources_t3_desc: "An efficient way of extracting nanoparticles will allow us to exploit new strategic resources that were previously beyond our reach."
  tech_mining_station_improvement_1: "Lavorazione in Loco"
  tech_mining_station_improvement_1_desc: "Trattando i minerali direttamente nell'orbita del pianeta da cui vengono estratti, la nostra efficienza mineraria migliora sostanzialmente."
  tech_mining_station_improvement_2: "Operazioni Minerarie Autonome"
