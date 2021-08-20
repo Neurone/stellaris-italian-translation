@@ -1,375 +1,374 @@
 [main]
 host = https://www.transifex.com
 
-[stellaris-italian-translation.src_transifex-en\achievements_l_english]
+[stellaris-italian-translation.src-transifex-en-achievements-l-english-yml--dev]
 file_filter = src/transifex-<lang>/achievements_l_english.yml
 source_file = src/transifex-en/achievements_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\ai_crisis_l_english]
+[stellaris-italian-translation.src-transifex-en-ai-crisis-l-english-yml--dev]
 file_filter = src/transifex-<lang>/ai_crisis_l_english.yml
 source_file = src/transifex-en/ai_crisis_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\ancient_relics_events_l_english]
+[stellaris-italian-translation.src-transifex-en-ancient-relics-events-l-english-yml--dev]
 file_filter = src/transifex-<lang>/ancient_relics_events_l_english.yml
 source_file = src/transifex-en/ancient_relics_events_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\ancient_relics_l_english]
+[stellaris-italian-translation.src-transifex-en-ancient-relics-l-english-yml--dev]
 file_filter = src/transifex-<lang>/ancient_relics_l_english.yml
 source_file = src/transifex-en/ancient_relics_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\apocalypse_l_english]
+[stellaris-italian-translation.src-transifex-en-apocalypse-l-english-yml--dev]
 file_filter = src/transifex-<lang>/apocalypse_l_english.yml
 source_file = src/transifex-en/apocalypse_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\diplo_stances_l_english]
+[stellaris-italian-translation.src-transifex-en-diplo-stances-l-english-yml--dev]
 file_filter = src/transifex-<lang>/diplo_stances_l_english.yml
 source_file = src/transifex-en/diplo_stances_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\dip_messages_l_english]
+[stellaris-italian-translation.src-transifex-en-dip-messages-l-english-yml--dev]
 file_filter = src/transifex-<lang>/dip_messages_l_english.yml
 source_file = src/transifex-en/dip_messages_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\distant_stars_l_english]
+[stellaris-italian-translation.src-transifex-en-distant-stars-l-english-yml--dev]
 file_filter = src/transifex-<lang>/distant_stars_l_english.yml
 source_file = src/transifex-en/distant_stars_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\dlc_recommendations_l_english]
+[stellaris-italian-translation.src-transifex-en-dlc-recommendations-l-english-yml--dev]
 file_filter = src/transifex-<lang>/dlc_recommendations_l_english.yml
 source_file = src/transifex-en/dlc_recommendations_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\events_2_l_english]
+[stellaris-italian-translation.src-transifex-en-events-2-l-english-yml--dev]
 file_filter = src/transifex-<lang>/events_2_l_english.yml
 source_file = src/transifex-en/events_2_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\events_3_l_english]
+[stellaris-italian-translation.src-transifex-en-events-3-l-english-yml--dev]
 file_filter = src/transifex-<lang>/events_3_l_english.yml
 source_file = src/transifex-en/events_3_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\events_4_l_english]
+[stellaris-italian-translation.src-transifex-en-events-4-l-english-yml--dev]
 file_filter = src/transifex-<lang>/events_4_l_english.yml
 source_file = src/transifex-en/events_4_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\events_5_l_english]
+[stellaris-italian-translation.src-transifex-en-events-5-l-english-yml--dev]
 file_filter = src/transifex-<lang>/events_5_l_english.yml
 source_file = src/transifex-en/events_5_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\events_l_english]
+[stellaris-italian-translation.src-transifex-en-events-l-english-yml--dev]
 file_filter = src/transifex-<lang>/events_l_english.yml
 source_file = src/transifex-en/events_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\event_chains_l_english]
+[stellaris-italian-translation.src-transifex-en-event-chains-l-english-yml--dev]
 file_filter = src/transifex-<lang>/event_chains_l_english.yml
 source_file = src/transifex-en/event_chains_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\federations_anniversary_l_english]
+[stellaris-italian-translation.src-transifex-en-federations-anniversary-l-english-yml--dev]
 file_filter = src/transifex-<lang>/federations_anniversary_l_english.yml
 source_file = src/transifex-en/federations_anniversary_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\federations_l_english]
+[stellaris-italian-translation.src-transifex-en-federations-l-english-yml--dev]
 file_filter = src/transifex-<lang>/federations_l_english.yml
 source_file = src/transifex-en/federations_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\federations_resolution_comments_l_english]
+[stellaris-italian-translation.src-transifex-en-federations_resolution-comments-l-english-yml--dev]
 file_filter = src/transifex-<lang>/federations_resolution_comments_l_english.yml
 source_file = src/transifex-en/federations_resolution_comments_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\horizonsignal_l_english]
+[stellaris-italian-translation.src-transifex-en-horizonsignal-l-english-yml--dev]
 file_filter = src/transifex-<lang>/horizonsignal_l_english.yml
 source_file = src/transifex-en/horizonsignal_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\leviathans_l_english]
+[stellaris-italian-translation.src-transifex-en-leviathans-l-english-yml--dev]
 file_filter = src/transifex-<lang>/leviathans_l_english.yml
 source_file = src/transifex-en/leviathans_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\lithoids_l_english]
+[stellaris-italian-translation.src-transifex-en-lithoids-l-english-yml--dev]
 file_filter = src/transifex-<lang>/lithoids_l_english.yml
 source_file = src/transifex-en/lithoids_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\l_english]
+[stellaris-italian-translation.src-transifex-en-l-english-yml--dev]
 file_filter = src/transifex-<lang>/l_english.yml
 source_file = src/transifex-en/l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\mandates_l_english]
+[stellaris-italian-translation.src-transifex-en-mandates-l-english-yml--dev]
 file_filter = src/transifex-<lang>/mandates_l_english.yml
 source_file = src/transifex-en/mandates_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\marauder_l_english]
+[stellaris-italian-translation.src-transifex-en-marauder-l-english-yml--dev]
 file_filter = src/transifex-<lang>/marauder_l_english.yml
 source_file = src/transifex-en/marauder_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\megacorp_l_english]
+[stellaris-italian-translation.src-transifex-en-megacorp-l-english-yml--dev]
 file_filter = src/transifex-<lang>/megacorp_l_english.yml
 source_file = src/transifex-en/megacorp_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\messages_l_english]
+[stellaris-italian-translation.src-transifex-en-messages-l-english-yml--dev]
 file_filter = src/transifex-<lang>/messages_l_english.yml
 source_file = src/transifex-en/messages_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\modifiers_2_l_english]
+[stellaris-italian-translation.src-transifex-en-modifiers-2-l-english-yml--dev]
 file_filter = src/transifex-<lang>/modifiers_2_l_english.yml
 source_file = src/transifex-en/modifiers_2_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\modifiers_3_l_english]
+[stellaris-italian-translation.src-transifex-en-modifiers-3-l-english-yml--dev]
 file_filter = src/transifex-<lang>/modifiers_3_l_english.yml
 source_file = src/transifex-en/modifiers_3_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\modifiers_l_english]
+[stellaris-italian-translation.src-transifex-en-modifiers-l-english-yml--dev]
 file_filter = src/transifex-<lang>/modifiers_l_english.yml
 source_file = src/transifex-en/modifiers_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\modifiers_utopia_l_english]
+[stellaris-italian-translation.src-transifex-en-modifiers-utopia-l-english-yml--dev]
 file_filter = src/transifex-<lang>/modifiers_utopia_l_english.yml
 source_file = src/transifex-en/modifiers_utopia_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\musicplayer_l_english]
+[stellaris-italian-translation.src-transifex-en-musicplayer-l-english-yml--dev]
 file_filter = src/transifex-<lang>/musicplayer_l_english.yml
 source_file = src/transifex-en/musicplayer_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\name_lists_l_english]
+[stellaris-italian-translation.src-transifex-en-name-lists-l-english-yml--dev]
 file_filter = src/transifex-<lang>/name_lists_l_english.yml
 source_file = src/transifex-en/name_lists_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\necroids_l_english]
+[stellaris-italian-translation.src-transifex-en-necroids-l-english-yml--dev]
 file_filter = src/transifex-<lang>/necroids_l_english.yml
 source_file = src/transifex-en/necroids_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\nemesis_content_l_english]
+[stellaris-italian-translation.src-transifex-en-nemesis-content-l-english-yml--dev]
 file_filter = src/transifex-<lang>/nemesis_content_l_english.yml
 source_file = src/transifex-en/nemesis_content_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\nemesis_crisis_l_english]
+[stellaris-italian-translation.src-transifex-en-nemesis-crisis-l-english-yml--dev]
 file_filter = src/transifex-<lang>/nemesis_crisis_l_english.yml
 source_file = src/transifex-en/nemesis_crisis_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\nemesis_custodian_l_english]
+[stellaris-italian-translation.src-transifex-en-nemesis-custodian-l-english-yml--dev]
 file_filter = src/transifex-<lang>/nemesis_custodian_l_english.yml
 source_file = src/transifex-en/nemesis_custodian_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\nemesis_espionage_l_english]
+[stellaris-italian-translation.src-transifex-en-nemesis-espionage-l-english-yml--dev]
 file_filter = src/transifex-<lang>/nemesis_espionage_l_english.yml
 source_file = src/transifex-en/nemesis_espionage_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\nemesis_intel_l_english]
+[stellaris-italian-translation.src-transifex-en-nemesis-intel-l-english-yml--dev]
 file_filter = src/transifex-<lang>/nemesis_intel_l_english.yml
 source_file = src/transifex-en/nemesis_intel_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\observer_events_l_english]
+[stellaris-italian-translation.src-transifex-en-observer-events-l-english-yml--dev]
 file_filter = src/transifex-<lang>/observer_events_l_english.yml
 source_file = src/transifex-en/observer_events_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\observer_l_english]
+[stellaris-italian-translation.src-transifex-en-observer-l-english-yml--dev]
 file_filter = src/transifex-<lang>/observer_l_english.yml
 source_file = src/transifex-en/observer_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\pop_factions_l_english]
+[stellaris-italian-translation.src-transifex-en-pop-factions-l-english-yml--dev]
 file_filter = src/transifex-<lang>/pop_factions_l_english.yml
 source_file = src/transifex-en/pop_factions_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\prescripted_l_english]
+[stellaris-italian-translation.src-transifex-en-prescripted-l-english-yml--dev]
 file_filter = src/transifex-<lang>/prescripted_l_english.yml
 source_file = src/transifex-en/prescripted_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\projects_2_l_english]
+[stellaris-italian-translation.src-transifex-en-projects-2-l-english-yml--dev]
 file_filter = src/transifex-<lang>/projects_2_l_english.yml
 source_file = src/transifex-en/projects_2_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\projects_3_l_english]
+[stellaris-italian-translation.src-transifex-en-projects-3-l-english-yml--dev]
 file_filter = src/transifex-<lang>/projects_3_l_english.yml
 source_file = src/transifex-en/projects_3_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\projects_4_l_english]
+[stellaris-italian-translation.src-transifex-en-projects-4-l-english-yml--dev]
 file_filter = src/transifex-<lang>/projects_4_l_english.yml
 source_file = src/transifex-en/projects_4_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\projects_5_l_english]
+[stellaris-italian-translation.src-transifex-en-projects-5-l-english-yml--dev]
 file_filter = src/transifex-<lang>/projects_5_l_english.yml
 source_file = src/transifex-en/projects_5_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\projects_l_english]
+[stellaris-italian-translation.src-transifex-en-projects-l-english-yml--dev]
 file_filter = src/transifex-<lang>/projects_l_english.yml
 source_file = src/transifex-en/projects_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\scripted_loc_l_english]
+[stellaris-italian-translation.src-transifex-en-scripted-loc-l-english-yml--dev]
 file_filter = src/transifex-<lang>/scripted_loc_l_english.yml
 source_file = src/transifex-en/scripted_loc_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\ship_browser_l_english]
+[stellaris-italian-translation.src-transifex-en-ship-browser-l-english-yml--dev]
 file_filter = src/transifex-<lang>/ship_browser_l_english.yml
 source_file = src/transifex-en/ship_browser_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\ship_sections_l_english]
+[stellaris-italian-translation.src-transifex-en-ship-sections-l-english-yml--dev]
 file_filter = src/transifex-<lang>/ship_sections_l_english.yml
 source_file = src/transifex-en/ship_sections_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\social_gui_l_english]
+[stellaris-italian-translation.src-transifex-en-social-gui-l-english-yml--dev]
 file_filter = src/transifex-<lang>/social_gui_l_english.yml
 source_file = src/transifex-en/social_gui_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\standalone_l_english]
+[stellaris-italian-translation.src-transifex-en-standalone-l-english-yml--dev]
 file_filter = src/transifex-<lang>/standalone_l_english.yml
 source_file = src/transifex-en/standalone_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\synthetic_dawn_events_l_english]
+[stellaris-italian-translation.src-transifex-en-synthetic_dawn-events-l-english-yml--dev]
 file_filter = src/transifex-<lang>/synthetic_dawn_events_l_english.yml
 source_file = src/transifex-en/synthetic_dawn_events_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\technology_l_english]
+[stellaris-italian-translation.src-transifex-en-technology-l-english-yml--dev]
 file_filter = src/transifex-<lang>/technology_l_english.yml
 source_file = src/transifex-en/technology_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\traditions_l_english]
+[stellaris-italian-translation.src-transifex-en-traditions-l-english-yml--dev]
 file_filter = src/transifex-<lang>/traditions_l_english.yml
 source_file = src/transifex-en/traditions_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\triggers_effects_l_english]
+[stellaris-italian-translation.src-transifex-en-triggers-effects-l-english-yml--dev]
 file_filter = src/transifex-<lang>/triggers_effects_l_english.yml
 source_file = src/transifex-en/triggers_effects_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\tutorial_l_english]
+[stellaris-italian-translation.src-transifex-en-tutorial-l-english-yml--dev]
 file_filter = src/transifex-<lang>/tutorial_l_english.yml
 source_file = src/transifex-en/tutorial_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\unrest_l_english]
+[stellaris-italian-translation.src-transifex-en-unrest-l-english-yml--dev]
 file_filter = src/transifex-<lang>/unrest_l_english.yml
 source_file = src/transifex-en/unrest_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\utopia_ascension_l_english]
+[stellaris-italian-translation.src-transifex-en-utopia-ascension-l-english-yml--dev]
 file_filter = src/transifex-<lang>/utopia_ascension_l_english.yml
 source_file = src/transifex-en/utopia_ascension_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\utopia_l_english]
+[stellaris-italian-translation.src-transifex-en-utopia-l-english-yml--dev]
 file_filter = src/transifex-<lang>/utopia_l_english.yml
 source_file = src/transifex-en/utopia_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\utopia_megastructures_l_english]
+[stellaris-italian-translation.src-transifex-en-utopia-megastructures-l-english-yml--dev]
 file_filter = src/transifex-<lang>/utopia_megastructures_l_english.yml
 source_file = src/transifex-en/utopia_megastructures_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src_transifex-en\void_dweller_traditions_l_english]
+[stellaris-italian-translation.src-transifex-en-void_dweller-traditions-l-english-yml--dev]
 file_filter = src/transifex-<lang>/void_dweller_traditions_l_english.yml
 source_file = src/transifex-en/void_dweller_traditions_l_english.yml
 source_lang = en
 type = YML GENERIC
-
