@@ -668,8 +668,8 @@
  mod_weapon_type_strike_craft_weapon_fire_rate_mult: "Velocità d'Attacco Veicoli d'Assalto"
  mod_weapon_type_strike_craft_speed_mult: "Velocità Veicoli d'Assalto"
 
- #vultaum_asteroid_category_research_speed_mult: "Anomaly Research Speed (Precursor - ADD CATEGORIES PROPER)"
- #vultaum_asteroid_category_research_fail_risk_mult: "Anomaly Fail Risk (Precursor - ADD CATEGORIES PROPER)"
+ #vultaum_asteroid_category_research_speed_mult:0 "Anomaly Research Speed (Precursor - ADD CATEGORIES PROPER)"
+ #vultaum_asteroid_category_research_fail_risk_mult:0 "Anomaly Fail Risk (Precursor - ADD CATEGORIES PROPER)"
  vultaum_asteroid_category_research_speed_mult: "Velocità Analisi Anomalia (Precursori)"
  vultaum_asteroid_category_research_fail_risk_mult: "Rischio Fallimento Anomalia (Precursori)"
  vultaum_gasgiant_category_research_speed_mult: "Velocità Analisi Anomalia (Precursori)"

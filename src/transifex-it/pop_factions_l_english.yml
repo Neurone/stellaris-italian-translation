@@ -871,8 +871,8 @@
 
  faction.803.title: "La Rivolta della Fazione [Root.GetName]!"
  faction.803.desc: "Alimentata dalla disperazione, parte della popolazione attualmente soggetta ad Epurazione su [death_planet.GetName] ha imbracciato le armi contro [Root.Owner.GetName], formando una sgangherata forza ribelle."
- #mockup: "\n\n\n§HSuppress Followers§!\nCost: £influence£ §R150§!\n--------------\n§Y<FactionName>§!:\nMilitancy: §R+10%§!\nSupport: §G-30%§!"
- #mockup2: "\n\n\n§HSuppress Followers§!\nCost: £influence£ §Y150§!\n--------------\n§Y<FactionName>§!:\nMilitancy: §R+10%§!\nSupport: §G-30%§!"
+ #mockup:0 "\n\n\n§HSuppress Followers§!\nCost: £influence£ §R150§!\n--------------\n§Y<FactionName>§!:\nMilitancy: §R+10%§!\nSupport: §G-30%§!"
+ #mockup2:0 "\n\n\n§HSuppress Followers§!\nCost: £influence£ §Y150§!\n--------------\n§Y<FactionName>§!:\nMilitancy: §R+10%§!\nSupport: §G-30%§!"
 
  henrik.1234.name: "§HPrimitivi§!: Aggiornamento"
  henrik.1234.desc: "La Stazione d'Osservazione in orbita attorno al Pianeta Primitivo anomalo §YTerra-1444§! ha inviato un rapporto degli eventi recenti.\n\n§S--- --- ---§!\n\nAnno Planetario §Y1698§!:\nUn'§Yimprobabile alleanza diplomatica§! ha inaspettatamente sventato una §Yguerra imminente§! contro ad un §Ygiovane sovrano§! nel §Ynord dell'Europa§!.\n\n§S--- --- ---§!\n\nAnno Planetario §Y1700§!:\nUna §Yparte dell'aberrante sotto-specie degli Asburgo§! è morta nella sub-regione §YEuropea§! chiamata §YSpagna§!.\n\n§S--- --- ---§!\n\nAnno Planetario §Y1702§!:\nL'equilibrio precario del potere tra §YEuropa occidentale e sud-occidentale§! ha infine §Yscatenato un violento conflitto§!."

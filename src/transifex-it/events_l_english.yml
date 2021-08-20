@@ -265,8 +265,8 @@
  action.6.desc_04: "Abbiamo rilevato la presenza di una civiltà aliena su §Y[primitive_civ.Capital.GetName]§!, nel Sistema §Y[primitive_civ.Capital.GetStarName]§!. Sembrano trovarsi agli albori della Prima Era Spaziale, come prova la quantità di primitivi satelliti che orbitano attorno al loro pianeta. Le loro nazioni sono quasi sul punto di riunirsi in un governo globale, ed è solo questione di tempo prima che si avventurino oltre il loro sistema e si uniscano alla comunità galattica.\n\nDovremmo considerare l'idea di costruire una §YStazione d'Osservazione§! attorno al loro pianeta per studiarli meglio."
 
  action.6.name: "Pirati Rilevati"
- #action.6.desc: "We have sighted hostile ships in the [From.From.GetStarName] system! They are not responding to hails, and their designs are obviously not of [Root.GetSpeciesName] origin. It seems like they are mostly focused on looting our orbital stations, stripping them of valuable resources and technology while taking their crews captive."
- #action.6.a: "Pirates. We don't need that scum."
+ #action.6.desc:0 "We have sighted hostile ships in the [From.From.GetStarName] system! They are not responding to hails, and their designs are obviously not of [Root.GetSpeciesName] origin. It seems like they are mostly focused on looting our orbital stations, stripping them of valuable resources and technology while taking their crews captive."
+ #action.6.a:0 "Pirates. We don't need that scum."
 
  action.10.name: "Incontro nel Sistema [From.From.From.GetName]"
  action.10.desc: "Abbiamo incontrato delle navi di origine sconosciuta nel Sistema [From.From.From.GetName]! Questi strani vascelli verranno identificati come §Y[From.GetName]§! finché non ne sapremo di più.\n\nDovremmo prendere delle precauzioni nel caso diventino ostili."
