@@ -49,9 +49,10 @@ function prepareFile(folder, fileName) {
 
     while (line = liner.next()) {
         line = line.toString('utf-8');
-        line = restoreVersion(line);
-        line = restoreQuotes(line);
-        //line = restoreNewLine(line);
+        if (!(line.startsWith('#') || line.startsWith(' #'))) {
+            line = restoreVersion(line);
+            line = restoreQuotes(line);
+        }
         file.write(line + '\n');
         lineNumber++;
     }
