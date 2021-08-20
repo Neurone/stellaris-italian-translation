@@ -363,7 +363,7 @@
  PRE_FUN_tooth:0 "$FUN_tooth$"
  PRE_FUN_tooth_plural:0 "$FUN_tooth_plural$"
 
- #ROBOT:0 "Robot"
+ #ROBOT: "Robot"
  ROBOT_desc:0 "La Classe della Specie non ha alcun effetto sul tuo Impero, ma le Specie di Classe Robot potrebbero considerare gli altri Robot meno alieni rispetto ad altre Classi di Specie."
  ROBOT_plural:0 "Robot"
  ROBOT_insult_01:0 "lattina"
@@ -387,7 +387,7 @@
  ROBOT_tooth:0 "compattatore di nutrienti"
  ROBOT_tooth_plural:0 "compattatori di nutrienti"
 
- #MMACHINE:0 "Machine"
+ #MMACHINE: "Machine"
  MACHINE_desc:0 "La Classe della Specie non ha alcun effetto sul tuo Impero, ma le Specie di Classe Macchina potrebbero considerare le altre Macchine meno aliene rispetto ad altre Classi di Specie."
  MACHINE_plural:0 "Macchine"
  MACHINE_insult_01:0 "lattina"

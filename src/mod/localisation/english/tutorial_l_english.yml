@@ -190,9 +190,9 @@
  advisor.1.desc_honortoserve:0 "Sono VIR, un prototipo di intelligenza sintetica sviluppata in massima segretezza dai reparti militari. Sono onorato di servire come vostro consigliere e analista strategico."
 
  advisor.1.desc_filler:0 "Può modificare il livello del tutorial in ogni momento nel §HMenu Impostazioni§!."
- advisor.1.a:0 "§GTUTORIAL COMPLETO§!"
- advisor.1.b:0 "§YSOLO CONSIGLI§!"
- advisor.1.c:0 "§RNESSUN TUTORIAL§!"
+ advisor.1.a:0 "Raccontami tutto. §G(TUTORIAL COMPLETO)§!"
+ advisor.1.b:0 "Avrei bisogno di qualche consiglio. §Y(SOLO CONSIGLI)§!"
+ advisor.1.c:0 "Spegnete questa cosa. §R(NESSUN TUTORIAL)§!"
  full_tutorial:0 "Tutorial delle missioni e descrizioni dell'interfaccia mentre scopri le meccaniche di gioco.\n\nConsigliato se questa è la prima volta che giochi."
  tips_only:0 "Ti verranno forniti consigli e suggerimenti mentre esplorerai il sistema di gioco.\n\nConsigliato a giocatori neofiti ed intermedi."
  no_tutorial:0 "Nessun consiglio né tutorial.\n\nConsigliato a giocatori esperti."

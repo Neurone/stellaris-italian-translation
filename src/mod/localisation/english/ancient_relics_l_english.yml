@@ -457,7 +457,7 @@
 
  artifact_action_planetary_decision:0 "Quest'azione dev'essere intrapresa come §YDecisione§! su un pianeta."
 
- #decision_museum_exhibits_effect:0 ""
+ #decision_museum_exhibits_effect: ""
  decision_museum_exhibits:0 "Organizza Mostre Museali degli Artefatti"
  decision_museum_exhibits_desc:0 "Metti in mostra gli Artefatti Minori per ispirare il nostro popolo con le meraviglie del passato."
  planet_museum_exhibits:0 "Esposizione degli Artefatti"
@@ -510,7 +510,7 @@
  ##################
  # RELICS
  ##################
- #relic_triumph_cooldown:0 "\n§Y$relic_activation_cooldown$§! modifier added for §Y120§! months."
+ #relic_triumph_cooldown: "\n§Y$relic_activation_cooldown$§! modifier added for §Y120§! months."
  relic_triumph_cooldown:0 "\n$relic_activation_cooldown$: £time£ §Y3.600§!"
  relic_triumph_cooldown_short:0 "\n$relic_activation_cooldown$: £time£ §Y1.800§!"
  relic_triumph_cooldown_veryshort:0 "\n$relic_activation_cooldown$: £time£ §Y900§!"
