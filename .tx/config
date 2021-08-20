@@ -103,7 +103,7 @@ source_file = src/transifex-en/federations_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src-transifex-en-federations_resolution-comments-l-english-yml--dev]
+[stellaris-italian-translation.src-transifex-en-federations-resolution-comments-l-english-yml--dev]
 file_filter = src/transifex-<lang>/federations_resolution_comments_l_english.yml
 source_file = src/transifex-en/federations_resolution_comments_l_english.yml
 source_lang = en
@@ -313,7 +313,7 @@ source_file = src/transifex-en/standalone_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src-transifex-en-synthetic_dawn-events-l-english-yml--dev]
+[stellaris-italian-translation.src-transifex-en-synthetic-dawn-events-l-english-yml--dev]
 file_filter = src/transifex-<lang>/synthetic_dawn_events_l_english.yml
 source_file = src/transifex-en/synthetic_dawn_events_l_english.yml
 source_lang = en
@@ -367,7 +367,7 @@ source_file = src/transifex-en/utopia_megastructures_l_english.yml
 source_lang = en
 type = YML GENERIC
 
-[stellaris-italian-translation.src-transifex-en-void_dweller-traditions-l-english-yml--dev]
+[stellaris-italian-translation.src-transifex-en-void-dweller-traditions-l-english-yml--dev]
 file_filter = src/transifex-<lang>/void_dweller_traditions_l_english.yml
 source_file = src/transifex-en/void_dweller_traditions_l_english.yml
 source_lang = en
