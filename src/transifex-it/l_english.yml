@@ -2,31 +2,31 @@
  ####################################
  # Misc
  ####################################
- SEPARATOR: "---"
- PLUS: "+"
+ SEPARATOR:0 "---"
+ PLUS:0 "+"
 
- ADJ_WITH_THE: "il $ADJ|Y$"
- OUR: "nostro"
+ ADJ_WITH_THE:0 "il $ADJ|Y$"
+ OUR:0 "nostro"
 
- MULT_NEG: "§Rx$VALUE$§!"
- MULT_POS: "§Gx$VALUE$§!"
+ MULT_NEG:0 "§Rx$VALUE$§!"
+ MULT_POS:0 "§Gx$VALUE$§!"
 
  ETA: "Data Stimata d'Arrivo: $DATE|H$ §Y($DAYS$ $DAY_OR_DAYS$)§!"
- ETA_DAY: "giorno"
- ETA_DAYS: "giorni"
+ ETA_DAY:0 "giorno"
+ ETA_DAYS:0 "giorni"
 
- TOPBAR_OWNED_SYSTEMS: "Sistemi Imperiali"
- TOPBAR_OWNED_SYSTEMS_DESC: "£system£ Sistemi Solari: §Y$NUM_SYSTEMS$§!\n£planet£ Sistemi Colonizzati: §Y$NUM_COLONIZED_SYSTEMS$§!"
+ TOPBAR_OWNED_SYSTEMS:0 "Sistemi Imperiali"
+ TOPBAR_OWNED_SYSTEMS_DESC:0 "Noi possediamo §Y$NUM_SYSTEMS$§! £sistemi£ Solari $SYSTEM_SYSTEMS$\nNoi abbiamo §Y$NUM_COLONIZED_SYSTEMS$§! £pianeti£ Colonizzati $COLONIZED_SYSTEM_SYSTEMS$"
 
- RESOURCE_AI_VALUE: "VALORE IA: $VALUE$"
+ RESOURCE_AI_VALUE:0 "AI VALUE: $VALUE$"
 
- PLAYER_EMPIRE_MP: "§Y$NAME$ (Impero del Giocatore)§!"
- PLAYER_EMPIRE_SP: "§YImpero del Giocatore§!"
+ PLAYER_EMPIRE_MP:0 "§Y$NAME$ (Impero del Giocatore)§!"
+ PLAYER_EMPIRE_SP:0 "§YImpero del Giocatore§!"
 
- SHIP_SIZE_LIMIT_REACHED: "£trigger_no£ Il nostro impero può supportare solo $NUM|Y$ nave/i di dimensione $SIZE$."
- FED_SHIP_SIZE_LIMIT_REACHED: "£trigger_no£ La nostra Federazione può supportare solo $NUM|Y$ nave/i di dimensione $SIZE$."
+ SHIP_SIZE_LIMIT_REACHED:0 "£trigger_no£ Il nostro impero può supportare solo $NUM|Y$ nave/i di dimensione $SIZE$."
+ FED_SHIP_SIZE_LIMIT_REACHED:0 "£trigger_no£ La nostra Federazione può supportare solo $NUM|Y$ nave/i di dimensione $SIZE$."
 
- SHIPS_NUM: "§H$NUM$ x $CLASS$§!"
+ SHIPS_NUM:0 "§H$NUM$ x $CLASS$§!"
  SHIPS_WANTED: " §R($NUM$ richieste)§!"
 
  SHIP_DESIGN_NAME_RANDOMIZE_TOOLTIP: "Nome Casuale"
