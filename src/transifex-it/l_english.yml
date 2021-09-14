@@ -70,16 +70,15 @@
  POP_HABITABILITY_TOO_LOW:0 "§RL'Abitabilità Planetaria per la POP è minore del §R20%§!.§!"
  POP_MAY_NOT_LIVE_ON_PLANET:0 "§RI Diritti di Specie della POP non le permettono di abitare su questo pianeta.§!"
 
- CANNOT_ENLIGHTEN_FANATIC_XENOPHOBE: "Impossibile far evolvere Primitivi con Etica \"§H$ethic_fanatic_xenophobe$§!\"."
+ CANNOT_ENLIGHTEN_FANATIC_XENOPHOBE:0 "Impossibile far evolvere Primitivi con Etica §H$ethic_fanatic_xenophobe$§!."
+ FOOD_NO_NEED:0 "§YNon possediamo POP che richieda Cibo per il proprio sostentamento.§!"
+ FOOD_NO_PLANETS:0 "§YNon possediamo pianeti che richiedano Cibo per crescere.§!"
+ FOOD_SURPLUS_STARVATION:0 "§RIl nostro impero sta morendo di fame; tutta la £pops£ §YCrescita Demografica§! è bloccata.§!"
+ FOOD_SURPLUS_NONE:0 "§YStiamo accumulando Cibo. Finché i nostri depositi non saranno pieni non guadagneremo alcun bonus alla £pops£ §YCrescita Demografica§!.§!"
+ FOOD_SURPLUS:2 "§GL'abbondanza di Cibo aumenta la velocità della £pops£ §YCrescita Demografica§! del §Y$AMT$%§! su $NUM|Y$ pianeta/i.§!"
+ FROM_FOOD_SURPLUS:1 "Dall'Abbondanza di Cibo: $VALUE|Y=2$"
 
- FOOD_NO_NEED: "§YNon possediamo POP che richieda Cibo per il proprio sostentamento.§!"
- FOOD_NO_PLANETS: "§YNon possediamo pianeti che richiedano Cibo per crescere.§!"
- FOOD_SURPLUS_STARVATION: "§RIl nostro impero sta morendo di fame; tutta la £pops£ §YCrescita Demografica§! è bloccata.§!"
- FOOD_SURPLUS_NONE: "§YStiamo accumulando Cibo. Finché i nostri depositi non saranno pieni non guadagneremo alcun bonus alla £pops£ §YCrescita Demografica§!.§!"
- FOOD_SURPLUS: "§GL'abbondanza di Cibo aumenta la velocità della £pops£ §YCrescita Demografica§! del §Y$AMT$%§! su $NUM|Y$ pianeta/i.§!"
- FROM_FOOD_SURPLUS: "Dall'Abbondanza di Cibo: $VALUE|Y=2$"
-
- SPECIES_LACKS_OPTION: "§RL'Aspetto che hai scelto per la tua specie non offre opzioni secondarie per questa categoria.§!"
+ SPECIES_LACKS_OPTION:0 "§RL'Aspetto che hai scelto per la tua specie non offre opzioni secondarie per questa categoria.§!"
 
  POP_LOWERING_STABILITY: "Questa POP è infelice: riduce la §H$PLANET_STABILITY_TITLE$§!"
 
