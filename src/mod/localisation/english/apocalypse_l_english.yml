@@ -1,11 +1,11 @@
 ﻿l_english:
 
- ###      #        ##      #  #     ###     ###     # #     ###     #       #       ###     ###       ## 
- #  #     #       #  #     ## #     #        #      # #      #      #       #       #       #  #     #   
- ###      #       ####     # ##     ##       #      ##       #      #       #       ##      ###       #  
- #        #       #  #     #  #     #        #      # #      #      #       #       #       #  #       # 
- #        ###     #  #     #  #     ###      #      # #     ###     ###     ###     ###     #  #     ##  
- 
+ ###      #        ##      #  #     ###     ###     # #     ###     #       #       ###     ###       ##
+ #  #     #       #  #     ## #     #        #      # #      #      #       #       #       #  #     #
+ ###      #       ####     # ##     ##       #      ##       #      #       #       ##      ###       #
+ #        #       #  #     #  #     #        #      # #      #      #       #       #       #  #       #
+ #        ###     #  #     #  #     ###      #      # #     ###     ###     ###     ###     #  #     ##
+
  FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_CRACKER:0 "Distruzione di $PLANET|Y$"
  FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_SHIELDER:0 "Schermatura di $PLANET|Y$"
  FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NUKE:0 "Bombardamento di $PLANET|Y$"
@@ -15,16 +15,16 @@
  FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS:0 "Meccanizzazione POP di $PLANET|Y$"
  FLEETORDER_PLANET_KILLER_WINDUP:0 "Caricamento Arma: $PROGRESS|Y0%$"
  FLEETORDER_PLANET_KILLER_FIRING:0 "Arma in Azione: $PROGRESS|Y0%$"
- 
+
  STATUS_QUO_CREATE_NEW_EMPIRE:0 "Un nuovo impero di $SPECIES|Y$ verrà creato come alleato o suddito di $ACTOR|Y$ a partire da $SYSTEMS|H$ sistemi occupati da $TARGET|Y$"
- 
+
  MESSAGE_DESC_FOR_PLANET_KILLER_CRACKER:0 "è stato completamente distrutto dal"
  MESSAGE_DESC_FOR_PLANET_KILLER_SHIELDER:0 "è stato rinchiuso da uno scudo impenetrabile tramite il"
  MESSAGE_DESC_FOR_PLANET_KILLER_NEUTRON:0 "è stato epurato da ogni forma di vita superiore tramite il"
  MESSAGE_DESC_FOR_PLANET_KILLER_GODRAY:0 "è stato forzato ad un credo religioso tramite il"
  MESSAGE_DESC_FOR_PLANET_KILLER_NANOBOTS:0 "è stato assimilato tramite il"
 
- is_not_a_standard_planet_or_megastructure:1 "§R$TRIGGER_FAIL$Il bersaglio non è un corpo celeste ordinario od una megastruttura abitabile§!"
+ is_not_a_standard_planet_or_megastructure:0 "§R$TRIGGER_FAIL$Il bersaglio non è un corpo celeste ordinario od una megastruttura abitabile§!"
  is_not_a_habitable_planet_or_megastructure:0 "§R$TRIGGER_FAIL$Il bersaglio non è un pianeta od una megastruttura abitabile§!"
  is_not_a_standard_planet:0 "§R$TRIGGER_FAIL$Il bersaglio non è un corpo celeste ordinario§!"
  is_not_hostile_or_primitive:0 "§R$TRIGGER_FAIL$Il bersaglio non è di proprietà di un impero Ostile o Primitivo§!"
@@ -32,7 +32,7 @@
  is_not_hostile:0 "§R$TRIGGER_FAIL$Il bersaglio non è di proprietà di un impero Ostile§!"
  is_unpopulated:0 "§R$TRIGGER_FAIL$Il bersaglio è disabitato§!"
  is_not_hostile_cracker:0 "Il bersaglio è di proprietà di un §Himpero ostile§!"
- not_barren_molten_frozen_toxic_test_fire:2 "Il bersaglio è un §Y$pc_barren$§!, §Y$pc_molten$§!, §Y$pc_frozen$§!, o §Y$pc_toxic$§! §YAbitabile§! utilizzato come bersaglio di prova"
+ not_barren_molten_frozen_toxic_test_fire:0 "Il bersaglio è un §Y$pc_barren$§!, §Y$pc_molten$§!, §Y$pc_frozen$§!, o §Y$pc_toxic$§! §YAbitabile§! utilizzato come bersaglio di prova"
  not_owned_test_fire:0 "Il bersaglio è una §Ynostra colonia§! utilizzata come bersaglio di prova"
  primitives_not_in_borders:0 "§R$TRIGGER_FAIL$Il bersaglio primitivo non si trova all'interno dei nostri confini§!"
  no_assimilatable_pops:0 "§R$TRIGGER_FAIL$Il bersaglio non ospita alcuna POP adatta all'assimilazione cibernetica§!"
@@ -46,14 +46,14 @@
  COLOSSUS_PROJECT:0 "Progetto Colosso"
  COLOSSUS_PROJECT_DESC:0 "I nostri scienziati progetteranno uno degli scafi più grandi che la galassia abbia mai visto, e lo doterà di un'arma in grado di devastare interi pianeti."
 
- tech_pk_cracker:1 "Distruzione del Nucleo"
+ tech_pk_cracker:0 "Distruzione del Nucleo"
  tech_pk_cracker_desc:0 "$PLANET_KILLER_CRACKER_DESC$"
  tech_pk_shielder:0 "Pacificazione Globale"
  tech_pk_shielder_desc:0 "$PLANET_KILLER_SHIELDER_DESC$"
  tech_pk_neutron:0 "Frangente Neutronico"
  tech_pk_neutron_desc:0 "$PLANET_KILLER_NEUTRON_DESC$"
- tech_pk_godray:1 "Stimolo Divino"
- tech_pk_godray_desc:1 "Un catalizzatore arcano che amplifica determinate lunghezze d'onda psioniche in grado di indurre allucinazioni (esperienze mistiche) nei cervelli organici, e causare ingenti danni (morte cerebrale) in quelli elettronici."
+ tech_pk_godray:0 "Stimolo Divino"
+ tech_pk_godray_desc:0 "Un catalizzatore arcano che amplifica determinate lunghezze d'onda psioniche in grado di indurre allucinazioni (esperienze mistiche) nei cervelli organici, e causare ingenti danni (morte cerebrale) in quelli elettronici."
  tech_pk_nanobots:0 "Dispersione Nanobotica Atmosferica"
  tech_pk_nanobots_desc:0 "$PLANET_KILLER_NANOBOTS$"
 
@@ -67,7 +67,7 @@
  apoc.100.a:0 "Ricevuto."
  apoc.110.name:0 "La Pistola Puntata alla Tempia dell'Universo"
  apoc.110.desc:0 "Scienziati provenienti da ogni campo della ricerca si sono finalmente uniti per creare l'arma §RDistruggi-Pianeti§! che verrà installata sui nostri Colossi. Possiamo ora selezionarne una tra quelle proposte per terminare gli ultimi stadi del Progetto Colosso."
- apoc.110.desc.machine:1 "La potenza di calcolo ottenuta è ora sufficiente per sviluppare un'arma §RDistruggi-Pianeti§! e completare così il §GProgetto Colosso§!.\n\nPriorità necessaria."
+ apoc.110.desc.machine:0 "La potenza di calcolo ottenuta è ora sufficiente per sviluppare un'arma §RDistruggi-Pianeti§! e completare così il §GProgetto Colosso§!.\n\nPriorità necessaria."
  apoc.110.desc.hive:0 "Abbiamo esplorato una miriade di possibilità, ed ora siamo in grado di sviluppare l'arma §RDistruggi-Pianeti§! da installare sui nostri Colossi. Le altre strade possono essere intraprese più tardi, ora dobbiamo concentrarci per completare le ultime fasi del Progetto Colosso."
  apoc.110.cracker.tooltip:0 "§RArma Distruggi-Pianeti§!:\n§L$PLANET_KILLER_CRACKER_DESC$§!"
  apoc.110.shielder.tooltip:0 "§RArma Distruggi-Pianeti§!:\n§L$PLANET_KILLER_SHIELDER_DESC$§!"
@@ -95,12 +95,12 @@
  apoc.130.a.weaker:0 "Allarmante."
  apoc.130.a.stronger:0 "All'improvviso, uno sfidante."
  apoc.130.a.pacif:0 "Ripugnante."
- 
-  ##     ###      ##      ###      ###       ##       ##     ###     #   #     ###     ###     #   # 
- #        #      #  #     #  #     #  #     #  #     #       #       #   #      #      #       #   # 
-  #       #      ####     ###      ###      ####      #      ##      #   #      #      ##      # # # 
-   #      #      #  #     #  #     #  #     #  #       #     #        # #       #      #       # # # 
- ##       #      #  #     #  #     ###      #  #     ##      ###       #       ###     ###      # #  
+
+  ##     ###      ##      ###      ###       ##       ##     ###     #   #     ###     ###     #   #
+ #        #      #  #     #  #     #  #     #  #     #       #       #   #      #      #       #   #
+  #       #      ####     ###      ###      ####      #      ##      #   #      #      ##      # # #
+   #      #      #  #     #  #     #  #     #  #       #     #        # #       #      #       # # #
+ ##       #      #  #     #  #     ###      #  #     ##      ###       #       ###     ###      # #
 
  STARBASE_STARBASE_TAB:0 "Base Stellare"
  STARBASE_DEFENSES_TAB:0 "Difese"
@@ -115,7 +115,7 @@
  STARBASE_DISMANTLE_NOT_SYSTEM_OWNER:0 "§RNon sei il proprietario di questa Base Stellare.§!"
  STARBASE_DISMANTLE_HAS_COLONIZED_WORLDS:0 "§RNon puoi smantellare una Base Stellare se possiedi pianeti colonizzati nel sistema.§!"
  STARBASE_DOWNGRADE_ALREADY_LOWEST_LEVEL:0 "§RQuesta Base Stellare non può essere declassata ulteriormente!§!"
- STARBASE_DISMANTLE_AT_WAR:1 "§RImpossibile smantellare le Basi Stellari mentre ci si trova in guerra§!"
+ STARBASE_DISMANTLE_AT_WAR:0 "§RImpossibile smantellare le Basi Stellari mentre ci si trova in guerra§!"
  STARBASE_RETURN_CONTROL_IS_OWNER:0 "§RQuesta Base Stellare è nostra§!"
  STARBASE_RETURN_CONTROL_IS_CONTROLLER:0 "§RNon abbiamo il controllo di questa Base Stellare§!"
  STARBASE_DOWNGRADE_IN_COMBAT:0 "§RImpossibile declassare le Basi Stellari che si trovano in combattimento attivo§!"
@@ -135,8 +135,8 @@
  STARBASE_DOWNGRADE_DESC:0 "Così riporterai la Base Stellare a livello di Avamposto."
  STARBASE_UPGRADE_TITLE:0 "Aggiorna a $NEXT|Y$."
  STARBASE_UPGRADE_COST:0 "Costo: $COST|H$ $TIME$"
- STARBASE_BUILD_SHIPS:0 "Costruisci Navi"
- STARBASE_BUILD_PLATFORMS:0 "Costruisci Piattaforme Difensive"
+ STARBASE_OPEN_SHIP_DESIGNS:0 "Apri Progettazione Navi"
+ STARBASE_OPEN_DEFENSE_DESIGNS:0 "Apri Progettazione Difese"
  STARBASE_SHIPYARD_CAPACITY:0 "Cantieri Navali: $COUNT|Y$"
  STARBASE_SHIPYARD_CAPACITY_DESC:0 "Il numero di Cantieri Navali incide sulla quantità di navi che una Base Stellare può costruire in parallelo."
  STARBASE_NO_SHIPYARD:0 "§RLa Base Stellare non possiede un Cantiere Navale§!"
@@ -153,9 +153,9 @@
  STARBASE_DISMANTLE_DIALOG_TITLE:0 "Smantella Base Stellare"
  STARBASE_DISMANTLE_DIALOG_DESC:0 "Sei sicuro di voler smantellare la Base Stellare? Perderai il controllo del sistema."
  STARBASE_DOWNGRADE_DIALOG_TITLE:0 "Declassa Base Stellare"
- STARBASE_DOWNGRADE_DIALOG_DESC:1 "Sei sicuro di voler declassare questa Base Stellare ad Avamposto? Tutte le Sezioni ed in Moduli andranno persi, ma il sistema non verrà più calcolato per la Capacità della Base Stellare."
- STARBASE_RETURN_CONTROL_DIALOG_TITLE:1 "Restituisci Base Stellare"
- STARBASE_RETURN_CONTROL_DIALOG_DESC:1 "Sei sicuro di voler restituire il controllo di questa Base Stellare al suo proprietario?"
+ STARBASE_DOWNGRADE_DIALOG_DESC:0 "Sei sicuro di voler declassare questa Base Stellare ad Avamposto? Tutte le Sezioni ed in Moduli andranno persi, ma il sistema non verrà più calcolato per la Capacità della Base Stellare."
+ STARBASE_RETURN_CONTROL_DIALOG_TITLE:0 "Restituisci Base Stellare"
+ STARBASE_RETURN_CONTROL_DIALOG_DESC:0 "Sei sicuro di voler restituire il controllo di questa Base Stellare al suo proprietario?"
  STARBASE_DISMANTLE_COMPONENT_DIALOG_TITLE:0 "Smantella"
  STARBASE_DISMANTLE_COMPONENT_DIALOG_DESC:0 "Sei sicuro di voler smantellare $NAME|Y$?"
  STARBASE_DEFENSE_PLATFORM_CAPACITY:0 "Piattaforme Difensive: $COUNT|Y$/$MAX|Y$"
@@ -165,10 +165,11 @@
  STARBASE_DEFENSE_PLATFORM_UPGRADE:0 "Aggiorna"
  STARBASE_DEFENSE_PLATFORM_UPGRADE_DESC:0 "Aggiorna Piattaforma Difensiva"
  STARBASE_DEFENSE_PLATFORM_UPGRADE_ALL:0 "Aggiorna Tutte"
- STARBASE_DEFENSE_PLATFORM_UPGRADE_ALL_DESC:0 "Aggiorna Tutte le Piattaforme Difensive"
- STARBASE_NAME:1 "$NAME$"
+ STARBASE_DEFENSE_PLATFORM_UPGRADE_ALL_DESC:0 "Aggiorna tutte le Piattaforme Difensive"
+ STARBASE_NAME:0 "$NAME$"
  STARBASE_STATION_NAME_FORMAT:0 "Stazione $SYSTEM$"
  STARBASE_QUEUE:0 "Coda Base Stellare"
+ DEFENSE_QUEUE:0 "Coda Difese"
  SHIPYARD_QUEUE:0 "Coda Cantiere Navale"
  STARBASE_TRIGGER_HAS_NOT_MODULE:0 "La Base Stellare non possiede il Modulo $COMPONENT|Y$"
  STARBASE_TRIGGER_HAS_MODULE:0 "La Base Stellare possiede il Modulo $COMPONENT|Y$"
@@ -197,10 +198,10 @@
  STARBASE_BUILDQUEUE_DOWN:0 "§GClicca per spostare l'oggetto verso il basso.\nShift+Click per spostare l'oggetto in fondo.§!"
  STARBASE_MODIFIER_EFFECTS:0 "Effetti Modificatore"
 
-  ##       ##      ###     ###     #   #      ##      #   #      ## 
- #        #  #      #      #       #   #     #  #      # #      #   
- # ##     ####      #      ##      # # #     ####       #        #  
- #  #     #  #      #      #       # # #     #  #       #         # 
+  ##       ##      ###     ###     #   #      ##      #   #      ##
+ #        #  #      #      #       #   #     #  #      # #      #
+ # ##     ####      #      ##      # # #     ####       #        #
+ #  #     #  #      #      #       # # #     #  #       #         #
   ##      #  #      #      ###      # #      #  #       #       ##
 
  gateway_ruined:0 "Portale Inattivo"
@@ -214,19 +215,19 @@
  HAS_NOT_NUM_OWNED_ACTIVE_GATEWAYS:0 "Il numero di Portali attivi posseduti dall'impero NON è $COMPARATOR$ $NUM|Y$"
  HAS_NUM_OWNED_ACTIVE_GATEWAYS:0 "Il numero di Portali attivi posseduti dall'impero è $COMPARATOR$ $NUM|Y$"
 
- gateway_0_MEGASTRUCTURE_DETAILS:1 "Un Portale che attraversa il subspazio e permette il viaggio istantaneo verso altri Portali."
+ gateway_0_MEGASTRUCTURE_DETAILS:0 "Un Portale che attraversa il subspazio e permette il viaggio istantaneo verso altri Portali."
  gateway_0:0 "Area di Costruzione del Portale"
  gateway_0_DESC:0 "L'area iniziale che servirà come base per la costruzione di un Portale."
  gateway_final:0 "Portale"
  gateway_final_DESC:0 "Un condotto che attraversa il tessuto stesso del subspazio e permette di viaggiare rapidamente verso altri Portali."
  gateway_final_MEGASTRUCTURE_DETAILS:0 "Impossibile costruire un Portale troppo distante dal pozzo gravitazionale di un sistema"
  MEGASTRUCTURE_BUILD_OUTSIDE_GRAVITY_WELL:0 "Impossibile costruire un Portale all'interno del pozzo gravitazionale di un sistema"
- MEGASTRUCTURE_BUILD_CANNOT_MOVE_TO_TARGET:0 "Impossibile costruire un Portale in un sistema irragiungibile"
+ MEGASTRUCTURE_BUILD_CANNOT_MOVE_TO_TARGET:0 "Impossibile costruire un Portale in un sistema irraggiungibile"
  MEGASTRUCTURE_BUILD_INSIDE_SYSTEM_RADIUS:0 ""
  NUM_GATEWAYS:0 "Portali Abbandonati"
- NUM_GATEWAYS_TOOLTIP:2 "§HPortali Abbandonati§!\nMoltiplica la quantità normale di Portali Abbandonati generati nella galassia."
+ NUM_GATEWAYS_TOOLTIP:0 "§HPortali Abbandonati§!\nMoltiplica la quantità normale di Portali Abbandonati generati nella galassia."
  NUM_WORMHOLES:0 "Coppie di Wormhole"
- NUM_WORMHOLES_TOOLTIP:1 "§HCoppie di Wormhole§!\nMoltiplica la quantità normale di Coppie di Wormhole generate nella galassia."
+ NUM_WORMHOLES_TOOLTIP:0 "§HCoppie di Wormhole§!\nMoltiplica la quantità normale di Coppie di Wormhole generate nella galassia."
  NAME_gateway_final:0 "Portale"
  TRIGGER_HAS_WORMHOLE:0 "Contiene un Wormhole"
  TRIGGER_HAS_WORMHOLE_NOT:0 "NON Contiene un Wormhole"
@@ -236,7 +237,7 @@
  requires_starhold:0 "§RRichiede l'aggiornamento a §Y$starbase_starhold$§!.§!"
  requires_starfortress:0 "§RRichiede l'aggiornamento a §Y$starbase_starfortress$§!.§!"
  requires_citadel:0 "§RRichiede l'aggiornamento a §Y$starbase_citadel$§!.§!"
- 
+
  requires_colonized_planet:0 "§RRichiede un proprio pianeta nel sistema.§!"
  requires_trade_planet:0 "§RRichiede un Pianeta Colonizzato o un'§YEnclave dei Mercanti§! nel sistema.§!"
  requires_black_hole:0 "§RRichiede un §Y$pc_black_hole$§! nel sistema.§!"
@@ -245,16 +246,16 @@
  requires_curator_agreement:0 "§RRichiede un §YAccordo Diplomatico§! con l'Enclave dei Curatori locale.§!"
  requires_artist_agreement:0 "§RRichiede un §YAccordo Diplomatico§! con l'Enclave degli Artisti locale.§!"
  requires_artisans:0 "§RRichiede un'§YEnclave degli Artisti§! nel sistema.§!"
-  
+
  requires_technology_gateway_activation:0 "$TRIGGER_FAIL$Richiede la Tecnologia £physics£ §Y$tech_gateway_activation$§!."
  requires_technology_gateway_construction:0 "$TRIGGER_FAIL$Richiede la Tecnologia £physics£ §Y$tech_gateway_construction$§!."
 
  NAVY_SIZE_STARBASES_TITLE:0 "Dalle Basi Stellari"
  TECH_UNLOCK_STARBASE_MODULE:0 "§HSblocca Modulo Base Stellare:§! $NAME$"
  TECH_UNLOCK_STARBASE_BUILDING:0 "§HSblocca Sezione Base Stellare:§! $NAME$"
- 
+
  tech_ftl_inhibitor:0 "Inibitore SL"
- tech_ftl_inhibitor_desc:1 "Dei generatori di pozzo gravitazionale possono essere utilizzati per creare sacche localizzate di spazio in cui sia impossibile entrare con sicurezza nell'iperspazio. L'immensa quantità d'energia richiesta e le dimensioni dei generatori li rendono impossibile da installare al di fuori di una Base Stellare."
+ tech_ftl_inhibitor_desc:0 "Dei generatori di pozzo gravitazionale possono essere utilizzati per creare sacche localizzate di spazio in cui sia impossibile entrare con sicurezza nell'iperspazio. L'immensa quantità d'energia richiesta e le dimensioni dei generatori li rendono impossibile da installare al di fuori di una Base Stellare."
  ION_CANNON_CORE:0 "Nucleo del Cannone Ionico"
  name_list_HUMAN1:0 "Umano (UNE)"
  name_list_HUMAN2:0 "Umano (CM)"
@@ -272,69 +273,69 @@
  FLEET_MANAGER_SHIP_DESIGN_COUNT:0 "$FLEET_COUNT$/$TEMPLATE_COUNT$"
  FLEET_MANAGER_SHIP_DESIGN_UPGRADABLE_COUNT:0 "£fleet_status|2£ $FLEET_COUNT|Y$/$TEMPLATE_COUNT$"
  FLEET_MANAGER_SHIP_DESIGN_COUNT_FULL:0 "$TEMPLATE_COUNT$"
- FLEET_MANAGER_SHIP_OFFENSIVE_POWER:1 "£military_power£ $FLEET_POWER$/$TEMPLATE_POWER$"
+ FLEET_MANAGER_SHIP_OFFENSIVE_POWER:0 "£military_power£ $FLEET_POWER$/$TEMPLATE_POWER$"
  FLEET_MANAGER_SHIP_OFFENSIVE_POWER_FULL:0 "£military_power£ $TEMPLATE_POWER$"
  FLEET_MANAGER_HOME_BASE:0 "$HOME_BASE$"
- FLEET_MANAGER_ADD_SHIP_DESIGN:0 "Aggiungi Design Navale alla Flotta"
+ FLEET_MANAGER_ADD_SHIP_DESIGN:0 "Aggiungi Progetto Navale alla Flotta"
  FLEET_MANAGER_VIEW_REINFORCE_ALL:0 "Rinforza Tutte"
  FLEET_MANAGER_VIEW_NO_REINFORCE_TEXT:0 "§GNessuna Flotta richiede rinforzi§!"
- FLEET_MANAGER_VIEW_REINFORCE_TEXT:1 "$NUMFLEETS|Y$ Flotta/e da rinforzare con $NUMSHIPS|R$ Nave/i per $COST$"
- FLEET_MANAGER_VIEW_REINFORCE_COST:1 "Possiamo creare $NUMSHIPS|Y$ Nave/i di rinforzo per $COST$"
- FLEET_MANAGER_VIEW_REINFORCE_COST_NONE:1 "£alloys£ 0"
- FLEET_MANAGER_CHOOSE_DESIGN:0 "Seleziona Design"
+ FLEET_MANAGER_VIEW_REINFORCE_TEXT:0 "$NUMFLEETS|Y$ Flotta/e da rinforzare con $NUMSHIPS|R$ Nave/i per $COST$"
+ FLEET_MANAGER_VIEW_REINFORCE_COST:0 "Possiamo creare $NUMSHIPS|Y$ Nave/i di rinforzo per $COST$"
+ FLEET_MANAGER_VIEW_REINFORCE_COST_NONE:0 "£alloys£ 0"
+ FLEET_MANAGER_CHOOSE_DESIGN:0 "Seleziona Progetto"
  FLEET_MANAGER_BUILD_QUEUE:0 "Coda di Costruzione"
  FLEET_MANAGER_HEALTH:0 "£ship_stats_hitpoints£ $VALUE|%0$"
  FLEET_MANAGER_ARMOR:0 "£ship_stats_armor£ $VALUE|%0$"
  FLEET_MANAGER_SHIELD:0 "£ship_stats_shield£ $VALUE|%0$"
- FLEET_MANAGER_CREATE_NEW_TEMPLATE:0 "Crea Nuovo"
+ FLEET_MANAGER_CREATE_NEW_TEMPLATE:0 "Crea Nuova"
  FLEET_MANAGER_NEW_TEMPLATE:0 "Nuova Flotta"
  FLEET_MANAGER_RETROFIT:0 "Aggiorna"
  topbar_button_fleet_manager_name:0 "$FLEET_MANAGER_VIEW$"
  topbar_button_fleet_manager_instant:0 "§H$FLEET_MANAGER_VIEW$§!"
  topbar_button_fleet_manager_delayed:0 "§EApre la $FLEET_MANAGER_VIEW$.§!"
- FLEET_MANAGER_DELETE_TEMPLATE:2 "§HCongeda Flotta§!\n§GClicca per eliminare questa composizione di flotta e congedare ogni flotta ad essa associata§!"
- FLEET_MANAGER_DELETE_TEMPLATE_DIALOG_TITLE:2 "Congeda Flotta"
- FLEET_MANAGER_DELETE_TEMPLATE_DIALOG_DESC:2 "§GDesideri congedare questa flotta?\n\n§RATTENZIONE: Congedando questa flotta congederai anche ogni nave ad essa associata.§!"
+ FLEET_MANAGER_DELETE_TEMPLATE:0 "§HCongeda Flotta§!\n§GClicca per eliminare questa composizione di flotta e congedare ogni flotta ad essa associata§!"
+ FLEET_MANAGER_DELETE_TEMPLATE_DIALOG_TITLE:0 "Congeda Flotta"
+ FLEET_MANAGER_DELETE_TEMPLATE_DIALOG_DESC:0 "§GDesideri congedare questa flotta?\n\n§RATTENZIONE: Congedando questa flotta congederai anche ogni nave ad essa associata.§!"
  FLEET_MANAGER_FLEET_NAME_FORMAT:0 "£military_ship£ $FLEET$"
  FLEET_MANAGER_NO_TEMPLATE_SELECTED_HINT:0 "§ENessuna Flotta Selezionata§!"
- DISBAND_FM:1 "§HCongeda§!\n§GClicca per congedare queste navi§!"
- INSPECT_FM:0 "§HDettagli Design§!\n§GClicca per visualizzare i dettagli di questo Design Navale§!"
- RETROFIT_FM:0 "§HAggiorna§!\n§GClicca per scambiare questo Design con un altro§!"
- CREATE_NEW_FM:1 "§HCrea Nuova§!\n§GClicca per creare una nuova flotta§!"
- HOME_BASE_FM:1 "§HCasa Base§!\n§GClicca per selezionare una Casa Base per questa flotta§!"
+ DISBAND_FM:0 "§HCongeda§!\n§GClicca per congedare queste navi§!"
+ INSPECT_FM:0 "§HDettagli Progetto§!\n§GClicca per visualizzare i dettagli di questo Progetto Navale§!"
+ RETROFIT_FM:0 "§HAggiorna§!\n§GClicca per scambiare questo Progetto con un altro§!"
+ CREATE_NEW_FM:0 "§HCrea Nuova§!\n§GClicca per creare una nuova flotta§!"
+ HOME_BASE_FM:0 "§HBase§!\n§GClicca per selezionare una Base per questa flotta§!"
  INCREASE_HEADER:0 "§HAumenta§!"
  DECREASE_HEADER:0 "§HDiminuisci§!"
- DECREASE_FM:3 "$DECREASE_HEADER$\n§GClicca per diminuire il numero di navi con questo design utilizzate per questa flotta§!\n§YShift-click§! per diminuire del precedente multiplo di 10, §YControl-click§! per rimuovere tutte le navi"
- INCREASE_FM:3 "$INCREASE_HEADER$\n§GClicca per aumentare il numero di navi con questo design utilizzate per questa flotta§!\n§YShift-click§! per incrementare del prossimo multiplo di 10, §YControl-click§! per aggiungere il massimo di navi possibili"
- REINFORCE_ALL_FM:0 "§HRinforza Tuttil§!\n§GClicca per rinforzare tutte le flotte alla capacità massima§!"
- ADD_DESIGN_FM:1 "§HAggiungi Design Navale alla Flotta§!\n§GClicca per aggiungere un nuovo Design Navale a questa flotta§!"
- 
- FLEET_VIEW_OPEN_FLEET_MANAGER:1 "§HGestione della Flotta§!\n§GClicca per aprire la Gestione della Flotta per questa flotta§!"
- FLEET_VIEW_DESIGN_UPGRADABLE:0 "Design Aggiornabile"
+ DECREASE_FM:0 "$DECREASE_HEADER$\n§GClicca per diminuire il numero di navi con questo stesso progetto utilizzate per questa flotta§!\n§YShift-click§! per diminuire del precedente multiplo di 10, §YControl-click§! per rimuovere tutte le navi"
+ INCREASE_FM:0 "$INCREASE_HEADER$\n§GClicca per aumentare il numero di navi con questo stesso progetto utilizzate per questa flotta§!\n§YShift-click§! per incrementare del prossimo multiplo di 10, §YControl-click§! per aggiungere il massimo di navi possibili"
+ REINFORCE_ALL_FM:0 "§HRinforza Tutte§!\n§GClicca per rinforzare tutte le flotte alla capacità massima§!"
+ ADD_DESIGN_FM:0 "§HAggiungi Progetto Navale alla Flotta§!\n§GClicca per aggiungere un nuovo Progetto Navale a questa flotta§!"
+
+ FLEET_VIEW_OPEN_FLEET_MANAGER:0 "§HGestione della Flotta§!\n§GClicca per aprire la Gestione della Flotta per questa flotta§!"
+ FLEET_VIEW_DESIGN_UPGRADABLE:0 "Progetto Aggiornabile"
 
  OUTLINER_FLEET_UPGRADABLE:0 "Flotta Aggiornabile"
  OUTLINER_FLEET_REPAIRABLE:0 "Flotta Riparabile"
 
- FLEET_TEMPLATE_SIZE_WITH_LIMIT:1 "£fleet_template_size£ $SIZE_STRING$ $LIMIT_STRING$"
+ FLEET_TEMPLATE_SIZE_WITH_LIMIT:0 "£fleet_template_size£ $SIZE_STRING$ $LIMIT_STRING$"
  FLEET_TEMPLATE_SIZE_LIMIT_REACHED_VALUE_FORMAT:0 "($VALUE$)"
  FLEET_TEMPLATE_SIZE_LIMIT_UNREACHED_VALUE_FORMAT:0 "($VALUE|E$)"
  FLEET_TEMPLATE_MILITARY_POWER:0 "£military_power£ $POWER_STRING$"
  FLEET_TEMPLATE_POWER_MAX_UNREACHED_VALUE_FORMAT:0 "$CURRENT_STRING|R$"
  FLEET_TEMPLATE_POWER_MAX_REACHED_VALUE_FORMAT:0 "$CURRENT_STRING$"
  FLEET_TEMPLATE_COMMAND_LIMIT_REACHED:0 "Limite di Comando insufficiente per aggiungere questa nave"
- FLEET_TEMPLATE_EVENT_DESIGN:0 "Design Evento"
+ FLEET_TEMPLATE_EVENT_DESIGN:0 "Progettazione Evento"
 
  MULTIPLE_SHIPS_DISBAND_TITLE:0 "Congeda Navi"
- MULTIPLE_SHIPS_DISBAND_DESC:1 "Sei sicuro di voler congedare $COUNT$ nave/i?"
+ MULTIPLE_SHIPS_DISBAND_DESC:0 "Sei sicuro di voler congedare $COUNT$ nave/i?"
 
  FLEETORDER_FOLLOW_FLEET:0 "Segui $FLEET|Y$"
- FLEETORDER_SET_HOMEBASE:0 "Imposta $HOMEBASE|Y$ come Casa Base."
+ FLEETORDER_SET_HOMEBASE:0 "Imposta $HOMEBASE|Y$ come Base."
  FLEETORDER_DESTROY_PLANET:0 "$DESC$ $PLANET|Y$"
 
  TOOLTIP_SHIP_SIZE_COUNT_WITH_TEMPLATE:0 "$TOOLTIP_SHIP_SIZE_COUNT$/$TEMPLATE_SIZE|Y$"
 
- HOME_BASE_VIEW_BASES:1 "Seleziona Casa Base"
- HOME_BASE_VIEW_ASSIGN:0 "Assegna Casa Base"
+ HOME_BASE_VIEW_BASES:0 "Seleziona Base"
+ HOME_BASE_VIEW_ASSIGN:0 "Assegna ad una Base"
  action.82.name:0 "[From.GetName] Bombardato"
  action.82.desc:0 "Una flotta appartenente ai §H[From.From.GetSpeciesNamePlural]§! ha sterminato la popolazione di §H[From.GetName]§!! Dopo una massiccia ed inesorabile serie di bombardamenti orbitali, tutti i centri abitati sono stati sistematicamente rasi al suolo, lasciandosi dietro solamente una terra desolata, che difficilmente sarà in grado di ospitare ancora la vita."
  action.82.a:0 "Quest'atrocità dev'essere vendicata!"
@@ -347,7 +348,7 @@
  uneasy_faith_desc:0 "La popolazione è in qualche modo consapevole che il loro fervore religioso non proviene interamente da loro stessi."
  neutron_bombarded:0 "Bombardamento Neutronico"
  neutron_bombarded_desc:0 "L'ecosistema del pianeta si sta ancora riprendendo dagli effetti devastanti di un Frangente Neutronico."
- 
+
  opinion_cracked_my_world:0 "Ha Frantumato il Nostro Pianeta"
  opinion_cracked_a_world:0 "Ha Frantumato un Pianeta"
  opinion_swept_my_world:0 "Ha Eliminato le Forme di Vita Sapienti del Nostro Pianeta"
@@ -357,26 +358,26 @@
  opinion_assimilated_my_world:0 "Ha Assimilato il Nostro Pianeta"
  opinion_assimilated_a_world:0 "Ha Assimilato un Pianeta"
  opinion_shielded_my_world:0 "Ha Schermato il Nostro Pianeta"
- opinion_shielded_a_world:1 "Ha Schermato un Pianeta"
+ opinion_shielded_a_world:0 "Ha Schermato un Pianeta"
  opinion_cracked_a_primitive_world:0 "Ha Frantumato un Pianeta Primitivo"
  opinion_cracked_a_primitive_world_phile:0 "Ha Annientato una Civiltà Primitiva"
  opinion_swept_a_primitive_world:0 "Ha Eliminato le Forme di Vita Sapienti di un Pianeta Primitivo"
  opinion_swept_a_primitive_world_phile:0 "$opinion_cracked_a_primitive_world_phile$"
  opinion_assimiliated_a_primitive_world:0 "Ha Assimilato un Pianeta Primitivo"
  opinion_assimiliated_a_primitive_world_phile:0 "$opinion_cracked_a_primitive_world_phile$"
- 
+
  NUM_HYPERLANES_TOOLTIP:0 "§HDensità Iperlinee§!\nMoltiplica la quantità normale di Iperlinee generate nella galassia."
  NUM_HYPERLANES:0 "Densità Iperlinee"
 
  pc_ringworld_shielded:0 "Segmento Schermato"
- pc_ringworld_shielded_desc:0 "Questa sezione del Pianeta ad Anello è schermata da una sorta di barriera energetica impenetrabile che blocca ogni scansione della superficie."
+ pc_ringworld_shielded_desc:0 "Questa sezione del Pianeta Anello è schermata da una sorta di barriera energetica impenetrabile che blocca ogni scansione della superficie."
  pc_habitat_shielded:0 "Habitat Schermato"
  pc_habitat_shielded_desc:0 "Questo Habitat è schermato da una sorta di barriera energetica impenetrabile che blocca ogni scansione dell'interno."
  FLEETORDER_EXPLORE_BUTTON:0 "Esplora Sistema"
 
  planet_destruction.101.name:0 "Pianeta Frantumato"
  planet_destruction.102.name:0 "La Distruzione Planetaria"
- planet_destruction.101.desc:0 "Il dolce dondolio di [From.GetName], seguito dalla fratturazione della crosta superficiale e della sfasatura della magnetosfera, si placa mentre il Colosso completa il suo catastrofico incarico.\n\nLa pura violenza di un pianeta morente è ardua da comprendere, ma la funerea bellezza del nucleo ardende che si raffredda nel gelido spazio è innegabile."
+ planet_destruction.101.desc:0 "Il dolce dondolio di [From.GetName], seguito dalla fratturazione della crosta superficiale e della sfasatura della magnetosfera, si placa mentre il Colosso completa il suo catastrofico incarico.\n\nLa pura violenza di un pianeta morente è ardua da comprendere, ma la funerea bellezza del nucleo ardente che si raffredda nel gelido spazio è innegabile."
  planet_destruction.101.a.purifexter:0 "Stupendo."
 
  planet_destruction.301.name:0 "Frangente Neutronico"
@@ -415,7 +416,7 @@
  apoc.1.name:0 "Portale Abbandonato"
  apoc.1.desc:0 "Ai margini del Sistema §H[gateway_system.GetName]§! è stata localizzata una specie di antica stazione spaziale. Le forti tracce subspaziali che la circondano indicano che potrebbe trattarsi di una qualche sorta di "§HPortale§!", teoricamente parte di una rete di stazioni simili che un tempo forse permettevano di viaggiare tra diversi punti della galassia quasi istantaneamente.\n\nPresumendo che si tratti di un Portale, il suo attuale stato di abbandono lo rende inutilizzabile. Se riuscissimo a ripristinarlo, saremmo potenzialmente in grado di accedere ad altri Portali in funzione nella galassia, riuscendo così a percorrere distanze immense in pochi giorni."
  apoc.2.desc:0 "Abbiamo scoperto un altro Portale abbandonato, questa volta nel Sistema [gateway_system.GetName]. Proprio come il primo, anche questo è al momento inutilizzabile a causa delle sue cattive condizioni."
- apoc.3.desc:3 "Abbiamo localizzato quello che crediamo potrebbe essere un antico Portale subspaziale vicino §H[gateway_system.GetName]§!. Sembra che abbia fatto parte di una rete galattica composta da stazioni simili le quali, in stato operativo, permettono di viaggiare quasi istantaneamente da una parte all'altra della galassia.\n\nAd un certo punto del passato, la connessione con il resto della rete è stata interrotta; l'unica destinazione verso la quale può ora condurre è uno sconosciuto ammasso di stelle appena fuori dalla nostra galassia, denominato dai nostri astronomi §HAmmasso-L§!. La cosa ancora più intrigante è il portale è composto interamente di microscopici §HNaniti§! dal design sconosciuto.\n\nSebbene il Portale emetta una debole traccia energetica, è stato deliberatamente bloccato in un loop di manutenzione che ne impedisce l'attivazione. Finché non troveremo un modo per interrompere questo processo, l'Ammasso-L rimarrà fuori dalla nostra portata."
+ apoc.3.desc:0 "Abbiamo localizzato quello che crediamo potrebbe essere un antico Portale subspaziale vicino §H[gateway_system.GetName]§!. Sembra che abbia fatto parte di una rete galattica composta da stazioni simili le quali, in stato operativo, permettono di viaggiare quasi istantaneamente da una parte all'altra della galassia.\n\nAd un certo punto del passato, la connessione con il resto della rete è stata interrotta; l'unica destinazione verso la quale può ora condurre è uno sconosciuto ammasso di stelle appena fuori dalla nostra galassia, denominato dai nostri astronomi §HAmmasso-L§!. La cosa ancora più intrigante è il portale è composto interamente di microscopici §HNaniti§! dal design sconosciuto.\n\nSebbene il Portale emetta una debole traccia energetica, è stato deliberatamente bloccato in un loop di manutenzione che ne impedisce l'attivazione. Finché non troveremo un modo per interrompere questo processo, l'Ammasso-L rimarrà fuori dalla nostra portata."
  apoc.5.name:0 "Wormhole Naturale"
  apoc.5.desc:0 "Ai margini del Sistema §H[wormhole_system.GetName]§! abbiamo scoperto quello che sembra essere un fenomeno subspaziale naturale! Si è verificata una lacerazione nel tessuto spazio-temporale, che ha portato alla creazione di un "§HWormhole§!"; secondo i nostri scienziati potrebbe condurre ad un'anomalia simile dislocata in un'altra parte della galassia.\n\nA seconda della posizione del secondo Wormhole, ciò potrebbe consentire alle nostre navi di viaggiare da una parte all'altra della galassia in pochi giorni. Sfortunatamente, come la maggior parte di questi fenomeni naturali, è piuttosto instabile. Qualsiasi nave abbastanza folle da tentare di attraversarlo, verrebbe fatta a pezzi in pochi secondi."
  apoc.5.a:0 "Se fosse possibile stabilizzarlo in qualche modo..."
@@ -469,21 +470,21 @@
  crisis.51.2.name:0 "L'Ascesa delle Sentinelle"
  sentinel_fleet_gift:0 "Una flotta delle Sentinelle è apparsa nei pressi di [Root.Capital.GetName] ed è ora sotto il nostro controllo."
 
- pirate.6.desc:2 "Una rara mutazione genetica presente in un piccolo numero di droni ha permesso loro di distaccare parzialmente la loro connessione alla Mente senza cadere in stato comatoso. Dato che probabilmente morirebbero se si allontanassero troppo dall'influenza della Mente, si sono stabiliti nel Sistema §H[pirate_system.GetName]§!, all'interno del nostro spazio.\n\n Hanno intenzione di vivere come pirati, utilizzando le loro piccole flotte malandate per razziare la rotta commerciale vulnerabile che attraversa quel sistema."
- pirate.7.desc:2 "Un piccolo gruppo di unità malfunzionanti si è separato dalla nostra intelligenza principale ed ha trovato rifugio nel Sistema §H[pirate_system.GetName]§!, all'interno del nostro spazio. Queste unità sono corrotte irrimediabilmente, ed ora utilizzano flotte malandate per razziare la rotta commerciale vulnerabile che attraversa quel sistema, in cerca di pezzi di ricambio e risorse."
+ pirate.6.desc:0 "Una rara mutazione genetica presente in un piccolo numero di droni ha permesso loro di distaccare parzialmente la loro connessione alla Mente senza cadere in stato comatoso. Dato che probabilmente morirebbero se si allontanassero troppo dall'influenza della Mente, si sono stabiliti nel Sistema §H[pirate_system.GetName]§!, all'interno del nostro spazio.\n\n Hanno intenzione di vivere come pirati, utilizzando le loro piccole flotte malandate per razziare la rotta commerciale vulnerabile che attraversa quel sistema."
+ pirate.7.desc:0 "Un piccolo gruppo di unità malfunzionanti si è separato dalla nostra intelligenza principale ed ha trovato rifugio nel Sistema §H[pirate_system.GetName]§!, all'interno del nostro spazio. Queste unità sono corrotte irrimediabilmente, ed ora utilizzano flotte malandate per razziare la rotta commerciale vulnerabile che attraversa quel sistema, in cerca di pezzi di ricambio e risorse."
  pirate.50.name:0 "Pirati Individuati!"
- pirate.50.a.desc:1 "La nostra rotta commerciale nel Sistema §H[pirate_system.GetName]§! è insufficientemente protetta ed attraversa un'area ad alto rischio. Sono stati rilevati diversi pirati, contrabbandieri ed altri elementi criminali in rotta verso il sistema, che ora stanno impunemente razziando i nostri carichi."
- pirate.50.b.desc:1 "La rotte commerciale non protetta che attraversa il Sistema §H[pirate_system.GetName]§! ha attirato l'attenzione di una banda di pirati. Questi fuorilegge hanno messo assieme una discreta flotta che sta intercettando la maggior parte dei carichi commerciali del sistema."
- pirate.50.c.desc:1 "Con la sua rotta commerciale vulnerabile e non protetta, il Sistema §H[pirate_system.GetName]§! ha attirato un gran numero di scansafatiche; a seguito di una recente lotta di potere, questi criminali degeneri sono ora sufficientemente organizzati da operare come una vera armata pirata. Stanno utilizzando le loro flotte malandate per intercettare quanti più carichi commerciali possibili."
+ pirate.50.a.desc:0 "La nostra rotta commerciale nel Sistema §H[pirate_system.GetName]§! è insufficientemente protetta ed attraversa un'area ad alto rischio. Sono stati rilevati diversi pirati, contrabbandieri ed altri elementi criminali in rotta verso il sistema, che ora stanno impunemente razziando i nostri carichi."
+ pirate.50.b.desc:0 "La rotte commerciale non protetta che attraversa il Sistema §H[pirate_system.GetName]§! ha attirato l'attenzione di una banda di pirati. Questi fuorilegge hanno messo assieme una discreta flotta che sta intercettando la maggior parte dei carichi commerciali del sistema."
+ pirate.50.c.desc:0 "Con la sua rotta commerciale vulnerabile e non protetta, il Sistema §H[pirate_system.GetName]§! ha attirato un gran numero di scansafatiche; a seguito di una recente lotta di potere, questi criminali degeneri sono ora sufficientemente organizzati da operare come una vera armata pirata. Stanno utilizzando le loro flotte malandate per intercettare quanti più carichi commerciali possibili."
  pirate.50.a:0 "Dobbiamo occuparcene."
  pirate.53.name:0 "Droni Razziatori"
- pirate.53.desc:1 "Una rara mutazione genetica presente in un piccolo numero di droni ha permesso loro di distaccare parzialmente la loro connessione alla Mente senza cadere in stato comatoso. Dato che probabilmente morirebbero se si allontanassero troppo dall'influenza della Mente, si sono stabiliti nel Sistema §H[pirate_system.GetName]§!, all'interno dei nostri confini.\n\nQuesto sistema non è stato scelto a caso, dato che una delle nostre rotte commerciali più vulnerabili lo attraversa, ed i droni hanno intenzione di vivere come pirati, utilizzando le loro piccole flotte malandate per razziare le nostre spedizioni."
+ pirate.53.desc:0 "Una rara mutazione genetica presente in un piccolo numero di droni ha permesso loro di distaccare parzialmente la loro connessione alla Mente senza cadere in stato comatoso. Dato che probabilmente morirebbero se si allontanassero troppo dall'influenza della Mente, si sono stabiliti nel Sistema §H[pirate_system.GetName]§!, all'interno dei nostri confini.\n\nQuesto sistema non è stato scelto a caso, dato che una delle nostre rotte commerciali più vulnerabili lo attraversa, ed i droni hanno intenzione di vivere come pirati, utilizzando le loro piccole flotte malandate per razziare le nostre spedizioni."
  pirate.54.name:0 "Pirati Alieni"
- pirate.54.desc:1 "Un gruppo di pirati alieni si è infiltrato e stabilito nel Sistema §H[pirate_system.GetName]§!, all'interno del nostro spazio. Per finanziare le loro attività illecite, sembra che stiano razziando la nostra vulnerabile rotta commerciale che attraversa quel sistema."
+ pirate.54.desc:0 "Un gruppo di pirati alieni si è infiltrato e stabilito nel Sistema §H[pirate_system.GetName]§!, all'interno del nostro spazio. Per finanziare le loro attività illecite, sembra che stiano razziando la nostra vulnerabile rotta commerciale che attraversa quel sistema."
  pirate.56.name:0 "Unità Corrotte"
- pirate.56.desc:1 "Un piccolo gruppo di unità malfunzionanti si è separato dalla nostra intelligenza principale ed ha trovato rifugio nel Sistema §H[pirate_system.GetName]§!, all'interno del nostro spazio. Queste unità sono corrotte irrimediabilmente, ed ora utilizzano flotte malandate per razziare la rotta commerciale vulnerabile che attraversa quel sistema, in cerca di pezzi di ricambio e risorse."
+ pirate.56.desc:0 "Un piccolo gruppo di unità malfunzionanti si è separato dalla nostra intelligenza principale ed ha trovato rifugio nel Sistema §H[pirate_system.GetName]§!, all'interno del nostro spazio. Queste unità sono corrotte irrimediabilmente, ed ora utilizzano flotte malandate per razziare la rotta commerciale vulnerabile che attraversa quel sistema, in cerca di pezzi di ricambio e risorse."
  pirate.57.name:0 "Pirati Organici"
- pirate.57.desc:1 "Uno sparuto gruppo di sub-unità organiche, apparentemente reietti criminali, si è in qualche modo infiltrato e stabilito nel Sistema §H[pirate_system.GetName]§!, all'interno dei nostri confini. Sembrano intenti a razziare la rotta commerciale indifesa che attraversa il sistema; forse contano erroneamente sul fatto, come sono soliti fare gli organici, di essere troppo insignificanti per giustificare un'azione da parte nostra."
+ pirate.57.desc:0 "Uno sparuto gruppo di sub-unità organiche, apparentemente reietti criminali, si è in qualche modo infiltrato e stabilito nel Sistema §H[pirate_system.GetName]§!, all'interno dei nostri confini. Sembrano intenti a razziare la rotta commerciale indifesa che attraversa il sistema; forse contano erroneamente sul fatto, come sono soliti fare gli organici, di essere troppo insignificanti per giustificare un'azione da parte nostra."
 
  leviathans.509.name:0 "Accordo di Ricerca con i Curatori"
  leviathans.509.desc:0 "L'accordo che vi fornisce l'accesso alle nostre banche dati ha fatto il suo corso. Volete estenderlo per altri dieci anni standard, o non avete più bisogno delle nostre informazioni?"
@@ -601,15 +602,15 @@
  enclave_food_energy_trade_3_mut:0 "$enclave_mineral_trade_1_mut$"
  enclave_food_energy_trade_3_mut_desc:0 "$enclave_mineral_trade_1_mut_desc$"
  end_trade_3:0 "Così interromperemo il trattato commerciale in corso con i Muutagan."
- leviathans.105.e:1 "Desideriamo terminare il nostro accordo commerciale."
+ leviathans.105.e:0 "Desideriamo terminare il nostro accordo commerciale."
  leviathans.105.e.response:0 "Molto bene. Ordineremo alle nostre navi da carico di tornare alla base.\n\nFateci sapere se cambiate idea!"
- leviathans.171.name:1 "Scambio Energetico Annullato"
- leviathans.171.desc:1 "Senza alcuna scorta energetica non possiamo più sostenere gli accordi commerciali che dipendono su queste risorse. Tali accordi con le Enclavi dei Mercanti sono stati annullati."
+ leviathans.171.name:0 "Scambio Energetico Annullato"
+ leviathans.171.desc:0 "Senza alcuna scorta energetica non possiamo più sostenere gli accordi commerciali che dipendono su queste risorse. Tali accordi con le Enclavi dei Mercanti sono stati annullati."
  leviathans.171.a:0 "Non va bene."
  enclave_mineral_trade_ended:0 "£energy£ §HCrediti Energetici§! insufficienti per mantenere attivo il trattato con l'Enclave dei Mercanti."
- leviathans.173.name:1 "Scambio Minerario Annullato"
- leviathans.173.desc:1 "Senza alcuna scorta mineraria non possiamo più sostenere gli accordi commerciali che dipendono su queste risorse. Tali accordi con le Enclavi dei Mercanti sono stati annullati."
- enclave_energy_trade_ended:1 "£energy£ §HCrediti Energetici§! insufficienti per mantenere attivo il trattato con l'Enclave dei Mercanti."
+ leviathans.173.name:0 "Scambio Minerario Annullato"
+ leviathans.173.desc:0 "Senza alcuna scorta mineraria non possiamo più sostenere gli accordi commerciali che dipendono su queste risorse. Tali accordi con le Enclavi dei Mercanti sono stati annullati."
+ enclave_energy_trade_ended:0 "£energy£ §HCrediti Energetici§! insufficienti per mantenere attivo il trattato con l'Enclave dei Mercanti."
  leviathans.175.name:0 "Scambio Alimentare Annullato"
  leviathans.175.desc:0 "Senza alcuna scorta alimentare non possiamo più sostenere gli accordi commerciali che dipendono su queste risorse. Tali accordi con le Enclavi dei Mercanti sono stati annullati."
  enclave_food_trade_ended:0 "£food£ §HCibo§! insufficiente per mantenere attivo il trattato con l'Enclave dei Mercanti."
@@ -620,7 +621,7 @@
  colossus_victim_desc:0 "Il trauma dell'attacco del Colosso si sta manifestando tramite vastissimi cambiamenti ideologici."
 
  decision_make_holy_world:0 "Pianeta Sacro"
- decision_make_holy_world_desc:1 "Siamo alla ricerca di un Pianeta di §Y$pc_gaia$§! non colonizzato da designare come Pianeta Sacro. Finché rimarrà libero da esseri mortali ed all'interno dei nostri confini, questo santuario ci donerà: £unity£ §Y$country_base_unity_produces_mult$§! §G+10%§!."
+ decision_make_holy_world_desc:0 "Siamo alla ricerca di un Pianeta di §Y$pc_gaia$§! non colonizzato da designare come Pianeta Sacro. Finché rimarrà libero da esseri mortali ed all'interno dei nostri confini, questo santuario ci donerà: £unity£ §Y$country_base_unity_produces_mult$§! §G+10%§!."
 
  apoc.200.name:0 "Pianeta Candidato alla Consacrazione"
  apoc.200.desc:0 "In collaborazione con esperti teologi, diversi chiaroveggenti hanno confermato che §Y[holy_target.GetName]§!, nel Sistema [holy_target.GetStarName], possa essere degno di particolare venerazione.\n\nIl riconoscimento ufficiale aumenterà sicuramente l'apprezzamento della popolazione verso questo pianeta mistico."
@@ -631,7 +632,7 @@
  apoc.201.desc:0 "I nostri migliori chiaroveggenti comunicano di non aver trovato alcun fulcro spirituale tra i pianeti presenti nel nostro impero."
  apoc.201.a.tooltip:0 "Il costo in £influence£ Influenza dell'Editto è stato rimborsato."
 
- holy_player_planet:1 "Pianeta Consacrato"
+ holy_player_planet:0 "Pianeta Consacrato"
  holy_player_planet_desc:0 "Questo pianeta è privo di vita sapiente ed è considerato sacro."
  has_holy_player_planet:0 "Pianeta Venerato"
  has_holy_player_planet_desc:0 "Abbiamo designato come sacro un pianeta disabitato all'interno dei nostri confini."
@@ -648,9 +649,9 @@
  action.91.desc:0 "Abbiamo ripreso il controllo del Sistema §Y[Root.GetStarName]§! e ricostruito il nostro §Y$starbase_outpost$§! nell'orbita della sua stella."
 
  DAILY_PROGRESS:0 "Avanzamento Giornaliero $VAL|Y$"
- SHIP_DESIGNER_NAME_USED:0 "§REsiste già un Design con questo nome§!"
+ SHIP_DESIGNER_NAME_USED:0 "§REsiste già un Progetto con questo nome§!"
  DESIGN_IS_BUILDING:0 "§RÈ già in costruzione una Nave con questo Design§!"
- DESIGN_BLOCKED_BY_AUTO_BUILD:0 "§RImpossibile progettare manualmente nuovi Design quando è attiva l'auto-progettazione.§!"
+ DESIGN_BLOCKED_BY_AUTO_BUILD:0 "§RImpossibile progettare manualmente nuovi Progetti quando è attiva l'auto-progettazione.§!"
 
  opinion_dead_captives:0 "Prigionieri Uccisi"
 
@@ -678,7 +679,7 @@
  irassian_minerals_desc:0 "Questo cantiere navale in rovina, un tempo ormeggio principale della Flotta Stellare Irassiana, ora giace sulla superficie del pianeta, trasformato in un ricchissimo giacimento minerario."
  irassian_energy:0 "Sito di Produzione Energetica"
  irassian_energy_desc:0 "Questo gigante gassoso fu il centro principale di produzione energetica del Concordato Irassiano, durante i primi stadi dell'espansione interstellare. Un denso anello di antiche stazioni energetiche orbitali ancora circonda il pianeta."
- 
+
  ARMIES_LOST:0 "Sfinimento da Guerra dovuto alla Perdita di Armate"
  ARMIES_LOST_LONG:0 "$ATTR|R$ dovuto alle $ARMIES|R$ armate perdute"
  SHIPS_LOST:0 "Sfinimento da Guerra dovuto alla Perdita di Navi"
@@ -688,7 +689,7 @@
  WAROVERVIEW_BATTLE_THEIR_SHIPS_LOST:0 "$NUM|G$ navi perdute"
  WAROVERVIEW_BATTLE_THEIR_ARMIES_LOST:0 "$NUM|G$ armate perdute"
  OCCUPATION_SUMMARY:0 "Occupazione"
- OCCUPATION_SUMMARY_LONG:0 "Sfinimento da Occupazione dovuto ai $SYSTEMS|R$ sistemi e $PLANETS|R$ pianeti occupati";
- 
+ OCCUPATION_SUMMARY_LONG:0 "Sfinimento da Occupazione dovuto ai $SYSTEMS|R$ sistemi e $PLANETS|R$ pianeti occupati"
+
  FLEET_TEMPLATE_COMMAND_MAX_MULTIPLE:0 "Aggiungere $NUM|Y$ navi supererebbe il limite di comando per questa flotta."
  FLEET_TEMPLATE_COMMAND_MIN_MULTIPLE:0 "Non posso rimuovere $NUM|Y$ navi dal template della nave"

@@ -3,7 +3,7 @@
  ####################################
  # Event Chains
  ####################################
- 
+
  test_chain_title:0 "Misteri su [Root.GetName]"
  test_chain_desc:0 "Si stanno manifestando strani fenomeni su [Root.GetName]."
  test_chain_2_title:0 "Misteri su [Root.GetName]"
@@ -63,38 +63,38 @@
  coming_storm_chain_desc:0 "È stato rilevato un misterioso gruppo di tracce subspaziali in traiettoria di avvicinamento verso la nostra galassia. Sembra che stiamo per avere ospiti..."
  prethoryn_scourge_chain_title:0 "Il Flagello del Vuoto"
  prethoryn_scourge_chain_desc:0 "La nostra galassia è stata invasa da uno sciame di voraci predatori che divorano ogni cosa sul loro cammino. La furia di questi Prethoryn dev'essere contrastata prima che il loro numero possa sopraffarci."
- extradimensional_invasion_chain_title:1 "L'Indesiderato"
+ extradimensional_invasion_chain_title:0 "L'Indesiderato"
  extradimensional_invasion_chain_desc:0 "È comparso un enorme squarcio nel tessuto spaziotemporale della galassia, sembra essere una sorta di portale a senso unico tra la nostra realtà ed un'altra. Strane navi eteree ne fuoriescono, e sembra che assorbano l'energia di ogni malcapitato che incrociano sul loro cammino."
  star_power_chain_title:0 "Strana Materia Stellare"
  star_power_chain_desc:0 "Alla ricerca di strane emissioni radioattive."
  hunting_hyacinth_title:0 "A Caccia della Giacinto"
  hunting_hyacinth_desc:0 "La Giacinto, la nave gemella dell'arca che ha portato i nostri antenati su [Root.Capital.GetName], avrebbe dovuto raggiungerci dalla Terra un secolo fa. Dobbiamo scoprire che ne è stato di lei."
  nomads_observation_chain_title:0 "Insoliti Viaggiatori Spaziali"
- nomads_observation_chain_desc:1 "Abbiamo rilevato, all'interno dei nostri confini, degli strani alieni di cui non riusciamo a decodificare le comunicazioni. Dato che per noi è impossibile tradurre il loro linguaggio, possiamo solo aspettare e vedere chi sono e cosa vogliono."
- 
+ nomads_observation_chain_desc:0 "Abbiamo rilevato, all'interno dei nostri confini, degli strani alieni di cui non riusciamo a decodificare le comunicazioni. Dato che per noi è impossibile tradurre il loro linguaggio, possiamo solo aspettare e vedere chi sono e cosa vogliono."
+
  ####################################
  # Points of Interest
  ####################################
- 
+
  hijacked_cult_fleet_poi:0 "Flotta Cultista"
  hijacked_cult_fleet_poi_desc:0 "I cultisti sono riusciti a costruire una piccola flotta in un edificio segreto su [Root.Capital.GetName]. Appena scoperti, sono fuggiti sulle loro navi verso [hijacked_fleet_planet.GetName]. Devono essere distrutti prima che causino altri danni!"
- cultist_search_1_poi:1 "Cerca [cultists_1.GetName]"
+ cultist_search_1_poi:0 "Cerca [cultists_1.GetName]"
  cultist_search_1_poi_desc:0 "Abbiamo rilevato la traccia ionica delle navi cultiste nei pressi di questo sistema. Sarebbe opportuna una ricognizione in forze."
- cultist_search_2_poi:1 "Cerca [cultists_2.GetName]"
- cultist_search_3_poi:1 "Cerca [cultists_3.GetName]"
+ cultist_search_2_poi:0 "Cerca [cultists_2.GetName]"
+ cultist_search_3_poi:0 "Cerca [cultists_3.GetName]"
  cultist_shipyard_poi:0 "Distruggi Cantiere Navale dei Cultisti"
  cultist_shipyard_poi_desc:0 "Finalmente abbiamo identificato il sito da cui provengono le navi cultiste. Si tratta di una sorta di antico cantiere navale alieno che hanno sequestrato nel Sistema [cult_planet.GetStarName]! Dobbiamo distruggere quest'installazione prima che questi fanatici possano scoprirne il suo vero potenziale."
  cultist_flagship_poi:0 "Trova la Nave Ammiraglia dei Cultisti"
  cultist_flagship_poi_desc:0 "L'inafferrabile nave ammiraglia dei cultisti è in agguato da qualche parte di questo sistema. Dovremmo inviare una flotta pesantemente armata per affrontarla."
- probe_search_1_poi:1 "Cerca [probe_system_1.GetName]"
+ probe_search_1_poi:0 "Cerca [probe_system_1.GetName]"
  probe_search_1_poi_desc:0 "Sulla base della traiettoria e della velocità d'uscita dal nostro sistema natale, riteniamo che una delle nostre sonde smarrite possa trovarsi da qualche parte in questo sistema."
- probe_search_2_poi:1 "Cerca [probe_system_2.GetName]"
- probe_search_3_poi:1 "Cerca [probe_system_3.GetName]"
- probe_search_4_poi:1 "Cerca [probe_system_4.GetName]"
+ probe_search_2_poi:0 "Cerca [probe_system_2.GetName]"
+ probe_search_3_poi:0 "Cerca [probe_system_3.GetName]"
+ probe_search_4_poi:0 "Cerca [probe_system_4.GetName]"
  probe_ion_trail_poi:0 "Segui Traccia Ionica"
  probe_ion_trail_poi_desc:0 "La traccia ionica di una delle nostre sonde smarrite conduce a questo sistema."
- probe_subspace_anomaly_poi:2 "Ostruita dagli Ostili"
- probe_subspace_anomaly_poi_desc:1 "Degli ostili non ci permettono di raggiungere la sonda sub-spazio di questo sistema."
+ probe_subspace_anomaly_poi:0 "Ostruita dagli Ostili"
+ probe_subspace_anomaly_poi_desc:0 "Degli ostili non ci permettono di raggiungere la sonda sub-spazio di questo sistema."
  coming_storm_poi_1_poi:0 "Punto Critico"
  coming_storm_poi_1_poi_desc:0 "Considerando la loro traiettoria, riteniamo che le masse sub-spazio in avvicinamento entreranno nella nostra galassia in prossimità di questo sistema."
  systems_visited_poi:0 "Sistema Visitato"
@@ -103,7 +103,7 @@
  hunting_hyacinth_2_poi:0 "Analizza Sistema"
  hunting_hyacinth_2_poi_desc:0 "Le traccia ionica della Giacinto conduce a questo sistema. Servono ulteriori indagini."
  extradimensional_invasion_1_poi:0 "Il Portale Dimensionale"
- extradimensional_invasion_1_poi_desc:0 "Il portale da cui fuoriescono gli invasori extradimensionali è stato rilevato nel Sistema [extradimensional_system.GetName]. Finché non verrà distrutto potranno continuare ad ottenere rinforzi."
+ extradimensional_invasion_1_poi_desc:0 "Il portale da cui fuoriescono gli invasori extra dimensionali è stato rilevato nel Sistema [extradimensional_system.GetName]. Finché non verrà distrutto potranno continuare ad ottenere rinforzi."
  extradimensional_invasion_2_poi:0 "Il Secondo Portale"
  extradimensional_invasion_2_poi_desc:0 "Un secondo portale dimensionale è comparso nel Sistema [second_portal_system.GetName]. Come il primo portale, fornisce l'ingresso a navi extradimensionali ostili nella nostra galassia."
  extradimensional_invasion_3_poi:0 "Il Terzo Portale"
@@ -119,16 +119,16 @@
  cybrex_1_poi:0 "Cybrex Alfa"
  cybrex_1_poi_desc:0 "Sembra che i Cybrex si siano ritirati in questo sistema."
  nomad_poi_1:0 "Rilevamento Posizione"
- nomad_poi_1_desc:1 "Gli strani viaggiatori spaziali sono qui. Ogni tentativo di comunicare con loro è andato a vuoto, quindi possiamo solo attendere e vedere cosa succederà."
+ nomad_poi_1_desc:0 "Gli strani viaggiatori spaziali sono qui. Ogni tentativo di comunicare con loro è andato a vuoto, quindi possiamo solo attendere e vedere cosa succederà."
  extradimensional_invasion_4_poi:0 "Ancore Dimensionali"
  extradimensional_invasion_4_poi_desc:0 "Gli invasori stanno costruendo delle strane stazioni spaziali che agiscono come "ancore" dimensionali... condotti che aumentano la loro abilità di movimento tramite i Wormhole. Più Ancore riusciranno ad attivare, più di frequente riusciranno a richiamare rinforzi dal loro regno.\n\nQueste Ancore sembrano rinforzare significativamente l'integrità subspaziale del Portale Dimensionale. Il Portale risulterà pressoché invulnerabile alle armi finché ci saranno delle Ancore attive!"
  extradimensional_invasion_chain_2_title:0 "L'Aberrante"
- extradimensional_invasion_chain_2_desc:0 "È comparsa una seconda fazione di invasori extradimensionali nella nostra galassia, non meno ostile della prima. Fortunatamente, sembra che gli extradimensionali combattano anche l'uno contro l'altro."
+ extradimensional_invasion_chain_2_desc:0 "È comparsa una seconda fazione di invasori extra dimensionali nella nostra galassia, non meno ostile della prima. Fortunatamente, sembra che gli extra dimensionali combattano anche l'uno contro l'altro."
  extradimensional_invasion_chain_3_title:0 "Il Veemente"
  extradimensional_invasion_chain_3_desc:0 "Una terza fazione extradimensionale è emersa da un altro Wormhole. Sebbene siano in procinto di consumare tutta la vita della nostra galassia, sembra che abbiano anche ingaggiato una sorta di battaglia con le altre due fazioni provenienti dalla loro dimensione."
 
  precursor_activity:0 "Segni di Attività dei Precursori"
- 
+
  new_precursor.1_poi:0 "Rapporti sull'Attività dei Precursori"
  new_precursor.1_poi_desc:0 "È stata portata alla nostra attenzione la probabile posizione di alcuni artefatti od importanti informazioni appartenute ad una civiltà di Precursori."
  new_precursor_anomaly:0 "Scoperta una nuova Anomalia dei Precursori su §L[precursor_planet.GetName]§!."
@@ -151,7 +151,7 @@
  extradimensional_kills_others_3:0 "§GQualcuno Ha Ucciso il Veemente§!"
  extradimensional_victims_3:0 "§RVascelli Recuperati§!"
  extradimensional_planets_3:0 "§RPianeti Recuperati§!"
- 
+
  infested_worlds:0 "§YPianeti Infestati§!"
  infested_worlds_cleansed:0 "§YPianeti Infestati Ripuliti§!"
  prethoryn_kills_us:0 "§GPrethoryn Sterminati per Mano Nostra§!"

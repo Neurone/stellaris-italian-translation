@@ -1,7 +1,7 @@
 ﻿l_english:
 
- marauder.1.name:0 "Incontro con i [encountered_marauder.GetName]"
- marauder.1.desc:0 "Abbiamo stabilito il primo contatto con i §H[encountered_marauder.GetName]§!, una civiltà nomade. Occupano un certo di numero di grandi stazioni spaziali nel Sistema §H[marauder_system.GetName]§! che ospitano un gran numero dei loro abitanti in condizioni di squallido sovraffollamento. Nonostante ciò, o forse proprio per questo, sembrano aver sviluppato una forte coltura marziale. La vita trascorsa nel gelido vuoto dello spazio sembra essere diventata la normalità per loro, e si sono rivelati molto adatti alla guerra spaziale.\n\nNon possiedono un governo centrale con cui comunicare. Invece, sembrano essere divisi in varie fazioni continuamente in lotta per le risorse ed il rispetto. Data la loro numerosa popolazione e le capacità straordinarie dei loro cantieri navali, queste continue lotte interne sembrano essere l'unica cosa che impedisce loro di crescere sino a diventare una minaccia significativa per la pace galattica."
+ marauder.1.name:0 "Incontro con [encountered_marauder.GetRealName]"
+ marauder.1.desc:0 "Dopo aver decodificato ciò che conta come una lingua tra loro, [This.Owner.GetEnvoy] [This.Leader.GetName] ha identificato §H[encountered_marauder.GetName]§! come civiltà nomade conosciuta come §H[encountered_marauder.GetName]§!. Occupano un certo di numero di grandi stazioni spaziali nel Sistema §H[marauder_system.GetName]§! che ospitano un gran numero dei loro abitanti in condizioni di squallido sovraffollamento. Nonostante ciò, o forse proprio per questo, sembrano aver sviluppato una forte coltura marziale. La vita trascorsa nel gelido vuoto dello spazio sembra essere diventata la normalità per loro, e si sono rivelati molto adatti alla guerra spaziale.\n\nNon possiedono un governo centrale con cui comunicare. Invece, sembrano essere divisi in varie fazioni continuamente in lotta per le risorse ed il rispetto. Data la loro numerosa popolazione e le capacità straordinarie dei loro cantieri navali, queste continue lotte interne sembrano essere l'unica cosa che impedisce loro di crescere sino a diventare una minaccia significativa per la pace galattica."
  marauder.1.a:0 "Tentate di contattarli."
  marauder.3.name:0 "Guerrieri [From.GetSpeciesNamePlural] Avvistati"
  marauder.3.desc:0 "È da diversi mesi che riceviamo notizie frammentarie riguardanti un gruppo di mercenari alieni operanti ai confini del nostro spazio. Si fanno chiamare §H[From.GetSpeciesNamePlural]§!, e sembrano essere esuli di una civiltà guerriera che abita alcune stazioni spaziali nel Sistema §H[marauder_system.GetName]§!.\n\nIl loro passaggio vicino al nostro spazio si è concluso senza incidenti, ma ci hanno avvertiti di non avvicinarci al Sistema [marauder_system.GetName]. Non possiedono un governo centrale con cui comunicare, ma le loro varie fazioni sembrano essere coinvolte in costanti lotte interne e spesso lanciano vere e proprie razzie contro i sistemi vicini. In effetti, data la loro numerosa popolazione e la capacità di costruzione spaziale, potrebbero diventare una potenza galattica significativa se mai smettessero di uccidersi tra loro."
@@ -168,10 +168,10 @@
  marauder_3_tribute:0 "$marauder_1_tribute$"
  marauder_3_tribute_desc:0 "$marauder_1_tribute_desc$"
 
- marauder.35.1.desc:1 "Ah ah! Siete veramente folli, forestieri. Volevate che attaccassimo gli antichi?\n\nNon penso proprio."
+ marauder.35.1.desc:0 "Ah ah! Siete veramente folli, forestieri. Volevate che attaccassimo gli antichi?\n\nNon penso proprio."
  marauder.35.2.desc:0 "HYEEEEEEEEEEEEEEEEEEIIIIIIIIIIIIIIIIIIIEEEEEEEEEEEE!!!!!!!!!!!\n\nNo, dwamak. Siamo folli, ma non abbastanza tra lanciarci sui dwamak caduti."
  marauder.35.3.desc:0 "Sebbene siano miscredenti, la Signora del Vuoto non vorrebbe che sprecassimo le nostre navi nel vano tentativo di colpire le razze antiche.\n\nVerrà il loro tempo... tra un millennio o due."
- 
+
  marauder.40.1.desc:0 "Sì, possiamo farlo. Molti dei nostri più grandi guerrieri sono alla ricerca di nuove sfide ed opportunità.\n\nSe potete permettervi il prezzo di sangue per liberarli dai loro servizi parentali, saranno lieti di seguirvi e combattere le vostre battaglie."
  marauder.40.2.desc:0 "HYEEEIIIEEEEEEE!! Sì, sì! Molti guerrieri sarebbero lieti di combattere per la grana dwamak! Serve solo il giusto incentivo."
  marauder.40.3.desc:0 "Sì, i nostri più grandi guerrieri sono disposti a seguire i vostri soldati in battaglia. Grazie ai vostri crediti energetici, saremo in grado di sottostare al Suo volere con maggior fervore.\n\nScoprirai che una vita al servizio della Signora del Vuoto ha reso i nostri ufficiali efficaci e senza paura."
@@ -237,7 +237,7 @@
  marauder.112.1.desc:0 "È eccitante, non è vero? Il brivido della battaglia! I nostri migliori guerrieri che affrontano il massimo che avete da offrire. Vedremo chi ne uscirà vittorioso!"
  marauder.112.2.desc:0 "Dwamak, che vuoi? Siamo impegnati a sfasciare i vostri sistemi!"
  marauder.112.3.desc:0 "Serviamo esclusivamente il Suo volere e, per il momento, quelli con le tasche abbastanza gonfie da poterci assoldare contro di te. Finché il risultato sarà la morte dei miscredenti, la Signora del Vuoto approverà."
- 
+
  marauder.104.name:0 "Predoni su [Root.GetName]"
  marauder.104.desc:0 "I predoni [marauder_country.GetSpeciesNamePlural] sono sbarcati su §H[Root.GetName]§!! Hanno lanciato diverse navicelle dalle flotte in orbita, colpendo vari insediamenti periferici e ritirandosi col bottino. Le nostre forze difensive sulla superficie non hanno avuto il tempo di reagire."
  marauder.104.a:0 "Maledetta feccia."
@@ -290,7 +290,7 @@
  marauder.506.name:0 "Gran Khan Sconfitto"
  marauder.506.desc:0 "Nonostante il presunto genio militare, [great_khan.GetName], il Gran Khan di [From.GetName], ha subito una sconfitta nel Sistema [khan_death_system.GetName]. Quando l'armata che comandava è caduta in battaglia contro le forze di [khan_destroyer.GetName], il Gran Khan e gli ufficiali più importanti sono fuggiti nell'iperspazio con una piccola navicella.\n\nIn questo momento, [great_khan.GetName] sta assemblando una nuova armata per riprendere la sua conquista, ma questa vittoria ha donato una breve tregua a coloro che si oppongono all'inesorabile avanzata dei [From.GetSpeciesNamePlural]."
  marauder.506.a:0 "Quindi il Gran Khan non è così infallibile."
- marauder.508.desc:1 "Qui parla il Gran Khan [great_khan.GetName] di [From.GetName]. La mia sconfitta per mano degli intrepidi [khan_destroyer.GetSpeciesNamePlural] è stata una piccola battuta d'arresto, nulla di più. I guerrieri [khan_destroyer.GetSpeciesNamePlural] sono coraggiosi e degni avversari, ma cadranno anch'essi.\n\nLa marea della storia si sta diffondendo sulla galassia, e nulla potrà fermarla. La mia nuova armata è pronta."
+ marauder.508.desc:0 "Qui parla il Gran Khan [great_khan.GetName] di [From.GetName]. La mia sconfitta per mano degli intrepidi [khan_destroyer.GetSpeciesNamePlural] è stata una piccola battuta d'arresto, nulla di più. I guerrieri [khan_destroyer.GetSpeciesNamePlural] sono coraggiosi e degni avversari, ma cadranno anch'essi.\n\nLa marea della storia si sta diffondendo sulla galassia, e nulla potrà fermarla. La mia nuova armata è pronta."
  marauder.508.desc.1:0 "$marauder.508.desc$ Alla fine di questa guerra, i miei leali Satrapi saranno ricompensati per il loro aiuto."
  marauder.508.desc.2:0 "$marauder.508.desc$ Giuratemi fedeltà, finché siete ancora in tempo."
  marauder.508.desc.3:0 "$marauder.508.desc$ Chiunque tenterà di sbarrarmi il cammino verrà distrutto."
@@ -318,6 +318,12 @@
  marauder.519.desc:0 "Dopo aver sciamato sulla superficie di §H[liberated_planet.GetName]§! ed aver sconfitto le forze del Gran Khan, §H[From.GetName]§! ce ne ha gentilmente riconsegnato il pieno controllo."
  opinion_returned_marauder_planet:0 "Pianeta Liberato"
  opinion_kept_marauder_planet:0 "Pianeta Liberato Tenuto per Noi"
+
+ marauder.524.name:0 "Presunta Morte del Gran Khan"
+ marauder.524.a.desc:0 "Nonostante i timori che il Gran Khan potesse in qualche modo riemergere a capo di una nuova flotta da battaglia, la totale sconfitta dell'Orda sembra aver reso tutto ciò impossibile.\n\nAnche se nessun corpo è stato trovato, si ritiene che il Gran Khan sia morto quando le ultime stazioni e astronavi dell'Orda sono state distrutte."
+ marauder.524.b.desc:0 "$ marauder.524.a.desc$\n\nNel frattempo, i nostri equipaggi hanno continuato a setacciare i rottami dell'ex nave ammiraglia del Khan. Hanno trovato una grande sedia macchiata di sangue che galleggiava nello spazio, e sono ragionevolmente certi che fosse in effetti il trono del Gran Khan. "
+ marauder.524.a:0 "Buona liberazione!"
+ marauder.524.b:0 "Una scoperta eccellente."
 
  marauder.526.name:0 "Il Risveglio del Dormiente"
  marauder.526.desc:0 "La recente distruzione di una delle loro dimore per mano di §H[awakened_horde.GetName]§! ha spinto i §H[From.GetSpeciesNamePlural]§! ad unirsi sotto ad un singolo Gran Khan per la prima volta nella storia. Questo misterioso signore della guerra, che secondo alcuni è un potente psionico, ha convinto i [From.GetSpeciesNamePlural] a mettere da parte le loro differenze per il bene della sopravvivenza.\n\nEnormi flotte da guerra provenienti da ormeggi nascosti stanno riemergendo e venendo ripristinate per il servizio. Sotto la guida del loro Gran Khan, ora chiedono vendetta alla galassia per tutti i loro caduti."
@@ -396,14 +402,14 @@
  marauder.665.a:0 "Che sta succedendo laggiù?"
 
  marauder.670.name:0 "La Fine della Satrapia"
- marauder.670.desc:1 "Tra il caos e l'instabilità causati dalla morte del Gran Khan, il nostro status di Satrapia dell'Orda è annullato; il nostro giuramento di fedeltà era rivolto solo al Gran Khan. Siamo nuovamente liberi di perseguire il nostro destino.\n\nTutto il personale militare dell'Orda presente nel Sistema [Root.Capital.solar_system.GetName] hanno abbandonato le loro posizioni per riunirsi al loro popolo, non prima di aver demolito qualsiasi materiale bellico sul loro cammino."
+ marauder.670.desc:0 "Tra il caos e l'instabilità causati dalla morte del Gran Khan, il nostro status di Satrapia dell'Orda è annullato; il nostro giuramento di fedeltà era rivolto solo al Gran Khan. Siamo nuovamente liberi di perseguire il nostro destino.\n\nTutto il personale militare dell'Orda presente nel Sistema [Root.Capital.solar_system.GetName] hanno abbandonato le loro posizioni per riunirsi al loro popolo, non prima di aver demolito qualsiasi materiale bellico sul loro cammino."
  marauder.670.a:0 "Siamo liberi."
  marauder.671.name:0 "Guarnigioni del Khanato Abbandonate"
  marauder.671.desc:0 "Mentre il Nuovo Khanato lotta per mantenere il controllo sui territori del Gran Khan, la sua leadership militare ha deciso di consolidare ulteriormente le proprie forze. Di conseguenza, hanno richiamato tutto il personale dalle stazioni di guarnigione e le hanno smantellate."
  marauder.671.a:0 "Stanno perdendo il controllo."
 
-marauder_skirmishing:0 "La Cote"
-marauder_skirmishing_desc:0 "Le continue schermaglie di confine contro i Predoni hanno temprato le nostre flotte, aumentandone l'efficacia in combattimento."
+ marauder_skirmishing:0 "La Cote"
+ marauder_skirmishing_desc:0 "Le continue schermaglie di confine contro i Predoni hanno temprato le nostre flotte, aumentandone l'efficacia in combattimento."
  marauder.701.name:0 "Rifugiati [marauder_neighbor_species.GetName]"
  marauder.701.desc:0 "Diverse navi da carico contenenti alcuni rifugiati [marauder_neighbor_species.GetName] hanno attraversato il nostro spazio. Sembra che questi esuli siano stati cacciati dalle decrepite stazioni spaziali che un tempo chiamavano casa durante qualche sorta di rituale, il tutto in nome del controllo demografico. È stato permesso loro di insediarsi su §H[Root.GetName]§!."
  marauder.701.a:0 "Sono i benvenuti."
@@ -447,7 +453,7 @@ marauder_skirmishing_desc:0 "Le continue schermaglie di confine contro i Predoni
  HORDE_SUCCESSOR_WAR_GREETING_04:0 "Verrete distrutti! Il Gran Khan lo chiede!"
  HORDE_SUCCESSOR_WAR_GREETING_05:0 "In nome dello spirito del Gran Khan, il vostro impero brucerà!"
  HORDE_SUCCESSOR_WAR_GREETING_06:0 "Il Gran Khan ci ha insegnato come comportarci con gente come voi."
- 
+
  FRIENDLY_COLOSSUS_GREETING_01:0 "Avete visto il nostro Colosso? Un vero prodigio tecnologico. Saremo lieti di ospitare una vostra delegazione per un tour delle sue aree non classificate."
  FRIENDLY_COLOSSUS_GREETING_02:0 "Non preoccupatevi per il nostro Colosso. La sua forza distruttiva è destinata solo ai nostri nemici, non agli amici."
  NEUTRAL_COLOSSUS_GREETING_01:0 "Le nostre parole sono sostenute dalla potenza distruttiva di un Colosso!"

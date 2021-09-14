@@ -1,0 +1,9 @@
+﻿l_english:
+ ENTERING_GAME_LOBBY: "Apertura Configurazione Partita"
+ SERVER_LAUNCHING_MP: "Avvio Multigiocatore"
+ SERVER_NAME: "Nome del Server: $NAME$"
+ SERVER_PASSWORD: "Password del Server: $PASSWORD$"
+ LAUNCHING_GAME: "Avvio Partita"
+ STANDALONE_WAITING_FOR_PLAYERS: "In Attesa di $NUM$ Giocatori"
+ RECEIVED_GAMESERVER_ID: "Identificativo del Server Ricevuto: $SERVERID$"
+ RECEIVED_LOBBY_SERVER: "Server di Lobby Ricevuto"

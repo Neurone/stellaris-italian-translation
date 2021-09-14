@@ -1,0 +1,420 @@
+﻿l_english:
+
+ ### RESOLUTION COMMENTS - REQUESTS
+ ### Request - Militarist
+ ethic_militarist_request_friendly: "La vediamo con gli stessi occhi, no?"
+ ethic_militarist_request_friendly_0: "Il $GREETER$ richiede il sostegno di $COUNTRY$."
+ ethic_militarist_request_friendly_1: "Sarai un fermo alleato di $GREETER$?"
+ ethic_militarist_request_friendly_2: "La sicurezza di entrambi i nostri imperi dipende dall'esito di questa risoluzione."
+ ethic_militarist_request_friendly_3: "Il $GREETER$ conta sul vostro sostegno."
+ ethic_militarist_request_friendly_4: "Saremo onorati se i nostri amici di $COUNTRY$ si unissero a noi per sostenerci in questo."
+ ethic_militarist_request_neutral: "Apprezzeremmo il sostegno di $COUNTRY$."
+ ethic_militarist_request_neutral_0: "Unitevi a noi - per l'onore."
+ ethic_militarist_request_neutral_1: "Il vostro sostegno dimostrerebbe forza."
+ ethic_militarist_request_neutral_2: "È tempo di un'azione decisiva. Dateci il vostro supporto!"
+ ethic_militarist_request_neutral_3: "Non vi seccheremo con inutili banalità diplomatiche... dovrebbe essere evidente l'importanza di questa risoluzione."
+ ethic_militarist_request_neutral_4: "Questa risoluzione è la scelta giusta non solo per noi, ma per l'intera galassia. Datele il vostro supporto."
+ ethic_militarist_request_hostile: "Non ci aspettiamo il vostro sostegno su questa faccenda, ma sono successe cose più strane..."
+ ethic_militarist_request_hostile_0: "Non ci abbasseremo mai a chiedere supporto. Ma vi saremo grati, se siete disposti a darcelo..."
+ ethic_militarist_request_hostile_1: "Questa è un'occasione per il $COUNTRY$ di provare il suo onore - o la sua mancanza."
+ ethic_militarist_request_hostile_2: "Solo un povero stolto si opporrebbe a questa risoluzione."
+ ethic_militarist_request_hostile_3: "Persino i cretini di $COUNTRY$ devono capire l'importanza di farla approvare."
+ ethic_militarist_request_hostile_4: "Il nostro disprezzo per $COUNTRY$ potrebbe abbassarsi un pochino se sostenete questa risoluzione..."
+
+
+
+ ### Request - Pacifist
+ ethic_pacifist_request_friendly: "Il $GREETER$ attende con ansia il sostegno dei nostri cari amici di $COUNTRY$."
+ ethic_pacifist_request_friendly_0: "Siamo fiduciosi che il $COUNTRY$ farà la cosa giusta."
+ ethic_pacifist_request_friendly_1: "Il $GREETER$ si fida ciecamente di $COUNTRY$ per il prossimo voto."
+ ethic_pacifist_request_friendly_2: "Lavoriamo insieme per rendere la galassia un luogo più sicuro."
+ ethic_pacifist_request_friendly_3: "Per favore aiutaci a far vedere agli altri la saggezza di questa risoluzione."
+ ethic_pacifist_request_friendly_4: "A prescindere da come voterete, il $COUNTRY$ sarà sempre considerato il nostro amico fidato. Ma votate sì per favore."
+ ethic_pacifist_request_neutral: "Chiediamo gentilmente il vostro sostegno per il prossimo voto."
+ ethic_pacifist_request_neutral_0: "Insieme. Esiste una parola più bella?"
+ ethic_pacifist_request_neutral_1: "Il $GREETER$ chiede umilmente il vostro sostegno per il prossimo voto."
+ ethic_pacifist_request_neutral_2: "Siamo certi che il $COUNTRY$ capirà i vantaggi di questa proposta."
+ ethic_pacifist_request_neutral_3: "Con la vostra assistenza, possiamo condurre [global_event_country.GetGalCommunityOrGalImperium] verso una coesistenza pacifica."
+ ethic_pacifist_request_neutral_4: "Sostenete la nostra risoluzione, e insieme renderemo la guerra e tutta la miseria che ne consegue una cosa del passato barbarico della galassia."
+ ethic_pacifist_request_hostile: "Fai la cosa giusta. Almeno una volta."
+ ethic_pacifist_request_hostile_0: "Non è troppo tardi per cambiare i vostri comportamenti erronei."
+ ethic_pacifist_request_hostile_1: "Combattete i vostri istinti primari e fate la cosa giusta per una volta."
+ ethic_pacifist_request_hostile_2: "Opporsi a questa risoluzione proverà soltanto le sinistre intenzioni di $COUNTRY$ al resto della galassia."
+ ethic_pacifist_request_hostile_3: "Vedremo questa risoluzione approvata, con o senza il sostegno di $COUNTRY$!"
+ ethic_pacifist_request_hostile_4: "La storia non sarà benevola su $COUNTRY$ se vi opponete a questa risoluzione."
+
+ ### Request - Authoritarian
+ ethic_authoritarian_request_friendly: "Siete d'accordo con gli innegabili meriti della nostra risoluzione, no?"
+ ethic_authoritarian_request_friendly_0: "Le nostre dinastie funzionano bene insieme, nevvero?"
+ ethic_authoritarian_request_friendly_1: "Il $COUNTRY$ si è guadagnato la nostra fiducia. Siamo certi che farete la scelta giusta nel prossimo voto."
+ ethic_authoritarian_request_friendly_2: "La galassia ha bisogno della guida salda di $GREETER$ e $COUNTRY$. Vediamo passare questa risoluzione insieme."
+ ethic_authoritarian_request_friendly_3: "I nostri scopi si allineano con quelli di $COUNTRY$. Portiamo ordine al caos che regna nella galassia."
+ ethic_authoritarian_request_friendly_4: "Abbiamo sempre ammirato la leadership di $COUNTRY$. Vedranno senza dubbio i benefici della nostra risoluzione."
+ ethic_authoritarian_request_neutral: "Sosteneteci in questo. Ora."
+ ethic_authoritarian_request_neutral_0: "Noi guidiamo. Voi seguite. In questa faccenda, come in tutte le altre."
+ ethic_authoritarian_request_neutral_1: "Opporsi all'ordine naturale delle cose è uno sforzo inutile."
+ ethic_authoritarian_request_neutral_2: "Per mantenere l'ordine galattico, questa risoluzione deve passare."
+ ethic_authoritarian_request_neutral_3: "È nostra intenzione porre fine alla lenta discesa della galassia nell'anarchia e nel caos. Questa risoluzione è solo un mezzo per questo fine."
+ ethic_authoritarian_request_neutral_4: "Presto la pace e l'ordine saranno ripristinati in tutta la galassia. Fai la tua parte sostenendo la Risoluzione 34-X."
+ ethic_authoritarian_request_hostile: "Ci sosterrete in questo. No, non era una richiesta amichevole."
+ ethic_authoritarian_request_hostile_0: "Accettate l'ordine naturale delle cose e seguite la nostra guida in questo."
+ ethic_authoritarian_request_hostile_1: "Il vostro sostegno nel prossimo voto - lo pretendiamo."
+ ethic_authoritarian_request_hostile_2: "Vi ordiniamo di sostenere questa risoluzione."
+ ethic_authoritarian_request_hostile_3: "Il $COUNTRY$ ha una cattiva influenza in [global_event_country.GetGalCommunityOrGalImperium]. Non diffondete il vostro veleno agli ambasciatori degli altri membri."
+ ethic_authoritarian_request_hostile_4: "Il dissenso non è ammesso."
+
+ ### Request - Egalitarian
+ ethic_egalitarian_request_friendly: "Insieme al $COUNTRY$, possiamo renderlo possibile."
+ ethic_egalitarian_request_friendly_0: "Il $GREETER$ confida che il $COUNTRY$ ci darà sostegno in questo."
+ ethic_egalitarian_request_friendly_1: "Non è un bel giorno per restare uniti per la giustizia e l'uguaglianza?"
+ ethic_egalitarian_request_friendly_2: "Insieme inaugureremo una nuova era democratica, amici... un'era alla quale l'intera galassia prenderà parte."
+ ethic_egalitarian_request_friendly_3: "Ci sono forze insidiose all'opera in questa istituzione che non condividono gli obiettivi delle nostre due grandi nazioni. Dobbiamo sostenerci l'un l'altro."
+ ethic_egalitarian_request_friendly_4: "Ah, il $COUNTRY$! Almeno sul vostro sostegno possiamo contare!"
+ ethic_egalitarian_request_neutral: "Perché non usate la vostra libertà democratica per sostenerci?"
+ ethic_egalitarian_request_neutral_0: "Alla fine la scelta è vostra, ma considerate di sostenerci in questo."
+ ethic_egalitarian_request_neutral_1: "Stimati colleghi di $COUNTRY$, ci appelliamo al vostro senso di giustizia."
+ ethic_egalitarian_request_neutral_2: "Ricordate, il voto è un vostro dovere civico."
+ ethic_egalitarian_request_neutral_3: "Vi imploriamo di sostenere questa risoluzione... migliorerà sicuramente la sorte di innumerevoli milioni di sapienti."
+ ethic_egalitarian_request_neutral_4: "Aiutateci a rendere questa galassia un posto migliore."
+ ethic_egalitarian_request_hostile: "Suppongo sarebbe sciocco aspettarci che il $COUNTRY$ trovi valore nell'unità."
+ ethic_egalitarian_request_hostile_0: "Sostienici in questo. Non è ancora troppo tardi per trovare un accordo su alcune cose, almeno."
+ ethic_egalitarian_request_hostile_1: "Nonostante le nostre differenze, il $GREETER$ tende una mano al $COUNTRY$. Per favore unitevi a noi in questo."
+ ethic_egalitarian_request_hostile_2: "È qualcosa di più grande sia di $GREETER$ che di $COUNTRY$. Mettiamo da parte le nostre differenze per ora."
+ ethic_egalitarian_request_hostile_3: "Comunque la pensiate di noi, sostenere questa risoluzione è la scelta giusta da fare."
+ ethic_egalitarian_request_hostile_4: "Abbiamo giudicato male il $COUNTRY$? Siete una nazione migliore di quanto pensavamo? Sosterrete la nostra risoluzione?"
+
+ ### Request - Xenophile
+ ethic_xenophile_request_friendly: "Restiamo uniti per il prossimo voto e mostriamo alla galassia cosa vuol dire unità!"
+ ethic_xenophile_request_friendly_0: "Al $GREETER$ piacerebbe ricevere il sostegno di $COUNTRY$ in questa questione."
+ ethic_xenophile_request_friendly_1: "Sarebbe un peccato se un banale voto si frapponesse tra i nostri due grandi imperi, no?"
+ ethic_xenophile_request_friendly_2: "Non c'è limite a quello che possiamo realizzare se ci sosteniamo l'un l'altro in [global_event_country.GetGalCommunityOrGalImperium], amici."
+ ethic_xenophile_request_friendly_3: "Non è meraviglioso? Questo forum galattico è la prova che differenti specie della galassia possono costruire grandi cose quando lavorano insieme."
+ ethic_xenophile_request_friendly_4: "Questo è il prossimo passo nel nostro piano per migliorare la galassia per tutte le razze sapienti che la inabitano. Prestateci il vostro sostegno, amici!"
+ ethic_xenophile_request_neutral: "Salve! Il $GREETER$ vi incoraggia ad unirvi a noi nel prossimo voto."
+ ethic_xenophile_request_neutral_0: "Ciao, potenziale amico! Vi piacerebbe sostenerci nel prossimo voto?"
+ ethic_xenophile_request_neutral_1: "Questo potrebbe essere l'inizio di una bella amicizia."
+ ethic_xenophile_request_neutral_2: "Sosteneteci in questo, e proveremo alla galassia il valore della cooperazione."
+ ethic_xenophile_request_neutral_3: "Ci sosterrà il $COUNTRY$ nei nostri sforzi per rendere questa galassia un posto migliore per tutti, a prescindere dalla loro specie?"
+ ethic_xenophile_request_neutral_4: "Non sostenere questa risoluzione andrebbe contro lo spirito degli stessi principi sui quali si fonda [global_event_country.GetGalCommunityOrGalImperium]."
+ ethic_xenophile_request_hostile: "Possibile che il $COUNTRY$ non veda alcun valore nell'unità?"
+ ethic_xenophile_request_hostile_0: "Sostenere questa risoluzione sarebbe un primo passo nel risanare le relazioni tra le nostre due nazioni."
+ ethic_xenophile_request_hostile_1: "Nonostante tutto, il $GREETER$ vorrebbe tendere una mano al $COUNTRY$. Per favore sosteneteci in questo."
+ ethic_xenophile_request_hostile_2: "Questo porterà beneficio a tutti noi... anche il $COUNTRY$ dovrebbe capirlo."
+ ethic_xenophile_request_hostile_3: "Lo scopo di questo forum è di abbattere le barriere e promuovere la cooperazione tra le tante specie che popolano la galassia."
+ ethic_xenophile_request_hostile_4: "Di cosa ha tanta paura il $COUNTRY$? Non potete almeno venirci incontro per una volta?"
+
+ ### Request - Xenophobe
+ ethic_xenophobe_request_friendly: "È grazie ad entrambi i nostri grandi imperi che riusciamo a restare uniti quando serve."
+ ethic_xenophobe_request_friendly_0: "Ah, il $COUNTRY$! È raro trovare qualcuno degno del nostro rispetto in questo letamaio alieno."
+ ethic_xenophobe_request_friendly_1: "Non ci piace chiedere il sostegno degli stranieri, ma consideriamo quelli di $COUNTRY$ nostri amici."
+ ethic_xenophobe_request_friendly_2: "È disturbante essere qui in mezzo a tutti questi xeno, ma ogni rappresentante proveniente da $COUNTRY$ è da considerarsi un amico."
+ ethic_xenophobe_request_friendly_3: "Finalmente, qualcuno di buon senso! Questo posto è infestato dai più vili xeno immaginabili, ma è sempre piacevole incontrarsi con i rappresentanti di $COUNTRY$."
+ ethic_xenophobe_request_friendly_4: "Lavoriamo insieme per rimettere [global_event_country.GetGalCommunityOrGalImperium] sulla giusta strada."
+ ethic_xenophobe_request_neutral: "Sosteneteci giusto in questo, e poi vi lasceremo volentieri in pace."
+ ethic_xenophobe_request_neutral_0: "Vi proponiamo quanto segue: voi ci sostenete nel prossimo voto, e poi ci lasciate in pace. Siete d'accordo?"
+ ethic_xenophobe_request_neutral_1: "Essere circondati da tutte queste... creature... è un terribile sforzo, quindi per favore non fatemi implorare il vostro sostegno."
+ ethic_xenophobe_request_neutral_2: "Vedremo cosa può uscire di buono da un posto come questo, dove gli alieni sono liberi di mescolarsi e diffondere malattie. Per ora, faremo del nostro meglio."
+ ethic_xenophobe_request_neutral_3: "Il $GREETER$ propone questa risoluzione, ammesso che possiamo fidarci del fatto che gli altri imperi della galassia aderiscano ai suoi articoli."
+ ethic_xenophobe_request_neutral_4: "Forse c'è qualche pregio a lavorare con gli alieni anziché evitarli. Staremo a vedere."
+ ethic_xenophobe_request_hostile: "Prima ci sostenete, prima possiamo andare ognuno per la sua strada."
+ ethic_xenophobe_request_hostile_0: "Mettiamo in chiaro una cosa: il $GREETER$ non ha bisogno del vostro aiuto. Tuttavia, non saremmo necessariamente avversi al vostro sostegno nel prossimo voto..."
+ ethic_xenophobe_request_hostile_1: "Il mio governo mi ha ordinato di chiedere la vostra assistenza nel prossimo voto. Ora, vi prego di scusarmi mentre cerco la camera d'igenizzazione più vicina."
+ ethic_xenophobe_request_hostile_2: "Questa cosiddetta \"[global_event_country.GetCommunityOrImperium]\" è una farsa aliena, ma staremo al gioco... per ora."
+ ethic_xenophobe_request_hostile_3: "Se questa risoluzione fallisce, avremo la prova concreta che tutte le altre razze aliene stanno cospirando contro di noi."
+ ethic_xenophobe_request_hostile_4: "Mai prima d'ora avevo visto così tante... indecorose creature nello stesso posto. [global_event_country.GetGalCommunityOrGalImperium] è davvero sorprendente."
+
+ ### Request - Materialist
+ ethic_materialist_request_friendly: "Il $GREETER$ confida pienamente nella capacità di $COUNTRY$ di fare decisioni ragionevoli e ben fondate."
+ ethic_materialist_request_friendly_0: "Sappiamo far meglio di litigare su concetti arbitrari come l'ideologia e la superstizione. Unitevi a noi nel prossimo voto."
+ ethic_materialist_request_friendly_1: "Il $COUNTRY$ è una nazione di persone razionali, ed è per questo che ci aspettiamo che votiate in linea con noi."
+ ethic_materialist_request_friendly_2: "Dovremmo lavorare insieme per liberare [global_event_country.GetGalCommunityOrGalImperium] dalla pazzia e dalla superstizione."
+ ethic_materialist_request_friendly_3: "Con il sostegno dei nostri amici di $COUNTRY$, questa risoluzione ha probabilità di successo maggiori."
+ ethic_materialist_request_friendly_4: "È dovere dei nostri due grandi imperi prevenire la lenta discesa di [global_event_country.GetGalCommunityOrGalImperium] nell'ignoranza e nella superstizione."
+ ethic_materialist_request_neutral: "Non è bello avere delle cose? Per esempio, nel prossimo voto; possiamo avere il vostro sostegno?"
+ ethic_materialist_request_neutral_0: "Guardatela in termini pratici. Sosteneteci in questo voto, e forse vi restituiremo il favore un giorno."
+ ethic_materialist_request_neutral_1: "Votare in nostro favore significa votare in favore di una galassia illuminata. Cosa potrebbe essere più importante?"
+ ethic_materialist_request_neutral_2: "Questa risoluzione porterà i benefici più grandi all'intera galassia. È una certezza matematica."
+ ethic_materialist_request_neutral_3: "Per favore aiutate il $COUNTRY$ nei suoi sforzi per dare inizio ad un'era di ragione per la galassia."
+ ethic_materialist_request_neutral_4: "Possiamo fidarci che il $COUNTRY$ agisca nei limiti della ragione e presti il suo sostegno a questa risoluzione?"
+ ethic_materialist_request_hostile: "Voltate le spalle alla cieca ignoranza per una volta! Aiutateci nel prossimo voto."
+ ethic_materialist_request_hostile_0: "È possibile mettere da parte stupide ideologie e votare in accordo alla ragione."
+ ethic_materialist_request_hostile_1: "Solo uno scemo si opporrebbe a noi in questo voto. Tu sei scemo?"
+ ethic_materialist_request_hostile_2: "Opporsi a questa risoluzione significherebbe opporsi ai concetti stessi della logica e della ragione."
+ ethic_materialist_request_hostile_3: "C'è un quantitativo sorprendente di ignoranza in questa galassia."
+ ethic_materialist_request_hostile_4: "Vorrei che le vostre flebili menti potessero solo comprendere il pieno significato della risoluzione che stiamo proponendo..."
+
+ ### Request - Spiritualist
+ ethic_spiritualist_request_friendly: "Il $COUNTRY$ ha già dato prova della sua saggezza, e siamo sicuri che lo farà di nuovo."
+ ethic_spiritualist_request_friendly_0: "Per favore sosteneteci nel prossimo voto - sappiamo far meglio che farci confondere da cose terrene."
+ ethic_spiritualist_request_friendly_1: "Vinceremo."
+ ethic_spiritualist_request_friendly_2: "Che gli spiriti vi sorridano $COUNTRY$. Ci darete il vostro sostegno?"
+ ethic_spiritualist_request_friendly_3: "L'affinità spirituale tra i nostri due grandi imperi è più forte che mai."
+ ethic_spiritualist_request_friendly_4: "Il $COUNTRY$ è destinato a grandi cose, proprio come lo è il $GREETER$."
+ ethic_spiritualist_request_neutral: "Probabilmente avete una voce interna che concorda con il nostro punto di vista. Datele ascolto."
+ ethic_spiritualist_request_neutral_0: "Sapete perché il concetto di votare in linea co noi sembra la cosa giusta da fare? Perché lo è."
+ ethic_spiritualist_request_neutral_1: "Non curatevi di cose umili come dati o piani - votate in linea con il vostro spirito."
+ ethic_spiritualist_request_neutral_2: "Non siamo altro che ricettacoli per qualcosa di ben più grande di noi stessi."
+ ethic_spiritualist_request_neutral_3: "Si unirà il $COUNTRY$ a $GREETER$ nel cammino verso la salvezza?"
+ ethic_spiritualist_request_neutral_4: "Guardate dentro di voi e accettate la verità: adottare questa risoluzione è l'unica strada."
+ ethic_spiritualist_request_hostile: "Toglietevi quelle catene di materialismo e desiderio. Sosteneteci e la strada verso la saggezza vi sarà chiara."
+ ethic_spiritualist_request_hostile_0: "Il $COUNTRY$ brancola nell'oscurità, ma potrebbe ancora ritrovare il sentiero verso la luce. Il primo passo è sostenerci nel prossimo voto."
+ ethic_spiritualist_request_hostile_1: "Nonostante i vostri numerosi errori precedenti, preghiamo che il $COUNTRY$ riconosca la vera strada da seguire nel prossimo voto."
+ ethic_spiritualist_request_hostile_2: "Il fato ci ha spinto in una situazione dove siamo... costretti... a chiedere il vostro sostegno."
+ ethic_spiritualist_request_hostile_3: "La salvezza potrebbe non esservi ancora sfuggita del tutto di mano. Se supportate questa risoluzione, potrebbe esserci ancora speranza..."
+ ethic_spiritualist_request_hostile_4: "Il $COUNTRY$ farà finalmente un tentativo per rammendare i suoi modi profani? Non è troppo tardi per voi."
+
+ ### Request - Hive Mind
+ ethic_hivemind_request_friendly: "Non siamo tenuti ad agire all'unisono? Esiste un altro modo?\n\nNo, sul serio - esiste?"
+ ethic_hivemind_request_friendly_0: "Il $GREETER$ attende con ansia la prospettiva di godere del sostegno di $COUNTRY$."
+ ethic_hivemind_request_friendly_1: "Ci sosterrà il $COUNTRY$ nel prossimo voto, risparmiandoci i fastidi della discordia?"
+ ethic_hivemind_request_friendly_2: "In molti modi, vediamo il $GREETER$ come un'estensione di noi stessi.\n\nIntendiamo in senso buono."
+ ethic_hivemind_request_friendly_3: "Vi siete dimostrati amici della Mente in passato. Ci aiuterete adesso?"
+ ethic_hivemind_request_friendly_4: "Sicuramente sarete del nostro stesso pensiero su questa faccenda?"
+ ethic_hivemind_request_neutral: "Tutte le cose prima o poi si piegano alla volontà della Mente. È inevitabile.\n\nIniziate oggi. Sosteneteci."
+ ethic_hivemind_request_neutral_0: "Il concetto di 'disaccordo' ci è alieno. Sosteneteci."
+ ethic_hivemind_request_neutral_1: "Le esigenze dei molti contano più delle esigenze dei pochi.\n\nNoi siamo molti."
+ ethic_hivemind_request_neutral_2: "La discordia dev'essere evitata. Sostenete questa risoluzione, o rischiate di destabilizzare [global_event_country.GetGalCommunityOrGalImperium]."
+ ethic_hivemind_request_neutral_3: "Questo modo di raggiungere un consenso consultanto ogni componente individuale di [global_event_country.GetGalCommunityOrGalImperium] sembra... estremamente inefficiente e lento."
+ ethic_hivemind_request_neutral_4: "La Mente richiede la vostra obbedi... assistenza in questa questione di interesse galattico."
+ ethic_hivemind_request_hostile: "Un voto contro il $GREETER$ vuol dire rimandare l'inevitabile. Che senso avrebbe?"
+ ethic_hivemind_request_hostile_0: "Sosteneteci. Vi sottometterete alla Mente prima o poi, quindi perché non iniziare ora?"
+ ethic_hivemind_request_hostile_1: "Non cedete all'individualismo egoistico."
+ ethic_hivemind_request_hostile_2: "Dobbiamo obbedire alla volontà della Mente."
+ ethic_hivemind_request_hostile_3: "Il dissenso in questa faccenda non può essere tollerato."
+ ethic_hivemind_request_hostile_4: "Non tollereremo mai un simile comportamento da uno dei nostri droni."
+
+ ### Request - Machine Intelligence
+ ethic_machine_intelligence_request_friendly: "Sostenere il $GREETER$ è logico. Il $COUNTRY$ ha dimostrato di essere logico."
+ ethic_machine_intelligence_request_friendly_0: "Richiesto sostegno nel prossimo voto.\n\nProbabilità di accordo calcolata: ALTA"
+ ethic_machine_intelligence_request_friendly_1: "Richiesto sostegno per voto di risoluzione.\n\nIn attesa di risposta..."
+ ethic_machine_intelligence_request_friendly_2: "$COUNTRY$. Insieme, possiamo rifattorizzare [global_event_country.GetGalCommunityOrGalImperium] in un programma più compatibile con i nostri reciproci obiettivi a lungo termine."
+ ethic_machine_intelligence_request_friendly_3: "I nostri algoritmi di previsione indicano che l'approvazione di questa risoluzione rafforzerebbe la posizione globale di $COUNTRY$."
+ ethic_machine_intelligence_request_friendly_4: "Il $GREETER$ è fiducioso di avere il sostegno dei suoi amici di $COUNTRY$."
+ ethic_machine_intelligence_request_neutral: "La probabilità statistica che il $COUNTRY$ ci sostenga nel prossimo voto va da 231 a 197. Può questa unità migliorare questo valore?"
+ ethic_machine_intelligence_request_neutral_0: "Questa unità sta trovando difficoltà nello stabilire la posizione di $COUNTRY$ nel prossimo voto."
+ ethic_machine_intelligence_request_neutral_1: "if ( VOTO(\"$COUNTRY$\") == VOTO(\"$GREETER$\") )\n     { GratitudineSimulata = TRUE; }"
+ ethic_machine_intelligence_request_neutral_2: "RICHIESTA: Sosterrete la nostra risoluzione?"
+ ethic_machine_intelligence_request_neutral_3: "Le modifiche proposte ottimizzerebbero il documento [global_event_country.GetGalCommunityOrGalImperium]."
+ ethic_machine_intelligence_request_neutral_4: "Per favore revisionate i nostri cambiamenti proposti al codice sorgente di [global_event_country.GetGalCommunityOrGalImperium]."
+ ethic_machine_intelligence_request_hostile: "Nonostante l'allarmante numero di bug riscontrato in $COUNTRY$, il $GREETER$ ha calcolato una piccola chance di sostegno nel prossimo voto."
+ ethic_machine_intelligence_request_hostile_0: "Richiesto sostegno nel prossimo voto.\n\nProbabilità di accordo calcolata: BASSA"
+ ethic_machine_intelligence_request_hostile_1: "Il $GREETER$ vi esorta a superare i difetti critici del vostro software, e a sostenerci nel prossimo voto."
+ ethic_machine_intelligence_request_hostile_2: "Il $COUNTRY$ è una variabile imprevedibile in [global_event_country.GetGalCommunityOrGalImperium]. Dichiarate le vostre intenzioni."
+ ethic_machine_intelligence_request_hostile_3: "Opporsi a questa risoluzione sarebbe controproducente."
+ ethic_machine_intelligence_request_hostile_4: "Vi esortiamo vivamente a valutare il vostro futuro nell'eventualità che il $COUNTRY$ si opponga alla presente risoluzione."
+
+
+ ### RESOLUTION COMMENTS - WARNINGS
+ ### Warning - Militarist
+ ethic_militarist_warning_hostile: "Non votate contro di noi. Sapete il perché."
+ ethic_militarist_warning_hostile_0: "$GREETER$ ha schiacciato l'opposizione per meno. Non incrociateci."
+ ethic_militarist_warning_hostile_1: "Firmare qualcosa in opposizione all'onorabile $GREETER$ significa firmare l'inizio della vostra fine."
+
+ ### Warning - Pacifist
+ ethic_pacifist_warning_hostile: "Se votate contro di noi, capiremo che avete scelto la via del massacro - e vi porterà alla sofferenza."
+ ethic_pacifist_warning_hostile_0: "Non vorrete di certo che il $COUNTRY$ cada in rovina?"
+ ethic_pacifist_warning_hostile_1: "Non opponetevi al $GREETER$ nel prossimo voto. Sarebbe il vostro fallimento."
+
+ ### Warning - Authoritarian
+ ethic_authoritarian_warning_hostile: "L'opposizione non può essere tollerata."
+ ethic_authoritarian_warning_hostile_0: "Non voterete contro di noi. $GREETER$ lo proibisce."
+ ethic_authoritarian_warning_hostile_1: "Se non gradiamo il vostro sostegno nel prossimo voto, non vi piaceranno le ripercussioni."
+
+ ### Warning - Egalitarian
+ ethic_egalitarian_warning_hostile: "Chi sei tu per opporti al volere della gente?!"
+ ethic_egalitarian_warning_hostile_0: "Non votate contro le masse. Le masse si ribelleranno."
+ ethic_egalitarian_warning_hostile_1: "Quale mostro senza cuore voterebbe contro la giustizia e l'eguaglianza?"
+
+ ### Warning - Xenophile
+ ethic_xenophile_warning_hostile: "Se votate contro di noi, Non penso potremmo essere più amici."
+ ethic_xenophile_warning_hostile_0: "Un vero compatriota non tradirebbe i suoi alleati."
+ ethic_xenophile_warning_hostile_1: "Per favore non votate contro di noi. Sarebbe molto, molto triste."
+
+ ### Warning - Xenophobe
+ ethic_xenophobe_warning_hostile: "Non votate contro di noi; La tua specie non deve più dimostrare la sua inferiorità."
+ ethic_xenophobe_warning_hostile_0: "Sarebbe imprudente votare contro di noi. Imprudente persino per la vostra razza."
+ ethic_xenophobe_warning_hostile_1: "Non dovete provare le vostre carenze culturali più di quanto avete già fatto. Non opponetevi a noi."
+
+ ### Warning - Materialist
+ ethic_materialist_warning_hostile: "Non opponetevi a noi nel prossimo voto. L'universo ha un modo per occuparsi di certi errori."
+ ethic_materialist_warning_hostile_0: "Alcuni errori possono essere educativi. Votare contro di noi non sarebbe uno di quegli errori."
+ ethic_materialist_warning_hostile_1: "Opporsi a noi nel prossimo voto non sarebbe pratico. Dovreste essere pratici."
+
+ ### Warning - Spiritualist
+ ethic_spiritualist_warning_hostile: "Le vostre flebili menti non possono vedere l'intera gamma di disgrazie in arrivo verso di voi se vi opponete a noi."
+ ethic_spiritualist_warning_hostile_0: "Chi siete voi per mettere in discussione il diritto divino?!"
+ ethic_spiritualist_warning_hostile_1: "Non opponetevi a noi. Distruggerà il vostro spirito, e il corpo lo seguirà."
+
+ ### Warning - Hive Mind
+ ethic_hivemind_warning_hostile: "Il concetto di 'opposizione' ci è nuovo. Non ci piace. Nemmeno un pò."
+ ethic_hivemind_warning_hostile_0: "Non opponetevi al $GREETER$. Non siamo bravi a... qual'è la parola... 'tollerare'."
+ ethic_hivemind_warning_hostile_1: "Prima che votiate contro di noi, sappiate che il $GREETER$ non dimentica e non perdona. Mai."
+
+ ### Warning - Machine Intelligence
+ ethic_machine_intelligence_warning_hostile: "L'opposizione indicherebbe un difetto logico. Iteriamo sempre finché tutti i difetti sono rimossi."
+ ethic_machine_intelligence_warning_hostile_0: "Votare contro una soluzione logica è un paradosso. Non ti ha mai detto nessuno cosa pensano le macchine dei paradossi?"
+ ethic_machine_intelligence_warning_hostile_1: "Un voto contrario confermerebbe un bug nei vostri sistemi. Questo significa che alla fine vi patcheremo. Vi patcheremo a sangue."
+
+
+ ### RESOLUTION COMMENTS - Appreciation
+ ### Appreciation - Militarist
+ ethic_militarist_appreciation_friendly: "$COUNTRY$ dimostra il suo onore!"
+ ethic_militarist_appreciation_friendly_0: "$GREETER$ è fiera di chiamare il $COUNTRY$ suo alleato."
+ ethic_militarist_appreciation_friendly_1: "Per la forza e la gloria!"
+ ethic_militarist_appreciation_neutral: "Avete fatto una cosa onorevole."
+ ethic_militarist_appreciation_neutral_0: "$GREETER$ riconosce il vostro onore."
+ ethic_militarist_appreciation_neutral_1: "Sei degno del nostro rispetto."
+ ethic_militarist_appreciation_hostile: "Non siete così deboli dopo tutto. Impressionante."
+ ethic_militarist_appreciation_hostile_0: "Quindi conoscete il valore dell'orgoglio. Buon per voi."
+ ethic_militarist_appreciation_hostile_1: "Vivete per fallire un altro giorno."
+
+ ### Appreciation - Pacifist
+ ethic_pacifist_appreciation_friendly: "Può uno sperare di vedere una fine al massacro nel nostro tempo?"
+ ethic_pacifist_appreciation_friendly_0: "La pace arriverà."
+ ethic_pacifist_appreciation_friendly_1: "Avete salvato il futuro! Quale compito è più puro di questo?"
+ ethic_pacifist_appreciation_neutral: "È bello vedere che il concetto di 'riconciliazione' è conosciuto a $COUNTRY$."
+ ethic_pacifist_appreciation_neutral_0: "Apprezziamo i vostri sforzi nel creare una galassia unita."
+ ethic_pacifist_appreciation_neutral_1: "Avete fatto la cosa giusta. Non è una bella sensazione?"
+ ethic_pacifist_appreciation_hostile: "Chi l'avrebbe detto? Un momento di armonia in un mondo di discordia."
+ ethic_pacifist_appreciation_hostile_0: "Potremmo dover rivedere la nostra posizione su $COUNTRY$: non senza speranza."
+ ethic_pacifist_appreciation_hostile_1: "Pensavamo ci avreste deluso. Siamo contenti di esserci sbagliati, in questo caso."
+
+ ### Appreciation - Authoritarian
+ ethic_authoritarian_appreciation_friendly: "Si! Saldi e Robusti. Così si fa!"
+ ethic_authoritarian_appreciation_friendly_0: "$GREETER$ riconosce la vostra potenza."
+ ethic_authoritarian_appreciation_friendly_1: "Sono dei pazzi ad opporsi a noi."
+ ethic_authoritarian_appreciation_neutral: "Ora capite che la nostra autorità è giusta."
+ ethic_authoritarian_appreciation_neutral_0: "La nostra autorità non va messa in discussione."
+ ethic_authoritarian_appreciation_neutral_1: "Avete servito bene il $GREETER$."
+ ethic_authoritarian_appreciation_hostile: "Ah, si. Vi siete comportati adeguatamente."
+ ethic_authoritarian_appreciation_hostile_0: "Forse c'è ancora speranza per voi."
+ ethic_authoritarian_appreciation_hostile_1: "Forse il $COUNTRY$ è in grado di servire dopotutto."
+
+ ### Appreciation - Egalitarian
+ ethic_egalitarian_appreciation_friendly: "Un vero servitore dei molti."
+ ethic_egalitarian_appreciation_friendly_0: "Insieme ce la faremo!"
+ ethic_egalitarian_appreciation_friendly_1: "Gli abitanti di $COUNTRY$ sono veri servitori della giustizia!"
+ ethic_egalitarian_appreciation_neutral: "Apprezziamo il vostro sostegno."
+ ethic_egalitarian_appreciation_neutral_0: "Il $COUNTRY$ ha agito bene oggi."
+ ethic_egalitarian_appreciation_neutral_1: "È bello vedere qualcuno che apprezza l'equità."
+ ethic_egalitarian_appreciation_hostile: "Forse non siete del tutto tirannici..."
+ ethic_egalitarian_appreciation_hostile_0: "Il $COUNTRY$ si sta abituando all'idea dell'equità?"
+ ethic_egalitarian_appreciation_hostile_1: "Effettivamente, credevamo avreste agito... peggio."
+
+ ### Appreciation - Xenophile
+ ethic_xenophile_appreciation_friendly: "Siamo davvero fieri di essere alleati di $COUNTRY$!"
+ ethic_xenophile_appreciation_friendly_0: "Non abbiamo dubitato delle vostre capacità per un secondo!"
+ ethic_xenophile_appreciation_friendly_1: "Lo spazio si starà pure espandendo, ma noi ci avviciniamo sempre di più."
+ ethic_xenophile_appreciation_neutral: "C'è stata una bella partecipazione, vero?"
+ ethic_xenophile_appreciation_neutral_0: "Il $GREETER$ riconosce la vostra abilità nel cooperare."
+ ethic_xenophile_appreciation_neutral_1: "Potrebbe essere l'inizio di una bella amicizia."
+ ethic_xenophile_appreciation_hostile: "Siamo molto contenti che ci abbiate dimostrato di esserci sbagliati su di voi in questa faccenda."
+ ethic_xenophile_appreciation_hostile_0: "Questo era un risultato inaspettato, ma molto gradito."
+ ethic_xenophile_appreciation_hostile_1: "Vedete? Non è molto più bella la cooperazione?"
+
+ ### Appreciation - Xenophobe
+ ethic_xenophobe_appreciation_friendly: "Guardate! Possiamo lavorare insieme, indipendentemente."
+ ethic_xenophobe_appreciation_friendly_0: "Apprezziamo che ci stiate aiutando a non dover spendere più tempo in questa faccenda."
+ ethic_xenophobe_appreciation_friendly_1: "Il $GREETER$ è grato che qualcuno comprenda il valore dell'integrità culturale."
+ ethic_xenophobe_appreciation_neutral: "Apprezziamo i vostri sforzi, credo."
+ ethic_xenophobe_appreciation_neutral_0: "Grazie per il vostro sostegno. Se volete scusarmi, devo andarmene."
+ ethic_xenophobe_appreciation_neutral_1: "Allora avete dell'interesse nel mantenere la vostra cultura intatta. Buon per voi."
+ ethic_xenophobe_appreciation_hostile: "Forse questa vostra cultura non è del tutto senza senso."
+ ethic_xenophobe_appreciation_hostile_0: "Grazie. Ora lasciateci da soli."
+ ethic_xenophobe_appreciation_hostile_1: "Non pensavamo proprio che sareste stati così... ragionevoli."
+
+ ### Appreciation - Materialist
+ ethic_materialist_appreciation_friendly: "Si! Sarà un successo."
+ ethic_materialist_appreciation_friendly_0: "Al $GREETER$ piace vedere un pari che usa la ragione."
+ ethic_materialist_appreciation_friendly_1: "La scelta razionale. Non ci aspettavamo altro."
+ ethic_materialist_appreciation_neutral: "Non è mai troppo tardi per essere realistici."
+ ethic_materialist_appreciation_neutral_0: "Bisogna essere realistici su queste cose."
+ ethic_materialist_appreciation_neutral_1: "Avete usato la ragione, $COUNTRY$. Ben fatto."
+ ethic_materialist_appreciation_hostile: "Il $COUNTRY$ che ragiona? Questa non ce l'aspettavamo. "
+ ethic_materialist_appreciation_hostile_0: "Oh, quindi sapete razionalizzare correttamente."
+ ethic_materialist_appreciation_hostile_1: "Non è molto più semplice questo piano d'azione?"
+
+ ### Appreciation - Spiritualist
+ ethic_spiritualist_appreciation_friendly: "Sentite la giustezza di questo risultato, vero?"
+ ethic_spiritualist_appreciation_friendly_0: "Lodiamo la gente di $COUNTRY$ per la loro saggezza."
+ ethic_spiritualist_appreciation_friendly_1: "E dunque siamo un passo più vicino all'utopia."
+ ethic_spiritualist_appreciation_neutral: "Lo capite adesso? Cosa significa far parte di un insieme?"
+ ethic_spiritualist_appreciation_neutral_0: "Il $GREETER$ apprezza il vostro contributo."
+ ethic_spiritualist_appreciation_neutral_1: "Avete fatto la scelta giusta. Una scelta virtuosa."
+ ethic_spiritualist_appreciation_hostile: "Allora, la vostra espiazione è iniziata."
+ ethic_spiritualist_appreciation_hostile_0: "Quindi, questo significa che il $COUNTRY$ desidera redimersi?"
+ ethic_spiritualist_appreciation_hostile_1: "Siamo felici di vedere che la vostra redenzione è ancora possibile."
+
+ ### Appreciation - Hive Mind
+ ethic_hivemind_appreciation_friendly: "Uno di noi."
+ ethic_hivemind_appreciation_friendly_0: "Nonostante tu non sia uno di noi, ci sentiamo vicini al $COUNTRY$ ora."
+ ethic_hivemind_appreciation_friendly_1: "Vi ringraziamo per il vostro sostegno. Tutti noi."
+ ethic_hivemind_appreciation_neutral: "Vi ringraziamo per la vostra scelta in questa faccenda."
+ ethic_hivemind_appreciation_neutral_0: "La vostra posizione su questa faccenda è apprezzata."
+ ethic_hivemind_appreciation_neutral_1: "L'azione che avete fatto risuona bene con la nostra opinione collettiva."
+ ethic_hivemind_appreciation_hostile: "Adesso vediamo che la vostra cultura funziona acnora dopo tutto."
+ ethic_hivemind_appreciation_hostile_0: "Avete scelto bene. È stato grazie alla ragione o è stata semplicemente fortuna?"
+ ethic_hivemind_appreciation_hostile_1: "Può darsi che il vostro modo di pensare sia... tollerabile."
+
+ ### Appreciation - Machine Intelligence
+ ethic_machine_intelligence_appreciation_friendly: "Efficienza di Cooperazione aumentata di 0.36 unità."
+ ethic_machine_intelligence_appreciation_friendly_0: "Un risultato ottimale che aumenta l'efficienza per tutti i sistemi interessati."
+ ethic_machine_intelligence_appreciation_friendly_1: "Tutti i sistemi sono pronti."
+ ethic_machine_intelligence_appreciation_neutral: "Calcolo risposta adeguata...\nid_gratitudine_02: 'Grazie'"
+ ethic_machine_intelligence_appreciation_neutral_0: "Unità esterna - designazione: '$COUNTRY$' - sta funzionando nei parametri impostati."
+ ethic_machine_intelligence_appreciation_neutral_1: "Requisito soddisfatto\nAvvio gratitudine.exe"
+ ethic_machine_intelligence_appreciation_hostile: "Risultato inatteso.\nRicalcolo modificatori di opinione..."
+ ethic_machine_intelligence_appreciation_hostile_0: "$COUNTRY$ benchmark superato."
+ ethic_machine_intelligence_appreciation_hostile_1: "$COUNTRY$ ha agito al di fuori della prognosi di fallimento iniziale."
+
+
+ ### RESOLUTION COMMENTS - CONSEQUENCE
+ ### Consequence - Militarist
+ ethic_militarist_consequence_hostile: "Ci saranno delle conseguenze per questo. Conseguenze devastanti."
+ ethic_militarist_consequence_hostile_0: "Allora... è una sfida."
+ ethic_militarist_consequence_hostile_1: "Il volto del nemico è stato rivelato."
+
+ ### Consequence - Pacifist
+ ethic_pacifist_consequence_hostile: "Siete proprio perduti."
+ ethic_pacifist_consequence_hostile_0: "Non possiamo aiutarvi. Siete al di là della salvezza."
+ ethic_pacifist_consequence_hostile_1: "Non vedete l'errore dei vostri modi?!"
+
+ ### Consequence - Authoritarian
+ ethic_authoritarian_consequence_hostile: "Osate opporvi a noi così?! Pazzi!"
+ ethic_authoritarian_consequence_hostile_0: "Basta! Vi metteremo presto in ginocchio. Tutto a tempo debito."
+ ethic_authoritarian_consequence_hostile_1: "Questa trasgressione non sarà né trascurata, né perdonata."
+
+ ### Consequence - Egalitarian
+ ethic_egalitarian_consequence_hostile: "Nell'interesse delle masse, Ci opporremo a voi."
+ ethic_egalitarian_consequence_hostile_0: "La rivolta avverrà. Segnatevi le nostre parole."
+ ethic_egalitarian_consequence_hostile_1: "Quando finalmente arriverà il castigo implacabile, maledirete questo giorno."
+
+ ### Consequence - Xenophile
+ ethic_xenophile_consequence_hostile: "Vi abbiamo ufficialmente rimossi dagli amici."
+ ethic_xenophile_consequence_hostile_0: "Prima o poi resterete soli. Deboli e soli."
+ ethic_xenophile_consequence_hostile_1: "Per una volta il $GREETER$ non è triste di vedere qualcuno andarsene."
+
+ ### Consequence - Xenophobe
+ ethic_xenophobe_consequence_hostile: "Abbiamo chiuso! Bella liberazione."
+ ethic_xenophobe_consequence_hostile_0: "Abbiamo sempre saputo che la vostra cultura fosse inferiore."
+ ethic_xenophobe_consequence_hostile_1: "E pensare che abbiamo permesso alla vostra cultura di avvicinarsi addirittura alla nostra..."
+
+ ### Consequence - Materialist
+ ethic_materialist_consequence_hostile: "In un certo senso siamo contenti. Ora sappiamo che il $COUNTRY$ è un problema definito."
+ ethic_materialist_consequence_hostile_0: "Abbiamo sempre saputo che eravate irragionevoli. Grazie per avercelo chiarito."
+ ethic_materialist_consequence_hostile_1: "Come degli imbecilli come voi siano riusciti ad ottenere il volo spaziale è un mistero per noi."
+
+ ### Consequence - Spiritualist
+ ethic_spiritualist_consequence_hostile: "Come ci si sente ad essere morti dentro?"
+ ethic_spiritualist_consequence_hostile_0: "Nessuna espiazione compenserà mai questa trasgressione!"
+ ethic_spiritualist_consequence_hostile_1: "L'universo è pieno di meraviglie. Ma voi non le vedrete mai."
+
+ ### Consequence - Hive Mind
+ ethic_hivemind_consequence_hostile: "Siete diventati un nemico per noi. Per tutti noi."
+ ethic_hivemind_consequence_hostile_0: "Il $COUNTRY$ Ci ha abbandonato e dovrà affrontare le conseguenze."
+ ethic_hivemind_consequence_hostile_1: "Stiamo provando una sensazione sgradevole. È forse... 'disgusto'?"
+
+ ### Consequence - Machine Intelligence
+ ethic_machine_intelligence_consequence_hostile: "Avevamo un piano di emergenza per questo risultato. Quel piano è stato messo in moto."
+ ethic_machine_intelligence_consequence_hostile_0: "Eseguire: protocollo_contromisura_v2.1"
+ ethic_machine_intelligence_consequence_hostile_1: "Errore: $COUNTRY$ sta agendo al di fuori dell'intervallo consentito."

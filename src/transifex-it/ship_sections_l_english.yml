@@ -1,0 +1,126 @@
+﻿l_english:
+ ####################################
+ # Alpha Naming Convention - WILL LIKELY BE CHANGED IF SECTIONS ARE REDESIGNED
+ #
+ # Mid sections have a flavor-name fitting to number of weapon/utility slots followed by the key-word "Core"
+ # Front sections have a flavor-name followed by the key-word "Breaker"
+ # Rear sections have a flavor-name followed by the key-word "Bulwark"
+ #
+ ####################################
+
+
+ ####################################
+ # Juggernaut
+ ####################################
+
+ CORE_JUGGERNAUT_SECTION: "Juggernaut"
+
+ ####################################
+ # Titan
+ ####################################
+
+ TITAN_BOW: "Prua del Titano"
+ TITAN_MID: "Centro del Titano"
+ TITAN_STERN: "Poppa del Titano"
+
+ ####################################
+ # Battleship
+ ####################################
+ BATTLESHIP_BOW_L1M1S2: "Cannoni di Prua"
+ BATTLESHIP_BOW_L1S4: "Spezza Titani"
+ BATTLESHIP_BOW_L2: "Artiglieria di Prua"
+ BATTLESHIP_BOW_M1S2SHB: "Hangar di Prua"
+ BATTLESHIP_BOW_M2S4: "Supporto Spinale di Prua"
+ BATTLESHIP_BOW_M3S2: "Spezza Anime"
+ BATTLESHIP_MID_L2S4: "Nova Centrale"
+ BATTLESHIP_MID_L1M4: "Stormbringer Centrale"
+ BATTLESHIP_MID_L2M2: "Cannoni Centrali"
+ BATTLESHIP_MID_L3: "Artiglieria Centrale"
+ BATTLESHIP_MID_M4SHB: "Hangar Centrale"
+ BATTLESHIP_MID_S4LHB: "Trasporto Centrale"
+ BATTLESHIP_STERN_M1S2: "Bastione degli Eoni"
+ BATTLESHIP_STERN_L1: "Artiglieria di Poppa"
+ BATTLESHIP_STERN_M2: "Cannoni di Poppa"
+ BATTLESHIP_STERN_S4: "Bastione dello Zenit"
+
+ ####################################
+ # Colonizer
+ ####################################
+ COLONIZER_MID_M1S1: "Nave Colonia"
+ COLONIZER_MID_S3: "Nucleo Seme"
+ COLONIZER_MID_MU1: "Nucleo Gaia"
+
+ ####################################
+ # Constructor
+ ####################################
+ CONSTRUCTOR_MID_M1S1: "Nave da Costruzione"
+ CONSTRUCTOR_MID_S3: "Nucleo di Sviluppo"
+ CONSTRUCTOR_MID_MU1: "Nucleo di Fusione"
+
+ ####################################
+ # Corvette
+ ####################################
+ CORVETTE_MID_M1S1: "Nave Lanciamissili"
+ CORVETTE_MID_S3: "Intercettore"
+ CORVETTE_MID_S1: "Nucleo di Scambio"
+ CORVETTE_MID_S2PD1: "Nave Picchetto"
+
+ ####################################
+ # Cruiser
+ ####################################
+ CRUISER_BOW_L1: "Artiglieria di Prua"
+ CRUISER_BOW_M1S2: "Missili di Prua"
+ CRUISER_BOW_M2: "Cannoni di Prua"
+ CRUISER_MID_S2HB: "Hangar Centrale"
+ CRUISER_MID_L1M1: "Artiglieria Centrale"
+ CRUISER_MID_M3: "Cannoni Centrali"
+ CRUISER_MID_M2S2: "Missili Centrali"
+ CRUISER_STERN_M1: "Cannoni di Poppa"
+ CRUISER_STERN_S2: "Cannoniera di Poppa"
+
+ ####################################
+ # Destroyer
+ ####################################
+ DESTROYER_BOW_M1S2: "Cannoniera di Prua"
+ DESTROYER_BOW_S3: "Prua da Picchetto"
+ DESTROYER_BOW_L1: "Artiglieria di Prua"
+ DESTROYER_STERN_PD2: "Poppa da Picchetto"
+ DESTROYER_STERN_S2: "Poppa da Intercettore"
+ DESTROYER_STERN_M1: "Cannoniera di Poppa"
+
+ ####################################
+ # Science
+ ####################################
+ SCIENCE_MID_M1S1: "Nave Scientifica"
+ SCIENCE_MID_S3: "Nucleo Pioniere"
+ SCIENCE_MID_MU1: "Nucleo Intuizione"
+
+ ####################################
+ # Science
+ ####################################
+ LIGHT_MILITARY_STATION_SECTION: "Sezione Stazione Leggera"
+ PD_MILITARY_STATION_SECTION: "Sezione Stazione Punto di Difesa"
+ MEDIUM_MILITARY_STATION_SECTION: "Sezione Stazione Media"
+ MISSILE_MILITARY_STATION_SECTION: "Sezione Stazione Missilistica"
+ HEAVY_MILITARY_STATION_SECTION: "Sezione Stazione Pesante"
+ HANGAR_MILITARY_STATION_SECTION: "Sezione Stazione Hangar"
+ LIGHT_LARGE_MILITARY_STATION_SECTION: "Sezione Stazione Leggera"
+ MEDIUM_LARGE_MILITARY_STATION_SECTION: "Sezione Stazione Media"
+ HEAVY_LARGE_MILITARY_STATION_SECTION: "Sezione Stazione Hangar"
+ HANGAR_LARGE_MILITARY_STATION_SECTION: "Sezione Stazione Hangar"
+ OUTPOST_STATION_SECTION: "Nucleo Avamposto di Frontiera"
+
+ ####################################
+ # Other
+ ####################################
+ MISSILE_DEFAULT: "Sezione Missilistica"
+ DEFAULT_CONSTRUCTION_SECTION: "Nave da Costruzione"
+ DEFAULT_COLONIZATION_SECTION: "Nave Colonia"
+ DEFAULT_SCIENCESHIP_SECTION: "Nave Scientifica"
+ DEFAULT_ORBITAL_STATION_SECTION: "Struttura Stazione Orbitale"
+ DEFAULT_MINING_STATION_SECTION: "Struttura Stazione Mineraria"
+ DEFAULT_RESEARCH_STATION_SECTION: "Struttura Stazione di Ricerca"
+ DEFAULT_WORMHOLE_STATION_SECTION: "Struttura Stazione Wormhole"
+ DEFAULT_MILITARY_STATION_SECTION: "Piattaforma Militare Standard"
+ DEFAULT_TRANSPORT_SECTION: "Nave Trasporto"
+ SHIP_COLOSSUS_SECTION: "Colosso"

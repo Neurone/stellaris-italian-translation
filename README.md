@@ -2,11 +2,11 @@
 
 Questo mod, **compatibile** con la **modalità Ironman** e gli **achievement di Steam**, sostituisce la lingua inglese con la lingua italiana.
 
-Compatibile con versione: **Butler 2.8.***
+Basato sulla versione: **Dick v3.0.3**
 
-Sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack e, in particolare grazie a [Nefando](https://github.com/Nefando), abbiamo anche una prima versione corposa del DLC Federations! Grazie a [AndryRock](https://github.com/AR-9217) in particolare per la traduzione DLC Necroids Species Pack e per aver avviato la prima versione della traduzione del DLC Federations.
+Grazie a [Nefando](https://github.com/Nefando), [AndryRock](https://github.com/AR-9217) e [Daddie2](https://github.com/Daddie2) sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack, una prima versione corposa del DLC Federations e parte di Nemesis!
 
-A causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, **per poter conservare la modalità Ironman e achievement non è possibile tradurre completamente tutte le frasi presenti nel gioco** (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.). Inoltre, per facilitare il confronto con il resto del mondo, non sono tradotti i moni degli achievement ma solo la loro descrizione. Se avete già completato gli achievement e la modalità Ironman, o comunque non siete interessati alla cosa, usate il [mod di MM_Winther](https://steamcommunity.com/sharedfiles/filedetails/?id=2377568450) per un'esperienza di traduzione completa. 
+A causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, **per poter conservare la modalità Ironman e achievement non è possibile tradurre completamente tutte le frasi presenti nel gioco** (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.). Inoltre, per facilitare il confronto con il resto del mondo, **non sono tradotti volutamente i nomi degli achievement ma solo la loro descrizione**. Se avete già completato gli achievement e la modalità Ironman, o comunque non siete interessati alla cosa, usate il [mod di MM_Winther](https://steamcommunity.com/sharedfiles/filedetails/?id=2377568450) per un'esperienza di traduzione completa.
 
 Questo mod nasce a maggio 2019 partendo dai testi tradotti diligentemente dal team Battle of Paradox Italia ed in particolare dal buon Puxxup - grande lavoro! - non con l'obiettivo di offrire una traduzione alternativa ma con quello di mantenere la compatibilità con achievements e modalità Ironman.
 
@@ -16,37 +16,39 @@ Paradox aggiorna spesso i propri prodotti, non solo aggiungendo nuovi DLC e nuov
 
 Per come è strutturato il gioco, e poiché questo mod vuole mantenere gli achievement attivi, non è possibile aggiungere una lingua al gioco: l'unica alternativa per avere l'italiano è modificare una delle lingue disponibili. Per comodità quindi questo mod sovrascrive direttamente la lingua di default, ossia l'inglese. La fonte principale di frasi da tradurre di trova all'interno della cartella [src/mod/localisation/english](src/mod/localisation/english).
 
+**Se non siete avvezzi all'utilizzo di git o GitHub per la modifica dei file, potete utilizzare in alternativa il progetto dedicato su [Transifex](https://www.transifex.com/internet-of-peers/stellaris-italian-translation)**.
+
 ### Stato della traduzione
 
-Di seguito i file principali e lo stato della loro traduzione rispetto alla versione 2.8.1 del gioco:
+Di seguito i file principali e lo stato della loro traduzione rispetto alla versione v3.0.3 del gioco:
 
 | nome file | stato traduzione |
 |--|--|
 |achievements_l_english.yml| completa|
 |ai_crisis_l_english.yml| completa|
-|ancient_relics_events_l_english.yml| parziale|
-|ancient_relics_l_english.yml| parziale|
+|ancient_relics_events_l_english.yml| completa|
+|ancient_relics_l_english.yml| completa|
 |apocalypse_l_english.yml| completa|
 |dip_messages_l_english.yml| completa|
 |diplo_stances_l_english.yml| completa|
 |distant_stars_l_english.yml| completa|
-|dlc_recommendations_l_english.yml| da tradurre|
+|dlc_recommendations_l_english.yml| **parziale**|
 |event_chains_l_english.yml| completa|
 |events_2_l_english.yml| completa|
 |events_3_l_english.yml| completa|
 |events_4_l_english.yml| completa|
 |events_5_l_english.yml| completa|
 |events_l_english.yml| completa|
-|federations_anniversary_l_english.yml| da tradurre|
-|federations_l_english.yml| parziale|
+|federations_anniversary_l_english.yml| **parziale**|
+|federations_l_english.yml| **parziale**|
 |federations_resolution_comments_l_english.yml| completa|
 |horizonsignal_l_english.yml| completa|
-|l_english.yml| parziale|
+|l_english.yml| **parziale**|
 |leviathans_l_english.yml| completa|
 |lithoids_l_english.yml| completa|
 |mandates_l_english.yml| completa|
 |marauder_l_english.yml| completa|
-|megacorp_l_english.yml| completa|
+|megacorp_l_english.yml| **parziale**|
 |messages_l_english.yml| completa|
 |modifiers_2_l_english.yml| completa|
 |modifiers_3_l_english.yml| completa|
@@ -54,30 +56,36 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |modifiers_utopia_l_english.yml| completa|
 |musicplayer_l_english.yml| completa|
 |name_lists_l_english.yml| completa|
-|necroids_l_english.yml| completata|
-|new_scripted_loc_l_english.yml| completata|
-|observer_events_l_english.yml| completata|
-|observer_l_english.yml| completata|
-|pop_factions_l_english.yml| completata|
-|prescripted_l_english.yml| completata|
-|projects_2_l_english.yml| completata|
-|projects_3_l_english.yml| completata|
-|projects_4_l_english.yml| completata|
-|projects_5_l_english.yml| completata|
-|projects_l_english.yml| completata|
-|scripted_loc_l_english.yml| completata|
-|ship_sections_l_english.yml| completata|
-|social_gui_l_english.yml| completata|
-|standalone_l_english.yml| completata|
-|synthetic_dawn_events_l_english.yml| completata|
-|technology_l_english.yml| completata|
-|traditions_l_english.yml| parziale|
-|triggers_effects_l_english.yml| parziale|
-|tutorial_l_english.yml| completa|
+|necroids_l_english.yml| completa|
+|nemesis_content_l_english.yml| **da tradurre**|
+|nemesis_crisis_l_english.yml| completa|
+|nemesis_custodian_l_english.yml| **da tradurre**|
+|nemesis_espionage_l_english.yml| **da tradurre**|
+|nemesis_intel_l_english.yml| **da tradurre**|
+|observer_events_l_english.yml| completa|
+|observer_l_english.yml| completa|
+|pop_factions_l_english.yml| completa|
+|prescripted_l_english.yml| completa|
+|projects_2_l_english.yml| completa|
+|projects_3_l_english.yml| completa|
+|projects_4_l_english.yml| completa|
+|projects_5_l_english.yml| completa|
+|projects_l_english.yml| completa|
+|scripted_loc_l_english.yml| completa|
+|ship_browser_l_english.yml| completa|
+|ship_sections_l_english.yml| completa|
+|social_gui_l_english.yml| completa|
+|standalone_l_english.yml| completa|
+|synthetic_dawn_events_l_english.yml| completa|
+|technology_l_english.yml| completa|
+|traditions_l_english.yml| completa|
+|triggers_effects_l_english.yml| completa|
+|tutorial_l_english.yml| **parziale**|
 |unrest_l_english.yml| completa|
 |utopia_ascension_l_english.yml| completa|
 |utopia_l_english.yml| completa|
 |utopia_megastructures_l_english.yml| completa|
+|void_dweller_traditions_l_english.yml| completa|
 
 ### Cosa posso modificare?
 
@@ -87,7 +95,7 @@ Se dovesse servire invece aggiungere un file non ancora presente su questo repos
 
 Il file che indica a Stellaris la lista dei file _intoccabili_ si chiama `checksum_manifest.txt` e si trova all'interno della cartella principale di gioco. Attualmente il contenuto del file è il seguente:
 
-```
+```txt
 directory 
 name = common
 sub_directories = yes
@@ -134,7 +142,7 @@ Ogni file contiene delle stringhe formate da una chiave, uguale per ogni linguag
 crisis.2010.name:0 "Il Segnale Fantasma"
 ```
 
-In questo caso `crisis.2010.name:0` è la chiave, mentre `"Il Segnale Fantasma"` è la traduzione. Da notare i doppi apici `"` che delimitano il valore vero e proprio della traduzione, in questo caso già tradotto.
+In questo caso `crisis.2010.name` è la chiave, `0` è la versione (in caso di aggiornamenti alla chiave la versione viene incrementata), mentre `"Il Segnale Fantasma"` è la traduzione. Da notare i doppi apici `"` che delimitano il valore vero e proprio della traduzione, in questo caso già tradotto.
 
 ### Commenti
 
@@ -188,38 +196,42 @@ Da notare inoltre che i file di testo possono utilizzare dei caratteri speciali 
 
 Per contribuire alle traduzioni, potete clonare questo repository, aggiornare direttamente i file e poi procedere con una pull request per effettuare l'unione del vostro repository con quello principale.
 
-Se non siete pratici di `git`, il mio suggerimento è di diventarlo :) E' veramente semplice da utilizzare e vi permette di lavorare in locale sul vostro PC.
+Se non siete pratici di `git`, il mio suggerimento è di diventarlo :) È veramente semplice da utilizzare e vi permette di lavorare in locale sul vostro PC.
 
 Un'alternativa, è lavorare comunque sul vostro PC ma effettuare la proposta di modifica direttamente online. Una volta scaricato e tradotto il file che volete aggiornare:
 
-1. Tornate su questo repository, assicuratevi di essere sul branch **dev**
-![](meta/01.png)
+1. Tornate su questo repository, assicuratevi di essere sul ramo **dev**
+![Ramo dev](meta/01.png)
 
 1. Navigate fino al file che volete aggiornare e premete l'icona in alto a destra per la modifica, la matita che dice "Edit this file"
-![](meta/02.png)
+![Modifica file](meta/02.png)
 
 1. GitHub vi avverte che non avete permessi di scrittura sul repo, che verrà creato un repository uguale a questo sulla vostra utenza e che verrà creato un nuovo ramo con le vostre modifiche. A quel punto, potrete proporre una pull request sul repository principale. Fate una modifica puntuale o, in caso di modifiche multiple, direttamente copia e incolla di tutto il contenuto del vostro file aggiornato
-![](meta/03.png)
+![Modifica file](meta/03.png)
 
 1. premete `Preview changes` per verificare che le modifiche siano quelle che vi aspettate. Se è tutto ok, inserite un messaggio che descrive brevemente la vostra modifica e premete **Propose file change**
-![](meta/04.png)
+![Anteprima modifiche](meta/04.png)
 
 1. A questo punto avete aggiornato il vostro repository, e potete procedere con la proposta di unione. Premete il pulsante **Create pull request**, modificate il testo del commit - se per qualche motivo volete cambiare il testo rispetto a quanto avete inserito precedentemente - e poi premete nuovamente **Create pull request** per confermate
-![](meta/05.png) ![](meta/06.png)
+![Verifica differenze](meta/05.png) ![Crea pull request](meta/06.png)
 
 1. La vostra pull request è stata inoltrata correttamente, risulta in stato aperto (_Open_) e non dovrebbe dare errori di unione (_This branch has no conflicts with the base branch_)
-![](meta/07.png)
+![Stato pull request](meta/07.png)
 
 1. Attendete che la PR sia accettata e unita
 
 1. _Opzionale_. Una volta accetta la vostra PR sarà chiusa (_Closed_) e il vostro ramo con la modifica unito (_Merged_) a quello principale. Potete quindi decidere di cancellare il ramo che è rimasto nel vostro repository, visto che ha assolto al proprio compito di proporre la modifica che è stata accettata
-![](meta/08.png) ![](meta/09.png)
+![Ramo unito](meta/08.png) ![Cancella ramo](meta/09.png)
 
 ## Installazione mod da release
 
 Trovate le release già pronte del mod nell'apposita sezione [releases](https://github.com/Neurone/stellaris-italian-translation/releases). Scaricate la release che vi interessa e decomprimetela all'interno della cartella:
 
-    <%USERPROFILE%>\Documents\Paradox Interactive\Stellaris\mod
+```txt
+(Windows)   : %USERPROFILE%\Documents\Paradox Interactive\Stellaris\mod
+(GNU/Linux) : ~/.local/share/Paradox Interactive/Stellaris/mod
+(Mac)       : ~/Documents/Paradox Interactive/Stellaris/mod
+```
 
 Nel caso non fosse presente la cartella `mod` potete crearla voi normalmente.
 
@@ -227,82 +239,127 @@ Nel caso non fosse presente la cartella `mod` potete crearla voi normalmente.
 
 Clonare il repository:
 
-    git clone https://github.com/Neurone/stellaris-italian-translation.git
+```bash
+git clone https://github.com/Neurone/stellaris-italian-translation.git
+```
 
 Installare le dipendenze:
 
-    cd stellaris-italian-translation
-    npm install
+```bash
+cd stellaris-italian-translation
+npm install
+```
 
 ### Versione release
 
 Creare il mod:
 
-    npx grunt
+```bash
+npm run release
+```
 
 L'output sarà simile al seguente:
 
-    ~\stellaris-italian-translation> npx grunt
-    npx: installed 1 in 2.252s
-    Path must be a string. Received undefined
-    ~\stellaris-italian-translation\node_modules\grunt\bin\grunt
-    Running "clean:folder" (clean) task
-    >> 91 paths cleaned.
+```bash
+> stellaris-italian-translation@2.1.0 release
+> npx grunt
 
-    Running "copy:standalone" (copy) task
-    Created 1 directory, copied 86 files
+Running "clean:init" (clean) task
+>> 83 paths cleaned.
 
-    Running "compress:main" (compress) task
-    >> Compressed 87 files.
+Running "copy:release" (copy) task
+Created 5 directories, copied 73 files
 
-    Running "copy:complete" (copy) task
-    Copied 1 file
+Running "compress:build" (compress) task
+>> Compressed 78 files.
 
-    Done.
+Running "copy:complete" (copy) task
+Copied 1 file
 
-Verrà creato il file `stellaris-italian-translation-x.x.x.zip` all'interno della cartella `build\dist`, dove `x.x.x` sarà la versione corrente del mod (es. `1.0.0`).
+Running "compress:release" (compress) task
+>> Compressed 2 files.
+
+Running "clean:complete" (clean) task
+>> 2 paths cleaned.
+
+Done.
+```
+
+Verrà creato il file `stellaris-italian-translation-x.x.x.zip` all'interno della cartella `build\dist`, dove `x.x.x` sarà la versione corrente del mod (in questo esempio `2.1.0`).
 
 Per installare il mod, scompattare il file all'interno della cartella:
 
-    <%USERPROFILE%>\Documents\Paradox Interactive\Stellaris\mod
+```txt
+(Windows)   : %USERPROFILE%\Documents\Paradox Interactive\Stellaris\mod
+(GNU/Linux) : ~/.local/share/Paradox Interactive/Stellaris/mod
+(Mac)       : ~/Documents/Paradox Interactive/Stellaris/mod
+```
 
 Nel caso non fosse presente la cartella `mod` potete crearla voi normalmente. La struttura finale dei file sarà la seguente:
 
-    <%USERPROFILE%>\Documents\Paradox Interactive\Stellaris\mod\stellaris-italian-translation.zip
-    <%USERPROFILE%>\Documents\Paradox Interactive\Stellaris\mod\stellaris-italian-translation.mod
+```txt
+[...]/Paradox Interactive/Stellaris/mod/stellaris-italian-translation.zip (zip con tutte le risorse del mod)
+[...]/Paradox Interactive/Stellaris/mod/stellaris-italian-translation.mod (descrittore del mod)
+```
 
-### Versione sviluppo o Steam
+### Versione sviluppo o per Workshop Steam
 
-La versione sviluppo del mod è utile per fare modifiche, test o per effettuare il caricamento sullo Steam Workshop. La versione release **non permette** di fare il caricamento sullo Steam Workshop.
+La versione sviluppo del mod è utile per fare modifiche, test o per effettuare il caricamento sul Workshop Steam. **La versione release non permette di fare il caricamento sul Workshop Steam**.
 
 Creare il mod in versione sviluppo:
 
-    npx grunt dev
+```bash
+npm run dev
+```
 
 L'output sarà simile al seguente:
 
-    ~\stellaris-italian-translation> npx grunt dev
-    npx: installed 1 in 2.625s
-    Path must be a string. Received undefined
-    ~\stellaris-italian-translation\node_modules\grunt\bin\grunt
-    Running "clean:folder" (clean) task
-    >> 0 paths cleaned.
+```bash
+> stellaris-italian-translation@2.1.0 dev
+> npx grunt dev
 
-    Running "copy:dev" (copy) task
+Running "clean:init" (clean) task
+>> 83 paths cleaned.
 
+Running "copy:dev" (copy) task
+Created 5 directories, copied 75 files
 
-    Done.
+Running "copy:testing" (copy) task
+Created 6 directories, copied 75 files
+
+Done.
+```
 
 Verrà creata la cartella `build\dist` e all'interno troverete un file ed una cartella:
 
-    stellaris-italian-translation\*
-    stellaris-italian-translation.mod
+```txt
+stellaris-italian-translation\*
+stellaris-italian-translation.mod
+```
 
-Per installare il mod, copiate tutto **il contenuto** della cartella `build\dist` all'interno della cartella:
+Lo script copierà automaticamente tutti file necessari per il test nella cartella dei mod, in particolare:
 
-    <%USERPROFILE%>\Documents\Paradox Interactive\Stellaris\mod
+```txt
+(Windows)   : %USERPROFILE%\Documents\Paradox Interactive\Stellaris\mod
+(GNU/Linux) : ~/.local/share/Paradox Interactive/Stellaris/mod
+(Mac)       : ~/Documents/Paradox Interactive/Stellaris/mod
+```
 
-Nel caso non fosse presente la cartella `mod` potete crearla voi normalmente. La struttura finale dei file sarà la seguente:
+La struttura finale dei file sarà la seguente:
 
-    <%USERPROFILE%>\Documents\Paradox Interactive\Stellaris\mod\stellaris-italian-translation\...
-    <%USERPROFILE%>\Documents\Paradox Interactive\Stellaris\mod\stellaris-italian-translation.mod
+```txt
+[...]/Paradox Interactive/Stellaris/mod/stellaris-italian-translation/... (cartella contenente tutte le risorse del mod)
+[...]/Paradox Interactive/Stellaris/mod/stellaris-italian-translation.mod (descrittore del mod)
+```
+
+## Configurazione di integrazione per Transifex
+
+```yml
+filters:
+  - filter_type: dir
+    file_format: YAML_GENERIC
+    source_file_extension: yml
+    source_language: en
+    source_file_dir: src/transifex-en/
+    translation_files_expression: 'src/transifex-<lang>/'
+```

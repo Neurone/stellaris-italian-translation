@@ -10,24 +10,24 @@
  ### NEW FACTIONS
 
  # Descriptors
- pft_supremacist:2 "Fazione Suprematista"
- pft_supremacist_desc:4 "Le Fazioni Suprematiste desiderano il dominio dell'impero della loro Specie Fondatrice. Pretendono Politiche che vadano a beneficio della loro specie ed a svantaggio delle altre.\n\n§LEtiche Xenofobe§!"
+ pft_supremacist:0 "Fazione Suprematista"
+ pft_supremacist_desc:0 "Le Fazioni Suprematiste desiderano il dominio dell'impero della loro Specie Fondatrice. Pretendono Politiche che vadano a beneficio della loro specie ed a svantaggio delle altre.\n\n§LEtiche Xenofobe§!"
  pft_traditionalist:0 "Fazione Tradizionalista"
- pft_traditionalist_desc:1 "Le Fazioni Tradizionaliste desiderano un ritorno ai valori tradizionali che avrebbero potuto esistere o meno prima che il nostro impero raggiungesse le stelle. Amano l'austerità e disdegnano certi avanzamenti tecnologici ed i valori non spirituali.\n\n§LEtiche Spiritualiste§!"
+ pft_traditionalist_desc:0 "Le Fazioni Tradizionaliste desiderano un ritorno ai valori tradizionali che avrebbero potuto esistere o meno prima che il nostro impero raggiungesse le stelle. Amano l'austerità e disdegnano certi avanzamenti tecnologici ed i valori non spirituali.\n\n§LEtiche Spiritualiste§!"
  pft_progressive:0 "Fazione Progressista"
- pft_progressive_desc:1 "Le Fazioni Progressiste desiderano una struttura sociale non discriminante e disdegnano le forme non rappresentative di governo.\n\n§LEtiche Egualitarie§!"
+ pft_progressive_desc:0 "Le Fazioni Progressiste desiderano una struttura sociale non discriminante e disdegnano le forme non rappresentative di governo.\n\n§LEtiche Egualitarie§!"
  pft_imperialist:0 "Fazione Imperialista"
- pft_imperialist_desc:1 "Le Fazioni Imperialiste desiderano il dominio sugli altri imperi. Amano la Rivalità e la conquista dei territori; disdegnano fare affidamento sugli altri.\n\n§LEtiche Militariste§!"
+ pft_imperialist_desc:0 "Le Fazioni Imperialiste desiderano il dominio sugli altri imperi. Amano la Rivalità e la conquista dei territori; disdegnano fare affidamento sugli altri.\n\n§LEtiche Militariste§!"
  pft_isolationist:0 "Fazione Isolazionista"
- pft_isolationist_desc:2 "Le Fazioni Isolazioniste desiderano l'isolamento; cercano di avere il minor numero di rapporti con gli altri imperi... tranne che per i patti di non aggressione. Disdegnano la guerra offensiva ed essere visti come un facile bersaglio.\n\n§LEtiche Xenofobe§!"
+ pft_isolationist_desc:0 "Le Fazioni Isolazioniste desiderano l'isolamento; cercano di avere il minor numero di rapporti con gli altri imperi... tranne che per i patti di non aggressione. Disdegnano la guerra offensiva ed essere visti come un facile bersaglio.\n\n§LEtiche Xenofobe§!"
  pft_technologist:0 "Fazione Tecnologista"
- pft_technologist_desc:1 "Le Fazioni Tecnologiste desiderano un impero basato sul progresso scientifico ed i frutti dello sviluppo tecnologico. Disdegnano i divieti tecnologici dettati dalla politica, oltre ad essere inferiori nel progresso rispetto ad altri imperi. Amano i Trattati di Ricerca, essere tecnologicamente più avanzati degli altri imperi e l'utilizzo pratico delle IA.\n\n§LEtiche Materialiste§!"
+ pft_technologist_desc:0 "Le Fazioni Tecnologiste desiderano un impero basato sul progresso scientifico ed i frutti dello sviluppo tecnologico. Disdegnano i divieti tecnologici dettati dalla politica, oltre ad essere inferiori nel progresso rispetto ad altri imperi. Amano i Trattati di Ricerca, essere tecnologicamente più avanzati degli altri imperi e l'utilizzo pratico delle IA.\n\n§LEtiche Materialiste§!"
  pft_totalitarian:0 "Fazione Totalitaria"
- pft_totalitarian_desc:1 "Le Fazioni Totalitarie desiderano società rigorosamente stratificate guidate da un singolo individuo o da una congrega autoritaria. Disdegnano l'uguaglianza di diritti ed amano la schiavitù.\n\n§LEtiche Autoritarie§!"
+ pft_totalitarian_desc:0 "Le Fazioni Totalitarie desiderano società rigorosamente stratificate guidate da un singolo individuo o da una congrega autoritaria. Disdegnano l'uguaglianza di diritti ed amano la schiavitù.\n\n§LEtiche Autoritarie§!"
  pft_xenoist:0 "Fazione Xenofila"
- pft_xenoist_desc:1 "Le Fazioni Xenofile desiderano maggior valore verso la vita e la cultura aliena. Amano la popolazione eterogenea e l'interazione con le altre specie. Disdegnano la schiavitù e l'epurazione razziale.\n\n§LEtiche Xenofile§!"
+ pft_xenoist_desc:0 "Le Fazioni Xenofile desiderano maggior valore verso la vita e la cultura aliena. Amano la popolazione eterogenea e l'interazione con le altre specie. Disdegnano la schiavitù e l'epurazione razziale.\n\n§LEtiche Xenofile§!"
  pft_prosperity:0 "Fazione Materialista"
- pft_prosperity_desc:2 "Le Fazioni Materialiste desiderano la crescita economica e l'acquisizione di risorse. Amano i crediti energetici e le risorse strategiche; disdegnano i conflitti armati che interrompono lo sviluppo interno.\n\n§LEtiche Pacifiste§!"
+ pft_prosperity_desc:0 "Le Fazioni Materialiste desiderano la crescita economica e l'acquisizione di risorse. Amano i crediti energetici e le risorse strategiche; disdegnano i conflitti armati che interrompono lo sviluppo interno.\n\n§LEtiche Pacifiste§!"
  pft_democratic_election_1:0 "Fazione del Partito Democratico"
  pft_democratic_election_1_desc:0 "Le Fazioni del Partito Democratico emergono durante le Elezioni Imperiali e si dissipano poco dopo; servono come mezzo per porre alla ribalta politica qualche Leader."
  pft_democratic_election_2:0 "$pft_democratic_election_1$"
@@ -49,9 +49,9 @@
  SUPREMACIST_SLAVERY_OUTLAWED:0 "Schiavitù Fuorilegge"
  SUPREMACIST_HAS_ALIEN_SLAVES:0 "Accesso agli Schiavi Xeno"
  SUPREMACIST_NO_ALIEN_SLAVES:0 "Carenza di Schiavi Xeno"
- SUPREMACIST_NO_FREE_ALIENS:1 "Privazione del Diritto di Voto agli Xeno"
+ SUPREMACIST_NO_FREE_ALIENS:0 "Privazione del Diritto di Voto agli Xeno"
  SUPREMACIST_HAS_FREE_ALIENS:0 "$SUPREMACIST_NO_FREE_ALIENS$"
- SUPREMACIST_ALIEN_SLAVES_DESC:1 "Assicurarsi che nessuna specie Xeno benefici della Piena Cittadinanza li renderà felici."
+ SUPREMACIST_ALIEN_SLAVES_DESC:0 "Assicurarsi che nessuna specie Xeno benefici della Piena Cittadinanza li renderà felici."
  SUPREMACIST_ALL_SLAVERY_ALLOWED:0 "Schiavitù del Popolo [Root.Owner.GetSpeciesName] Permessa"
  SUPREMACIST_ALL_SLAVERY_DESC:0 "Sono infuriati all'idea che qualcuno possa schiavizzare un [Root.Owner.GetSpeciesName], e desiderano che la schiavitù venga limitata agli Xeno."
  LEADER_IS_OWNER_SPECIES:0 "[Root.Owner.GetRulerTitle] è un [Root.Owner.GetSpeciesName]"
@@ -65,43 +65,46 @@
  SUPREMACIST_DOMINATION_DESC:0 "Dichiarare guerra contro uno o più Imperi Xeno li renderà felici per un po'."
  SUPREMACIST_NO_DOMINATION:0 "$SUPREMACIST_DOMINATION$"
  SUPREMACIST_GENE_MOD:0 "Purezza Genetica"
- SUPREMACIST_GENE_MOD_DESC:1 "Assicurarsi che tutta la POP abbia esattamente gli stessi tratti genetici li renderà felici."
+ SUPREMACIST_GENE_MOD_DESC:0 "Assicurarsi che tutta la popolazione abbia esattamente gli stessi tratti genetici li renderà felici."
  SUPREMACIST_IMPURE:0 "Impurità Popolo [Root.Owner.GetSpeciesAdj]"
  SUPREMACIST_NO_HARMONY:0 "Disarmonia"
  SUPREMACIST_HARMONY:0 "$SUPREMACIST_NO_HARMONY$"
  SUPREMACIST_NO_HARMONY_DESC:0 "Adottare le Tradizioni d'Armonia, che alludono alla presunta uguaglianza tra noi e le specie minori, li contrarierà."
- SUPREMACIST_FANATIC_PURIFIERS:1 "$civic_fanatic_purifiers$"
- SUPREMACIST_NOT_FANATIC_PURIFIERS:1 "$civic_fanatic_purifiers$"
- SUPREMACIST_FANATIC_PURIFIERS_DESC:1 "$civic_fanatic_purifiers_desc$"
+ SUPREMACIST_FANATIC_PURIFIERS:0 "$civic_fanatic_purifiers$"
+ SUPREMACIST_NOT_FANATIC_PURIFIERS:0 "$civic_fanatic_purifiers$"
+ SUPREMACIST_FANATIC_PURIFIERS_DESC:0 "$civic_fanatic_purifiers_desc$"
  SUPREMACIST_DOMINATION_TRADITION:0 "Dominio Tradizionale"
- SUPREMACIST_NO_DOMINATION_TRADITION:1 "$SUPREMACIST_DOMINATION_TRADITION$"
+ SUPREMACIST_NO_DOMINATION_TRADITION:0 "$SUPREMACIST_DOMINATION_TRADITION$"
  SUPREMACIST_DOMINATION_TRADITION_DESC:0 "Adottare una qualunque Tradizione che enfatizzi la §YDominazione§! li renderà felici."
  SUPREMACIST_GIANT_MASSACRE:0 "Massacro Gigante"
  SUPREMACIST_NO_GIANT_MASSACRE:0 "$SUPREMACIST_GIANT_MASSACRE$"
  SUPREMACIST_GIANT_MASSACRE_DESC:0 "Mettere fine alla misera vita di un qualunque gigantesco §YLeviatano§! li renderà felici per un po'."
  SUPREMACIST_ISOLATIONIST_NO_FEDERATION:0 "Forti da Soli"
- SUPREMACIST_ISOLATIONIST_NO_FEDERATION_DESC:1 "Permettere al nostro popolo di essere sfruttato dagli alieni §Yunendoci ad una Federazione§! li contrarierà."
- SUPREMACIST_ISOLATIONIST_FEDERATION:1 "$SUPREMACIST_ISOLATIONIST_NO_FEDERATION$"
+ SUPREMACIST_ISOLATIONIST_NO_FEDERATION_DESC:0 "Permettere al nostro popolo di essere sfruttato dagli alieni §Yunendoci ad una Federazione§! li contrarierà."
+ SUPREMACIST_ISOLATIONIST_FEDERATION:0 "$SUPREMACIST_ISOLATIONIST_NO_FEDERATION$"
  SUPREMACIST_PROCLAIM_SUPREMACY:0 "Disprezzo della Storia"
  SUPREMACIST_NO_PROCLAIM_SUPREMACY:0 "$SUPREMACIST_PROCLAIM_SUPREMACY$"
  SUPREMACIST_PROCLAIM_SUPREMACY_DESC:0 "Mostrare disprezzo verso le antiche civiltà distruggendo i loro Artefatti Minori li renderà felici per un po'."
  SUPREMACIST_CELEBRATE_DIVERSITY:0 "Celebrazione della Debolezza"
  SUPREMACIST_NO_CELEBRATE_DIVERSITY:0 "$SUPREMACIST_CELEBRATE_DIVERSITY$"
  SUPREMACIST_CELEBRATE_DIVERSITY_DESC:0 "Mettere in mostra gli Artefatti Minori di civiltà inferiori li contrarierà per un po'."
- 
+ SUPREMACIST_AGGRESSIVE_FIRST_CONTACT_POLICY:0 "Protocolli Aggressivo di Primo Contatto"
+ SUPREMACIST_NO_AGGRESSIVE_FIRST_CONTACT_POLICY:0 "$SUPREMACIST_AGGRESSIVE_FIRST_CONTACT_POLICY$"
+ SUPREMACIST_NO_AGGRESSIVE_FIRST_CONTACT_POLICY_DESC:0 "Abbiamo il diritto di prendere tutte le misure necessarie contro minacce sconosciute che potremmo incontrare mentre viaggiamo tra le stelle."
+
  # XENOISTS
  XENOIST_PASSIVE_STUDY:0 "Xenologia Indiretta"
  XENOIST_PASSIVE_STUDY_DESC:0 "Promulgare leggi a favore dello studio passivo dei nativi li renderà felici."
  XENOIST_NO_PASSIVE_STUDY:0 "$XENOIST_PASSIVE_STUDY$"
- XENOIST_NO_SLAVES:1 "Nessuna Schiavitù di Specie"
- XENOIST_NO_SLAVES_DESC:3 "Fallire nel decretare fuorilegge la schiavitù di un'intera specie li contrarierà enormemente."
+ XENOIST_NO_SLAVES:0 "Nessuna Schiavitù di Specie"
+ XENOIST_NO_SLAVES_DESC:0 "Fallire nel decretare fuorilegge la schiavitù di un'intera specie li contrarierà enormemente."
  XENOIST_SLAVES:0 "$XENOIST_NO_SLAVES$"
- XENOIST_NO_PURGE:1 "Nessuna Epurazione"
- XENOIST_NO_PURGE_DESC:2 "Fallire nel decretare fuorilegge l'epurazione di un'intera qualsiasi specie li contrarierà enormemente."
+ XENOIST_NO_PURGE:0 "Nessuna Epurazione"
+ XENOIST_NO_PURGE_DESC:0 "Fallire nel decretare fuorilegge l'epurazione di un'intera qualsiasi specie li contrarierà enormemente."
  XENOIST_PURGE:0 "$XENOIST_NO_PURGE$"
  XENOIST_ENCLAVE_BORDERS:0 "Enclavi Integrate"
  XENOIST_ENCLAVE_BORDERS_DESC:0 "Mantenere un'Enclave all'interno dei nostri confini semplificherà gli scambi culturali, rendendoli felici."
- XENOIST_NO_ENCLAVE_BORDERS:1 "$XENOIST_ENCLAVE_BORDERS$"
+ XENOIST_NO_ENCLAVE_BORDERS:0 "$XENOIST_ENCLAVE_BORDERS$"
  XENOIST_MULTICULTURALISM:0 "Società Multiculturale"
  XENOIST_MULTICULTURALISM_DESC:0 "Ospitare almeno §Y4§! specie uniche all'interno del nostro impero li renderà felici."
  XENOIST_NO_MULTICULTURALISM:0 "$XENOIST_MULTICULTURALISM$"
@@ -117,9 +120,9 @@
  XENOIST_RECENT_ENLIGHTENMENT:0 "Recente Educazione"
  XENOIST_RECENT_ENLIGHTENMENT_DESC:0 "Educare una specie aliena primitiva alle meraviglie dell'era spaziale, nella maniera meno invasiva possibile, li renderà felici per un certo periodo."
  XENOIST_NO_RECENT_ENLIGHTENMENT:0 "$XENOIST_RECENT_ENLIGHTENMENT$"
- XENOIST_DIPLOMACY_TRADITION:1 "Tradizioni [Root.GetDiplomacyTraditionName]"
+ XENOIST_DIPLOMACY_TRADITION:0 "Tradizioni [Root.GetDiplomacyTraditionName]"
  XENOIST_NO_DIPLOMACY_TRADITION:0 "$XENOIST_DIPLOMACY_TRADITION$"
- XENOIST_DIPLOMACY_TRADITION_DESC:1 "Adottare Tradizioni §Y[Root.GetDiplomacyTraditionName]§! li renderà felici."
+ XENOIST_DIPLOMACY_TRADITION_DESC:0 "Adottare Tradizioni §Y[Root.GetDiplomacyTraditionName]§! li renderà felici."
  XENOIST_PRE_SAPIENT_SURVIVAL:0 "Sopravvivenza Pre-Sapiente"
  XENOIST_NO_PRE_SAPIENT_SURVIVAL:0 "$XENOIST_PRE_SAPIENT_SURVIVAL$"
  XENOIST_PRE_SAPIENT_SURVIVAL_DESC:0 "Non garantire la sopravvivenza delle Specie Pre-Sapienti li contrarierà."
@@ -138,25 +141,31 @@
  XENOIST_PROCLAIM_SUPREMACY:0 "Bruciatori di Libri"
  XENOIST_NO_PROCLAIM_SUPREMACY:0 "$XENOIST_PROCLAIM_SUPREMACY$"
  XENOIST_PROCLAIM_SUPREMACY_DESC:0 "Distruggere gli Artefatti Minori, manifestando xenofobia, li contrarierà per un po'."
+ XENOIST_PROACTIVE_FIRST_CONTACT_POLICY:0 "Protocolli di Primo Contatto Proattivi"
+ XENOIST_ADOPT_PROACTIVE_FIRST_CONTACT_POLICY:0 "$XENOIST_PROACTIVE_FIRST_CONTACT_POLICY$"
+ XENOIST_PROACTIVE_FIRST_CONTACT_POLICY_DESC:0 "L'inserimento di un approccio pacifico e §Yproattivo§! per stabilire il primo contatto nelle nostre leggi farà piacere a [Root.GetName] in quest'era di esplorazione."
+ XENOIST_AGGRESSIVE_FIRST_CONTACT_POLICY:0 "Protocolli di Primo Contatto Aggressivi"
+ XENOIST_NO_AGGRESSIVE_FIRST_CONTACT_POLICY:0 "$XENOIST_AGGRESSIVE_FIRST_CONTACT_POLICY$"
+ XENOIST_AGGRESSIVE_FIRST_CONTACT_POLICY_DESC:0 "L'incapacità di legiferare contro l'§Yaggressione§! nei confronti di coloro che incontriamo nei nostri viaggi dispiacerà a [Root.GetName] in questa era di esplorazione."
 
  # IMPERIALISTS
  IMPERIALIST_PHILOSOPHY:0 "Diplomazia Aggressiva"
- IMPERIALIST_PHILOSOPHY_DESC:2 "Non permettere la guerra offensiva li contrarierà."
+ IMPERIALIST_PHILOSOPHY_DESC:0 "Non permettere la guerra offensiva li contrarierà."
  IMPERIALIST_NO_PHILOSOPHY:0 "$IMPERIALIST_PHILOSOPHY$"
- IMPERIALIST_CONQUEST:2 "Conquista"
- IMPERIALIST_CONQUEST_DESC:1 "Conquistare pianeti alieni li renderà felici per un certo periodo."
+ IMPERIALIST_CONQUEST:0 "Conquista"
+ IMPERIALIST_CONQUEST_DESC:0 "Conquistare pianeti alieni li renderà felici per un certo periodo."
  IMPERIALIST_NO_CONQUEST:0 "$IMPERIALIST_CONQUEST$"
  IMPERIALIST_FRONTIER_OUTPOSTS:0 "Espansione dei Confini"
- IMPERIALIST_FRONTIER_OUTPOSTS_DESC:1 "Costruire un §YAvamposto di Frontiera§! per espandere il nostro territorio li renderà felici per un certo periodo."
+ IMPERIALIST_FRONTIER_OUTPOSTS_DESC:0 "Costruire un §YAvamposto di Frontiera§! per espandere il nostro territorio li renderà felici per un certo periodo."
  IMPERIALIST_NO_RECENT_FRONTIER_OUTPOSTS:0 "$IMPERIALIST_FRONTIER_OUTPOSTS$"
  IMPERIALIST_RIVALS1:0 "Rivalità Locale"
- IMPERIALIST_RIVALS_DESC1:1 "Trovarsi in Rivalità con almeno §Y1 impero§! li renderà felici."
+ IMPERIALIST_RIVALS_DESC1:0 "Trovarsi in Rivalità con almeno §Y1 impero§! li renderà felici."
  IMPERIALIST_FEW_RIVALS1:0 "$IMPERIALIST_RIVALS1$"
  IMPERIALIST_RIVALS2:0 "Rivalità tra Vicini"
- IMPERIALIST_RIVALS_DESC2:1 "Trovarsi in Rivalità con almeno §Y2 imperi§! li renderà felici."
+ IMPERIALIST_RIVALS_DESC2:0 "Trovarsi in Rivalità con almeno §Y2 imperi§! li renderà felici."
  IMPERIALIST_FEW_RIVALS2:0 "$IMPERIALIST_RIVALS2$"
  IMPERIALIST_RIVALS3:0 "Nemesi Galattica"
- IMPERIALIST_RIVALS_DESC3:1 "Trovarsi in Rivalità con almeno §Y3 imperi§! li renderà felici."
+ IMPERIALIST_RIVALS_DESC3:0 "Trovarsi in Rivalità con almeno §Y3 imperi§! li renderà felici."
  IMPERIALIST_FEW_RIVALS3:0 "$IMPERIALIST_RIVALS3$"
  IMPERIALIST_OVERLORD:0 "Egemonia Imperiale"
  IMPERIALIST_NOT_OVERLORD:0 "$IMPERIALIST_OVERLORD$"
@@ -177,10 +186,9 @@
  IMPERIALIST_NO_PEACEFUL_APPLICATIONS:0 "$IMPERIALIST_PEACEFUL_APPLICATIONS$"
  IMPERIALIST_PEACEFUL_APPLICATIONS_DESC:0 "Sprecare gli Artefatti Minori per futili banalità li contrarierà per un po'."
 
- 
  # ISOLATIONISTS
  ISOLATIONIST_PHILOSOPHY:0 "Prode Difesa"
- ISOLATIONIST_PHILOSOPHY_DESC:1 "Vietare la §YGuerra Senza Restrizioni§! li renderà felici."
+ ISOLATIONIST_PHILOSOPHY_DESC:0 "Vietare la §YGuerra Senza Restrizioni§! li renderà felici."
  ISOLATIONIST_NO_PHILOSOPHY:0 "$ISOLATIONIST_PHILOSOPHY$"
  ISOLATIONIST_NO_AGGRESSIVE_WAR:0 "Aggressione Forzata"
  ISOLATIONIST_AGGRESSIVE_WAR:0 "$ISOLATIONIST_NO_AGGRESSIVE_WAR$"
@@ -189,22 +197,22 @@
  ISOLATIONIST_DEFENSIVE_WAR:0 "$ISOLATIONIST_NO_DEFENSIVE_WAR$"
  ISOLATIONIST_NO_DEFENSIVE_WAR_DESC:0 "Imbracciare le armi, anche solamente per difendersi, li contrarierà per un po'."
  ISOLATIONIST_NO_DIPLO:0 "Diplomazia Minima"
- ISOLATIONIST_NO_DIPLO_DESC:1 "Non riuscire ad eliminare i legami non essenziali con i poteri stranieri, come Trattati di Migrazione, Accordi di Ricerca e Patti Difensivi, li contrarierà."
+ ISOLATIONIST_NO_DIPLO_DESC:0 "Non riuscire ad eliminare i legami non essenziali con i poteri stranieri, come Trattati di Migrazione, Accordi di Ricerca e Patti Difensivi, li contrarierà."
  ISOLATIONIST_DIPLO:0 "$ISOLATIONIST_NO_DIPLO$"
  ISOLATIONIST_MOVEMENT_RESTRICTED:0 "Spostamenti Limitati"
  ISOLATIONIST_MOVEMENT_UNRESTRICTED:0 "$ISOLATIONIST_MOVEMENT_RESTRICTED$"
  ISOLATIONIST_MOVEMENT_RESTRICTED_DESC:0 "Qualunque influsso di xeno, che siano rifugiati o immigrati, li contrarierà."
  ISOLATIONIST_REFUGEES_RESTRICTED:0 "Restrizioni ai Rifugiati"
- ISOLATIONIST_REFUGEES_RESTRICTED_DESC:1 "Non riuscire a limitare il flusso migratorio verso il nostro impero li contrarierà."
+ ISOLATIONIST_REFUGEES_RESTRICTED_DESC:0 "Non riuscire a limitare il flusso migratorio verso il nostro impero li contrarierà."
  ISOLATIONIST_REFUGEES_UNRESTRICTED:0 "$ISOLATIONIST_REFUGEES_RESTRICTED$"
  ISOLATIONIST_NON_AGGRESSION1:0 "Patto di Non Aggressione"
- ISOLATIONIST_NON_AGGRESSION_DESC1:1 "Un §YPatto di Non Aggressione§! stipulato con un altro impero li renderà felici."
+ ISOLATIONIST_NON_AGGRESSION_DESC1:0 "Un §YPatto di Non Aggressione§! stipulato con un altro impero li renderà felici."
  ISOLATIONIST_FEW_NON_AGGRESSION1:0 "$ISOLATIONIST_NON_AGGRESSION1$"
  ISOLATIONIST_NON_AGGRESSION2:0 "Impegno di Non Aggressione"
- ISOLATIONIST_NON_AGGRESSION_DESC2:1 "I §YPatti di Non Aggressione§! con altri imperi vengono considerati essenziali, e possederne almeno §Y2§! li renderà felici."
+ ISOLATIONIST_NON_AGGRESSION_DESC2:0 "I §YPatti di Non Aggressione§! con altri imperi vengono considerati essenziali, e possederne almeno §Y2§! li renderà felici."
  ISOLATIONIST_FEW_NON_AGGRESSION2:0 "$ISOLATIONIST_NON_AGGRESSION2$"
  ISOLATIONIST_NON_AGGRESSION3:0 "Protocollo di Non Aggressione"
- ISOLATIONIST_NON_AGGRESSION_DESC3:1 "I §YPatti di Non Aggressione§! con altri imperi vengono considerati essenziali, e possederne almeno §Y3§! li renderà felici."
+ ISOLATIONIST_NON_AGGRESSION_DESC3:0 "I §YPatti di Non Aggressione§! con altri imperi vengono considerati essenziali, e possederne almeno §Y3§! li renderà felici."
  ISOLATIONIST_FEW_NON_AGGRESSION3:0 "$ISOLATIONIST_NON_AGGRESSION3$"
  ISOLATIONIST_PEACE1:0 "Pace"
  ISOLATIONIST_PEACE_DESC1:0 "Stare alla larga di conflitti galattici su vasta scala per §Y10 anni o più§! li renderà felici."
@@ -221,10 +229,13 @@
  ISOLATIONIST_DEFENSIVE_STATIONS:0 "Difesa dello Spazio Profondo"
  ISOLATIONIST_DEFENSIVE_STATIONS_DESC:0 "Possedere almeno §Y1§! Stazione Militare in ogni sistema colonizzato li renderà felici."
  ISOLATIONIST_FEW_DEFENSIVE_STATIONS:0 "$ISOLATIONIST_DEFENSIVE_STATIONS$"
+ ISOLATIONIST_REPEAL_PROACTIVE_FIRST_CONTACT_POLICY:0 "Protocolli di Primo Contatto Proattivi"
+ ISOLATIONIST_NO_PROACTIVE_FIRST_CONTACT_POLICY:0 "$ISOLATIONIST_REPEAL_PROACTIVE_FIRST_CONTACT_POLICY$"
+ ISOLATIONIST_REPEAL_PROACTIVE_FIRST_CONTACT_POLICY_DESC:0 "La fazione [Root.GetName] non ritiene appropriato trasmettere informazioni su noi stessi attraverso le stelle a chiunque stia ascoltando."
 
  # TRADITIONALISTS
  TRADITIONALIST_NO_ROBOTS:0 "Vita Organica"
- TRADITIONALIST_NO_ROBOTS_DESC:1 "Permettere il rimpiazzo della vita organica con lavoratori robotici li contrarierà."
+ TRADITIONALIST_NO_ROBOTS_DESC:0 "Permettere il rimpiazzo della vita organica con lavoratori robotici li contrarierà."
  TRADITIONALIST_ROBOTS:0 "Gusci Vuoti"
  TRADITIONALIST_NO_ROBOT_RIGHTS:0 "Nessun Diritto ai Sintetici"
  TRADITIONALIST_NO_ROBOT_RIGHTS_DESC:0 "Fallire nel mettere fuorilegge la profanità di quelle macchine pensanti li contrarierà."
@@ -233,7 +244,7 @@
  TRADITIONALIST_NO_FULL_ROBOT_RIGHTS_DESC:0 "Concedere ai Sintetici senz'anima i pieni diritti di cittadinanza li contrarierà enormemente."
  TRADITIONALIST_FULL_ROBOT_RIGHTS:0 "Macchine Profane"
  TRADITIONALIST_SPIRITUALIST_GOVERNMENT:0 "Governo Pio"
- TRADITIONALIST_SPIRITUALIST_GOVERNMENT_DESC:1 "Possedere valori Spiritualisti nelle etiche governative imperiali li renderà felici."
+ TRADITIONALIST_SPIRITUALIST_GOVERNMENT_DESC:0 "Possedere valori Spiritualisti nelle etiche governative imperiali li renderà felici."
  TRADITIONALIST_SECULAR_GOVERNMENT:0 "Impero Secolare"
  TRADITIONALIST_SPIRITUALIST_POPS:0 "Omogeneità"
  TRADITIONALIST_SPIRITUALIST_POPS_DESC:0 "Anche le menti pie pensano; fare in modo che almeno il §Y25%§! della nostra popolazione sia in qualche modo Spiritualista li renderà felici."
@@ -245,10 +256,10 @@
  TRADITIONALIST_FRUGALITY_DESC:0 "Mantenere un basso dispendio di Generi di Consumo li renderà felici."
  TRADITIONALIST_BIG_SPENDING:0 "Eccesso Insensato"
  TRADITIONALIST_NO_TOMB_WORLDS:0 "Terra Sconsacrata"
- TRADITIONALIST_NO_TOMB_WORLDS_DESC:1 "Mettere piede su un §YPianeta Sepolcro§!, anche con lo scopo di terraformarlo, li sconvolgerà."
+ TRADITIONALIST_NO_TOMB_WORLDS_DESC:0 "Mettere piede su un §YPianeta Sepolcro§!, anche con lo scopo di terraformarlo, li sconvolgerà."
  TRADITIONALIST_TOMB_WORLDS:0 "$TRADITIONALIST_NO_TOMB_WORLDS$"
- TRADITIONALIST_GAIA_WORLDS:1 "Pianeta Sacro"
- TRADITIONALIST_GAIA_WORLDS_DESC:2 "§YConsacrare§! un §YPianeta Gaia§! incontaminato all'interno dei nostri confini li renderà felici."
+ TRADITIONALIST_GAIA_WORLDS:0 "Pianeta Sacro"
+ TRADITIONALIST_GAIA_WORLDS_DESC:0 "§YConsacrare§! un §YPianeta Gaia§! incontaminato all'interno dei nostri confini li renderà felici."
  TRADITIONALIST_NO_GAIA_WORLDS:0 "$TRADITIONALIST_GAIA_WORLDS$"
  TRADITIONALIST_UNBLISSED:0 "Astinenza Benedetta"
  TRADITIONALIST_BLISSED:0 "$TRADITIONALIST_UNBLISSED$"
@@ -262,9 +273,9 @@
  TRADITIONALIST_PURITY_TRADITION:0 "Purezza Tradizionale"
  TRADITIONALIST_NO_PURITY_TRADITION:0 "$TRADITIONALIST_PURITY_TRADITION$"
  TRADITIONALIST_PURITY_TRADITION_DESC:0 "Adottare una qualunque Tradizione che enfatizzi la §YPurezza§! li renderà felici."
- TRADITIONALIST_PSIONIC_PURSUIT:2 "Ricerca Psionica"
- TRADITIONALIST_NO_PSIONIC_PURSUIT:1 "$TRADITIONALIST_PSIONIC_PURSUIT$"
- TRADITIONALIST_PSIONIC_PURSUIT_DESC:2 "Adottare il Bonus d'Ascensione §YMente al di Sopra della Materia§! li renderà felici."
+ TRADITIONALIST_PSIONIC_PURSUIT:0 "Ricerca Psionica"
+ TRADITIONALIST_NO_PSIONIC_PURSUIT:0 "$TRADITIONALIST_PSIONIC_PURSUIT$"
+ TRADITIONALIST_PSIONIC_PURSUIT_DESC:0 "Adottare il Beneficio d'Ascensione §YMente al di Sopra della Materia§! li renderà felici."
  TRADITIONALIST_SHROUD_BOON:0 "Manna dal Velo"
  TRADITIONALIST_NO_SHROUD_BOON:0 "$TRADITIONALIST_SHROUD_BOON$"
  TRADITIONALIST_SHROUD_BOON_DESC:0 "Ottenere dei benefici dal Velo li renderà felici per un po'."
@@ -277,13 +288,13 @@
  TRADITIONALIST_RELIGIOUS_FINDING:0 "Conforto nel Passato"
  TRADITIONALIST_NO_RELIGIOUS_FINDING:0 "$TRADITIONALIST_RELIGIOUS_FINDING$"
  TRADITIONALIST_RELIGIOUS_FINDING_DESC:0 "Trovare significati religiosi negli Artefatti Minori li renderà felici per un po'."
- 
+
  # TECHNOLOGISTS
  TECHNOLOGIST_ROBOTS:0 "Amore Artificiale"
  TECHNOLOGIST_ROBOTS_DESC:0 "Mantenere una popolazione di almeno §Y6§! POP Robotica li renderà felici."
  TECHNOLOGIST_FEW_ROBOTS:0 "$TECHNOLOGIST_ROBOTS$"
  TECHNOLOGIST_ROBOTS_ALLOWED:0 "IA Permesse"
- TECHNOLOGIST_ROBOTS_ALLOWED_DESC:1 "Permettere lo sviluppo e lo studio dell'Intelligenza Artificiale e Robotica li renderà felici"
+ TECHNOLOGIST_ROBOTS_ALLOWED_DESC:0 "Permettere lo sviluppo e lo studio dell'Intelligenza Artificiale e Robotica li renderà felici"
  TECHNOLOGIST_ROBOTS_BANNED:0 "IA Fuorilegge"
  TECHNOLOGIST_TECH_LEAP:0 "All'Avanguardia"
  TECHNOLOGIST_TECH_LEAP_DESC:0 "Possedere sempre una tecnologia all'avanguardia e non permettere che nessun altro impero ci superi li renderà felici."
@@ -310,15 +321,15 @@
  # PROGRESSIVES
  PROGRESSIVE_NO_AUTO:0 "Anti-Autocratici"
  PROGRESSIVE_AUTO:0 "$PROGRESSIVE_NO_AUTO$"
- PROGRESSIVE_DEMOCRATIC_GOVERNMENT_DESC:1 "Un governo nominalmente eletto li renderà felici."
+ PROGRESSIVE_DEMOCRATIC_GOVERNMENT_DESC:0 "Un governo nominalmente eletto li renderà felici."
  PROGRESSIVE_FREE_MOVEMENT:0 "Libero Spostamento"
  PROGRESSIVE_NO_FREE_MOVEMENT:0 "$PROGRESSIVE_FREE_MOVEMENT$"
- PROGRESSIVE_FREE_MOVEMENT_DESC:1 "Assicurare i liberi spostamenti della POP, proibendo il Trasferimento forzato ed eliminando i Controlli Migratori, li renderà felici."
+ PROGRESSIVE_FREE_MOVEMENT_DESC:0 "Assicurare i liberi spostamenti della POP, proibendo il Trasferimento forzato ed eliminando i Controlli Migratori, li renderà felici."
  PROGRESSIVE_REPRODUCTIVE_FREEDOM:0 "Libertà Riproduttiva"
- PROGRESSIVE_REPRODUCTIVE_FREEDOM_DESC:2 "Proibire l'utilizzo selettivo del Controllo Demografico li renderà felici."
- PROGRESSIVE_NO_REPRODUCTIVE_FREEDOM:1 "$PROGRESSIVE_REPRODUCTIVE_FREEDOM$"
- PROGRESSIVE_SLAVERY_BANNED:1 "Schiavitù al Bando"
- PROGRESSIVE_SLAVERY_BANNED_DESC:1 "Non riuscire ad eliminare la pratica della schiavitù li contrarierà."
+ PROGRESSIVE_REPRODUCTIVE_FREEDOM_DESC:0 "Proibire l'utilizzo selettivo del Controllo Demografico li renderà felici."
+ PROGRESSIVE_NO_REPRODUCTIVE_FREEDOM:0 "$PROGRESSIVE_REPRODUCTIVE_FREEDOM$"
+ PROGRESSIVE_SLAVERY_BANNED:0 "Schiavitù al Bando"
+ PROGRESSIVE_SLAVERY_BANNED_DESC:0 "Non riuscire ad eliminare la pratica della schiavitù li contrarierà."
  PROGRESSIVE_SLAVERY_ALLOWED:0 "Schiavitù Permessa"
  PROGRESSIVE_NO_STRATIFIED:0 "Anti-Stratificazione"
  PROGRESSIVE_NO_STRATIFIED_DESC:0 "Permettere che i nostri cittadini vivano in condizioni d'§YEconomia Stratificata§! li contrarierà enormemente."
@@ -338,7 +349,7 @@
  TOTALITARIAN_DEMOCRACY_DESC:0 "Vivere sotto un'§YAutorità Democratica§! li contrarierà."
  TOTALITARIAN_NO_DEMOCRACY:0 "$TOTALITARIAN_DEMOCRACY$"
  TOTALITARIAN_STRATIFICATION:0 "Società Stratificata"
- TOTALITARIAN_STRATIFICATION_DESC:1 "Vivere in una società che possieda un'economia stratificata, la schiavitù o persino l'epurazione, li renderà felici."
+ TOTALITARIAN_STRATIFICATION_DESC:0 "Vivere in una società che possieda un'economia stratificata, la schiavitù o persino l'epurazione, li renderà felici."
  TOTALITARIAN_NO_STRATIFICATION:0 "$TOTALITARIAN_STRATIFICATION$"
  TOTALITARIAN_SLAVERY:0 "Schiavitù Standard"
  TOTALITARIAN_SLAVERY_DESC:0 "Mantenere almeno §Y12§! POP in schiavitù li renderà felici."
@@ -368,7 +379,7 @@
  PROSPERITY_NO_PHILOSOPHY:0 "$PROSPERITY_PHILOSOPHY$"
  PROSPERITY_LIQUIDITY:0 "Liquidità Solida"
  PROSPERITY_NO_LIQUIDITY:0 "$PROSPERITY_LIQUIDITY$"
- PROSPERITY_LIQUIDITY_DESC:1 "Mantenere una riserva di almeno £energy£ §Y5000§! li renderà felici."
+ PROSPERITY_LIQUIDITY_DESC:0 "Mantenere una riserva di almeno £energy£ §Y5000§! li renderà felici."
  PROSPERITY_WANTS_STRATEGIC_RESOURCE1:0 "Acquisizione Risorsa Strategica"
  PROSPERITY_WANTS_STRATEGIC_RESOURCE2:0 "Controllo Risorsa Strategica"
  PROSPERITY_WANTS_STRATEGIC_RESOURCE3:0 "Monopolio Risorsa Strategica"
@@ -402,7 +413,7 @@
  FACTION_ACTION_SUPPRESS_FOLLOWERS_VALID:0 ""
  FACTION_ACTION_ASSASSINATE_LEADER:0 "Assassina il Leader"
  FACTION_ACTION_ASSASSINATE_LEADER_DESC:0 "Privare la Fazione del suo Leader di sicuro riuscirà a calmarla, almeno per un po'."
- FACTION_ACTION_ASSASSINATE_LEADER_INVALID:1 "Nessun tentativo di assassinare il Leader della Fazione negli ultimi tre mesi."
+ FACTION_ACTION_ASSASSINATE_LEADER_INVALID:0 "Nessun tentativo di assassinare il Leader della Fazione negli ultimi tre mesi."
  FACTION_ACTION_FAVOR:0 "Favorisci"
  FACTION_ACTION_FAVOR_DESC:0 "Concedi favori ai fedeli al regime."
  FACTION_ACTION_FAVOR_TOOLTIP:0 "Aggiunge il modificatore §YFavoriti§! a tutta la POP appartenente alla Fazione, aumentando lievemente la Felicità"
@@ -411,7 +422,7 @@
  FACTION_ACTION_TYRANNIZE_DESC:0 "Diminuisci intenzionalmente il supporto popolare al regime."
  FACTION_ACTION_TYRANNIZE_TOOLTIP:0 "Aggiunge il modificatore §Tiranneggiati§! a tutta la POP appartenente alla Fazione, diminuendo seriamente la Felicità.\n"
  FACTION_ACTION_TYRANNIZE_INVALID:0 "Possiamo tiranneggiare i nostri sudditi solo una volta ogni sei mesi, perché non diventi uno strumento inefficace."
- ACCEPT_DEMANDS_NO_ACTIVE_DEMANDS:1 "§RQuesta Fazione al momento non ha Problemi§!"
+ ACCEPT_DEMANDS_NO_ACTIVE_DEMANDS:0 "§RQuesta Fazione al momento non ha Problemi§!"
 
  # Generic Support Effects
  SUPPORT_EFFECT_RADICALIZATION:0 "Rischio di Radicalizzazione"
@@ -419,20 +430,20 @@
  SUPPORT_EFFECT_REVOLT:0 "Rischio di Ribellione"
  SUPPORT_EFFECT_REVOLT_DESC:0 "La Fazione organizza una rivolta armata in una colonia."
  SUPPORT_EFFECT_RIOT:0 "Rischio di Rivolta"
- SUPPORT_EFFECT_RIOT_DESC:1 "La Fazione si rivolta, danneggiando le proprietà di una colonia."
+ SUPPORT_EFFECT_RIOT_DESC:0 "La Fazione si rivolta, danneggiando le proprietà di una colonia."
 
  # No Demands
- POP_FACTION_NO_DEMANDS:1 "Nessun Problema"
- POP_FACTION_NO_DEMANDS_DESC:1 "I membri della Fazione $FACTION$ sono devoti a $COUNTRY$ e non avranno mai problemi."
- POP_FACTION_NO_CURRENT_DEMANDS:1 "Nessuna Problema al Momento"
- POP_FACTION_NO_CURRENT_DEMANDS_DESC:1 "I membri della Fazione $FACTION$ al momento non hanno problemi."
+ POP_FACTION_NO_DEMANDS:0 "Nessun Problema"
+ POP_FACTION_NO_DEMANDS_DESC:0 "I membri della Fazione $FACTION$ sono devoti a $COUNTRY$ e non avranno mai problemi."
+ POP_FACTION_NO_CURRENT_DEMANDS:0 "Nessuna Problema al Momento"
+ POP_FACTION_NO_CURRENT_DEMANDS_DESC:0 "I membri della Fazione $FACTION$ al momento non hanno problemi."
 
 # No effects
  POP_FACTION_NO_EFFECTS:0 "Nessun effetto"
  POP_FACTION_NO_EFFECTS_DESC:0 "I membri della Fazione $FACTION$ non genereranno mai alcun effetto."
  POP_FACTION_NO_CURRENT_EFFECTS:0 "Nessun effetto al momento"
  POP_FACTION_NO_CURRENT_EFFECTS_DESC:0 "I membri della Fazione $FACTION$ al momento non generano alcun effetto."
- 
+
  ### SEPARATIST
 
  # Separatist Demands
@@ -440,9 +451,9 @@
  POP_FACTION_SEPARATIST_DEMAND_DESC_1:0 "Stabilisci un nuovo settore con §H[parameter:planet.GetName]§! come sua capitale."
  POP_FACTION_SEPARATIST_DEMAND_TITLE_2:0 "Indipendenza di §H[parameter:planet.GetName]§!"
  POP_FACTION_SEPARATIST_DEMAND_DESC_2:0 "Libera §H[parameter:planet.GetName]§! e rendila capitale di un impero indipendente."
- 
+
  ### PLANET SEPARATISTS
- POP_FACTION_PLANET_SEPARATIST_DEMAND_TITLE:1 "Indipendenza di [parameter:Planet.GetName]"
+ POP_FACTION_PLANET_SEPARATIST_DEMAND_TITLE:0 "Indipendenza di [parameter:Planet.GetName]"
  POP_FACTION_PLANET_SEPARATIST_DEMAND_DESC:0 "I Separatisti vogliono che §Y[parameter:Planet.GetName]§! sia indipendente."
  POP_FACTION_PLANET_SEPARATIST_STRIKES_TITLE:0 "Sciopero"
  POP_FACTION_PLANET_SEPARATIST_STRIKES_DESC:0 "La produzione del pianeta è ridotta a causa della mancanza di manodopera."
@@ -450,11 +461,11 @@
  POP_FACTION_PLANET_SEPARATIST_OCCUPIED:0 "Il pianeta è occupato"
  POP_FACTION_PLANET_SEPARATIST_COMBAT:0 "Combattimento di Terra"
  POP_FACTION_PLANET_SEPARATIST_LEADER_IS_RULER:0 "Il Leader della Fazione è il Sovrano"
- POP_FACTION_PLANET_SEPARATIST_REBELLION_DESC:1 "Ogni POP della Fazione genera un'§RArmata Difensiva§! e tenta di prendere il controllo del pianeta."
+ POP_FACTION_PLANET_SEPARATIST_REBELLION_DESC:0 "Ogni POP della Fazione genera un'§RArmata Difensiva§! e tenta di prendere il controllo del pianeta."
  POP_FACTION_PLANET_SEPARATIST_GATHER_SUPPORT:0 "Supporto Consolidato"
  POP_FACTION_PLANET_SEPARATIST_GATHER_SUPPORT_DESC:0 "I Separatisti guadagnano Supporto sia cambiando l'Etica, sia riducendo la felicità dell'altra POP."
  POP_FACTION_PLANET_SEPARATIST_REORGANIZING:0 "Riorganizzazione"
- POP_FACTION_PLANET_SEPARATIST_RECENTLY_FULL_SUPPORT:1 "Tutta la POP del pianeta che fa parte della Fazione"
+ POP_FACTION_PLANET_SEPARATIST_RECENTLY_FULL_SUPPORT:0 "Tutta la POP del pianeta che fa parte della Fazione"
  POP_FACTION_PLANET_SEPARATIST_IS_NOT_OCCUPIED:0 "Il pianeta non è occupato"
  POP_FACTION_PLANET_SEPARATIST_NO_GROUND_COMBAT:0 "Sul pianeta non sono in corso combattimenti di terra"
  POP_FACTION_PLANET_SEPARATIST_GRANT_INDEPENDENCE_TITLE:0 "Concedi Indipendenza"
@@ -463,19 +474,19 @@
  POP_FACTION_PLANET_SEPARATIST_RECENT_SABOTAGE:0 "Rivolte Recenti"
  POP_FACTION_PLANET_SEPARATIST_SABOTAGE_DESC:0 "Le rivolte sul pianeta §Rdanneggiano§! un edificio."
  POP_FACTION_PLANET_SEPARATIST_NOTHING_TO_RUIN:0 "Nessun Edificio Integro"
- 
+
  ### Sector separatists
  pft_sector_separatists:0 "Separatisti di Settore"
  pft_sector_separatists_desc:0 "I Separatisti di settore possono comparire sui pianeti all'interno di un settore, cercando di liberare le regioni confinanti dal dominio imperiale. Se ottengono abbastanza sostegno popolare, possono anche imbracciare le armi.\n\n§HI Separatisti di settore non compariranno mai nel nostro settore primario.§!"
- POP_FACTION_SECTOR_SEPARATIST_DEMAND_TITLE:1 "Indipendenza del Settore [parameter:sector.GetName]"
+ POP_FACTION_SECTOR_SEPARATIST_DEMAND_TITLE:0 "Indipendenza del Settore [parameter:sector.GetName]"
  POP_FACTION_SECTOR_SEPARATIST_DEMAND_DESC:0 "I Separatisti di settore vogliono che il §YSettore [parameter:sector.GetName]§! sia indipendente."
  POP_FACTION_SECTOR_SEPARATIST_GRANT_INDEPENDENCE_TITLE:0 "Concedi Indipendenza"
  POP_FACTION_SECTOR_SEPARATIST_GRANT_INDEPENDENCE_DESC:0 "Concedi l'indipendenza alle colonie del §YSettore [parameter:sector.GetName]§!."
  POP_FACTION_SECTOR_SEPARATIST_IS_NOT_OCCUPIED:0 "Nessun pianeta del settore è occupato"
  POP_FACTION_SECTOR_SEPARATIST_NO_GROUND_COMBAT:0 "Su nessun pianeta del settore sono in corso combattimenti di terra"
- 
- 
- 
+
+
+
  ### NATIONALISTS
 
  pft_nationalist:0 "Rimpatriatori"
@@ -486,10 +497,10 @@
  POP_FACTION_NATIONALIST_SABOTAGE_TITLE:0 "Sabotaggio"
  POP_FACTION_NATIONALIST_SABOTAGE_DESC:0 "I membri di questa Fazione §RDanneggiano§! un Edificio."
  POP_FACTION_NATIONALIST_CORRUPTION_TITLE:0 "Corruzione"
- POP_FACTION_NATIONALIST_CORRUPTION_DESC:1 "Produzione ridotta su tutti i pianeti con POP appartenente a questa Fazione."
+ POP_FACTION_NATIONALIST_CORRUPTION_DESC:0 "Produzione ridotta su tutti i pianeti con POP appartenente a questa Fazione."
  POP_FACTION_NATIONALIST_REBELLION_TITLE:0 "Ribellione"
- POP_FACTION_NATIONALIST_REBELLION_DESC:1 "$POP_FACTION_PLANET_SEPARATIST_REBELLION_DESC$"
- POP_FACTION_NATIONALIST_LEADER_IS_RULER:1 "Il Leader della Fazione è il Sovrano"
+ POP_FACTION_NATIONALIST_REBELLION_DESC:0 "$POP_FACTION_PLANET_SEPARATIST_REBELLION_DESC$"
+ POP_FACTION_NATIONALIST_LEADER_IS_RULER:0 "Il Leader della Fazione è il Sovrano"
  POP_FACTION_NATIONALIST_RECENT_SABOTAGE:0 "Sabotaggio Recente"
  POP_FACTION_NATIONALIST_MEMBERS_OCCUPIED:0 "Occupazioni"
  POP_FACTION_NATIONALIST_MEMBERS_GROUND_COMBAT:0 "Combattimenti di Terra"
@@ -511,12 +522,12 @@
 
  malcontent_slaves_attraction_desc:0 "La POP in schiavitù apparterrà sempre alla Fazione degli Schiavi, fatta eccezione per la POP robotica non sapiente. Nessun altro tipo di POP ne farà parte.\n\n§HQuesto valore indica l'attrazione della POP in schiavitù verso gli Schiavi Insoddisfatti.§!"
 
- purged_attraction_title:1 "§R---§!"
- purged_attraction_desc:1 "La popolazione che ha subito un'Epurazione farà sempre parte della Fazione Anti-Epurazione, ad eccezione di quella robotica.\n\nNessun'altra POP si unirà."
+ purged_attraction_title:0 "§R---§!"
+ purged_attraction_desc:0 "La popolazione che ha subito un'Epurazione farà sempre parte della Fazione Anti-Epurazione, ad eccezione di quella robotica.\n\nNessun'altra POP si unirà."
 
  # Slave Demands
- pft_slave:1 "Schiavi"
- pft_slave_desc:1 "La Fazione degli Schiavi è costituita dalla POP in schiavitù del nostro impero. La loro richiesta principale è quella di essere emancipata.\n\n§HTutta la POP in schiavitù si unirà automaticamente a questa Fazione.§!"
+ pft_slave:0 "Schiavi"
+ pft_slave_desc:0 "La Fazione degli Schiavi è costituita dalla POP in schiavitù del nostro impero. La loro richiesta principale è quella di essere emancipata.\n\n§HTutta la POP in schiavitù si unirà automaticamente a questa Fazione.§!"
 
  pft_docile_slaves:0 "Schiavi Docili"
  pft_docile_slaves_desc:0 "La Fazione degli Schiavi Docili è composta da una parte della tua POP in schiavitù. Generalmente sono obbedienti e desiderano solo migliori condizioni di lavoro.\n\n§HTutti gli schiavi appartengono o alla Fazione degli Schiavi Docili od a quella degli Schiavi Insoddisfatti.§!"
@@ -525,7 +536,7 @@
  pft_malcontent_slaves_desc:0 "La Fazione degli Schiavi Insoddisfatti è composta da una parte della tua POP in schiavitù. Sono riottosi ed in cerca d'emancipazione.\n\n§HTutti gli schiavi appartengono o alla Fazione degli Schiavi Docili od a quella degli Schiavi Insoddisfatti.§!"
 
  pft_emancipation:0 "$POP_FACTION_SLAVE_DEMAND_TITLE_1$"
- pft_emancipation_desc:1 "Questa Fazione brama la fine della schiavitù."
+ pft_emancipation_desc:0 "Questa Fazione brama la fine della schiavitù."
 
  POP_FACTION_DOCILE_SLAVES_DEMAND_TITLE_1:0 "Schiavitù Regolata"
  POP_FACTION_DOCILE_SLAVES_DEMAND_DESC_1:0 "La POP di questa Fazione desidera una vita di servitù leggermente più confortevole tramite la Politica §HSchiavitù Regolata§!."
@@ -533,16 +544,16 @@
  POP_FACTION_MALCONTENT_SLAVES_DEMAND_TITLE_1:0 "$POP_FACTION_SLAVE_DEMAND_TITLE_1$"
  POP_FACTION_MALCONTENT_SLAVES_DEMAND_DESC_1:0 "$POP_FACTION_SLAVE_DEMAND_DESC_1$"
 
- POP_FACTION_SLAVE_DEMAND_TITLE_1:1 "Emancipazione"
- POP_FACTION_SLAVE_DEMAND_DESC_1:1 "La POP di questa Fazione ha una sola richiesta: essere libera."
+ POP_FACTION_SLAVE_DEMAND_TITLE_1:0 "Emancipazione"
+ POP_FACTION_SLAVE_DEMAND_DESC_1:0 "La POP di questa Fazione ha una sola richiesta: essere libera."
  FACTION_ACTION_SLAVE_EMANCIPATE_ALL:0 "Emancipa Schiavi"
- FACTION_ACTION_SLAVE_EMANCIPATE_ALL_DESC:1 "Emancipa tutta la POP in schiavitù."
+ FACTION_ACTION_SLAVE_EMANCIPATE_ALL_DESC:0 "Emancipa tutta la POP in schiavitù."
 
  # Slave Actions
  FACTION_ACTION_MALCONTENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_1:0 "È presente almeno §R4§! POP nella fazione."
- FACTION_ACTION_MALCONTENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_2:1 "È presente almeno §R6§! POP nella Fazione."
- FACTION_ACTION_MALCONTENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_3:1 "È presente almeno §R8§! POP nella Fazione."
- FACTION_ACTION_MALCONTENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_4:1 "È presente più di §R10§! POP nella Fazione."
+ FACTION_ACTION_MALCONTENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_2:0 "È presente almeno §R6§! POP nella Fazione."
+ FACTION_ACTION_MALCONTENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_3:0 "È presente almeno §R8§! POP nella Fazione."
+ FACTION_ACTION_MALCONTENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_4:0 "È presente più di §R10§! POP nella Fazione."
 
 
  FACTION_ACTION_SLAVE_HARSH_TREATMENT:0 "Dura Lezione"
@@ -591,7 +602,7 @@
  ### PURGED
 
  pft_purged:0 "Anti-Epurazione"
- pft_purged_desc:1 "La Fazione Anti-Epurazione è costituita da tutta la popolazione del nostro impero che attualmente sta subendo un'Epurazione, e da quella che simpatizza per loro. La loro principale richiesta è continuare a vivere.\n\n§HTutta la POP sottoposta ad un'Epurazione si unisce automaticamente a questa Fazione.§!"
+ pft_purged_desc:0 "La Fazione Anti-Epurazione è costituita da tutta la popolazione del nostro impero che attualmente sta subendo un'Epurazione, e da quella che simpatizza per loro. La loro principale richiesta è continuare a vivere.\n\n§HTutta la POP sottoposta ad un'Epurazione si unisce automaticamente a questa Fazione.§!"
 
  # Demands
  POP_FACTION_PURGED_DEMAND_TITLE_1:0 "Interrompi Tutte le Epurazioni"
@@ -661,11 +672,11 @@
  POP_FACTION_PRETENDER_DEMAND_DESC:0 "[Root.Owner.GetRulerTitle] §Y[Root.Owner.GetRulerName]§! verrà esiliato e §Y[parameter:pretender.GetName]§! salirà al potere."
  POP_FACTION_PRETENDER_INSTALL_TITLE:0 "Insedia Pretendente"
  POP_FACTION_PRETENDER_INSTALL_DESC:0 "Insedia §Y[parameter:pretender.GetName]§! come nuovo Sovrano."
- 
+
  ########################################
  # FACTION EVENTS
  ########################################
- 
+
  ### New Events
  factions.1.title:0 "Fazione Fondata"
  factions.1.desc:0 "Una nuova Fazione si è di recente fatta strada nel panorama della nostra politica interna. Si fanno chiamare [Root.GetName] e, sotto la leadership del loro fondatore, [Root.Leader.GetTitle] [Root.Leader.GetName], i loro membri stanno spingendo per farci prendere in considerazione ciò che li preoccupa.\n\nÈ probabile che, in futuro, assisteremo all'emergere di altre fazioni, man mano che la nostra popolazione crescerà e che le loro etiche inizieranno a discostarsi. Una fazione contrariata rappresenterà una fonte di problemi, ma coloro che approveranno le azioni del governo potrebbero rivelarsi utili..."
@@ -674,13 +685,13 @@
  factions.1.desc.imperialist:0 "I suoi membri ci spingono ad affermare il nostro dominio militare sul resto della galassia.\n\n"
  factions.1.desc.isolationist:0 "I suoi membri sono a favore della chiusura dei confini e non vogliono interferire con gli affari galattici.\n\n"
  factions.1.desc.progressive:0 "I suoi membri lavorano per l'uguaglianza e la giustizia di tutti gli abitanti del nostro impero.\n\n"
- factions.1.desc.prosperity:1 "I suoi membri ci fanno pressioni per concentrarci sulla stabilità e la crescita economica tramite metodi pacifici.\n\n"
+ factions.1.desc.prosperity:0 "I suoi membri ci fanno pressioni per concentrarci sulla stabilità e la crescita economica tramite metodi pacifici.\n\n"
  factions.1.desc.supremacist:0 "I suoi membri cercano di affermare la supremazia della nostra specie, anche limitando i diritti degli alieni, se necessario.\n\n"
  factions.1.desc.technologist:0 "I suoi membri ci stanno spingendo ad avanzare nell'ambito scientifico.\n\n"
  factions.1.desc.totalitarian:0 "I suoi membri ci stanno spingendo ad un'estrema centralizzazione del potere politico e militare.\n\n"
  factions.1.desc.traditionalist:0 "I suoi membri supportano i valori spiritualisti e conservatori.\n\n"
  factions.1.desc.xenoist:0 "I suoi membri ci stanno spingendo per avere relazioni amichevoli con le specie aliene.\n\n"
- 
+
  factions.2000.title:0 "[TargetFaction.Owner.GetName] - Cambio di Etiche Governative"
  factions.2000.desc.start:0 "A seguito di un lungo periodo di supporto verso una determinata Fazione, §Y[TargetFaction.Owner.GetName]§! si è infine unito ad essa, adottando i suoi valori e le sue politiche chiave."
  factions.2000.desc.imperialist:0 "Come risultato dell'annessione di questa Fazione nel Governo, l'impero è diventato più §HMilitarista§!.\n\n"
@@ -692,7 +703,7 @@
  factions.2000.desc.totalitarian:0 "Come risultato dell'annessione di questa Fazione nel Governo, l'impero è diventato più §HAutoritario§!.\n\n"
  factions.2000.desc.traditionalist:0 "Come risultato dell'annessione di questa Fazione nel Governo, l'impero è diventato più §HSpiritualista§!.\n\n"
  factions.2000.desc.xenoist:0 "Come risultato dell'annessione di questa Fazione nel Governo, l'impero è diventato più §HXenofilo§!.\n\n"
- 
+
  ### Loyalists
  faction.4.title:0 "Richieste Lealiste"
  faction.4.desc:0 "I Lealisti sono fedeli a [Root.Owner.GetRulerTitle] [Root.Owner.GetRulerName] di [Root.Owner.GetName], e non hanno richieste."
@@ -748,15 +759,15 @@
 
  # Separatists rebel
  faction.100.title:0 "Ribellione Separatista!"
- faction.100.desc:3 "I disordini su [planet.GetName] hanno raggiunto proporzioni critiche. La Fazione separatista locale sta tentando di prendere il controllo del pianeta con le armi."
+ faction.100.desc:0 "I disordini su [planet.GetName] hanno raggiunto proporzioni critiche. La Fazione separatista locale sta tentando di prendere il controllo del pianeta con le armi."
 
  # Separatists riot
- faction.101.title:1 "Rivolta Separatista!"
- faction.101.desc:1 "La protesta civile su §Y[planet.GetName]§! ha raggiunto il punto d'ebollizione ed i membri della Fazione §Y[Root.GetName]§! sono scesi in strada, saccheggiando ed incendiando.\n\nI rapporti indicano che un'importante struttura coloniale è crollata."
+ faction.101.title:0 "Rivolta Separatista!"
+ faction.101.desc:0 "La protesta civile su §Y[planet.GetName]§! ha raggiunto il punto d'ebollizione ed i membri della Fazione §Y[Root.GetName]§! sono scesi in strada, saccheggiando ed incendiando.\n\nI rapporti indicano che un'importante struttura coloniale è crollata."
 
  # Separatist leader assassinated
- faction.102.title:1 "Leader della Fazione Assassinato!"
- faction.102.desc:1 "La Fazione [Root.GetName] è allo sbando dopo la morte improvvisa del suo Leader, [Root.Leader.GetName].\n\nIl Popolo [Root.Owner.GetSpeciesAdj] pensa che sia il risultato di una lotta di potere interna alla Fazione [Root.GetName]. Sebbene sia spuntato un altro Leader di facciata, l'incidente ha provocato una perdita di sostegno popolare."
+ faction.102.title:0 "Leader della Fazione Assassinato!"
+ faction.102.desc:0 "La Fazione [Root.GetName] è allo sbando dopo la morte improvvisa del suo Leader, [Root.Leader.GetName].\n\nIl Popolo [Root.Owner.GetSpeciesAdj] pensa che sia il risultato di una lotta di potere interna alla Fazione [Root.GetName]. Sebbene sia spuntato un altro Leader di facciata, l'incidente ha provocato una perdita di sostegno popolare."
 
  # Separatist sector created
  faction.103.title:0 "Settore Creato!"
@@ -769,7 +780,7 @@
 
  # Crusaders want to a crusade to against the heathens, conquer their capital
  faction.200.title:0 "I membri della Fazione [Root.GetName] hanno marchiato [parameter:heathens.GetName] come infedele!"
- faction.200.desc:1 "Hanno designato come obiettivo la capitale di una potenza straniera e vogliono prenderne il controllo."
+ faction.200.desc:0 "Hanno designato come obiettivo la capitale di una potenza straniera e vogliono prenderne il controllo."
 
  holy_war_title:0 "Guerra Santa"
  holy_war_desc:0 "Guida una crociata contro [parameter:heathens.GetName]."
@@ -795,13 +806,13 @@
  faction.204.a.tooltip:0 "[planet.GetName]:\nInsurrezione!"
 
  ### Nationalists
- faction.301.title:2 "Sabotaggio Nazionalista!"
- faction.301.desc:2 "Alcuni membri radicali della Fazione [Root.GetName] hanno distrutto un edificio su [planet.GetName]."
+ faction.301.title:0 "Sabotaggio Nazionalista!"
+ faction.301.desc:0 "Alcuni membri radicali della Fazione [Root.GetName] hanno distrutto un edificio su [planet.GetName]."
  faction.301.desc.phobe:0 "I bruti Xeno della Fazione [Root.GetName] hanno distrutto un edificio su [planet.GetName] durante un tentativo di ferire l'interesse [Root.Owner.GetAdj], con l'apparente intento di distruggere il nostro stile di vita."
  faction.301.desc.phile:0 "I diversamente adorabili membri della Fazione [Root.GetName] hanno pensato di dimostrare la loro insoddisfazione nel sistema disabilitando, alcuni dicono sabotando, un'installazione su [planet.GetName]."
 
- faction.302.title:1 "Rivolta Nazionalista!"
- faction.302.desc:3 "Incoraggiati dal supporto popolare, i membri della Fazione [Root.GetName] hanno imbracciato le armi nel tentativo di recuperare i loro territori con la forza."
+ faction.302.title:0 "Rivolta Nazionalista!"
+ faction.302.desc:0 "Incoraggiati dal supporto popolare, i membri della Fazione [Root.GetName] hanno imbracciato le armi nel tentativo di recuperare i loro territori con la forza."
  faction.302.desc.phobe:0 "Gli Xeno rivoltosi della Fazione [Root.GetName] tentano di rovesciare il governo [Root.Owner.GetAdj] con un'aperta rivolta!"
  faction.302.desc.phile:0 "Riconoscendo il nostro continuo fallimento nell'aderire allo loro richieste, i membri della Fazione [Root.GetName] hanno iniziato un'aperta rivolta."
 

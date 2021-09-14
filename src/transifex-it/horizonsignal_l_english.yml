@@ -1,0 +1,495 @@
+﻿l_english:
+
+ ### Ambient Object
+ NAME_Syzygy_Remains: "I Resti della Syzygy"
+
+ ### EVENT CHAINS
+ WORM_CHAIN_1_title: "Il Verme in Attesa: Segnali"
+ WORM_CHAIN_1_desc: "Qualcosa ci ha raggiunti... proviene da un luogo in cui il tempo e lo spazio sono annodati assieme.\n\nCi desidera."
+
+ WORM_CHAIN_2_title: "Il Verme in Attesa: Segni"
+ WORM_CHAIN_2_desc: "È improbabile che il tempo scorra in due versi. È improbabile che esista un serpente cosmico attorcigliato all'universo, che ci fissa con occhi più grandi di un pianeta. Ma d'altra parte, molte cose improbabili sono già accadute."
+
+ ### STATIC MODIFIERS
+ happy_with_open_loop_temple: "Tempio del Loop - Centro Visitatori"
+ happy_with_open_loop_temple_desc: "Un allegro ed efficiente staff organizza visite guidate dei sigilli primordiali, illuminati da riflettori e contrassegnati da pratiche targhette."
+
+ spiritual_happy_with_open_loop_temple: "Tempio del Loop - Sentiero del Pellegrino"
+ spiritual_happy_with_open_loop_temple_desc: "Ancora una volta, gli archi basaltici sussurrano con passi felpati ed eco di preghiere."
+
+ waiting_world_ruins: "Rovine Desolate"
+ waiting_world_ruins_desc: "Il vento sospira tra le rovine. Nessuno si reca fin laggiù."
+ d_mothballed_facilities: "Strutture in Disuso"
+ d_mothballed_facilities_desc: "Distretti ed edifici terminati secondo i vecchi standard coloniali, ma ovviamente lasciati in disuso ed incuria per anni."
+
+ loop_debris_01_object: "Detriti del Segnale Orizzonte"
+ loop_debris_02_object: "Capsula a Spirale"
+
+ worm_quarantined: "In Quarantena"
+ worm_quarantined_desc: "TUTTI QUESTI PIANETI SONO VOSTRI - TRANNE QUESTO."
+
+ worm_manifestation: "Sbirciando"
+ worm_manifestation_desc: "Ciò che gira attorno fa sempre ritorno."
+
+ ### TECHNOLOGY
+ tech_akx_worm_1: "Ricorsione Entropica"
+ tech_akx_worm_1_desc: "L'universo tende irresistibilmente ad avanzare ed a comprimersi. Questo processo è irreversibile... ma può essere sovvertito, ad un prezzo."
+
+ tech_akx_worm_2: "Dottrina: Strano Loop"
+ tech_akx_worm_2_desc: "Un insieme di protocolli sociali basati sull'intuizione paradossale, e sull'amore. Una volta conosciuto il sistema del Loop, apprendiamo di poter avere influenza anche ricevendo istruzioni, non solo dandole."
+
+ tech_akx_worm_3: "Teoria Omega"
+ tech_akx_worm_3_desc: "Quando un paradosso temporale si aggroviglia, nasce una sorta di coscienza, con i suoi bisogni ed i suoi desideri. È ciò che accadde con la coscienza che alcuni definiscono il Verme in Attesa. Se riuscissimo ad allinearci ad essa, potremmo raggiungere una sorta di immortalità."
+ TECH_UNLOCK_AKX_WORM_3_TITLE: "$tech_akx_worm_3$"
+ TECH_UNLOCK_AKX_WORM_3_DESC: "$tech_akx_worm_3_desc$"
+
+ tech_akx_worm_partial_custom: "§HSguardo al Futuro:§! $tech_akx_worm_3$"
+ tech_akx_worm_partial_custom_desc: "Un sentore di prospettive future ed affetti passati.\n\nMetà di un tutto, inutile da solo; quando sarà completo permetterà ai nostri scienziati di dedicarsi alla §H$tech_akx_worm_3$§!."
+
+ ### BUILDINGS
+ building_akx_worm_1: "Nucleo Energetico a Spirale"
+ building_akx_worm_1_desc: "Aumenta significativamente la produzione energetica del pianeta utilizzando tecniche che esulano dalla fisica convenzionale; tecniche implicate negli incubi notturni e quando si sogna di cadere."
+
+ building_akx_worm_2: "Istituto del Loop"
+ building_akx_worm_2_desc: "Gli insegnamenti del Loop incoraggiano l'intuizione, la conformità ed il senso di prospettiva."
+
+ building_akx_worm_3: "Allineamento Omega"
+ building_akx_worm_3_desc: "La superficie di questo oggetto piega lo spazio. L'interno non è visibile tramite alcun sensore o tecnologia disponibile. Ma sappiamo tutti ciò che contiene."
+
+ requires_power_hub_absence: "§RLa presenza di $building_power_hub_1$ o $building_power_hub_2$ sul pianeta disturberà i delicati flussi elicoidali che sono parte integrante del funzionamento del Nucleo Energetico a Spirale.§!"
+
+ building_worm_mine: "Miniera a Spirale"
+ building_worm_mine_desc: "Angusti pozzi si fanno strada tra le elicoidali vene minerarie."
+
+ building_worm_farm: "Fattoria a Spirale"
+ building_worm_farm_desc: "Le colture agricole oscillano al vento, in qualche modo."
+
+ ### TRAITS
+ leader_trait_foredoomed_to_a_rendezvous: "Condannato ad un Appuntamento"
+ leader_trait_foredoomed_to_a_rendezvous_desc: "Ha sperimentato un futuro preoccupante."
+
+ ####################
+ ### SPECIAL PROJECTS
+
+ HORIZON_SIGNAL_PROJECT: "Analizza il Segnale Orizzonte"
+ HORIZON_SIGNAL_PROJECT_DESC: "Impegna una nave scientifica alla decrittazione del segnale proveniente dal buco nero nel Sistema [Root.GetStarName]."
+
+ LOOP_TEMPLE_PROJECT: "Studia il Tempio del Loop"
+ LOOP_TEMPLE_PROJECT_DESC: "Avvia un progetto di ricerca per studiare il Tempio del Loop, le sue origini, ed il suo scopo."
+
+ MESSENGER_POD_PROJECT_1: "Studia il Messaggero, ed il suo messaggio"
+ MESSENGER_POD_PROJECT_1_DESC: "Forse possiamo stabilire una connessione con altri determinati eventi... magari potremmo anche trovare una spiegazione."
+
+ MESSENGER_POD_PROJECT_2_UNLEASHED: "Studia la connessione del Messaggero"
+ MESSENGER_POD_PROJECT_2_UNLEASHED_DESC: "Le scoperte iniziali suggeriscono che si trattava di una forma più intelligente che robusta."
+
+ MESSENGER_POD_PROJECT_2_LEASHED: "Studia la connessione del Messaggero"
+ MESSENGER_POD_PROJECT_2_LEASHED_DESC: "Le scoperte iniziali suggeriscono che si trattava di una forma più robusta e forse anche più aggressiva."
+
+ COILS_GOD_PROJECT_DISRUPT: "Interrompi i rituali delle Spire"
+ COILS_GOD_PROJECT_DISRUPT_DESC: "Intromissione, sabotaggio, disinformazione. Faremo tutto il possibile, senza superare la linea di confine."
+
+ COILS_GOD_PROJECT_PREVENT: "Impedisci i rituali delle Spire"
+ COILS_GOD_PROJECT_PREVENT_DESC: "Operazioni di copertura quali contraffazione, rapimento, indottrinamento e persino incendio doloso ed omicidio: faremo tutto il necessario."
+
+ COILS_GOD_PROJECT_PARTICIPATE: "Partecipa ai rituali delle Spire"
+ COILS_GOD_PROJECT_PARTICIPATE_DESC: "Invia degli etnografi sulla superficie per osservare i rituali delle Spire da vicino. Si tratta di un evento culturale notevole! Dobbiamo saperne il più possibile."
+
+ WAITING_WORLD_DISAPPEARANCE: "Indaga sulle sparizioni tra la popolazione"
+ WAITING_WORLD_DISAPPEARANCE_DESC: "Prima c'erano troppi coloni, ora non c'è più nessuno. Cos'è successo?"
+
+ WAITING_WORLD_HYPERAPPEARANCE: "Indaga su... qualunque cosa stia capitando alla popolazione"
+ WAITING_WORLD_HYPERAPPEARANCE_DESC: "Prima c'erano troppi coloni, ora sembra che sia presente una popolazione completamente diversa. Cos'è successo?"
+
+ WAITING_WORLD_PURGE: "Epura la popolazione di presunti replicanti alieni"
+ WAITING_WORLD_PURGE_DESC: "L'unico modo per affrontare il misterioso rimpiazzo di popolazione su [Root.GetName] è attuare un bombardamento orbitale che li elimini tutti."
+
+ WORM_ENTRY_POINT: "Genera Punto d'Ingresso"
+ WORM_ENTRY_POINT_DESC: "La Teoria suggerisce che le Anomalie temporali che abbiamo incontrato sono causate da ciò che chiamiamo il Loop, o il Verme. Si tratta di un groviglio di paradossi che è diventato cosciente; un nesso di consapevolezza e desiderio fuori dal tempo. È questa la causa, o il risultato... è difficile a dirsi. È attratto da ciò che termina e da ciò che inizia. Possiamo utilizzare l'Allineamento Omega per condurlo verso il nostro sistema natale. Se lo facessimo, sicuramente accadrebbe qualcosa. Questa situazione può definirsi in molti modi, ma sicuramente può chiamarsi scienza."
+
+ HORIZON_DEBRIS_PROJECT: "Indaga sui frammenti nel punto d'origine del Segnale Orizzonte"
+ HORIZON_DEBRIS_PROJECT_DESC: "Appena l'unità esplode, si interrompono le fluttuazione spaziali attorno alla nave. I frammenti presentano insolite proprietà fisiche e temporali."
+
+ SYZYGY_DEBRIS_PROJECT: "Indaga sui resti della Syzygy"
+ SYZYGY_DEBRIS_PROJECT_DESC: "La Syzygy ha passato del tempo in un altro luogo. Un possibile futuro? Un universo parallelo? Potremmo saperne di più."
+
+
+ ################################################
+ ##THE HORIZON SIGNAL: intro events to Worm chain
+
+ akx.9000.name: "Il Segnale Orizzonte"
+ akx.9000.desc: "Un ufficiale addetto alle comunicazioni ha identificato quello che sembra essere un debole segnale, quasi disperso tra le esplosioni di raggi gamma del buco nero, ma senza alcun dubbio di origine artificiale. Ciò apre le porte a scenari interessanti per i nostri scienziati."
+ #create the HORIZON_SIGNAL_PROJECT project
+
+ akx.9001.name: "Il Segnale Orizzonte: §HLA GRAVITÀ È DESIDERIO§!"
+ akx.9001.desc: "L'Ufficiale Scientifico [Root.GetLeaderName] riferisce che il segnale si è rivelato inaspettatamente semplice da decifrare... ma la sua squadra ha trascorso molto tempo assicurandosi che non fosse una bufala. Si tratta di un messaggio ripetuto, piuttosto incoerente, nella lingua dei [Root.Owner.GetSpeciesNamePlural]... una sorta di poesia. Ripete le frasi §HLA GRAVITÀ È DESIDERIO§! e §HIL TEMPO È LA VISIONE§!. Indica anche delle coordinate vicine al buco nero. E termina con una dedica §Gper nome§! all'Ufficiale Scientifico... il quale asserisce spassionatamente di aver calcolato che il segnale viene trasmesso nello spazio interstellare da ben prima della sua nascita. Di fatto, potrebbe anche precedere la nostra stessa civiltà."
+ akx.9001.a: "Affascinante! Inviate la nave verso queste coordinate."
+ akx.a.tooltip: "Inizia la Catena di Eventi \"Segnale Orizzonte\"."
+ akx.9001.b: "È un trucco, o una trappola. Fate rapporto ed andatevene."
+ akx.9001.b.tooltip: "Le tecniche che abbiamo sviluppato per analizzare il Segnale potranno essere applicate alla ricerca Fisica."
+
+ akx.9005.name: "Il Segnale Orizzonte: §HIL VERME§!"
+ akx.9005.desc: "Non appena la [Root.GetName] si avvicina alle coordinate specificate dal segnale, inizia a riferire della presenza di distorsioni spaziali e di curiosi effetti ottici... un ricco flusso di dati preziosi. Poi la trasmissione diventa disturbata. Ciò che accadde successivamente è stato analizzato con cura.\n\nL'eccitazione nella voce dell'Ufficiale Scientifico [horizonsignal_firstleader.GetName] si muta in terrore, mentre lo scafo va incontro a condizioni sempre più strane e distorte. La nave invia una chiamata di soccorso. [horizonsignal_firstleader.GetName] urla \"il verme!\"... o, forse, §Hil Verme§!! Dopodiché la trasmissione si interrompe. Non è più stata trovata alcuna traccia della [Root.GetName]... nessun'altra comunicazione, nessun detrito... e lo spazio, in quelle coordinate, risulta del tutto libero e privo di distorsioni. Ma i dati che abbiamo ottenuto hanno fatto avanzare paurosamente la nostra ricerca Fisica. Forse le loro vite non sono state sprecate."
+ akx.9005.a.spiritualist: "Oscurità, luce, oscurità."
+ akx.9005.a.materialist: "Impariamo e proseguiamo."
+ akx.9005.a.neutral: "Non verranno dimenticati."
+
+ akx.9006.name: "Il Segnale Orizzonte: - Fine Messaggio -"
+ akx.9006.desc: "[horizonsignal_firstleader.GetName] obbedisce, con un misto di riluttanza e sollievo. I rapporti psichici indicano che è soggetto ad incubi ricorrenti... parla di labirinti impossibili, dell'affamato vortice dello spazio interstellare, del suo nome pronunciato nell'oscurità. Nel giro di un anno, il messaggio si interrompe."
+ akx.9006.a: "Ci è sfuggito qualcosa."
+ akx.9006.b: "Ci siamo persi qualcosa."
+
+ akx.9010.name: "Il Segnale Orizzonte: §HRIPRESA§!"
+ akx.9010.desc: "Il buco nero nel Sistema [horizonsignal_system.GetName] è nuovamente attivo. Ancora una volta, un segnale ripetuto danza nell'oscurità ai confini del normale spazio. Ma, questa volta, è presente anche un messaggio audio. Sembrerebbe la voce di [horizonsignal_firstleader.GetName]. \"Ciò che fu, sarà,\" intona, \"ciò che è, fu.\" Poi, le stesse coordinate del primo segnale, quelle in cui perdemmo i contatti con [horizonsignal_firstleader.GetName]... quello che i media definirono il \"Punto d'Uscita.\" Dopodiché, un nome: §G[horizonsignal_secondleader.GetName]§!."
+ akx.9010.a.collective: "Invia [horizonsignal_secondleader.GetName] verso il Punto d'Uscita."
+ akx.9010.a.tooltip: "§H[horizonsignal_secondleader.GetName]§! raggiungerà il Punto d'Uscita fra §Y30 giorni§!."
+ akx.9010.a.collective.tooltip: "Se non farà ritorno, lo ricorderemo."
+ akx.9010.a.notcollective: "[horizonsignal_secondleader.GetName] si è offerto volontario. Lasciatelo fare."
+ akx.9010.b.collective: "Fatelo andare, ma sabotate il motore della nave."
+ akx.9010.b.notcollective: "Fatelo andare, ma sabotate il motore della nave."
+ akx.9010.c: "Non questa volta. Ignoratelo."
+
+ akx.9011.name: "Il Segnale Orizzonte: Sono Passato"
+ akx.9011.desc: "Questa volta la nave è completamente automatizzata. [horizonsignal_secondleader.GetName] è l'unico membro dell'equipaggio. Mentre si avvicina al Punto d'Uscita, giungono a noi dati affascinanti. Ancora una volta lo spazio si flette, la gravità di srotola. [horizonsignal_secondleader.GetName] legge i dati principali, ripetendo la telemetria. È notevolmente calmo: abbiamo inviato un professionista. Ci vuole un po' per renderci conto che qualcosa non va con le tempistiche.\n\n[horizonsignal_secondleader.GetName] non sta più leggendo i dati... li sta predicendo. La telemetria varia di qualche attimo rispetto alle parole dell'ufficiale. La squadra di monitoraggio riferisce che l'intervallo di premonizione stava aumentando, quando [horizonsignal_secondleader.GetName] esclamò, con stupore: \"Sono passato.\"\n\n\"È buio,\" aggiunse. \"Non è un problema. Possiamo vivere nell'oscurità. Non ci avevo mai pensato. Ma, naturalmente, possiamo stare qui per sempre... se solo il Verme attendesse...\"\n\nIn quel momento, il segnale si interrompe, e la nave sparisce dai nostri sensori."
+ akx.9011.a: "È spaventoso."
+ akx.9011.b: "Un peccato."
+ akx.9011.c: "È affascinante."
+
+ akx.9012.name: "Il Segnale Orizzonte: Un Intervento"
+ akx.9012.desc: "Questa volta [horizonsignal_secondleader.GetName] è l'unico membro dell'equipaggio. La nave è completamente automatizzata... ed i suoi sistemi sono programmati per farla esplodere non appena si presentino le condizioni immediatamente precedenti alla sparizione dell'ultima nave. Mentre si avvicina al Punto d'Uscita, giungono a noi dati affascinanti. Ancora una volta lo spazio si flette, la gravità di srotola. [horizonsignal_secondleader.GetName] legge i dati principali, ripetendo la telemetria. È notevolmente calmo: abbiamo inviato un professionista. Ci vuole un po' per renderci conto che qualcosa non va con le tempistiche.\n\n[horizonsignal_secondleader.GetName] non sta più leggendo i dati... li sta predicendo. La telemetria varia di qualche attimo rispetto alle parole dell'ufficiale. La squadra di monitoraggio riferisce che l'intervallo di premonizione stava aumentando, quando si manifestò un improvviso picco energetico.\n\nLa nave esplode... una breve fiammata di furia stellare, velocemente scomparsa nell'oscurità del Sistema [horizonsignal_system.GetName]. Qualunque cosa ci fosse laggiù, ora rimpiangerà di aver interferito. Non lo sapremo mai. Il Segnale Orizzonte non si è più ripresentato. Ma la nostra squadra può recuperare qualcosa di interessante dalle ceneri della nave."
+ ##create HORIZON_DEBRIS_PROJECT
+ akx.9012.a: "Tuttavia, questa potrebbe non essere la fine."
+
+ akx.9013.name: "Il Segnale Orizzonte: - Fine Messaggio -"
+ akx.9013.desc: "[horizonsignal_secondleader.GetName] obbedisce, con evidente sollievo. I rapporti psichici indicano che è soggetto ad incubi ricorrenti... parla di labirinti impossibili, dell'affamato vortice dello spazio interstellare, del suo nome pronunciato nell'oscurità. Nel giro di un anno, il messaggio si interrompe."
+ akx.9013.a: "Un'opportunità mancata."
+ akx.9013.b: "Pericolo scampato."
+
+ akx.9020.name: "Il Segnale Orizzonte: §HLA TRIADE, LA PENTADE, LA TRIADE§!"
+ akx.9020.desc: "Ancora una volta, il Segnale Orizzonte nel Sistema [horizonsignal_system.GetName] è attivo. Ha aumentato la posta. Ancora una volta la trasmissione include le coordinate del Punto d'Uscita. È firmata con i dati di comunicazione di [horizonsignal_firstleader.GetName] e [horizonsignal_secondleader.GetName]. Ma, questa volta, si tratta di un programma di generazione testuale, scritto in un antico linguaggio di programmazione, che crea ciò sembrano essere poesie d'amore... poemi dedicati a [horizonsignal_thirdleader.GetName].\n\nOnestamente, non si tratta di poesie molto belle. Ma di fatto, secondo i nostri scienziati, è decisamente arduo creare proceduralmente poesie d'amore, nonché piuttosto insolito, per un buco nero, inviarle."
+ akx.9020.a: "Beh, l'ha chiesto gentilmente. Inviate [horizonsignal_thirdleader.GetName]."
+ akx.9020.a.tooltip: "§H[horizonsignal_thirdleader.GetName]§! raggiungerà il Punto d'Uscita fra §Y30 giorni§!."
+ akx.9020.b: "Inviate [horizonsignal_thirdleader.GetName], ma sabotate il motore della nave."
+ akx.9020.c: "Suona minaccioso, e ridicolo... e minaccioso. Lasciate stare."
+
+ akx.9021.name: "Il Segnale Orizzonte: Da Dove Proviene la Fine"
+ akx.9021.desc: "\"Questa sarà la mia fine,\" esclama [horizonsignal_thirdleader.GetName] durante la riunione prima del lancio. \"So che non farò ritorno. Ma penso di aver sempre saputo che sarebbe capitato. Qualunque cosa dimori nel buco nero, sta aspettando da moltissimo tempo... penso che mi aspettasse da prima ancora che nascessi.\"\n\nAncora una volta la nave si avvicina al Punto d'Uscita. Ancora una volta lo spazio ribolle come una furia. Di nuovo i nostri sensori captano dati affascinanti. Questa volta [horizonsignal_thirdleader.GetName] rimane in silenzio. La telemetria diventa intermittente, e poco dopo tace anch'essa. La nave raggiunge il Punto d'Uscita. Le condizioni tutt'attorno tornano ad essere normali. Non succede nulla.\n\nNulla? La squadra di monitoraggio mormora furiosamente. La nave è diversa... di fatto, è un'altra nave. Si tratta del vascello di [horizonsignal_firstleader.GetName], andato perduto anni fa, e che ora si allontana dal Punto d'Uscita. La squadra di soccorso lo trova vuoto ed incontaminato... nessuna traccia dell'equipaggio, e nessun segno di violenza. Ma è presente una voce nel diario di bordo di [horizonsignal_firstleader.GetName], intitolata §HCIÒ CHE FU, SARÀ§!. I nostri scienziati la studiano nervosamente. \"Impossibile\", esclama uno di loro. \"Lo spero\", risponde un altro.\n\nLa nave viene rinominata \"Trovatella\" e rimessa in servizio. Il Segnale, morto o dormiente, non trasmetterà più nulla, mai più."
+ akx.9021.a: "Tuttavia, questa potrebbe non essere la fine."
+
+ akx.9022.name: "Il Segnale Orizzonte: Un Intervento"
+ akx.9022.desc: "\"Questa sarà la mia fine,\" esclama [horizonsignal_thirdleader.GetName] durante la riunione prima del lancio. \"So che non farò ritorno. Ma penso di aver sempre saputo che sarebbe capitato. Qualunque cosa dimori nel buco nero, sta aspettando da moltissimo tempo... penso che mi aspettasse da prima ancora che nascessi.\"\n\nAncora una volta la nave si avvicina al Punto d'Uscita. Ancora una volta lo spazio ribolle come una furia. Di nuovo i nostri sensori captano dati affascinanti. Questa volta [horizonsignal_thirdleader.GetName] rimane in silenzio. La telemetria diventa intermittente...\n\nE la nave esplode improvvisamente... una breve fiammata di furia stellare, velocemente scomparsa nell'oscurità del Sistema [horizonsignal_system.GetName]. Qualunque cosa ci fosse laggiù, ora rimpiangerà di aver interferito. Non lo sapremo mai. Il Segnale Orizzonte non si è più ripresentato. Ma la nostra squadra può recuperare qualcosa di interessante dalle ceneri della nave."
+ ##create HORIZON_DEBRIS_PROJECT
+ akx.9022.a: "Tuttavia, questa potrebbe non essere la fine."
+
+
+ akx.9023.name: "Il Segnale Orizzonte: - Fine Messaggio -"
+ akx.9023.desc: "[horizonsignal_thirdleader.GetName] obbedisce, con evidente sollievo. I rapporti psichici indicano che è soggetto ad incubi ricorrenti... parla di labirinti impossibili, dell'affamato vortice dello spazio interstellare, del suo nome pronunciato nell'oscurità. Nel giro di un anno, il messaggio si interrompe."
+
+ akx.9090.name: "Il Segnale Orizzonte: Causa ed Effetto"
+ akx.9090.desc: "I nostri osservatori riferiscono che il loquace buco nero presente nel Sistema [horizonsignal_system.GetName] si è attivato per un attimo, alla morte di [horizonsignal_secondleader.GetName]. Un rapido ed incomprensibile segnale. Come un impeto di rabbia, aggiunge uno degli osservatori."
+ akx.9090.a: "Non è finita."
+
+ akx.9091.name: "Il Segnale Orizzonte: In Memoriam"
+ akx.9091.desc: "I nostri osservatori riferiscono che il loquace buco nero presente nel Sistema [horizonsignal_system.GetName] si è attivato per un attimo, alla morte di [horizonsignal_thirdleader.GetName]. Ha trasmesso nuovamente il poema artificiale, per tre volte. Sembrava, aggiunge uno degli osservatori, un ubriaco che canta ad una veglia funebre."
+ akx.9091.a: "Non è finita."
+
+ akx.9095.name: "Il Segnale Orizzonte: Una Lezione tra le Ceneri"
+ akx.9095.desc: "Abbiamo riprodotto le condizioni approssimative che potremmo trovare attorno al buco nero. Abbiamo notato che i frammenti ritrovati ciclano tra i vari stadi, in un modo che dovrebbe essere impossibile... come se il tempo oscillasse. Potremmo ricavare energia da questo fenomeno... anche se potrebbero verificarsi preoccupanti cambiamenti allo spazio-tempo locale."
+
+ ########################################
+ ##THE LOOP TEMPLE: continuation of intro
+
+ akx.9100.name: "Il Tempio del Loop: Tracce nella Pietra"
+ akx.9100.desc: "Gli archeologi hanno ritrovato un tempio abbandonato nei remoti altopiani di [Root.GetName]... sepolto da secoli, ma di recente riaffiorato grazie ad un terremoto. Le tecniche di datazione suggeriscono che si tratta di una reliquia pre-industriale, scavata a mano nella roccia vulcanica. Tuttavia, il simbolo ricorrente sulle pareti e sull'altare, un serpente a forma di nastro di Möbius che si mangia la coda, non ha precedenti nella nostra storia recente, e le iscrizioni sono in un alfabeto sconosciuto. Uno degli archeologi suggerisce che si potrebbe trattare di una reliquia lasciata da una razza sconosciuta di precursori.\n\nPer una coincidenza presumibilmente insignificante, sembra che il sisma si sia verificato al termine dell'ultimo messaggio del buco nero nel Sistema [horizonsignal_system.GetName]."
+ #create LOOP_TEMPLE_PROJECT
+ akx.9100.spiritual.a: "Ci è stata aperta una via."
+ akx.9100.neutral.a: "Merita alcuni studi."
+ akx.9100.b: "Un infausto presagio."
+
+ akx.9101.name: "Il Tempio del Loop: Tempo e Pietra"
+ akx.9101.desc: "I nostri scienziati hanno scoperto molto sul tempio sotterraneo, ma rimane una domanda. Un'apertura sul soffitto, allineata all'altare, suggerisce che un tempo si doveva trattare di un calendario solare; ma è stato così danneggiato dal terremoto che non ne abbiamo la certezza. Se i costruttori volevano indicare una data in particolare, non sapremo mai di quale si trattasse. Abbiamo avuto più fortuna con l'alfabeto sconosciuto. Si tratta di una variante volgare di una scrittura ieratica più nota, non una lingua aliena, e siamo riusciti a decifrarla completamente.\n\nIl tempio è dedicato al \"Verme che Attende\" o §HVerme in Attesa§!. La maggior parte delle iscrizioni sono invocazioni poetiche che chiedono la sua venuta o, se lette nell'altro verso, la sua dipartita. È presente anche un gruppo di iscrizioni che descrive le 'operazioni dell'universo' che, secondo i nostri archeologi, contengono riferimenti ad equazioni avanzate... niente di nuovo, ma molto impressionanti per un tempio di quest'epoca. Dobbiamo però ancora trovare un fisico che confermi queste ipotesi.\n\nIl tempio non contiene segreti cosmici o armi aliene, da quanto possiamo vedere. Ma i suoi oscuri antri possiedono una distintiva bellezza minacciosa, e le invocazioni al Verme in Attesa ora vanno di moda. Sono entrate a far parte della musica popolare... e pubblicate in compilation."
+ akx.9101.a.notspiritual: "Aprite il Tempio del Loop al pubblico."
+ akx.9101.a.notspiritual.tooltip: "Qualcosa dal nostro passato. Ciò che fu, sarà."
+ akx.9101.a.spiritual: "Rendete il Tempio del Loop un luogo di pellegrinaggio."
+ akx.9101.a.spiritual.tooltip: "La saggezza della fede dei nostri antenati. Ciò che fu, sarà. Aumenta la felicità del pianeta, tra le altre cose."
+ akx.9101.b: "Riserva il Tempio per i soli studi accademici."
+ akx.9101.b.tooltip: "Limitiamone l'accesso a chi ne ha davvero bisogno."
+ akx.9101.c: "C'è qualcosa che non va. Sigillate il Tempio."
+ #small bump to Influence, worm_events_available *not* set)
+ akx.9101.c.tooltip: "Meglio un rimpianto che mille rimorsi."
+
+ ##all the remaining story events below should only be triggered if the worm_events_available flag has been set and Omega Theory has not yet been researched.
+
+ ###################################
+ ##THE MESSENGER: Worm-related event
+
+ akx.9200.name: "Il Messaggero: §HCIÒ CHE FU, SARÀ§!"
+ akx.9200.desc: "La [Root.GetName] ha localizzato un piccolo oggetto artificiale, minimamente alimentato, che trasmette un segnale continuo a distanza ravvicinata. Questo genere di oggetti solitamente si rivelano essere capsule di salvataggio, ed è proprio ciò che sembra. È qui fuori da molto tempo. Quando l'equipaggio la apre, osservando attentamente le procedure di quarantena, trova degli antichi resti conservati dall'ambiente sterile della capsula. Niente di insolito, per ora. Il capitano della [Root.GetName], tuttavia, indica che non si aspettava di trovare sulle pareti le parole §HCIÒ CHE FU, SARÀ; CIÒ CHE SARÀ, FU§! scritte con i fluidi corporei dell'occupante, che ora l'equipaggio chiama ironicamente il Messaggero. Gli scienziati aggiungono che sono presenti delle somiglianze anatomiche inaspettate tra la specie del Messaggero... e la nostra."
+ #creates the MESSENGER_POD_PROJECT_1 special project
+
+ akx.9201.name: "Il Messaggero: Possibilità"
+ akx.9201.desc: "Abbiamo stabilito che la capsula di salvataggio è di un modello disponibile durante la precedente fase della civiltà galattica... nessuna nuova tecnologia. I resti del Messaggero, tuttavia, sono un'altra storia. Si tratta indiscutibilmente di un nostro antenato, o una variante della nostra specie. Forse abbiamo dei cugini là fuori... o forse siamo stati sottoposti a manipolazione genetica da una razza di precursori. [researchingscientist.GetName] chiede il permesso di condurre ricerche più approfondite."
+ akx.9201.militarist.a: "Dategli il permesso di continuare."
+ akx.9201.militarist.a.tooltip: "Aumenta la ricerca sulla Mappatura Genetica"
+ #create MESSENGER_POD_PROJECT_2_UNLEASHED project
+ akx.9201.notmilitarist.b: "Rilasciate i finanziamenti."
+ #create MESSENGER_POD_PROJECT_2_LEASHED project
+ akx.9201.notmilitarist.b.tooltip: "Aumenta la ricerca sulla Mappatura Genetica di [moderate amount]"
+ akx.9201.c: "No. E [researchingscientist.GetName] dovrà lasciare la ricerca già esistente."
+ akx.9201.c.tooltip: "Ci sono cose che è meglio non sapere."
+
+ akx.9210.name: "Il Messaggero: Liberi"
+ akx.9210.desc: "[researchingscientist.GetName] ha ricostruito la specie del Messaggero. È più debole rispetto a noi, ma possiede abilità cognitive decisamente migliori. Non siamo ancora in grado di stabilire se il Messaggero sia una versione modificata della nostra specie, o un nostro antenato. È un po' imbarazzante immaginare che potremmo discendere da una specie tanto debole... ma [researchingscientist.GetName] rimane di questa opinione. In effetti, considera la perdita delle abilità cognitive una \"tragedia\".\n\nTalmente una tragedia che ha deciso di alterare la sua fisiologia per renderla più simile a quella del Messaggero. Insiste che ciò gli permetterà di continuare al meglio il progetto."
+ akx.9210.a: "Che tradimento creativo! Giustiziatelo, per favore."
+ akx.9210.b: "Che tradimento creativo! Giustiziatelo e distruggete gli appunti."
+ akx.9210.c: "Un'idea eccellente! Che prosegua."
+
+ akx.9211.name: "Il Messaggero: Una Nuova Luce"
+ akx.9211.desc: "[researchingscientist.GetName] ha ricreato il patrimonio genetico del Messaggero. Senza chiedere alcuna opinione, ha anche creato un agente retrovirale estremamente contagioso. Si sta dilagando tra i nostri pianeti. Sotto la sua influenza, gli appartenenti alla nostra specie dominante stanno cadendo in uno stato di coma metamorfico, risvegliandosi giorni dopo trasformati nella specie del Messaggero. Tutto ciò sta causando... un po' di agitazione."
+ akx.9211.a: "È andato troppo oltre. Ora basta. Contenete l'epidemia."
+ akx.9211.a.tooltip: "Tutta la POP sul Pianeta Capitale verrà convertita, ma l'epidemia terminerà lì."
+ akx.9211.b: "Contenete l'epidemia, ed epurate tutti i cittadini colpiti."
+ akx.9211.b.tooltip: "Tutta la POP colpita verrà §REpurata§!: quasi l'intera popolazione di [Root.Capital.GetName]."
+ akx.9211.c: "Ciò che fu, sarà. Cambieremo. Portatemi un campione dell'agente."
+ akx.9211.c.tooltip: "Verrà trasformata la nostra intera specie."
+
+ akx.9220.name: "Il Messaggero: Al Guinzaglio"
+ akx.9220.desc: "[researchingscientist9220.GetName] ha ricostruito la specie del Messaggero. È piuttosto impressionante... diciamo preoccupante. Sembra decisamente più robusta ed aggressiva della nostra. Non siamo ancora in grado di stabilire se il Messaggero sia una versione modificata della nostra specie, o un nostro antenato. [researchingscientist9220.GetName] è convinto che un tempo fossimo una specie più belligerante, e che i precursori ci misero quindi una \"museruola genetica\". In effetti, considera la perdita delle abilità marziali una \"tragedia\".\n\nTalmente una tragedia che ha deciso di alterare la sua fisiologia per renderla più simile a quella del Messaggero. Insiste che ciò gli permetterà di continuare al meglio il progetto."
+ akx.9220.a: "Che tradimento creativo! Giustiziatelo, per favore."
+ akx.9220.b: "Che tradimento creativo! Giustiziatelo e distruggete gli appunti."
+ akx.9220.c: "Un'idea eccellente! Che prosegua."
+
+ akx.9221.name: "Il Messaggero: Cala la Notte"
+ akx.9221.desc: "[researchingscientist9220.GetName] ha ricreato il patrimonio genetico del Messaggero. Senza chiedere alcuna opinione, ha anche creato un agente retrovirale estremamente contagioso. Si sta dilagando tra i nostri pianeti. Sotto la sua influenza, gli appartenenti alla nostra specie dominante stanno cadendo in uno stato di coma metamorfico, risvegliandosi giorni dopo trasformati nella specie del Messaggero. Tutto ciò sta causando... un po' di agitazione."
+ akx.9221.a: "È andato troppo oltre. Contenete l'epidemia."
+ akx.9221.a.tooltip: "Tutta la POP sul Pianeta Capitale verrà convertita, ma l'epidemia terminerà lì."
+ akx.9221.b: "Contenete l'epidemia, ed epurate tutti i cittadini colpiti."
+ akx.9221.b.tooltip: "Tutta la POP colpita verrà §REpurata§!: quasi l'intera popolazione di [Root.Capital.GetName]."
+ akx.9221.c: "Ciò che fu, sarà. Fate circolare un campione dell'agente."
+ akx.9221.c.tooltip: "Verrà trasformata la nostra intera specie."
+
+ ##################################
+ ##A RENDEZVOUS: Worm-related event
+
+ akx.9300.name: "Un Appuntamento"
+ akx.9300.desc: "La [Root.GetName] è stata contatta... dalla §HSyzygy§! di [Root.Owner.GetName]. La comunicazione è avvenuta nonostante il fatto che non abbia inviato alcun ID riconoscibile, e nessuna nave con quel nome sia mai stata commissionata. L'ufficiale in comando della Syzygy sostiene di essere il Capitano $H[mirrored_syzygy_admiral.GetName]§!."
+ akx.9300.a.admiralabsent: "Uhm. Il nostro ammiraglio che porta quel nome sta bene ed è altrove."
+ akx.9300.a.admiralabsent.tooltip: "Aprite le comunicazioni."
+ akx.9300.a.admiralpresent: "Interessante. [mirrored_syzygy_admiral.GetName] è qui."
+ akx.9300.b: "DEVE essere un'imboscata. Non corriamo rischi. Alle armi."
+
+ akx.9310.name: "Un Appuntamento: Il Capitano Che Fu"
+ akx.9310.desc: "Il Capitano che appare sullo schermo è chiaramente [mirrored_syzygy_admiral.GetName], ma una sua versione sfregiata, spettrale, decrepita e rovinata; il suo volto è ustionato, e più vecchio... molto più vecchio. Il ponte sullo sfondo sembra altrettanto malandato e decrepito. Ma la voce del Capitano è chiara e decisa.\n\n§G\"FINALMENTE siete qui. Ho atteso così a lungo. La mia punizione è morire in battaglia contro di voi. Vi prego, finitemi. Mi spiace.\"§!"
+ akx.9310.a: "Che succede qui? Sei veramente [mirrored_syzygy_admiral.GetName]?"
+ akx.9310.a.response: "§G\"Se lo sono? Voi siete gli stessi dello scorso anno? Ogni giorno è una morte. Ogni futuro è una scelta. Il tempo è un labirinto, non una strada.\"§!\n\nUn sogghigno... sembra non stia bene.\n\n§G\"Chiedetelo al Loop.\"§!"
+ akx.9310.b: "Se vuoi morire, perché aspettare? Hai mille modi per farlo."
+ akx.9310.b.response: "§G\"Non ricordate? Certo che no, ancora... e nemmeno potreste, ora, se ci siete riusciti. Il Loop ha bisogno di sacrifici, e li desidera così.\"§! Un'agonizzante colpo di tosse. §G\"Meglio non scherzare con il Loop.\"§!"
+ akx.9310.c: "Cos'è il Loop?"
+ akx.9310.c.response: "§G\"Il Loop è ciò che è venuto prima e ciò che verrà in seguito... il §!§HVerme in Attesa§!§G... e, suppongo, che il Verme sia il Loop. Diciamo che se il tempo è un labirinto\"§!... il Capitano inizia a gesticolare inutilmente... §G\"allora il Loop è il suo mostro. Od il suo creatore... no, non riesco a spiegarlo... ne saprete di più molto presto. L'avete già fatto, nel mio passato... Armi bloccate?\"§!"
+ akx.9310.d.notpacifist: "Arrenditi. Qualunque cosa tu abbia fatto, possiamo aiutarti."
+ akx.9310.d.notpacifist.response: "§G\"Troppo tardi\"§!, esclama il Capitano, non senza rammarico, ed interrompe la trasmissione."
+ akx.9310.d.fanaticpacifist: "Uccidere non è il nostro modo di fare, e ti aiuteremo."
+ akx.9310.d.fanaticpacifist.response: "Il Capitano esita per un lungo momento. Diventa evidente che il ponte della Syzygy è vuoto: non ci sono altri membri dell'equipaggio.\n\n§G\"È troppo tardi per me,\"§! esclama infine il Capitano, §G\"ma avete ragione. Questo non è il nostro modo di fare. Farò ciò che devo fare.\"§! Interrompe la trasmissione.\n\nI sensori riferiscono che le armi della Syzygy sono disattivate; la nave si sta spegnendo. Poco dopo... si disattiva del tutto. Quando la nostra squadra di soccorso sale a bordo, non trova traccia di vita, e nessun segno del Capitano. Ma qualcuno ha di recente avuto accesso ai sistemi di sicurezza, disattivando i protocolli che impedivano l'accesso al nucleo."
+ akx.9310.e: "Facciamola finita, allora."
+ akx.9310.e.response: "§G\"Passo e chiudo.\"§!\n\nIl Capitano saluta... sussultando come se il movimento tirasse una vecchia ferita... e termina la connessione."
+ akx.9310.e.materialistic: "Prima che tu vada: hai imparato qualcosa di utile?"
+ akx.9310.e.materialistic.response: "Il Capitano cela un sogghigno stirato.\n\n§G\"Speravo che me lo domandaste. Vi sto inviando i dati. Passo e chiudo.\"§!"
+ akx.9310.e.spiritual: "Ti ricorderemo nelle nostre preghiere."
+ akx.9310.e.spiritual.response: "§G\"Ed io ho un'altra preghiera per voi.\"§!\n\nIl Capitano recita una strana litania palindroma composta da ventisette parole che appassionerà i nostri teologi, ed interrompe la comunicazione."
+ akx.9310.e.militarist: "Capitano. Ci incontreremo tra fiamme ed onore."
+ akx.9310.e.militarist.response: "Il Capitano saluta.\n\n§G\"Spero di essermi meritato un monumento.\"§!\n\nLa connessione si interrompe."
+ akx.9310.e.fanaticcollectivist: "Qualunque cosa sia successa, questo non è il nostro modo di fare. Arrenditi. Ti aiuteremo."
+ akx.9310.e.fanaticcollectivist.response: "Il Capitano esita per un lungo momento. Diventa evidente che il ponte della Syzygy è vuoto: non ci sono altri membri dell'equipaggio.\n\n§G\"È troppo tardi per me,\"§! esclama infine il Capitano, §G\"ma avete ragione. Questo non è il nostro modo di fare. Farò ciò che devo fare.\"§! Interrompe la trasmissione.\n\nI sensori riferiscono che le armi della Syzygy sono disattivate; la nave si sta spegnendo. Poco dopo... si disattiva del tutto. Quando la nostra squadra di soccorso sale a bordo, non trova traccia di vita, e nessun segno del Capitano. Ma qualcuno ha di recente avuto accesso ai sistemi di sicurezza, disattivando i protocolli che impedivano l'accesso al nucleo."
+ akx.9310.f: "Traditore."
+ akx.9310.f.tooltip: "Chiudete le comunicazioni."
+
+ akx.9315.name: "Un Appuntamento: Come Finisce"
+ akx.9315.desc: "La Syzygy sta riattivando le armi."
+ #spawn the Syzygy
+ akx.9315.a: "Se ci fosse stato un altro modo..."
+ akx.9315.b: "Così sia."
+
+ akx.9319.name: "Un Appuntamento: Interferenza"
+ akx.9319.desc: "Un messaggio disturbato proviene dal Capitano della Syzygy, nel Sistema [syzygy_location.GetStarName]. Dietro di lui, il ponte è avvolto nel fumo. §G\"Troppo tardi,\"§! tossisce. §G\"Ci avete messo troppo. Il Loop non mi perdonerà. Vi prego...\"§!\n\nIl messaggio termina qui."
+ akx.9319.a: "Chi è stato?"
+ akx.9319.a.tooltip: "La Syzygy è stata distrutta da un altro impero. Se raggiungerai il sistema prima che i detriti vadano alla deriva, potresti trovare qualcosa di utile."
+
+ akx.9320.name: "Un Appuntamento: Il Capitano Che Sarà"
+ akx.9320.desc: "[mirrored_syzygy_admiral.GetName] rimane in silenzio nei giorni a seguire. Non è cosa da poco ordinare la propria morte. Ma nel tempo, quel silenzio si trasforma in determinazione, e fiducia quasi sconsiderata."
+
+ akx.9321.name: "Un Appuntamento: Il Capitano Che Sarà"
+ akx.9321.desc: "[mirrored_syzygy_admiral.GetName] rimane in silenzio nei giorni a seguire. Non è cosa da poco sapere di essere già morti. Ma nel tempo, quel silenzio si trasforma in determinazione, e fiducia quasi sconsiderata."
+ akx.9321.a: "Preoccupante."
+ akx.9321.b: "Ciò che fu, sarà; ciò che sarà, fu."
+
+ akx.9330.name: "Un Appuntamento: Il Giorno e l'Ora"
+ akx.9330.desc: "Durante l'anno seguente, abbiamo ricevuto dei rapporti indicanti la presenza dell'ammiraglio [From.GetName] in vari punti del nostro spazio, ed oltre. Quando un Leader famoso muore, accadono questo genere di cose, naturalmente; ed è diventato una specie di leggenda dal momento dell'incontro con la Syzygy. Ma non possiamo esserne certi."
+ akx.9330.a: "Potremmo non saperlo mai."
+ akx.9330.b: "Oh, possiamo esserne certi."
+
+ akx.9340.name: "Un Appuntamento: Tesori Funebri"
+ akx.9340.desc: "Le analisi forensi dei resti che abbiamo scoperto hanno rivelato alcune anomalie. Tutte le parti della nave sono state costruite nello stesso periodo... utilizzano tecniche che corrispondono ai nostri metodi di costruzione... ma alcuni componenti sembrano essere centinaia d'anni più vecchi di altri. Una cellula energetica che abbiamo recuperato risulta molto più performante di quanto dovrebbe essere.\n\nInoltre... due analisti assegnati al progetto si sono improvvisamente ripresi da alcuni problemi cronici di salute... in un caso, probabilmente terminali. La squadra non sa spiegarsi l'accaduto."
+
+ ######################################
+ ##THE COILS OF GOD: Worm-related event
+ akx.9400.name: "Le Spire di Dio"
+ akx.9400.desc: "La nostra stazione d'osservazione su [coils_planet.GetName] riferisce la nascita di un insolito movimento artistico-religioso, le Spire di Dio. I primitivi orologi meccanici sono considerati sacri, ma vengono distrutti ritualmente dopo un anno di operatività. Tutte le forme di vita simili a vermi o serpenti vengono protette. Il tempo, dicono i Preti delle Spire, è un labirinto. \"Ciò che fu, sarà; ciò che sarà, fu\", intonano nelle loro preghiere."
+ akx.9400.a: "Suona familiare. Sopprimete il culto nel miglior modo possibile."
+ akx.9400.b: "Suona familiare. Osservateli più da vicino possibile."
+
+ akx.9410.name: "Le Spire di Dio: Una Discreta Persecuzione"
+ akx.9410.desc: "Abbiamo convinto i governanti nativi che il culto delle Spire di Dio su [coils_planet.GetName] è una minaccia. I Preti delle Spire sono stati scoraggiati, imprigionati o, purtroppo, inceneriti. Le specie pre-SL hanno accesso ad un profondo pozzo di odio e sospetto... ci sono volte in cui si rivela molto utile."
+ akx.9420.name: "Le Spire di Dio: Radici Profonde"
+ akx.9420.desc: "Abbiamo convinto i governanti nativi che il culto delle Spire di Dio su [coils_planet.GetName] è una minaccia. I Preti delle Spire sono stati scoraggiati, imprigionati o, purtroppo, inceneriti. Ma il culto è tenace, ed i nostri osservatori esprimono la preoccupazione che si sia semplicemente celato nella clandestinità."
+
+ akx.9450.name: "Le Spire di Dio: Le Cerimonie del Labirinto"
+ akx.9450.desc: "Il culto delle Spire di Dio su [coils_planet.GetName] è cresciuto a velocità insolita. Si può trovare in ogni città del pianeta, e sta promuovendo alcune lunghe cerimonie condotte dai cittadini in ogni ambito della loro vita. L'intera specie è stranamente entusiasta della religione. I ricchi compiono elaborate danze circolari durante le loro celebrazioni. I poveri incidono complessi sigilli a spirale sulle loro porte. Persino nei parchi si odono canti sulla natura circolare del tempo."
+ akx.9450.a: "È preoccupante. Intervenite, ma discretamente."
+ ##create COILS_GOD_PROJECT_DISRUPT
+ akx.9450.b: "È una cosa seria. Utilizzate la forza, fermateli a qualunque costo."
+ ##create COILS_GOD_PROJECT_PREVENT:
+ akx.9450.c: "Inviate una squadra per studiare i riti... e parteciparvi, se possibile."
+ ##create COILS_GOD_PROJECT_PARTICIPATE
+ akx.9450.d: "I primitivi fanno cose primitive. Continuate ad osservare."
+
+ akx.9460.name: "Le Spire di Dio: Fine della Cerimonia"
+ akx.9460.desc: "La nostra campagna di sovversione ha sconvolto le cerimonie delle Spire di Dio su [coils_planet.GetName]. La nobiltà ha abbandonato il culto. I graffiti a spirale sulle pareti sbiadiscono. I giovani tornano nei parchi tra flirt, omicidi ed altri sani passatempi infantili. Si calcolano una valanga di suicidi tra i Preti delle Spire. Se c'è mai stata una crisi, forse è passata."
+ akx.9460.a: "\"Il Loop non ha fine, ma non sempre si completa.\""
+ akx.9460.b: "Ottimo lavoro, tutti quanti. Ritiratevi."
+
+ akx.9465.name: "Le Spire di Dio: Notizie dal Sottosuolo"
+ akx.9465.desc: "La nostra campagna di sovversione ha sconvolto le cerimonie delle Spire di Dio su [coils_planet.GetName]... ma ha solo alimentato il fervore dei Preti delle Spire. Si incontrano in segreto, ora, in templi sotterranei. La nobiltà non intraprende più le danze labirintiche, ma nascondono ancora tatuaggi con il Segno del Verme. Ed alcuni canti di \"ciò che fu, sarà\" ancora riecheggiano nei parchi."
+ akx.9465.a: "\"Il Loop non ha fine.\""
+ akx.9465.b: "Continuate ad osservare."
+
+ akx.9470.name: "Le Spire di Dio: Il Sangue dei Preti"
+ akx.9470.desc: "I nostri operativi sono senza pietà. Rapiscono o uccidono ogni Prete delle Spire che riescono a trovare. Piazzano cariche esplosive nelle case che portano il marchio del Loop. Su [coils_planet.GetName] si vocifera che le blasfemie delle Spire abbiano scatenato l'ira di un dio superiore. In poco tempo, i nativi iniziano a massacrare i Preti delle Spire senza alcuna assistenza da parte dei nostri operativi. La squadra d'osservazione è inorridita; ma se c'è mai stata una crisi, è stata scongiurata."
+ akx.9470.a: "\"Il Loop non ha fine, ma non sempre si completa.\""
+ akx.9470.b: "Ottimo lavoro, tutti quanti. Ritiratevi."
+
+ akx.9480.name: "Le Spire di Dio: Facendosi Strada nel Labirinto"
+ akx.9480.desc: "I nostri etnografi sono affascinati dalla complessità delle cerimonie. Ipotizzano l'esistenza di canali di comunicazione segreti, preghiere in codice stenografico, o algoritmi basati sui rituali. Mentre riportavano le prove delle loro scoperte, tutte le comunicazioni sono cessate improvvisamente. In effetti, sembra che tutte le comunicazioni planetarie si siano interrotte. I rapporti satellitari lo confermano: non è più presente alcuna attività su tutto il pianeta. Nessun veicolo per le strade, nessuna emissione termica dei centri abitati. Nessun segno di vita...\n\nEd ecco il rapporto finale. L'intera popolazione del pianeta, inclusa la nostra squadra di etnografi, è scomparsa... lasciando tutti i segni di una fuga improvvisa ma non violenta. I pasti sono rimasti a metà sulle tavole, gli animali domestici sono senza cibo, alcune case sono in fiamme a causa di qualche fornello rimasto acceso. Sono state registrate alcune Anomalie gravitazionali nel momento della sparizione. In quasi ogni strada, i segni fatti col gesso dalle Spire restano a testimonianza."
+ akx.9480.a: "\"Il Loop non ha fine.\""
+ akx.9480.a.tooltip: "Una nave scientifica svanisce, ed una civiltà con essa."
+ akx.9480.b: "Una lezione difficile."
+
+ akx.9490.name: "Le Spire di Dio: Templi Vuoti"
+ akx.9490.desc: "È arrivato un rapporto dalla nostra squadra d'osservazione su [coils_planet.GetName]: le cerimonie delle Spire di Dio sono cessate. Di fatto, l'intera attività planetaria sembra essere diminuita. I rapporti dei sopralluoghi a bassa quota sui centri abitati lo confermano: non è più presente alcuna attività su tutto il pianeta.\n\n Nessun veicolo per le strade, nessuna emissione termica dei centri abitati. Nessun segno di vita...\n\nEd ecco il rapporto finale. L'intera popolazione del pianeta, inclusa la nostra squadra di etnografi, è scomparsa... lasciando tutti i segni di una fuga improvvisa ma non violenta. I pasti sono rimasti a metà sulle tavole, gli animali domestici sono senza cibo, alcune case sono in fiamme a causa di qualche fornello rimasto acceso. Sono state registrate alcune Anomalie gravitazionali nel momento della sparizione. In quasi ogni strada, i segni fatti col gesso dalle Spire restano a testimonianza."
+ akx.9490.a: "\"Il Loop non ha fine.\""
+ akx.9490.a.tooltip: "Una civiltà svanisce."
+ akx.9490.b: "Una lezione difficile."
+
+ #######################################
+ ##THE WAITING WORLD: Worm-related event
+
+ akx.9500.name: "Il Mondo in Attesa"
+ akx.9500.desc: "Sembra che questo non sia il primo insediamento [Root.Owner.GetSpeciesAdj] sul pianeta. Sono presenti un certo numero di edifici e distretti che, con un piccolo restauro, potrebbero tornarci utili. Ma tutti i registri sono stati cancellati. Probabilmente si trattava di un porto per contrabbandieri, o un rifugio per esuli politici."
+ akx.9500.a: "Eccellente! Iniziate i preparativi per i restauri."
+ akx.9500.b: "È troppo bello per essere vero. Demolite i distretti."
+ akx.9500.b.tooltip: "Ciò causerà infelicità nella colonia."
+
+ akx.9505.name: "Il Mondo in Attesa: Demolizione"
+ akx.9505.desc: "I nostri ingegneri piazzano le cariche e si rifugiano a distanza di sicurezza. I siti vengono ridotti in cenere. Alla fine le rovine scompariranno sotto l'azione del vento, delle radici e della pioggia. Ma le loro strutture perdureranno per secoli; e si narreranno storie... le sentiremo... di ombre tra le rocce durante il giorno, e luci blu nella notte. I nostri coloni le eviteranno. Non attireranno alcun visitatore."
+ akx.9505.a: "Ogni cosa volge al termine."
+ akx.9505.a.tooltip: "Le vecchie strutture vengono demolite."
+ akx.9505.b: "Nulla verrà dimenticato."
+ akx.9505.c: "Adoro le esplosioni."
+
+ akx.9510.name: "Il Mondo in Attesa: Ombre sulle Pareti"
+ akx.9510.desc: "I nostri coloni, inizialmente, erano felici di poter utilizzare i distretti esistenti su [waiting_world.GetName]. La loro presenza ha fatto progredire velocemente la colonia. Ma ora iniziano ad essere nervosi. Si vocifera che le strutture potrebbero ancora avere degli occupanti, o sistemi di sicurezza attivi, sebbene non ne sia stata rilevata alcuna prova certa. Alcuni coloni insistono, enigmaticamente, sulla presenza di \"ombre nelle pareti\"."
+ akx.9510.a: "Basta superstizioni. Queste strutture rappresentano anni di sforzi."
+ akx.9510.b: "Perché rischiare? Sono solo edifici. Demoliteli."
+ akx.9510.b.tooltip: "Ciò causerà infelicità nella colonia."
+
+ akx.9520.name: "Il Mondo in Attesa: Troppi"
+ akx.9520.desc: "Arrivano notizie interessanti da [waiting_world.GetName], dove abbiamo trovato i distretti abbandonati. Un censimento mostra che il numero di coloni è più alto del previsto. I dati sulle nuove colonie sono sempre imprecisi, ma da quanto ne sappiamo sembra che tutti siano in possesso di documenti validi... e che nessuno abbia denunciato la presenza di stranieri. Ma o il tasso di natalità è estremamente alto, o ci troviamo di fronte ad un'immigrazione irregolare, o... qualcosa del genere. In qualche modo, la popolazione è maggiore di quanto dovrebbe essere."
+ akx.9520.a: "Distruggete quei distretti. Avremmo dovuto farlo molto tempo fa."
+ akx.9520.b: "Indagate a fondo; tenete d'occhio la situazione."
+
+ akx.9525.name: "Il Mondo in Attesa: E Ne Arrivano Altri"
+ akx.9525.desc: "Un altro aggiornamento da [waiting_world.GetName], dove abbiamo trovato i distretti abbandonati. Il numero di coloni continua ad aumentare, ed ora si trovano alcune irregolarità nei registri... nuclei familiari che non dovrebbero esistere, date di nascita senza senso. Deve trattarsi di un canale d'immigrazione clandestino da una colonia perduta, o qualche sorta di sabotaggio da parte dei coloni."
+ akx.9525.a: "Distruggete quei distretti. Avremmo dovuto farlo molto tempo fa."
+ akx.9525.b: "Strano! Ma c'è sempre posto per altri coloni. Continuate ad indagare."
+
+ akx.9530.name: "Il Mondo in Attesa: Uscita"
+ akx.9530.desc: "Si è verificato un improvviso blackout nelle comunicazioni con [waiting_world.GetName]. In qualche modo c'era troppa gente laggiù. Ora, sembra che non ce ne sia del tutto. L'intera popolazione è semplicemente svanita durante la notte. Hanno lasciato il pianeta? Si sono nascosti? Hanno compiuto un genocidio di massa?"
+ akx.9530.a: "Inviate una squadra ad indagare."
+ akx.9530.b: "Abbandonate il pianeta immediatamente e mettetelo in quarantena."
+ akx.9530.b.tooltip: "Ciò renderà il pianeta permanentemente inutilizzabile."
+
+ akx.9535.name: "Il Mondo in Attesa: La Qualità della Luce"
+ akx.9535.desc: "La nostra squadra riferisce che, in effetti, [waiting_world.GetName] è vuoto... non solo non sono più presenti i coloni, ma nemmeno alcuna traccia della loro passata esistenza. Gli edifici sono svaniti, i satelliti e le strutture orbitali sono scomparsi, l'atmosfera non mostra tracce di alcuna civiltà tecnologica. Stando alle parole degli esploratori, è come se il pianeta si sia resettato.\n\nCi informano anche della presenza di fluttuazioni nelle radiazioni solari, caratteristiche delle stelle pre-supernova, e di un certo numero di \"eventi luminosi\" sulla superficie, in cui la luce viene in qualche modo accumulata e rilasciata dalle funzioni prismatiche dell'atmosfera. Questi sono dati importanti e peculiari. Ma non spiegano il destino dei coloni."
+
+ akx.9540.name: "Il Mondo in Attesa: Ci Sono Tutti"
+ akx.9540.desc: "Altre improbabili notizie da [waiting_world.GetName], in cui la popolazione è misteriosamente cresciuta. Sembra che ora il numero di cittadini sia corretto, ma si è verificata qualche sorta di sabotaggio informativo, o... o qualcosa del genere... gli amministratori non ne sono certi. Nessuno degli individui sul pianeta esiste nei nostri registri. Ogni colono originale è scomparso. È come se fossero stati sostituiti da completi sconosciuti.\n\nEppure, tutti giurano di essere nostri leali cittadini. Sono tutti produttivi ed apparentemente in salute. In ogni comunicazione negano che si siano verificati problemi, ed insistono che dev'essere un nostro errore."
+ akx.9540.a: "Abbandonate la colonia, prima che la situazione sfugga di mano."
+ ##grant independence to the colony
+ akx.9540.a.tooltip: "Ciò garantirà l'indipendenza alla colonia."
+ akx.9540.b: "Epurateli, e mettete in quarantena permanente il pianeta."
+ ## Create the project WAITING_WORLD_PURGE
+ akx.9540.b.tooltip: "Ciò renderà il pianeta permanentemente inutilizzabile, ma ti farà ottenere Influenza."
+ akx.9540.c: "Inviate una squadra ad indagare."
+ ##create the project WAITING_WORLD_HYPERAPPEARANCE
+
+ akx.9541.name: "Il Mondo in Attesa: Epurazione"
+ akx.9541.desc: "Questo potrebbe essere considerato un crimine terribile. O potremmo aver preservato il nostro impero da qualcosa di ancora peggiore. I centri abitati di [waiting_world.GetName] esplodono sotto l'energia delle nostre armi. Una volta terminato, ogni edificio è in macerie; non rimane alcun essere sapiente."
+ akx.9541.a: "Eliminate i registri. Tra un secolo, nessuno saprà ciò che abbiamo fatto."
+ akx.9541.b: "Ditelo a tutti. Che ci odino pure, basta che ci temano."
+
+ akx.9545.name: "Il Mondo in Attesa: Tutto e Niente"
+ akx.9545.desc: "La nostra squadra riferisce che la popolazione del pianeta è sana, normale ed apparentemente disorientata da tutto questo trambusto. Sono presenti alcune peculiarità, tuttavia. Un numero insolito di parti gemellari; una ripugnanza planetaria nei confronti della puntualità; ed alcune fluttuazioni nelle radiazioni solari, caratteristiche delle stelle pre-supernova. Osservano anche un certo numero di \"eventi luminosi\" sulla superficie, in cui la luce viene in qualche modo accumulata e rilasciata dalle funzioni prismatiche dell'atmosfera. Questi sono dati importanti e peculiari. Ma potrebbero essere una coincidenza. La sorte dei coloni rimane un mistero."
+ akx.9545.a: "\"Ciò che sarà, fu.\""
+ akx.9545.b: "Coloni... i coloni sono strani."
+
+ ####################################
+ ### THE RETAINER: Worm-related event
+ # This will appear if the player approaches a technosphere
+ # with worm_events_available, in place of the normal technosphere options.
+
+ akx.9600.name: "Il Servitore"
+ akx.9600.desc: "Salve, salve. Bentornati su [Root.GetStarName]. Oh, siete degli altri, non è vero? Siete così tanti. Così simili al nostro Direttivo, eppure così diversi. Richiediamo la vostra assistenza: avete delle risorse per il nostro progetto? Il Loop ci aiuterà, ma è complicato da raggiungere. Costoso, capite..."
+ akx.9600.a: "Il vostro Direttivo?"
+ akx.9600.a.response: "Sì, ciò che ci ha attivato. Voi lo chiamereste \"civiltà\", supponiamo, ma abbiamo sempre trovato quel termine un tantino pretenzioso. Se ne sono andati, oh, quasi un quarto di anno galattico fa, ormai. Ci spiace: abbiamo fatto degli errori. Possiamo ricrearli, approssimativamente, con l'aiuto del Loop, ma ci servono risorse."
+ akx.9600.b: "Il Loop?"
+ akx.9600.b.response: "Sì. Lo Strano Loop; la spira temporale, l'affamato. Vi ha menzionati una volta, crediamo. O uno di voi. Siete davvero troppi. Ciò che fu, sarà... o almeno così ci ha assicurato. Può ripristinare il nostro Direttivo, più o meno."
+ akx.9600.c: "Sì."
+ akx.9600.d: "No."
+ akx.9600.d.response: "Oh, capiamo, capiamo. Vi manca poco tempo. Vorrete spenderlo al meglio, suppongo. Un cordiale addio."
+ akx.9600.e: "Forse più tardi."
+ akx.9600.e.response: "È ciò che diceva sempre il nostro Direttivo. Più tardi. Ma il loro Dopo era sempre il nostro Adesso. Quanto ci mancano."
+
+ akx.9610.name: "Il Servitore, Di Nuovo"
+ akx.9610.desc: "Sì? Quali siete? Crediamo di conoscervi, ma si sono verificate così tante oscillazioni di recente. Oh, siete voi? Il vostro sole non è ancora esploso? Oh! Siete qui per donarci ciò di cui abbiamo bisogno per far tornare il Direttivo?"
+ akx.9610.a: "Sì. Ecco qui."
+ akx.9610.b: "No."
+ akx.9610.b.response: "Certo che no; è quasi impossibile che abbiate già raccolto tutto quanto. Siete stati là fuori per quanto, un milionesimo di anno galattico? Adorabili. Vi auguriamo il meglio."
+ akx.9610.c: "Forse più tardi."
+ akx.9610.c.response: "È ciò che diceva sempre il nostro Direttivo. Più tardi. Ma il loro Dopo era sempre il nostro Adesso. Quanto ci mancano."
+
+ akx.9620.name: "L'Ultimo Compito del Servitore"
+ akx.9620.desc: "La tecnosfera assorbe le risorse senza tanti ringraziamenti, e senza alcuna comunicazione. Inizia ad irradiare energia, brillando abbastanza da essere pericolosa, e si ritira. Il buco nero reagisce. Lo spazio attorno ad esso si contorce a spirale, simile agli eventi registrati durante il Segnale Orizzonte. La tecnosfera ora è di colore bianco-blu. Bruscamente si infiamma e si raffredda, lasciando solo alcune scorie.\n\nIl Direttivo avrà fatto ritorno? Non c'è traccia di vita sapiente nel sistema. Ma i sensori rilevano alcuni insoliti organismi iper-estremofili, in orbita attorno al buco nero, che si crogiolano tra le radiazioni. L'Ufficiale Scientifico è sicuro che prima non fossero presenti. Non c'è alcuna prova del fatto che siano sapienti. Forse si tratta di qualche sorta di remoto discendente dei creatori della tecnosfera, o magari i loro antenati."
+ akx.9620.a: "Esseri immortali?"
+
+ ######################################################
+ ### THE END IN THE BEGINNING: conclusion of Worm chain
+ ##hook to on_building_complete - when the Omega Alignment has been completed
+
+ akx.10000.name: "L'Inizio della Fine"
+ akx.10000.desc: "Esiste una coscienza che esula dal tempo e dallo spazio. Si tratta di un groviglio labirintico di desiderio e disperazione. I nostri antichi progenitori la conoscevano come il Loop, il Verme in Attesa. L'abbiamo trovata là fuori, dove il vuoto viene tormentato dalla gravità. Sembra avere un particolare interesse nei nostri confronti. Ci sono prove matematiche che dimostrano il suo amore per noi; ma l'amore, per il Verme, non è lo stesso amore che sussiste nello spazio ordinario.\n\nCon tutto ciò che abbiamo appreso, pensiamo di poter utilizzare l'Allineamento Omega per aprire una rotta... un Punto d'Ingresso... per permettere al Verme di manifestarsi nel nostro sistema natale. (Il Verme adora gli esordi, e questo è il nostro.) Che conseguenze potrà avere? Dobbiamo ancora trovare qualcuno in grado di rispondere. L'immortalità, forse, o l'apocalisse. In entrambi i casi... sicuramente impareremo molto."
+ akx.10000.a: "Forse il Verme ci ama, e forse noi dovremmo amare il Verme."
+ akx.10000.b: "Non è un esperimento sicuro. Ma potremmo imparare davvero molto."
+
+ ##(when WORM_ENTRY_POINT project is completed)
+ akx.10010.name: "Il Cuore del Sole"
+ akx.10010.desc: "Il Progetto è completo. Gli acceleratori sono attivi. La rete energetica di una dozzina di città viene deviata per risvegliare la pseudo-singolarità nel cuore dell'Allineamento. Lo spazio rabbrividisce come un panno al vento. [Root.GetStarName], per un istante, si affievolisce... per poi farsi più luminosa. Un'ombra si attorciglia al suo nucleo. Il Verme è qui. Si svolge come un origami.\n\nIn tutto il sistema i sensori si spengono a causa della mole di dati incomprensibili che ricevono. Sul nostro Pianeta Natale, i nostri sudditi urlano e si nascondono, non appena si accorgono che l'attenzione è focalizzata su di loro, e su di noi. Ci porge una domanda senza pronunciarla... o meglio, diventiamo coscienti che questa era la domanda che ci porgeva ogni volta che lo incontravamo."
+ akx.10010.a: "SÌ. Qualunque cosa chieda, acconsentiamo."
+ akx.10010.b: "NO. Siamo qui per imparare e, nel caso, eliminarlo."
+
+ akx.10020.name: "Il Futuro"
+ akx.10020.desc: "Il Verme ci ama. Ci amerà per sempre, e l'ha sempre fatto. Si snoda attorno al cuore della nostra stella natale. Si snoda attorno ad ogni spira infinitesimale d'informazione genetica. Provoca una serie di cataclismi che scuotono la crosta del nostro pianeta... ma quando la nostra stella inizia a raffreddarsi... quei cataclismi ci riscaldano. Capiamo molto di più. Saremo per sempre ciò che eravamo destinati ad essere, l'amore estremo del Verme."
+ akx.10020.a: "CIÒ CHE FU, DEVE ESSERE... CIÒ CHE DEVE ESSERE, FU"
+
+ akx.10021.name: "Il Loop in Frantumi"
+ akx.10021.desc: "Il Verme è giunto dai confini dello spazio-tempo come un predatore affamato, o un furioso amante respinto. È ancora là fuori e, ovunque si trovi, senza dubbio è infuriato. Ma noi possediamo le schegge incandescenti del suo avatar, da accumulare e studiare, come un trofeo cosmico. Gli altri imperi sapranno presto ciò che abbiamo ottenuto in questo giorno."
+ akx.10021.a: "Non esiste nessuno alla nostra altezza! E forse mai esisterà."
+

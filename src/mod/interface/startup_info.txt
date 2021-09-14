@@ -1,13 +1,15 @@
-﻿Greetings!
+﻿Saluti!
 
-Stellaris has been updated!
+Stellaris è stato aggiornato!
 
-There is now a Galactic Community which can be formed once enough empires have established communications with each other. You will be able to use your diplomatic clout to pass resolutions that may aid your cause or to weaken your enemies.
+La galassia è ora un luogo più misterioso - informazioni come i confini completi o i dettagli sui governi sono ora nascosti fino a quando non vengono rivelati da una Rete di Spionaggio, da una fiducia sufficiente o attraverso la condivisione di informazioni dai Patti Diplomatici. Gli inviati possono essere assegnati alla gestione delle Reti di Spionaggio nella schermata diplomatica, e hanno anche assunto un sistema di Primo Contatto notevolmente ampliato.
 
-Federations have been reworked, and can now level up and unlock new perks. You will need to maintain your Federation's Cohesion in order to gain experience.
+Le colonie ora producono leghe e beni di consumo usando i distretti industriali, e diversi edifici hanno nuovi effetti che aggiungono posti di lavoro a certi distretti. Le designazioni planetarie possono essere usate per specializzare la produzione dei distretti industriali verso leghe o beni di consumo, e sono stati fatti miglioramenti nell'automazione delle colonie e dei settori.
 
-Envoys have been introduced to the game, and they allow you to perform certain diplomatic actions such as Improve Relations. Envoys can also be assigned to your Federation in order to improve Cohesion, or to the Galactic Community in order to increase your diplomatic clout.
+Gli slot di costruzione si aprono ora espandendo l'infrastruttura della colonia costruendo distretti cittadini o migliorando l'edificio capitale della colonia.
+
+La crescita dei pop biologici ora segue una curva in cui la loro crescita accelera sui pianeti parzialmente riempiti, ma rallenta quando il pianeta diventa affollato. Tutti i pop (compresi quelli assemblati) ora richiedono progressivamente più crescita per essere creati, riducendo notevolmente il numero complessivo nel late game.
 
 ---
 
-Saved games from previous versions may not be compatible with version 2.6. If you wish to continue your old save in version 2.5.1, follow the forum link below and read the thread "How to revert Stellaris to a previous version."
+I salvataggi delle versioni precedenti potrebbero non essere compatibili con la versione 3.0. Se desideri continuare il tuo vecchio salvataggio nella versione 2.8.1, segui il link del forum qui sotto e leggi il thread "Come riportare Stellaris a una versione precedente".

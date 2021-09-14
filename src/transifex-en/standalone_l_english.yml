@@ -1,0 +1,9 @@
+﻿l_english:
+ ENTERING_GAME_LOBBY: "Entering Game Setup"
+ SERVER_LAUNCHING_MP: "Launching Multiplayer"
+ SERVER_NAME: "Server Name: $NAME$"
+ SERVER_PASSWORD: "Server Password: $PASSWORD$"
+ LAUNCHING_GAME: "Launching Game"
+ STANDALONE_WAITING_FOR_PLAYERS: "Waiting for $NUM$ Players"
+ RECEIVED_GAMESERVER_ID: "Received Server ID: $SERVERID$"
+ RECEIVED_LOBBY_SERVER: "Received Lobby Server"

@@ -5,15 +5,15 @@
  ####################################
 
  hallucinogen_removal:0 "Rimozione Allucinogeno"
- hallucinogen_removal_DESC:1 "Tentativo di rimozione dell'allucinogeno dall'atmosfera di [Root.GetName]."
+ hallucinogen_removal_DESC:0 "Tentativo di rimozione dell'allucinogeno dall'atmosfera di [Root.GetName]."
  impact_defence_system:0 "Sistema di Difesa dagli Asteroidi"
  impact_defence_system_DESC:0 "Dobbiamo capire come proteggere al meglio la colonia di [Root.GetName] dai frequenti impatti di asteroidi che flagellano il pianeta."
  titanic_life_study_normal:0 "Studio della Vita Titanica"
- titanic_life_study_normal_DESC:1 "Studiando la Vita Titanica di [Root.GetName], potremmo cercare di capirli e persino di comunicare con loro."
+ titanic_life_study_normal_DESC:0 "Studiando la Vita Titanica di [Root.GetName], potremmo cercare di capirli e persino di comunicare con loro."
  titanic_life_study_mean:0 "Autopsia della Vita Titanica"
- titanic_life_study_mean_DESC:1 "Raccogliendo la Vita Titanica di [Root.GetName], dovremmo presto capire come sfruttarla al meglio!"
+ titanic_life_study_mean_DESC:0 "Raccogliendo la Vita Titanica di [Root.GetName], dovremmo presto capire come sfruttarla al meglio!"
  titanic_life_study_nice:0 "Monitoraggio della Vita Titanica"
- titanic_life_study_nice_DESC:1 "Monitorando attentamente la Vita Titanica di [Root.GetName], speriamo di poter coesistere pacificamente con essa."
+ titanic_life_study_nice_DESC:0 "Monitorando attentamente la Vita Titanica di [Root.GetName], speriamo di poter coesistere pacificamente con essa."
  retaliatory_genome_mapping:0 "Mappatura del Genoma per Ritorsione"
  retaliatory_genome_mapping_DESC:0 "Inviando una nave verso il Pianeta Natale alieno, potremmo acquisire da loro gli stessi dati che sospettiamo abbiano rubato a noi."
  woodwind_instrument_investigation:0 "Indagine sullo Strumento Ligneo"
@@ -39,4 +39,4 @@
  DPORTAL_PROJECT_ROCKS:0 "Chiudere il Portale!"
  DPORTAL_PROJECT_ROCKS_DESC:0 "Forse lanciandoci dentro abbastanza rocce potremmo bloccare il portale..."
 
- 
+

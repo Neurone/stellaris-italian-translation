@@ -1,7 +1,7 @@
 name="Traduzione italiana"
-version="1.9.0"
+version="2.2.0"
 tags={
     "Translation"
 }
 picture="logo.jpg"
-supported_version="2.8.*"
+supported_version="3.0.*"

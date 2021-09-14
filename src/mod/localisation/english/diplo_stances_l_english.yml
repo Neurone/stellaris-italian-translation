@@ -50,3 +50,5 @@
 
  policy_diplomatic_stance:0 "Posizione Diplomatica"
  policy_diplomatic_stance_desc:0 "Possiamo stabilire la nostra agenda diplomatica generale, cambiando come interagiamo con il resto della galassia.\n"
+
+ requires_supremacy_traditions:0 "$TRIGGER_FAIL$Richiede §Y$tr_supremacy_finish$§!"

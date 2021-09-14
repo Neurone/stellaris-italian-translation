@@ -1,0 +1,149 @@
+﻿l_english:
+ ####################################
+ # Opinion Modifiers
+ ####################################
+ opinion_graverobber_1: "Tomba Profanata"
+ opinion_graverobber_2: "$opinion_graverobber_1$"
+ opinion_graverobber_3: "$opinion_graverobber_1$"
+ opinion_crew_saved: "Equipaggio Salvato"
+ opinion_abandoned: "Rifugiati Abbandonati"
+ opinion_abandoned_apology: "$opinion_abandoned$"
+ opinion_abandoned_insult: "$opinion_abandoned$"
+ assassination_forgiven: "Ostilità Perdonata"
+
+ ####################################
+ # Empire Modifiers
+ ####################################
+ media_coverage_positive_high: "Copertura Mediatica Estremamente Positiva"
+ media_coverage_positive_medium: "Copertura Mediatica Molto Positiva"
+ media_coverage_positive_low: "Copertura Mediatica Positiva"
+ media_coverage_negative_low: "Copertura Mediatica Negativa"
+ media_coverage_negative_medium: "Copertura Mediatica Molto Negativa"
+ media_coverage_negative_high: "Copertura Mediatica Estremamente Negativa"
+ scientist_team_well_treated: "Scienziati Ben Riposati"
+ health_discovery: "Innovazione Farmaceutica"
+ solar_harvesting_bacteria: "Energia Solare Migliorata"
+ army_speed_boost: "Velocità Navale Migliorata"
+ zero_gravity_revelation: "Innovazioni Zero-G"
+ youthful_elite: "Elisir della Vita Esclusivo"
+ youthful_people: "Elisir della Vita Condiviso"
+ slavery_bad_juju: "Il Volto della Schiavitù"
+ slavery_very_bad_juju: "Il Futuro Svelato di uno Schiavista"
+ fertility_virus: "Arma Biologica per l'Inibizione della Fertilità"
+ forth_dimension_knowledge: "Approfondimenti Extradimensionali"
+ army_inspiration: "Reclute Militari Ispirate"
+ army_inspiration_mach: "Assemblatori Unità Militari Concentrati"
+ science_inspiration: "Reclute Scientifiche Ispirate"
+ streamlined_ship_design: "Algoritmi Ottimizzati"
+ immigrants_protection: "Minoranze Protette"
+ fear_as_control_militarist_p2: "Amministrazione Preoccupata"
+ alien_genome_research: "Ricerca Genoma Alieno"
+ syndaw_research_bonus: "Overclocking Computazionale"
+ syndaw_production_surplus: "Quota di Produzione Superata"
+
+ ####################################
+ # Edicts
+ ####################################
+ edict_masters_writings_politics: "Insegnamenti del Maestro: Il Bene Superiore"
+ edict_masters_writings_politics_desc: "Traduzione degli insegnamenti di una filosofa aliena. Potremmo compiere grandi passi avanti nel settore delle infrastrutture seguendo il suo consiglio per unire le persone attraverso l'autosacrificio.\n\n\"Una nazione forte è costruita sul sacrificio delle comodità, finché ad ognuno verrà chiesto di condividere il fardello.\" - Telisa, la Narrastorie\n\n"
+ edict_masters_writings_philosophy: "Insegnamenti del Maestro: Mentalità Filosofica"
+ edict_masters_writings_philosophy_desc: "Traduzione degli insegnamenti di una filosofa aliena. Contiene diverse analisi e riflessioni sul senso della vita e sul fine del cosmo. Facendo seguire ai nostri sovrani questi consigli, potremmo prendere decisioni più consapevoli.\n\n\"La risposta al fine del cosmo giace al di fuori di noi stessi, ma ciò non ci rende meno inclini a trovarlo. Dobbiamo lottare per l'unità al fine di raggiungere la risposta riguardo la radice di ogni cosa.\" - Telisa, la Narrastorie\n\n"
+ edict_masters_writings_diplomacy: "Insegnamenti del Maestro: Fiducia Diplomatica"
+ edict_masters_writings_diplomacy_desc: "Traduzione degli insegnamenti di una filosofa aliena. I suoi aneddoti sulle trattative diplomatiche potrebbero servire come buone basi per i negoziati.\n\n\"Incontrare i figli del cosmo potrebbe essere straziante, ma alla fine è un'opportunità di speranza. Ospita il prossimo ed apprezza la sua esistenza, perché la benedizione che portano è la fine dell'isolamento del vuoto.\" - Telisa, la Narrastorie\n\n"
+ edict_masters_writings_war: "Insegnamenti del Maestro: Stati in Guerra"
+ edict_masters_writings_war_desc: "Traduzione degli insegnamenti di una filosofa aliena. Le sue rappresentazioni della guerra e le sue idee sulla strategia di combattimento potrebbero essere materiale eccellente per l'addestramento dei nostri militari.\n\n\"Creare unità è la sfida più grande, in particolare perché la sostenibilità spesso genera confini. Questi confini devono essere abbattuti, un sentimento che spaventa molti. A volte bisogna essere disposti ad abbattere, per poter ricostruire qualcosa di più forte dalle ceneri.\" - Telisa, la Narrastorie\n\n"
+ edict_improved_work_environment: "Miglioramento dell'Ambiente Lavorativo"
+ edict_improved_work_environment_desc: "Spendere tempo e risorse per migliorare le condizioni di lavoro del nostro popolo porterà sicuramente a risultati migliori ed a lavoratori più felici.\n\n"
+ edict_renewable_energy: "Iniziativa Energetica Migliorata"
+ edict_renewable_energy_desc: "Possiamo limitare ulteriormente l'uso di combustibili tossici e di risorse non rinnovabili, al fine di promuovere la ricerca di nuovi metodi di produzione energetica. Questo potrebbe aiutarci ad avvicinarci ad un ciclo energetico perfetto, migliorando così anche l'ambiente per il nostro popolo.\n\n"
+ edict_super_sensors: "Ricerche Estese sui Sensori"
+ edict_super_sensors_desc: "Dopo aver terminato lo studio dei sensori avanzati, possediamo abbastanza informazioni per fornire risorse aggiuntive atte al miglioramento delle nostre scansioni. Tramite questa iniziativa, per i nostri tecnici sarebbe molto più semplice trovare oggetti interessanti ai confini dei nostri sistemi.\n\n"
+
+ ####################################
+ # Planet Modifiers
+ ####################################
+ acid_jungles: "Giungle Acide"
+ acid_jungles_desc: "L'evoluzione ha prodotto alberi e fogliame che rilasciano acidi e rendono il terreno estremamente pericoloso."
+ ex_planet: "Ex Pianeta"
+ ex_planet_desc: "La fascia di asteroidi sembra poter diventare un pianeta promettente."
+ ship_graveyard: "Cimitero di Astronavi"
+ ship_graveyard_desc: "Una moltitudine di navi sono precipitate qui, creando un metaforico cimitero pieno di materiali da raccogliere."
+ ai_fleet: "Flotta IA Precipitata"
+ ai_fleet_desc: "Una flotta guidata da un'IA giace distrutta sul pianeta, fornendoci preziosi dati tecnici da studiare."
+ irradiated_wasteland: "Distese Irradiate"
+ irradiated_wasteland_desc: "Il pianeta è stato bombardato di radiazioni, rendendo gran parte di esso pericoloso per la maggior parte delle creature viventi."
+ ancient_one: "L'Antico"
+ ancient_one_desc: "Un antico essere che vive nelle profondità delle onde è la forma di vita dominante di questo pianeta."
+ food_rich_planet: "Cibo Nutriente"
+ food_rich_planet_desc: "La flora del pianeta offre frutti nutrienti e sostanze che migliorano le condizioni di vita."
+ super_sensor_array: "Rete di Sensori Superiore"
+ super_sensor_array_desc: "Una possente rete di sensori fornisce una migliore panoramica della zona circostante."
+ horse_powered_factories_low: "Lavoro Animale Forzato"
+ horse_powered_factories_medium: "Lavoro Animale Riluttante"
+ horse_powered_factories_high: "Lavoro Animale Volontario"
+ horse_powered_factories_low_desc: "Quadrupedi addomesticati aiutano ad alleviare le condizioni di lavoro, anche se non volontariamente."
+ horse_powered_factories_medium_desc: "Quadrupedi addomesticati aiutano ad alleviare le condizioni di lavoro, anche se con riluttanza."
+ horse_powered_factories_high_desc: "Quadrupedi addomesticati aiutano ad alleviare le condizioni di lavoro."
+ fallen_robots: "Resti Robotici"
+ fallen_robots_desc: "Il pianeta ospita vecchi robot costruiti da una società decaduta, fornendoci materiali ingegneristici da studiare."
+ society_animal_life: "Strana Vita Animale"
+ society_animal_life_desc: "Degli animali particolarmente strani abitano questo pianeta. Ci forniranno interessanti opportunità di ricerca sociologica."
+ hostile_animal_life: "Vita Animale Pericolosa"
+ hostile_animal_life_desc: "Il pianeta ospita creature ostili che non sono felici di vederci."
+ shifting_sands: "Sabbie Mutevoli"
+ shifting_sands_desc: "Questo Pianeta Desertico è costituito da una sabbia granulosa quasi liquida che rende la costruzione estremamente difficile."
+ liquid_sands: "Sabbie Liquide"
+ liquid_sands_desc: "La sabbia che ricopre questo pianeta è così sottile che assomiglia ad un liquido. La strana composizione di minerali fornisce ampie opportunità di ricerca."
+ abandoned_mining: "Struttura Mineraria Abbandonata"
+ abandoned_mining_desc: "Una vecchia stazione mineraria orbita attorno al pianeta, indicando la presenza di potenziali risorse."
+ gas_rich_planet: "Ricchi Depositi di Gas"
+ gas_rich_planet_desc: "Costruisci una colonia su questo pianeta per iniziare a raccogliere le sua risorse.\n£energy£ §G+50%§!"
+ gas_rich_planet_fo_realz: "Estrazione Intensiva del Gas"
+ gas_rich_planet_fo_realz_desc: "Le scarse risorse naturali di questo pianeta sono attualmente in fase di estrazione, per aumentare la produzione globale di energia."
+ gas_responsible_mining: "Estrazione Responsabile del Gas"
+ gas_responsible_mining_desc: "Risparmiare una scarsa ma preziosa riserva di gas su questo pianeta contribuirà a rendere la sua produzione energetica più efficiente a lungo termine."
+ suppressed_opposition: "Opposizione Repressa"
+ suppressed_opposition_desc: "Una parte della popolazione di questo pianeta è stata violentemente repressa a causa della loro opposizione al governo."
+ scared_population: "Popolazione Terrorizzata"
+ scared_population_desc: "La popolazione lavora nel timore che una fabbrica aliena possa prendersi altre vite."
+ secured_factory: "Stabilimento Alieno in Sicurezza"
+ secured_factory_desc: "Servono soldi ed energia per rendere sicuro il lavoro all'interno di uno stabilimento alieno."
+ fear_as_control: "Pugno di Ferro"
+ fear_as_control_desc: "I colpevoli sono stati puniti al fine di motivare le persone ad agire."
+ fear_as_control_militarist: "$fear_as_control$"
+ fear_as_control_militarist_desc: "$fear_as_control_desc$"
+ infectious_disease: "Malattia Contagiosa"
+ infectious_disease_desc: "Si è diffusa una malattia estremamente infettiva che crea nuovi ceppi e mette in pericolo la popolazione."
+ pyramid_wars: "La Guerra del Figlio del Cielo"
+ pyramid_wars_desc: "Il popolo è in guerra a causa di un conflitto religioso riguardante la vera natura del \"Figlio del Cielo\"."
+ syndaw_automated_work: "Processi di Lavoro Automatizzati"
+ syndaw_automated_work_desc: "Che sia giustificata o meno, questo pianeta è influenzato dalla paura della disoccupazione a causa dell'automazione."
+ syndaw_unfriendly_robots: "Tensioni sull'Integrazione Robotica"
+ syndaw_unfriendly_robots_desc: "Le tensioni tra la popolazione robotica ed organica del pianeta hanno ridotto la nostra produzione di £unity£ Unità."
+ syndaw_research_malus: "Fallimento IA"
+ syndaw_research_malus_desc: "Un'IA scientifica coinvolta nella ricerca sociologica ha subito dei danni hardware ed è attualmente in sostituzione."
+
+ ####################################
+ # Ship/Fleet Modifiers
+ ####################################
+ ship_survey_boost: "Ispezione Migliorata"
+ alien_racing_ship: "Nave Scientifica"
+ alien_racing_ship_plural: "Navi Scientifiche"
+ protege_onboard: "Equipaggio Promettente"
+ ship_master_cruiser: "Progetto Navale dei Precursori"
+ ship_excess_power: "Potenza in Eccesso"
+
+ ####################################
+ # Pop Modifiers
+ ####################################
+ opinion_respected: "Opinioni Rispettate"
+ opinion_disrespected: "Opinioni Disprezzate"
+ pop_angered: "Inferocita"
+ pop_pleased: "Compiaciuta"
+ alien_infection: "Infezione Aliena"
+ alien_music: "Musica Aliena"
+
+ ####################################
+ # DEBUG STUFF
+ ####################################
+

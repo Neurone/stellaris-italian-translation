@@ -1,0 +1,42 @@
+﻿l_english:
+
+ ####################################
+ # Special Projects
+ ####################################
+
+ hallucinogen_removal: "Hallucinogen Removal"
+ hallucinogen_removal_DESC: "Attempt to remove the hallucinogen from [Root.GetName]'s atmosphere."
+ impact_defence_system: "Asteroid Defense System"
+ impact_defence_system_DESC: "We must investigate how best to protect the colony on [Root.GetName] from the frequent asteroid impacts which plague the planet."
+ titanic_life_study_normal: "Titanic Life Study"
+ titanic_life_study_normal_DESC: "By studying the Titanic Life of [Root.GetName], we can hopefully learn to understand them and possibly even communicate."
+ titanic_life_study_mean: "Titanic Life Necropsies"
+ titanic_life_study_mean_DESC: "By harvesting the Titanic Life of [Root.GetName], we should soon work out how best to exploit them!"
+ titanic_life_study_nice: "Titanic Life Monitoring"
+ titanic_life_study_nice_DESC: "By carefully monitoring the Titanic Life of [Root.GetName], we hope to be able to coexist peacefully with them."
+ retaliatory_genome_mapping: "Retaliatory Genome Mapping"
+ retaliatory_genome_mapping_DESC: "Sending a ship to the alien homeworld, we will be able to gather the same data on them that we suspect them to have on us."
+ woodwind_instrument_investigation: "Woodwind Instrument Investigation"
+ woodwind_instrument_investigation_DESC: "The source material of mysterious instrument that appears to have a relaxing effect on our biology must be found."
+ disappearing_pops_project: "Disappearances on [missing_pops_planet.GetName]"
+ disappearing_pops_project_DESC: "Local law-enforcement on [missing_pops_planet.GetName] need the support of a military strike force to stifle unrest as they investigate a recent wave of mysterious disappearances."
+ mystery_cream_project: "Ageless"
+ mystery_cream_project_DESC: "The new anti-aging cream Ageless is spreading like a wild-fire throughout the empire, and has shown promise of actually stimulating cell-regeneration. If we could identify the active agent we might be able to use it to produce a more lasting effect."
+ cream_origin_project: "In Pursuit of a Wrinkle-Free Existence"
+ cream_origin_project_DESC: "We must find the origin of this cream."
+ MAGNETIC_PLANET_RESEARCH_PROJECT: "Investigate the Magnetic Mystery of [Root.GetName]"
+ MAGNETIC_PLANET_RESEARCH_PROJECT_DESC: "Several strange magnetic disturbances have unsettled life on [Root.GetName]. Until recently their cause was a complete mystery, but with the data gathered from repeated events it should now be possible to uncover the truth behind them."
+ ROGUEMOON_PROJECT: "Investigate the Mysterious Moon of [Root.GetName]"
+ ROGUEMOON_PROJECT_DESC: "Conduct a detailed survey of [event_target:roguemoon.Planet.GetName] and attempt to figure out where it came from."
+ DPORTAL_PROJECT: "Probe the Dimensional Portal on [Root.GetName]"
+ DPORTAL_PROJECT_DESC: "Investigate where the Dimensional Portal leads to."
+ DPORTAL_PROJECT_SCIENCE: "Close the portal!"
+ DPORTAL_PROJECT_SCIENCE_DESC: "There has to be a way to close this portal, and science will find it!"
+ DPORTAL_PROJECT_PRAYER: "Close the portal!"
+ DPORTAL_PROJECT_PRAYER_DESC: "Such a portal can surely be countered with positive energy!"
+ DPORTAL_PROJECT_PSI_PRAYER: "Close the portal!"
+ DPORTAL_PROJECT_PSI_PRAYER_DESC: "Such a portal can surely be countered with Psionic energy!"
+ DPORTAL_PROJECT_ROCKS: "Close the portal!"
+ DPORTAL_PROJECT_ROCKS_DESC: "Perhaps dumping enough rock into the portal will block it up?"
+
+

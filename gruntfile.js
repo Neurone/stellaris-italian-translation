@@ -1,5 +1,17 @@
 module.exports = function (grunt) {
 
+    /*
+    Avviando Stellaris da Steam, la cartella di installazione del mod è:
+        - Windows: %USERPROFILE%\Documents\Paradox Interactive\Stellaris\mod\
+        - GNU/Linux: ~/.local/share/Paradox Interactive/Stellaris/mod/
+        - Mac: ~/Documents/Paradox Interactive/Stellaris/mod/
+    */
+    const os = require('os');
+    let testingModFolder = os.homedir() + '/.local/share/Paradox Interactive/Stellaris/mod';
+    if (os.platform() === "win32" || process.platform === "darwin") {
+        testingModFolder = os.homedir() + '/Documents/Paradox Interactive/Stellaris/mod';
+    }
+
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         clean: {
@@ -38,6 +50,12 @@ module.exports = function (grunt) {
                     }
                 ]
             },
+            testing: {
+                expand: true,
+                cwd: 'build/dist',
+                src: '**',
+                dest: testingModFolder
+            }
         },
         compress: {
             build: {
@@ -64,5 +82,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
 
     grunt.registerTask('default', ['clean:init', 'copy:release', 'compress:build', 'copy:complete', 'compress:release', 'clean:complete']);
-    grunt.registerTask('dev', ['clean:init', 'copy:dev']);
+    grunt.registerTask('dev', ['clean:init', 'copy:dev', 'copy:testing']);
+
 };

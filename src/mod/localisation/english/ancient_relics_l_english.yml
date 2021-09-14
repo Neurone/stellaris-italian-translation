@@ -21,21 +21,21 @@
  tech_ring_world:0 "$pc_ringworld_habitable$"
  tech_ring_world_desc:0 "$ring_world_1_MEGASTRUCTURE_DETAILS$"
  RING_WORLD_SHOW_NAME:0 "$pc_ringworld_habitable$"
- 
- add_research_options_galactic_wonders_utopia:0 "Opzioni di ricerca ottenute:\n£engineering_research£§Y$tech_ring_world$§!\n£physics_research£§Y$tech_dyson_sphere$§!\nIl Pianeta ad Anello e la Sfera di Dyson sono Megastrutture incredibilmente potenti."
- add_research_options_galactic_wonders_utopia_megacorp:0 "Opzioni di ricerca ottenute:\n£engineering_research£§Y$tech_ring_world$§!\n£physics_research£§Y$tech_matter_decompressor$§!\n£physics_research£§Y$tech_dyson_sphere$§!\nIl Pianeta ad Anello, il Decompressore di Materia e la Sfera di Dyson sono Megastrutture incredibilmente potenti."
- 
+
+ add_research_options_galactic_wonders_utopia:0 "Opzioni di ricerca ottenute:\n£engineering_research£§Y$tech_ring_world$§!\n£physics_research£§Y$tech_dyson_sphere$§!\nIl Pianeta Anello e la Sfera di Dyson sono Megastrutture incredibilmente potenti."
+ add_research_options_galactic_wonders_utopia_megacorp:0 "Opzioni di ricerca ottenute:\n£engineering_research£§Y$tech_ring_world$§!\n£physics_research£§Y$tech_matter_decompressor$§!\n£physics_research£§Y$tech_dyson_sphere$§!\nIl Pianeta Anello, il Decompressore di Materia e la Sfera di Dyson sono Megastrutture incredibilmente potenti."
+
  RELICS:0 "$relics$"
  MINOR_ARTIFACTS:0 "Artefatti Minori"
  RELICS_FOUND:0 "Reliquie Ritrovate"
- RELICS_FOUND_TOOLTIP:1 "Il nostro impero ha ritrovato $NUM|Y$ Reliquia/e"
- ACTIVATE_RELIC_FOR_TRIUMPH:0 "Attivare il Tripudio da Reliquia"
+ RELICS_FOUND_TOOLTIP:0 "Il nostro impero ha ritrovato $NUM|Y$ Reliquia/e"
+ ACTIVATE_RELIC_FOR_TRIUMPH:0 "Attivare Reliquia per il Trionfo"
  CLICK_ACTIVATE_RELIC_FOR_TRIUMPH:0 "§GClicca per $ACTIVATE_RELIC_FOR_TRIUMPH$§!"
- ACTIVATE_RELIC_FOR_TRIUMPH_TOOLTIP:0 "Clicca su una Reliquia per attivare un Tripudio ed ottenere effetti imperiali temporanei."
- ACTIVE_TRIUMPH:0 "Tripudio Attivo"
- ACTIVE_TRIUMPH_TEXT:0 "Tripudio Attivo Per:"
+ ACTIVATE_RELIC_FOR_TRIUMPH_TOOLTIP:0 "Clicca su una Reliquia per attivare un Trionfo e ottenere effetti temporanei in tutto l'impero."
+ ACTIVE_TRIUMPH:0 "Trionfo Attivo"
+ ACTIVE_TRIUMPH_TEXT:0 "Trionfo Attivo Per:"
  ACTIVE_TRIUMPH_VALUE:0 "£time£ $VALUE|0$"
- ACTIVE_TRIUMPH_TOOLTIP:0 "Attualmente '$NAME|Y$' è attivo.\nIl Tripudio sarà attivo per altri $NUM|Y0$ giorno/i."
+ ACTIVE_TRIUMPH_TOOLTIP:0 "Attualmente '$NAME|Y$' è attivo.\nIl Trionfo sarà attivo per altri $NUM|Y0$ giorno/i."
  ACTIVE_EFFECTS:0 "§EEffetti Attivi:§!"
  PASSIVE_EFFECTS:0 "§EEffetti Passivi:§!"
  PASSIVE_EFFECTS_RESOURCE_TOOLTIP:0 "$NAME$: §G+$AMOUNT|*0$§! "
@@ -49,13 +49,13 @@
 
  #Tutorial
  TUTORIAL_RELICS_VIEW_TITLE:0 "Reliquie ed Artefatti Minori"
- TUTORIAL_RELICS_VIEW_DESC:1 "La schermata delle Reliquie permette di visualizzare ed attivare le §YReliquie§!; consente anche di prendere decisioni riguardo gli §YArtefatti Minori§!. Le decisioni indicate come "(Decisione Planetaria)" vengono mostrate qui solo per comodità e possono essere attivate dalla schermata delle Decisioni Planetarie."
- 
+ TUTORIAL_RELICS_VIEW_DESC:0 "Il pannello delle Reliquie permette di visualizzare ed attivare le §YReliquie§!; consente anche di prendere decisioni riguardo gli §YArtefatti Minori§!. Le decisioni indicate come "(Decisione Planetaria)" vengono mostrate qui solo per comodità e possono essere anche promulgate dal pannello delle Decisioni Planetarie."
+
  TUTORIAL_ARCHAEOLOGY_VIEW_TITLE:0 "Archeologia"
  TUTORIAL_ARCHAEOLOGY_VIEW_DESC:0 "La finestra dell'Archeologia mostra i dettagli del §YSito Archeologico§! selezionato. Ogni volta che vengono compiuti progressi, puoi rivedere le fasi precedenti cliccando sulle icone runiche.\n\nPer svelare i segreti di un Sito, uno Scienziato dovrà compiere una §YSvolta Archeologica§! ed avanzare verso le sue varie fasi. Gli Scienziati con §YTratti rilevanti ed Abilità maggiori§! accelereranno l'avanzamento delle fasi, mentre un alto livello di Difficoltà del Sito lo rallenteranno. Ogni Scienziato che studia un Sito abbastanza a lungo, accumulerà §YIndizi§! che lo porteranno più facilmente a compiere una Svolta Archeologica."
 
  RELICS_AND_ARTIFACTS:0 "$RELICS$ ed $MINOR_ARTIFACTS$"
- TRADITION_VIEW_TITLE:0 "$TRADITIONS$ e $RELICS$"
+ TRADITION_VIEW_TITLE:0 "Gestione Società"
 
  archaeologist_1:0 "archeologo"
  archaeologist_2:0 "unità archeologica"
@@ -72,15 +72,15 @@
  trait_pc_relic_preference:0 "Preferenza Pianeta Reliquia"
  trait_pc_relic_preference_desc:0 "$trait_pc_arctic_preference_desc$"
  mod_pc_relic_habitability:0 "Abitabilità Pianeta Reliquia"
- d_collapsed_spire:1 "£blocker£ Guglia Collassata"
+ d_collapsed_spire:0 "£blocker£ Guglia Collassata"
  d_collapsed_spire_desc:0 "In questa regione un'immensa guglia residenziale è collassata sotto il suo stesso peso, bloccando l'accesso. Quando era ancora in piedi, questa struttura torreggiante doveva essere stata tra le più alte del pianeta."
- d_massive_crevice:1 "£blocker£ Enorme Crepaccio"
+ d_massive_crevice:0 "£blocker£ Enorme Crepaccio"
  d_massive_crevice_desc:0 "Questa regione è divisa da un enorme crepaccio che taglia in due quella che un tempo fu una densa zona urbana. In quest'area il suolo è estremamente instabile, con frequenti terremoti e frane."
- d_shattered_solar_array:1 "£blocker£ Matrice Solare Distrutta"
+ d_shattered_solar_array:0 "£blocker£ Matrice Solare Distrutta"
  d_shattered_solar_array_desc:0 "I resti distrutti di una qualche sorta di colossale matrice solare. Quando era ancora in funzione, deve aver fornito energia ad una significativa porzione di questo pianeta."
- d_flooded_reactor_pits:1 "£blocker£ Pozzi di Reazione Allagati"
+ d_flooded_reactor_pits:0 "£blocker£ Pozzi di Reazione Allagati"
  d_flooded_reactor_pits_desc:0 "Questi profondi pozzi sembrano aver in passato ospitato le principali strutture energetiche del pianeta. Nel corso degli eoni, le piogge e le inondazioni hanno li hanno riempiti di acque torbide."
- d_crumbling_mining_tunnels:1 "£blocker£ Tunnel Minerari in Rovina"
+ d_crumbling_mining_tunnels:0 "£blocker£ Tunnel Minerari in Rovina"
  d_crumbling_mining_tunnels_desc:0 "Sotto la superficie di questo pianeta è presente una rete di profondi tunnel, probabilmente la principale fonte di minerali dell'antica civiltà che lo abitava. Millenni di crolli e frane hanno reso solamente una piccola parte di essi ancora percorribile."
  d_ancient_reactor_pits:0 "Antichi Pozzi di Reazione"
  d_ancient_reactor_pits_desc:0 "Questi profondi pozzi vicini all'equatore in passato ospitavano le principali strutture energetiche del pianeta. La maggior parte delle incredibilmente solide infrastrutture sono sopravvissute, e possono ospitare nuovi reattori."
@@ -96,7 +96,7 @@
  d_relic_dense_ruins_desc:0 "Lo studio delle dense rovine che ricoprono questo Pianeta Reliquia è una manna per la scienza, ma la loro presenza limita anche la quantità di spazio vitale disponibile."
  d_relic_metal_boneyard:0 "$d_metal_boneyard$"
  d_relic_metal_boneyard_desc:0 "$d_metal_boneyard_desc$"
- decision_arcology_project_relic:1 "Ripristina Ecumenopoli"
+ decision_arcology_project_relic:0 "Ripristina Ecumenopoli"
  decision_arcology_project_relic_effects:0 "$decision_arcology_project_effects$"
  decision_arcology_project_relic_effects_short:0 "$decision_arcology_project_effects_short$"
  decision_arcology_project_relic_desc:0 "Questo pianeta, un tempo, era un'ecumenopoli piena di vita. È un compito monumentale, ma il pianeta potrebbe essere ricostruito e riportato agli antichi fasti."
@@ -142,37 +142,39 @@
  IS_ARCHAEOLOGICAL_SITE_CURRENT_EXCAVATOR_FLEET_TRIGGER:0 "L'attuale flotta di scavo è $FLEET$"
  MOD_SHIP_ARCHAEOLOGICAL_SITE_EXCAVATION_SPEED_MULT:0 "Velocità Scavo Archeologico"
  MOD_SHIP_ARCHAEOLOGICAL_SITE_CLUES_ADD:0 "Abilità Archeologica"
- ARCHAEOLOGICAL_SITE_ON_ROLL_FAILED_RANGE:0 "($CHANCE|%0Y$) Risultato tra $MIN|0Y$-$MAX|0Y$. Ottieni  $CLUES|0Y$ Indizi."
+ ARCHAEOLOGICAL_SITE_ON_ROLL_FAILED_RANGE:0 "($CHANCE|%0Y$) Risultato tra $MIN|0Y$ e $MAX|0Y$. Ottieni $CLUES|0Y$ indizi."
  ARCHAEOLOGICAL_SITE_ON_ROLL_FAILED_GREATER_THAN_EQ:0 "($CHANCE|%0Y$) Risultato pari o maggiore di $MIN|0Y$. Termina il capitolo."
- ARCHAEOLOGICAL_SITE_ON_ROLL_FAILED_LESS_THAN_EQ:0 "($CHANCE|%0Y$) Risultato pari o minore di $MAX|0Y$. Ottieni $CLUES|0Y$ Indizi."
- archaeology_roll_header:0 "§H$ARCHAEOLOGICAL_SITE_BREAKTHROUGH$§!\nIndica la probabilità che il tuo Scienziato compia una svolta archeologica durante gli scavi in questo sito.\n\nOgni volta che termina una fase, viene lanciato un dado (da §Y1§! a §Y10§!). Il risultato viene sommato al §YBonus Abilità§! ed agli §YIndizi§!, quindi viene sottratta la §YDifficoltà§!.\n\n§ERisultati del Tiro:§!"
- 
+ ARCHAEOLOGICAL_SITE_ON_ROLL_FAILED_LESS_THAN_EQ:0 "($CHANCE|%0Y$) Risultato pari o minore di $MAX|0Y$. Ottieni $CLUES|0Y$ indizi."
+ archaeology_roll_header:0 "§H$ARCHAEOLOGICAL_SITE_BREAKTHROUGH$§!\nIndica la probabilità che il tuo Scienziato compia una svolta archeologica durante gli scavi in questo sito.\n\nOgni volta che termina una fase, viene lanciato un dado (da §Y1§! a §Y10§!). Il risultato viene sommato al §YBonus Abilità§! ed agli §YIndizi§!, quindi viene sottratta la §YDifficoltà§!.\n\nIl punteggio attuale prima del tiro è $SCORE|0Y$.\n\n§ERisultati del Tiro:§!"
+
  alert_activate_relic_title:0 "Attivazione Reliquia Disponibile"
  alert_activate_relic_instant:0 "Ora è possibile attivare una delle nostre Reliquie."
- 
+
  CHAPTER_TITLE:0 "Capitolo $CHAPTER$"
  CHAPTER_PROGRESS:0 "Giorni per lancio di dado: $DAYS|Y$"
  DIFFICULTY_EASY:0 "§GFacile§!"
  DIFFICULTY_NORMAL:0 "§YNormale§!"
  DIFFICULTY_HARD:0 "§HDifficile§!"
  DIFFICULTY_HELL:0 "§RInfernale§!"
+ DIFFICULTY_EXTRA_HELL:0 "$DIFFICULTY_HELL$$EXTRA|R$"
  LEADER_BONUS:0 "Bonus Leader: $BONUS|Y$"
  ARCHAEOLOGICAL_SITE_CHALLENGE:0 "§HLivello di Sfida§!\nIndica quanto impegnativo sia il Sito, relativamente al livello dello Scienziato attualmente assegnato."
  ARCHAEOLOGICAL_SITE_BREAKTHROUGH:0 "Probabilità di Svolta"
- VIEW_SITE:0 "Mostra Sito"
- 
+ VIEW_SITE:0 "£archaeology£ Mostra Sito"
+ SHOW_FIRST_CONTACT:0 "Mostra Primo Contatto"
+
  ARCHAEOLOGICAL_SITE_FINISHED:0 "Il Sito è stato completamente studiato"
  ARCHAEOLOGICAL_SITE_LOCKED:0 "Sito di Scavo Bloccato"
 
  alert_site_event_title:0 "Evento Sito Archeologico in Sospeso"
  alert_site_event_instant:0 "È successo qualcosa in uno dei Siti Archeologici che stiamo studiando"
- 
+
  ARCHAEOLOGICAL_SITE_REDACTED:0 "§R -RISERVATO: Questo Capitolo è stato studiato da una Civiltà Aliena.- §!"
- 
+
  EXPEDITION_LOG_ROLL_TOOLTIP:0 "§HRisultati Fase§!\nIndizi Ottenuti: $GAINED|Y$\n\nRisultato: $RESULT|Y$\n  Tiro di Dado: $ROLL|Y$\n  Indizi: $CLUES|Y$\n  Bonus Abilità: $BONUS|Y$\n  Difficoltà: $DIFFICULTY|R$\n\n§ERisultati del Tiro:§!\n§RFallimento§!: Risultati pari a §Y5§! o meno aggiungono §Y0§! Indizi.\n§YAvanzamento§!: Risultati tra §Y6-10§! aggiungono §Y1§! Indizi.\n§GAvanzamento§!: Risultati tra §Y11-13§! aggiungono §Y2§! Indizi."
  EXPEDITION_LOG_CLUE_TOOLTIP:0 "Indizi Ottenuti: $CLUES|Y$"
 
- ADD_RELIC_EFFECT:1 "Reliquia Scoperta: $NAME|Y$\n"
+ ADD_RELIC_EFFECT:0 "Reliquia Scoperta: $NAME|Y$\n"
  REMOVE_RELIC_EFFECT:0 "Reliquia Perduta: $NAME|Y$\n"
 
  SHARED_SECTOR_TRANSFER_RESOURCES:0 "$SECTOR_STOCKPILE$"
@@ -196,13 +198,13 @@
  MESSAGE_ARCHAEOLOGY_STAGE_FINISHED_DESC:0 "Abbiamo sbloccato una nuova fase di un sito archeologico"
  MESSAGE_ARCHAEOLOGY_SITE_DISCOVERED_TITLE:0 "Sito Archeologico Scoperto"
  MESSAGE_ARCHAEOLOGY_SITE_DISCOVERED_DESC:0 "Abbiamo scoperto un nuovo sito archeologico."
- 
+
  MEGASTRUCTURE_STAGE_UNLOCK_TOOLTIP_EXPLANATION:0 "Le Megastrutture vengono di solito costruite in varie fasi.\n\n"
  MEGASTRUCTURE_STAGE_UNLOCK_TOOLTIP:0 "$NAME|E$:\nCosto: $COST$ $TIME$\n"
  MEGASTRUCTURE_STAGE_UNLOCK_TOOLTIP_PRODUCES:0 "Produce: $PRODUCES$\n"
  MEGASTRUCTURE_STAGE_UNLOCK_TOOLTIP_UPKEEP:0 "Mantenimento: $UPKEEP$\n"
 
- EXCAVATION_PROGRESS_TOOLTIP:1 "§HFasi di Scavo§!\nI Siti Archeologici vengono studiati seguendo delle fasi, al termine delle quali viene lanciato un dado.\n\nLa prossima fase terminerà tra £time£ $DAYS|Y$"
+ EXCAVATION_PROGRESS_TOOLTIP:0 "§HFasi di Scavo§!\nI Siti Archeologici vengono studiati seguendo delle fasi, al termine delle quali viene lanciato un dado.\n\nLa fase attuale terminerà tra £time£ $DAYS|Y$"
  LEADER_MODIFIERS:0 "§HModificatori del Leader§!"
 
  ARCHAEOLOGICAL_SITE:0 "Sito Archeologico"
@@ -235,16 +237,16 @@
  ARC_EXPEDITION_LOG:0 "Registro Scavi"
  ARC_EXPEDITION_LOG_TT:0 "§H$ARC_EXPEDITION_LOG$§!\nIl $ARC_EXPEDITION_LOG$ mostra i risultati della scorsa fase di scavo."
  ARC_ABANDON:0 "Annulla Scavi"
- 
+
  ##################
  # MINOR ARTIFACTS
  ##################
- artifact_sell_collector:0 "Vendi ad un Collezionista Privato"
+ artifact_sell_collector:0 "Vendi a Collezionisti Privati"
  artifact_sell_collector_desc:0 "Metti all'asta alcuni dei nostri Artefatti Minori per i collezionisti privati."
  artifact_arcane_deciphering:0 "Ingegneria Inversa sulla Tecnologia Arcana"
  artifact_arcane_deciphering_desc:0 "Smonta e studia alcuni dei nostri Artefatti Minori per vedere quali intuizioni porteranno alla nostra ricerca scientifica."
  artifact_arcane_deciphering_effect:0 "Distruggi alcuni Artefatti Minori per bonus tecnologici casuali. Potremo ottenere un avanzamento in una tecnologia casuale, ottenere punti ricerca o guadagnare un bonus temporaneo alla velocità di ricerca.\n\nRicarica: £time£ §Y720§!"
- 
+
  feature_unlock_arcane_deciphering:0 "Ingegneria Inversa sugli Artefatti Minori"
  feature_unlock_arcane_deciphering_desc:0 "$artifact_arcane_deciphering_effect$"
  requires_arcane_deciphering_no_cooldown:0 "$TRIGGER_FAIL$§RImpossibile decifrare altra tecnologia arcana al momento.§!"
@@ -252,11 +254,11 @@
  arcane_insight:0 "Intuizioni Arcane"
  tech_arcane_deciphering:0 "Decifratura Arcana"
  tech_arcane_deciphering_desc:0 "Vari artefatti e tecnologie funzionano in modi arcani che non riusciamo a comprendere o replicare... almeno non tramite la scienza convenzionale del nostro tempo."
- 
+
  artifact_proclaim_religious_finding:0 "Annuncia una Rivelazione Religiosa"
  artifact_proclaim_religious_finding_desc:0 "La scoperta di artefatti che precedono di molto la nostra civiltà ci ha fornito una prova inconfutabile delle nostre credenze."
  proclaim_religious_finding:0 "Rivelazione Religiosa Annunciata"
- 
+
  artifact_celebrate_diversity:0 "Celebra la Diversità"
  artifact_celebrate_diversity_desc:0 "Metti in mostra alcuni dei nostri Artefatti Minori per celebrare la diversità della vita galattica."
  celebrate_diversity:0 "Celebrazione della Diversità"
@@ -268,7 +270,7 @@
 
  artifact_find_military_applications:0 "Trova Applicazioni Militari"
  artifact_find_military_applications_desc:0 "Tenta di trovare delle applicazioni militari per gli Artefatti Minori."
- artifact_find_military_applications_effect:1 "Distruggi alcuni Artefatti Minori per ottenere vari bonus militari.\n\nQuesta azione ti impedirà di cercare applicazioni pacifiche per un certo periodo.\n\nRicarica: £time£ §Y900§!"
+ artifact_find_military_applications_effect:0 "Distruggi alcuni Artefatti Minori per ottenere vari bonus militari.\n\nQuesta azione ti impedirà di cercare applicazioni pacifiche per un certo periodo.\n\nRicarica: £time£ §Y900§!"
  artifact_find_military_applications_no_cooldown:0 "$TRIGGER_FAIL$§RImpossibile trovare ulteriori applicazioni pacifiche o militari al momento.§!"
 
  artifact_find_military_application_army:0 "Droghe da Combattimento"
@@ -283,7 +285,7 @@
  artifact_find_applications_cooldown:0 "Ricarica Studio Artefatti Minori"
  artifact_find_peaceful_applications:0 "Trova Applicazioni Pacifiche"
  artifact_find_peaceful_applications_desc:0 "Tenta di trovare delle applicazioni pacifiche per gli Artefatti Minori."
- artifact_find_peaceful_applications_effect:1 "Distruggi alcuni Artefatti Minori per ottenere vari bonus civili.\n\nQuesta azione ti impedirà di cercare applicazioni militari per un certo periodo.\n\nRicarica: £time£ §Y900§!"
+ artifact_find_peaceful_applications_effect:0 "Distruggi alcuni Artefatti Minori per ottenere vari bonus civili.\n\nQuesta azione ti impedirà di cercare applicazioni militari per un certo periodo.\n\nRicarica: £time£ §Y900§!"
  artifact_find_peaceful_applications_no_cooldown:0 "$artifact_find_military_applications_no_cooldown$"
  artifact_find_peaceful_application_happy_bios:0 "Antica Moda"
  artifact_find_peaceful_application_happy_bios_desc:0 "Lo studio degli Artefatti Minori ha inaspettatamente scatenato una moda virale in tutto il nostro impero. Lo fanno tutti."
@@ -301,7 +303,7 @@
  artifact_find_peaceful_application_amenities_machine_desc:0 "Lo studio degli Artefatti Minori ha portato ad una riduzione del 3% nelle dimensioni delle batterie dei dispositivi elettronici, aumentandone l'efficienza."
  artifact_find_peaceful_application_leader_improvement_machine:0 "Perfezionamento Algoritmico"
  artifact_find_peaceful_application_leader_improvement_machine_desc:0 "Lo studio degli Artefatti Minori ha portato alla scoperta di algoritmi leggermente più efficienti per i nostri leader."
- 
+
  artifact_lgate_clue:0 "Intuizione sulla Scoperta del Portale-L"
  artifact_lgate_clue_desc:0 "Dovremmo essere in grado di svelare qualche mistero che circonda i Portali-L, utilizzando questi Artefatti."
  artifact_lgate_clue_effect:0 "Ricarica: £time£ §Y3.600§!"
@@ -366,7 +368,7 @@
  ancrel.10100.desc_machine:0 "Sembrerebbe che i Vultaum accettarono alcuni concetti fondamentalmente illogici durante le loro ricerche. I loro studi informatici e sui mondi virtuali ha comunque portato ad alcuni avanzamenti che dovremmo integrare nei nostri processi."
  ancrel.10100.desc_hive:0 "I Vultaum erano ossessionati dai concetti di realtà e mondi virtuali. La maggior parte delle loro scoperte sono inutili, ma almeno i loro studi informatici potrebbero esserci d'aiuto."
  ancrel.10100.desc_fm:0 "I Vultaum furono maestri indiscussi in campo informatico e virtuale. Potremmo essere in grado di utilizzare le loro scoperte per compiere enormi passi avanti in tali campi.\n\nTuttavia, le loro conclusioni sono preoccupanti. A prima vista sembrano un mucchio di sciocchezze incoerenti, ma dopo un'analisi più accurata sembrano presentare un velo di verità.\n\nSe vogliamo scavare più a fondo, abbiamo bisogno di altro tempo e risorse."
- 
+
  artifact_vultaum_research_completed_suppressed:0 "I Segreti dei Vultaum"
  artifact_vultaum_research_completed_suppressed_desc:0 "Gli archivi dei Vultaum hanno ampliato considerevolmente la nostra conoscenza informatica. Abbiamo sfruttato ciò che abbiamo appreso per creare alcuni mondi virtuali artificiali per il divertimento di tutti."
  artifact_vultaum_research_completed_public:0 "I Segreti Profondi dei Vultaum"
@@ -381,7 +383,7 @@
 
  VULTAUM_SECRETS_2:0 "Scava più a fondo tra i segreti dei Vultaum"
  VULTAUM_SECRETS_2_DESC:0 "Non possiamo smettere di cercare la verità solamente perché le risposte potrebbero essere inquietanti. I Vultaum trovarono qualcosa che infranse la loro realtà.\n\nNoi siamo senza paura."
- 
+
  ancrel.10110.name:0 "$artifact_vultaum_research$"
  ancrel.10110.desc:0 "Sembrerebbe che i Vultaum potessero aver ragione, dopotutto.\n\nAbbiamo replicato i loro esperimenti e siamo giunti a conclusioni simili. Esiste una buona probabilità che, in effetti, stiamo vivendo in un mondo simulato.\n\nNon possediamo abbastanza dati per ipotizzare il motivo per il quale qualcuno dovrebbe creare una cosa del genere. Sicuramente nessuno creerebbe un universo così freddo e crudele per puro divertimento.\n\nLe implicazioni della divulgazione di tutto ciò sono profonde; restiamo in attesa di una sua decisione."
 
@@ -391,7 +393,7 @@
 
  ancrel.10111.name:0 "Brutte Notizie"
  ancrel.10111.desc:0 "Siamo spiacenti di informarla che [leading_vultaum_research_scientist.GetName] non ha preso bene la decisione di terminare le ricerche sui Vultaum.\n\nIn alcuni degli ultimi appunti vaneggiava in modo delirante di voler 'continuare la ricerca'; tutto questo poco prima di suicidarsi."
- 
+
  ancrel.10112.name:0 "Alleviare lo Stress"
  ancrel.10112.desc:0 "I rapporti indicano che lo stress derivato dalle ricerche sui Vultaum ha influenzato [leading_vultaum_research_scientist.GetName].\n\nHa iniziato a compiere enormi balzi logici estremamente utili per la ricerca, ma anche a darsi all'automedicazione come forma di difesa dall'esaurimento."
 
@@ -444,14 +446,14 @@
  ancrel.10350.name:0 "$artifact_zroni_research$"
  ancrel.10350.desc:0 "Siamo riusciti ad integrare gli Artefatti degli Zroni nel nostro processo di ricerca. Le loro intuizioni negli studi psionici ci saranno molto utili."
  zroni_artifact_research_unlocked:0 "Azione Artefatto Minore Sbloccata: §Y$artifact_zroni_research$§!"
- 
+
  ancient_battle_site:0 "$ancrel.108.name$"
 
 
  # MINOR ARTIFACT PLANETARY DECISIONS
- artifact_cultural_study:1 "Mostre Museali §E(Decisione Planetaria)§!"
+ artifact_cultural_study:0 "Mostre Museali §E(Decisione Planetaria)§!"
  artifact_cultural_study_desc:0 "La decisione di mettere in mostra gli Artefatti aumenta la produzione di Addetti Culturali su uno dei nostri pianeti."
- artifact_cultural_study_effect:1 "$decision_museum_exhibits_desc$\n\n$artifact_action_planetary_decision$"
+ artifact_cultural_study_effect:0 "$decision_museum_exhibits_desc$\n\n$artifact_action_planetary_decision$"
 
  artifact_action_planetary_decision:0 "Quest'azione dev'essere intrapresa come §YDecisione§! su un pianeta."
 
@@ -460,32 +462,32 @@
  decision_museum_exhibits_desc:0 "Metti in mostra gli Artefatti Minori per ispirare il nostro popolo con le meraviglie del passato."
  planet_museum_exhibits:0 "Esposizione degli Artefatti"
  planet_museum_exhibits_desc:0 "L'esposizione di artefatti alieni rinvigorisce le nostre mostre museali."
- 
- artifact_manager_awards:1 "Competizione Manageriale §E(Decisione Planetaria)§!"
+
+ artifact_manager_awards:0 "Competizione Manageriale §E(Decisione Planetaria)§!"
  artifact_manager_awards_desc:0 "Messi in competizione tra loro, Dirigenti e Manager aumentano la loro produzione su uno dei nostri pianeti."
- artifact_manager_awards_effect:1 "$decision_manager_awards_desc$\n\n$artifact_action_planetary_decision$"
+ artifact_manager_awards_effect:0 "$decision_manager_awards_desc$\n\n$artifact_action_planetary_decision$"
 
  decision_manager_awards:0 "Indici Competizione Manageriale"
  decision_manager_awards_desc:0 "I Dirigenti ed i Manager competeranno tra loro per portare il massimo valore alla corporazione. Al migliore verrà permesso di mettere in mostra nel suo nuovo enorme ufficio alcuni dei nostri artefatti."
  planet_manager_awards:0 "Competizione Manageriale"
  planet_manager_awards_desc:0 "I Dirigenti ed i Manager di questo pianeta sono in competizione tra loro per massimizzare le sinergie commerciali e superare i propri obiettivi prestazionali."
- 
- artifact_sanctuary_exhibits:1 "Esibizione nei Santuari §E(Decisione Planetaria)§!"
+
+ artifact_sanctuary_exhibits:0 "Esibizione nei Santuari §E(Decisione Planetaria)§!"
  artifact_sanctuary_exhibits_desc:0 "L'esposizione degli Artefatti nei santuari farà felici i Bio-Trofei di uno dei nostri pianeti."
- artifact_sanctuary_exhibits_effect:1 "$decision_sanctuary_exhibits_desc$\n\n$artifact_action_planetary_decision$"
+ artifact_sanctuary_exhibits_effect:0 "$decision_sanctuary_exhibits_desc$\n\n$artifact_action_planetary_decision$"
 
  decision_sanctuary_exhibits:0 "Invia gli Artefatti nei Santuari Organici"
  decision_sanctuary_exhibits_desc:0 "Metti in mostra gli Artefatti Minori per intrattenere i nostri $job_bio_trophy_plural$ con le meraviglie del passato."
  planet_sanctuary_exhibits:0 "Esposizione degli Artefatti"
  planet_sanctuary_exhibits_desc:0 "I nostri $job_bio_trophy_plural$ parlano esclusivamente della nuova esposizione di artefatti alieni!"
- 
+
  mod_planet_executives_produces_mult:0 "Produzione £job_executive£ $job_executive_plural$"
  mod_planet_managers_produces_mult:0 "Produzione £job_manager£ $job_manager_plural$"
  mod_planet_bio_trophies_produces_mult:0 "Produzione £job_bio_trophy£ $job_bio_trophy_plural$"
 
- artifact_artifact_relays_hivemind:1 "Incorporazione degli Artefatti §E(Decisione Planetaria)§!"
+ artifact_artifact_relays_hivemind:0 "Incorporazione degli Artefatti §E(Decisione Planetaria)§!"
  artifact_artifact_relays_hivemind_desc:0 "Incorporando gli Artefatti alla nostra mente miglioreremo le abilità dei $job_synapse_drone_plural$ su uno dei nostri pianeti."
- artifact_artifact_relays_hivemind_effect:1 "$decision_artifact_relays_hivemind_desc$\n\n$artifact_action_planetary_decision$"
+ artifact_artifact_relays_hivemind_effect:0 "$decision_artifact_relays_hivemind_desc$\n\n$artifact_action_planetary_decision$"
 
  decision_artifact_relays_hivemind:0 "Incorpora Artefatti alla Mente"
  decision_artifact_relays_hivemind_desc:0 "Utilizzando gli Artefatti Minori per trasmettere i segnali, i nostri $job_synapse_drone_plural$ sono in grado di aumentare l'efficienza di tutti i $pop_cat_simple_drone_plural$."
@@ -495,7 +497,7 @@
 
  artifact_artifact_relays_machine:0 "$artifact_artifact_relays_hivemind$"
  artifact_artifact_relays_machine_desc:0 "Incorporando gli Artefatti alla nostra rete miglioreremo le abilità comunicative dei $job_coordinator_plural$ su uno dei nostri pianeti."
- artifact_artifact_relays_machine_effect:1 "$decision_artifact_relays_machine_desc$\n\n$artifact_action_planetary_decision$"
+ artifact_artifact_relays_machine_effect:0 "$decision_artifact_relays_machine_desc$\n\n$artifact_action_planetary_decision$"
 
  decision_artifact_relays_machine:0 "Incorpora Artefatti alla Rete"
  decision_artifact_relays_machine_desc:0 "Utilizzando gli Artefatti Minori per trasmettere i segnali, i nostri $job_coordinator_plural$ sono in grado di aumentare l'efficienza di tutti i $pop_cat_simple_drone_plural$."
@@ -508,7 +510,7 @@
  ##################
  # RELICS
  ##################
- #relic_triumph_cooldown: "\nModificatore '§Y$relic_activation_cooldown$§!' aggiunto per §Y120§! mesi."
+ #relic_triumph_cooldown: "\n§Y$relic_activation_cooldown$§! modifier added for §Y120§! months."
  relic_triumph_cooldown:0 "\n$relic_activation_cooldown$: £time£ §Y3.600§!"
  relic_triumph_cooldown_short:0 "\n$relic_activation_cooldown$: £time£ §Y1.800§!"
  relic_triumph_cooldown_veryshort:0 "\n$relic_activation_cooldown$: £time£ §Y900§!"
@@ -519,12 +521,12 @@
  relic_zro_crystal_passive:0 "Il tempo necessario a §YRaggiungere il Velo§! è ridotto del §G50%§!."
  relic_zro_crystal_active:0 "Contatta lo spirito di §Y$relic_zro_entity_name$§! per ottenere una guida in diverse materie."
  relic_zro_entity_name:0 "Ja'Baxti"
- relic_omnicodex_active:1 "§YGenera POP§! di una specie estinta su uno dei nostri pianeti."
+ relic_omnicodex_active:0 "§YGenera POP§! di una specie estinta su uno dei nostri pianeti."
  relic_orb_active:0 "§Y[Root.GetRulerTitle] [Root.GetRulerName]§! ottiene §Y500§! punti esperienza."
  relic_galatron_active:0 "Il Galatron rigurgita casualmente risorse."
  relic_surveyor_active:0 "Scansiona i pianeti del nostro territorio in cerca di nuovi depositi di risorse."
 
- #Reliquie
+ #Relics
  r_dragon_trophy:0 "Trofeo del Drago Etereo"
  r_dragon_trophy_desc:0 "Un trofeo commemorativo per la nostra vittoria contro l'atroce Drago Etereo. Se non fosse per le sue immense dimensioni, starebbe benissimo appeso al muro."
  r_khans_throne:0 "Trono del Khan"
@@ -532,14 +534,14 @@
  r_worm_scales:0 "Scaglie del Verme"
  r_worm_scales_desc:0 "Lucenti e ancora tiepide al tatto. Le scaglie emettono un ronzio acuto che non può essere spiegato con la scienza."
  r_rubricator:0 "Il Rubricatore"
- r_rubricator_desc:2 "Questo piccolo cubo si adatta perfettamente al tuo palmo, eppure contiene un tesoro digitale d'innumerevoli scansioni di artefatti alieni risalenti agli albori dell'universo. Ed è in grado di replicarli, all'infinito. Mai prima d'ora, l'ignoto era stato così a portata di mano."
+ r_rubricator_desc:0 "Questo piccolo cubo si adatta perfettamente al tuo palmo, eppure contiene un tesoro digitale d'innumerevoli scansioni di artefatti alieni risalenti agli albori dell'universo. Ed è in grado di replicarli, all'infinito. Mai prima d'ora, l'ignoto era stato così a portata di mano."
  r_omnicodex:0 "L'Omnicodex"
  r_omnicodex_desc:0 "Eoni or sono, una filantropica razza di cyborg si impegnò a garantire il perpetuarsi della vita biologica catalogando ed indicizzando ogni razza galattica, per assicurarsi che nessun evento d'estinzione fosse permanente. Sebbene il loro obiettivo della salvezza galattica sia infine stato sventato da una disgustosa mente alveare fanatica, il loro retaggio rimane."
  r_galatron:0 "Il Galatron"
  r_galatron_desc:0 "$galatron_modifier_desc$"
  r_surveyor:0 "L'Esaminatore"
  r_surveyor_desc:0 "Uno strumento di scansione incredibilmente potente che utilizza tecnologie impossibili da replicare. Le sue origini sono avvolte nel mistero... non sembra esser stato costruito dai Droni Minerari che lo possedevano."
- #r_orb_insight:0 "Sfera dell'Intuizione"
+ #r_orb_insight:0 "Orb of Insight"
  #r_orb_insight_desc:0 ""
  r_galaxy:0 "Galassia in Miniatura"
  r_galaxy_desc:0 "Questa galassia in miniatura fu creata da una civiltà conosciuta solo come "Fazione Belligerante C", che l'ha utilizzata per fuggire dai confini del loro pianeta natale assediato.\n\nLa galassia è contenuta all'interno di un impenetrabile campo subspaziale, ma possono essere osservate ancora le varie attività dei suoi abitanti."
@@ -549,12 +551,12 @@
  r_unbidden_warlock_desc:0 "Le energie psioniche di questo essere extradimensionale mantenevano attivo il portale tra il nostro ed il suo regno, prima che il portale stesso venisse distrutto.\n\nOra che è nostra prigioniera, la creatura è stata costretta ad utilizzare i suoi poteri per aumentare la velocità subluminale delle nostre navi e la portata dei nostri balzi."
  r_contingency_core:0 "Nucleo del Contingente Isolato"
  r_contingency_core_desc:0 "Un nucleo isolato del Contingente recuperato dal relitto del loro ultimo Pianeta Meccanico. È in grado di accelerare enormemente il processo di costruzione di robot e megastrutture."
- r_zro_crystal:1 "Archivio Psionico"
- r_zro_crystal_desc:1 "Un archivio psionico composto da cristalli di Zro; contiene l'essenza di §Y$relic_zro_entity_name$§!. Di tanto in tanto può essere consultato in cerca di una guida."
+ r_zro_crystal:0 "Archivio Psionico"
+ r_zro_crystal_desc:0 "Un archivio psionico composto da cristalli di Zro; contiene l'essenza di §Y$relic_zro_entity_name$§!. Di tanto in tanto può essere consultato in cerca di una guida."
  r_severed_head:0 "Testa di Zarqlan"
  r_severed_head_desc:0 "Estratto dal libro 'Simboli di Culto' (102° Edizione):\n\nZARQLAN (zaar-klann)\nRinomata figura sacra di specie indeterminata, venerato come profeta divino da almeno sette distinte religioni galattiche durante il Quarto Interregno (32° Ciclo di Kavabh). Il suo destino finale è sconosciuto, ma i riferimenti nei documenti storici cessano dopo il 38° Ciclo. Veridicità storica pesantemente dibattuta almeno a partire dal 41° Ciclo; liquidato da molti come favola o leggenda."
  r_ancient_sword:0 "Lama della Cacciatrice"
- r_ancient_sword_desc:1 "Un'arma antica e ben conservata forgiata con un materiale sconosciuto. Pulsa lievemente di un potere psionico a malapena controllato."
+ r_ancient_sword_desc:0 "Un'arma antica e ben conservata forgiata con un materiale sconosciuto. Pulsa lievemente di un potere psionico a malapena controllato."
  r_reality_perforator:0 "Perforatore di Realtà Vultaum"
  r_reality_perforator_desc:0 "Una sfera densa ed incredibilmente pesante composta da un materiale sconosciuto. I Vultaum sostenevano che questo dispositivo fosse in grado di destabilizzare brevemente la realtà simulata in cui credevano di essere intrappolati, potendo così ammirare uno scorcio del mondo reale.\n\nChe sia vero o meno, quando si attiva la sfera è possibile manipolare gli aspetti minori della realtà all'interno di un'area contenuta. Questo effetto dura solamente per un breve periodo, poiché l'universo sembra velocemente porre rimedio, ma se utilizzato con la giusta tempistica potrebbe dare alle nostre flotte un vantaggio decisivo."
  r_pox_sample:0 "Campione di Febbre Javoriana"
@@ -565,9 +567,9 @@
  r_war_forge_desc:0 "Una forgia bellica relativamente piccola e portatile, l'ultima del suo genere in tutto l'universo. È una reliquia dei tempi in cui i Cybrex scesero in guerra contro la galassia, prima che le loro "Regolazioni" facessero cambiar loro atteggiamento.\n\nLe capacità della forgia di produrre navi da guerra furono permanentemente disattivate dai Cybrex, ma è ancora in grado di convertire grandi quantità di minerali in leghe."
 
  cybrex_warform:0 "Cybrex Warform"
- cybrex_warform_desc:0 "This titanic robot towers over most buildings, with enough firepower to devastate cities."
- relic_cybrex_passive:0 "Permits building §Y$cybrex_warform$§! armies at your capital."
- relic_cybrex_active:0 "Produces £alloys£§Y5000§!."
+ cybrex_warform_desc:0 "Questo robot titanico sovrasta la maggior parte degli edifici, con una potenza di fuoco sufficiente a devastare le città."
+ relic_cybrex_passive:0 "Permette di costruire eserciti §Y$cybrex_warform$§! nella tua capitale."
+ relic_cybrex_active:0 "Produce £leghe£§Y5000§!."
 
  ##################
  # Decisions
@@ -581,11 +583,11 @@
  lithoids_arc_site_minerals:0 "Sito Archeologico"
  lithoids_arc_site_minerals_desc:0 "Lo studio di un sito archeologico all'interno delle miniere planetarie ha arrestato ogni operazione mineraria."
  evermore_science:0 "Sempre più scienza"
- evermore_science_desc:0 "The digitized population residing within the Evermore have been assigned to assist with scientific research."
+ evermore_science_desc:0 "La popolazione digitalizzata che risiede all'interno dell'Evermore è stata assegnata ad assistere nella ricerca scientifica."
  evermore_joy:0 "Sempre più divertimento"
- evermore_joy_desc:0 "This world's population can live out their fantasies together with the digitized population in the Evermore paradise."
+ evermore_joy_desc:0 "La popolazione di questo mondo può vivere le proprie fantasie insieme alla popolazione digitalizzata nel paradiso dell'Evermore."
  drums_of_war:0 "Tamburi di Guerra"
- ether_drake_triumph:0 "Trionfo sul Drago Etereo"
+ ether_drake_triumph:0 "Trionfo del Drago Etereo"
  worm_scales:0 "Influenza delle Scaglie del Verme"
  unbidden_ritual:0 "Rituale dell'Indesiderato"
  contingency_calculation:0 "Calcolo del Contingente"
@@ -648,49 +650,53 @@
  ancrel.7005.name:0 "Antico Laboratorio Bellico"
  ancrel.7005.desc:0 "Ulteriori indagini hanno rivelato che lo scopo principale di questo sito fu la ricerca e lo sviluppo di armi energetiche avanzate. Sembrerebbe che un incidente abbia scatenato una catastrofica esplosione, che ha devastato la maggior parte del complesso. Uno dei server sembra essere in condizioni piuttosto buone, forse i dati che contiene potrebbero fornirci ulteriori indizi."
  ancrel.7006.name:0 "Guida Psionica"
- ancrel.7006.1.desc:1 "Non appena tocchiamo la Gemma dell'Anima, veniamo proiettati in un microcosmo del Velo. Ci rendiamo conto di non essere soli in questo vorticoso regno crepuscolare. C'è un'entità che ci attende, incommensurabilmente antica. Un custode di segreti. $relic_zro_entity_name$, lo capiamo istintivamente.\n\nAvendo superato il test del contatto, l'entità attende le nostre domande."
- ancrel.7006.2.desc:1 "La Gemma dell'Anima, pulsando di luce interiore, sembra richiamarci silenziosamente. La tocchiamo, e le nostre menti vengono trascinate nella dimensione tascabile del Velo, in cui l'enigmatica entità chiamata $relic_zro_entity_name$ attende.\n\nConosce cose che nessun essere mortale potrebbe sapere, e sembra impaziente di condividere i suoi segreti con noi, ora che abbiamo raggiunto il suo santuario."
- ancrel.7006.3.desc:1 "Qualcosa ci attende all'interno della Gemma dell'Anima. $relic_zro_entity_name$. Ci sta aspettando da prima ancora che nascessimo.\n\nQuando tocchiamo la gemma ci conduce nel luogo intangibile in cui dimora. Sola per millenni, con esclusivamente i suoi pensieri a farle compagnia, l'entità sembra impaziente di rispondere alle nostre domande con tutta la sua arcana saggezza; che lo faccia perché vuole aiutarci, o per passare il tempo, rimane un mistero."
+ ancrel.7006.1.desc:0 "Non appena tocchiamo la Gemma dell'Anima, veniamo proiettati in un microcosmo del Velo. Ci rendiamo conto di non essere soli in questo vorticoso regno crepuscolare. C'è un'entità che ci attende, incommensurabilmente antica. Un custode di segreti. $relic_zro_entity_name$, lo capiamo istintivamente.\n\nAvendo superato il test del contatto, l'entità attende le nostre domande."
+ ancrel.7006.2.desc:0 "La Gemma dell'Anima, pulsando di luce interiore, sembra richiamarci silenziosamente. La tocchiamo, e le nostre menti vengono trascinate nella dimensione tascabile del Velo, in cui l'enigmatica entità chiamata $relic_zro_entity_name$ attende.\n\nConosce cose che nessun essere mortale potrebbe sapere, e sembra impaziente di condividere i suoi segreti con noi, ora che abbiamo raggiunto il suo santuario."
+ ancrel.7006.3.desc:0 "Qualcosa ci attende all'interno della Gemma dell'Anima. $relic_zro_entity_name$. Ci sta aspettando da prima ancora che nascessimo.\n\nQuando tocchiamo la gemma ci conduce nel luogo intangibile in cui dimora. Sola per millenni, con esclusivamente i suoi pensieri a farle compagnia, l'entità sembra impaziente di rispondere alle nostre domande con tutta la sua arcana saggezza; che lo faccia perché vuole aiutarci, o per passare il tempo, rimane un mistero."
  ancrel.7006.a:0 "Chiedi a $relic_zro_entity_name$ di condividere un'intuizione"
  ancrel.7006.b:0 "Chiedi a $relic_zro_entity_name$ informazioni su questioni marziali"
  ancrel.7006.c:0 "Chiedi a $relic_zro_entity_name$ informazioni su questioni di stato"
  ancrel.7007.name:0 "$r_galaxy$"
- ancrel.7007.desc:1 "Il tempo scorre più velocemente all'interno della galassia in miniatura, ed osservandone gli abitanti siamo in grado di apprendere molte tecnologie avanzate."
- 
+ ancrel.7007.desc:0 "Il tempo scorre più velocemente all'interno della galassia in miniatura, ed osservandone gli abitanti siamo in grado di apprendere molte tecnologie avanzate."
+
  ##################
  # RINGWORLD SEGMENTS
  ##################
 
  district_rw_farming:0 "Segmento Agricolo"
  district_rw_farming_plural:0 "Segmenti Agricoli"
- district_rw_farming_desc:0 "Mari sterminati di campi coltivati si estendono lungo questa sezione del Pianeta ad Anello, fornendo enormi quantità di cibo."
+ district_rw_farming_desc:0 "Mari sterminati di campi coltivati si estendono lungo questa sezione del Pianeta Anello, fornendo enormi quantità di cibo."
  district_rw_generator:0 "Segmento Generatore"
  district_rw_generator_plural:0 "Segmenti Generatori"
- district_rw_generator_desc:0 "File di reattori riempiono questa sezione del Pianeta ad Anello, fornendo enormi quantità di energia."
+ district_rw_generator_desc:0 "File di reattori riempiono questa sezione del Pianeta Anello, fornendo enormi quantità di energia."
  district_rw_science:0 "Segmento di Ricerca"
  district_rw_science_plural:0 "Segmenti di Ricerca"
- district_rw_science_desc:0 "Strutture di ricerca di ogni tipo riempiono questa sezione del Pianeta ad Anello."
+ district_rw_science_desc:0 "Strutture di ricerca di ogni tipo riempiono questa sezione del Pianeta Anello."
  district_rw_commercial:0 "Segmento Commerciale"
  district_rw_commercial_plural:0 "Segmenti Commerciali"
- district_rw_commercial_desc:0 "L'industria civile e le infrastrutture popolano questa sezione del Pianeta ad Anello dedicata al commercio."
+ district_rw_commercial_desc:0 "L'industria civile e le infrastrutture popolano questa sezione del Pianeta Anello dedicata al commercio."
 
  district_rw_city:0 "Segmento Cittadino"
  district_rw_city_plural:0 "Segmenti Cittadini"
- district_rw_city_desc:0 "Immensi centri urbani riempiono questa sezione del Pianeta ad Anello, fornendo un gran numero di abitazioni ed uffici per gli impiegati."
+ district_rw_city_desc:0 "Immensi centri urbani riempiono questa sezione del Pianeta Anello, fornendo un gran numero di abitazioni ed uffici per gli impiegati."
  district_rw_hive:0 "Segmento Alveare"
  district_rw_hive_plural:0 "Segmenti Alveari"
- district_rw_hive_desc:0 "Guglie torreggianti si estendono da questa sezione del Pianeta ad Anello, luoghi in cui i droni si radunano quando non lavorano per riposare e nutrirsi."
+ district_rw_hive_desc:0 "Guglie torreggianti si estendono da questa sezione del Pianeta Anello, luoghi in cui i droni si radunano quando non lavorano per riposare e nutrirsi."
  district_rw_nexus:0 "Segmento Nexus"
  district_rw_nexus_plural:0 "Segmenti Nexus"
- district_rw_nexus_desc:0 "Una moltitudine di distretti efficienti sono presenti in questa sezione del Pianeta ad Anello, che forniscono ai droni un luogo per la manutenzione e le riparazioni prima di tornare ai loro incarichi."
+ district_rw_nexus_desc:0 "Una moltitudine di distretti efficienti sono presenti in questa sezione del Pianeta Anello, che forniscono ai droni un luogo per la manutenzione e le riparazioni prima di tornare ai loro incarichi."
+
+ district_rw_industrial:0 "Segmento Industriale"
+ district_rw_industrial_plural:0 "Segmenti Industriali"
+ district_rw_industrial_desc:0 "Fabbriche rumorose e potenti macchinari riempiono questa sezione del Pianeta Anello, fornendo una solida base industriale per l'Impero."
 
  ##################
  # DEPOSITS
  ##################
  d_archaeological_site:0 "£blocker£ Sito Archeologico"
  d_archaeological_site_desc:0 "Quest'area contiene un antico sito archeologico in fase di scavo."
- d_sentinels:1 "Sentinels"
- d_sentinels_desc:1 "The Sentinels guard this land; it may not be disturbed. The Sentinels counts as Defense Armies, and will come to the planet's aid if there's an invasion."
+ d_sentinels:0 "Sentinels"
+ d_sentinels_desc:0 "The Sentinels guard this land; it may not be disturbed. The Sentinels counts as Defense Armies, and will come to the planet's aid if there's an invasion."
  d_hab_gas_1:0 "Deposito di Gas Esotici"
  d_hab_gas_1_desc:0 "Questo habitat è costruito vicino ad un deposito sfruttabile di Gas Esotici."
  d_hab_gas_2:0 "$d_hab_gas_1$"
@@ -702,7 +708,7 @@
  d_hab_gas_5:0 "$d_hab_gas_1$"
  d_hab_gas_5_desc:0 "$d_hab_gas_1_desc$"
  d_hab_crystal_1:0 "Deposito di Cristalli Rari"
- d_hab_crystal_1_desc:1 "Questo habitat è costruito vicino ad un deposito sfruttabile di Cristalli Rari."
+ d_hab_crystal_1_desc:0 "Questo habitat è costruito vicino ad un deposito sfruttabile di Cristalli Rari."
  d_hab_crystal_2:0 "$d_hab_crystal_1$"
  d_hab_crystal_2_desc:0 "$d_hab_crystal_1_desc$"
  d_hab_crystal_3:0 "$d_hab_crystal_1$"
@@ -737,7 +743,7 @@
  d_hab_zro_2_desc:0 "$d_hab_zro_1_desc$"
  d_hab_zro_3:0 "$d_hab_zro_1$"
  d_hab_zro_3_desc:0 "$d_hab_zro_1_desc$"
- d_hab_dark_matter_1:1 "Deposito di Materia Oscura"
+ d_hab_dark_matter_1:0 "Deposito di Materia Oscura"
  d_hab_dark_matter_1_desc:0 "Questo habitat è costruito vicino ad un deposito sfruttabile di Materia Oscura."
  d_hab_dark_matter_2:0 "$d_hab_dark_matter_1$"
  d_hab_dark_matter_2_desc:0 "$d_hab_dark_matter_1_desc$"
@@ -748,7 +754,7 @@
  d_sentinels_monument:0 "$sentinels_planet_modifier$"
  d_sentinels_monument_desc:0 "$sentinels_planet_modifier$"
  d_sentinels_metal:0 "Sentinels"
- d_sentinels_metal_desc:0 "The broken remains of nine monumental automatons made from an unusual metal alloy offer an ample supply of §HLiving Metal§!."
+ d_sentinels_metal_desc:0 "I resti rotti di nove monumentali automi fatti di una lega metallica insolita offrono un'ampia disponibilità di §Metallo Vivente§!."
  ancrel.10001.name:0 "$tech_arcane_deciphering$"
  ancrel.10001.desc:0 "Lo studio degli artefatti ci ha fatto avanzare nella ricerca."
  ancrel.10002.name:0 "$tech_arcane_deciphering$"
@@ -769,7 +775,7 @@
  ancrel.10010.desc:0 "Su quale aspetto dovremmo concentrarci?"
  ancrel.10020.name:0 "$artifact_find_peaceful_applications$"
  ancrel.10020.desc:0 "$ancrel.10010.desc$"
- 
+
  mega_art_installation_4:0 "Mega-Installazione Artistica: Perfezione"
  mega_art_installation_4_DESC:0 "Racchiude assieme l'antico ed il nuovo in modi che nessuno pensava possibili.\n\nÈ semplicemente perfetta."
  mega_art_installation_restored_2:0 "$mega_art_installation_4$"
@@ -778,15 +784,15 @@
  ancrel.10030.desc:0 "Artefatti inestimabili riempiono le Stazioni Espositive, portando il passato nel presente per ispirare il futuro.\n\nQuesto è un giorno glorioso."
  ancrel.10030.phobe.desc:0 "La grandiosità del nostro impero è tale che ora possiamo riempire le Stazioni Espositive della nostra $mega_art_installation_3$ di artefatti inestimabili.\n\nChe gli xeno ammirino le nostre opere e disperino."
 
- col_ring_research:0 "Pianeta ad Anello Scientifico"
- col_ring_research_desc:0 "Quest'intera sezione del Pianeta ad Anello è dedicata alla tecnologia ed alla conoscenza"
- col_ring_farming:0 "Pianeta ad Anello Agricolo"
- col_ring_farming_desc:0 "I campi sterminati di questa sezione del Pianeta ad Anello sono supportati dalle infrastrutture per massimizzare il potenziale di crescita del raccolto"
- col_ring_trade:0 "Pianeta ad Anello Commerciale"
+ col_ring_research:0 "Pianeta Anello Scientifico"
+ col_ring_research_desc:0 "Quest'intera sezione del Pianeta Anello è dedicata alla tecnologia ed alla conoscenza"
+ col_ring_farming:0 "Pianeta Anello Agricolo"
+ col_ring_farming_desc:0 "I campi sterminati di questa sezione del Pianeta Anello sono supportati dalle infrastrutture per massimizzare il potenziale di crescita del raccolto"
+ col_ring_trade:0 "Pianeta Anello Commerciale"
  col_ring_trade_desc:0 "Se non puoi acquistarlo qui, o non esiste o non lo volevi veramente"
- col_ring_generator:0 "Pianeta ad Anello Generatore"
- col_ring_generator_desc:0 "Connettendo assieme i segmenti generatori di questa sezione del Pianeta ad Anello viene prodotta una quantità enorme di energia"
- 
+ col_ring_generator:0 "Pianeta Anello Generatore"
+ col_ring_generator_desc:0 "Connettendo assieme i segmenti generatori di questa sezione del Pianeta Anello viene prodotta una quantità enorme di energia"
+
  SHIP_SIZE_CAPACITY:0 "£$SHIP_ICON$£ $SHIP_SIZE$ : §Y$VALUE$/$MAX$§!"
 
  pop_cat_assimilation:0 "Assimilazione"
@@ -798,24 +804,24 @@
  job_assimilation_plural:0 "$job_assimilation$"
  job_assimilation_desc:0 "Questa POP è in integrazione nel nostro collettivo."
  pop_category_assimilation:0 "Standard di Vita $pop_cat_assimilation$"
- space_dragon_blue:0 "$NAME_Grand_Dragon$"
- space_dragon_blue_plural:0 "$NAME_Grand_Dragon$"
+ space_dragon_blue:0 "Grande Drago"
+ space_dragon_blue_plural:0 "Grandi Draghi"
 
  STEAL_ALL_ARTIFACT:0 "$THIEF|Y$ ha rubato §YTUTTI§! gli Artefatti di $VICTIM|Y$"
  STEAL_RANDOM_ARTIFACT:0 "$THIEF|Y$ ha rubato §YUN§! Artefatto casuale di $VICTIM|Y$"
  STEAL_ONE_ARTIFACT:0 "$THIEF|Y$ ha rubato l'Artefatto "$ARTIFACT|Y$" a $VICTIM|Y$"
- 
+
  IS_LAST_LOST_RELIC:0 "$RELIC|Y$ è l'ultima Reliquia perduta di $COUNTRY|Y$"
  IS_NOT_LAST_LOST_RELIC:0 "$RELIC|Y$ NON è l'ultima Reliquia perduta di $COUNTRY|Y$"
  IS_LAST_RECEIVED_RELIC:0 "$RELIC|Y$ è l'ultima Reliquia ricevuta da $COUNTRY|Y$"
  IS_NOT_LAST_RECEIVED_RELIC:0 "$RELIC|Y$ NON è l'ultima Reliquia ricevuta da $COUNTRY|Y$"
- 
+
  Herald_repair:0 "Revisione Completa"
  Herald_repair_TITLE:0 "Revisione Completa"
  Herald_repair_DESC:0 "Sebbene il Grande Araldo sia senza dubbio una nave potente, non sta operando al suo pieno potenziale. Ciò è dovuto ad una combinazione di mancanza di manutenzione, piccoli danni accumulati ed il fatto che non comprendiamo appieno le sue capacità belliche. Solamente con una revisione dei sistemi e lo studio approfondito della nave potremmo riportarla al suo stato operativo completo."
  herald_75:0 "L'Araldo è danneggiato"
  herald_50:0 "$herald_75$"
  herald_25:0 "$herald_75$"
- NAME_Sentinels:0 "Sentinels"
- sentinel_army:0 "Sentinels"
- sentinel_army_desc:0 "Living statues with a mechanical core, bodies humming and skin glowing, radiation pulsating from their cores, ready to rain destruction on their enemies!"
+ NAME_Sentinels:0 "Sentinelle"
+ sentinel_army:0 "Sentinelle"
+ sentinel_army_desc:0 "Statue viventi con un nucleo meccanico, corpi ronzanti e pelle incandescente, radiazioni che pulsano dai loro nuclei, pronti a far piovere distruzione sui loro nemici!"
