@@ -12,11 +12,11 @@ Questo mod nasce a maggio 2019 partendo dai testi tradotti diligentemente dal te
 
 ## Contribuire alla traduzione
 
+**Se non siete avvezzi all'utilizzo di git o GitHub per la modifica dei file, potete utilizzare in alternativa il progetto dedicato su [Transifex](https://www.transifex.com/internet-of-peers/stellaris-italian-translation)**.
+
 Paradox aggiorna spesso i propri prodotti, non solo aggiungendo nuovi DLC e nuovi dialoghi, ma anche correggendo dove e quando serve quelli vecchi. Questo significa che è difficile avere una traduzione sempre aggiornata al 100% all'ultima release, quindi ogni aiuto con le traduzioni è ben accetto :)
 
 Per come è strutturato il gioco, e poiché questo mod vuole mantenere gli achievement attivi, non è possibile aggiungere una lingua al gioco: l'unica alternativa per avere l'italiano è modificare una delle lingue disponibili. Per comodità quindi questo mod sovrascrive direttamente la lingua di default, ossia l'inglese. La fonte principale di frasi da tradurre di trova all'interno della cartella [src/mod/localisation/english](src/mod/localisation/english).
-
-**Se non siete avvezzi all'utilizzo di git o GitHub per la modifica dei file, potete utilizzare in alternativa il progetto dedicato su [Transifex](https://www.transifex.com/internet-of-peers/stellaris-italian-translation)**.
 
 ### Stato della traduzione
 
