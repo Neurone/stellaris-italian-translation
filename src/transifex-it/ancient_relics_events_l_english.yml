@@ -233,7 +233,7 @@
  ancrel.21.name: "Mondo in Rovina"
  ancrel.21.desc: "Strutture massicce e fatiscenti coprono l'intera superficie di questo mondo. Un tempo questa città-pianeta doveva aver ospitato miliardi di persone, ma ora è vuota. Chiunque abbia vissuto qui deve aver lasciato indizi su quello che gli è successo, ma per trovarli sarà necessario un esame dettagliato della superficie."
  ancrel.22.desc: "Dopo molte infruttuose ricerche tra le rovine, una serie di indizi ha indirizzato la nostra ricerca verso i resti di una sorta di centro di elaborazione e archiviazione dei dati planetari. Se riusciamo a trovare un modo per ottenere l'accesso a qualsiasi documentazione rimasta, sarà preziosa per svelare il misterioso passato di questo pianeta."
- ancrel.23.desc: "Una volta trovato un ingresso al data center e il passaggio forzato attraverso i rottami, è stato un compito sorprendentemente facile riattivare e interfacciarsi con i sistemi informatici. I circuiti autoriparanti e gli algoritmi di apprendimento sono diventati rapidamente online per ripristinare funzionalità limitate e comunicare con i nostri computer.\n\nLa causa di questa esplosione di attività è diventata subito chiara: [From.Planet.GetName] una volta era la capitale di una macchina impero noto come §H \"The Omnicodex\" §!. Chiamati per il loro scopo di guida, gli Omni erano un ibrido di robot e cyborg che avevano tentato di assimilare campioni di tutta la vita biologica nella galassia, al fine di prevenire la loro estinzione di fronte a calamità galattiche sconosciute.\n\nDa documentazione che sopravvivere, si deduce che questa linea di condotta non era popolare tra le altre potenze galattiche della loro era; gli Omni furono infine sconfitti in una campagna congiunta condotta da molti di questi imperi.\n\nPrima della loro caduta, gli Omni riuscirono a campionare una grande quantità di razze e molto lavoro fu dedicato allo sviluppo di un dispositivo in grado di ricrearle se il il bisogno dovrebbe mai sorgere. Questo dispositivo - l'Omnicodex vero e proprio - è apparentemente conservato da qualche parte nelle vicinanze."
+ ancrel.23.desc: "Una volta trovato un ingresso al data center e il passaggio forzato attraverso i rottami, è stato un compito sorprendentemente facile riattivare e interfacciarsi con i sistemi informatici. I circuiti autoriparanti e gli algoritmi di apprendimento sono diventati rapidamente online per ripristinare funzionalità limitate e comunicare con i nostri computer.\n\nLa causa di questa esplosione di attività è diventata subito chiara: [From.Planet.GetName] una volta era la capitale di una macchina impero noto come §H\"The Omnicodex.\"§! Chiamati per il loro scopo di guida, gli Omni erano un ibrido di robot e cyborg che avevano tentato di assimilare campioni di tutta la vita biologica nella galassia, al fine di prevenire la loro estinzione di fronte a calamità galattiche sconosciute.\n\nDa documentazione che sopravvivere, si deduce che questa linea di condotta non era popolare tra le altre potenze galattiche della loro era; gli Omni furono infine sconfitti in una campagna congiunta condotta da molti di questi imperi.\n\nPrima della loro caduta, gli Omni riuscirono a campionare una grande quantità di razze e molto lavoro fu dedicato allo sviluppo di un dispositivo in grado di ricrearle se il il bisogno dovrebbe mai sorgere. Questo dispositivo - l'Omnicodex vero e proprio - è apparentemente conservato da qualche parte nelle vicinanze."
  ancrel.24.desc: "L'Omnicodex è stato portato alla luce. Questo dispositivo unico contiene la sequenza genetica di ogni razza che gli Omni sono stati in grado di campionare e possono ricrearli utilizzando solo elementi di base come materie prime. Sfortunatamente, sembra che gli Omni non abbiano avuto il tempo di perfezionarlo prima di incontrare il loro annientamento, quindi non c'è modo di selezionare quale delle tante razze campionate sarebbe stata creata in ogni attivazione del dispositivo."
 
  ANCREL_ARC_CAT: "Sito Alieno"
@@ -305,6 +305,7 @@
  ancrel.2024.a: "Che strano."
  ancrel.2015.name: "Segnale d'Emergenza §YGrunur§!"
  ancrel.2015.desc: "I nostri scienziati stanno ricevendo un segnale d'emergenza che sembra portare la firma dei §YGrunur§!! Dovrebbe provenire da un sistema sconosciuto, vicino a [last_baol_neighbor.GetName].\n\nChe genere di antico messaggio potrebbe contenere?\n\nI nostri scienziati vogliono vederci chiaro."
+ ancrel.2015.a.tooltip: "Issues Special Project: §YGrunur Distress Signal§!"
  ancrel.3999.name: "$ancrel.2016.name$"
  ancrel.3999.desc: "Gli scienziati della §H[From.GetName]§! hanno trovato l'ultimo §HBaol§!!"
  ancrel.2016.name: "L'Organismo Baol"
@@ -801,7 +802,7 @@
  site_popular_rock: "Roccia Popolare"
  site_popular_rock_intro: "I sensori hanno rilevato tracce energetiche in un gruppo di asteroidi. Si raccomandano ulteriori indagini."
  ancrel.9385.name: "Ciao/Addio"
- ancrel.9385.desc: "Seguendo la debole traccia energetica, probabilmente lasciata da una nave spaziale, è stato isolato un singolo asteroide della fascia. Ispezioni più accurate hanno rilevato diverse tracce di atterraggi e decolli dalla grande roccia.\n\nI sensori indicano anche la presenza di vaste aree scavate all'interno, che richiedono l'avvio di una spedizione."
+ ancrel.9385.desc: "Seguendo la debole traccia energetica, probabilmente lasciata da una nave spaziale, è stato isolato un singolo asteroide della fascia. Ispezioni più accurate hanno confermato diverse tracce di atterraggi e decolli dalla grande roccia.\n\nI sensori indicano anche cavità e tunnel all'interno dell'asteroide, che possono essere scavati."
  ancrel.9390.name: "I Passi"
  ancrel.9390.desc: "Seguendo alcuni stretti tunnel, la spedizione ha finalmente trovato la parte più interna dell'asteroide; una vasta camera adorna di sculture scavate nella roccia. La traduzione dei testi spirituali ritrovati sulle pareti dicono che questo luogo veniva chiamato \"Il Nono Passo\", e che si trattava di una delle varie destinazioni di un viaggio religioso intrapreso dalla specie che lo creò.\n\nSe questo era il nono passo, dove sono i precedenti otto? E quanti passi ci sono a seguire?"
  ancrel.9395.name: "Area di Servizio Spaziale"
@@ -933,7 +934,7 @@
  ancrel.4036.d: "Abbiamo alcuni individui piuttosto \"problematici\" su [Root.Capital.GetName]..."
  ancrel.4036.d.tooltip: "Un Governatore di §GLivello 5§!, dotato della \"vista\", si unisce al nostro impero."
  ancrel.4036.e: "Integrazione del Nexus confermata."
- ancrel.4036.e.tooltip: "§G+1§! Decisione §Y$decision_machine_oracle$§! che fornisce i seguenti effetti:\n£crime£ $MOD_PLANET_CRIME_NO_HAPPINESS_ADD$ §R-15§!\n£stability£ $MOD_PLANET_STABILITY_ADD$ §G+20§!"
+ ancrel.4036.e.tooltip: "§G+1§! Decisione §Y$decision_machine_oracle$§! che fornisce i seguenti effetti:\n£crime£ $MOD_PLANET_CRIME_NO_HAPPINESS_ADD$ §G-15§!\n£stability£ $MOD_PLANET_STABILITY_ADD$ §G+10§!"
  ancrel.4037.name: "$ancrel.4036.name$"
  ancrel.4037.desc: "Ho una soluzione alternativa che richiede la terminazione di un esperimento nell'evento di una devianza di codice 034N. La ricerca è diventata una minaccia per la Repubblica."
  ancrel.4037.a: "Cos'è una devianza di codice 034N?"
@@ -1129,3 +1130,160 @@
  ancrel.6505.a: "La Reliquia \"[this.GetLastLostRelic]\" non è più nostra..."
  relic_lost: "La Reliquia \"§Y[this.GetLastLostRelic]§!\" ora appartiene a §Y[From.GetName]§!"
 
+ ## The Library
+ site_the_library: "The Library"
+ site_the_library_intro: "A thick layer of glass and metal covers this otherwise barren planet, perhaps hinting at some sort of cataclysmic event in its past."
+ ancrel.12020.name: "Ruins Long Forgotten"
+ ancrel.12020.desc: "We have discovered clear signs that [From.Planet.GetName] was once densely populated. However, whatever destroyed their civilization did a very thorough job of it: very few useful remains have been found.\n\nOur scanners have detected several large cavities deep below the surface that may once have supported life. Perhaps we will have more luck there."
+ ancrel.12025.name: "The Library"
+ ancrel.12025.desc: "Our excavation of the cave systems on [From.Planet.GetName] has found well-preserved remnants of an underground, high technology society built on a vast scale. Many of the ruins are in surprisingly good condition, and we have managed to find what our [Owner.GetResearchers] are describing as a \"library\" of encrypted data crystals. Hopefully, these can shed some light on what happened here."
+ ancrel.12030.name: "Lurking in the Shadows"
+ ancrel.12030.desc.base: "A [Owner.GetTeamMember] exploring the ruins on [FromFrom.Planet.GetName] recently disappeared. After a short search, we found a [Owner.GetSpeciesRemnantName] that seems to have belonged to a [Root.Owner.Species.GetName]."
+ ancrel.12030.desc.normal: "$ancrel.12030.desc.base$ Our [Owner.GetResearchers] are in no doubt that these remains are what's left of our missing [Owner.GetTeamMember], but they are baffled as to how the body decomposed quite this quickly. They urge caution as we continue our investigations."
+ ancrel.12030.desc.lithoid: "$ancrel.12030.desc.base$ Our [Owner.GetResearchers] are in no doubt that these remains are what's left of our missing [Owner.GetTeamMember], but they are baffled as to what exactly killed them - the process seems to have been fairly instantaneous. They urge caution as we continue our investigations."
+ ancrel.12030.desc.machine: "$ancrel.12030.desc.base$ Our [Owner.GetResearchers] are in no doubt that these remains are what's left of our missing [Owner.GetTeamMember], but they are baffled as to how their unit corroded away quite this quickly. They urge caution as we continue our investigations."
+ ancrel.12035.name: "Troubles in Paradise"
+ ancrel.12035.desc: "As we interpret the data crystals from the caves on [From.Planet.GetName], we begin piecing together a picture of a troubled planet.\n\nThe planet was once the center of a prosperous civilization known as the Ilanii Foundation. During that civilization's latter years, the Ilanii turned more and more to the hoarding of knowledge instead of more material matters such as procreation. As a result, their population fell rapidly. Alarmed by their dwindling numbers, their leaders attempted to find a technological solution for immortality. Records become scarcer around this point - though it appears to predate whatever cataclysm forced them underground - and it is not clear yet what results their efforts yielded."
+ ancrel.12040.name: "Civilization's End"
+ ancrel.12040.desc.base: "We can now piece together what became of the Ilanii's attempt at immortality. It appears that, far from bringing them everlasting life, they created a terrible menace - a swarm of microorganisms capable of multiplying rapidly and almost instantly devouring any organic matter... as must have happened to our team's lost member.\n\nThe resulting cataclysm wiped out much of the population. The survivors splintered into two groups: one, unwilling to give up [From.Planet.GetName], took to the depths, recreating their civilization in air-tight pockets such as the one we found. However, this solution proved unsustainable in the long run, and eventually the microorganism found its way into their habitats; the caves became their tombs.\n\nThe other group instead went into exile, enforcing a planetary quarantine by utterly obliterating the surface, rendering it uninhabitable."
+ ancrel.12040.desc.curators: "$ancrel.12040.desc.base$ They would henceforth live in small enclaves and dedicate themselves to preserving the lost knowledge of their civilization, eventually morphing into one of the ancestors of the modern §H[curator_enclave_country.GetName]§!."
+ ancrel.12040.desc.meet_curators: "$ancrel.12040.desc.base$ They would henceforth live in small enclaves and dedicate themselves to preserving the lost knowledge of their civilization. Their ultimate fate is unknown to us, but one of the data crystals indicates they were headed for the §H[curator_poi.GetName]§! system."
+ ancrel.12040.desc.no_curators: "$ancrel.12040.desc.base$ Their ultimate fate is lost to time, but it seems they intended to dedicate the remainder of their existence to preserving the lost knowledge of their civilization."
+ ancrel.12040.A: "This microorganism will make a fine weapon."
+ ancrel.12040.B: "Quarantine the planet, allowing only careful study."
+
+ ancient_glassed_planet: "Glassed Planet"
+ ancient_glassed_planet_desc: "In the distant past, this planet's biosphere was utterly annihilated, cleansing it of all forms of life."
+
+ killer_librarian_organism: "Killer Microorganism"
+ killer_librarian_organism_desc: "Our armies go into battle armed with a microorganism capable of devouring the life tissue of any being with verocious speed. Of course, they cannot entirely guarantee the safety of innocent bystanders as a result of its use..."
+
+ find_the_curators_title: "Remnant of a Remnant"
+ find_the_curators_desc: "Our investigations suggest that the remnants of a civilization dedicated to the accumulation of knowledge sought their refuge in the §H[curator_poi.GetName]§! system."
+ poi_curator_location: "Sanctuary"
+
+ ## Ruined Station / Percussive Maintenance
+ site_percussive_maintenance: "Ruined Station"
+ site_percussive_maintenance_intro: "A large station orbiting in alarmingly close proximity to the neutron star is giving off strange readings. Although its current position is stable, it shows considerable wear and tear. A proliferation of scorch marks indicates that it was rocked by several large explosions in the past."
+
+ ancrel.12000.name: "Experimental Weaponry"
+ ancrel.12000.desc: "[Root.Leader.GetName] has boarded the station with a team of researchers and managed to restore power to some sections. It appears that it was inhabited mere centuries before [Root.Owner.GetSpeciesNamePlural] took to space. At first sight, it appears to have been a weapons station, as evidenced by the exceptionally large cannon that takes up the majority of its volume. However, most of the remaining sections seem to have been dedicated to research facilities, indicating that the weapon was likely highly experimental."
+ ancrel.12005.name: "System Failures"
+ ancrel.12005.desc: "[Root.Leader.GetName] can't help but notice that an abnormally large number of apparently undamaged systems in the station seem to be failing with excessive frequency, even allowing for their age.\n\nUpon reactivating them for the umpteenth time, agonized screams are heard from the team's comp tech: \"What? Why? How?!\" The stream of distressed and incredulous noises continues unabated for some time before [Root.Leader.GetSheHe] shakes [Root.Leader.GetHerHis] head, defeated. \"It seems this entire facility was cobbled together with duct tape,\" [Root.Leader.GetSheHe] says. \"I'm surprised it ever worked.\""
+ ancrel.12005.desc.gestalt: "Our investigation drones have remarked that an abnormally large number of apparently undamaged systems in the station seem to be failing with excessive frequency, even allowing for their age.\n\nUpon reactivating them for the umpteenth time, one of the repair drones suffered a critical meltdown: \"Context exceeds parameters of reason,\" it began bleating. This continued unabated for some time before it gave up, proclaiming \"facility programming not fit for purpose; presumed former functional state cannot be explained.\""
+ ancrel.12005.A: "Proceed with extreme caution."
+ ancrel.12005.B: "Try kicking it."
+ percussive_maintainer_tooltip: "§HPercussive Maintainer§! grants faster research in the fields of §HArchaeology§! and §HComputing§! at the cost of §R-1§! max §HSkill Levels§!."
+ ancrel.12010.name: "The Rudari Gambit"
+ ancrel.12010.desc: "Despite the frequent outages, [Root.Leader.GetName] has been able to make significant progress in deciphering the purpose of the station. Logs indicate that its creators, the \"Rudari,\" had been engaged in a long struggle with a genocidal race known as the \"Pogg-Mory\" - a war they were losing. In a desperate last-ditch effort to turn the tide, a radical group of Rudari politicians concluded that the only way to guarantee their survival was through the total annihilation of the enemy. Unable to defeat the Pogg-Mory fleet by conventional means, they funded a top secret project to build a laser weapon capable of firing across interstellar space by harnessing the power of a star. However, it appears that while they could throw considerable resources at the problem, the project was hastily set up and in constant danger of discovery - either by the enemy or by factions within their own government unwilling to stoop to such measures."
+ ancrel.12010.A: "This sounds risky..."
+ ancrel.12015.name: "The Failure of a Dream"
+ ancrel.12015.desc: "[Root.Leader.GetName] has uncovered the Rudari Chief Science Officer's personal logs, which read as a litany of complaints about the seemingly impossible demands of the project and their rapidly falling quality and safety standards. \"There is no time to test anything,\" reads one of the last entries. \"This is the last gambit of my people, and the enemy has our scent. We must hope that this is enough. They are coming.\"\n\nThe logs indicate that the weapon was due to be tested soon after, at which point all records cease. Evidence suggests that the superweapon succeeded only in destroying the station. The Rudari seemingly took the secret of its location to their graves - allowing us to find its remains undisturbed.\n\nNeither the programming nor the general condition of the station are good enough for us to risk trying to reactivate it and complete the project. However, some of the innovative concepts used in the \"Death Laser\" have provided our own weapons specialists with valuable insights."
+ ancrel.12015.A: "How unfortunate for them..."
+ ancrel.12015.A.mat: "A monument to poor project planning."
+ ancrel.12015.A.phobe: "Their misfortune is our boon."
+ ancrel.12015.A.devourer: "A pity - we will never taste their flesh."
+ ancrel.12015.A.machine: "Such are the follies of impetuous mortals."
+
+ rudari_death_laser: "Rudari Death Laser"
+ rudari_death_laser_desc: "As their civilization crumbled under the onslaught of enemy forces, the Rudari attempted to create a laser weapon capable of being deployed at interstellar range. Although they failed in this endeavor, their research has proved extremely useful to our own weapons specialists."
+
+ abandoned_weapon_station: "Abandoned Weapons Station"
+ abandoned_weapon_station_desc: "An abandoned weapons station orbiting in close proximity to [star.GetName]."
+
+ ancrel.8200.name: "Explosive Decompression"
+ ancrel.8200.intro: "During our survey of the station in the [System.GetName] system, our team inadvertently caused a section of the hull to lose integrity, triggering an explosive decompression."
+ ancrel.8200.desc: "$ancrel.8200.intro$\n\nThere was nothing anyone could have done - within moments, §H[dead_scientist.GetName]§! and several other [Root.Owner.GetArchaeologistPlural] were swept through the breach to their deaths."
+ ancrel.8201.desc: "$ancrel.8200.intro$\n\nWithin moments, several [Root.Owner.GetArchaeologistPlural] were swept through the breach to their deaths. Fortunately, §H[Root.GetLeaderName]§! was in a different section of the station at the time, but this is nevertheless a significant setback for the investigation effort."
+ ancrel.8202.desc: "$ancrel.8200.intro$\n\nFortunately, no lives were lost in the incident, as our team was able to escape to unaffected areas of the station. It seems no vital equipment was damaged either, so the investigation will not face any undue setbacks as a result."
+ ancrel.8202.desc.robot: "$ancrel.8200.intro$\n\nFortunately, our [Owner.GetArchaeologistPlural] were unharmed, as they have been built to survive in open space for a time. They were therefore able continue their work undeterred."
+ ancrel.8203.desc: "$ancrel.8200.intro$\n\nFortunately, no lives were lost in the incident, as our team was able to escape to unaffected areas of the station. However, the force of the decompression damaged several of the consoles they had been working on, and will cost a considerable amount to be repaired."
+ ancrel.8203.desc.robot: "$ancrel.8200.intro$\n\nFortunately, our [Owner.GetArchaeologistPlural] were unharmed, as they have been built to survive in open space for a time. However, the force of the decompression damaged several of the consoles they had been working on, and will cost a considerable amount to be repaired."
+ ancrel.8203.A: "We shall provide all the funding they need."
+ ancrel.8203.B: "This will delay us."
+ ancrel.8210.1.desc: "Our continued study of the remnants of the station in the [System.GetName] system have unearthed a small cache of antique objects. [Root.GetLeaderName] has identified several minor artifacts among them."
+ ancrel.8210.2.desc: "A section of the station's walls suddenly collapsed as our [Root.Owner.GetArchaeologistPlural] were investigating a nearby console. This proved a fortuitous event, however, as a hidden compartment concealing several minor artifacts was revealed."
+
+ ancrel.8215.name: "System Lockout"
+ ancrel.8215.desc: "As they were poking through the station's electronics, one of our [Owner.GetArchaeologistPlural] accidentally triggered some still-functional security measures left by its creators. As a result, our team were locked out from the station's systems for a considerable time before the right countermeasures could be deployed."
+ ancrel.kick_it: "Try kicking it."
+
+ site_polaris_seed_vault: "One Last Hope"
+ polaris_seed_vault_desc: "Encapsulated in what remains of the planet's tiny ice cap, floating on the crystal clear oceans of [From.Planet.GetName], is what appears to be an artificial structure. \n\nA team is required to excavate this structure."
+
+ ancrel.13000.name: "A Cool Reception"
+ ancrel.13000.desc: "After the last of the aggressors in Polaris fell, our ships completed a final scan of the system before heading back to port and discovered something curious. On the world of Polaris II, heavy metals are arranged in artificial structures on our sensors. Interestingly only one of these formations appears to be floating on the planetary ocean while the rest are below the surface. We suspect this is the work of alien life."
+
+ ancrel.13005.name: "Iceberg"
+ ancrel.13005.desc: "Built into the floating iceberg itself is a hulking black cuboid made out of the same alloys as the wreckage of the space fleet above. Our glacial specialists state that analysis of the iceberg dates its formation to least a thousand years ago, though it's supposedly \"hard to tell with alien atmospheres\". Scans of the interior of the structure show quite a few biological readings, therefore using disruptive tools is inadvisable.\n\nThe team will have to traverse the frozen cliffs to what appears to be an entrance into the building."
+ acnrel.13005.a: "Down we go."
+
+ ancrel.13010.name: "Frost Gate"
+ ancrel.13010.desc: "We have set up base camp at the supposed entrance to the facility here on [From.Planet.GetName]. Already we have discovered something that looks like writing inscribed on the walls of the building. Now we will begin the long and arduous process of opening this door without damaging whatever is inside. At the same time, our xeno-linguists attempt to translate the dead alien language of the inscriptions."
+
+ ancrel.13015.name: "Grave Robbing"
+ ancrel.13015.desc: "The time was upon us, and we stood ready to unseal the black structure, dubbed \"The Vault\" according to preliminary translations of the wall inscriptions. The creators of this vault, the Polarians, made it as a last resort to keep their treasures safe. As we opened the doors, we were greeted by - according to our sensors - a controlled atmosphere similar to the air outside, just with quite a bit less carbon dioxide."
+
+ ancrel.13020.name: "Treasure"
+ ancrel.13020.desc: "Ancient seeds! Plant embryos - that was the treasure the Polarians hid away in this vault. Further translations tell us that these aliens curiously kept filling their atmosphere with too much carbon dioxide. Once the atmosphere was irreversibly changed the ancient inhabitants of this world gathered all the plant matter they could find that might not survive their new status quo and froze them all in here.\n\nBack then, the whole planet would have been covered in ice; now, all that remains is this small lonely iceberg. However, their efforts will not have been wasted - having a planet's whole plant ecology already cataloged and sorted will significantly help our scientists in researching future biological matters."
+
+ ancrel.13020.a: "Send these samples to our scientists."
+ ancrel.13025.desc: "Microorganisms! Every harmful and helpful bacterium. Every eukaryote and prokaryote. All in an advanced storage facility labeled and cataloged: this was the great treasure the Polarians hid away in this vault. Further translations tell us that these aliens curiously kept filling their atmosphere with too much carbon dioxide. Once the atmosphere was irreversibly changed, the ancient inhabitants of this world gathered all the microbial life they could find that might not survive their new status quo and froze them all in here.\n\nBack then, the whole planet would have been covered in ice; now, all that remains is this small lonely iceberg. However, their efforts will not have been wasted - having a planet's whole microbial ecology already cataloged and sorted will significantly help our [Root.Owner.getscientistplural] develop new and improved colonies for new worlds."
+ ancrel.13025.desc.machine: "Microorganisms. Every harmful and helpful bacterium, every eukaryote and prokaryote. Labeled and cataloged: this was the great treasure the Polarians hid away in this vault. Further translations tell us that these aliens curiously kept filling their atmosphere with too much carbon dioxide. Once the atmosphere was irreversibly changed, the ancient inhabitants of this world gathered all the microbial life they could find that might not survive their new status quo and froze them all in here.\n\nBack then, the whole planet would have been covered in ice; now, all that remains is this small, lonely iceberg. However, their efforts are appreciated- pre-sorted biologicals will make it easier to extract relevant information."
+
+ ancrel.13030.name: "Disturbing Vision"
+ ancrel.13030.desc: "Three nights ago, chief archeologist [From.Leader.GetName] reported having a disturbing vision and has been shut away in their quarters until now. They believed the source to be whatever is down here with us..."
+ ancrel.13030.a: "Ominous."
+
+ polaris_biology_modifier: "Studying Polarian Seeds"
+ polaris_habitability_modifier: "Studying Polarian Microorganisms"
+ d_polaris_city: "Ancient Sunken City"
+ d_polaris_city_desc: "The cities of the Polarians once covered the frozen ocean before their icy foundations melted away."
+
+ #Fumongus
+ site_fumongus_dig: "Desiccated"
+ site_fumongus_intro: "We have found signs of water all over this world. For all we know, it should still be here. The temperatures are within the normal range for liquid water to exist, and there is still an atmosphere, albeit tenuous. And yet, everything here is dry and what vegetation exists is parched.\n\nIn addition, scans have revealed traces of another spacefaring civilization on the planet. The archaeological team will have two goals: find out what happened to the water and understand what other spacefarers have been doing here. Most hypotheses are already linking the two and some in the team believe that this might have been the work of 'water thieves'."
+
+ #Random Event - Fungal zombies
+ ancrel.8300.intro: "The expedition carried out by our [Root.Owner.GetArchaeologistPlural] on [From.Planet.GetName] has disturbed the decaying husks of some local wildlife, which seem now to be under the sway of parasitic fungi. These fungal zombies immediately began assaulting us, apparently drawn to sources of water in our camp and inside our very bodies."
+ ancrel.8300.critical: "The zombies made short work of §H[dead_scientist.GetName]§! before they could be burned down by our security team. Their desiccated remains are all that is left of them. "
+ ancrel.8300.failure: "The zombies managed to kill several [Root.Owner.GetArchaeologistPlural] before they could be stopped by §H[Root.GetLeaderName]§! Their desiccated corpses fell to pieces when we tried to recover them."
+ ancrel.8300.success: "Luckily, §H[Root.GetLeaderName]§! and the nearby security escort managed to neutralize the zombies before they could seriously injure anyone."
+ ancrel.8300.pay: "The zombies have been contained for now, but there is no way past them. Perhaps we can lure them out with a sufficiently vast amount of water."
+ ancrel.8300.name: "Fungal Zombies"
+ ancrel.8300.desc: "$ancrel.8300.intro$\n\n$ancrel.8300.critical$"
+ ancrel.8305.desc: "$ancrel.8300.intro$\n\n$ancrel.8300.failure$"
+ ancrel.8310.desc: "$ancrel.8300.intro$\n\n$ancrel.8300.success$"
+ ancrel.8315.desc: "$ancrel.8300.intro$\n\n$ancrel.8300.pay$"
+ ancrel.8315.a: "Do it."
+ ancrel.8315.b: "Find a way around."
+
+ #Digsite Chapters
+
+ ancrel.13100.name: "Water Hoarders"
+ ancrel.13100.desc: "The discovery on [From.Planet.GetName] of vast canyons filled with mushrooms provided us with the beginning of an answer. The water is inside the mushrooms. They seem to span a large part of the surface of the world, all connected to the same mycelium, which technically makes it a single organism, and one of the biggest we've ever seen. Some of the members of the team dubbed this humongous fungus the 'Fumongus'.\n\nIt looks like the mushrooms have been genetically altered and have completely taken over the ecosystem that once existed here. Their unbridled and accelerated growth was such that they absorbed most of the water that was present here. They subsequently entered a sort of dried-up dormant state in which most of the fungus is still alive, with water spread out across the whole organism. "
+ ancrel.13105.name: "Overrun Bunker"
+ ancrel.13105.desc: "Deep in the heart of the mycelial forests nestled in the canyons of [From.Planet.GetName] we discovered some sort of bunker, long overrun by mushrooms. The team believes that it was built by the same species that genetically altered the mushrooms here. \n\nLarge sections of the bunker have collapsed and a lot of the equipment within it is likely broken beyond repair, but we have identified some sealed rooms that might hold exploitable material. Notably, no alien remains have been found here. Maybe they abandoned the place, or else didn't leave behind any body parts that weren't absorbed by the local wildlife. "
+ ancrel.13110.name: "Fungal Tamperers"
+ ancrel.13110.desc: "The bunker on [From.Planet.GetName] was used to protect computing equipment, some of which appears to be directly connected to the mycelium. Thankfully, we managed to reactivate several terminals and databanks.\n\nBreaking the encryption and deciphering the language used will take time, and the team has requested that several of our top [Root.Owner.GetLinguists] be sent here to help."
+ ancrel.13115.name: "From Shroom to Code"
+ ancrel.13115.desc: "We have recovered valuable information from the databanks found in the bunker on [From.Planet.GetName]. The databanks tell us that this was a sort of listening post. Apparently, the aliens found a way to interpret the signals coursing through the mycelium and convert them into actionable intel.\n\nWe do not understand how this might have been possible, but the team will now try to bring water from nearby ice asteroids to 'awaken' the Fumongus again and see what kind data it transmits, if any."
+ ancrel.13120.name: "Dry No More"
+ ancrel.13120.desc: "The mushrooms on [From.Planet.GetName] are starting to flourish again. With the help of several other ships, we had to tow several icy asteroids into orbit before bringing down chunks of them to various places on the planet to melt. It has been long process, but it is finally beginning to bear fruit.\n\nWith this, the computers began to spit out small bits of data that seemed pretty random until we recognized activity from our home. In cooperation with teams on [Root.Owner.Capital.GetName], a series of experiments has been conducted and the only possible conclusion is that the mushroom has some limited awareness of what happens on other planets. While the data we have retrieved is not exploitable just yet, continued efforts to restore the mushrooms are expected to give us more results."
+
+ #Final event
+
+ ancrel.13135.intro: "The Mycelium Listening Array is finally operational. A significant supply of water has been brought from orbit to sate the ever-thirsty mushroom, and major upgrades have been made to the computing resources."
+ ancrel.13135.mid: "The number of signals traversing the network proved surprisingly low, considering the quantity of information conveyed. The most prominent theory posits that the Fumongus exists across dimensions where distances are not what we are used to.\nIn any case, the Fumongus is in contact with its offspring across the galaxy, and these smaller colonies are able to relay data, which we can then interpret."
+
+ ancrel.13135.name: "The Fumongus Listens Again"
+ ancrel.13135.desc: "$ancrel.13135.intro$\n\nSome mysteries remain, as we are still not sure how the mushroom manages to collect that much data from the rest of the galaxy. $ancrel.13135.mid$\n\nWith the network working again, the only decision left to make is whether to use it for surveillance, or not."
+ ancrel.13135.a: "Start monitoring."
+ ancrel.13135.b: "Let the mushrooms be."
+
+ #Final event variation
+
+ ancrel.13130.name: "Fear the Old Shroom"
+ ancrel.13130.desc: "$ancrel.13135.intro$\n\nAnd yet, there is still so much we don't know about the mycelial network.  $ancrel.13135.mid$ But who else may have access to this network? There is a lot of data that we were not able to correlate to systems in this galaxy. Our more pessimistic [Root.Owner.GetScientistPlural] argue we might not be the only ones listening, and that by reactivating the network we just revealed ourselves to anyone using it.\n\nGiven all we still don't know about the Fumongus, or about the previous species that tapped into it, it might be best to just leave it alone.."
+ ancrel.13130.a: "Paranoid fools. Use it."
+ ancrel.13130.b: "Let the mushrooms be."
