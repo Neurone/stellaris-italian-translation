@@ -19,7 +19,7 @@
  origin_life_seeded_desc:0 "Questa civiltà si è evoluta in un paradiso, forse progettato solo per loro."
  origin_post_apocalyptic:0 "$civic_post_apocalyptic$"
  origin_post_apocalyptic_desc:0 "Battezzata dal fuoco nucleare, questa civiltà ha affrontato l'annientamento totale - ed è sopravvissuta. Devastati ma incessanti, hanno ricostruito la civiltà dalle ceneri del vecchio mondo."
- origin_shattered_ring:0 "Anello in rovina"
+ origin_shattered_ring:0 "Anello In Frantumi"
  origin_shattered_ring_desc:0 "Questa civiltà abita un Pianeta Anello costruito da precursori sconosciuti. Se sarà compreso e completamente riparato, garantirà loro un grande potere."
  origin_tooltip_shattered_ring_effects:0 "- Inizia con un $pc_shattered_ring_habitable$ come pianeta natale.\n- Il $pc_shattered_ring_habitable$ può essere riparato, sbloccando uno speciale £district£ §HDistretto Segmento§! del $pc_ringworld_habitable$.\n- La preferenza di abitabilità è impostata su §H$trait_pc_ringworld_habitable_preference$§!, rendendo indesiderabili gli altri tipi di insediamento"
  origin_tooltip_shattered_ring_effects_lithoid:0 "§R- ATTENZIONE: Origine sfidante per i Litoidi a causa della scarsità di minerali.§!\n$origin_tooltip_shattered_ring_effects$"
@@ -2721,7 +2721,7 @@
 
  void_dweller_system_NAME:0 "Void Dwellers"
  void_dweller_system_DESC:0 "This will always be the starting system when using the Void Dwellers Origin."
- shattered_ring_start_NAME:0 "Shattered Ring"
+ shattered_ring_start_NAME:0 "Anello In Frantumi"
  shattered_ring_start_DESC:0 "This will always be the starting system when using the Shattered Ring Origin."
 
  opinion_fellow_galcom_member:0 "[global_event_country.GetGalCommunityOrGalImperium] Member"
