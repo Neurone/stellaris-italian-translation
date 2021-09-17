@@ -167,7 +167,7 @@
  ARCHAEOLOGICAL_SITE_LOCKED: "Sito di Scavo Bloccato"
 
  alert_site_event_title: "Evento Sito Archeologico in Sospeso"
- alert_site_event_instant: "È successo qualcosa in uno dei Siti Archeologici che stiamo studiando"
+ alert_site_event_instant: "È successo qualcosa in uno dei Siti Archeologici che stiamo studiando."
 
  ARCHAEOLOGICAL_SITE_REDACTED: "§R -RISERVATO: Questo Capitolo è stato studiato da una Civiltà Aliena.- §!"
 
@@ -690,6 +690,12 @@
  district_rw_industrial_plural: "Segmenti Industriali"
  district_rw_industrial_desc: "Fabbriche rumorose e potenti macchinari riempiono questa sezione del Pianeta Anello, fornendo una solida base industriale per l'Impero."
 
+ district_srw_commercial: "$district_hab_commercial$"
+ district_srw_commercial_plural: "$district_hab_commercial_plural$"
+ district_srw_commercial_desc: "A district of offices and factories where goods are manufactured and sold."
+
+ district_srw_mining_desc: "These tunnels reach deep into the framework of the shattered ring world where materials can be mined from the ring itself."
+
  ##################
  # DEPOSITS
  ##################
@@ -825,3 +831,29 @@
  NAME_Sentinels: "Sentinelle"
  sentinel_army: "Sentinelle"
  sentinel_army_desc: "Statue viventi con un nucleo meccanico, corpi ronzanti e pelle incandescente, radiazioni che pulsano dai loro nuclei, pronti a far piovere distruzione sui loro nemici!"
+
+ ##################
+ # SHATTERED RING JOBS
+ ##################
+
+ job_scrap_miner: "Scrap Miner"
+ job_scrap_miner_plural: "Scrap Miners"
+ job_scrap_miner_desc: "$job_scrap_miner_plural$ explore the depths of the shattered ring world for materials suitable for construction."
+ job_scrap_miner_effect_desc: "£job_scrap_miner£ $job_scrap_miner_plural$ produce £minerals£ §Y$minerals$§! and £alloys£ §Y$alloys$§!."
+
+ job_scrap_miner_drone: "Scrap Miner Drone"
+ job_scrap_miner_drone_plural: "Scrap Miner Drones"
+ job_scrap_miner_drone_desc: "$job_scrap_miner_drone_plural$ explore the depths of the shattered ring world for materials suitable for construction."
+ job_scrap_miner_drone_effect_desc: "£job_scrap_miner£ $job_scrap_miner_drone_plural$ produce £minerals£ §Y$minerals$§! and £alloys£ §Y$alloys$§!."
+
+ mod_job_scrap_miner_add: "$job_scrap_miner$ Jobs"
+ mod_job_scrap_miner_drone_add: "$job_scrap_miner_drone$ Jobs"
+
+ ##################
+ # BUILDINGS
+ ##################
+
+ building_scrap_processing_plant_desc: "Processing plants for material scavenged from the ring."
+ building_scrap_processing_hub_desc: "Massive hubs where material scavenged from the ring is received and then shuttled to arrays of purifiers."
+
+ mod_planet_miners_alloys_produces_add: "£alloys£ $alloys$ from £job_miner£ [GetMinerPlural]"
