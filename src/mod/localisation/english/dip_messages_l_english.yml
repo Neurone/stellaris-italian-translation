@@ -1549,7 +1549,7 @@
  MECH_ITOA_REFUSE_01:0 "Invito Federazione elaborato. Risultato: Negativo. Stato [Root.GetName] immutato. Spiacenti. Vi preghiamo di consolidare il potere e ritentare."
  MECH_ITOA_REFUSE_02:0 "Ci spiace informarvi che la proposta di accesso alla Federazione è stata rifiutata a causa della mancanza di sufficienti benefici."
  MECH_ITOA_REFUSE_HOSTILE:0 "Il vostro impero è tanto ingombrante quanto inefficace. Non possiamo tollerare tale inefficienza."
-#MECH_ITOA_VOTE_PROPOSE: "Consulting all member units. Would the §Y[Root.GetName]§! make a valuable addition to the [From.GetAllianceName]?"
+#MECH_ITOA_VOTE_PROPOSE: "Consulting all member units. Would the §Y[Root.GetName]§ make a valuable addition to the [From.GetAllianceName]?"
  MECH_ASK_JOIN_A_SELECT:0 "Se desiderate avanzare una richiesta di adesione, vi preghiamo di attendere dalle sei alle otto ore per l'elaborazione."
  MECH_ASK_JOIN_A_PROPOSE_01:0 "Vi preghiamo di considerare l'Impero [From.GetAdj] come membro dell'Alleanza §Y[Root.GetAllianceName]§!. Le proiezioni di mutuo beneficio rientrano nei parametri accettabili."
  MECH_ASK_JOIN_A_PROPOSE_02:0 "Interrogativo: §Y[Root.GetAllianceName]§! accetterebbe l'addizione dell'Impero [From.GetAdj] come membro?"
