@@ -15,7 +15,7 @@
  syndaw.24.name: "$syndaw.21.name$"
  syndaw.24.desc: "Physics Research Unit §R[malfunctioning_leader.GetName]§! has ceased functioning due to a self-inflicted gravitational irregularity."
  syndaw.25.name: "$syndaw.21.name$"
- syndaw.25.desc: "Fleet Commander Unit §R[malfunctioning_leader.GetName]§! of the [malfunctioning_leader.GetFleetName] has ceased functioning for reasons unrelated to battle."
+ syndaw.25.desc: "Fleet Commander Unit §R[malfunctioning_leader.GetName]§! of the [malfunctioning_leader_fleet.GetName] has ceased functioning for reasons unrelated to battle."
  syndaw.26.name: "$syndaw.21.name$"
  syndaw.26.desc: "Sector Governing Unit §R[malfunctioning_leader.GetName]§! has ceased functioning due to a severe pattern buffer issue."
 

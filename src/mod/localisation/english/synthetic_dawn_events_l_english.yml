@@ -15,7 +15,7 @@
  syndaw.24.name:0 "$syndaw.21.name$"
  syndaw.24.desc:0 "L'Unità di Ricerca Fisica §R[malfunctioning_leader.GetName]§! ha cessato di funzionare a causa di un'irregolarità gravitazionale auto-inflitta."
  syndaw.25.name:0 "$syndaw.21.name$"
- syndaw.25.desc:0 "§R[malfunctioning_leader.GetName]§!, l'Unità Comandante della [malfunctioning_leader.GetFleetName], ha cessato di funzionare per ragioni non legate alla battaglia."
+ syndaw.25.desc:0 "§R[malfunctioning_leader.GetName]§!, l'Unità Comandante della [malfunctioning_leader_fleet.GetName], ha smesso di funzionare per ragioni non legate alla battaglia."
  syndaw.26.name:0 "$syndaw.21.name$"
  syndaw.26.desc:0 "L'Unità Governativa §R[malfunctioning_leader.GetName]§! ha cessato di funzionare a causa di un grave problema ai circuiti di memoria."
 
