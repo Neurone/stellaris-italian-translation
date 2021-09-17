@@ -16,15 +16,15 @@
  old_genetic_library_desc: "Questo asteroide cela un antico impianto d'archiviazione del DNA."
  fascinating_flora: "Flora Affascinante"
  fascinating_flora_desc: "Questo pianeta ospita il meraviglioso fiore Mharin Kharin."
- pheromoned_1: "Scarica di Feromone, fase uno"
+ pheromoned_1: "Scarica di Feromone, Fase Uno"
  pheromoned_1_desc: "Il polline nell'atmosfera interagisce coi recettori di feromoni della tua popolazione, rendendola felice."
- pheromoned_2: "Scarica di Feromone, fase due"
+ pheromoned_2: "Scarica di Feromone, Fase Due"
  pheromoned_2_desc: "Il polline nell'atmosfera interagisce coi recettori di feromoni della tua popolazione, rendendola meno produttiva."
- pheromoned_3: "Scarica di Feromone, fase tre"
+ pheromoned_3: "Scarica di Feromone, Fase Tre"
  pheromoned_3_desc: "Il polline nell'atmosfera interagisce coi recettori di feromoni della tua popolazione, rendendola meno incline a migrare."
- pheromoned_4: "Scarica di Feromone, fase quattro"
+ pheromoned_4: "Scarica di Feromone, Fase Quattro"
  pheromoned_4_desc: "Il polline nell'atmosfera interagisce coi recettori di feromoni della tua popolazione, rendendola più produttiva, ma meno felice delle interferenze esterne."
- depheromoned_1: "Scarica di Feromone, risoluzione"
+ depheromoned_1: "Scarica di Feromone, Risoluzione"
  depheromoned_1_desc: "I paradigmi implementati dalla gestione superiore interagiscono con le abilità e la voglia di lavorare della tua popolazione, rendendola più produttiva."
  pheromoned_detox: "Disintossicazione dal Feromone"
  pheromoned_detox_desc: "Il fiore Mharin Kharin ha distrutto la biosfera del pianeta, assieme a tutto ciò che conteneva. Inizia un nuovo ciclo."
@@ -118,6 +118,9 @@
  materialist_attraction_desc: "Un gruppo di materialisti sta spingendo il nostro progresso culturale cercando risposte più tangibili e progressive."
  from_extra_federation_members: "From Members"
  empire_size_mods: "Dimensione dell'Impero"
+
+ rock_brain_decoding: "Linguistica del Cervello Roccia"
+
  ####################################
  # Pop Modifiers
  ####################################
