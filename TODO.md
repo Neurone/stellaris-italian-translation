@@ -22,3 +22,8 @@ Nave da Costruzione => versione più corta per interfaccia sarebbe meglio
 ..\..\transifex-client\dist\tx config mapping-bulk -p stellaris-italian-translation --source-language en --type "YML GENERIC" -f ".yml" --source-file-dir src/transifex-en --expression "src/transifex-<lang>/{filename}{extension}" --execute
 
 
+
+
+Aggiornamento 3.1
+
+Aggiornati file fino a event_* compresi, il prossimo dovrebbe essere federations_anniversary_l_english.yml
