@@ -16,15 +16,15 @@
  old_genetic_library_desc: "This asteroid houses an old DNA storage facility."
  fascinating_flora: "Fascinating Flora"
  fascinating_flora_desc: "This planet is home to the wonderful Mharin Kharin flower."
- pheromoned_1: "Pheromoned, first stage"
+ pheromoned_1: "Pheromoned, First Stage"
  pheromoned_1_desc: "The pollen in the atmosphere interacts with your people's pheromone receptors, making them happy."
- pheromoned_2: "Pheromoned, second stage"
+ pheromoned_2: "Pheromoned, Second Stage"
  pheromoned_2_desc: "The pollen in the atmosphere interacts with your people's pheromone receptors, making them less productive."
- pheromoned_3: "Pheromoned, third stage"
+ pheromoned_3: "Pheromoned, Third Stage"
  pheromoned_3_desc: "The pollen in the atmosphere interacts with your people's pheromone receptors, making them less likely to migrate."
- pheromoned_4: "Pheromoned, fourth stage"
+ pheromoned_4: "Pheromoned, Fourth Stage"
  pheromoned_4_desc: "The pollen in the atmosphere interacts with your people's pheromone receptors, making them more productive but less happy with outside interference."
- depheromoned_1: "Pheromoned, workaround"
+ depheromoned_1: "Pheromoned, Workaround"
  depheromoned_1_desc: "The paradigms implemented by upper management interact with your people's ability and willingness to work, making them more productive."
  pheromoned_detox: "Pheromone Detox"
  pheromoned_detox_desc: "The Mharin Kharin bloom has killed the planet's biosphere, along with everything within it. A new cycle begins."
@@ -118,6 +118,9 @@
  materialist_attraction_desc: "A group of materialists is pushing for our cultural advancement by seeking more tangible and progressive answers."
  from_extra_federation_members: "From Members"
  empire_size_mods: "Empire Size"
+
+ rock_brain_decoding: "Rock Brain Linguistics"
+
  ####################################
  # Pop Modifiers
  ####################################

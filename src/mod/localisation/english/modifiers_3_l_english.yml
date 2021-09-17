@@ -40,6 +40,9 @@
  alien_genome_research:0 "Ricerca Genoma Alieno"
  syndaw_research_bonus:0 "Overclocking Computazionale"
  syndaw_production_surplus:0 "Quota di Produzione Superata"
+ mycelial_network_modifier:0 "Rete Micellare"
+ mycelial_network_modifier_improved:0 "Rete Micellare Migliorata"
+ fumongus_authoritarian:0 "Attrazione Autoritaria"
 
  ####################################
  # Edicts

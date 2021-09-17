@@ -16,15 +16,15 @@
  old_genetic_library_desc:0 "Questo asteroide cela un antico impianto d'archiviazione del DNA."
  fascinating_flora:0 "Flora Affascinante"
  fascinating_flora_desc:0 "Questo pianeta ospita il meraviglioso fiore Mharin Kharin."
- pheromoned_1:0 "Scarica di Feromone, fase uno"
+ pheromoned_1:0 "Scarica di Feromone, Fase Uno"
  pheromoned_1_desc:0 "Il polline nell'atmosfera interagisce coi recettori di feromoni della tua popolazione, rendendola felice."
- pheromoned_2:0 "Scarica di Feromone, fase due"
+ pheromoned_2:0 "Scarica di Feromone, Fase Due"
  pheromoned_2_desc:0 "Il polline nell'atmosfera interagisce coi recettori di feromoni della tua popolazione, rendendola meno produttiva."
- pheromoned_3:0 "Scarica di Feromone, fase tre"
+ pheromoned_3:0 "Scarica di Feromone, Fase Tre"
  pheromoned_3_desc:0 "Il polline nell'atmosfera interagisce coi recettori di feromoni della tua popolazione, rendendola meno incline a migrare."
- pheromoned_4:0 "Scarica di Feromone, fase quattro"
+ pheromoned_4:0 "Scarica di Feromone, Fase Quattro"
  pheromoned_4_desc:0 "Il polline nell'atmosfera interagisce coi recettori di feromoni della tua popolazione, rendendola più produttiva, ma meno felice delle interferenze esterne."
- depheromoned_1:0 "Scarica di Feromone, risoluzione"
+ depheromoned_1:0 "Scarica di Feromone, Risoluzione"
  depheromoned_1_desc:0 "I paradigmi implementati dalla gestione superiore interagiscono con le abilità e la voglia di lavorare della tua popolazione, rendendola più produttiva."
  pheromoned_detox:0 "Disintossicazione dal Feromone"
  pheromoned_detox_desc:0 "Il fiore Mharin Kharin ha distrutto la biosfera del pianeta, assieme a tutto ciò che conteneva. Inizia un nuovo ciclo."
@@ -118,6 +118,9 @@
  materialist_attraction_desc:0 "Un gruppo di materialisti sta spingendo il nostro progresso culturale cercando risposte più tangibili e progressive."
  from_extra_federation_members:0 "From Members"
  empire_size_mods:0 "Dimensione dell'Impero"
+
+ rock_brain_decoding:0 "Linguistica del Cervello Roccia"
+
  ####################################
  # Pop Modifiers
  ####################################
