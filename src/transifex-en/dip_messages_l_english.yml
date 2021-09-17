@@ -1549,7 +1549,7 @@
  MECH_ITOA_REFUSE_01: "Federation invitation processed. Results: Negative. [Root.GetName] status unchanged. We're sorry. Please consolidate power and try again."
  MECH_ITOA_REFUSE_02: "We regret to inform you that the [From.GetName]'s Federation membership proposal has been rejected, citing lack of sufficient benefit to the [Root.GetName]."
  MECH_ITOA_REFUSE_HOSTILE: "The [From.GetName] nation is as cumbersome as it is ineffectual. We, the [Root.GetName], cannot tolerate such inefficiency."
-#MECH_ITOA_VOTE_PROPOSE: "Consulting all member units. Would the §Y[Root.GetName]§! make a valuable addition to the [From.GetAllianceName]?"
+#MECH_ITOA_VOTE_PROPOSE: "Consulting all member units. Would the §Y[Root.GetName]§ make a valuable addition to the [From.GetAllianceName]?"
  MECH_ASK_JOIN_A_SELECT: "If you wish to submit a §Y[Root.GetAllianceName]§! membership request, please allow six to eight hours for processing."
  MECH_ASK_JOIN_A_PROPOSE_01: "Please consider the [From.GetName] for membership in the §Y[Root.GetAllianceName]§!. Mutual benefaction projections rank within acceptable parameters."
  MECH_ASK_JOIN_A_PROPOSE_02: "Query: Would the §Y[Root.GetAllianceName]§! accept the addition of the [From.GetName] as a member unit?"
