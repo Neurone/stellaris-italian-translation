@@ -1246,7 +1246,7 @@
  resolution_sanctions_military_desc:0 "$resolution_sanctions_tech_desc$"
 
  resolution_sanctions_military_repeal_1:0 "§RRevoca $resolution_sanctions_military_1$§!"
- resolution_sanctions_military_repeal_1_desc:0 "Limitare la capacità navale per aver infranto la Legge Galattica è una proposta pericolosa. Dobbiamo utilizzare altri mezzi per garantire il rispetto della Legge Galattica."
+ resolution_sanctions_military_repeal_1_desc:0 "Limitare la capacità navale per aver infranto la Legge Galattica è una proposta pericolosa. Dobbiamo utilizzare altri mezzi per garantire il rispetto della legge."
  resolution_sanctions_military_repeal_1_effect_success:0 "Revoca la risoluzione §Y$resolution_sanctions_military_1$§!."
 
  resolution_sanctions_military_repeal_2:0 "§RRevoca $resolution_sanctions_military_2$§!"
@@ -1662,7 +1662,7 @@
 
  decision_transplant_tree:0 "Trapianta l'Albero della Vita"
  decision_transplant_tree_desc:0 "Una rete di Alberi deve essere impiantata qui per permettere al nostro Alveare di prosperare."
- decision_shattered_ring_project:0 "Ripara l'Anello Infranto"
+ decision_shattered_ring_project:0 "Ripara l'Anello In Frantumi"
  decision_shattered_ring_project_desc:0 "Questo mondo è stato distrutto da tempo immemorabile, ed è ora di rimediare a questo errore. Ripristineremo le strutture avanzate dell'anello."
  decision_shattered_ring_project_effects:0 "Turns the $pc_shattered_ring_habitable$ into a §Y$pc_ringworld_habitable$§!, unlocking special £district£ §YSegment Districts§!"
 
