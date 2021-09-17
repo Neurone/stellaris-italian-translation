@@ -30,6 +30,10 @@
  getunitdrone_leader: "Leader"
  getunitdrone_leader_plural: "Leaders"
 
+ team_member_key: "team member"
+ drone_key: "drone"
+ unit_key: "unit"
+
  monsteronship_desc: "A savage creature has invaded our science ship and is trying to kill the crew. They won't last long without assistance from the military!"
  monsteronship_mach_desc: "A savage organic beast has invaded our science ship and is trying to destroy our crew units. They won't last long without assistance from the military!"
 

@@ -30,6 +30,10 @@
  getunitdrone_leader:0 "Leader"
  getunitdrone_leader_plural:0 "Leader"
 
+ team_member_key:0 "membro del team"
+ drone_key:0 "drone"
+ unit_key:0 "unità"
+
  monsteronship_desc:0 "Una creatura selvatica ha invaso la nostra Nave Scientifica e sta provando ad uccidere l'equipaggio. Non dureranno a lungo senza l'intervento delle nostre forze militari!"
  monsteronship_mach_desc:0 "Una bestia organica selvatica ha invaso la nostra Nave Scientifica e sta provando ad uccidere l'equipaggio. Non dureranno a lungo senza l'intervento delle nostre forze militari!"
 
