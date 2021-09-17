@@ -119,6 +119,7 @@
  STARBASE_RETURN_CONTROL_IS_OWNER:0 "§RQuesta Base Stellare è nostra§!"
  STARBASE_RETURN_CONTROL_IS_CONTROLLER:0 "§RNon abbiamo il controllo di questa Base Stellare§!"
  STARBASE_DOWNGRADE_IN_COMBAT:0 "§RImpossibile declassare le Basi Stellari che si trovano in combattimento attivo§!"
+ STARBASE_DEFENSE_UPGRADE_IN_COMBAT:0 "Non è possibile aggiornare le piattaforme di difesa della Base Stellare mentre la Base Stellare è impegnata in combattimento"
  STARBASE_IS_DISABLED:0 "§RLa Base Stellare non è attiva§!"
  STARBASE_IN_USE:0 "§RImpossibile declassare o smantellare le Basi Stellari con una coda di costruzione attiva.§!"
  STARBASE_UNDER_OCCUPATION:0 "§RImpossibile se la Base Stellare è sotto occupazione.§!"
