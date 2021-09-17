@@ -119,6 +119,7 @@
  STARBASE_RETURN_CONTROL_IS_OWNER: "§RWe own this Starbase§!"
  STARBASE_RETURN_CONTROL_IS_CONTROLLER: "§RWe do not control this Starbase§!"
  STARBASE_DOWNGRADE_IN_COMBAT: "§RCannot downgrade Starbases that are engaged in combat§!"
+ STARBASE_DEFENSE_UPGRADE_IN_COMBAT: "Cannot upgrade Starbase defense platforms while the Starbase is engaged in combat"
  STARBASE_IS_DISABLED: "§RThe Starbase is disabled§!"
  STARBASE_IN_USE: "§RCannot downgrade or dismantle Starbases that have an active construction queue.§!"
  STARBASE_UNDER_OCCUPATION: "§RNot possible while the Starbase is under occupation.§!"
