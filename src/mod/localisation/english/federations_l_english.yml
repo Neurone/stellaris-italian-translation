@@ -9,10 +9,10 @@
 
  origin_default:0 "Unificazione Prospera"
  origin_default_desc:0 "Un'unificazione planetaria stabile ha permesso a questa civiltà di prosperare e crescere."
- origin_tooltip_default_effects:0 "Comincia la partita con §Y4§! £pop£ Pop addizionali e con §Y2§! Distretti addizionali."
+ origin_tooltip_default_effects:0 "- Comincia la partita con §Y4§! £pop£ Pop addizionali e con §Y2§! Distretti addizionali."
  origin_mechanists:0 "$civic_mechanists$"
  origin_mechanists_desc:0 "Questa civiltà si è occupata dell'idea degli automi metallici sin dalla prima età del vapore. Anche se molti hanno detto che non poteva essere fatto, i primi veri robot hanno lasciato le linee di assemblaggio molto prima che il volo spaziale rudimentale fosse raggiunto."
- origin_tooltip_mechanists_effects:0 "Comincia la partita con §Y8§! £pop£ Pop robot, e con la tecnologia e l'infrastruttura per costruirne altri"
+ origin_tooltip_mechanists_effects:0 "- Comincia la partita con §Y8§! £pop£ Pop robot, e con la tecnologia e l'infrastruttura per costruirne altri"
  origin_syncretic_evolution:0 "$civic_syncretic_evolution$"
  origin_syncretic_evolution_desc:0 "Una seconda specie costituisce parte integrante di questa civiltà. Sono grandi, forti e la maggior parte di loro ha l'intelligenza di un bambino particolarmente ottuso. Guerre antiche hanno eliminato dalla loro specie le tendenze più aggressive, rendendola piuttosto servile."
  origin_life_seeded:0 "$civic_life_seeded$"
@@ -21,20 +21,20 @@
  origin_post_apocalyptic_desc:0 "Battezzata dal fuoco nucleare, questa civiltà ha affrontato l'annientamento totale - ed è sopravvissuta. Devastati ma incessanti, hanno ricostruito la civiltà dalle ceneri del vecchio mondo."
  origin_shattered_ring:0 "Anello in rovina"
  origin_shattered_ring_desc:0 "Questa civiltà abita un Pianeta Anello costruito da precursori sconosciuti. Se sarà compreso e completamente riparato, garantirà loro un grande potere."
- origin_tooltip_shattered_ring_effects:0 "Comincia con un §YPianeta Anello§! parzialmente distrutto come pianeta natale.\nIl Pianeta Anello inizierà con un §Y$d_arcane_generator$§! che è in grado di mantenere alcuni dei tuoi segmenti.\nLa preferenza di abitabilità è impostata su §Y$trait_pc_ringworld_habitable_preference$§!, rendendo indesiderabili altri tipi di insediamento."
+ origin_tooltip_shattered_ring_effects:0 "- Inizia con un $pc_shattered_ring_habitable$ come pianeta natale.\n- Il $pc_shattered_ring_habitable$ può essere riparato, sbloccando uno speciale £district£ §HDistretto Segmento§! del $pc_ringworld_habitable$.\n- La preferenza di abitabilità è impostata su §H$trait_pc_ringworld_habitable_preference$§!, rendendo indesiderabili gli altri tipi di insediamento"
  origin_tooltip_shattered_ring_effects_lithoid:0 "§R- ATTENZIONE: Origine sfidante per i Litoidi a causa della scarsità di minerali.§!\n$origin_tooltip_shattered_ring_effects$"
  origin_remnants:0 "Resti"
  origin_remnants_desc:0 "Questa civiltà una volta si espandeva nel vuoto, controllando gran parte della Galassia. Alla fine furono sconfitti e quasi distrutti, ma dopo un lungo periodo di decadenza stanno tornando alle stelle."
- origin_tooltip_remnants_effects:0 "Comincia con un §YPianeta Reliquia§! come pianeta natale. Reclama la tua gloria perduta!"
+ origin_tooltip_remnants_effects:0 "- Comincia con un §HPianeta Reliquia§! come pianeta natale. Reclama la tua gloria perduta!"
  origin_tree_of_life:0 "Albero della Vita"
  origin_tree_of_life_desc:0 "Questo Alveare si è evoluto in una relazione simbiotica con un vasto Albero. L'Albero concede loro molti benefici, ma la sua perdita li paralizzerebbe."
- origin_tooltip_tree_effects:0 "Il nostro Alveare ottiene molti bonus vivendo su un pianeta con un Albero della Vita presente, o subisce penalità se è assente. Le navi colonia sono più costose, ma forniranno ai nuovi pianeti il ​​germoglio del proprio giovane Albero."
+ origin_tooltip_tree_effects:0 "- Il nostro Alveare ottiene molti bonus vivendo su un pianeta con un §HAlbero della Vita§! presente, o subisce penalità se è assente. Le §HNavi Colonia§! sono più costose, ma forniranno ai nuovi pianeti il ​​germoglio del proprio giovane Albero."
  origin_lithoid:0 "Nascita calamitosa"
  origin_lithoid_desc:0 "Non nativi del loro "pianeta natale", questi Litoidi arrivarono lì quando un meteorite si schiantò sul pianeta e uccise la maggior parte della vita nativa."
- origin_tooltip_lithoid_effects:0 "Comincia con un deposito §YEnorme Cratere§! sul tuo pianeta natale, che fornisce distretti totali e distretti minerari addizionali.\nPuò costruire navi colonia meteoriche che viaggiano a grande velocità ma danneggiano i loro pianeti bersaglio."
+ origin_tooltip_lithoid_effects:0 "- Comincia con un deposito §HEnorme Cratere§! sul tuo pianeta natale, che fornisce distretti totali e distretti minerari addizionali.\nPuò costruire §HNavi Colonia Meteoriche§! che viaggiano a grande velocità ma danneggiano i loro pianeti bersaglio."
  origin_machine:0 "Consolidamento delle risorse"
  origin_machine_desc:0 "Questa Intelligenza Meccanica ha consolidato da tempo tutte le risorse del suo sistema domestico nel suo mondo capitale, coprendolo interamente con Macchinari."
- origin_tooltip_machine_effects:0 "Comincia con un §YMondo Meccanico§! come pianeta natale"
+ origin_tooltip_machine_effects:0 "- Comincia con un §HMondo Meccanico§! come pianeta natale"
 
  d_arcane_generator:0 "Generatore Arcano"
  d_arcane_generator_desc:0 "Questa antica macchina sembra rispondere alle nostre esigenze producendo le risorse necessarie al mantenimento di alcuni dei nostri segmenti."
@@ -46,6 +46,8 @@
  d_decrepit_tunnels_3_desc:0 "$d_decrepit_tunnels_1_desc$"
  d_segment_rubble_1:0 "£blocker£ Antiche macerie"
  d_segment_rubble_1_desc:0 "Macchinari guasti e altri detriti impediscono ai lavoratori di utilizzare l'intero segmento."
+ d_segment_rubble_1_small:0 "$d_segment_rubble_1$"
+ d_segment_rubble_1_small_desc:0 "$d_segment_rubble_1_desc$"
  d_segment_rubble_2:0 "$d_segment_rubble_1$"
  d_segment_rubble_2_desc:0 "$d_segment_rubble_1_desc$"
  d_segment_rubble_3:0 "$d_segment_rubble_1$"
@@ -556,7 +558,7 @@
  hegemony_federation:0 "Egemonia"
  hegemony_federation_desc:0 "Federazioni di questo tipo sono spesso costruite intorno ad un impero potente circondato da stati satelliti minori."
 
- # Vantaggi
+ # Perks
  federation_fleet_size_1:0 "Scambio di Ufficiali"
  federation_fleet_size_1_desc:0 "L'interoperabilità e la schierabilità della nostra flotta combinata sono notevolmente migliorate conducendo frequenti esercitazioni navali, con il comando che ruota tra gli ufficiali di bandiera di tutti gli stati membri."
  federation_fleet_size_2:0 "Standardizzazione Logistica"
@@ -755,10 +757,10 @@
  federation_acceptance_honorbound_warriors_in_military_federation:0 "$honorbound_warriors$ + $military_federation$"
  federation_acceptance_ruthless_capitalists_in_trade_federation:0 "$ruthless_capitalists$ + $trade_federation$"
  federation_acceptance_peaceful_traders_in_trade_federation:0 "$peaceful_traders$ + $trade_federation$"
- #federation_acceptance_erudite_explorers_in_research_federation:0 "$erudite_explorers$ in a $research_federation$"
- #federation_acceptance_honorbound_warriors_in_military_federation:0 "$honorbound_warriors$ in a $military_federation$"
- #federation_acceptance_ruthless_capitalists_in_trade_federation:0 "$ruthless_capitalists$ in a $trade_federation$"
- #federation_acceptance_peaceful_traders_in_trade_federation:0 "$peaceful_traders$ in a $trade_federation$"
+ #federation_acceptance_erudite_explorers_in_research_federation: "$erudite_explorers$ in a $research_federation$"
+ #federation_acceptance_honorbound_warriors_in_military_federation: "$honorbound_warriors$ in a $military_federation$"
+ #federation_acceptance_ruthless_capitalists_in_trade_federation: "$ruthless_capitalists$ in a $trade_federation$"
+ #federation_acceptance_peaceful_traders_in_trade_federation: "$peaceful_traders$ in a $trade_federation$"
  federation_acceptance_warrior_culture:0 "$civic_warrior_culture$"
  federation_acceptance_technocracy:0 "$civic_technocracy$"
  federation_acceptance_no_psionic:0 "Non ha $psionics$"
@@ -771,11 +773,11 @@
  federation_acceptance_ruler_psionic:0 "$ruler$ - $leader_trait_ruler_psionic$"
  federation_acceptance_ruler_very_strong:0 "$ruler$ - $trait_very_strong$"
  federation_acceptance_ruler_chosen:0 "$ruler$ - $leader_trait_ruler_chosen$"
- #federation_acceptance_ruler_cyborg:0 "$ruler$ is $leader_trait_ruler_cyborg$"
- #federation_acceptance_ruler_synthetic:0 "$ruler$ is $leader_trait_ruler_synthetic$"
- #federation_acceptance_ruler_psionic:0 "$ruler$ is $leader_trait_ruler_psionic$"
- #federation_acceptance_ruler_very_strong:0 "$ruler$ is $trait_very_strong$"
- #federation_acceptance_ruler_chosen:0 "$ruler$ is $leader_trait_ruler_chosen$"
+ #federation_acceptance_ruler_cyborg: "$ruler$ is $leader_trait_ruler_cyborg$"
+ #federation_acceptance_ruler_synthetic: "$ruler$ is $leader_trait_ruler_synthetic$"
+ #federation_acceptance_ruler_psionic: "$ruler$ is $leader_trait_ruler_psionic$"
+ #federation_acceptance_ruler_very_strong: "$ruler$ is $trait_very_strong$"
+ #federation_acceptance_ruler_chosen: "$ruler$ is $leader_trait_ruler_chosen$"
 
 
  ####################
@@ -1064,13 +1066,13 @@
  resolution_mutualdefense_repeal_3_desc:0 "$resolution_mutualdefense_repeal_1_desc$"
  resolution_mutualdefense_repeal_3_effect_success:0 "Revoca la risoluzione §Y$resolution_mutualdefense_enemy_of_my_enemy$§!, lasciando §Y$resolution_mutualdefense_military_readiness_act$§! come legge galattica.\n\n"
 
- resolution_mutualdefense_repeal_4:0 "§RRevoca $resolution_mutualdefense_military_readiness_act$§!"
+ resolution_mutualdefense_repeal_4:0 "§RRevoca $resolution_mutualdefense_castigation_proclamation$§!"
  resolution_mutualdefense_repeal_4_desc:0 "$resolution_mutualdefense_repeal_1_desc$"
- resolution_mutualdefense_repeal_4_effect_success:0 "Revoca la risoluzione §Y$resolution_mutualdefense_military_readiness_act$§!, lasciando §Y$resolution_mutualdefense_enemy_of_my_enemy$§! come legge galattica.\n\n"
+ resolution_mutualdefense_repeal_4_effect_success:0 "Revoca la risoluzione §Y$resolution_mutualdefense_castigation_proclamation$§!, lasciando §Y$resolution_mutualdefense_enemy_of_my_enemy$§! come legge galattica.\n\n"
 
  resolution_mutualdefense_repeal_5:0 "§RRevoca $resolution_mutualdefense_renegade_containment$§!"
  resolution_mutualdefense_repeal_5_desc:0 "$resolution_mutualdefense_repeal_1_desc$"
- resolution_mutualdefense_repeal_5_effect_success:0 "Revoca la risoluzione §Y$resolution_mutualdefense_renegade_containment$§!, lasciando §Y$resolution_mutualdefense_military_readiness_act$§! come legge galattica.\n\n"
+ resolution_mutualdefense_repeal_5_effect_success:0 "Revoca la risoluzione §Y$resolution_mutualdefense_renegade_containment$§!, lasciando §Y$resolution_mutualdefense_castigation_proclamation$§! come legge galattica.\n\n"
 
  resolution_mutualdefense_naval_weight:0 "$MOD_DIPLO_WEIGHT_NAVAL_MULT$"
  resolution_mutualdefense_the_readied_shield:0 "Lo Scudo Pronto"
@@ -1583,7 +1585,7 @@
  COUNCIL_SIZE_TOOLTIP:0 "§EThe number of seats on the §H[global_event_country.GetGalCouncilOrImpCouncil]§! is dictated by §HCouncil§! Resolutions§!"
  SET_COUNCIL_SIZE_DESC:0 "Set the number of positions on the $GALACTIC_COUNCIL$ to $VALUE|Y$"
  council_member:0 "Council Member"
- ADD_PERMANENT_COUNCILLOR:0 "Grant $COUNTRY|Y$ a permanent seat on the  $GALACTIC_COUNCIL|H$"
+ ADD_PERMANENT_COUNCILLOR:0 "A $COUNTRY|Y$ viene garantito un seggio permanente nel $GALACTIC_COUNCIL|H$"
  REMOVE_PERMANENT_COUNCILLOR:0 "Remove the permanent $GALACTIC_COUNCIL|H$ seat granted to $COUNTRY|Y$"
 
  IS_PERMANENT_COUNCILLOR:0 "$COUNTRY|Y$ has a permanent seat on the $GALACTIC_COUNCIL|H$"
@@ -1660,6 +1662,9 @@
 
  decision_transplant_tree:0 "Trapianta l'Albero della Vita"
  decision_transplant_tree_desc:0 "Una rete di Alberi deve essere impiantata qui per permettere al nostro Alveare di prosperare."
+ decision_shattered_ring_project:0 "Ripara l'Anello Infranto"
+ decision_shattered_ring_project_desc:0 "Questo mondo è stato distrutto da tempo immemorabile, ed è ora di rimediare a questo errore. Ripristineremo le strutture avanzate dell'anello."
+ decision_shattered_ring_project_effects:0 "Turns the $pc_shattered_ring_habitable$ into a §Y$pc_ringworld_habitable$§!, unlocking special £district£ §YSegment Districts§!"
 
  ################
  ### Colony Type
@@ -1859,7 +1864,7 @@
  ### Origin - Galactic Doorstep text
  origin_galactic_doorstep:0 "Soglia Galattica"
  origin_galactic_doorstep_desc:0 "Questa civiltà ha un §Yportale§! dormiente nel suo sistema natale - un potenziale vantaggio tecnologico, o una minaccia incombente?"
- origin_tooltip_galactic_doorstep_effects:0 "Comincia con un §Yportale§! dormiente nel tuo sistema natale."
+ origin_tooltip_galactic_doorstep_effects:0 "- Comincia con un §Hportale§! dormiente nel tuo sistema natale."
 
  START_SCREEN_GALACTIC_DOORSTEP:0 "Il misterioso costrutto nel nostro sistema solare è stato scoperto poche centinaia di anni fa. A causa delle sue caratterictiche scure e metalliche, il manufatto prese il nome de §HLa Corona Nera§! e la sua maestosa presenza ha avuto un profondo effetto sulla nostra società - ha unificato il nostro popolo sia nello spirito che nella ricerca.\n\nIl volo spaziale è diventato la massima priorità della nostra comunità scientifica e la ricerca ardente di questa tecnologia ha portato con sé una serie di altre scoperte benefiche.\n\nLa Corona Nera si è rivelata dormiente, ma abbiamo imparato una lezione importante; non è la destinazione che conta - è il viaggio. E adesso - grazie al richiamo della Corona Nera - la nostra specie ha i mezzi con cui possiamo visitare le stelle."
  START_SCREEN_GALACTIC_DOORSTEP_MACH:0 "Il misterioso costrutto nel nostro sistema solare è stato scoperto poche centinaia di anni fa. A causa delle sue caratterictiche scure e metalliche, l'artefatto fu indicato come §HLa Corona Nera§! e la sua presenza distintiva ha avuto un effetto profondo sulle nostre operazioni - raccogliere più informazioni divenne imperativo.\n\nIl volo spaziale è diventato la massima priorità delle nostre sub-routine di ricerca e sviluppo, e il processo per raggiungere questa tecnologia aliena portò con sé una serie di altre scoperte benefiche che furono implementate consecutivamente.\n\nLa Corona Nera si è rivelata dormiente, ma i miglioramenti e gli aggiornamenti applicati per raggiungerlo hanno aumentato la nostra produzione generale e ora abbiamo la capacità di visitare le stelle."
@@ -1918,14 +1923,14 @@
  origin_eldest_sibling:0 "Fratello Maggiore"
  origin_eldest_sibling_desc:0 "Questa società ha una vecchia leggenda su gruppi frammentati della popolazione che hanno lasciato il pianeta in cerca di altri pianeti da colonizzare nel sistema solare."
 
- origin_tooltip_eldest_sibling_effects:0 "Comincia con §Yaltre due civiltà primitive§! nel tuo sistema natale."
+ origin_tooltip_eldest_sibling_effects:0 "- Comincia con §Yaltre due civiltà primitive§! nel tuo sistema natale."
 
  START_SCREEN_ELDEST_SIBLING:0 "Sappiamo che la nostra specie ha coltivato civiltà ricche e avanzate prima della nostra, ma la storia di ciò che è accaduto a loro è principalmente mito e speculazione.\n\nUna leggenda che è sopravvissuta è quella degli §YEsploratori Stellari§! - pionieri che in qualche modo riuscirono a lasciare il pianeta natale e presumibilmente si stabilirono sui pianeti vicini. Una leggenda elettrizzante, senza dubbio. Una il cui tema mozzafiato e spirito avventuroso sono eguagliati solo dalla sua evidente mancanza di prove.\n\nSiamo in un momento di volo interstellare. La tecnologia ci permette di lasciare l'atmosfera del nostro pianeta natale per - forse per un'altra volta - esplorare lo spazio. Vediamo come regge la vecchia leggenda."
 
  ### Origin - On The Shoulders Of Giants text
  origin_shoulders_of_giants:0 "Sulle Spalle dei Giganti"
- origin_shoulders_of_giants_desc:0 "A causa di un passato sconosciuto, questa civiltà ha nascosto degli aiuti nel loro sistema solare, collocati lì da un misterioso benefattore."
- origin_tooltips_shoulders_of_giants_effects:0 "Comincia con un §YSito Archeologico§! relativo ad misterioso benefattore nel tuo sistema natale."
+ origin_shoulders_of_giants_desc:0 "Questa civiltà ha nascosto degli aiuti nel loro sistema solare, collocati lì in un remoto passato da un misterioso benefattore."
+ origin_tooltips_shoulders_of_giants_effects:0 "- Comincia con un §HSito Archeologico§! relativo ad misterioso benefattore nel tuo sistema natale."
 
  START_SCREEN_SHOULDERS_OF_GIANTS:0 "La nostra è una storia di stranezze e incongruenze. Abbiamo trovato rovine di città più antiche di alcuni scavi archeologici di villaggi primitivi. Abbiamo portato alla luce seghe, asce e persino fucili che sono antecedenti a lance e archi con punta di pietra.\n\nUna storia particolare non ci ha tuttavia impedito di entrare prontamente in un'era futuristica di voli spaziali. Ora siamo riusciti a sfuggire alla gravità del nostro pianeta natale, puntando ad altri pianeti e corpi nel nostro sistema solare - e oltre.\n\nSiamo usciti dall'atmosfera appena prima che le stranezze riemergessero; strani segnali di origine aliena provenienti dall'interno del nostro sistema solare."
 
@@ -2211,9 +2216,10 @@
 
  origin_void_dwellers:0 "Abitanti del Vuoto"
  origin_void_dwellers_desc:0 "Questa civiltà ha stabilito la sua dimora nello spazio da quando si ha memoria - la vita in un tipico ambiente planetario è un anatema per loro. Vivono su tre habitat orbitali che solo di recente si sono riuniti."
- origin_tooltip_void_dwellers_effects:0 "- Comincia con tre §YHabitat Orbitali§! e la tecnologia per costruirne altri\n- I membri della tua specie prosperano sugli Habitat e producono il §G15%§! in più\n- Serie penalità all'abitabilità e alla crescita su tutti i pianeti normali\n- Le Fattorie Idroponiche hanno §G+1§! £job_farmer£ $job_farmer$ Lavoro"
+ origin_tooltip_void_dwellers_effects:0 "- Comincia con tre §HHabitat Orbitali§! e la tecnologia per costruirne altri\n- I membri della tua specie prosperano sugli Habitat e producono il §G+15%§! in più\n- Serie penalità all'abitabilità oltre che una pensalità di produzione del §R-15%§! su tutti i pianeti normali\n- Le Fattorie Idroponiche hanno §G+1§! £job_farmer£ $job_farmer$ Lavoro"
  trait_void_dweller_1:0 "Abitante del Vuoto"
- trait_void_dweller_1_desc:0 "§LQuesta specie prospera sugli habitat orbitali, con una capacità istintiva di orientarsi in modo efficiente nei loro corridoi labirintici e nell'architettura complicata.§!"
+ trait_void_dweller_1_desc:0 "§LQuesta specie prospera sugli habitat orbitali, con una capacità istintiva di orientarsi in modo efficiente nei loro corridoi labirintici e nell'architettura complicata. Tuttavia, il loro sistema immunitario indebolito non risponde bene all'ambiente planetario.§!"
+ void_dweller_trait_tooltip:0 "Felicità Popolazione su Mondi Non Artificiali: §R-30%§!"
  trait_void_dweller_2:0 "$trait_void_dweller_1$"
  trait_void_dweller_2_desc:0 "§LQuesta specie è abituata all'aria riciclata e ai compartimenti sterili degli habitat orbitali, ma il sistema immunitario indebolito non risponde bene a un ambiente planetario.§!"
  d_arcane_replicator:0 "Replicatore Arcano"
@@ -2221,9 +2227,12 @@
  START_SCREEN_VOID_DWELLERS:0 "Per molti, il vuoto dello spazio è un ambiente ostile da conquistare o superare. Per noi è casa. Per migliaia di anni, la nostra specie ha risieduto su tre stazioni spaziali, ciascuna in orbita attorno a un sole diverso in un sistema stellare ternario. Non sappiamo se siano stati costruiti dai nostri antenati o da qualcun altro.\n\nAnche se la nostra biologia suggerirebbe che la nostra specie abbia avuto origine su un pianeta, le cronache storiche non ne fanno menzione. Alcuni ipotizzano che i resti planetari in frantumi trovati sotto una delle nostre stazioni siano il pianeta natale perduto della nostra specie, ma la verità potrebbe non essere mai scoperta.\n\nSono passati solo pochi secoli da quando è stato inventato il volo spaziale che consente il viaggio tra le nostre tre stazioni - o riscoperto, a seconda di chi lo chiedi. Il sospetto e la sfiducia lasciarono gradualmente il posto al commercio e alla cooperazione reciproca. Con l'invenzione del nostro primo hyperdrive, i tre habitat si sono uniti sotto un'unica bandiera."
  START_SCREEN_SCION:0 "All'inizio della nostra storia, prima che avessimo sviluppato molto in termini di tecnologia, i nostri benefattori alieni si mostrarono a noi. Spiegarono, in termini che i nostri sconcertati antenati potessero capire, che la nostra specie mostrava grandi promesse. Con molta pazienza, ci guidarono su un percorso che avrebbe aiutato la nostra civiltà a raggiungere il suo pieno potenziale.\n\nNelle poche occasioni in cui ci siamo allontanati da questo percorso, hanno corretto il nostro corso - con fermezza, come farebbe qualsiasi genitore - ma presto i nostri scienziati dominarono l'elettricità, poi l'energia atomica e poi il rozzo volo spaziale. Sotto la tutela dei nostri sorveglianti, abbiamo ora costruito i nostri primi hyperdrive."
 
+ mod_habitat_jobs_produces_mult:0 "Uscita di Popolazione dagli Habitat"
+ mod_non_artificial_planet_jobs_produces_mult:0 "Uscita di Popolazione dai Mondi Non Artificiali"
+
  origin_scion:0 "Rampollo"
  origin_scion_desc:0 "Un impero Caduto si è immischiato nello sviluppo di questa civiltà per migliaia di anni, guidandola su un percorso di loro scelta."
- origin_tooltip_scion_effects:0 "Comincia come vassallo di un Impero Caduto"
+ origin_tooltip_scion_effects:0 "- Comincia come vassallo di un Impero Caduto"
  opinion_scion:0 "Rampollo"
 
  origin.10.a.desc:0 "Salve, fedeli [Root.GetSpeciesNamePlural]. Siete stati bravi. Con la nostra guida, avete padroneggiato la tecnologia del viaggio nell'iperspazio e ora siete pronti per partire verso le stelle per la prima volta... proprio come noi facemmo una volta, innumerevoli eoni fa.\n\nNon temete- se non pensassimo che siete pronti, non avremmo permesso agli eventi di portarvi lontano come hanno fatto. Andate adesso, e rendeteci orgogliosi."
@@ -2817,7 +2826,7 @@
  FAVORS_SAME_SIDE:0 "§RThis Empire is already supporting this Resolution. There is no need to call in a favor from them to gain their support.§!"
  ASK_TO_LEAVE_FEDERATION:0 "Ask to Leave Federation"
  POPUP_ASK_TO_LEAVE_FEDERATION_DESC:0 "Do you want to send a request to the President of the $FEDERATION|H$ to leave the Federation?"
- ADD_BUILDING_COLONIZABLE:0 "Cannot add $BUILDING|Y$ to  $PLANET|Y$ because it is not colonizable"
+ ADD_BUILDING_COLONIZABLE:0 "Impossibile aggiungere $BUILDING|Y$ a $PLANET|Y$ perché non è colonizzabile"
  ACTION_ASK_TO_LEAVE_FEDERATION_TITLE:0 "Ask to Leave Federation"
  ACTION_ASK_TO_LEAVE_FEDERATION_DESC:0 "$FEDERATION_VIEW_ASK_TO_LEAVE_FEDERATION_BUTTON_DESC$"
  ACTION_ASK_TO_LEAVE_FEDERATION_OFFER_DESC:0 "If the request is granted, the §H[Actor.GetName]§! will leave the §H[Actor.GetAllianceName]§!. If the request is refused, they will gain the §YSecession§! Casus Belli against us."
@@ -2902,6 +2911,12 @@
  BUILD_PLAN_ENTRY:0 "$BUILDABLE|Y$ on $PLANET|Y$ ($WEIGHT|Y0$)"
  NO_BUILD_PLAN_DESC:0 "$COUNTRY|Y$ currently has no Build Plan"
  CURRENT_PLAN:0 "Economic Plan: $PLAN|Y$"
+ BUILD_PLAN_START_INCOME:0 "Stato economico prima che il Piano di Costruzione abbia inizio"
+ BUILD_PLAN_CURRENT_INCOME:0 "Reddito"
+ BUILD_PLAN_CURRENT_DEFICIT:0 "Deficit"
+ BUILD_PLAN_NEEDED_INCOME:0 "Necessario Reddito Extra"
+ BUILD_PLAN_PREDICTION:0 "Risultato previsto per il Piano di Costruzione"
+ BUILD_PLAN_DETAILS:0 "Salvataggio dei Dettagli del Piano di Costruzione impostato a $BOOL|Y$"
 
  action.123.name:0 "Last [From.GetSpeciesNamePlural] Abducted"
  action.123.desc:0 "The last of the primitive §H[From.GetSpeciesNamePlural]§! have been abducted into slavery from the surface of [From.From.GetName], their homeworld. A few scattered survivors might still be roaming the [From.From.GetPlanetMoon]'s wilderness, but not enough to maintain any kind of civilization."
