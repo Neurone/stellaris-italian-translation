@@ -66,7 +66,7 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |nemesis_intel_l_english.yml| **da tradurre**|
 |observer_events_l_english.yml| completa|
 |observer_l_english.yml| completa|
-|plantoids_l_english.yml| **da tradurre**|
+|plantoids_l_english.yml| completa|
 |pop_factions_l_english.yml| completa|
 |prescripted_l_english.yml| completa|
 |projects_2_l_english.yml| completa|
