@@ -1,6 +1,6 @@
 {
     "name": "stellaris-italian-translation",
-    "version": "2.2.0",
+    "version": "2.3.0",
     "description": "Mod per Stellaris. Sostituisce la lingua inglese con la lingua italiana.",
     "scripts": {
         "dev": "npx grunt dev",

@@ -2,7 +2,7 @@
 
 Questo mod, **compatibile** con la **modalità Ironman** e gli **achievement di Steam**, sostituisce la lingua inglese con la lingua italiana.
 
-Basato sulla versione: **Dick v3.0.3**
+Basato sulla versione: **Lem v3.1.1**
 
 Grazie a [Nefando](https://github.com/Nefando), [AndryRock](https://github.com/AR-9217) e [Daddie2](https://github.com/Daddie2) sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack, una prima versione corposa del DLC Federations e parte di Nemesis!
 
@@ -26,18 +26,20 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |--|--|
 |achievements_l_english.yml| completa|
 |ai_crisis_l_english.yml| completa|
-|ancient_relics_events_l_english.yml| completa|
-|ancient_relics_l_english.yml| completa|
+|ancient_relics_events_l_english.yml| **parziale**|
+|ancient_relics_l_english.yml| **parziale**|
 |apocalypse_l_english.yml| completa|
+|clone_army_l_english.yml| **da tradurre**|
 |dip_messages_l_english.yml| completa|
 |diplo_stances_l_english.yml| completa|
-|distant_stars_l_english.yml| completa|
+|distant_stars_l_english.yml| **parziale**|
 |dlc_recommendations_l_english.yml| **parziale**|
 |event_chains_l_english.yml| completa|
 |events_2_l_english.yml| completa|
 |events_3_l_english.yml| completa|
 |events_4_l_english.yml| completa|
 |events_5_l_english.yml| completa|
+|events_5_l_english.yml| **da tradurre**|
 |events_l_english.yml| completa|
 |federations_anniversary_l_english.yml| **parziale**|
 |federations_l_english.yml| **parziale**|
@@ -55,8 +57,8 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |modifiers_l_english.yml| completa|
 |modifiers_utopia_l_english.yml| completa|
 |musicplayer_l_english.yml| completa|
-|name_lists_l_english.yml| completa|
-|necroids_l_english.yml| completa|
+|name_lists_l_english.yml| **parziale**|
+|necroids_l_english.yml| **parziale**|
 |nemesis_content_l_english.yml| **da tradurre**|
 |nemesis_crisis_l_english.yml| completa|
 |nemesis_custodian_l_english.yml| **da tradurre**|
@@ -64,6 +66,7 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |nemesis_intel_l_english.yml| **da tradurre**|
 |observer_events_l_english.yml| completa|
 |observer_l_english.yml| completa|
+|plantoids_l_english.yml| **da tradurre**|
 |pop_factions_l_english.yml| completa|
 |prescripted_l_english.yml| completa|
 |projects_2_l_english.yml| completa|
@@ -78,8 +81,8 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |standalone_l_english.yml| completa|
 |synthetic_dawn_events_l_english.yml| completa|
 |technology_l_english.yml| completa|
-|traditions_l_english.yml| completa|
-|triggers_effects_l_english.yml| completa|
+|traditions_l_english.yml| **parziale**|
+|triggers_effects_l_english.yml| **parziale**|
 |tutorial_l_english.yml| **parziale**|
 |unrest_l_english.yml| completa|
 |utopia_ascension_l_english.yml| completa|
