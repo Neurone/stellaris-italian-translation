@@ -692,9 +692,9 @@
 
  district_srw_commercial: "$district_hab_commercial$"
  district_srw_commercial_plural: "$district_hab_commercial_plural$"
- district_srw_commercial_desc: "A district of offices and factories where goods are manufactured and sold."
+ district_srw_commercial_desc: "Un quartiere di uffici e fabbriche dove si producono e si vendono beni."
 
- district_srw_mining_desc: "These tunnels reach deep into the framework of the shattered ring world where materials can be mined from the ring itself."
+ district_srw_mining_desc: "Questi tunnel arrivano in profondità nella struttura del pianeta anello in frantumi, dove i materiali possono essere estratti dall'anello stesso."
 
  ##################
  # DEPOSITS
@@ -836,24 +836,24 @@
  # SHATTERED RING JOBS
  ##################
 
- job_scrap_miner: "Scrap Miner"
- job_scrap_miner_plural: "Scrap Miners"
- job_scrap_miner_desc: "$job_scrap_miner_plural$ explore the depths of the shattered ring world for materials suitable for construction."
- job_scrap_miner_effect_desc: "£job_scrap_miner£ $job_scrap_miner_plural$ produce £minerals£ §Y$minerals$§! and £alloys£ §Y$alloys$§!."
+ job_scrap_miner: "Minatore di Rottami"
+ job_scrap_miner_plural: "Minatori di Rottami"
+ job_scrap_miner_desc: "$job_scrap_miner_plural$ esplorano le profondità del pianeta anello in frantumi alla ricerca di materiali adatti alla costruzione."
+ job_scrap_miner_effect_desc: "£job_scrap_miner£ $job_scrap_miner_plural$ producono £minerals£ §Y$minerals$§! e £alloys£ §Y$alloys$§!."
 
- job_scrap_miner_drone: "Scrap Miner Drone"
- job_scrap_miner_drone_plural: "Scrap Miner Drones"
- job_scrap_miner_drone_desc: "$job_scrap_miner_drone_plural$ explore the depths of the shattered ring world for materials suitable for construction."
- job_scrap_miner_drone_effect_desc: "£job_scrap_miner£ $job_scrap_miner_drone_plural$ produce £minerals£ §Y$minerals$§! and £alloys£ §Y$alloys$§!."
+ job_scrap_miner_drone: "Drone Minatore di Rottami"
+ job_scrap_miner_drone_plural: "Droni Minatori di Rottami"
+ job_scrap_miner_drone_desc: "$job_scrap_miner_drone_plural$ esplorano le profondità del pianeta anello in frantumi alla ricerca di materiali adatti alla costruzione."
+ job_scrap_miner_drone_effect_desc: "£job_scrap_miner£ $job_scrap_miner_drone_plural$ producono £minerals£ §Y$minerals$§! e £alloys£ §Y$alloys$§!."
 
- mod_job_scrap_miner_add: "$job_scrap_miner$ Jobs"
- mod_job_scrap_miner_drone_add: "$job_scrap_miner_drone$ Jobs"
+ mod_job_scrap_miner_add: "Lavori da $job_scrap_miner$"
+ mod_job_scrap_miner_drone_add: "Lavori da $job_scrap_miner_drone$"
 
  ##################
  # BUILDINGS
  ##################
 
- building_scrap_processing_plant_desc: "Processing plants for material scavenged from the ring."
- building_scrap_processing_hub_desc: "Massive hubs where material scavenged from the ring is received and then shuttled to arrays of purifiers."
+ building_scrap_processing_plant_desc: "Impianti di lavorazione del materiale recuperato dall'anello."
+ building_scrap_processing_hub_desc: "Enormi hub dove il materiale recuperato dall'anello viene ricevuto e poi spedito a schiere di purificatori."
 
- mod_planet_miners_alloys_produces_add: "£alloys£ $alloys$ from £job_miner£ [GetMinerPlural]"
+ mod_planet_miners_alloys_produces_add: "£alloys£ $alloys$ da £job_miner£ [GetMinerPlural]"
