@@ -420,7 +420,7 @@
  ####################################
  # Colony Events
  ####################################
- colony.2001.name:0 "Problemi in Paradiso"
+ colony.2001.name:0 "Problema in Paradiso"
  colony.2001.desc:0 "Il locale dramma politico su [Root.GetName] ha fornito ulteriori consensi ad un piccolo gruppo di ribelli, contrari alla nostre etiche. Questo sostegno ha permesso loro di ottenere più potere nella regione e di votare per le proprie cause con limitato successo."
  colony.2001.a:0 "Ci troviamo divisi."
  colony.2001.a.military.tooltip:0 "§B3 £pops£ POP§! di [Root.GetName] si avvicinano sempre di più al §YMilitarismo§!."
