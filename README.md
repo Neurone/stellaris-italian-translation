@@ -63,7 +63,7 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |nemesis_crisis_l_english.yml| completa|
 |nemesis_custodian_l_english.yml| **da tradurre**|
 |nemesis_espionage_l_english.yml| **da tradurre**|
-|nemesis_intel_l_english.yml| **da tradurre**|
+|nemesis_intel_l_english.yml| **parziale**|
 |observer_events_l_english.yml| completa|
 |observer_l_english.yml| completa|
 |plantoids_l_english.yml| completa|
