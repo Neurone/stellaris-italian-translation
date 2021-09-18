@@ -26,14 +26,14 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |--|--|
 |achievements_l_english.yml| completa|
 |ai_crisis_l_english.yml| completa|
-|ancient_relics_events_l_english.yml| **parziale**|
-|ancient_relics_l_english.yml| **parziale**|
+|ancient_relics_events_l_english.yml| completa|
+|ancient_relics_l_english.yml| completa|
 |apocalypse_l_english.yml| completa|
 |clone_army_l_english.yml| **da tradurre**|
 |dip_messages_l_english.yml| completa|
 |diplo_stances_l_english.yml| completa|
-|distant_stars_l_english.yml| **parziale**|
-|dlc_recommendations_l_english.yml| **parziale**|
+|distant_stars_l_english.yml| completa|
+|dlc_recommendations_l_english.yml| completa|
 |event_chains_l_english.yml| completa|
 |events_2_l_english.yml| completa|
 |events_3_l_english.yml| completa|
@@ -82,7 +82,7 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |synthetic_dawn_events_l_english.yml| completa|
 |technology_l_english.yml| completa|
 |traditions_l_english.yml| **parziale**|
-|triggers_effects_l_english.yml| **parziale**|
+|triggers_effects_l_english.yml| completa|
 |tutorial_l_english.yml| **parziale**|
 |unrest_l_english.yml| completa|
 |utopia_ascension_l_english.yml| completa|
