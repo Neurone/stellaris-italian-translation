@@ -120,7 +120,7 @@
  DEFAULT_ORBITAL_STATION_SECTION: "Struttura Stazione Orbitale"
  DEFAULT_MINING_STATION_SECTION: "Struttura Stazione Mineraria"
  DEFAULT_RESEARCH_STATION_SECTION: "Struttura Stazione di Ricerca"
- DEFAULT_WORMHOLE_STATION_SECTION: "Struttura Stazione Wormhole"
+ DEFAULT_WORMHOLE_STATION_SECTION: "Struttura Stazione Tunnel Spaziale"
  DEFAULT_MILITARY_STATION_SECTION: "Piattaforma Militare Standard"
  DEFAULT_TRANSPORT_SECTION: "Nave Trasporto"
  SHIP_COLOSSUS_SECTION: "Colosso"
