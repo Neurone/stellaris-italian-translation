@@ -102,7 +102,7 @@
  anomaly.4035.poi.desc: "Uno dei sistemi che potrebbe potenzialmente ospitare la stella dalla strana radiazione."
  anomaly.4037.name: "Sistema Corretto"
  anomaly.4037.desc: "Pensiamo di aver trovato il sistema giusto! I dati sulla radiazione della stella locale corrispondono a quelli precedentemente riscontrati. È stato attivato un §SProgetto Speciale§! per effettuare ricerche sulla stella."
- anomaly.4038.base.desc: "Eureka! L'Ufficiale Scientifico [Root.GetLeaderName] ha scoperto che la stella si è formata attorno ad un minuscolo Wormhole, che ha generato una spaccatura dimensionale. I raggi di questa dimensione hanno sostituito i raggi cosmici nella spallazione nucleare, il processo generato dalle radiazioni di supernove che rende stabile il berillio-8 creato nelle stelle. La stella è quindi unica, per quanto riguarda le sua capacità di fusione."
+ anomaly.4038.base.desc: "Eureka! L'Ufficiale Scientifico [Root.GetLeaderName] ha scoperto che la stella si è formata attorno ad un minuscolo tunnel spaziale, che ha generato una spaccatura dimensionale. I raggi di questa dimensione hanno sostituito i raggi cosmici nella spallazione nucleare, il processo generato dalle radiazioni di supernove che rende stabile il berillio-8 creato nelle stelle. La stella è quindi unica, per quanto riguarda le sua capacità di fusione."
  anomaly.4038.maxed.desc: "$anomaly.4038.base.desc$\n\nQuesta conoscenza non amplierà la tecnologia a nostra disposizione. Tuttavia, ci fornirà una visione più chiara di ciò che fa funzionare l'universo."
  anomaly.4038.upg.desc: "$anomaly.4038.base.desc$\n\nGrazie a questa scoperta i nostri scienziati saranno in grado di ricercare nuove tecnologie!"
  anomaly.4038.a: "Abbiamo domato i segreti delle stelle."
