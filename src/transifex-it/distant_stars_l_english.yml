@@ -390,7 +390,7 @@
  distar.100.a: "Informazione acquisita."
 
  distar.105.name: "Exo-Funghi Invasivi"
- distar.105.desc: "Dopo un intenso studio della vegetazione che ricopre l'intera biosfera di [From.GetName], [Root.GetLeaderName] sostiene che la sostanza non sia nativa del pianeta, ma piuttosto una forma di vita infestante simile ad un fungo e di origine sconosciuta. I funghi si cibano di materia organica, soffocando la vita vegetale esistente ed avvolgendo il terreno.\n\nOgni futuro abitante di questo pianeta dovrà regolarmente bruciare gli exo-funghi, dato che non sappiamo ancora se potranno mai essere eliminati definitivamente."
+ distar.105.desc: "Dopo un intenso studio della vegetazione che ricopre l'intera biosfera di [From.GetName], [Root.GetLeaderName] sostiene che la sostanza non sia nativa del pianeta, ma piuttosto una forma di vita fungina infestante e di origine sconosciuta. I funghi si cibano di materia organica, soffocando la vita vegetale esistente ed avvolgendo il terreno.\n\nOgni futuro abitante di questo pianeta dovrà regolarmente bruciare gli exo-funghi, dato che non sappiamo ancora se potranno mai essere eliminati definitivamente."
 
  distar.110.name: "Bianco Inferno"
  distar.110.desc: "Nonostante la superficie di [From.GetName] sembri ghiacciata, l'orbita del pianeta attorno a [From.GetStarName] lo rende rovente. In normali circostanze questo processo farebbe sublimare il ghiaccio sulla superficie. Tuttavia, l'estrema pressione gravitazionale esercitata dal nucleo extra-denso del pianeta mantiene l'acqua allo stato solido, creando così un pianeta composto da ghiaccio incandescente."
