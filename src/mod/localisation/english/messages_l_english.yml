@@ -31,8 +31,8 @@
  MESSAGE_FLEET_ORDER_AUTO_EXPLORE_CANCELED:0 "§H$FLEET$§! ha interrotto il Rilevamento Automatico. Non può raggiungere o trovare altri sistemi non ispezionati."
  FLEET_BUILD_ORDER_CANCELED_MESSAGE_TYPE_TITLE:0 "$AUTO_EXPLORE_CANCELLED_MESSAGE_TYPE_TITLE$"
  MESSAGE_FLEET_BUILD_ORDER_CANCELED_MESSAGE:0 "$FLEET|H$ non è stata in grado di costruire una $STATION|H$ su $SYSTEM|H$. Le risorse sono state rimborsate."
- MESSAGE_BYPASS_EXPLORED:0 "Wormhole Esplorato"
- BYPASS_EXPLORED_MESSAGE:0 "Il Wormhole del Sistema $SYSTEM1|Y$ è stato esplorato. È connesso al Sistema $SYSTEM2|Y$."
+ MESSAGE_BYPASS_EXPLORED:0 "Tunnel Spaziale Esplorato"
+ BYPASS_EXPLORED_MESSAGE:0 "Il Tunnel Spaziale del Sistema $SYSTEM1|Y$ è stato esplorato. È connesso al Sistema $SYSTEM2|Y$."
  MESSAGE_ESN_ARRIVED_TITLE:0 "Navigazione Subspaziale Sperimentale"
  MESSAGE_ESN_ARRIVED:0 "$FLEET_NAME|Y$ ha raggiunto il Sistema $SYSTEM|Y$"
  MESSAGE_ESN_ABORTED_TITLE:0 "Navigazione Subspaziale Sperimentale Annullata"
@@ -408,9 +408,9 @@
  ####################################
  # No Access
  ####################################
- MESSAGE_WORMHOLE_CLOSED_NO_ACCESS:0 "Il Wormhole nel Sistema $FROM|Y$ è stato chiuso durante l'apertura verso il Sistema $TARGET|Y$, perché si trova nei confini di $WHO|Y$."
+ MESSAGE_WORMHOLE_CLOSED_NO_ACCESS:0 "Il Tunnel Spaziale nel Sistema $FROM|Y$ è stato chiuso durante l'apertura verso il Sistema $TARGET|Y$, perché si trova nei confini di $WHO|Y$."
  MESSAGE_FLEET_LEAVE_SYSTEM_NO_ACCESS:0 "La flotta $FLEET|Y$ è stata costretta a tornare nel Sistema $RETURN|Y$ dal Sistema $FROM|Y$, perché si trova nei confini di $WHO|Y$."
- MESSAGE_WORMHOLE_CLOSED_NO_ACCESS_TITLE:0 "Wormhole Chiuso"
+ MESSAGE_WORMHOLE_CLOSED_NO_ACCESS_TITLE:0 "Tunnel Spaziale Chiuso"
  MESSAGE_FLEET_LEAVE_SYSTEM_NO_ACCESS_TITLE:0 "Nessun Accesso"
 
  ####################################

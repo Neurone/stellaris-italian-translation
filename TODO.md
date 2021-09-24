@@ -2,6 +2,8 @@ REVIEW
 
 tradurre e verificare [] perk => beneficio
 
+events_2_l_english: mi sono accorto di alcune frasi tradotte abbastanza male, da rivedere completamente per sicurezza
+
 |tutorial_l_english.yml, in progress
 
 |federations_anniversary_l_english.yml, in progress traduzione, perk verificato
@@ -25,3 +27,13 @@ Nave da Costruzione => versione più corta per interfaccia sarebbe meglio
 
 
 ..\..\transifex-client\dist\tx config mapping-bulk -p stellaris-italian-translation --source-language en --type "YML GENERIC" -f ".yml" --source-file-dir src/transifex-en --expression "src/transifex-<lang>/{filename}{extension}" --execute
+
+
+
+
+REVISIONI DEEPL completate
+
+clone_army
+event_chains
+events_6
+

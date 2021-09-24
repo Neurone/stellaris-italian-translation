@@ -61,7 +61,7 @@
  ancrel.6125.name:0 "L'Ultima Camera"
  ancrel.6125.desc:0 "Dopo un'estenuante ricerca, l'ultima "chiave" è stata scoperta sotto forma di minuscolo pulsante nascosto all'interno di uno dei glifi. Nell'Ultima Camera, un gigantesco trono sorregge i resti di una grande figura umanoide. Un odore terribile suggerisce lo stato avanzato di decomposizione del corpo. Alcuni glifi, alla base del trono, recitano semplicemente: §H"ZARQLAN, AL VOSTRO SERVIZIO"§!\n\nIl corpo è troppo malandato per essere spostato, ma la testa è sorprendentemente ben conservata, nonostante gli anni. Non volendosene andare a mani vuote, alcuni archeologi utilizzano un laser per rimuoverla."
  ancrel.6130.desc:0 "È... è vero allora. Avete trovato la leggendaria tomba di Zarqlan. Quando gli Augur me l'hanno detto, non volevo crederci, ma le prove sono inconfutabili. Ho saputo che avete la testa del Profeta, non è vero?\n\nQuindi, come fu predetto, i prescelti del grande Zarqlan sono state infine rivelati. Come desiderava Zarqlan, quindi, ogni pianeta sacro disabitato vicino ai nostri confini è a vostra disposizione. Ci sarebbero anche molti devoti pellegrini su [spiritualist_fallen_empire.Capital.GetName] che sarebbero enormemente onorati di combattere al vostro fianco."
- ancrel.6130.a:0 "Fine della trasmissione."
+ ancrel.6130.a:0 "Termina la trasmissione."
  opinion_zarqlans_chosen:0 "I Prescelti di Zarqlan"
  ancrel.6132.a.desc:0 "I leali servitori di Zarqlan sono al vostro comando, [Root.GetSpeciesNamePlural]. Diteci solo chi colpire!"
  ancrel.6132.b.desc:0 "Eccoci convocati. Non esiste onore più grande che servire i Prescelti di Zarqlan."

@@ -229,7 +229,7 @@
  action.4.a.fallen.empire.1.response:0 "Fate bene ad obbedire, figlioli."
  action.4.a.fallen.empire.2.response:0 "Bene."
  action.4.a.fallen.empire.3.response:0 "Splendido!"
- action.4.a.fallen.empire.4.response:0 "Fine delle trasmissioni."
+ action.4.a.fallen.empire.4.response:0 "Termina la trasmissione"
  action.4.a.fallen.empire.5.response:0 "Questione risolta, allora."
  action.4.a.fallen.empire.6.response:0 "È soddisfacente. Bene."
 
@@ -414,8 +414,8 @@
  action.41.desc.a:0 "§Y[From.GetName]§! è iniziata mentre avevi delle flotte all'interno dei confini nemici."
  action.41.desc.b:0 "[From.GetNumPlayerFleetsGoneMIA] flotte sono §RDisperse in Azione§! e non possono rientrare in formazione in territorio amico."
  action.41.desc.b.1:0 "Una flotta è Dispersa in Azione e non può rientrare in formazione in territorio amico."
- action.41.desc.c:0 "[From.GetNumPlayerWormholeStationsDestroyed] Stazioni Wormhole sono andate distrutte."
- action.41.desc.c.1:0 "Una Stazione Wormhole è andata distrutta."
+ action.41.desc.c:0 "[From.GetNumPlayerWormholeStationsDestroyed] Stazioni Tunnel Spaziale sono andate distrutte."
+ action.41.desc.c.1:0 "Una Stazione Tunnel Spaziale è andata distrutta."
 
  ####################################
  # Anomaly Categories
@@ -2328,7 +2328,7 @@
  country.223.desc:0 "Qualcun altro ha recentemente sconfitto la nave cultista dopo una battaglia all'ultimo sangue nel Sistema [flagship_system.GetName]. I nostri ammiragli hanno espresso rammarico per il fatto che le nostre forze non abbiano potuto assestare il colpo di grazia, ma sperano che sia giunta la fine di questo culto maligno e della sua campagna di terrore."
 
  country.250.name:0 "La Caccia alla Giacinto"
- country.250.desc:0 "Non abbiamo trovato alcuna traccia delle quattro arche che attraversarono il Wormhole prima che la Crisantemo raggiungesse [Root.Capital.GetName]. Una sola nave, la Giacinto, aveva in programma di partire dopo di noi, ed i sensori a lungo raggio della Crisantemo hanno registrato un picco energetico proveniente dal Wormhole poco prima che si destabilizzasse e scomparisse.\n\nPresumendo che la Giacinto sia sopravvissuta al passaggio ed abbia raggiunto questa regione della galassia, finora non è riuscita a mettersi in contatto con noi. Sarebbe una buona idea ispezionare i sistemi vicini in cerca di qualche traccia."
+ country.250.desc:0 "Non abbiamo trovato alcuna traccia delle quattro arche che attraversarono il tunnel spaziale prima che la Crisantemo raggiungesse [Root.Capital.GetName]. Una sola nave, la Giacinto, aveva in programma di partire dopo di noi, ed i sensori a lungo raggio della Crisantemo hanno registrato un picco energetico proveniente dal tunnel spaziale poco prima che si destabilizzasse e scomparisse.\n\nPresumendo che la Giacinto sia sopravvissuta al passaggio ed abbia raggiunto questa regione della galassia, finora non è riuscita a mettersi in contatto con noi. Sarebbe una buona idea ispezionare i sistemi vicini in cerca di qualche traccia."
  country.250.a:0 "Va bene. Fatelo."
  country.250.b:0 "Una battuta di caccia che non possiamo permetterci."
  country.251.name:0 "Sistema Ispezionato"
@@ -2349,7 +2349,7 @@
  country.256.name:0 "Diario di Bordo"
  country.256.desc:0 "ARCA GIACINTO\nISA-06\nINIZIATIVA ULISSE - NAZIONI UNITE\nDiario di Bordo dell'Ufficiale: Capitano Ronald F. Gundersen\n\nAccesso ai dati in corso... dati corrotti. Tentativo di ripristino...\nQuattro registrazioni recuperate."
  country.256.a:0 "Registrazione I (Data Missione 345.5)"
- country.256.a.response:0 "Diario del Capitano, Data Missione 345.5.\n\nSiamo partiti due mesi fa dalla Terra e procediamo sulla rotta prestabilita. Finora non abbiamo riscontrato alcun problema. I coloni sono profondamente addormentati, ed il dottor Colbeck ha rilevato che i segni vitali sono buoni.\n\nIl viaggio ci ha portati oltre i pianeti esterni e ci stiamo avvicinando alla Nube Oort. Presto raggiungeremo il fenomeno subspaziale, questo presunto "Wormhole", a cui hanno già avuto accesso le altre arche. Ho espresso le mie riserve sul viaggio tramite Wormhole e le ho annotate in alcune voci di registro precedenti, ma presto avremo un responso..."
+ country.256.a.response:0 "Diario del Capitano, Data Missione 345.5.\n\nSiamo partiti due mesi fa dalla Terra e procediamo sulla rotta prestabilita. Finora non abbiamo riscontrato alcun problema. I coloni sono profondamente addormentati, ed il dottor Colbeck ha rilevato che i segni vitali sono buoni.\n\nIl viaggio ci ha portati oltre i pianeti esterni e ci stiamo avvicinando alla Nube Oort. Presto raggiungeremo il fenomeno subspaziale, questo presunto "tunnel spaziale", a cui hanno già avuto accesso le altre arche. Ho espresso le mie riserve sul viaggio tramite tunnel spaziale e le ho annotate in alcune voci di registro precedenti, ma presto avremo un responso..."
  country.256.b:0 "Registrazione II (Data Missione 387.2)"
  country.256.b.response:0 "Ce... ce l'abbiamo fatta davvero! L'astro-navigazione sta ancora lavorando sulla ridefinizione della posizione, ma a giudicare dalle stelle qui fuori penso che sia una scommessa già vinta, perché di sicuro non siamo più nel Kansas. Purtroppo, la Giacinto ha subito un grave incidente che ha provocato una completa perdita di potenza, e siamo attualmente senza batterie ausiliarie.\n\nColbeck mi ha informato che potremmo essere costretti a risvegliare i coloni. Sono sceso nel settore ingegneristico per vedere se Maggie, con il suo fare gentile, fosse riuscita a far ripartire il reattore. Speriamo di risolvere presto il problema e di raggiungere i coloni della Crisantemo."
  country.256.c:0 "Registrazione III (Data Missione 422.7)"
