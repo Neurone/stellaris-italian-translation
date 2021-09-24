@@ -151,7 +151,7 @@
 
  ### Reanimators by Pierre du Plessis
 
- civic_reanimated_armies:0 "Reanimators"
+ civic_reanimated_armies:0 "Rianimatori"
  civic_reanimated_armies_desc:0 "Within this society, death is no bar to the call to arms. Masters of the art of necromancy reanimate corpses to raise dread hosts and guardians, striking fear into the hearts of lesser mortals."
  disabled_by_synthetic_ascension:0 "Incompatibile con §YSynthetic Ascension§!"
  civic_tooltip_reanimated_armies_effects:0 "§YMilitary Academy§! building is replaced by a §YDread Encampment§!, granting £job_necromancer£ §YNecromancer§! jobs and allowing the recruitment of §YUndead Armies§!.\n$job_necromancer_effect_desc$.\nDefeated organic armies are sometimes resurrected as §YUndead Armies§!.\nDefeated organic leviathans can sometimes be resurrected."

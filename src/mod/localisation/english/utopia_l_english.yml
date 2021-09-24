@@ -185,7 +185,7 @@
  leader_trait_scientist_cyborg:0 "$leader_trait_admiral_cyborg$"
  leader_trait_scientist_cyborg_desc:0 "Questo Leader è stato aggiornato con impianti cibernetici avanzati che, tra le altre cose, gli forniscono un accesso neurale a tutti i maggiori database di ricerca."
  leader_trait_ruler_cyborg:0 "$leader_trait_admiral_cyborg$"
- leader_trait_ruler_cyborg_desc:0 "Questo Leader è stato aggiornato con impianti cibernetici avanzati di gran lunga maggior durata della loro controparte organica."
+ leader_trait_ruler_cyborg_desc:0 "Questo leader è stato pesantemente potenziato con impianti cibernetici che hanno una vita utile molto più lunga delle obsolete parti del corpo organico che hanno sostituito."
 
  leader_trait_admiral_synthetic:0 "Sintetico"
  leader_trait_admiral_synthetic_desc:0 "Questo Leader sintetico è dotato di aggiornamenti di tipo militare in grado di interfacciarsi direttamente con il comando navale ed i sistemi di controllo."
