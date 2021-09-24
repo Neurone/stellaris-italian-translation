@@ -163,7 +163,7 @@
  akx.9013.name: "Il Segnale Orizzonte: - Fine Messaggio -"
  akx.9013.desc: "[horizonsignal_secondleader.GetName] obbedisce, con evidente sollievo. I rapporti psichici indicano che è soggetto ad incubi ricorrenti... parla di labirinti impossibili, dell'affamato vortice dello spazio interstellare, del suo nome pronunciato nell'oscurità. Nel giro di un anno, il messaggio si interrompe."
  akx.9013.a: "Un'opportunità mancata."
- akx.9013.b: "Pericolo scampato."
+ akx.9013.b: "Scampata per un pelo."
 
  akx.9020.name: "Il Segnale Orizzonte: §HLA TRIADE, LA PENTADE, LA TRIADE§!"
  akx.9020.desc: "Ancora una volta, il Segnale Orizzonte nel Sistema [horizonsignal_system.GetName] è attivo. Ha aumentato la posta. Ancora una volta la trasmissione include le coordinate del Punto d'Uscita. È firmata con i dati di comunicazione di [horizonsignal_firstleader.GetName] e [horizonsignal_secondleader.GetName]. Ma, questa volta, si tratta di un programma di generazione testuale, scritto in un antico linguaggio di programmazione, che crea ciò sembrano essere poesie d'amore... poemi dedicati a [horizonsignal_thirdleader.GetName].\n\nOnestamente, non si tratta di poesie molto belle. Ma di fatto, secondo i nostri scienziati, è decisamente arduo creare proceduralmente poesie d'amore, nonché piuttosto insolito, per un buco nero, inviarle."
