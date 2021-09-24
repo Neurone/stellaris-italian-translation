@@ -29,17 +29,17 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |ancient_relics_events_l_english.yml| completa|
 |ancient_relics_l_english.yml| completa|
 |apocalypse_l_english.yml| completa|
-|clone_army_l_english.yml| **da tradurre**|
+|clone_army_l_english.yml| completa|
 |dip_messages_l_english.yml| completa|
 |diplo_stances_l_english.yml| completa|
 |distant_stars_l_english.yml| completa|
 |dlc_recommendations_l_english.yml| completa|
 |event_chains_l_english.yml| completa|
-|events_2_l_english.yml| completa|
+|events_2_l_english.yml| **in revisione**|
 |events_3_l_english.yml| completa|
 |events_4_l_english.yml| completa|
 |events_5_l_english.yml| completa|
-|events_5_l_english.yml| **da tradurre**|
+|events_6_l_english.yml| completa|
 |events_l_english.yml| completa|
 |federations_anniversary_l_english.yml| **parziale**|
 |federations_l_english.yml| **parziale**|
