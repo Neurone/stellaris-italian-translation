@@ -681,9 +681,9 @@
  irassian_energy: "Sito di Produzione Energetica"
  irassian_energy_desc: "Questo gigante gassoso fu il centro principale di produzione energetica del Concordato Irassiano, durante i primi stadi dell'espansione interstellare. Un denso anello di antiche stazioni energetiche orbitali ancora circonda il pianeta."
 
- ARMIES_LOST: "Sfinimento da Guerra dovuto alla Perdita di Armate"
+ ARMIES_LOST: "Fatica di Guerra dovuta alla Perdita di Armate"
  ARMIES_LOST_LONG: "$ATTR|R$ dovuto alle $ARMIES|R$ armate perdute"
- SHIPS_LOST: "Sfinimento da Guerra dovuto alla Perdita di Navi"
+ SHIPS_LOST: "Fatica di Guerra dovuta alla Perdita di Navi"
  SHIPS_LOST_LONG: "$ATTR|R$ dovuto alle $SHIPS|R$ navi perdute"
  WAROVERVIEW_BATTLE_OUR_SHIPS_LOST: "$NUM|R$ navi perdute"
  WAROVERVIEW_BATTLE_OUR_ARMIES_LOST: "$NUM|R$ armate perdute"

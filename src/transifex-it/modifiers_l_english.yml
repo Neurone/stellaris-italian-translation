@@ -14,7 +14,7 @@
  #Country
  MOD_BLANK_MODIFIER: "Modificatore Vuoto"
  MOD_COUNTRY_OCCUPATION_ARMIES_ADD: "Guarnigioni d'Occupazione Massime"
- MOD_COUNTRY_WAR_EXHAUSTION_MULT: "Acquisizione Sfinimento da Guerra"
+ MOD_COUNTRY_WAR_EXHAUSTION_MULT: "Acquisizione Fatica di Guerra"
  MOD_COUNTRY_PIRACY_RISK_MULT: "Rischio Pirati"
  MOD_COUNTRY_FORTIFICATION_STRENGTH: "Robustezza Fortificazioni"
  MOD_COUNTRY_BORDER_MULT: "Estensione Confini"
@@ -874,7 +874,7 @@
  fanatics_vs_wrong: "Vicini con Etica Sbagliata"
  pop_war_happiness: "In Guerra Offensiva"
  pop_peace_happiness: "In Pace"
- pop_war_exhaustion: "Sfinimento da Guerra"
+ pop_war_exhaustion: "Fatica di Guerra"
  pop_xenophobia: "Xenofobia"
  pop_xenophilia: "Xenofilia"
  pop_xenophobes_vs_migration: "Trattati d'Immigrazione"
