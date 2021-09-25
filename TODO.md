@@ -8,14 +8,12 @@
 |federations_l_english.yml| **parziale**|
 |l_english.yml| **parziale**|
 |megacorp_l_english.yml| **parziale**|
-|name_lists_l_english.yml| **parziale**|
-|necroids_l_english.yml| **parziale**|
 
 |nemesis_content_l_english.yml| **da tradurre**|
 |nemesis_custodian_l_english.yml| **da tradurre**|
 |nemesis_espionage_l_english.yml| **da tradurre**|
-
 |nemesis_intel_l_english.yml| **parziale**|
+
 |traditions_l_english.yml| **parziale**|
 |tutorial_l_english.yml| **parziale**|
 

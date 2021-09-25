@@ -57,8 +57,8 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |modifiers_l_english.yml| completa|
 |modifiers_utopia_l_english.yml| completa|
 |musicplayer_l_english.yml| completa|
-|name_lists_l_english.yml| **parziale**|
-|necroids_l_english.yml| **parziale**|
+|name_lists_l_english.yml| completa|
+|necroids_l_english.yml| completa|
 |nemesis_content_l_english.yml| **da tradurre**|
 |nemesis_crisis_l_english.yml| completa|
 |nemesis_custodian_l_english.yml| **da tradurre**|
