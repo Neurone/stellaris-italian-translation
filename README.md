@@ -4,11 +4,29 @@ Questo mod, **compatibile** con la **modalità Ironman** e gli **achievement di 
 
 Basato sulla versione: **Lem v3.1.1**
 
-Grazie a [Nefando](https://github.com/Nefando), [AndryRock](https://github.com/AR-9217) e [Daddie2](https://github.com/Daddie2) sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack, una prima versione corposa del DLC Federations e parte di Nemesis!
+Oltre al gioco base aggiornato alla versione di cui sopra, di seguito trovate l'attuale stato di traduzione dei DLC (ordinati per data di uscita).
 
-A causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, **per poter conservare la modalità Ironman e achievement non è possibile tradurre completamente tutte le frasi presenti nel gioco** (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.). Inoltre, per facilitare il confronto con il resto del mondo, **non sono tradotti volutamente i nomi degli achievement ma solo la loro descrizione**. Se avete già completato gli achievement e la modalità Ironman, o comunque non siete interessati alla cosa, usate il [mod di MM_Winther](https://steamcommunity.com/sharedfiles/filedetails/?id=2377568450) per un'esperienza di traduzione completa.
+| Uscita | DLC | stato traduzione |
+|--|--|--|
+|2021.04.15| Nemesis| **iniziale**|
+|2020.10.29| Pacchetto Specie - Necroids| completo|
+|2020.03.17| Federations| **parziale**|
+|2019.10.24| Pacchetto Specie - Lithoids| completo|
+|2019.06.04| Pacchetto Narrativo - Ancient Relics| completo|
+|2018.12.06| MegaCorp| **in revisione**|
+|2018.05.22| Pacchetto Narrativo - Distant Stars| completo|
+|2018.02.22| Apocalypse| completo|
+|2017.12.07| Pacchetto Specie - Humanoids| completo|
+|2017.09.21| Pacchetto Narrativo - Synthetic Dawn| completo|
+|2017.04.06| Utopia| completo|
+|2016.10.20| Pacchetto Narrativo - Leviathans| completo|
+|2016.08.04| Pacchetto Specie - Plantoids| completo|
 
-Questo mod nasce a maggio 2019 partendo dai testi tradotti diligentemente dal team Battle of Paradox Italia ed in particolare dal buon Puxxup - grande lavoro! - non con l'obiettivo di offrire una traduzione alternativa ma con quello di mantenere la compatibilità con achievements e modalità Ironman.
+A causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, **per poter conservare la modalità Ironman e achievement non è possibile tradurre completamente tutte le frasi presenti nel gioco** (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.). Inoltre, per facilitare il confronto con il resto del mondo, **non sono tradotti volutamente i nomi degli achievement ma solo la loro descrizione**. Se avete già completato gli achievement e la modalità Ironman, o comunque non siete interessati alla cosa, potete in alternativa utilizzare il [mod di MM_Winther](https://steamcommunity.com/sharedfiles/filedetails/?id=2377568450) per un'esperienza di traduzione completa.
+
+Grazie a tutta la comunità per i contributi alle traduzioni, e in particolare a [Nefando](https://github.com/Nefando), [AndryRock](https://github.com/AR-9217) e [Daddie2](https://github.com/Daddie2).
+
+Ricordo infine che questo mod nasce a maggio 2019 partendo dai testi tradotti diligentemente dal team Battle of Paradox Italia ed in particolare dal buon Puxxup - grande lavoro! Tanta acqua è passata sotto i ponti, e molte traduzioni sono state revisionate o aggiunte, ma è sempre bene ricordare le proprie origini :)
 
 ## Contribuire alla traduzione
 
@@ -50,7 +68,7 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |lithoids_l_english.yml| completa|
 |mandates_l_english.yml| completa|
 |marauder_l_english.yml| completa|
-|megacorp_l_english.yml| **parziale**|
+|megacorp_l_english.yml| **in revisione**|
 |messages_l_english.yml| completa|
 |modifiers_2_l_english.yml| completa|
 |modifiers_3_l_english.yml| completa|
@@ -81,7 +99,7 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |standalone_l_english.yml| completa|
 |synthetic_dawn_events_l_english.yml| completa|
 |technology_l_english.yml| completa|
-|traditions_l_english.yml| **parziale**|
+|traditions_l_english.yml| completa|
 |triggers_effects_l_english.yml| completa|
 |tutorial_l_english.yml| **parziale**|
 |unrest_l_english.yml| completa|
