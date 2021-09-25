@@ -4872,7 +4872,7 @@
  SEND_DEMANDS: "Invia le Richieste"
  SEND_DEMANDS_DESC: "Inviare le nostre richieste. Il destinatario Accetterà o Rifiuterà la nostra proposta."
  FORCE_DEMANDS: "Richiesta di Resa"
- FORCE_DEMANDS_DESC: "Forza il nostro obiettivo di guerra senza condizioni. Il destinatario deve Accettare la nostra proposta."
+ FORCE_DEMANDS_DESC: "Imponi il nostro obiettivo bellico senza condizioni. Il destinatario deve Accettare la nostra proposta."
  SEND_DEMANDS_SURRENDERED_DESC: "Inviate le nostre richieste. Poiché il nemico si è già arreso, non potrà rifiutarle."
  SEND_WHITEPEACE: "Offri lo Status Quo"
  SEND_WHITEPEACE_DESC: "Invia un'offerta di Status Quo per terminare questa guerra in un pareggio."
