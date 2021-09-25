@@ -766,7 +766,7 @@
  # Genetics
  tech_genome_mapping:0 "Mappatura Genetica"
  tech_genome_mapping_desc:0 "La mappatura del genoma di un individuo attraverso il sequenziamento del DNA permette trattamenti medici e terapie su misura."
- tech_epigenetic_triggers:0 "Modifiche Epigenetiche"
+ tech_epigenetic_triggers:0 "Inneschi Epigenetici"
  tech_epigenetic_triggers_desc:0 "Tecniche avanzate di metilazione del DNA permettono significative e funzionali modifiche al genoma."
  tech_cloning:0 "Clonazione"
  tech_cloning_desc:0 "I passi avanti nell'enucleazione e nell'utilizzo dell'utero artificiale, consentono la produzione in massa di individui basati su un modello genetico comune."
