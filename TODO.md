@@ -14,10 +14,25 @@
 |nemesis_espionage_l_english.yml| **da tradurre**|
 |nemesis_intel_l_english.yml| **parziale**|
 
-|traditions_l_english.yml| **parziale**|
 |tutorial_l_english.yml| **parziale**|
 
-Nave da Costruzione => versione più corta per interfaccia sarebbe meglio
+
+------------------------------
+
+
+Nave da Costruzione => Nave Cantiere
+
+forse: Stazione d'Osservazione => Posto d'Osservazione
+Observation Post è l'unica "stazione" che non è chiamata Station. Post significa postazione, posto, palo. Dà molto di più il senso di un avanposto dedicato rispetto al termine stazione.
+
+Uplift => Elevare e non Evolvere
+
+Modifiche Epigenetiche => Inneschi Epigenetici
+
+Warp Drive => Motore a Curvatura
+Warp => Curvatura
+
+-----------------------------
 
 ..\..\transifex-client\dist\tx config mapping-bulk -p stellaris-italian-translation --source-language en --type "YML GENERIC" -f ".yml" --source-file-dir src/transifex-en --expression "src/transifex-<lang>/{filename}{extension}" --execute
 
