@@ -101,7 +101,7 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |technology_l_english.yml| completa|
 |traditions_l_english.yml| completa|
 |triggers_effects_l_english.yml| completa|
-|tutorial_l_english.yml| **parziale**|
+|tutorial_l_english.yml| completa|
 |unrest_l_english.yml| completa|
 |utopia_ascension_l_english.yml| completa|
 |utopia_l_english.yml| completa|

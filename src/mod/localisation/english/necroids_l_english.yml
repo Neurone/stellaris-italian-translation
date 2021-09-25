@@ -208,7 +208,7 @@
  building_galactic_memorial_2_desc:0 "Un luogo solenne dedicato alla contemplazione della morte, in cui molti finali possono essere narrati."
  building_galactic_memorial_3:0 "Memoriale Galattico"
  building_galactic_memorial_3_desc:0 "Una libreria monumentale di tutto ciò che può o non può essere compreso sui finali, raccontati per inconoscibili ere future."
- building_galactic_memorial_regular_tooltip:0 "I §YSantuari del Riposo§! forniscono posti di lavoro da £job_death_chronicler£ $job_death_chronicler$, e migliorano l'§YAttrazione delle Etiche di Governo§! su §HPianeti Sepolcro§! e §HPianeti Reliquia§!"
+ building_galactic_memorial_regular_tooltip:0 "I §YSantuari del Riposo§! forniscono posti di lavoro da £job_death_chronicler£ $job_death_chronicler$, e migliorano l'§YAttrazione delle Etiche Governative§! su §HPianeti Sepolcro§! e §HPianeti Reliquia§!"
  building_galactic_memorial_gestalt_tooltip:0 "I §YSantuari del Riposo§! forniscono posti di lavori da £job_chronicle_drone£ $job_chronicle_drone$, e diminuiscono la §YDevianza§! su §HPianeti Sepolcro§! e §HPianeti Reliquia§!"
  job_death_chronicler:0 "Cronista della Morte"
  job_death_chronicler_plural:0 "Cronisti della Morte"

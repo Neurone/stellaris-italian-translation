@@ -1,5 +1,4 @@
 
-|tutorial_l_english.yml, in progress
 |federations_anniversary_l_english.yml, in progress traduzione
 
 |events_2_l_english.yml| **in revisione**|
@@ -14,11 +13,7 @@
 |nemesis_espionage_l_english.yml| **da tradurre**|
 |nemesis_intel_l_english.yml| **parziale**|
 
-|tutorial_l_english.yml| **parziale**|
-
-
 ------------------------------
-
 
 Nave da Costruzione => Nave Cantiere
 
