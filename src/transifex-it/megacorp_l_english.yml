@@ -16,7 +16,7 @@
  ECONOMICS_UPKEEP_VALUE_HEADER: "$ECONOMICS_UPKEEP$: $STRING$"
  ECONOMICS_CATEGORY_NONE: "Nessuna categoria"
  IMPORTANT_DEPOSITS: "Caratteristiche Interessanti"
- PLANET_SUMMARY_BUTTON: "§HRiepilogo planetario§!"
+ PLANET_SUMMARY_BUTTON: "§HRiepilogo Planetario§!"
  PLANET_HOUSING_TITLE: "Abitazioni"
  PLANET_HOUSING_AVAILABLE: "Abitazioni Disponibili: $VALUE|0$"
  PLANET_HOUSING_USAGE: "Bisogno Abitazioni POP (£pop£ $NUM_POPS|Y$): $VALUE|R0$"
