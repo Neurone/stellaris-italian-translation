@@ -9728,7 +9728,7 @@
  alert_engineering_research_instant: "Tecnologie Ingegneristiche pronte allo sviluppo."
  alert_engineering_research_instruction: "§GClicca per aprire il pannello Tecnologie§!"
  alert_timed_project_title: "Progetto a Scadenza"
- alert_timed_project_instant: "È disponibile un Progetto Speciale a tempo limite. Dovremmo iniziare a svilupparlo per non perdere l'opportunità."
+ alert_timed_project_instant: "Abbiamo un Progetto Speciale con un limite di tempo. Considera l'idea di iniziarlo per non perdere questa opportunità."
  alert_unemployed_pops_title: "Disoccupazione"
  alert_unemployed_pops_instant: "Abbiamo della POP disoccupata. Sarebbe consigliabile renderla produttiva liberando caselle di superficie o costruendo edifici che la sfruttino."
  alert_unemployed_pops_instruction: "§GClicca per scorrere le Colonie influenzate§!"
