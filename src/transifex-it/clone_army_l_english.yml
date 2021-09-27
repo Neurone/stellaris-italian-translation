@@ -6,7 +6,7 @@
  ### Clone Army Origin
 
  clone_soldier: "Clone Soldato"
- origin_clone_army: "Armata di Cloni"
+ origin_clone_army: "Armata dei Cloni"
  origin_clone_army_desc: "Una specie di cloni soldato dalla vita breve e sterile, eccezionalmente abili in questioni di guerra, lasciati soli e senza padrone a mettere in discussione il loro scopo ingegneristico e il loro destino incerto."
  origin_tooltip_clone_army_effects: "- Inizia con due §Y2§! £building£ Edifici §H$building_clone_army_clone_vat$§! sul tuo Pianeta Natale, che producono Popolazione £pops£ §Y$clone_soldier$§!.\n- Le §R§HAntiche Vasche di Clonazione§! possiedono un §HLimite Imperiale§! di 5.§!\n- Gli §HAmmiragli§! dell'Armata dei Cloni garantiscono un §G25%§! addizionale alla §H$MOD_SHIP_FIRE_RATE_MULT$§! e una riduzione del §G10%§! sul §HCosto di Mantenimento delle Navi§!."
  trait_clone_soldier_infertile: "$clone_soldier$"
@@ -15,16 +15,16 @@
  trait_clone_soldier_fertile_desc: "§LUna volta sterili, ingegnerizzati per l'obbedienza e la guerra. Il loro vantaggio genetico è diminuito, ora sono abbastanza stabili per la riproduzione naturale.§!"
  trait_clone_soldier_infertile_full_potential: "Clone Soldato Progenitore"
  trait_clone_soldier_infertile_full_potential_desc: "§LCloni al loro picco genetico, con forza, efficienza, durata e longevità ulteriormente migliorate, ma per sempre sterili.§!"
- leader_trait_clone_army_admiral: "Clone Ammiraglio d'Armata"
+ leader_trait_clone_army_admiral: "Ammiraglio Armata dei Cloni"
  leader_trait_clone_army_admiral_desc: "Dalla sua vasta formazione militare, questo leader capisce come massimizzare l'efficienza delle navi e dei soldati."
- leader_trait_clone_army_full_admiral: "Clone Ammiraglio d'Armata Progenitore"
+ leader_trait_clone_army_full_admiral: "Ammiraglio Progenitore Armata dei Cloni"
  leader_trait_clone_army_full_admiral_desc: "Sottoposto fin dalla sua creazione a un regime di educazione militare così intenso che pochi sarebbero in grado di sopportare, questo leader possiede eccellenti capacità marziali e di comando."
- leader_trait_clone_army_fertile_admiral: "Discendente di Clone Ammiraglio d'Armata"
+ leader_trait_clone_army_fertile_admiral: "Ammiraglio Discendente Armata dei Cloni"
  leader_trait_clone_army_fertile_admiral_desc: "Grazie alla sua educazione militare specializzata, questo leader possiede una comprensione superiore alla media delle procedure marziali e di come ottimizzarle al meglio."
  TRAIT_INFERTILE: "§RNon può riprodursi naturalmente§!"
  genelock_trait_tooltip: "§RNon può essere modificato geneticamente§!"
 
- disables_clone_army_origin_features: "§RScegliendo questo Beneficio d'Ascensione verranno disabilitate le meccaniche dell'Origine Armata di Cloni.§!"
+ disables_clone_army_origin_features: "§RScegliendo questo Beneficio d'Ascensione verranno disabilitate le meccaniche dell'Origine Armata dei Cloni.§!"
  clone_soldier_locked_genes: "Le specie §R$trait_clone_soldier_infertile$ e $trait_clone_soldier_infertile_full_potential$ sono troppo instabili per ulteriori modifiche genetiche.§!"
 
  building_clone_army_clone_vat: "Antica Vasca di Clonazione"
