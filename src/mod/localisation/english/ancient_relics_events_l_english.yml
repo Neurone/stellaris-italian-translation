@@ -904,13 +904,13 @@
  ancrel.6049.desc:0 "In una valle nascosta su §H[Root.GetName]§! sono stati ritrovati alcuni resti fossili che non sembrano appartenere ad alcuna specie indigena. Risalgono tutti approssimativamente allo stesso periodo, nell'arco di pochi secoli, di circa 3,6 milioni di anni fa.\n\nOgnuna di queste specie sembra essersi evoluta in una sua peculiare biosfera, e tutte sembrano essere state senzienti. Stranamente, ogni singolo fossile trovato finora mostra i segni di una fine violenta."
 
  site_robot_debris:0 "Detriti Robotici"
- site_robot_debris_intro:0 "L'intera superficie di questo piccolo asteroide è ricoperta di detriti robotici, intrappolati nel debole campo gravitazionale. Sembrano essere tutti di natura militare, e sono abbastanza da creare diverse armate, se non fossero completamente distrutti ed impossibili da riparare."
+ site_robot_debris_intro:0 "L'intera superficie di questo piccolo asteroide è coperta di detriti robotici, intrappolati nel suo debole campo gravitazionale. Sembrano tutti di natura militare e, se non fossero completamente distrutti e impossibili da riparare, ci sarebbero abbastanza droidi da combattimento qui da equipaggiare numerosi eserciti."
  ancrel.6250.name:0 "Due Facce"
  ancrel.6250.desc:0 "Ad un esame più accurato, i droidi distrutti sulla superficie di [From.Planet.GetName] sembrano provenire da due distinte culture. Tecnologicamente devono esser stati omologati quando erano ancora funzionanti, ma sono presenti alcune sottili differenze che suggeriscono diverse provenienze."
  ancrel.6255.name:0 "Campo di Battaglia"
  ancrel.6255.desc:0 "Non sembra che [From.Planet.GetName] sia stato utilizzato da semplice discarica per robot, potrebbe esser stato un campo di battaglia. I vari strati di detriti suggeriscono una serie di battaglie molto intense condotte ad intermittenza nel giro di due secoli.\n\nNon si capisce perché due civiltà abbiano sprecato una tale quantità di risorse per un'enorme guerra su questo piccolo ed insignificante asteroide."
  ancrel.6260.name:0 "Il Trattato"
- ancrel.6260.desc:0 "I nostri archeologi hanno appreso che, dopo una lunghissima guerra, i due imperi che abitavano in questo angolo della galassia 200.000 anni fa firmarono un trattato che obbligava entrambe le parti a risolvere ogni eventuale futura disputa tramite combattimenti regolamentati tra armate robotiche.\n\n[From.Planet.GetName] fu scelto come campo di battaglia. Sembra che il trattato abbia perdurato per quasi due secoli, evitando le ostilità in numerose occasioni, finché uno degli imperi fu beccato a barare."
+ ancrel.6260.desc:0 "I nostri archeologi hanno appreso che dopo una lunga e aspra guerra, i due imperi che abitavano questo angolo di galassia circa 200.000 anni fa firmarono un trattato che li obbligava a risolvere tutte le dispute future con combattimenti organizzati e fortemente regolamentanti tra eserciti robotici.\n\n[From.Planet.GetName] è stato scelto come luogo di queste battaglie. Il trattato sembra essere rimasto in vigore per quasi due secoli impedendo lo scoppio di scontri armati in numerose occasioni, almeno fino a quando uno degli imperi non fu sorpreso a barare."
 
  site_freighter_crash:0 "Nave Precipitata"
  site_freighter_crash_intro:0 "Sulla superficie di questo corpo celeste è stato scavato un piccolo canyon dall'impatto violento di una nave. Ciò che resta del vascello si trova ancora sul fondo del canyon. Sebbene lo schianto sia avvenuto eoni fa, il relitto sembra ancora piuttosto integro. Una spedizione archeologica potrebbe scoprire di più."
@@ -1105,7 +1105,7 @@
 
  # "Trench World" Archaeological Site Reward Modifier
  modern_trench_war:0 "Guerra di Trincea Moderna"
- modern_trench_war_desc:0 "Le scoperte archeologiche compiute su un pianeta un tempo assediato da gigantesche creature simili a lumache, hanno condotto a nuove ed efficaci intuizioni su come utilizzare l'ambiente come protezione. Ciò migliorerà la capacità di sopravvivenza delle nostre armate durante i combattimenti difensivi contro gli attacchi di terra... persino contro gigantesche lumache spaziali!"
+ modern_trench_war_desc:0 "Le scoperte archeologiche di un pianeta un tempo assediato da gargantuesche creature simili a lumache hanno condotto a nuove ed efficaci intuizioni su come utilizzare l'ambiente come protezione. Questo migliorerà la capacità di sopravvivenza dei nostri eserciti durante i combattimenti difensivi contro qualunque attacco di terra, persino contro gigantesche lumache spaziali!"
 
  # "Ebb & Flow" Archaeological Site Reward Modifier
  forced_mindfulness:0 "Consapevolezza Forzata"

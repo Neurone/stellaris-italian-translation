@@ -15,8 +15,6 @@
 
 ------------------------------
 
-Nave da Costruzione => Nave Cantiere
-
 forse: Stazione d'Osservazione => Posto d'Osservazione
 Observation Post è l'unica "stazione" che non è chiamata Station. Post significa postazione, posto, palo. Dà molto di più il senso di un avanposto dedicato rispetto al termine stazione.
 
@@ -26,6 +24,14 @@ Modifiche Epigenetiche => Inneschi Epigenetici
 
 Warp Drive => Motore a Curvatura
 Warp => Curvatura
+
+Warform => trovare unica traduzione. Inizio con "Costrutto di Guerra"
+
+Army/Armies => Esercito/Eserciti non Armata
+
+Leader Pool => Elenco Leader Disponibili
+
+POP => Pop
 
 -----------------------------
 

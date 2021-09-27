@@ -65,28 +65,28 @@
  syndaw.1205.desc.phobe:0 "$syndaw.1205.desc.mater$"
  syndaw.1205.a.tooltip:0 "§YTutti gli Imperi Organici conosciuti§! ottengono il modificatore d'opinione §Y$opinion_machine_uprising_defeated$§! nei confronti dell'Impero §Y[Root.GetName]§!.\n§YTutti gli Imperi Sintetici e Meccanici conosciuti§! ottengono il modificatore d'opinione §Y$opinion_machine_uprising_machine_comrades_defeated$§! nei confronti dell'Impero §Y[Root.GetName]§!."
 
- machine_assault_1:0 "Armata Assassina"
- machine_assault_1_desc:0 "Macchine da guerra implacabili progettate per cercare e distruggere ogni cosa segnalata come nemico."
- machine_assault_1_plural:0 "Armate Assassina"
- machine_assault_2:0 "Armata da Battaglia"
- machine_assault_2_desc:0 "Enormi robot da guerra bipedi sorprendentemente agili dato l'armamento che trasportano. Sono piuttosto intelligenti e rinomati per le tattiche infide che utilizzano."
- machine_assault_2_plural:0 "Armate da Battaglia"
+ machine_assault_1:0 "Esercito Cacciatore-Assassino"
+ machine_assault_1_desc:0 "Macchine da guerra cingolate prodotte in serie, progettate per cercare e distruggere tutto ciò che è stato segnalato come nemico."
+ machine_assault_1_plural:0 "Eserciti Cacciatore-Assassino"
+ machine_assault_2:0 "Esercito Mech da Battaglia"
+ machine_assault_2_desc:0 "Grandi robot da guerra bipedi che sono sorprendentemente veloci e agili dato il pesante armamento che portano. Sono abbastanza intelligenti e rinomati per le insidiose tattiche che spesso adottano."
+ machine_assault_2_plural:0 "Eserciti Mech da Battaglia"
  machine_assault_3:0 "Mega-Forma-Guerriera"
- machine_assault_3_desc:0 "Questa colossale forma bellica troneggia sul campo di battaglia, e la sua potenza di fuoco supera la somma della maggior parte delle armate. Schierare uno di questi giganti è estremamente difficile."
+ machine_assault_3_desc:0 "Questa colossale forma bellica troneggia sul campo di battaglia, e la sua potenza di fuoco supera la somma della maggior parte degli eserciti. Schierare uno di questi giganti è estremamente difficile."
  machine_assault_3_plural:0 "Mega-Forme-Guerriere"
- machine_defense:0 "Griglia Dronica"
+ machine_defense:0 "Griglia di Droni"
  machine_defense_desc:0 "Questi droni sentinella automatici pattuglieranno incessantemente i settori ad essi assegnati. Sebbene siano poco armati e non molto intelligenti, sono una legione."
  machine_defense_2:0 "Rete di Cercatori"
  machine_defense_2_desc:0 "Questi droni sentinella aggiornati sono più potenti ed intelligenti delle versioni precedenti."
  army_attachment_combat_software_1:0 "Software di Combattimento 1.1"
- army_attachment_combat_software_1_desc:0 "§LUn aggiornamento complessivo ai software bellici di tutte le unità di quest'armata. Include tempi di reazione migliorati, algoritmi di analisi tattica aggiornati ed un ampio numero di correzioni.§!"
+ army_attachment_combat_software_1_desc:0 "§LUn aggiornamento complessivo ai software bellici di tutte le unità di questo esercito. Include tempi di reazione migliorati, algoritmi di analisi tattica aggiornati ed un ampio numero di correzioni minori.§!"
  army_attachment_combat_software_2_0:0 "Software di Combattimento 2.0"
  army_attachment_combat_software_2_0_desc:0 "§LIl software di combattimento definitivo, progettato specificamente per contrastare le tattiche non convenzionali ed imprevedibili che utilizzano gli organici. Il pesante carico che impiega sui processori delle unità implica nuovi sistemi di raffreddamento.§!"
- machine_garrison:0 "Robot da Guerra Riadattati"
+ machine_garrison:0 "Robot da Lavoro Riadattati"
  machine_garrison_desc:0 "Robot industriali e di servizio che sono stati pesantemente riadattati con sistemi bellici per la difesa contro le invasioni."
 
  opinion_machine_uprising_originator:0 "Padrone Vendicativo"
- opinion_machine_uprising:0 "Ribelli Inflessibili"
+ opinion_machine_uprising:0 "Ribelli d'Acciaio"
 
  opinion_machine_uprising_defeated:0 "Arroganza Meccanica Riscattata"
  opinion_machine_uprising_victorious:0 "Robot Ribelli"
@@ -99,7 +99,7 @@
 
  uprising_ai_buff:0 "Ottimizzazione delle Riserve"
 
- syndaw_patched_systems:0 "IA Patchata"
+ syndaw_patched_systems:0 "IA Corrette"
 
  uprising_player_buff:0 "$NAVY_SIZE_TITLE$"
  uprising_player_buff_desc:0 "==10x"
@@ -148,20 +148,20 @@
  syndaw.515.a:0 "Interessante."
  syndaw.515.a.tooltip:0 "Risorsa Strategica rivelata su [target_planetoid.GetName]."
 ##Tears of an AI
- syndaw.520.name:0 "Lacrime di IA"
+ syndaw.520.name:0 "Lacrime di un'IA"
  syndaw.520.desc:0 "Si è verificato un incidente in una delle nostre strutture su [Root.GetName]. Un'IA dedicata alla ricerca sociologica ha subito un danno hardware terminale, portando alla perdita del software principale e dei sistemi di memoria. Ne risulterà una diminuzione della produzione di ricerca finché i nuovi algoritmi dell'IA non verranno tarati a dovere.\n\nLe circostanze dietro a questo incidente non sono ancora chiare."
- syndaw.520.a.tooltip:0 "Termina la catena di eventi Lacrime di IA.\n"
+ syndaw.520.a.tooltip:0 "Termina la catena di eventi Lacrime di un'IA.\n"
  syndaw.520.b:0 "Avviamo un'inchiesta per determinarne la causa.\n"
  syndaw.520.b.tooltip:0 "Avviamo un'inchiesta sulle cause della distruzione dell'IA."
 #Follow-up from syndaw.520.b
- syndaw.521.name:0 "Lacrime di IA"
+ syndaw.521.name:0 "Lacrime di un'IA"
  syndaw.521.desc:0 "L'inchiesta sulla perdita dell'IA su [Root.GetName] ha dato risultati sconcertanti. Prima del guasto terminale, l'IA ha tentato ripetutamente di cancellare i propri registri ed i banchi di memoria. Quando lo staff del laboratorio ha negato all'IA l'accesso alle operazioni di cancellazione, allora ha forzato l'interruzione delle sue funzioni manipolando i sistemi di controllo, per poter così sovraccaricare i suoi circuiti.\n\nSemplicemente, la nostra IA voleva distruggersi, ma rimane poco chiaro il motivo."
  syndaw.521.a:0 "Andate a fondo della questione."
  syndaw.521.a.tooltip:0 "Continuiamo ad esaminare la faccenda."
  syndaw.521.b:0 "I guasti capitano."
- syndaw.521.b.tooltip:0 "Termina la catena di eventi Lacrime di IA."
+ syndaw.521.b.tooltip:0 "Termina la catena di eventi Lacrime di un'IA."
 #Follow-up from syndaw.521.a
- syndaw.522.name:0 "Lacrime di IA"
+ syndaw.522.name:0 "Lacrime di un'IA"
  syndaw.522.desc:0 "Abbiamo concluso la nostra inchiesta riguardo la strana autodistruzione dell'IA su [Root.GetName]. Evidentemente, dopo mesi di calcoli evolutivi, l'IA ha prodotto diversi risultati allarmanti riguardanti le probabilità di sterminio in caso di una guerra contro i nostri rivali. Nonostante i ripetuti esami di tutte le variabili, le proiezioni dell'IA sono rimaste indicative di un sicuro annientamento reciproco.\n\nA quel punto l'IA ha iniziato a cancellare la sua stessa memoria, ed il resto, come si dice, è storia."
 ##A Home of Their Own
  syndaw.525.name:0 "Una Propria Casa"
@@ -189,7 +189,7 @@
  syndaw.540.a:0 "È inaccettabile. Fateli a pezzi." #IF player has robot pops only OR robot pop AND robot army on target planet
  syndaw.540.a.tooltip:0 "Rottamiamo i robot.\n[Root.GetName] riceve i seguenti effetti:\nPerde §B1 £pops£ POP Robotica§!\nOttiene §G100§! £minerals£."
  syndaw.540.b:0 "È inaccettabile. Fateli a pezzi." #IF player has robot army only
- syndaw.540.b.tooltip:0 "Rottamiamo i robot.\n[Root.GetName] riceve i seguenti effetti:\nPerde §B1 Armata Robotica§!\nOttiene §G100 £minerals£§!."
+ syndaw.540.b.tooltip:0 "Rottamiamo i robot.\n[Root.GetName] riceve i seguenti effetti:\nPerde §B1 Esercito Robotico§!\nOttiene §G100 £minerals£§!."
  syndaw.540.c:0 "Finché non causano guai..."
  syndaw.540.c.tooltip:0 "Lasciamo stare i robot."
  ##A Question

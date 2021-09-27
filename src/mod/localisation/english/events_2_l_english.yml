@@ -846,7 +846,7 @@
  story.7.desc.gesta:0 "Abbiamo incontrato della vita aliena avanzata. I contatti sembrano inevitabili."
 
  story.8.name:0 "Contatto: Leviatano"
- story.8.desc:0 "La scoperta di un gigantesco essere mostruoso che vive nel vuoto ci ha reso più insignificanti nel grande schema delle cose. La prima creatura che il nostro prode impero ha incontrato potrebbe anche rivelarsi l'ultima della sua specie. Le immagini del Leviatano si sono diffuse nell'impero, causando isterie di massa e richieste d'intervento.\n\nI rapporti delle nostre flotte indicano che la bestia sembra abbastanza potente da poter distruggere anche la più forte delle armate. Si raccomanda prudenza."
+ story.8.desc:0 "La scoperta di un gigantesco essere mostruoso che vive nel vuoto ci ha reso più insignificanti nel grande schema delle cose. La prima creatura che il nostro prode impero ha incontrato potrebbe anche rivelarsi l'ultima della sua specie. Le immagini del leviatano si sono diffuse nell'impero, causando isterie di massa e appelli all'azione.\n\nIl rapporto della nostra flotta indica che la bestia sembra abbastanza potente da poter distruggere anche la più forte delle armate, e raccomanda prudenza."
  story.8.desc.spirit:0 "La nostra popolazione sta pregando. Il gigante incontrato nell'oscurità ha portato molti dei nostri cittadini a temere per la propria sanità mentale, od a dubitare della fede nel Divino. Questi giganti sono i guardiani della vita e del creato, o loro nemici?"
  story.8.desc.phile:0 "Il nostro popolo si trova di fronte a qualcosa che supera il sublime. Esseri giganti, la cui esistenza rimane a testamento delle insondabili meraviglie dell'universo, che fanno apparire la maggior parte delle altre forme di vita come fiammelle tremolanti al fianco di una stella ardente.\n\nNonostante la vera natura del Leviatano rimanga sconosciuta, la popolazione di [Root.Capital.GetName] è in soggezione di fronte alle nostre scoperte, ed ottimista su ciò che potranno donarci."
  story.8.desc.mach:0 "La scoperta di un'enorme entità nel vuoto spaziale dalle proprietà sconosciute, ci ha obbligati a ridefinire tutti i parametri conosciuti riguardanti la dimensione massima di un singolo costrutto con capacità ostili. Le proiezioni di sopravvivenza in caso di attacco diretto non sono promettenti.\n\nLe unità scientifiche e militari raccomandano un'osservazione continuativa, ed aggiornamenti specifici alle nostre navi esistenti."
@@ -1407,7 +1407,7 @@
  colony.1513.desc:0 "È arrivata la flotta pirata, piuttosto in ritardo rispetto a quanto ci aspettassimo. A giudicare dalla sua composizione e dalle formazioni, hanno mobilitato i loro alleati nel tentativo di saccheggiare e bruciare [Root.GetName] il più velocemente e definitivamente possibile."
  colony.1513.a:0 "Non ci riusciranno."
  colony.1514.name:0 "Antichi Droni: Resa dei Conti"
- colony.1514.desc:0 "È giunta l'ora... e l'armata pirata è alle porte."
+ colony.1514.desc:0 "È giunta l'ora, e l'armata pirata arriva al momento giusto."
  colony.1514.a:0 "Attendevamo da molto questa battaglia."
 
 ### Mharin Kharin Aphrodisiac Pollen
