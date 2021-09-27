@@ -38,7 +38,7 @@
  TUTORIAL_MINING_STATION_TITLE: "Stazioni Minerarie"
  TUTORIAL_MINING_STATION_DESC: "Le §SStazioni Minerarie§! vengono utilizzate per estrarre §SMinerali§! e §SRisorse Strategiche§! dai corpi celesti attorno a cui orbitano.\n\nLe §SStazioni Minerarie§! non servono per accedere alle risorse di pianeti colonizzati e possono essere costruite solamente all'interno dei nostri confini."
  TUTORIAL_TRANSPORT_SHIP_TITLE: "Navi da Trasporto"
- TUTORIAL_TRANSPORT_SHIP_DESC: "Quando le §SArmate§! vengono inviate nello spazio, si imbarcano automaticamente su queste §SNavi da Trasporto§!. Si assicuri di proteggerle dato che sono praticamente indifese!"
+ TUTORIAL_TRANSPORT_SHIP_DESC: "Quando gli §SEserciti§! vengono inviati nello spazio, si imbarcano automaticamente su queste navi da §STrasporto§!. Assicurati di proteggerle dato che sono abbastanza indifese!"
  TUTORIAL_DIPLOMACY_VIEW_TITLE: "Diplomazia"
  TUTORIAL_DIPLOMACY_VIEW_DESC: "Il pannello §SDemocrazia§! è dove comunichiamo con altre civiltà. Qui possiamo §SDichiarare guerra§!, costruire §SReti di Spionaggio§! dei nostri vicini o stabilire §SAlleanze§! e §SAccordi Commerciali§! con loro. Possiamo anche vedere l'attuale §HLivello di Intelligence§!\n\nLe sue §SRelazioni§! con l'Impero selezionato vengono rappresentate come uno dei cinque livelli, da 'Terribile' a 'Eccellente'. Per siglare un accordo commerciale o stipulare un trattato è necessario avere un livello sufficiente di Relazioni.\n\nPuò assegnare degli §SEmissari§! affinché §SSpiino§! un Impero, raccolgano dati di §SIntelligence§!, aggirino i requisiti di §SRelazioni§!, §SMigliorino§! o §SDanneggino le Relazioni§!."
  TUTORIAL_DIPLOMACY_VIEW_TRADE_TITLE: "Commercio"
