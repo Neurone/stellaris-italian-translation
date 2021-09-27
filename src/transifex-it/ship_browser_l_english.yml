@@ -17,7 +17,7 @@
  SHIP_GRAPHICS_STARBASE_CITADEL_DESC: "Una Cittadella è il livello più alto aggiornabile di una base stellare. Dotata di immense difese, una Cittadella è un osso duro per qualsiasi nemico."
  SHIP_GRAPHICS_TRANSPORT_DESC: "Le navi da trasporto trasportano eserciti per assaltare i pianeti ostili durante una guerra. Essendo disarmate e non armate, richiedono una flotta di supporto quando si trovano in territorio ostile."
  SHIP_GRAPHICS_SCIENCE_DESC: "Le navi scientifiche sono usate principalmente per esplorare nuovi sistemi stellari e ricercare anomalie. Essendo una nave civile, sono disarmate e vulnerabili."
- SHIP_GRAPHICS_CONSTRUCTOR_DESC: "Le navi da costruzione sono necessarie per costruire qualsiasi stazione spaziale. Essendo una nave civile, sono disarmate, non armate e vulnerabili."
+ SHIP_GRAPHICS_CONSTRUCTOR_DESC: "Le navi cantiere sono necessarie per costruire qualsiasi stazione spaziale. Essendo una nave civile, sono disarmate, non armate e vulnerabili."
  SHIP_GRAPHICS_COLONIZER_DESC: "Le navi colonia trasportano i coloni dai pianeti colonizzati a quelli nuovi per la colonizzazione. Essendo una nave civile, sono disarmate, non armate e vulnerabili."
  SHIP_GRAPHICS_SHIP_SIZE_LOCKED_DESC: "§RQuesta classe di navi richiede il DLC $SHIP_SIZE_NAME$.§!"
 

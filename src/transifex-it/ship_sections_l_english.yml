@@ -53,7 +53,7 @@
  ####################################
  # Constructor
  ####################################
- CONSTRUCTOR_MID_M1S1: "Nave da Costruzione"
+ CONSTRUCTOR_MID_M1S1: "Nave Cantiere"
  CONSTRUCTOR_MID_S3: "Nucleo di Sviluppo"
  CONSTRUCTOR_MID_MU1: "Nucleo di Fusione"
 
@@ -114,7 +114,7 @@
  # Other
  ####################################
  MISSILE_DEFAULT: "Sezione Missilistica"
- DEFAULT_CONSTRUCTION_SECTION: "Nave da Costruzione"
+ DEFAULT_CONSTRUCTION_SECTION: "Nave Cantiere"
  DEFAULT_COLONIZATION_SECTION: "Nave Colonia"
  DEFAULT_SCIENCESHIP_SECTION: "Nave Scientifica"
  DEFAULT_ORBITAL_STATION_SECTION: "Struttura Stazione Orbitale"
