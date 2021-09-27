@@ -21,7 +21,7 @@
  PLANET_HOUSING_AVAILABLE: "Alloggi Disponibili: $VALUE|0$"
  PLANET_HOUSING_USAGE: "Necessità di Alloggi per la Popolazione (£pop£ $NUM_POPS|Y$): $VALUE|R0$"
  PLANET_HOUSING_DESC: "§EGli §Y$PLANET_HOUSING_TITLE$§! rappresentano le infrastrutture planetarie dedicate all'alloggiamento della popolazione. Un pianeta che non soddisfa le necessità di §YAlloggi§! della sua popolazione subirà delle penalità alla £stability£ §YStabilità§! e potrebbe andare incontro all'§YEmigrazione§!. Puoi aumentare gli §YAlloggi§! costruendo £district£ §YDistretti§! aggiuntivi sul pianeta.§!\n\nCostruire §YAlloggi§! accresce inoltre la §YCapacità Planetaria§!, che può influire sulle velocità di crescita della popolazione biologica.§!"
- PLANET_HOUSING_NO_HAPPINESS_DESC: "§EGli $PLANET_HOUSING_TITLE$ rappresentano case, appartamenti ed altre infrastrutture dedicate all'alloggiamento della popolazione. Un pianeta che non soddisfa le necessità di §YAlloggi§! dei suoi droni subirà delle penalità alla £stability£ §Y$PLANET_STABILITY_TITLE$§!.§!"
+ PLANET_HOUSING_NO_HAPPINESS_DESC: "§EGli $PLANET_HOUSING_TITLE$ rappresentano case, appartamenti ed altre infrastrutture dedicate all'alloggiamento della popolazione. Un pianeta che non soddisfa le necessità di §YAlloggi§! della sua popolazione di droni subirà delle penalità alla £stability£ §Y$PLANET_STABILITY_TITLE$§!.§!"
  PLANET_HOUSING: "Alloggi: $VALUE|0Y$"
  UNLOCKED_AT_POPS: "$VALUE$"
  PLANET_STABILITY_TITLE: "Stabilità"
