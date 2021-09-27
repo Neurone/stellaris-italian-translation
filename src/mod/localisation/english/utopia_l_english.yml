@@ -168,7 +168,7 @@
  leader_trait_admiral_erudite:0 "Erudito"
  leader_trait_admiral_erudite_desc:0 "Questo Leader possiede un intelletto fuori dal comune, e ciò ne migliora l'abilità nel comandare flotte."
  leader_trait_general_erudite:0 "$leader_trait_admiral_erudite$"
- leader_trait_general_erudite_desc:0 "Questo Leader possiede un intelletto fuori dal comune, e ciò ne migliora l'abilità nel comandare armate."
+ leader_trait_general_erudite_desc:0 "Questo leader ha un intelletto notevolmente migliorato, e questo accresce la sua capacità di comandare gli eserciti."
  leader_trait_governor_erudite:0 "$leader_trait_admiral_erudite$"
  leader_trait_governor_erudite_desc:0 "Questo Leader possiede un intelletto fuori dal comune, e ciò ne migliora l'abilità nel governare."
  leader_trait_scientist_erudite:0 "$leader_trait_admiral_erudite$"
