@@ -954,7 +954,7 @@
  crazy_system_poi.3_desc: "$crazy_system_poi.1_desc$"
  # ARMIES:
  azizian_troop_limit_tooltip: "Gli Aziziani creano titanici lumaconi assassini che travolgono i nemici e secernono un liquido appiccicoso."
- titanic_azizian_assault_army: "Armata Aziziana"
+ titanic_azizian_assault_army: "Esercito Aziziano"
  titanic_azizian_assault_army_desc: "Mega-Lumacone Assassino."
 
  # SHIPS & FLEETS:
@@ -1173,8 +1173,8 @@
  distar.1081.a: "Saranno un'eccellente forza lavoro."
  distar.1081.a.tooltip: "4 §YAzizian§! pops are added to [This.GetName]"
  distar.1081.b: "Devono stare in uno zoo."
- distar.1081.c: "Potremmo usarli sul campo."
- distar.1080.c.tooltip: "Chi non vorrebbe un'armata di lumaconi assassini con cui schiacciare i propri nemici?"
+ distar.1081.c: "Potremmo usarli nell'esercito."
+ distar.1080.c.tooltip: "Chi non vorrebbe un esercito di lumache assassine con cui schiacciare i propri nemici?"
  distar.1081.d: "Sono orribili. Eliminateli, ORA!"
  distar.1083.name: "Aziziani a Piede Libero!"
  distar.1083.desc: "I gasteropodi Aziziani tenuti nello zoo di [Root.GetName] sono riusciti a fuggire! Le creature, che credevamo aver raggiunto la piena maturità, hanno continuato a crescere in cattività fino a raggiungere proporzioni mostruose. Hanno devastato la città, abbattendo edifici come fossero torri giocattolo, e lasciandosi dietro una scia di muco tossico giallo. Il pianeta non sarà mai più lo stesso."
@@ -2433,7 +2433,7 @@
  living_sea_poi: "Promulga la Decisione §YStudio del Mare Vivente§! su §Y[living_planet_tar.GetName]§!"
  living_sea_poi_desc: "Dovremmo promulgare la Decisione planetaria §YStudio del Mare Vivente§! su §Y[living_planet_tar.GetName]§!. §Y[living_planet_tar.GetName]§! deve trovarsi all'interno dei nostri confini."
  living_sea_decision: "Decisione §YStudio del Mare Vivente§! Promulgata"
- NAME_Ketling_Army: "Armata Ketling"
+ NAME_Ketling_Army: "Esercito Ketling"
  ketling_army: "$NAME_Ketling_Army$"
 
 ## IN technology_l_english.yml
