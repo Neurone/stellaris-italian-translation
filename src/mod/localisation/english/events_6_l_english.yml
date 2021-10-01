@@ -174,7 +174,7 @@
  ancrel.11020.desc:0 "Appena iniziano ad armeggiare con la macchina, sono improvvisamente assaliti da un'allucinazione uditiva condivisa: un comando urlante di qualcosa che deve essere dissotterrato, liberato. Le visioni di una creatura che fa a pezzi il sistema [From.System.GetName] si ripetono nelle loro teste, mentre le richieste della creatura diventano sempre più insistenti. Molti degli scienziati cadono svenuti, incapaci di affrontare le ondate incessanti di dolore psionico che tormentano i loro corpi."
  ancrel.11020.a:0 "Distruggete la macchina prima che possa causare altri danni!"
  ancrel.11020.b:0 "LASCIATELO USCIRE!"
- ancrel.11020.tt:0 "Un §Y$NAME_Eldritch_Horror$§! sarà liberato nel sistema §Y[From.System.GetName]§!"
+ ancrel.11020.tt:0 "Un §Y$NAME_Eldritch_Horror$§! sarà liberato nel sistema §Y[eldritch_location.GetName]§!"
 
 
  ancrel.11025.desc:0 "FINALMENTE...\n\nINCHINATEVI MORTALI, STRISCIATE DAVANTI A ME, E IO VI CONCEDERÒ PROTEZIONE E SAGGEZZA.\n\nOPPONETEVI A ME, E IO SARÒ LA VOSTRA FINE!"
