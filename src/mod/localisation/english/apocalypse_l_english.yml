@@ -344,7 +344,7 @@
  bombed_to_tomb_world:0 "§Y[From.GetName] è ora un Pianeta Sepolcro senza vita.§!"
 
  god_rayed:0 "Luce Divina"
- god_rayed_desc:0 "Gli effetti del Costrittore Divino sciamano nell'atmosfera, nel suolo, nella flora e nella fauna locali."
+ god_rayed_desc:0 "Gli effetti dell'Esecutore Divino permangono nell'atmosfera, nel suolo, nella flora e nella fauna locali."
  uneasy_faith:0 "Fede Incerta"
  uneasy_faith_desc:0 "La popolazione è in qualche modo consapevole che il loro fervore religioso non proviene interamente da loro stessi."
  neutron_bombarded:0 "Bombardamento Neutronico"

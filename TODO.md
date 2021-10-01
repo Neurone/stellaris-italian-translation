@@ -33,6 +33,12 @@ Leader Pool => Elenco Leader Disponibili
 
 POP => Pop
 
+Sapienti -> Senzienti
+
+Contingente -> Contingenza
+
+Amenities -> Comodità (più che servizi "generici")
+
 -----------------------------
 
 ..\..\transifex-client\dist\tx config mapping-bulk -p stellaris-italian-translation --source-language en --type "YML GENERIC" -f ".yml" --source-file-dir src/transifex-en --expression "src/transifex-<lang>/{filename}{extension}" --execute

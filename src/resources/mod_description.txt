@@ -2,10 +2,12 @@ Questo mod, [b]compatibile con la modalità Ironman e gli achievement di Steam[/
 
 Versione supportata: Lem v3.1.*
 
-Grazie a Nefando, AndryRock e Daddie2 sono attualmente tradotti tutti i DLC fino a Lithoids Species Pack, una prima versione corposa del DLC Federations e parte di Nemesis!
+Sono attualmente tradotti tutti i DLC tranne [b]Federations[/b] (in progress) e [b]Nemesis[/b] (iniziato). In revisione MegaCorp e alcune stringhe di evento.
+
+Grazie a tutta la comunità per i contributi alle traduzioni, e in particolare a [url=https://github.com/Nefando]Nefando[/url], [url=https://github.com/AR-9217]AndryRock[/url] e [url=https://github.com/Daddie2]Daddie2[/url].
 
 Per contribuire, suggerire modifiche o aggiornamenti alla traduzione potete utilizzare il [url=https://www.transifex.com/internet-of-peers/stellaris-italian-translation]progetto dedicato su Transifex[/url] (sono ben accette proposte di collaborazione e correzioni anche minime ^^) oppure, se siete più avvezzi con gli strumenti di programmazione, direttamente mandando una pull request direttamente sul [url=https://github.com/Neurone/stellaris-italian-translation]repository GitHub[/url]. Sempre su GitHub trovate tutti i dettagli di come fare e come creare eventualmente il vostro mod personalizzato.
 
 [b]NOTA BENE[/b]: a causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, [u]per poter conservare la modalità Ironman e achievement non è possibile tradurre completamente tutte le frasi presenti nel gioco[/u] (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.). Inoltre, per facilitare il confronto con il resto del mondo, [b]non sono tradotti volutamente i nomi degli achievement[/b] ma solo la loro descrizione. Se avete già completato gli achievement e la modalità Ironman, o comunque non siete interessati alla cosa, usate il [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2377568450]mod di MM_Winther[/url] per [b]un'esperienza di traduzione completa[/b]!
 
-Questo mod nasce a maggio 2019 partendo dai testi tradotti diligentemente dal team Battle of Paradox Italia ed in particolare dal buon Puxxup - grande lavoro! - non con l'obiettivo di offrire una traduzione alternativa ma con quello di mantenere la compatibilità con achievements e modalità Ironman.
+Ricordo infine che questo mod nasce a maggio 2019 partendo dai testi tradotti diligentemente dal team Battle of Paradox Italia ed in particolare dal buon Puxxup - grande lavoro! Tanta acqua è passata sotto i ponti, e molte traduzioni sono state revisionate o aggiunte, ma è sempre bene ricordare le proprie origini :)
