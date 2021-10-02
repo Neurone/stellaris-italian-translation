@@ -33,7 +33,7 @@ Leader Pool => Elenco Leader Disponibili
 
 POP => Pop
 
-Sapienti -> Senzienti
+Sapienti -> Senzienti (WIP)
 
 Contingente -> Contingenza
 
