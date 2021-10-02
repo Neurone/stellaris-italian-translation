@@ -352,8 +352,8 @@
 
  opinion_cracked_my_world: "Ha Frantumato il Nostro Pianeta"
  opinion_cracked_a_world: "Ha Frantumato un Pianeta"
- opinion_swept_my_world: "Ha Eliminato le Forme di Vita Sapienti del Nostro Pianeta"
- opinion_swept_a_world: "Ha Eliminato le Forme di Vita Sapienti di un Pianeta"
+ opinion_swept_my_world: "Ha Spazzato via il Nostro Mondo"
+ opinion_swept_a_world: "Ha Spazzato via un Mondo"
  opinion_converted_my_world: "Ha Convertito il Nostro Pianeta"
  opinion_converted_a_world: "Ha Convertito un Pianeta"
  opinion_assimilated_my_world: "Ha Assimilato il Nostro Pianeta"
@@ -362,7 +362,7 @@
  opinion_shielded_a_world: "Ha Schermato un Pianeta"
  opinion_cracked_a_primitive_world: "Ha Frantumato un Pianeta Primitivo"
  opinion_cracked_a_primitive_world_phile: "Ha Annientato una Civiltà Primitiva"
- opinion_swept_a_primitive_world: "Ha Eliminato le Forme di Vita Sapienti di un Pianeta Primitivo"
+ opinion_swept_a_primitive_world: "Ha Spazzato via un Mondo Primitivo"
  opinion_swept_a_primitive_world_phile: "$opinion_cracked_a_primitive_world_phile$"
  opinion_assimiliated_a_primitive_world: "Ha Assimilato un Pianeta Primitivo"
  opinion_assimiliated_a_primitive_world_phile: "$opinion_cracked_a_primitive_world_phile$"
@@ -382,8 +382,8 @@
  planet_destruction.101.a.purifexter: "Stupendo."
 
  planet_destruction.301.name: "Frangente Neutronico"
- planet_destruction.301.nobots.desc: "L'ondata neutronica si dissipa, terminando la sua corsa lungo la superficie di [From.GetName]. Le scansioni non rilevano più alcun segno di vita sapiente; la vegetazione, seppur danneggiata, si rinvigorirà col tempo. Alcuni definirebbero il totale annientamento della vita intelligente, pur preservando la materia inanimata, un perverso crimine di guerra.\n\nNoi lo chiamiamo efficienza."
- planet_destruction.301.bots.desc: "L'ondata neutronica si dissipa, terminando la sua corsa lungo la superficie di [From.GetName].\n\nI sensori sonici non rilevano nient'altro che i suoni del vento ed i dolci ronzii della popolazione sintetica sopravvissuta. Tutta la vita organica sapiente è stata spazzata via."
+ planet_destruction.301.nobots.desc: "L'ondata neutronica si dissipa, terminando la sua corsa lungo la superficie di [From.GetName]. Le scansioni non rilevano più alcun segno di vita senziente; la vegetazione, seppur danneggiata, si rinvigorirà col tempo. Alcuni definirebbero il totale annientamento della vita intelligente, pur preservando la materia inanimata, un perverso crimine di guerra.\n\nNoi lo chiamiamo efficienza."
+ planet_destruction.301.bots.desc: "L'ondata neutronica si dissipa, terminando la sua corsa lungo la superficie di [From.GetName].\n\nI sensori sonici non rilevano nient'altro che i suoni del vento ed i dolci ronzii della popolazione sintetica sopravvissuta. Tutta la vita organica senziente è stata spazzata via."
  planet_destruction.301.infested.desc: "L'ondata neutronica si dissipa, terminando la sua corsa lungo la superficie di [From.GetName].\n\nUna veloce scansione conferma che l'ambiente, prima infestato da masse tumultuose e contorte di organici, è ora primo di ogni forma di vita. Rimangono solamente sterili rocce."
 
  planet_destruction.401.name: "Costrizione Divina"
@@ -391,7 +391,7 @@
  planet_destruction.401.tooltip: "Tutti i cittadini §Y$trait_mechanical$§!, le §Y$trait_machine_unit$§! e la POP appartenente ad una §Y$trait_hive_mind$§! vengono §Rdistrutti§! dalla risonanza psionica.\n\nTutta la POP §Yorganica§! rimanente diventa §Y$ethic_spiritualist$§!.\n\nAggiunge il Modificatore §Y$god_rayed$§! a [This.GetName] per §Y10 anni§!:\nAttrazione Etiche Spiritualiste: §Y+999%§!."
 
  planet_destruction.501.name: "Dispersione Nanobotica"
- planet_destruction.501.desc: "La dispersione nanobotica è terminata, ed è stata sufficiente per dominare ciberneticamente tutta la vita organica sapiente di [From.GetName].\n\nNon abbiamo la strumentazione necessaria a misurarlo, ma sappiamo di aver avuto successo. Apriamo i nostri occhi per la prima volta su [From.GetName]. Vediamo noi stessi e siamo osservati da noi stessi.\n\nSulla superficie di [From.GetName], esistiamo solo noi."
+ planet_destruction.501.desc: "La dispersione nanobotica è terminata, ed è stata sufficiente per dominare ciberneticamente tutta la vita organica senziente di [From.GetName].\n\nNon abbiamo la strumentazione necessaria a misurarlo, ma sappiamo di aver avuto successo. Apriamo i nostri occhi per la prima volta su [From.GetName]. Vediamo noi stessi e siamo osservati da noi stessi.\n\nSulla superficie di [From.GetName], esistiamo solo noi."
  planet_destruction.501.tooltip: "Tutta la POP §YOrganica§! ottiene il Tratto §Y$trait_cybernetic$§!."
 
  planet_destruction.610.name: "[outraged_FE.GetName]"
@@ -634,7 +634,7 @@
  apoc.201.a.tooltip: "Il costo in £influence£ Influenza dell'Editto è stato rimborsato."
 
  holy_player_planet: "Pianeta Consacrato"
- holy_player_planet_desc: "Questo pianeta è privo di vita sapiente ed è considerato sacro."
+ holy_player_planet_desc: "Questo pianeta è incontaminato dalla vita senziente e considerato sacro."
  has_holy_player_planet: "Pianeta Venerato"
  has_holy_player_planet_desc: "Abbiamo designato come sacro un pianeta disabitato all'interno dei nostri confini."
 
