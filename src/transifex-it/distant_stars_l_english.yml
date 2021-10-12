@@ -359,7 +359,7 @@
  distar.82.name: "Dio della Morte"
  distar.82.desc: "Dopo aver sovrastato le primitive difese approntate dai nativi su [dead_god_planet.GetName], le nostre forze sono state avvicinate da alcuni inviati del luogo. Sembra che i locali venerino i resti della gigantesca creatura sulla loro luna da generazioni immemori, come un dio della morte. Credono che, un giorno, il loro dio risorgerà e si trasformerà in un dio della rinascita, portando una nuova era di prosperità.\n\nEssendo arrivati dalle stelle con tecnologie al di fuori della loro comprensione, molti locali sembrano essere convinti di trovarsi di fronte agli araldi del loro dio della morte."
  distar.82.a: "Sicuramente ciò volgerà a nostro vantaggio."
- distar.82.a.tt: "Every §H[worshipper_species.GetAdj]§! pop gains the modifier §Y$conviction$§! for §Y240§! months, granting §G+33%§! Happiness and §G+25%§! Resources from £pop£ Jobs."
+ distar.82.a.tt: "Ogni Pop §H[worshipper_species.GetAdj]§! guadagna il modificatore §Y$conviction$§! per §Y240§! mesi, garantendo §G+33%§! Felicità e §G+25%§! Risorse da £pop£ Lavori."
  distar.82.b: "È ridicolo. Non ci presteremo a questa sceneggiata."
  distar.82.c: "Sì, ci manda il vostro dio. Presto vi unirete a lui."
  distar.82.d: "Fateli sparire dal mio pianeta e basta!"
@@ -379,7 +379,7 @@
  distar.92.name: "Estere Esotico"
  distar.92.desc: "[Root.GetSpeciesNamePlural]! Un dono davvero inaspettato. Dobbiamo ammettere di essere stati scettici all'inizio, ma una volta che i nostri scienziati hanno confermato la sicurezza della bevanda, beh, dovevamo assaggiarla.\n\nDobbiamo dirlo, l'esperienza è stata davvero squisita. Un bouquet fruttato, con un sentore acidulo ed un aroma intenso ed implacabile. Ricorda i frutteti di [rum_nation.Capital.GetName] e la vastità dello spazio, tutto in una sola volta.\n\nVi ringraziamo per questo dono. Che roba, un intero pianeta ricolmo della stessa bevanda che distilliamo da secoli!"
  distar.92.a: "I nostri emulatori emozionali sono felici che abbiate apprezzato questa molecola."
- distar.93.name: "Lost in Translation"
+ distar.93.name: "Perso nella Traduzione"
  distar.93.desc: "E questo cosa significa, [Root.GetSpeciesNamePlural]? State cercando di avvelenarci con questa brodaglia? Quanto stupidi ci pensate?\n\nGuardiamarina, gettate il carico nello spazio e chiudete le comunicazioni!"
  distar.93.a: "Errore! Si è verificato un errore di comunicazione."
 
@@ -1149,8 +1149,8 @@
  distar.1070.a: "Dobbiamo andare fino in fondo..."
  distar.1070.b: "Era solo un malfunzionamento."
  distar.1071.name: "Per un attimo..."
- distar.1071.desc: "After a few days of heavy brooding, Science Officer [Root.GetLeaderName] is ready to admit that a mistake was made. There is no hidden pattern in faraway star pulses, no ominous, metaphysical intent. As [Root.GetLeaderName] described it:\n\n§Y'It was paranoia, plain and simple. Illogical, erratic and quite unbecoming of a scientist.'§!\n\nEmbarrassing as it may have been, this blunder was not entirely without benefit, as [Root.GetLeaderName]'s inner conflict led to some valuable self-discovery."
- distar.1071.a: "Good. That's sorted then."
+ distar.1071.desc: "Dopo alcuni giorni di pesante rimuginare, l'ufficiale scientifico [Root.GetLeaderName] è pronto ad ammettere che è stato fatto un errore. Non c'è uno schema nascosto negli impulsi stellari lontani, nessun intento minaccioso e metafisico. Come l'ha descritto [Root.GetLeaderName]:\n\n§Y'Era paranoia, pura e semplice. Illogica, erratica e alquanto sconveniente per uno scienziato.\"§!\n\nPer quanto imbarazzante possa essere stato, questo errore non fu del tutto privo di benefici, poiché il conflitto interiore di [Root.GetLeaderName] portò ad una preziosa scoperta di sé."
+ distar.1071.a: "Bene. A questo punto è tutto risolto."
  distar.1072.name: "Malfunzionamento dei Sensori"
  distar.1072.desc: "Una volta avvicinatisi a [anomalous_star.GetName], i membri dell'equipaggio sono stati in grado di confermare che il problema è in effetti dovuto ai sensori. La buona notizia è che [From.GetLeaderName] sembra aver imparato qualcosa dagli errori passati."
  distar.1072.a: "Il fallimento non è altro che un passo verso il successo."
@@ -1211,8 +1211,8 @@
  # Primordial Soup
  distar.2015.name: "Brodo Primordiale"
  distar.2015.desc: "All'interno di alcune tasche protette sulla superficie di [From.GetName], è presente una densa melma composta da semplici composti organici; i nostri ricercatori credono che possa trattarsi di un focolaio per l'abiogenesi, la formazione spontanea di vita organica dalla materia inanimata. [From.GetName] possiede un'atmosfera insolitamente densa per essere un pianeta sterile, che potrebbe renderlo abitabile per alcune forme di vita basilari.\n\nSebbene questa possa rappresentare un'opportunità unica per osservare quelli che potrebbero essere i primi stadi dell'origine della vita, sarebbe meglio mantenere basse le aspettative, dato che potrebbero volerci milioni di anni prima che la vita possa evolversi, sempre che lo faccia."
- distar.2015.desc.terminator: "Nestled in sheltered pockets across [From.GetName]'s surface is a rich sludge of simple organic compounds that our research drones believe could be a hotbed for abiogenesis - the spontaneous formation of organic life from lifeless matter. [From.GetName] has an unusually thick atmosphere for a barren world, which could make it hospitable for simple lifeforms.\n\nNaturally, this is intolerable to us. We must snuff this cesspool of organic matter out before life has a chance to develop - even if that may lie millions of years in the future!"
- distar.2015.A.machine: "Burn it with fire!"
+ distar.2015.desc.terminator: "Annidato in sacche protette attraverso la superficie di [From.GetName] si trova un ricco fango di semplici composti organici che i nostri droni di ricerca credono possa essere un focolaio di abiogenesi, la formazione spontanea di vita organica da materia senza vita. [From.GetName] ha un'atmosfera insolitamente spessa per un mondo sterile, il che potrebbe renderlo ospitale per forme di vita semplici.\n\nNaturalmente questo per noi è intollerabile. Dobbiamo eliminare questo pozzo nero di materia organica prima che la vita abbia la possibilità di svilupparsi, anche se questo potrebbe avvenire tra milioni di anni!"
+ distar.2015.A.machine: "Dategli fuoco!"
  # Single-Minded
  distar.2020.name: "Un'Unica Mente"
  distar.2020.desc: "Ad una prima occhiata, [Root.From.GetName] sembra essere stato abitato da una pletora di forme di vita. Queste coesistevano in un ecosistema simile al nostro, nel quale i nutrimenti ciclavano nella catena alimentare tramite fotosintesi, decomposizione e predazione.\n\nTuttavia, ad un esame più attento, l'equipaggio ha scoperto che anche se tutti gli esseri viventi su [Root.From.GetName] possono aver iniziato come singoli individui, ora, per un disegno misterioso, operano come un unico organismo - uno che risponde a tutte le interferenze esterne con un'aggressione feroce e indiscriminata."
@@ -2110,7 +2110,7 @@
 
  leader_trait_governor_gray: "Entità Nanitica"
  leader_trait_governor_gray_desc: "Grigio è in realtà un denso sciame composto da miliardi di avanzati naniti."
- gray_army: "Armata Nanitica"
+ gray_army: "Costrutto di Guerra Nanitico"
  gray_warship: "Nave da Guerra Grigia"
  graygoo.500.title: "Grigio"
  graygoo.500.a.desc: "Iniziamo?"
