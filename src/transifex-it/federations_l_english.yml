@@ -2555,7 +2555,7 @@
  origin.91.name: "The Destruction of [From.From.GetName]"
  origin.91.desc: "$origin.90.intro.desc$\n\n$origin.91.1$"
  origin.91.1: "Thanks to a massive evacuation effort, the planet had been completely abandoned prior to its destruction. No lives are believed to have been lost."
- origin_91.a: "Good for them."
+ origin_91.a: "Buon per loro."
 
 
  doomsday_1: "Doomsday"
