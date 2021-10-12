@@ -1375,7 +1375,7 @@
  colony.1502.a.tooltip:0 "I droni hanno rimosso un £blocker£ §YOstacolo§! dalla superficie, lasciando inalterato il resto del pianeta.\n"
  colony.1503.name:0 "Antichi Droni: Raggiungendo Antichi Cieli"
  colony.1503.desc:0 "I vecchi droni dormienti sulla luna di [Root.GetName] si sono riattivati, ed il loro lavoro è una benedizione.\n\nDurante la notte hanno eretto l'impalcatura di una struttura gigantesca, a due passi dal nostro insediamento principale su [Root.GetName]. I nostri tecnici sono convinti che stiano realizzando un obsoleto progetto conosciuto come "ascensore spaziale", una strada che forse tentammo anche noi prima di raggiungere le stelle. Dovrà essere raso al suolo, in quanto è d'impaccio per l'espansione coloniale, cosa che sicuramente richiederà del tempo. Almeno i nostri ingegneri sono eccitati per la prospettiva di poter studiare la struttura da vicino."
- colony.1503.a:0 "Bene."
+ colony.1503.a:0 "Buon per loro."
  colony.1504.name:0 "Antichi Droni: Generosità Spontanea"
  colony.1504.desc:0 "Dopo essersi nuovamente risvegliati, i droni sono scomparsi per breve tempo dai sensori. Quando hanno fatto ritorno, hanno trasportato una grande scorta di minerali d'origine sconosciuta, che hanno scaricato sulla superficie di [Root.GetName], dopo aver inviato una trasmissione in cui indicavano il completamento della missione.\n\nQuindi sono tornati sulla luna."
  colony.1504.a:0 "Minerali gratis. Niente da ridire."
