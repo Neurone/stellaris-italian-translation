@@ -126,7 +126,7 @@
  tr_domination_synaptic_network_delayed: "La velocità d'elaborazione della Mente è strettamente legata a quella con la quale riceve dati ed informazioni dai droni che controlla. Con una rete sinaptica più veloce ed efficiente, i ritardi nei tempi di risposta saranno una cosa del passato."
 
  tr_domination_imperious_architecture: "Architettura Imperiosa"
- tr_domination_imperious_architecture_desc: "£building£ §YCapitali§! ed £building£ §YAbitazioni§! forniscono ognuna §G+1§! alle £housing£ §Y$MOD_PLANET_HOUSING_ADD$§!."
+ tr_domination_imperious_architecture_desc: "£building£ §YCapitali§! ed £building£ §YEdifici Abitativi§! forniscono ognuna §G+1§! alle £housing£ §Y$MOD_PLANET_HOUSING_ADD$§!."
  tr_domination_imperious_architecture_delayed: "Ogni edificio governativo del nostro grandioso impero deve rappresentare un monumento alla nostra grandezza, incombendo sulla popolazione per ispirare obbedienza, lealtà e timore reverenziale."
  tr_domination_synaptic_extensions: "Estensioni Sinaptiche"
  tr_domination_synaptic_extensions_desc: "Gli £building£ §Y$building_hive_node$§! aumentano anche le £housing£ §Y$MOD_PLANET_HOUSING_ADD$§! di §Y2§!."
