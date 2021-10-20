@@ -6,14 +6,14 @@ Basato sulla versione: **Lem v3.1.2**
 
 Di seguito trovate l'attuale stato di traduzione del gioco base e dei DLC, ordinati per data di uscita.
 
-| Uscita | DLC | Stato traduzione |
+| Uscita | DLC | Stato Traduzione |
 |--|--|--|
 |2021.04.15| Nemesis| **Iniziale**|
 |2020.10.29| Pacchetto Specie - Necroids| Completa|
 |2020.03.17| Federations| **Parziale**|
 |2019.10.24| Pacchetto Specie - Lithoids| Completa|
 |2019.06.04| Pacchetto Narrativo - Ancient Relics| Completa|
-|2018.12.06| MegaCorp| **In revisione**|
+|2018.12.06| MegaCorp| Completa, **in revisione**|
 |2018.05.22| Pacchetto Narrativo - Distant Stars| Completa|
 |2018.02.22| Apocalypse| Completa|
 |2017.12.07| Pacchetto Specie - Humanoids| Completa|
@@ -21,7 +21,7 @@ Di seguito trovate l'attuale stato di traduzione del gioco base e dei DLC, ordin
 |2017.04.06| Utopia| Completa|
 |2016.10.20| Pacchetto Narrativo - Leviathans| Completa|
 |2016.08.04| Pacchetto Specie - Plantoids| Completa|
-|2016.05.09| Stellaris Base| **In revisione**|
+|2016.05.09| Stellaris Base| Completa, **in revisione**|
 
 A causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, **per poter conservare la modalità Ironman e achievement non è possibile tradurre completamente tutte le frasi presenti nel gioco** (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.). Inoltre, per facilitare il confronto con il resto del mondo, **non sono tradotti volutamente i nomi degli achievement ma solo la loro descrizione**. Se avete già completato gli achievement e la modalità Ironman, o comunque non siete interessati alla cosa, potete in alternativa utilizzare il [mod di MM_Winther](https://steamcommunity.com/sharedfiles/filedetails/?id=2377568450) per un'esperienza di traduzione completa.
 
