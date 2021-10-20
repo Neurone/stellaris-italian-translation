@@ -4,7 +4,7 @@ Questo mod, **compatibile** con la **modalità Ironman** e gli **achievement di 
 
 Basato sulla versione: **Lem v3.1.2**
 
-Di seguito trovate l'attuale stato di traduzione del gioco base e dei DLC (ordinati per data di uscita).
+Di seguito trovate l'attuale stato di traduzione del gioco base e dei DLC, ordinati per data di uscita.
 
 | Uscita | DLC | Stato traduzione |
 |--|--|--|
