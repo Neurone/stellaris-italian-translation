@@ -1,10 +1,7 @@
-
-|federations_anniversary_l_english.yml, in progress traduzione
+federations_l_english.yml in fase di traduzione
 
 |events_2_l_english.yml| **in revisione**|
 
-|federations_anniversary_l_english.yml| **parziale**|
-|federations_l_english.yml| **parziale**|
 |l_english.yml| **parziale**|
 |megacorp_l_english.yml| **parziale**|
 
