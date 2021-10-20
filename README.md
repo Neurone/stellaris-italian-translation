@@ -6,7 +6,7 @@ Basato sulla versione: **Lem v3.1.2**
 
 Oltre al gioco base aggiornato alla versione di cui sopra, di seguito trovate l'attuale stato di traduzione dei DLC (ordinati per data di uscita).
 
-| Uscita | DLC | stato traduzione |
+| Uscita | DLC | Stato traduzione |
 |--|--|--|
 |2021.04.15| Nemesis| **iniziale**|
 |2020.10.29| Pacchetto Specie - Necroids| completo|
