@@ -44,7 +44,7 @@ Di seguito l'attuale stato di traduzione del gioco base e dei DLC, ordinati per 
 	[tr]
         [td]2018.12.06[/td]
         [td]MegaCorp[/td]
-		[td][b]Completa, in revisione[/b][/td]
+		[td]Completa, [b]in revisione[/b][/td]
     [/tr]
 	[tr]
         [td]2018.05.22[/td]
@@ -84,7 +84,7 @@ Di seguito l'attuale stato di traduzione del gioco base e dei DLC, ordinati per 
 	[tr]
         [td]2016.05.09[/td]
         [td]Stellaris Base[/td]
-		[td][b]Completa, in revisione[/b][/td]
+		[td]Completa, [b]in revisione[/b][/td]
     [/tr]
 [/table]
 
