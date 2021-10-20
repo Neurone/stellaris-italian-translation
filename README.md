@@ -2,7 +2,7 @@
 
 Questo mod, **compatibile** con la **modalità Ironman** e gli **achievement di Steam**, sostituisce la lingua inglese con la lingua italiana.
 
-Basato sulla versione: **Lem v3.1.1**
+Basato sulla versione: **Lem v3.1.2**
 
 Oltre al gioco base aggiornato alla versione di cui sopra, di seguito trovate l'attuale stato di traduzione dei DLC (ordinati per data di uscita).
 
