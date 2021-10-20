@@ -3309,7 +3309,7 @@
  FED_THE_BAREST_MINIMUM: "Give them the barest minimum to comply."
  FED_WE_WILL_RETAIN: "We will retain our current policies."
  FED_WE_WILL_NOT_SUBMIT: "We will not submit!"
- FED_WE_WILL_BE_IN_BREACH: "Our Empire will be in §RBreach of Galactic Law§!."
+ FED_WE_WILL_BE_IN_BREACH: "Il nostro Impero sarà in §RViolazione della Legge Galattica§!"
 
  federations.10100.desc: "The [global_event_country.GetGalCommunityOrGalImperium] has passed the §Y$resolution_galacticstudies_advanced_xenostudies$§! resolution, forbidding empires from §Youtlawing AI§! or holding §Ynon-interference policies§! relating to primitives.\n\nOur Empire is currently in breach of this resolution. Shall we change our policies to be in compliance?"
  federations.10100.change_ai: "Our Empire will change our §Y$policy_artificial_intelligence_policy$§! policy to §Y$ai_servitude$§!."
