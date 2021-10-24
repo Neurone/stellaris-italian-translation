@@ -14,7 +14,7 @@
  origin_mechanists_desc: "Questa civiltà si è preoccupata dell'idea di automi metallici fin dall'inizio dell'Età del Vapore. Anche se molti dicevano che non si poteva fare, i primi veri robot sono usciti dalle catene di montaggio molto prima che fosse realizzato anche solo un rudimentale volo spaziale."
  origin_tooltip_mechanists_effects: "- Comincia la partita con §Y8§! £pop£ Pop robot, e con la tecnologia e l'infrastruttura per costruirne altri"
  origin_syncretic_evolution: "$civic_syncretic_evolution$"
- origin_syncretic_evolution_desc: "Una seconda specie costituisce una integrante di questa civiltà. Sono grandi, forti e la maggior parte di loro ha l'intelligenza di un bambino particolarmente ottuso. Antiche guerre hanno privato la loro specie delle tendenze più aggressive, lasciandoli piuttosto servili."
+ origin_syncretic_evolution_desc: "Una seconda specie costituisce una parte integrante di questa civiltà. Sono grandi, forti e la maggior parte di loro ha l'intelligenza di un bambino particolarmente ottuso. Antiche guerre hanno privato la loro specie delle tendenze più aggressive, lasciandoli piuttosto servili."
  origin_life_seeded: "$civic_life_seeded$"
  origin_life_seeded_desc: "Questa civiltà si è evoluta in un paradiso, forse progettato solo per loro."
  origin_post_apocalyptic: "$civic_post_apocalyptic$"
@@ -33,7 +33,7 @@
  origin_lithoid_desc: "Non nativi del loro \"Pianta Natale\", questi Litoidi vi sono arrivati quando un meteorite si è abbattuto sul pianeta e ha ucciso la maggior parte della vita nativa."
  origin_tooltip_lithoid_effects: "- Comincia con un deposito §HEnorme Cratere§! sul tuo pianeta natale, che fornisce distretti totali e distretti minerari addizionali.\nPuò costruire §HNavi Colonia Meteoriche§! che viaggiano a grande velocità ma danneggiano i loro pianeti bersaglio."
  origin_machine: "Consolidamento delle Risorse"
- origin_machine_desc: "Questa Macchina Intelligente ha da tempo consolidato tutte le risorse del suo sistema d'origine nel suo mondo capitale, ricoprendolo interamente di Macchinari."
+ origin_machine_desc: "Questa Intelligenza Meccanica ha da tempo consolidato tutte le risorse del suo sistema d'origine nel suo mondo capitale, ricoprendolo interamente di Macchinari."
  origin_tooltip_machine_effects: "- Comincia con un §HMondo Meccanico§! come pianeta natale"
 
  d_arcane_generator: "Generatore Arcano"
