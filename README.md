@@ -8,7 +8,7 @@ Di seguito trovate l'attuale stato di traduzione del gioco base e dei DLC, ordin
 
 | Uscita | DLC | Stato Traduzione |
 |--|--|--|
-|2021.04.15| Nemesis| **Iniziale**|
+|2021.04.15| Nemesis| **Parziale**|
 |2020.10.29| Pacchetto Specie - Necroids| Completa|
 |2020.03.17| Federations| **Parziale**|
 |2019.10.24| Pacchetto Specie - Lithoids| Completa|
@@ -23,11 +23,11 @@ Di seguito trovate l'attuale stato di traduzione del gioco base e dei DLC, ordin
 |2016.08.04| Pacchetto Specie - Plantoids| Completa|
 |2016.05.09| Stellaris Base| Completa, **in revisione**|
 
-A causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, **per poter conservare la modalità Ironman e achievement non è possibile tradurre completamente tutte le frasi presenti nel gioco** (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.). Inoltre, per facilitare il confronto con il resto del mondo, **non sono tradotti volutamente i nomi degli achievement ma solo la loro descrizione**. Se avete già completato gli achievement e la modalità Ironman, o comunque non siete interessati alla cosa, potete in alternativa utilizzare il [mod di MM_Winther](https://steamcommunity.com/sharedfiles/filedetails/?id=2377568450) per un'esperienza di traduzione completa.
+A causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, **per poter conservare la modalità Ironman e achievement non è possibile tradurre completamente tutte le frasi presenti nel gioco** (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.). Inoltre, per facilitare il confronto con il resto del mondo, **non sono tradotti volutamente i nomi degli achievement ma solo la loro descrizione**.
 
-Grazie a tutta la comunità per i contributi alle traduzioni, e in particolare a [Nefando](https://github.com/Nefando), [AndryRock](https://github.com/AR-9217) e [Daddie2](https://github.com/Daddie2).
+Grazie a tutta la comunità per i contributi alle traduzioni, e in particolare a [Nefando](https://github.com/Nefando), [AndryRock](https://github.com/AR-9217), [Daddie2](https://github.com/Daddie2) e [anthx80](https://github.com/anthx80).
 
-Ricordo infine che questo mod nasce a maggio 2019 partendo dai testi tradotti diligentemente dal team Battle of Paradox Italia ed in particolare dal buon Puxxup - grande lavoro! Tanta acqua è passata sotto i ponti, e molte traduzioni sono state revisionate o aggiunte, ma è sempre bene ricordare le proprie origini :)
+Ricordo infine che ho creato questo mod a maggio 2019 partendo dai testi diligentemente tradotti dal team Battle of Paradox Italia, ed in particolare dal buon [Puxxup](url=https://steamcommunity.com/profiles/76561198030059915), perché volevo creare una versione compatibile con Ironman e achievement di Steam. Tanta acqua è passata sotto i ponti, nuovi DLC sono usciti, molte traduzioni sono state revisionate e aggiunte, e il mod ha preso quindi da tempo una strada tutta sua, ma è sempre bene ricordare le proprie origini, ed è per questo che troverete citati nei credits in-game anche il team BoPI, Puxxup e diversi altri traduttori.
 
 ## Contribuire alla traduzione
 
@@ -80,7 +80,7 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |necroids_l_english.yml| completa|
 |nemesis_content_l_english.yml| **da tradurre**|
 |nemesis_crisis_l_english.yml| completa|
-|nemesis_custodian_l_english.yml| **da tradurre**|
+|nemesis_custodian_l_english.yml| **in revisione**|
 |nemesis_espionage_l_english.yml| **da tradurre**|
 |nemesis_intel_l_english.yml| **parziale**|
 |observer_events_l_english.yml| completa|

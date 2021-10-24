@@ -2,7 +2,7 @@ Questo mod, [b]compatibile con la modalità Ironman e gli achievement di Steam[/
 
 Versione supportata: Lem v3.1.*
 
-Grazie a tutta la comunità per i contributi alle traduzioni, e in particolare a [url=https://github.com/Nefando]Nefando[/url], [url=https://github.com/AR-9217]AndryRock[/url] e [url=https://github.com/Daddie2]Daddie2[/url].
+Grazie a tutta la comunità per i contributi alle traduzioni, e in particolare a [url=https://github.com/Nefando]Nefando[/url], [url=https://github.com/AR-9217]AndryRock[/url], [url=https://github.com/Daddie2]Daddie2[/url] e [url=https://github.com/anthx80]anthx80[/url]
 
 Per contribuire, suggerire modifiche o aggiornamenti alla traduzione potete utilizzare il [url=https://www.transifex.com/internet-of-peers/stellaris-italian-translation]progetto dedicato su Transifex[/url]. Sono ben accette proposte di collaborazione e correzioni anche minime.
 
@@ -19,7 +19,7 @@ Di seguito l'attuale stato di traduzione del gioco base e dei DLC, ordinati per 
     [tr]
         [td]2021.04.15[/td]
         [td]Nemesis[/td]
-		[td][b]Iniziale[/b][/td]
+		[td][b]Parziale[/b][/td]
     [/tr]
 	[tr]
         [td]2020.10.29[/td]
