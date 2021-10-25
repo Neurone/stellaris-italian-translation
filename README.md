@@ -31,7 +31,7 @@ Ricordo infine che ho creato questo mod a maggio 2019 partendo dai testi diligen
 
 ## Contribuire alla traduzione
 
-**Se non siete avvezzi all'utilizzo di git o GitHub per la modifica dei file, potete utilizzare in alternativa il progetto dedicato su [Transifex](https://www.transifex.com/internet-of-peers/stellaris-italian-translation)**.
+**Lo strumento principale per contribuire al progetto è [Transifex](https://www.transifex.com/internet-of-peers/stellaris-italian-translation)**. Potete utilizzare comunque anche Github e proporre direttamente pull request su questo repository: utilizzate le informazioni riportate di seguito riportate per maggiori dettagli su come fare. 
 
 Paradox aggiorna spesso i propri prodotti, non solo aggiungendo nuovi DLC e nuovi dialoghi, ma anche correggendo dove e quando serve quelli vecchi. Questo significa che è difficile avere una traduzione sempre aggiornata al 100% all'ultima release, quindi ogni aiuto con le traduzioni è ben accetto :)
 
@@ -39,7 +39,7 @@ Per come è strutturato il gioco, e poiché questo mod vuole mantenere gli achie
 
 ### Stato della traduzione
 
-Di seguito i file principali e lo stato della loro traduzione rispetto alla versione v3.0.3 del gioco:
+Di seguito i file principali e lo stato della loro traduzione rispetto alla versione v3.1.2 del gioco:
 
 | nome file | stato traduzione |
 |--|--|
@@ -109,9 +109,9 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |utopia_megastructures_l_english.yml| completa|
 |void_dweller_traditions_l_english.yml| completa|
 
-### Cosa posso modificare?
+### Cosa posso modificare su Github?
 
-Tutto quello che trovate qui su GitHub è già traducibile senza rischi di disattivare la modalità Ironman e gli achievement, e in particolare i file che verranno sovrapposti a quelli del gioco si trovano tutti all'interno del percorso [src/mod](/src/mod).
+Tutto quello che trovate qui su GitHub all'interno del percorso [src/mod](/src/mod) è già traducibile senza rischi di disattivare la modalità Ironman e gli achievement.
 
 Se dovesse servire invece aggiungere un file non ancora presente su questo repository, prima di modificarlo bisogna assicurarsi che non sia incluso nella lista di file che vengono controllati all'avvio del gioco.
 
