@@ -31,7 +31,9 @@ Ricordo infine che ho creato questo mod a maggio 2019 partendo dai testi diligen
 
 ## Contribuire alla traduzione
 
-**Lo strumento principale per contribuire al progetto è [Transifex](https://www.transifex.com/internet-of-peers/stellaris-italian-translation)**. Potete utilizzare comunque anche Github e proporre direttamente pull request su questo repository: utilizzate le informazioni riportate di seguito riportate per maggiori dettagli su come fare. 
+**Lo strumento principale per contribuire al progetto è [Transifex](https://www.transifex.com/internet-of-peers/stellaris-italian-translation)**.
+
+Potete utilizzare comunque anche Github e proporre direttamente pull request su questo repository: utilizzate le informazioni riportate di seguito riportate per maggiori dettagli su come fare. 
 
 Paradox aggiorna spesso i propri prodotti, non solo aggiungendo nuovi DLC e nuovi dialoghi, ma anche correggendo dove e quando serve quelli vecchi. Questo significa che è difficile avere una traduzione sempre aggiornata al 100% all'ultima release, quindi ogni aiuto con le traduzioni è ben accetto :)
 
