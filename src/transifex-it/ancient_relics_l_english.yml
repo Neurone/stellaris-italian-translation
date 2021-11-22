@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  minor_artifacts: "Artefatti Minori"
  minor_artifacts_desc: "Gli Artefatti Minori ( £minor_artifacts£ ) rappresentano tecnologie oscure e conoscenze quasi dimenticate recuperate da civiltà arcaiche, solo parzialmente comprese dalla nostra competenza scientifica. Sono più comuni delle Reliquie e possono essere utilizzati per attivare diversi effetti imperiali."
  artifact_actions: "Azioni degli Artefatti"
@@ -526,7 +526,7 @@ l_english:
  relic_galatron_active: "Il Galatron rigurgita casualmente risorse."
  relic_surveyor_active: "Scansiona i pianeti del nostro territorio in cerca di nuovi depositi di risorse."
 
- #Reliquie
+ #Relics
  r_dragon_trophy: "Trofeo del Drago Etereo"
  r_dragon_trophy_desc: "Un trofeo commemorativo per la nostra vittoria contro l'atroce Drago Etereo. Se non fosse per le sue immense dimensioni, starebbe benissimo appeso al muro."
  r_khans_throne: "Trono del Khan"
