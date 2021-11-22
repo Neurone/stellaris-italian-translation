@@ -21,6 +21,7 @@
  MUSICPLAYER_DECREASE_VOL: "Decrease volume"
  MUSICPLAYER_ADJUST_VOL: "Adjust volume"
  MUSICPLAYER_SAVE: "Save"
+ MUSIC_CONTROLS_TOGGLE_VISIBLE: "§HToggle Music Player controls§!"
 
  # Base Music Tracks
  maintheme: "Creation and Beyond"

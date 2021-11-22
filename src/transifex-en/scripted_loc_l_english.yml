@@ -34,6 +34,13 @@
  drone_key: "drone"
  unit_key: "unit"
 
+ getterraformer_machine: "terraforming unit"
+ getterraformer_machine_plural: "terraforming units"
+ getterraformer_hive: "terraforming drone"
+ getterraformer_hive_plural: "terraforming drones"
+ getterraformer_normal: "terraforming specialist"
+ getterraformer_normal_plural: "terraforming specialists"
+
  monsteronship_desc: "A savage creature has invaded our science ship and is trying to kill the crew. They won't last long without assistance from the military!"
  monsteronship_mach_desc: "A savage organic beast has invaded our science ship and is trying to destroy our crew units. They won't last long without assistance from the military!"
 

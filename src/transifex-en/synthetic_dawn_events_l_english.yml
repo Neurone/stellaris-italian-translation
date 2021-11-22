@@ -98,6 +98,7 @@
  syndaw_congregating_robots_desc: "They just stand there. Completely still. Staring."
 
  uprising_ai_buff: "Optimizing Reserves"
+ country_ai_uprising: "$uprising_ai_buff$"
 
  syndaw_patched_systems: "AIs Patched"
 

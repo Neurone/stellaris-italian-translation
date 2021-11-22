@@ -5,6 +5,7 @@ federations_l_english.yml in fase di traduzione
 |l_english.yml| **parziale**|
 |megacorp_l_english.yml| **parziale**|
 
+|aquatics_l_english.yml| **da tradurre**|
 |nemesis_content_l_english.yml| **da tradurre**|
 |nemesis_custodian_l_english.yml| **da tradurre**|
 |nemesis_espionage_l_english.yml| **da tradurre**|

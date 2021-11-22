@@ -1,15 +1,13 @@
-﻿Saluti!
+﻿Saluti invernali!
 
-I Custodi sono arrivati!
+È novembre, e quindi vi presentiamo una nuova patch Custode!
 
-Ancora più libertà nel dare forma al tuo impero, sono stati infatti aggiunti al gioco gli Alberi delle Tradizioni Selezionabili. Questo significa che ora è possibile selezionare le tradizioni che si desidera perseguire nel corso del gioco, scegliendo tra quelle già esistenti o alcune delle nuove tradizioni aggiunte con questo aggiornamento.
+Dando nuova vita a storie già raccontate molte volte, abbiamo aggiunto uno smörgåsbord di nuove anomalie ed eventi all'inizio del gioco per rinnovare la vostra esperienza.
 
-Diverse Origini e Scelte Civiche, come Anello In Frantumi e Necrofagia, sono state ribilanciate affinché siano più allineate alle altre o per sbloccare combinazioni che prima non erano permesse (Alveari Necrofagi).
+Per gli aficionados degli umanoidi, stiamo aggiungendo una nuova scelta civica al DLC Humanoids, i Puristi Pomposi.
 
-Con questa patch abbiamo anche aggiunto nuovi contenuti a diversi DLC esistenti, in particolare ai Pacchetti Specie Plantoids e Humanoids, con una nuova origine e diversi nuove scelte civiche e tratti di specie.
-
-Inoltre, abbiamo incluso molti bugfix e piccoli miglioramenti che potete trovare in dettaglio nelle nostre note della patch.
+Inoltre, abbiamo incluso molte correzioni di errori e piccoli miglioramenti, tra cui una serie di correzioni grafiche, miglioramenti dell'IA e ottimizzazioni delle prestazioni, che potete trovare in dettaglio nelle nostre note sulla patch.
 
 ---
 
-I salvataggi delle versioni precedenti potrebbero non essere compatibili con la versione 3.1. Se desideri continuare il tuo vecchio salvataggio nella versione 3.0.4, segui il link del forum qui sotto e leggi il thread "Come riportare Stellaris a una versione precedente".
+I salvataggi delle versioni precedenti potrebbero non essere compatibili con la versione 3.2. Se desideri continuare il tuo vecchio salvataggio nella versione 3.1, segui il link del forum qui sotto e leggi il thread "Come riportare Stellaris a una versione precedente".

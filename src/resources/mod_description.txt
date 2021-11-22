@@ -1,6 +1,6 @@
 Questo mod, [b]compatibile con la modalità Ironman e gli achievement di Steam[/b], sostituisce la lingua inglese con la lingua italiana.
 
-Versione supportata: Lem v3.1.*
+Versione supportata: Herbert v3.2.*
 
 Grazie a tutta la comunità per i contributi alle traduzioni, e in particolare a [url=https://github.com/Nefando]Nefando[/url], [url=https://github.com/AR-9217]AndryRock[/url], [url=https://github.com/Daddie2]Daddie2[/url] e [url=https://github.com/anthx80]anthx80[/url]
 
@@ -15,6 +15,11 @@ Di seguito l'attuale stato di traduzione del gioco base e dei DLC, ordinati per 
         [th]Uscita[/th]
         [th]DLC[/th]
 		[th]Stato Traduzione[/th]
+    [/tr]
+    [tr]
+        [td]2021.11.22[/td]
+        [td]Pacchetto Specie - Aquatics[/td]
+		[td][b]Da tradurre[/b][/td]
     [/tr]
     [tr]
         [td]2021.04.15[/td]

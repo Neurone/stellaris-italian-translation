@@ -2,12 +2,13 @@
 
 Questo mod, **compatibile** con la **modalità Ironman** e gli **achievement di Steam**, sostituisce la lingua inglese con la lingua italiana.
 
-Basato sulla versione: **Lem v3.1.2**
+Basato sulla versione: **Herbert v3.2.1**
 
 Di seguito trovate l'attuale stato di traduzione del gioco base e dei DLC, ordinati per data di uscita.
 
 | Uscita | DLC | Stato Traduzione |
 |--|--|--|
+|2021.11.22| Pacchetto Specie - Aquatics| **Da tradurre**|
 |2021.04.15| Nemesis| **Parziale**|
 |2020.10.29| Pacchetto Specie - Necroids| Completa|
 |2020.03.17| Federations| **Parziale**|
@@ -50,6 +51,7 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |ancient_relics_events_l_english.yml| completa|
 |ancient_relics_l_english.yml| completa|
 |apocalypse_l_english.yml| completa|
+|aquatics_l_english.yml| **da tradurre**|
 |clone_army_l_english.yml| completa|
 |dip_messages_l_english.yml| completa|
 |diplo_stances_l_english.yml| completa|

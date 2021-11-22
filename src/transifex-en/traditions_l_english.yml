@@ -691,10 +691,12 @@
  tr_unyielding_never_surrender_gestalt_delayed: "We will never yield to those who are inferior. Let them hurl themselves against our unbreakable defenses! A thousand years from now, they will be just another footnote in the story of our ascension."
 
  tr_unyielding_bulwark_of_harmony: "Bulwark of Harmony"
- tr_unyielding_bulwark_of_harmony_gestalt: "$tr_unyielding_bulwark_of_harmony$"
+ tr_unyielding_bulwark_of_harmony_hive: "$tr_unyielding_bulwark_of_harmony$"
+ tr_unyielding_bulwark_of_harmony_machine: "$tr_unyielding_bulwark_of_harmony$"
  tr_unyielding_bulwark_of_harmony_desc: "While in a defensive war with another empire, §Y$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$§! is increased by §G+33%§!. In addition, the §Y$MOD_SHIP_FIRE_RATE_MULT$§! is increased by §G+15%§! for ships within your borders."
  tr_unyielding_bulwark_of_harmony_delayed: "All organisms, no matter how perfect, must rely on an immune system to ward off the threat of outside disease. Our society is no different."
- tr_unyielding_bulwark_of_harmony_gestalt_delayed: "All organisms, no matter how perfect, must rely on an immune system to ward off the threat of outside disease. The [This.GetName] is no different."
+ tr_unyielding_bulwark_of_harmony_hive_delayed: "All organisms, no matter how perfect, must rely on an immune system to ward off the threat of outside disease. The [This.GetName] is no different."
+ tr_unyielding_bulwark_of_harmony_machine_delayed: "All organisms, no matter how perfect, must rely on an internal defense system to ward off external threats. The [This.GetName] is no different."
 
  tr_unyielding_defensive_zeal: "Defensive Zeal"
  tr_unyielding_defensive_zeal_delayed: "When it comes to the defense of our territories and existence, our fervor will surely be felt by our enemies."
