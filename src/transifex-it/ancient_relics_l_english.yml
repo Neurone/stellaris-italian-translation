@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  minor_artifacts: "Artefatti Minori"
  minor_artifacts_desc: "Gli Artefatti Minori ( £minor_artifacts£ ) rappresentano tecnologie oscure e conoscenze quasi dimenticate recuperate da civiltà arcaiche, solo parzialmente comprese dalla nostra competenza scientifica. Sono più comuni delle Reliquie e possono essere utilizzati per attivare diversi effetti imperiali."
  artifact_actions: "Azioni degli Artefatti"
@@ -105,9 +105,9 @@
  d_former_relic_world: "Ex Pianeta Reliquia"
  d_former_relic_world_desc: "Questa ecumenopoli un tempo fu un Pianeta Reliquia abbandonato. La maggior parte delle antiche rovine sono state riqualificate o rimosse durante la ricostruzione dell'immensa città planetaria; rimangono comunque intatti molti luoghi d'interesse scientifico."
 
- CREATE_ARCHAEOLOGIC_SITE_TYPE: "Crea un sito archeologico $TYPE$ su $WHERE|Y$"
- CREATE_ARCHAEOLOGIC_SITE_RANDOM: "Crea un sito archeologico casuale su $WHERE|Y$"
- DESTROY_ARCHAEOLOGIC_SITE: "Distruggi il sito archeologico '$NAME|Y$'"
+ CREATE_ARCHAEOLOGIC_SITE_TYPE: "Crea un sito archeologico $TYPE$ su $WHERE|Y$\n"
+ CREATE_ARCHAEOLOGIC_SITE_RANDOM: "Crea un sito archeologico casuale su $WHERE|Y$\n"
+ DESTROY_ARCHAEOLOGIC_SITE: "Distruggi il sito archeologico '$NAME|Y$'\n"
  FLEETORDER_EXCAVATE_BUTTON: "Avvia gli Scavi"
  FLEETORDER_EXCAVATE_SITE: "Impegnata negli Scavi di un Sito Archeologico."
  ADD_STAGE_CLUES_EFFECT: "Aggiunge $CLUES$ Indizi"
@@ -145,13 +145,13 @@
  ARCHAEOLOGICAL_SITE_ON_ROLL_FAILED_RANGE: "($CHANCE|%0Y$) Risultato tra $MIN|0Y$ e $MAX|0Y$. Ottieni $CLUES|0Y$ indizi."
  ARCHAEOLOGICAL_SITE_ON_ROLL_FAILED_GREATER_THAN_EQ: "($CHANCE|%0Y$) Risultato pari o maggiore di $MIN|0Y$. Termina il capitolo."
  ARCHAEOLOGICAL_SITE_ON_ROLL_FAILED_LESS_THAN_EQ: "($CHANCE|%0Y$) Risultato pari o minore di $MAX|0Y$. Ottieni $CLUES|0Y$ indizi."
- archaeology_roll_header: "§H$ARCHAEOLOGICAL_SITE_BREAKTHROUGH$§!\nIndica la probabilità che il tuo Scienziato compia una svolta archeologica durante gli scavi in questo sito.\n\nOgni volta che termina una fase, viene lanciato un dado (da §Y1§! a §Y10§!). Il risultato viene sommato al §YBonus Abilità§! ed agli §YIndizi§!, quindi viene sottratta la §YDifficoltà§!.\n\nIl punteggio attuale prima del tiro è $SCORE|0Y$.\n\n§ERisultati del Tiro:§!"
+ archaeology_roll_header: "§H$ARCHAEOLOGICAL_SITE_BREAKTHROUGH$§!\nIndica la probabilità che il tuo Scienziato compia una svolta archeologica durante gli scavi in questo sito.\n\nOgni volta che termina una fase, viene lanciato un dado (da §Y1§! a §Y10§!). Il risultato viene sommato al §YBonus Abilità§! ed agli §YIndizi§!, quindi viene sottratta la §YDifficoltà§!.\n\nIl punteggio attuale prima del tiro dei dadi è $SCORE|0Y$.\n\n§ERisultati del Tiro:§!"
 
  alert_activate_relic_title: "Attivazione Reliquia Disponibile"
  alert_activate_relic_instant: "Ora è possibile attivare una delle nostre Reliquie."
 
  CHAPTER_TITLE: "Capitolo $CHAPTER$"
- CHAPTER_PROGRESS: "Giorni per lancio di dado: $DAYS|Y$"
+ CHAPTER_PROGRESS: "Giorni al lancio del dado: $DAYS|Y$"
  DIFFICULTY_EASY: "§GFacile§!"
  DIFFICULTY_NORMAL: "§YNormale§!"
  DIFFICULTY_HARD: "§HDifficile§!"
@@ -521,12 +521,12 @@
  relic_zro_crystal_passive: "Il tempo necessario a §YRaggiungere il Velo§! è ridotto del §G50%§!."
  relic_zro_crystal_active: "Contatta lo spirito di §Y$relic_zro_entity_name$§! per ottenere una guida in diverse materie."
  relic_zro_entity_name: "Ja'Baxti"
- relic_omnicodex_active: "§YGenera POP§! di una specie estinta su uno dei nostri pianeti."
+ relic_omnicodex_active: "§YGenera Pop§! di una specie estinta su uno dei nostri pianeti."
  relic_orb_active: "§Y[Root.GetRulerTitle] [Root.GetRulerName]§! ottiene §Y500§! punti esperienza."
  relic_galatron_active: "Il Galatron rigurgita casualmente risorse."
  relic_surveyor_active: "Scansiona i pianeti del nostro territorio in cerca di nuovi depositi di risorse."
 
- #Relics
+ #Reliquie
  r_dragon_trophy: "Trofeo del Drago Etereo"
  r_dragon_trophy_desc: "Un trofeo commemorativo per la nostra vittoria contro l'atroce Drago Etereo. Se non fosse per le sue immense dimensioni, starebbe benissimo appeso al muro."
  r_khans_throne: "Trono del Khan"
@@ -566,7 +566,7 @@
  r_war_forge: "Forgia Bellica Cybrex"
  r_war_forge_desc: "Una forgia bellica relativamente piccola e portatile, l'ultima del suo genere in tutto l'universo. È una reliquia dei tempi in cui i Cybrex scesero in guerra contro la galassia, prima che le loro \"Regolazioni\" facessero cambiar loro atteggiamento.\n\nLe capacità della forgia di produrre navi da guerra furono permanentemente disattivate dai Cybrex, ma è ancora in grado di convertire grandi quantità di minerali in leghe."
 
- cybrex_warform: "Cybrex Warform"
+ cybrex_warform: "Costrutto da Guerra Cybrex"
  cybrex_warform_desc: "Questo robot titanico sovrasta la maggior parte degli edifici, con una potenza di fuoco sufficiente a devastare le città."
  relic_cybrex_passive: "Permette di costruire eserciti §Y$cybrex_warform$§! nella tua capitale."
  relic_cybrex_active: "Produce £leghe£§Y5000§!."
@@ -701,8 +701,8 @@
  ##################
  d_archaeological_site: "£blocker£ Sito Archeologico"
  d_archaeological_site_desc: "Quest'area contiene un antico sito archeologico in fase di scavo."
- d_sentinels: "Sentinels"
- d_sentinels_desc: "The Sentinels guard this land; it may not be disturbed. The Sentinels counts as Defense Armies, and will come to the planet's aid if there's an invasion."
+ d_sentinels: "Sentinelle"
+ d_sentinels_desc: "Le Sentinelle sorvegliano questa terra; non può essere disturbata. Le Sentinelle contano come Eserciti di Difesa e verranno in aiuto del pianeta in caso di invasione."
  d_hab_gas_1: "Deposito di Gas Esotici"
  d_hab_gas_1_desc: "Questo habitat è costruito vicino ad un deposito sfruttabile di Gas Esotici."
  d_hab_gas_2: "$d_hab_gas_1$"
@@ -759,8 +759,8 @@
  d_hab_living_metal_1_desc: "Questo habitat è costruito vicino ad un deposito sfruttabile di Metallo Vivente."
  d_sentinels_monument: "$sentinels_planet_modifier$"
  d_sentinels_monument_desc: "$sentinels_planet_modifier$"
- d_sentinels_metal: "Sentinels"
- d_sentinels_metal_desc: "I resti rotti di nove monumentali automi fatti di una lega metallica insolita offrono un'ampia disponibilità di §Metallo Vivente§!."
+ d_sentinels_metal: "Sentinelle"
+ d_sentinels_metal_desc: "I resti distrutti di nove automi monumentali composti da un'insolita lega metallica offrono un'ampia riserva di §HMetallo Vivente§!."
  ancrel.10001.name: "$tech_arcane_deciphering$"
  ancrel.10001.desc: "Lo studio degli artefatti ci ha fatto avanzare nella ricerca."
  ancrel.10002.name: "$tech_arcane_deciphering$"
@@ -803,12 +803,12 @@
 
  pop_cat_assimilation: "Assimilazione"
  pop_cat_assimilation_plural: "$pop_cat_assimilation$"
- pop_cat_assimilation_desc: "Questa POP viene modificata per adattarsi al meglio alla nostra società."
+ pop_cat_assimilation_desc: "Questa Pop viene modificata per adattarsi al meglio alla nostra società."
  mod_pop_assimilation_political_power: "Potere Politico $pop_cat_assimilation_plural$"
  mod_pop_assimilation_happiness: "Felicità $pop_cat_assimilation$"
  job_assimilation: "Assimilazione in Corso"
  job_assimilation_plural: "$job_assimilation$"
- job_assimilation_desc: "Questa POP è in integrazione nel nostro collettivo."
+ job_assimilation_desc: "Questa Pop è in integrazione nel nostro collettivo."
  pop_category_assimilation: "Standard di Vita $pop_cat_assimilation$"
  space_dragon_blue: "Grande Drago"
  space_dragon_blue_plural: "Grandi Draghi"

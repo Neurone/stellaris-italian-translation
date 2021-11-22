@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
  aianom.0.name: "Info Debug Anomalia IA"
  aianom.0.desc: "§H[Root.GetName]§! ha generato:\n\n£minerals£ (Una Tantum) §Y[Root.GetT1LumpMinerals]§! Livello 1, §Y[Root.GetT2LumpMinerals]§! Livello 2, §Y[Root.GetT3LumpMinerals]§! Livello 3, §Y[Root.GetT4LumpMinerals]§! Livello 4.\n£energy£ (Una Tantum) §Y[Root.GetT1LumpEnergy]§! Livello 1, §Y[Root.GetT2LumpEnergy]§! Livello 2, §Y[Root.GetT3LumpEnergy]§! Livello 3, §Y[Root.GetT4LumpEnergy]§! Livello 4.\n£physics£ (Una Tantum) §Y[Root.GetT1LumpPhysics]§! Livello 1, §Y[Root.GetT2LumpPhysics]§! Livello 2, §Y[Root.GetT3LumpPhysics]§! Livello 3, §Y[Root.GetT4LumpPhysics]§! Livello 4.\n£society£ (Una Tantum) §Y[Root.GetT1LumpSociety]§! Livello 1, §Y[Root.GetT2LumpSociety]§! Livello 2, §Y[Root.GetT3LumpSociety]§! Livello 3, §Y[Root.GetT4LumpSociety]§! Livello 4.\n£engineering£ (Una Tantum) §Y[Root.GetT1LumpEngineering]§! Livello 1, §Y[Root.GetT2LumpEngineering]§! Livello 2, §Y[Root.GetT3LumpEngineering]§! Livello 3, §Y[Root.GetT4LumpEngineering]§! Livello 4.\n\n£minerals£ (Deposito) §Y[Root.GetT1DepMinerals]§! Livello 1, §Y[Root.GetT2DepMinerals]§! Livello 2, §Y[Root.GetT3DepMinerals]§! Livello 3, §Y[Root.GetT4DepMinerals]§! Livello 4.\n£energy£ (Deposito) §Y[Root.GetT1DepEnergy]§! Livello 1, §Y[Root.GetT2DepEnergy]§! Livello 2, §Y[Root.GetT3DepEnergy]§! Livello 3, §Y[Root.GetT4DepEnergy]§! Livello 4.\n£physics£ (Deposito) §Y[Root.GetT1DepPhysics]§! Livello 1, §Y[Root.GetT2DepPhysics]§! Livello 2, §Y[Root.GetT3DepPhysics]§! Livello 3, §Y[Root.GetT4DepPhysics]§! Livello 4.\n£society£ (Deposito) §Y[Root.GetT1DepSociety]§! Livello 1, §Y[Root.GetT2DepSociety]§! Livello 2, §Y[Root.GetT3DepSociety]§! Livello 3, §Y[Root.GetT4DepSociety]§! Livello 4.\n£engineering£ (Deposito) §Y[Root.GetT1DepEngineering]§! Livello 1, §Y[Root.GetT2DepEngineering]§! Livello 2, §Y[Root.GetT3DepEngineering]§! Livello 3, §Y[Root.GetT4DepEngineering]§! Livello 4."
@@ -162,7 +162,7 @@
  distar.26.name: "Robot Rudimentali"
  distar.26.desc: "I nostri coloni su [Root.GetName] dovranno far fronte agli antichi robot presenti sulla superficie; probabilmente, qualsiasi destino abbiano dovuto affrontare i loro creatori, ha risparmiato le macchine.\n\nMolti di questi antiquati automi hanno reagito alla nostra presenza, ponendo incessanti domande in qualche linguaggio alieno. Pensiamo che siano in attesa di qualche input. Non sembrano essere senzienti, e probabilmente non possiedono elevate funzioni di ragionamento."
  distar.26.a: "Metteteli al lavoro."
- distar.26.a.tooltip: "Ottieni §B£pops£ POP Robotica§! su [Root.GetName]."
+ distar.26.a.tooltip: "Ottieni §B£pops£ Pop Robotica§! su [Root.GetName]."
  distar.26.b: "Smantellateli e recuperate i minerali."
  distar.26.c: "C'è una ragione se le nostre politiche vietano le IA."
  distar.26.d: "Non ne abbiamo bisogno, ma sarebbe un peccato distruggerli."

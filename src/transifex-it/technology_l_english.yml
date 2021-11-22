@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
  # ###################################
  # Categories
@@ -250,8 +250,8 @@
  # TEMP
  tech_matter_generator: "Generazione della Materia"
  tech_matter_generator_desc: "Utilizzando una vasta quantità di energia siamo in grado di convertire la luce in materia a partire dal nulla."
- tech_mega_assembly: "Mega-Assembly Systems"
- tech_mega_assembly_desc: "Advanced templates allow us to drastically increase the assembly of new units."
+ tech_mega_assembly: "Sistemi di Mega-Assemblaggio"
+ tech_mega_assembly_desc: "Modelli avanzati ci permettono di aumentare drasticamente la produzione di nuove unità."
 
  # Space Mining
  tech_space_construction: "Costruzione Spaziale"
@@ -486,7 +486,7 @@
  # Sensor Components
  tech_sensors_2: "Sensori Gravitazionali"
  tech_sensors_2_desc: "Questi sensori sono stati tarati per rilevare i cambiamenti gravitazionali nello spazio, come quelli prodotti dalla presenza di una nave."
- tech_sensors_3: "Sensori subspaziali"
+ tech_sensors_3: "Sensori Subspaziali"
  tech_sensors_3_desc: "Sensori che rilevano le fluttuazioni subspaziali lasciate dalle navi in movimento. La loro sensibilità e la loro portata sono migliori di quelle dei sensori gravitazionali."
  tech_sensors_4: "Sensori Tachionici"
  tech_sensors_4_desc: "Sensori avanzati che si basano sui raggi tachonici per rilevare gli spostamenti navali a distanze estreme."
@@ -532,10 +532,10 @@
  tech_warp_drive_2_desc: "Tecniche di stabilizzazione migliorate per i campi di curvatura consentiranno alle nostre navi di viaggiare più lontano consumando meno energia."
  tech_warp_drive_3: "Collettori di Warp"
  tech_warp_drive_3_desc: "Questi rivoluzionari dispositivi vengono collegati ai motori a curvatura e servono da collettori di particelle, reintegrando le riserve di una nave."
- tech_jump_drive_1: "Balzo"
- tech_jump_drive_1_desc: "Un'innovativa meraviglia tecnologica, i motori a Balzo frammentano il continuum spazio-temporale e lo riorganizzano a livello quantico perché sia identico a quello della destinazione; la nave quindi sembra quasi \"balzare\" istantaneamente da un sistema all'altro."
- tech_psi_jump_drive_1: "Balzo PSI"
- tech_psi_jump_drive_1_desc: "Il Balzo PSI sfrutta le energie psioniche emesse dall'equipaggio per forzare la nave attraverso il tessuto stesso della realtà, permettendo di \"balzare\" immediatamente attraverso grandi distanze."
+ tech_jump_drive_1: "Motore a Balzo"
+ tech_jump_drive_1_desc: "Un'innovativa meraviglia tecnologica, i Motori a Balzo frammentano il continuum spazio-temporale e lo riorganizzano a livello quantico perché sia identico a quello della destinazione; la nave quindi sembra quasi \"balzare\" istantaneamente da un sistema all'altro."
+ tech_psi_jump_drive_1: "Motore a Balzo PSI"
+ tech_psi_jump_drive_1_desc: "Il Motore a Balzo PSI sfrutta le energie psioniche emesse dall'equipaggio per forzare la nave attraverso il tessuto stesso della realtà, permettendo di \"balzare\" immediatamente attraverso grandi distanze."
  tech_wormhole_stabilization: "Stabilizzazione Tunnel Spaziale"
  tech_wormhole_stabilization_desc: "Un tunnel spaziale subspaziale naturale è una cosa volubile, e i suoi livelli di energia fluttuanti rendono tipicamente impossibile viaggiare in sicurezza tra le sue aperture collegate. Esistono tuttavia dei modi per stabilizzare temporaneamente la sua matrice."
  tech_gateway_activation: "Attivazione dei Portali"
@@ -846,8 +846,8 @@
  #tech_transcendent_thought_desc:0 ""
  tech_precognition_interface: "Interfaccia Precognitiva"
  tech_precognition_interface_desc: "I progressi nel campo psionico suggeriscono la possibilità di creare computer da combattimento in grado di leggere ed analizzare gli impulsi degli operatori telepatici, prima che siano cognitivamente elaborati."
- tech_psi_jump_drives: "Balzo PSI"
- tech_psi_jump_drives_desc: "Il Balzo PSI sfrutta le energie psioniche emesse dall'equipaggio per deformare il tessuto stesso della realtà, permettendo di \"balzare\" immediatamente attraverso grandi distanze."
+ tech_psi_jump_drives: "Motori a Balzo PSI"
+ tech_psi_jump_drives_desc: "Il Motore a Balzo PSI sfrutta le energie psioniche emesse dall'equipaggio per deformare il tessuto stesso della realtà, permettendo di \"balzare\" immediatamente attraverso grandi distanze."
 
  # Trade and Diplomacy
  tech_xeno_outreach: "Xeno-Commercio"
@@ -878,8 +878,8 @@
  tech_adaptive_bureaucracy_desc: "I progressi che abbiamo compiuto richiedono una nuova, più snella forma amministrativa, che sia di aiuto, piuttosto che d'ostacolo, alle nostre attività." # The leaps/progress/discoveries we have made demand a new form of administrative system, one that can be shaped by opportunity rather than limit it.
  tech_adaptive_bureaucracy_machine_intelligence: "CPU Positroniche"
  tech_adaptive_bureaucracy_desc_machine_intelligence: "Le CPU Positroniche sono più economiche e più veloci rispetto ai modelli precedenti, permettendoci in questo modo di schierare più Unità Leader in servizio."
- tech_effective_bureaucracy: "Effective Bureaucracy"
- tech_effective_bureaucracy_desc: "Improved algorithms for processing and organizing vast amounts of data has streamlined decision-making and information-sharing throughout the empire."
+ tech_effective_bureaucracy: "Burocrazia Efficace"
+ tech_effective_bureaucracy_desc: "Algoritmi migliorati per l'elaborazione e l'organizzazione di grandi quantità di dati semplificano il processo decisionale e la condivisione delle informazioni in tutto l'impero."
  tech_colonial_bureaucracy: "Burocrazia Coloniale"
  tech_colonial_bureaucracy_desc: "Lo sviluppo amministrativo locale ci permette di gestire più da vicino gli affari coloniali senza congestionare eccessivamente il processo decisionale centrale."
  tech_galactic_bureaucracy: "Burocrazia Galattica"
@@ -958,8 +958,8 @@
  tech_hypercomms_forum_desc_corporate: "I giorni in cui la sinergia aziendale poteva essere raggiunta solamente a velocità subluminale sono finiti. Questa è una nuova era economica, e la nostra cultura deve adattarsi per superare gli obsoleti vincoli relativistici."
  tech_autocurating_vault: "Algoritmi Sociali Automatizzati"
  tech_autocurating_vault_desc: "Continue analisi asincrone di dati eterogenei consentono la modellazione accurata delle imprevedibili fluttuazioni sociali."
- tech_autocurating_vault_corporate: "Visibilità delle Acquisizioni"
- tech_autocurating_vault_desc_corporate: "A massive vault with public displays of our corporation's many glorious acquisitions will let employees draw inspiration from successful takeovers, and take warning of what happens when acquired companies fail to properly mesh into our broader business strategy."
+ tech_autocurating_vault_corporate: "Caveau delle Acquisizioni"
+ tech_autocurating_vault_desc_corporate: "Un enorme caveau con esposizioni pubbliche delle molte gloriose acquisizioni della nostra società permetterà agli impiegati di trarre ispirazione dalle acquisizioni di successo, ed essere monito per ciò che accade quando le aziende acquisite non riescono a inserirsi correttamente nella nostra più ampia strategia aziendale."
  tech_autocurating_vault_machine_intelligence: "Hub Alfa"
  tech_autocurating_vault_desc_machine_intelligence: "Tutti i percorsi informativi conducono all'Hub, dove l'Intelligenza Meccanica può analizzarli ed interpretarli nel tempo libero."
  tech_holographic_rituals: "Rituali Olografici"
@@ -1108,7 +1108,7 @@
  gateway_energy_weapons: "§HPercorso Armi ad Energia§!\n§EQuesta tecnologia ci condurrà ad ulteriori scoperte riguardanti le armi ad energia.§!"
  gateway_power_generation: "§HGenerazione Energetica§!\n§EQuesta tecnologia ci condurrà ad ulteriori scoperte in diversi campi scientifici.§!"
  gateway_espionage: "§HPercorso delle operazioni segrete§!\n§EQuesta tecnologia porterà a ulteriori progressi nello spionaggio e nelle attività segrete.§!"
- gateway_infrastructure: "§HPercorso infrastruttura§!\n§EQuesta tecnologia porterà a ulteriori progressi nelle infrastrutture civili.§!"
+ gateway_infrastructure: "§HPercorso Infrastruttura§!\n§EQuesta tecnologia porterà a ulteriori progressi nelle infrastrutture civili.§!"
 
 
  #####################################

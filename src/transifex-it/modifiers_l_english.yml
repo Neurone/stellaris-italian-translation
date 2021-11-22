@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
  ####################################
  # Modifiers
@@ -319,7 +319,7 @@
  MOD_PLANET_INFRASTRUCTURE_ADD: "Infrastrutture"
  MOD_PLANET_INFRASTRUCTURE_MULT: "$MOD_PLANET_INFRASTRUCTURE_ADD$"
  MOD_PLANET_AMENITIES_ADD: "Servizi"
- MOD_POP_AMENITIES_USAGE_BASE: "Utilizzo Servizi POP"
+ MOD_POP_AMENITIES_USAGE_BASE: "Utilizzo Servizi Pop"
  MOD_POP_AMENITIES_USAGE_ADD: "$MOD_POP_AMENITIES_USAGE_BASE$"
  MOD_POP_AMENITIES_USAGE_MULT: "$MOD_POP_AMENITIES_USAGE_BASE$"
  MOD_POP_AMENITIES_USAGE_ORGANIC_MULT: "$MOD_POP_AMENITIES_USAGE_BASE$ Organica"
@@ -1336,7 +1336,7 @@
  pop_happiness_cheat: ""
  planet_base: "Base"
  colony_base: "Colonia"
- planet_num_pops: "Dalla Quantità di POP"
+ planet_num_pops: "Dalla Quantità di Pop"
  disconnected_from_sector: ""
  skill_admiral: "Abilità Ammiraglio"
  skill_general: "Abilità Generale"

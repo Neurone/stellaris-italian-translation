@@ -1,29 +1,29 @@
-﻿l_english:
+l_english:
 
  ### Unrest
 
  minor_terrorist_action: "Vittime del Terrore"
- minor_terrorist_action_desc: "Il §HMalcontento§! su questa colonia ha indotto la POP a temere per un attacco terroristico ed a perdere fiducia nel regime."
+ minor_terrorist_action_desc: "Il §HMalcontento§! su questa colonia ha indotto la Pop a temere per un attacco terroristico ed a perdere fiducia nel regime."
  major_terrorist_action: "Vittime del Terrore (Grave)"
  major_terrorist_action_desc: "$minor_terrorist_action_desc$"
  riots_averted: "Cittadini Coraggiosi"
- riots_averted_desc: "Nonostante l'elevato §HMalcontento§!, la POP di questa colonia ha fatto fronte comune per prevenire ulteriori violenze."
+ riots_averted_desc: "Nonostante l'elevato §HMalcontento§!, la Pop di questa colonia ha fatto fronte comune per prevenire ulteriori violenze."
  spiritualist_unrest: "Malcontento (Attrazione Spiritualista)"
- spiritualist_unrest_desc: "Il §HMalcontento§! su questa colonia ha indotto la POP ad una maggior propensione verso lo §YSpiritualismo§!."
+ spiritualist_unrest_desc: "Il §HMalcontento§! su questa colonia ha indotto la Pop ad una maggior propensione verso lo §YSpiritualismo§!."
  materialist_unrest: "Malcontento (Attrazione Materialistica)"
- materialist_unrest_desc: "Il §HMalcontento§! su questa colonia ha indotto la POP ad una maggior propensione verso il §YMaterialismo§!."
+ materialist_unrest_desc: "Il §HMalcontento§! su questa colonia ha indotto la Pop ad una maggior propensione verso il §YMaterialismo§!."
  xenophobe_unrest: "Malcontento (Attrazione Xenofoba)"
- xenophobe_unrest_desc: "Il §HMalcontento§! su questa colonia ha indotto la POP ad una maggior propensione verso la §YXenofobia§!."
+ xenophobe_unrest_desc: "Il §HMalcontento§! su questa colonia ha indotto la Pop ad una maggior propensione verso la §YXenofobia§!."
  xenophile_unrest: "Malcontento (Attrazione Xenofila)"
- xenophile_unrest_desc: "Il §HMalcontento§! su questa colonia ha indotto la POP ad una maggior propensione verso la §YXenofilia§!."
+ xenophile_unrest_desc: "Il §HMalcontento§! su questa colonia ha indotto la Pop ad una maggior propensione verso la §YXenofilia§!."
  pacifist_unrest: "Malcontento (Attrazione Pacifista)"
- pacifist_unrest_desc: "Il §HMalcontento§! su questa colonia ha indotto la POP ad una maggior propensione verso il §YPacifismo§!."
+ pacifist_unrest_desc: "Il §HMalcontento§! su questa colonia ha indotto la Pop ad una maggior propensione verso il §YPacifismo§!."
  militarist_unrest: "Malcontento (Attrazione Militarista)"
- militarist_unrest_desc: "Il §HMalcontento§! su questa colonia ha indotto la POP ad una maggior propensione verso il §YMilitarismo§!."
+ militarist_unrest_desc: "Il §HMalcontento§! su questa colonia ha indotto la Pop ad una maggior propensione verso il §YMilitarismo§!."
  authoritarian_unrest: "Malcontento (Attrazione Autoritaria)"
- authoritarian_unrest_desc: "Il §HMalcontento§! su questa colonia ha indotto la POP ad una maggior propensione verso l'§YAutoritarismo§!."
+ authoritarian_unrest_desc: "Il §HMalcontento§! su questa colonia ha indotto la Pop ad una maggior propensione verso l'§YAutoritarismo§!."
  egalitarian_unrest: "Malcontento (Attrazione Egualitaria)"
- egalitarian_unrest_desc: "Il §HMalcontento§! su questa colonia ha indotto la POP ad una maggior propensione verso l'§YEgualitarismo§!."
+ egalitarian_unrest_desc: "Il §HMalcontento§! su questa colonia ha indotto la Pop ad una maggior propensione verso l'§YEgualitarismo§!."
 
  unrest_title: "§RMalcontento§!:"
 
