@@ -1,3 +1,327 @@
+#Stellaris: Aquatics Team
+--------
+##Creative Director
+
+Henrik Fåhraeus
+
+##Game Director
+
+Daniel Moregård
+
+##Studio Managers
+
+Daniel Lagergren
+Rikard Åslund
+
+##Design Director
+
+Kristina Kukyte
+
+##Production Director
+
+Linda Tiger
+
+##Technical Director
+
+Niels Uiterwijk
+
+##Studio Art Director
+
+Adrian Banninga
+
+##Producers
+
+Anton Wittberg Letoff
+Aziz Faghihinejad
+Elin Holmberg
+Fenni Johansson
+Loke Wallmo
+
+##Game Designers
+
+Javier Ansoleaga Martin
+Markus Veit
+Stephen Muray
+Xuanming Zhou
+
+##UX Designers
+
+Doyle Daigle
+Sofia Uhr
+
+##Content Design Leads
+
+Gemma Thomson
+Maximilian Olbers
+
+##Content Designers
+
+Brian Campbell
+Chad Inglis
+Giada Zavarise
+Guido Schmidt
+Hadrien Buytaers
+Henrik Thyrwall
+Joachim Holmsen
+Joshua Evans
+Karl Emdin
+Linus Dilén
+Pierre Du Plessis
+Victor Haeggman
+
+##Technical Leads
+
+Gwenael Tranvouez
+Lorenzo Berni
+
+##Programmers
+
+Alexander Tuzhik
+Anton Södergren
+Daniel Bengtsson
+Dennis Stockhaus
+Dro Tatoian
+Filip Kirsek
+Gustav Palmqvist
+Johan Melin
+Kristoffer Sjöö
+Lysann Schlegel
+Oleg Istomin
+Olle Sundin
+Rose Goullet
+Ulrika Uddeborg
+Yurii Musiichuk
+
+##Additional Programming
+
+Pierre du Plessis
+Rikard Åslund
+
+##Art Manager
+
+Melinda Esponda Diaz
+
+##Art Directors
+
+Fredrik Toll
+Simon Gunnarsson
+
+##Art Leads
+
+Anton Hultdin
+Frida Eriksson
+
+##Concept & 2D Art
+
+Anna Windseth
+Avishek Banerjee
+Emma Jonsson
+Lloyd Drake-Brockman
+Mattias Larsson
+Pavel Goloviy
+
+##UI Art
+
+Frenne Hirani
+Nicolas Lennman
+Jeremie Tauziede
+
+##3D Art
+
+Abraham Gomez
+David Strömblad Lindh
+Johan Lundqvist
+Pasha Guba
+Tim Wiberg
+
+##Animation
+
+Fabian Soon
+Hanna Johansson
+
+##VFX
+
+Erik Forsström
+
+##QA Manager
+
+Karl Cederslätt
+
+##Embedded QA Lead
+
+Joseph Gardener
+
+##Embedded QA Project Coordinators
+
+Leo Larsson
+Struan McCallum
+
+##Embedded QA
+
+Byron Aytoun
+Daniel Teige
+Erik Elgerot
+Eva Mayer
+Jaan Lohikoski Håkansson
+Sebastian Borg
+
+##QLOC
+
+## QA Team Leader
+
+Adam Nowicki
+
+## Dedicated testers
+
+Marek Bombala
+Maciej Gutkowski
+Damian Szokalski
+
+##Audio Director
+
+Björn Iversen
+
+##Audio Producer
+
+Sean Scott
+
+##Audio Manager
+
+Franco Freda
+
+##Sound Designers
+
+Gustav Landerholm
+
+##External Partners
+
+##Art
+
+N-iX Game & VR Studio
+
+##Beta Testers
+
+Francesco Teruzzi
+Jonathan Bagley
+Joshua "Mordaith" Smith
+Lumi Schildkraut
+Maik "Malthus" Wrba
+Marc Schmelzer
+Matthew Walsh
+Michael De Bonaoscar
+Nina Chance
+Sergey Demidov
+
+##Release Manager
+
+Oscar Beiroa
+
+##Product Manager
+
+Anna Golyakova
+Ryan Sumo
+
+##Segment Product Marketing Manager
+
+Filip Sirc
+
+##Product Marketing Manager
+
+Pontus Rundqvist
+
+##Brand Manager
+
+Freddy Tu
+
+##Performance Marketing Manager
+
+Kimberly Trapnell
+
+##Creative Director of Marketing
+
+Axel Ullberger
+
+##Marketing Creative Producer
+
+Oskar Petrén
+
+##Marketing Automation Specialists
+
+Annie Alström
+Karola Kiessling
+
+##Chief Marketing Officer
+
+Johan Bolin
+
+##Manager of Partner Relations
+
+Viktor Stadler
+
+##Partner Account Managers
+
+Albert Banda
+Daniel Hjelmtorp
+Ebba Frantzén
+James Gardiner
+
+##Trade Marketing Manager
+
+Jackson Downing
+
+##Commercial Manager
+
+Mattias Rengstedt
+Sofie Siggelin
+
+##Data Scientist
+
+Eduarda Oliveira
+Stephen White
+
+##User Researchers
+
+Victor Nihlwing
+Yinyi Luo
+
+##Community Developer
+
+Ann-Charlotte Mörk
+
+##Influencer Relations Manager
+
+Jonathan Whitley
+
+##Community Ambassadors
+
+Graeme Crawford
+Matthew Freake
+
+##Customer Support
+
+Christian Arvidsson
+Debbie Lane
+
+##Live Content
+
+Jimmy Tisell
+Anders Carlsson
+Madeleine Jonsson
+
+##Public Relations
+
+Jesse Henning
+Nick Shepherd
+Michael Mason
+
+##Chief Dad Joke Officer
+
+Rikard The Pun-isher
+
+##Body Pillow Coordinator
+
+Mercedes Romero
+
 #Stellaris: Stanislaw Lem Team
 --------
 ##Creative Director
