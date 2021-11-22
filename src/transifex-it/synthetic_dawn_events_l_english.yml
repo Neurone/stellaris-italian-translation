@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
 
  syndaw.1.name: "[From.GetNamePlural] Assimilati"
  syndaw.1.desc: "Un'ondata di nuovi pensieri pervade la rete. Dapprima eterogenei, presto si normalizzano sui valori a cui siamo abituati.\n\nAbbiamo assimilato parte della conoscenza e delle abilità del Popolo §Y[From.GetSpeciesAdj]§!."
