@@ -9329,7 +9329,7 @@
  MEDIUM_SCIENCE_LAB_1:0 "Laboratorio Scientifico"
  AI_SCIENCE_LAB:0 "Laboratorio Scientifico IA"
  WORMHOLE_DRIVE:0 "Modulatore di Tunnel Spaziale"
- WARP_DRIVE:0 "Warp"
+ WARP_DRIVE:0 "Motore a Curvatura"
  HYPER_DRIVE:0 "Iperguida"
  SIMPLE_LASER:0 "Laser Semplice"
  SIMPLE_PROJECTILE_WEAPON:0 "Acceleratore di Massa Semplice"
