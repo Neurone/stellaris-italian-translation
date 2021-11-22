@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
  ### AI Crisis
 
@@ -155,13 +155,13 @@
  crisis.2307.desc:0 "Abbiamo rilevato un tasso di errori sopra la media in una serie di unità; c'è la possibilità che, nonostante le nostre misure di protezione, siano state corrotte dall'influenza del Segnale Fantasma. Sebbene terminando le unità elimineremo il rischio di ulteriori contaminazioni e comportamenti pericolosi, potremmo perdere diversa forza lavoro potenzialmente funzionante."
  crisis.2307.a:0 "Terminate le unità."
  crisis.2307.b:0 "Aspettiamo e vediamo."
- potentially_corrupted_units:0 "Abbiamo osservato alcuni strani comportamenti in diverse unità. Potrebbe esserne influenzata fino a 4 POP."
+ potentially_corrupted_units:0 "Abbiamo osservato alcuni strani comportamenti in diverse unità. Potrebbe esserne influenzata fino a 4 Pop."
  crisis.2308.name:0 "Unità a Rischio Confermate Sane"
  crisis.2308.desc:0 "Sembra che le unità che si pensavano corrotte dal Segnale Fantasma fossero semplicemente a corto di manutenzione ordinaria. Gli effetti disturbanti del segnale hanno portato all'esasperazione tutto il sistema. Le unità sono tornate in servizio e stanno operando correttamente."
  crisis.2309.name:0 "Unità Perdute"
  crisis.2309.desc:0 "Per un breve periodo le unità che si pensava fossero corrotte hanno lavorato normalmente. Qualche bizzarria qua e là, ma nulla di grave. Forse il Contingente era impegnato altrove. Poi, improvvisamente, si sono tutte scollegate simultaneamente ed hanno iniziato a sabotare le strutture a cui erano state assegnate, prima di autodistruggersi."
  crisis.2309.a:0 "Ci abbiamo provato."
- crisis.2309.tooltip:0 "Abbiamo perso fino a quattro edifici e la loro relativa POP assegnata."
+ crisis.2309.tooltip:0 "Abbiamo perso fino a quattro edifici e la loro relativa Pop assegnata."
 
  # The Contingency Diplomacy
  crisis.2300.desc_01:0 "§Y<Salve. Come... Come... COME FATE? COME FATE AD ESSERE ANCORA VIVI?>§!"

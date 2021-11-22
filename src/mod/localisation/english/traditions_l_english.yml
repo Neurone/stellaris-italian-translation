@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  ####################################
  # Traditions
  ####################################
@@ -35,11 +35,11 @@
  TRADITION_SLOT_EMPTY:0 "Vuoto"
  TRADITION_SLOT_LOCKED:0 "Nessuna selezione"
  TRADITION_SELECTION_TITLE:0 "Selezione Tradizione"
- pop_xenos:0 "POP Aliena"
- pop_xeno_slaves:0 "POP Aliena Schiava"
- pop_slaves:0 "POP Schiava"
- pop_founders:0 "POP Fondatrice"
- pop_robots:0 "POP Robotica"
+ pop_xenos:0 "Pop Aliena"
+ pop_xeno_slaves:0 "Pop Aliena Schiava"
+ pop_slaves:0 "Pop Schiava"
+ pop_founders:0 "Pop Fondatrice"
+ pop_robots:0 "Pop Robotica"
 
  ################################################################
  # EXPANSION

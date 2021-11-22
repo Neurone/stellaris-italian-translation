@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
  ###      #        ##      #  #     ###     ###     # #     ###     #       #       ###     ###       ##
  #  #     #       #  #     ## #     #        #      # #      #      #       #       #       #  #     #
@@ -11,8 +11,8 @@
  FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NUKE:0 "Bombardamento di $PLANET|Y$"
  FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NEUTRON:0 "Liquefazione di $PLANET|Y$"
  FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_GODRAY:0 "Pacificazione di $PLANET|Y$"
- FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_HYPNOSIS:0 "Manipolazione POP di $PLANET|Y$"
- FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS:0 "Meccanizzazione POP di $PLANET|Y$"
+ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_HYPNOSIS:0 "Manipolazione Pop di $PLANET|Y$"
+ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS:0 "Meccanizzazione Pop di $PLANET|Y$"
  FLEETORDER_PLANET_KILLER_WINDUP:0 "Caricamento Arma: $PROGRESS|Y0%$"
  FLEETORDER_PLANET_KILLER_FIRING:0 "Arma in Azione: $PROGRESS|Y0%$"
 
@@ -35,7 +35,7 @@
  not_barren_molten_frozen_toxic_test_fire:0 "Il bersaglio è un §Y$pc_barren$§!, §Y$pc_molten$§!, §Y$pc_frozen$§!, o §Y$pc_toxic$§! §YAbitabile§! utilizzato come bersaglio di prova"
  not_owned_test_fire:0 "Il bersaglio è una §Ynostra colonia§! utilizzata come bersaglio di prova"
  primitives_not_in_borders:0 "§R$TRIGGER_FAIL$Il bersaglio primitivo non si trova all'interno dei nostri confini§!"
- no_assimilatable_pops:0 "§R$TRIGGER_FAIL$Il bersaglio non ospita alcuna POP adatta all'assimilazione cibernetica§!"
+ no_assimilatable_pops:0 "§R$TRIGGER_FAIL$Il bersaglio non ospita alcuna Pop adatta all'assimilazione cibernetica§!"
 
  enable_colossus_project:0 "§HSblocca Progetto Speciale:§! Progetto Colosso\n\n"
  describe_colossus_project:0 "Completando il §YProgetto Colosso§! sbloccherai la §HClasse Navale§! §YColosso§! che può essere equipaggiata con §RArmi Distruggi-Pianeti§!."
@@ -388,11 +388,11 @@
 
  planet_destruction.401.name:0 "Costrizione Divina"
  planet_destruction.401.desc:0 "L'empirico ronzio delle bobine psioniche si dissipa, per un attimo la quiete è assoluta. La popolazione di [From.GetName] rimangono a bocca aperta (o l'equivalente fisionomico locale), rapite dalle potenti e personali verità che il raggio psionico ha liberato dalla rete aggrovigliata delle loro menti.\n\nSe prima non capivano, ora hanno di fronte la viscerale comprensione; facciamo tutti parte di qualcosa di più grande."
- planet_destruction.401.tooltip:0 "Tutti i cittadini §Y$trait_mechanical$§!, le §Y$trait_machine_unit$§! e la POP appartenente ad una §Y$trait_hive_mind$§! vengono §Rdistrutti§! dalla risonanza psionica.\n\nTutta la POP §Yorganica§! rimanente diventa §Y$ethic_spiritualist$§!.\n\nAggiunge il Modificatore §Y$god_rayed$§! a [This.GetName] per §Y10 anni§!:\nAttrazione Etiche Spiritualiste: §Y+999%§!."
+ planet_destruction.401.tooltip:0 "Tutti i cittadini §Y$trait_mechanical$§!, le §Y$trait_machine_unit$§! e la Pop appartenente ad una §Y$trait_hive_mind$§! vengono §Rdistrutti§! dalla risonanza psionica.\n\nTutta la Pop §Yorganica§! rimanente diventa §Y$ethic_spiritualist$§!.\n\nAggiunge il Modificatore §Y$god_rayed$§! a [This.GetName] per §Y10 anni§!:\nAttrazione Etiche Spiritualiste: §Y+999%§!."
 
  planet_destruction.501.name:0 "Dispersione Nanobotica"
  planet_destruction.501.desc:0 "La dispersione nanobotica è terminata, ed è stata sufficiente per dominare ciberneticamente tutta la vita organica senziente di [From.GetName].\n\nNon abbiamo la strumentazione necessaria a misurarlo, ma sappiamo di aver avuto successo. Apriamo i nostri occhi per la prima volta su [From.GetName]. Vediamo noi stessi e siamo osservati da noi stessi.\n\nSulla superficie di [From.GetName], esistiamo solo noi."
- planet_destruction.501.tooltip:0 "Tutta la POP §YOrganica§! ottiene il Tratto §Y$trait_cybernetic$§!."
+ planet_destruction.501.tooltip:0 "Tutta la Pop §YOrganica§! ottiene il Tratto §Y$trait_cybernetic$§!."
 
  planet_destruction.610.name:0 "[outraged_FE.GetName]"
  planet_destruction.610.desc:0 "[From.GetName] era un Pianeta Sacro.\n\n\nNon avete idea della portata del vostro peccato.\n\n\nNon ancora."

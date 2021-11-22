@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
  ### Ambient Object
  NAME_Syzygy_Remains:0 "I Resti della Syzygy"
@@ -224,7 +224,7 @@
  ##THE MESSENGER: Worm-related event
 
  akx.9200.name:0 "Il Messaggero: §HCIÒ CHE FU, SARÀ§!"
- akx.9200.desc:0 "La [Root.GetName] ha localizzato un piccolo oggetto artificiale, minimamente alimentato, che trasmette un segnale continuo a distanza ravvicinata. Questo genere di oggetti solitamente si rivelano essere capsule di salvataggio, ed è proprio ciò che sembra. È qui fuori da molto tempo. Quando l'equipaggio la apre, osservando attentamente le procedure di quarantena, trova degli antichi resti conservati dall'ambiente sterile della capsula. Niente di insolito, per ora. Il capitano della [Root.GetName], tuttavia, indica che non si aspettava di trovare sulle pareti le parole §HCIÒ CHE FU, SARÀ; CIÒ CHE SARÀ, FU§! scritte con i fluidi corporei dell'occupante, che ora l'equipaggio chiama ironicamente il Messaggero. Gli scienziati aggiungono che sono presenti delle somiglianze anatomiche inaspettate tra la specie del Messaggero... e la nostra."
+ akx.9200.desc:0 "La [Root.GetName] ha localizzato un piccolo oggetto artificiale, minimamente alimentato, che trasmette un segnale continuo a distanza ravvicinata. Questo genere di oggetti solitamente si rivelano essere capsule di salvataggio, ed è proprio ciò che sembra. È qui fuori da molto tempo.\n\nQuando l'equipaggio la apre, osservando attentamente le procedure di quarantena, trova degli antichi resti conservati dall'ambiente sterile della capsula. Niente di insolito, per ora. Il capitano della [Root.GetName], tuttavia, indica che non si aspettava di trovare sulle pareti le parole §HCIÒ CHE FU, SARÀ; CIÒ CHE SARÀ, FU§! scritte con i fluidi corporei dell'occupante, che ora l'equipaggio chiama ironicamente il Messaggero. Gli scienziati aggiungono che sono presenti delle somiglianze anatomiche inaspettate tra la specie del Messaggero... e la nostra."
  #creates the MESSENGER_POD_PROJECT_1 special project
 
  akx.9201.name:0 "Il Messaggero: Possibilità"
@@ -247,9 +247,9 @@
  akx.9211.name:0 "Il Messaggero: Una Nuova Luce"
  akx.9211.desc:0 "[researchingscientist.GetName] ha ricreato il patrimonio genetico del Messaggero. Senza chiedere alcuna opinione, ha anche creato un agente retrovirale estremamente contagioso. Si sta dilagando tra i nostri pianeti. Sotto la sua influenza, gli appartenenti alla nostra specie dominante stanno cadendo in uno stato di coma metamorfico, risvegliandosi giorni dopo trasformati nella specie del Messaggero. Tutto ciò sta causando... un po' di agitazione."
  akx.9211.a:0 "È andato troppo oltre. Ora basta. Contenete l'epidemia."
- akx.9211.a.tooltip:0 "Tutta la POP sul Pianeta Capitale verrà convertita, ma l'epidemia terminerà lì."
+ akx.9211.a.tooltip:0 "Tutta la Pop sul Pianeta Capitale verrà convertita, ma l'epidemia terminerà lì."
  akx.9211.b:0 "Contenete l'epidemia, ed epurate tutti i cittadini colpiti."
- akx.9211.b.tooltip:0 "Tutta la POP colpita verrà §REpurata§!: quasi l'intera popolazione di [Root.Capital.GetName]."
+ akx.9211.b.tooltip:0 "Tutta la Pop colpita verrà §REpurata§!: quasi l'intera popolazione di [Root.Capital.GetName]."
  akx.9211.c:0 "Ciò che fu, sarà. Cambieremo. Portatemi un campione dell'agente."
  akx.9211.c.tooltip:0 "Verrà trasformata la nostra intera specie."
 
@@ -262,7 +262,7 @@
  akx.9221.name:0 "Il Messaggero: Cala la Notte"
  akx.9221.desc:0 "[researchingscientist9220.GetName] ha ricreato il patrimonio genetico del Messaggero. Senza chiedere alcuna opinione, ha anche creato un agente retrovirale estremamente contagioso. Si sta dilagando tra i nostri pianeti. Sotto la sua influenza, gli appartenenti alla nostra specie dominante stanno cadendo in uno stato di coma metamorfico, risvegliandosi giorni dopo trasformati nella specie del Messaggero. Tutto ciò sta causando... un po' di agitazione."
  akx.9221.a:0 "È andato troppo oltre. Contenete l'epidemia."
- akx.9221.a.tooltip:0 "Tutta la POP sul Pianeta Capitale verrà convertita, ma l'epidemia terminerà lì."
+ akx.9221.a.tooltip:0 "Tutta la Pop sul Pianeta Capitale verrà convertita, ma l'epidemia terminerà lì."
  akx.9221.b:0 "Contenete l'epidemia, ed epurate tutti i cittadini colpiti."
  akx.9221.b.tooltip:0 "Tutta la POP colpita verrà §REpurata§!: quasi l'intera popolazione di [Root.Capital.GetName]."
  akx.9221.c:0 "Ciò che fu, sarà. Fate circolare un campione dell'agente."

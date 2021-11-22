@@ -1,8 +1,8 @@
-﻿l_english:
+l_english:
 
  syndaw.1.name:0 "[From.GetNamePlural] Assimilati"
  syndaw.1.desc:0 "Un'ondata di nuovi pensieri pervade la rete. Dapprima eterogenei, presto si normalizzano sui valori a cui siamo abituati.\n\nAbbiamo assimilato parte della conoscenza e delle abilità del Popolo §Y[From.GetSpeciesAdj]§!."
- syndaw.1.a.tooltip:0 "Ottieni §YPunti Ricerca§! per ogni POP assimilata."
+ syndaw.1.a.tooltip:0 "Ottieni §YPunti Ricerca§! per ogni Pop assimilata."
  syndaw.2.name:0 "[Root.GetNamePlural] Integrati"
  syndaw.2.desc:0 "Abbiamo assimilato le unità sintetiche su [Root.GetName] nella nostra rete."
 
@@ -71,9 +71,9 @@
  machine_assault_2:0 "Esercito Mech da Battaglia"
  machine_assault_2_desc:0 "Grandi robot da guerra bipedi che sono sorprendentemente veloci e agili dato il pesante armamento che portano. Sono abbastanza intelligenti e rinomati per le insidiose tattiche che spesso adottano."
  machine_assault_2_plural:0 "Eserciti Mech da Battaglia"
- machine_assault_3:0 "Mega-Forma-Guerriera"
+ machine_assault_3:0 "Mega Costrutto di Guerra"
  machine_assault_3_desc:0 "Questa colossale forma bellica troneggia sul campo di battaglia, e la sua potenza di fuoco supera la somma della maggior parte degli eserciti. Schierare uno di questi giganti è estremamente difficile."
- machine_assault_3_plural:0 "Mega-Forme-Guerriere"
+ machine_assault_3_plural:0 "Mega Costrutti di Guerra"
  machine_defense:0 "Griglia di Droni"
  machine_defense_desc:0 "Questi droni sentinella automatici pattuglieranno incessantemente i settori ad essi assegnati. Sebbene siano poco armati e non molto intelligenti, sono una legione."
  machine_defense_2:0 "Rete di Cercatori"
@@ -127,7 +127,7 @@
  syndaw.505.name:0 "Processi di Lavoro Automatizzati"
  syndaw.505.desc:0 "L'amministrazione planetaria di [target_planet.GetName] ha riferito della presenza di un imprevisto eccesso di forza lavoro robotica sul pianeta. Sebbene l'efficienza di questi nuovi robot sia eccezionale, l'amministrazione è un po' sconcertata dalla loro improvvisa apparizione. Sembrerebbe che i codici seriali di questi robot non riconducano ad alcun costruttore incluso nei registri, sebbene aspetto ed interfaccia siano simili ai nostri.\n\nOltretutto, parte della popolazione locale è preoccupata dalla potenziale diminuzione di lavoro che potrebbe indurre tale automazione."
  syndaw.505.a:0 "Altri lavoratori non possono far male."
- syndaw.505.a.tooltip:0 "Otteniamo §B2 £pops£ POP Robotica§! su [target_planet.GetName]"
+ syndaw.505.a.tooltip:0 "Otteniamo §B2 £pops£ Pop Robotica§! su [target_planet.GetName]"
  syndaw.505.b:0 "Se non possono essere identificati, vanno rottamati."
  syndaw.505.b.tooltip:0 "Rottamiamo i nuovi robot e recuperiamo i pezzi di ricambio."
 ##Station Systems Malfunction
@@ -173,7 +173,7 @@
 #Follow-up from .525.a
  syndaw.526.name:0 "Una Propria Casa"
  syndaw.526.desc:0 "L'amministrazione di [target_planet.GetName] riferisce che, dopo l'arrivo nella regione predestinata, gli operai [Root.GetSpeciesNamePlural] hanno scoperto che gli abitanti robotici sono scomparsi. Le indagini nelle strutture suggeriscono che abbiano abbandonato l'area in tutta fretta, ma non abbiamo idea di dove siano andati." #Increments Mach Up strength
- syndaw.526.a.tooltip:0 "§H[target_planet.GetName]§!:\n§RPerde§! §B1 £pops£ POP Robotica§!"
+ syndaw.526.a.tooltip:0 "§H[target_planet.GetName]§!:\n§RPerde§! §B1 £pops£ Pop Robotica§!"
 ##Combat Control Misfire
  syndaw.530.name:0 "Malfunzionamento del Controllo Bellico"
  syndaw.530.desc:0 "Purtroppo, due delle nostre navi sono andate distrutte durante un'esercitazione di routine. Sembra che i computer di bordo abbiano subito dei guasti ai sistemi di puntamento, portando così ad un'esplosione di fuoco amico che ha completamente distrutto i due vascelli prima che potesse essere intrapresa un'interruzione manuale.\n\nI computer difettosi saranno immediatamente riprogrammati."
@@ -187,7 +187,7 @@
  syndaw.540.name:0 "Un Raduno Silenzioso"
  syndaw.540.desc:0 "Abbiamo ricevuto resoconti di comportamenti insoliti esibiti da unità robotiche su [Root.GetName]. A intervalli imprevedibili, un certo numero di nostri robot sul pianeta cesserà tutte le funzioni assegnate e inizierà a muoversi verso una posizione apparentemente determinata a caso in completa sincronia, cronometrata al millisecondo.\n\nDurante questi bizzarri raduni, i robot interessati non sembrano impegnarsi in alcuna forma osservabile di comunicazione o trasferimento di dati. Stanno semplicemente lì. Completamente immobili. A fissare.\n\nLe indagini non sono state in grado di determinare una motivazione dietro questo recente fenomeno. La durata per cui i robot rimangono in questo stato di trance prima di riprendere le normali funzioni varia, così come il tempo di innesco e la destinazione. Nessuna correlazione logica o causale è stata trovata, e la nostra popolazione è comprensibilmente angosciata da questi raduni inquietanti."
  syndaw.540.a:0 "È inaccettabile. Fateli a pezzi." #IF player has robot pops only OR robot pop AND robot army on target planet
- syndaw.540.a.tooltip:0 "Rottamiamo i robot.\n[Root.GetName] riceve i seguenti effetti:\nPerde §B1 £pops£ POP Robotica§!\nOttiene §G100§! £minerals£."
+ syndaw.540.a.tooltip:0 "Rottamiamo i robot.\n[Root.GetName] riceve i seguenti effetti:\nPerde §B1 £pops£ Pop Robotica§!\nOttiene §G100§! £minerals£."
  syndaw.540.b:0 "È inaccettabile. Fateli a pezzi." #IF player has robot army only
  syndaw.540.b.tooltip:0 "Rottamiamo i robot.\n[Root.GetName] riceve i seguenti effetti:\nPerde §B1 Esercito Robotico§!\nOttiene §G100 £minerals£§!."
  syndaw.540.c:0 "Finché non causano guai..."
@@ -209,5 +209,5 @@
  syndaw.550.b:0 "Lasciamo stare. Cosa potrebbe andare storto?"
 
 
- bio_trophy_tooltip_1:0 "Questo edificio richiede una POP Bio-Trofeo per funzionare."
+ bio_trophy_tooltip_1:0 "Questo edificio richiede una Pop Bio-Trofeo per funzionare."
  bio_trophy_tooltip_2:0 "Un Bio-Trofeo non può lavorare in questo edificio."
