@@ -1420,6 +1420,7 @@
  emperor.60.name: "Imperial Charter Granted"
  emperor.60.desc: "After having curried favor with the [gal_emperor.GetRulerTitle], §H[charter_corp.GetName]§! has now been granted an §HImperial Charter§! by the Senate. This gives them special dispensation to open branch offices on planets all over the Imperium, regardless of whether they have a commercial pact with the owner.\n\nWe can expect the megacorporation to establish Imperial Concession Ports in their branch offices on our worlds soon, where we will have no jurisdiction. It would seem the [gal_emperor.GetRulerTitle] has acquired a powerful new engine of economic growth."
  emperor.60.a: "Buon per loro."
+ country_concessions: "$imp_concession_ports_1$"
  imp_concession_ports_1: "Imperial Concession Ports"
  imp_concession_ports_1_desc: "Dividends from the Imperial Concession Ports within the Galactic Imperium. The more of these branch offices established by our Megacorporation partner, the greater our profits."
  imp_concession_ports_2: "$imp_concession_ports_1$"
