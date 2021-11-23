@@ -11779,7 +11779,7 @@
  EXPLORE_BYPASS_INACTIVE: "Il $BYPASS$ non è stato attivato."
  TRIGGER_TEST: "$CONDITION$ $TEXT$"
 
- PATCHNOTES: "§HClick§! to go to Paradox' Stellaris forum to read the full patch notes for 3.2"
+ PATCHNOTES: "§HClicca§! per visitare il forum Paradox di Stellaris e leggere le note di rilascio complete della versione 3.2"
 
  sys_unsurveyed: "Sistema non ispezionato"
  sys_unclaimed: "Sistema non rivendicato"
