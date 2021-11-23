@@ -285,6 +285,7 @@
  edict_tracking_implants_desc: "Gli impianti sottocutanei obbligatori registrano movimenti e azioni, migliorando notevolmente la sicurezza interna del nostro impero. I cittadini fedeli non hanno nulla da nascondere al governo."
  edict_thought_enforcement: "Applicazione del Pensiero"
  edict_thought_enforcement_desc: "I telepati che monitorano la cittadinanza a caccia di pensieri inappropriati, apporteranno correzioni man mano che vengono trovati."
+ edict_thought_enforcement_effect: "Crittografia: §G+1§!\nFelicità: §R-10%§!\nAttrazione Etica Governativa: §G+25%§!\n$planet_telepaths$ forniscono §G-5§! Crimine"
 
  edict_synaptic_reinforcement: "Rinforzo Sinaptico"
  edict_synaptic_reinforcement_desc: "Rafforza i nostri nodi sinaptici come focolai centrali nelle nostre colonie, aumentando la loro capacità di provvedere ai droni nelle vicinanze."
@@ -548,6 +549,7 @@
  envoy_events.220.desc.mol: "$envoy_events.220.desc.start$ che inquinano tutto con la loro schifosa melma.\n\n$envoy_events.220.desc.end$"
  envoy_events.220.desc.lit: "$envoy_events.220.desc.start$ che sono indistinguibili nell'intelletto da un sassolino da giardino.\n\n$envoy_events.220.desc.end$"
  envoy_events.220.desc.nec: "$envoy_events.220.desc.start$ che puzzano come i rifiuti del mese scorso.\n\n$envoy_events.220.desc.end$"
+ envoy_events.220.desc.aqu: "$envoy_events.220.desc.start$ che fanno solo discorsi senza senso.\n\n$envoy_events.220.desc.end$"
  envoy_events.220.desc.robot: "$envoy_events.220.desc.start$ che hanno una potenza di elaborazione inferiore a un utensile da cucina medio.\n\n$envoy_events.220.desc.end$"
 
  ESPIONAGE_INTEL_GAINED_TITLE: "Intelligence ottenuta da doppi Agenti"
