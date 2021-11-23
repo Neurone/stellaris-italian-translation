@@ -21,6 +21,7 @@
  MUSICPLAYER_DECREASE_VOL:0 "Diminuisci Volume"
  MUSICPLAYER_ADJUST_VOL:0 "Regola Volume"
  MUSICPLAYER_SAVE:0 "Salva"
+ MUSIC_CONTROLS_TOGGLE_VISIBLE:0 "§HAttiva/Disattiva controlli Lettore Musicale §!"
 
  # Base Music Tracks
  maintheme:0 "Creazione ed Oltre"

@@ -98,6 +98,7 @@
  syndaw_congregating_robots_desc:0 "Rimangono semplicemente lì. Completamente immobili. Fissando."
 
  uprising_ai_buff:0 "Ottimizzazione delle Riserve"
+ country_ai_uprising:0 "$uprising_ai_buff$"
 
  syndaw_patched_systems:0 "IA Corrette"
 

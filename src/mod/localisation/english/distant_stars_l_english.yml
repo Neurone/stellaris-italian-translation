@@ -1639,12 +1639,14 @@
  distar.3055.d:0 "Vendetele."
  distar.3055.d.tooltip:0 "Vendi le fiale al miglior offerente."
  distar.3056.name:0 "Contenuto della Scatola Aliena"
- distar.3056.desc:0 "Finalmente i nostri scienziati sono riusciti a sbirciare nella scatola aliena senza compromettere il contenitore stesso. Utilizzando un avanzato tipo di sonar, sono stati in grado di identificarne il contenuto.\n\nContenuto che è risultato abbastanza sconcertante, o almeno inaspettato. La scatola protegge tre piccole fiale, ognuna piena di un liquido sconosciuto.\n\nNon c'è alcun pericolo nell'aprirla, ma dobbiamo ancora capire come farlo."
+ distar.3056.desc:0 "Alla fine, i nostri [Root.GetScientistPlural] sono riusciti a sbirciare nella scatola aliena senza compromettere il contenitore stesso. Utilizzando un tipo avanzato di sonar, sono stati in grado di identificare il suo contenuto.\n\nIl contenuto è sconcertante o, almeno, inaspettato. La scatola contiene tre piccole fiale, ciascuna riempita con un liquido sconosciuto.\n\nNon ci sono pericoli nell'aprire la scatola, ma saranno necessarie ulteriori ricerche per capire come."
  distar.3056.a:0 "Apritela."
  distar.3056.a.tooltip:0 "\nLo studio della scatola ha migliorato\nla nostra conoscenza £physics£ §YFisica§!."
  # Above "\n" is intended, to put "Physics"-word and -symbol on the same line
  distar.3056.b:0 "Vendetela."
  distar.3056.b.tooltip:0 "Vendi la scatola al miglior offerente."
+ distar.3056.c:0 "Irradiatela."
+ distar.3056.c.tooltip:0 "Attraverso l'analisi dell'attivazione neutronica possiamo capire meglio quali materiali sono stati usati per creare la scatola e quale sia il suo contenuto."
 
  distar.3057.name:0 "Modifica Genetica Completata"
  distar.3057.desc.stronger:0 "La soluzione genetica §Rrossa§! è stata somministrata con successo alla popolazione [Root.GetSpeciesName].\n\nIn base alle osservazioni preliminari dei soggetti, sembra che la soluzione ci renda più socievoli."
@@ -2012,6 +2014,7 @@
  graygoo.116.desc:0 "Cittadini galattici, saluti dal Concordato Dessanu!\n\nEoni fa, abbiamo supervisionato alla costruzione dei Portali che voi avete forse visto giacere abbandonati. Era nostra intenzione creare una rete galattica che sfruttasse questi dispositivi ma, ahimè, un terribile errore ha reso i Portali-L inutilizzabili, esiliandoci così nel nostro ammasso natale.\n\nMa l'Era dell'Isolamento è finalmente giunta alla fine, grazie agli strabilianti scienziati [From.From.GetSpeciesNamePlural]! Ora che i Portali-L sono nuovamente operativi, invitiamo chiunque a farne libero uso per ridurre i tempi di navigazione galattica. Il nostro ammasso stellare è aperto a chiunque.\n\nAd eccezione del Sistema §H[lcluster_factory_system.GetName]§!. Non andate lì."
  graygoo.116.d:0 "Fine trasmissione."
  dessanu_gift:0 "Dono dei Dessanu"
+ country_dessanu:0 "$dessanu_gift$"
  country_resource_sr_distar_nanodust_add:0 "Polvere Grigia"
  country_resource_sr_distar_nanocrystal_add:0 "Cristalli Grigi"
  country_resource_sr_distar_nanoscale_add:0 "Scaglie Grigie"

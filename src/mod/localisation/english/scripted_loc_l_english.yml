@@ -34,6 +34,13 @@
  drone_key:0 "drone"
  unit_key:0 "unità"
 
+ getterraformer_machine:0 "unità di terraformazione"
+ getterraformer_machine_plural:0 "unità di terraformazione"
+ getterraformer_hive:0 "drone per la terraformazione"
+ getterraformer_hive_plural:0 "droni per la terraformazione"
+ getterraformer_normal:0 "specialista della terraformazione"
+ getterraformer_normal_plural:0 "specialisti della terraformazione"
+
  monsteronship_desc:0 "Una creatura selvatica ha invaso la nostra Nave Scientifica e sta provando ad uccidere l'equipaggio. Non dureranno a lungo senza l'intervento delle nostre forze militari!"
  monsteronship_mach_desc:0 "Una bestia organica selvatica ha invaso la nostra Nave Scientifica e sta provando ad uccidere l'equipaggio. Non dureranno a lungo senza l'intervento delle nostre forze militari!"
 

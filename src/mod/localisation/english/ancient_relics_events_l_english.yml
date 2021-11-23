@@ -1084,9 +1084,9 @@
  ancrel.4068.desc:0 "[missing_archaeologist.GetName] è stato trovato privo di sensi e gravemente ferito, nascosto nel sottobosco sotto una formazione rocciosa naturale, con un datapad insanguinato nascosto sotto il braccio di [missing_archaeologist.GetHerHis]. [missing_archaeologist.GetSheHeCap] è stato portato d'urgenza in ospedale e curato per grave lesione cerebrale indicativa di un trauma contundente dovuto all'impatto dall'alto.\n\nAnche se le condizioni di [missing_archaeologist.GetHerHis] sono stabili, [missing_archaeologist.GetSheHe] soffre ancora di perdita di memoria e non ricorda come [missing_archaeologist.GetSheHe] abbia sostenuto [missing_archaeologist .GetHerHis] ferite. Schegge dell'esclusiva lega metallica da cui sono scolpite le Sentinelle sono state depositate nell'osso cranico parietale [missing_archaeologist.GetHerHis]. Tutto [missing_archaeologist.GetSheHe] ricorda si sta nascondendo da qualcuno e si sta calmando di quel poco che la terra aveva da offrire. Tuttavia, le note di [missing_archaeologist.GetHerHis] contengono alcune informazioni utili. "
  ancrel.4068.a:0 "Infausto"
  ancrel.4078.name:0 "Fuoco"
- ancrel.4078.desc:0 "Durante la notte, mentre gli archeologi dormivano pacificamente, un incendio scoppiò nel modulo delle provviste del campo cuocendo un po 'troppo il cibo. Non ci sono indicazioni su come sia iniziato l'incendio. Per fortuna nessuno è rimasto ferito ma gli archeologi non lavorano bene a stomaco vuoto ..."
+ ancrel.4078.desc:0 "Durante la notte, mentre gli archeologi dormivano pacificamente, è scoppiato un incendio nel modulo delle provviste del campo, facendo cuocere in qualche modo il cibo. Non ci sono indicazioni su come sia scoppiato l'incendio. Per fortuna nessuno si è fatto male, ma gli archeologi non lavorano bene a stomaco vuoto..."
  ancrel.4078.a:0 "Invia Disposizioni"
- ancrel.4078.b:0 "Un vero [owner.GetSpeciesNamePlural] vive della terra."
+ ancrel.4078.b:0 "Un vero [owner.GetSpeciesName] vive della terra."
 
  the_evermore_modifier:0 "Emozioni Economiche"
  the_evermore_modifier_desc:0 "L'Aeternus, originariamente un regno virtuale in cui le coscienze digitalizzate degli alieni vivevano in eterna beatitudine, è stato riproposto in un parco giochi per le masse."

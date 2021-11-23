@@ -8,7 +8,7 @@
  ORIGIN_INITIALIZER_RESTRICTION:0 "Impossibile modificare a causa dell'Origine attualmente selezionata"
 
  origin_default:0 "Unificazione Prospera"
- origin_default_desc:0 "Una stabile unificazione planetaria ha permesso a questa civiltà di prosperare e crescere."
+ origin_default_desc:0 "Attraverso le sue lotte e i suoi trionfi, questa società ha raggiunto l'ambizione di ogni giovane civiltà: un pianeta natale con obiettivi unificati e un cammino aperto verso le stelle."
  origin_tooltip_default_effects:0 "- Comincia la partita con §Y4§! £pop£ Pop addizionali e con §Y2§! Distretti addizionali."
  origin_mechanists:0 "$civic_mechanists$"
  origin_mechanists_desc:0 "Questa civiltà si è preoccupata dell'idea di automi metallici fin dall'inizio dell'Età del Vapore. Anche se molti dicevano che non si poteva fare, i primi veri robot sono usciti dalle catene di montaggio molto prima che fosse realizzato anche solo un rudimentale volo spaziale."
@@ -25,7 +25,7 @@
  origin_tooltip_shattered_ring_effects_lithoid:0 "§R- ATTENZIONE: Origine sfidante per i Litoidi a causa della scarsità di minerali.§!\n$origin_tooltip_shattered_ring_effects$"
  origin_remnants:0 "Vestigia"
  origin_remnants_desc:0 "Questa civiltà un tempo si estendeva nel vuoto, controllando gran parte della Galassia. Alla fine sono stati sconfitti e quasi distrutti, ma dopo un lungo periodo di indigenza stanno tornando tra le stelle."
- origin_tooltip_remnants_effects:0 "- Comincia con un §HPianeta Reliquia§! come pianeta natale. Reclama la tua gloria perduta!"
+ origin_tooltip_remnants_effects:0 "- Comincia con un §HPianeta Reliquia§! (Dimenzione: £planetsize£ §Y22§!) come pianeta natale. Reclama la tua gloria perduta!"
  origin_tree_of_life:0 "Albero della Vita"
  origin_tree_of_life_desc:0 "Questo Alveare si è evoluto in una relazione simbiotica con un grande albero. L'Albero garantisce loro molti benefici, ma la sua perdita li paralizzerebbe."
  origin_tooltip_tree_effects:0 "- Il nostro Alveare ottiene molti bonus vivendo su un pianeta con un §HAlbero della Vita§! presente, o subisce penalità se è assente. Le §HNavi Colonia§! sono più costose, ma forniranno ai nuovi pianeti il ​​germoglio del proprio giovane Albero."
@@ -690,7 +690,7 @@
 
  requires_strongest:0 "§RRichiede che il $law_category_succession_type$ sia §Y$succession_type_strongest$§!.§!"
 
- requires_megacorp_or_merchant:0 "§RRichiede che tu sia una §Y$gov_megacorporation$§! o che tu abbia la civica §Y$civic_merchant_guilds$§! civic.§!"
+ requires_megacorp_or_merchant:0 "§RRequires you to have one of the §Y$civic_merchant_guilds$§! or §Y$civic_corporate_dominion$§! civics or to be a §Y$gov_megacorporation$§!.§!"
  disabled_for_hegemony:0 "§RUna §Y$hegemony_federation$§! non può vietare l'adesione di nazioni soggette.§!"
  president_no_effect:0 "Nessun effetto."
 
@@ -1674,6 +1674,9 @@
  col_bureau_desc:0 "Un intero mondo dedicato ai bisogni in continua espansione della burocrazia."
  col_bureaucracy_custom:0 "La Capacità Amministravia dai Burocrati è aumentata di §G2§!.\nIl Mantenimento del Lavoro di Burocrate è ridotto del §G10%§!. \nProbabilità Cambio Etiche dei £pop£ Pop è ridotta del §G20%§!."
 
+ col_habitat_bureau:0 "Stazione Burocratica"
+ col_habitat_bureau_desc:0 "Un intero habitat dedicato alle esigenze in continua espansione della burocrazia."
+
  ################
  ### Modifiers
  ################
@@ -1686,6 +1689,8 @@
 
  prosp_uni_mod:0 "Unificazione Prospera"
  prosp_uni_mod_desc:0 "Dal Giorno dell'Unificazione l'economia è andata a gonfie vele!"
+ prosp_uni_mod_gestalt:0 "Unificazione Prospera"
+ prosp_uni_mod_gestalt_desc:0 "La produzione ha avuto un boom da quando il collettivo ha ottenuto il controllo totale su [Planet.GetName]."
 
  no_lifetree:0 "Nessun Albero della Vita"
  no_lifetree_desc:0 "Senza l'albero, siamo incompleti."
@@ -2225,6 +2230,7 @@
  d_arcane_replicator:0 "Replicatore Arcano"
  d_arcane_replicator_desc:0 "Questa antica macchina è nascosta in profondità all'interno dell'habitat, costruita nel suo reattore principale da cui trae anche la sua energia. Una reliquia di chiunque abbia originariamente costruito questo habitat, la sua tecnologia di replicazione della materia è del tutto incomprensibile per noi."
  START_SCREEN_VOID_DWELLERS:0 "Per molti, il vuoto dello spazio è un ambiente ostile da conquistare o superare. Per noi è casa. Per migliaia di anni, la nostra specie ha risieduto su tre stazioni spaziali, ciascuna in orbita attorno a un sole diverso in un sistema stellare ternario. Non sappiamo se siano stati costruiti dai nostri antenati o da qualcun altro.\n\nAnche se la nostra biologia suggerirebbe che la nostra specie abbia avuto origine su un pianeta, le cronache storiche non ne fanno menzione. Alcuni ipotizzano che i resti planetari in frantumi trovati sotto una delle nostre stazioni siano il pianeta natale perduto della nostra specie, ma la verità potrebbe non essere mai scoperta.\n\nSono passati solo pochi secoli da quando è stato inventato il volo spaziale che consente il viaggio tra le nostre tre stazioni - o riscoperto, a seconda di chi lo chiedi. Il sospetto e la sfiducia lasciarono gradualmente il posto al commercio e alla cooperazione reciproca. Con l'invenzione del nostro primo hyperdrive, i tre habitat si sono uniti sotto un'unica bandiera."
+ START_SCREEN_VOID_DWELLERS_SOL:0 "Per molti, il vuoto dello spazio è un ambiente ostile da conquistare o superare. Per noi è casa. Per migliaia di anni, la nostra specie ha risieduto su tre stazioni spaziali, ognuna in orbita attorno a un pianeta diverso nel nostro sistema solare fatiscente. Non sappiamo se siano stati costruiti dai nostri antenati o da qualcun altro.\n\nAnche se la nostra biologia suggerirebbe che la nostra specie abbia avuto origine su un pianeta, le cronache storiche non ne fanno menzione. Alcuni ipotizzano che la terra desolata e tossica di un pianeta trovato sotto una delle nostre stazioni sia il mondo perduto della nostra specie, ma la verità potrebbe non essere mai scoperta.\n\nSono passati solo pochi secoli da quando è stato inventato il volo spaziale che consente il viaggio tra le nostre tre stazioni - o riscoperto, a seconda di chi lo chiedi. Il sospetto e la sfiducia lasciarono gradualmente il posto al commercio e alla cooperazione reciproca. Con l'invenzione del nostro primo hyperdrive, i tre habitat si sono uniti sotto un'unica bandiera."
  START_SCREEN_SCION:0 "All'inizio della nostra storia, prima che avessimo sviluppato molto in termini di tecnologia, i nostri benefattori alieni si mostrarono a noi. Spiegarono, in termini che i nostri sconcertati antenati potessero capire, che la nostra specie mostrava grandi promesse. Con molta pazienza, ci guidarono su un percorso che avrebbe aiutato la nostra civiltà a raggiungere il suo pieno potenziale.\n\nNelle poche occasioni in cui ci siamo allontanati da questo percorso, hanno corretto il nostro corso - con fermezza, come farebbe qualsiasi genitore - ma presto i nostri scienziati dominarono l'elettricità, poi l'energia atomica e poi il rozzo volo spaziale. Sotto la tutela dei nostri sorveglianti, abbiamo ora costruito i nostri primi hyperdrive."
 
  mod_habitat_jobs_produces_mult:0 "Produzione Popolazione sugli Habitat"
