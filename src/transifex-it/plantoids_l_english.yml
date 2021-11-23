@@ -41,6 +41,8 @@
  trait_plantoid_radiotrophic: "Radiotrofico"
  trait_plantoid_radiotrophic_desc: "§LQuesta specie è sostenuta da una combinazione di cibo e radiazioni a bassa energia, e come tale può prosperare sui mondi più inospitali.§!"
  TRAIT_PLANTOID_RADIOTROPHIC_EFFECT: "$TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT$\nLa Popolazione che vive sui §YPianeti Sepolcro§! non ha costo di Mantenimento di £energy£ §YEnergia§!.\nVelocità di Crescita della Popolazione su §YPianeti Sepolcro§! §G+10%§!\nAbitabilità Pianeti Sepolcro: §G+10%§!"
+ trait_harvested_radiotrophic: "$trait_plantoid_radiotrophic$"
+ trait_harvested_radiotrophic_desc: "$trait_plantoid_radiotrophic_desc$"
 
  trait_plantoid_budding: "Gemmazione"
  trait_plantoid_budding_desc: "§LQuesta specie è capace di riprodursi per gemmazione, oltre alla più usuale fecondazione di semi o spore.§!"
