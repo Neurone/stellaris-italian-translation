@@ -691,10 +691,12 @@
  tr_unyielding_never_surrender_gestalt_delayed: "Non cederemo mai a coloro che sono inferiori. Che si scaglino contro le nostre difese indistruttibili! Tra mille anni, saranno solo un'altra nota a piè di pagina nella storia della nostra ascensione."
 
  tr_unyielding_bulwark_of_harmony: "Baluardo dell'Armonia"
- tr_unyielding_bulwark_of_harmony_gestalt: "$tr_unyielding_bulwark_of_harmony$"
+ tr_unyielding_bulwark_of_harmony_hive: "$tr_unyielding_bulwark_of_harmony$"
+ tr_unyielding_bulwark_of_harmony_machine: "$tr_unyielding_bulwark_of_harmony$"
  tr_unyielding_bulwark_of_harmony_desc: "Durante una guerra difensiva con un altro impero, la §Y$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$§! è aumentata del §G+33%§!. Inoltre, la §Y$MOD_SHIP_FIRE_RATE_MULT$§! è aumentata del §G+15%§! per le navi entro i tuoi confini."
  tr_unyielding_bulwark_of_harmony_delayed: "Tutti gli organismi, non importa quanto perfetti, devono contare su un sistema immunitario per allontanare la minaccia di malattie esterne. La nostra società non è diversa."
- tr_unyielding_bulwark_of_harmony_gestalt_delayed: "Tutti gli organismi, non importa quanto perfetti, devono fare affidamento su un sistema immunitario per allontanare la minaccia di malattie esterne. La [This.GetName] non è diversa."
+ tr_unyielding_bulwark_of_harmony_hive_delayed: "Tutti gli organismi, non importa quanto perfetti, devono fare affidamento su un sistema immunitario per allontanare la minaccia di malattie esterne. La [This.GetName] non è diversa."
+ tr_unyielding_bulwark_of_harmony_machine_delayed: "Tutti gli organismi, non importa quanto perfetti, devono fare affidamento su un sistema di difesa interno per allontanare le minacce esterne. La [This.GetName] non è diversa."
 
  tr_unyielding_defensive_zeal: "Zelo Difensivo"
  tr_unyielding_defensive_zeal_delayed: "Quando si tratta di difendere i nostri territori e la nostra esistenza, il nostro fervore sarà sicuramente percepito dai nostri nemici."
