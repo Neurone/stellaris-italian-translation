@@ -8,7 +8,7 @@ Di seguito trovate l'attuale stato di traduzione del gioco base e dei DLC, ordin
 
 | Uscita | DLC | Stato Traduzione |
 |--|--|--|
-|2021.11.22| Pacchetto Specie - Aquatics| **Da tradurre**|
+|2021.11.22| Pacchetto Specie - Aquatics| **Parziale**|
 |2021.04.15| Nemesis| **Parziale**|
 |2020.10.29| Pacchetto Specie - Necroids| Completa|
 |2020.03.17| Federations| **Parziale**|
