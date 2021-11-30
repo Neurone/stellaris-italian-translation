@@ -2,7 +2,7 @@
 
 Questo mod, **compatibile** con la **modalità Ironman** e gli **achievement di Steam**, sostituisce la lingua inglese con la lingua italiana.
 
-Basato sulla versione: **Herbert v3.2.1**
+Basato sulla versione: **Herbert v3.2.2**
 
 Di seguito trovate l'attuale stato di traduzione del gioco base e dei DLC, ordinati per data di uscita.
 
