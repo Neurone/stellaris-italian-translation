@@ -33,8 +33,6 @@ Leader Pool => Elenco Leader Disponibili
 
 POP => Pop
 
-Sapienti -> Senzienti (WIP)
-
 Contingente -> Contingenza
 
 Amenities -> Comodità (più che servizi "generici")
