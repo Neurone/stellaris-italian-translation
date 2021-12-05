@@ -1273,7 +1273,7 @@
 
  job_primitive_researcher:0 "Studioso"
  job_primitive_researcher_plural:0 "Studiosi"
- job_primitive_researcher_desc:0 "I sapienti di questa società; spesso fanno affidamento sulla tradizione orale per protrarre la conoscenza alle future generazioni."
+ job_primitive_researcher_desc:0 "I senzienti di questa società; spesso fanno affidamento sulla tradizione orale per protrarre la conoscenza alle future generazioni."
  mod_job_primitive_researcher_add:0 "Lavoro da $job_primitive_researcher$"
 
  job_primitive_priest:0 "Ecclesiasta"
@@ -1321,8 +1321,8 @@
  job_primitive_bureaucrat_desc:0 "Molte primitive società industriali e post-industriali sono governate da una classe di funzionari pubblici in continua espansione."
  mod_job_primitive_bureaucrat_add:0 "Lavoro da $job_primitive_bureaucrat$"
 
- job_pre_sapient:0 "Pre-Sapiente"
- job_pre_sapient_plural:0 "Pre-Sapienti"
+ job_pre_sapient:0 "Pre senziente"
+ job_pre_sapient_plural:0 "Pre senzienti"
  job_pre_sapient_desc:0 "A prima vista sembrano semplici bestie, ma il loro comportamento tradisce una certa intelligenza..."
  mod_job_pre_sapient_add:0 "Lavoro da $job_pre_sapient$"
 
@@ -1382,7 +1382,7 @@
 
  job_fe_guardian_bot:0 "Guardiano"
  job_fe_guardian_bot_plural:0 "Guardiani"
- job_fe_guardian_bot_desc:0 "Queste antiche macchine vegliano incessantemente i resti di miliardi di sapienti criogenizzati."
+ job_fe_guardian_bot_desc:0 "Queste antiche macchine vegliano incessantemente i resti di miliardi di senzienti criogenizzati."
  mod_job_fe_guardian_bot_add:0 "Lavoro da $job_fe_guardian_bot$"
 
  job_fe_hedonist:0 "Edonista"
@@ -2014,7 +2014,7 @@
  d_valley_of_zanaam:0 "Valle di Zanaam"
  d_valley_of_zanaam_desc:0 "Questa valle è la sede di un misterioso obelisco ricoperto di lettere scritte in un'antica lingua aliena. Vibra d'energia, e coloro che gli si avvicinano soffrono di emicranie."
  d_abandoned_primitive_homesteads:0 "Fattorie Primitive Abbandonate"
- d_abandoned_primitive_homesteads_desc:0 "Queste fattorie abbandonate un tempo erano abitate da una società di rettili. Popolano ancora il pianeta, ma hanno perduto ogni capacità di pensiero sapiente."
+ d_abandoned_primitive_homesteads_desc:0 "Queste fattorie abbandonate un tempo erano abitate da una società di rettili. Popolano ancora il pianeta, ma hanno perduto ogni capacità di pensiero senziente."
  d_the_zone:0 "Zona A"
  d_the_zone_desc:0 "Un'area di tredici chilometri quadrati su questo pianeta presenta rovine di origine sconosciuta, disseminata di molti artefatti alieni unici e bizzarri. La cosa sconcertante è che diffonde una sensazione di profonda soddisfazione a coloro che la visitano."
  d_hyperfertile_valley:0 "Valle Iper-Fertile"
@@ -2048,7 +2048,7 @@
  d_cryonic_clones:0 "Monumento ai Cloni Criogenizzati"
  d_cryonic_clones_desc:0 "Centinaia di cloni alieni furono lasciati sigillati in camere criostatiche quando questo Pianeta Anello era ancora in rovina. Ora che è pienamente ripristinato, i cloni sono stati preservati in questo monumento."
  d_flooded_mounds:0 "Tumuli Allagati"
- d_flooded_mounds_desc:0 "Migliaia e migliaia di tumuli simili a termitai sono stati trovati nelle profondità oceaniche di questo pianeta, gli ultimi resti di un'antica specie di artropodi sapienti."
+ d_flooded_mounds_desc:0 "Migliaia e migliaia di tumuli simili a termitai sono stati trovati nelle profondità oceaniche di questo pianeta, gli ultimi resti di un'antica specie di artropodi senzienti."
  d_processing_pens:0 "Recinti di Lavorazione"
  d_processing_pens_desc:0 "I fungoidi nativi di questo pianeta sono stati geneticamente modificati per essere docili... e deliziosi. In questi enormi recinti vengono nutriti e quindi raccolti."
  d_harvester_fields:0 "Campi di Raccolta"
@@ -2470,7 +2470,7 @@
  pop_category_robot:0 "Domestico Robotico"
  pop_category_xeno_ward:0 "Standard di Vita Primitivi"
  pop_category_precursor:0 "Standard di Vita da Precursore"
- pop_category_pre_sapients:0 "Pre-Sapienti"
+ pop_category_pre_sapients:0 "Pre Senzienti"
  pop_category_drones:0 "Drone"
  pop_category_workers:0 "Standard di Vita da $pop_cat_worker$"
  pop_category_specialists:0 "Standard di Vita da $pop_cat_specialist$"
@@ -2966,8 +2966,8 @@
  cara_home_main.title:0 "$NAME_Caravaneer_Home$"
  cara_home_direct1:0 "La $NAME_Caravaneer_Home$ vi da il benvenuto nella $NAME_Chors_Compass$, casa ancestrale di disparate carovane galattiche e gioco d'azzardo. Avete sentito bene."
  cara_home_direct2:0 "Benvenuti sulla $NAME_Tradestation_Tungle$, il miglior luogo per il vostro tempo libero e base per le flotte dei Carovanieri!"
- cara_home_direct3:0 "I sapienti con profili psicologici particolarmente vulnerabili alle attività che creano dipendenza sono pregati di stare lontani dalle $slots$ e dai $lootboxes$.\n\nSe odiano il divertimento, così sia!"
- cara_home_direct4:0 "Siete sapienti scommettitori?"
+ cara_home_direct3:0 "I senzienti con profili psicologici particolarmente vulnerabili alle attività che creano dipendenza sono pregati di stare lontani dalle $slots$ e dai $lootboxes$.\n\nSe odiano il divertimento, così sia!"
+ cara_home_direct4:0 "Siete senzienti scommettitori?"
  cara_home_direct5:0 "Offriamo brividi ad alto e basso rischio, a seconda di ciò che si adatta meglio ai vostri gusti."
  cara_home_redirect1:0 "Qui parla la $NAME_Caravaneer_Home$ della $NAME_Chors_Compass$, vi contattiamo dal $NAME_Caravaneer_Fleet1$. Non ci riteniamo responsabili per eventuali precedenti interazioni con la flotta."
  cara_home_redirect2:0 "Qui parla la $NAME_Caravaneer_Home$ della $NAME_Chors_Compass$, vi contattiamo dalla $NAME_Caravaneer_Fleet2$. Non ci riteniamo responsabili per eventuali precedenti interazioni con la flotta."
@@ -3147,7 +3147,7 @@
  fleet1hewwo07:0 "Offrire rimborsi tradisce una mancanza di fiducia nei propri prodotti. Noi abbiamo piena fiducia nei nostri prodotti."
  fleet1hewwo08:0 "Insegniamo agli xeno come ottenere maggiori profitti lavorando da casa."
  fleet1hewwo09:0 "Qui non si tratta dei prodotti, si tratta dei benefici ottenuti acquistando i prodotti."
- fleet1hewwo10:0 "Per caso conoscete qualche razza sapiente a cui servirebbe un'entrata aggiuntiva di crediti energetici?"
+ fleet1hewwo10:0 "Per caso conoscete qualche razza senziente a cui servirebbe un'entrata aggiuntiva di crediti energetici?"
  fleet1hewwo11:0 "Sebbene in nostri prodotti si vendano da soli, ci prendiamo anche la briga di venderli personalmente. A voi."
  fleet1hewwo12:0 "Vi prego, comprate qualcosa. Qualsiasi cosa. Vi... prego."
  fleet1hewwo13:0 "Ogni membro del Triumvirato Vengraliano è il capo di sé stesso. Questo crea qualche... problemino amministrativo."
@@ -3737,7 +3737,7 @@
  # Casus Belli
  casus_belli_cb_galatron:0 "Accesso al Galatron Negato"
  war_goal_wg_take_galatron:0 "Ottenere il Galatron"
- war_goal_wg_take_galatron_desc:0 "Infondersi della gloria del Galatron è un diritto di ogni specie sapiente. Una civiltà che chiude i propri confini non è degna di custodire il Galatron."
+ war_goal_wg_take_galatron_desc:0 "Infondersi della gloria del Galatron è un diritto di ogni specie senziente. Una civiltà che chiude i propri confini non è degna di custodire il Galatron."
 
  casus_belli_cb_expel_corp:0 "Espropriazione"
  war_goal_wg_expel_corp:0 "Espellere la Corporazione"
@@ -3911,7 +3911,7 @@
  TO_CORP_VASSAL_GREETING_01:0 "Leviamo l'ancora, [From.GetSpeciesNamePlural], perché il nostro popolo è a bordo con voi al 100%!"
  TO_CORP_VASSAL_GREETING_DISLOYAL_01:0 "Ultimamente ci è sorto un lieve sospetto che ci usiate solo per i crediti, [From.GetSpeciesNamePlural]..."
  TO_CORP_VASSAL_DOMINEERING_01:0 "Ci sono cose che i crediti non possono comprare, [From.GetSpeciesNamePlural]. Guardate ed imparate."
- TO_CORP_DOW_PROPOSE_01:0 "Rappresentate una minaccia verso tutta la vita sapiente. La galassia dev'essere epurata dalla vostra merce da quattro soldi, prima che soccombi al totale declino morale."
+ TO_CORP_DOW_PROPOSE_01:0 "Rappresentate una minaccia verso tutta la vita senziente. La galassia dev'essere epurata dalla vostra merce da quattro soldi, prima che soccombi al totale declino morale."
  TO_CORP_DOW_PROPOSE_02:0 "Non abbiamo più intenzione di sostenere le vostre subdole pratiche e lo sfrenato sfruttamento delle risorse galattiche comuni."
  TO_CORP_DOW_PROPOSE_03:0 "Il vostro marchio è un affronto al buon gusto. Non possiamo più tollerare la vostra presenza nella galassia."
  TO_CORP_DOW_PROPOSE_04:0 "Vi vogliamo far presente che la galassia non ha più bisogno dei vostri "servizi", [Root.GetSpeciesNamePlural]..."

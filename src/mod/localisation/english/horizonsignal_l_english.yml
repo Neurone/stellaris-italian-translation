@@ -432,7 +432,7 @@
  ##create the project WAITING_WORLD_HYPERAPPEARANCE
 
  akx.9541.name:0 "Il Mondo in Attesa: Epurazione"
- akx.9541.desc:0 "Questo potrebbe essere considerato un crimine terribile. O potremmo aver preservato il nostro impero da qualcosa di ancora peggiore. I centri abitati di [waiting_world.GetName] esplodono sotto l'energia delle nostre armi. Una volta terminato, ogni edificio è in macerie; non rimane alcun essere sapiente."
+ akx.9541.desc:0 "Questo potrebbe essere considerato un crimine terribile. O potremmo aver preservato il nostro impero da qualcosa di ancora peggiore. I centri abitati di [waiting_world.GetName] esplodono sotto l'energia delle nostre armi. Una volta terminato, ogni edificio è in macerie; non rimane alcun essere senziente."
  akx.9541.a:0 "Eliminate i registri. Tra un secolo, nessuno saprà ciò che abbiamo fatto."
  akx.9541.b:0 "Ditelo a tutti. Che ci odino pure, basta che ci temano."
 
@@ -467,7 +467,7 @@
  akx.9610.c.response:0 "È ciò che diceva sempre il nostro Direttivo. Più tardi. Ma il loro Dopo era sempre il nostro Adesso. Quanto ci mancano."
 
  akx.9620.name:0 "L'Ultimo Compito del Servitore"
- akx.9620.desc:0 "La tecnosfera assorbe le risorse senza tanti ringraziamenti, e senza alcuna comunicazione. Inizia ad irradiare energia, brillando abbastanza da essere pericolosa, e si ritira. Il buco nero reagisce. Lo spazio attorno ad esso si contorce a spirale, simile agli eventi registrati durante il Segnale Orizzonte. La tecnosfera ora è di colore bianco-blu. Bruscamente si infiamma e si raffredda, lasciando solo alcune scorie.\n\nIl Direttivo avrà fatto ritorno? Non c'è traccia di vita sapiente nel sistema. Ma i sensori rilevano alcuni insoliti organismi iper-estremofili, in orbita attorno al buco nero, che si crogiolano tra le radiazioni. L'Ufficiale Scientifico è sicuro che prima non fossero presenti. Non c'è alcuna prova del fatto che siano sapienti. Forse si tratta di qualche sorta di remoto discendente dei creatori della tecnosfera, o magari i loro antenati."
+ akx.9620.desc:0 "La tecnosfera assorbe le risorse senza tanti ringraziamenti, e senza alcuna comunicazione. Inizia ad irradiare energia, brillando abbastanza da essere pericolosa, e si ritira. Il buco nero reagisce. Lo spazio attorno ad esso si contorce a spirale, simile agli eventi registrati durante il Segnale Orizzonte. La tecnosfera ora è di colore bianco-blu. Bruscamente si infiamma e si raffredda, lasciando solo alcune scorie.\n\nIl Direttivo avrà fatto ritorno? Non c'è traccia di vita senziente nel sistema. Ma i sensori rilevano alcuni insoliti organismi iper-estremofili, in orbita attorno al buco nero, che si crogiolano tra le radiazioni. L'Ufficiale Scientifico è sicuro che prima non fossero presenti. Non c'è alcuna prova del fatto che siano senzienti. Forse si tratta di qualche sorta di remoto discendente dei creatori della tecnosfera, o magari i loro antenati."
  akx.9620.a:0 "Esseri immortali?"
 
  ######################################################
