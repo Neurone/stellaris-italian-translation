@@ -19,7 +19,7 @@ Di seguito l'attuale stato di traduzione del gioco base e dei DLC, ordinati per 
     [tr]
         [td]2021.11.22[/td]
         [td]Pacchetto Specie - Aquatics[/td]
-		[td][b]Completa[/b][/td]
+		[td]Completa[/td]
     [/tr]
     [tr]
         [td]2021.04.15[/td]
