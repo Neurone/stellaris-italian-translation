@@ -398,8 +398,8 @@
  tech_combat_computers_1_desc: "Matrici attive impostate su specifiche attività di combattimento, migliorano notevolmente l'efficacia dell'ingaggio." # The development of active combat personalities allows combat-AI to specialize heavily in specific tasks.
  tech_combat_computers_2: "Algoritmi da Combattimento Estesi"
  tech_combat_computers_2_desc: "Ulteriori progressi negli algoritmi predittivi, consentono di migliorare i processi decisionali tattici fatti sul campo."
- tech_combat_computers_3: "Simulazioni Tattiche Sapienti"
- tech_combat_computers_3_desc: "Sottoponendo le IA sapienti a simulazioni di combattimento ad alta intensità, possiamo ottenere informazioni preziose riguardo potenziali ottimizzazioni delle tecniche di valutazione dei rischi." # The effectiveness of Ship-AIs have proved far greater with the sensation of a fear of death.
+ tech_combat_computers_3: "Simulazioni di Combattimento Senzienti"
+ tech_combat_computers_3_desc: "Sottoponendo le IA senzienti a simulazioni di combattimento ad alta intensità, possiamo ottenere informazioni preziose riguardo potenziali ottimizzazioni delle tecniche di valutazione dei rischi." # The effectiveness of Ship-AIs have proved far greater with the sensation of a fear of death.
  tech_combat_computers_autonomous: "Intelletto Navale Autonomo"
  tech_combat_computers_autonomous_desc: "Concedendo alle nostre navi un intelletto semi-autonomo aumenteremo enormemente la loro reattività in combattimento."
  tech_pd_tracking_1: "Contromisure Attive"
@@ -416,7 +416,7 @@
  tech_cryostasis_1_desc: "Dando il controllo della Nave Colonia ad un'intelligenza artificiale, l'equipaggio ed i coloni possono rimanere sospesi in un sonno profondo."
  tech_cryostasis_1_machine_intelligence: "Droni da Colonizzazione"
  tech_cryostasis_1_desc_machine_intelligence: "Gruppi di piccoli ed efficienti droni da costruzione immagazzinati nelle baie di carico delle navi da colonizzazione. Una volta attivati sulla superficie planetaria, velocizzeranno enormemente il processo iniziale d'insediamento."
- tech_cryostasis_2: "Navi Colonia Sapienti"
+ tech_cryostasis_2: "Navi Colonia Autocoscienti"
  tech_cryostasis_2_desc: "Sistemi sufficientemente avanzati sono in grado di ottimizzarsi, se sono ben consapevoli dello scopo per cui sono stati realizzati."
  tech_automated_exploration: "Protocolli Esplorativi Automatizzati"
  tech_automated_exploration_desc: "Un'IA avanzata che aiuterà gli ufficiali scientifici nell'esplorazione di nuovi pianeti, in cerca di nuove forme di vita e civiltà, là dove nessun Blorg è mai stato prima. La Nave Scientifica sarà in grado di esplorare la galassia con l'aiuto di un'IA."
@@ -739,7 +739,7 @@
  tech_quicksand_basin: "Bonifica del Suolo"
  tech_quicksand_basin_desc: "Il processo di deposizione del suolo dura normalmente milioni di anni. Grazie a tecnologie avanzate di fracking, ingegneria chimica e gestione idraulica, persino il più sterile dei substrati può diventare terreno fertile."
  tech_noxious_swamp: "Padronanza della Xeno-Idraulica"
- tech_noxious_swamp_desc: "Le razze sapienti reclamano le paludi da migliaia di anni. Un sistema modulare coordinato di acquedotti, stazioni di pompaggio, bonificatori chimici e compattatori automatici del suolo, può prosciugare terreni a velocità mai viste prima."
+ tech_noxious_swamp_desc: "Le razze senzienti reclamano le paludi da migliaia di anni. Un sistema modulare coordinato di acquedotti, stazioni di pompaggio, bonificatori chimici e compattatori automatici del suolo, può prosciugare terreni a velocità mai viste prima."
  tech_massive_glacier: "Rete di Controllo Climatico"
  tech_massive_glacier_desc: "Se gestiti correttamente, i sistemi orbitali di specchi e coperture possono avere effetti enormi nelle variazioni climatiche planetarie."
  tech_toxic_kelp: "Gestione Ecologica degli Oceani"
@@ -760,8 +760,8 @@
  tech_ecological_adaptation_desc: "Adattando gli ecosistemi planetari ai cambiamenti ambientali su larga scala possiamo rendere il processo di terraformazione meno distruttivo."
  tech_climate_restoration: "Restaurazione Climatica"
  tech_climate_restoration_desc: "Con l'avanzare delle nostre comprensioni sulla trasformazione atmosferica, siamo in grado di terraformare anche il più devastato dei pianeti."
- tech_gaia_creation: "Creazione Pianeti di Classe Gaia"
- tech_gaia_creation_desc: "La creazione di Pianeti di Classe Gaia, estremamente adatti a qualsiasi forma di vita, è l'ultimo passo nella padronanza della terraformazione."
+ tech_gaia_creation: "Creazione Pianeti Gaia"
+ tech_gaia_creation_desc: "La creazione di Pianeti Gaia, estremamente adatti a qualsiasi forma di vita, è l'ultimo passo nella padronanza della terraformazione."
 
  # Genetics
  tech_genome_mapping: "Mappatura Genetica"
@@ -1036,7 +1036,7 @@
  tech_repeatable_improved_sector_cap_desc: "Migliorare i canali di comunicazione SL permette una direzione amministrativa più coerente."
  tech_repeatable_improved_core_system_cap: "Efficienza Amministrativa"
  tech_repeatable_improved_core_system_cap_desc: "La ristrutturazione della rete gestionale che collega i diversi pianeti con la Capitale, può contribuire ad alleviare gli stress amministrativi ed i rallentamenti di informazioni che spesso si verificano all'interno di un impero in crescita."
- tech_repeatable_improved_leader_cap: "Gestione Sapiente delle Risorse"
+ tech_repeatable_improved_leader_cap: "Gestione delle Risorse Senzienti"
  tech_repeatable_improved_leader_cap_desc: "Il concetto di gestione delle persone come risorse all'interno dei grandi sistemi di produzione deve, per necessità, diventare più flessibile, dato che il potenziale numero di individui da gestite diventa sempre più alto."
  tech_repeatable_reduced_leader_cost: "Reclutamento di Talenti"
  tech_repeatable_reduced_leader_cost_desc: "Programmi di propaganda e sottili manipolazioni delle registrazioni economiche, riducono il costo per reclutare Leader di alto livello."
