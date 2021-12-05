@@ -515,7 +515,7 @@
  ANY_MOON: "Qualunque Luna"
  NUM_ADJACENT_TILES_TRIGGER: "Il Numero di Caselle Adiacenti è $COMPARE$ $VALUE|Y$"
  NUM_ADJACENT_TILES_NOT_TRIGGER: "Il Numero di Caselle Adiacenti NON è $COMPARE$ $VALUE|Y$"
- IS_NOT_SAPIENT: "NON è Sapiente"
+ IS_NOT_SAPIENT: "NON è Senziente"
  GRAPHICAL_CULTURE_TRIGGER: "La Cultura Grafica è $CULTURE$"
  GRAPHICAL_CULTURE_NOT_TRIGGER: "La Cultura Grafica NON è $CULTURE$"
  PREVENTING_DISCOVERIES_TRIGGER: "Previene le Anomalia"
