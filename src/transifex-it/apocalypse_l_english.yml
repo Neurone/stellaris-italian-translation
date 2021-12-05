@@ -661,7 +661,7 @@
  has_holy_player_planet_desc: "Abbiamo designato come sacro un pianeta disabitato all'interno dei nostri confini."
 
  has_world_worship: "$TRIGGER_FAIL$§RAbbiamo già designato un§! §Y$holy_player_planet$§!"
- has_holy_world_candidate: "$TRIGGER_FAIL$§RNon sono presenti §YPianeti di Classe Gaia§! colonizzabili all'interno dei nostri confini§!"
+ has_holy_world_candidate: "$TRIGGER_FAIL$§RNon sono presenti §YPianeti Gaia§! colonizzabili all'interno dei nostri confini§!"
  make_holy_world_effect: "Iniziamo la ricerca di un pianeta adatto alla Consacrazione."
 
  opinion_cracked_my_uninhabited_world: "Ha Frantumato un Nostro Pianeta Disabitato"
