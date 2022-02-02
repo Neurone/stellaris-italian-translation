@@ -846,8 +846,8 @@
  job_scrap_miner_drone_desc: "$job_scrap_miner_drone_plural$ esplorano le profondità del pianeta anello in frantumi alla ricerca di materiali adatti alla costruzione."
  job_scrap_miner_drone_effect_desc: "£job_scrap_miner£ $job_scrap_miner_drone_plural$ producono £minerals£ §Y$minerals$§! e £alloys£ §Y$alloys$§!."
 
- mod_job_scrap_miner_add: "Lavori da $job_scrap_miner$"
- mod_job_scrap_miner_drone_add: "Lavori da $job_scrap_miner_drone$"
+ mod_job_scrap_miner_add: "Posti di lavoro da $job_scrap_miner$"
+ mod_job_scrap_miner_drone_add: "Posti di lavoro da $job_scrap_miner_drone$"
 
  ##################
  # BUILDINGS
