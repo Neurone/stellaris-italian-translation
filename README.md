@@ -51,7 +51,7 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |ancient_relics_events_l_english.yml| completa|
 |ancient_relics_l_english.yml| completa|
 |apocalypse_l_english.yml| completa|
-|aquatics_l_english.yml| **da tradurre**|
+|aquatics_l_english.yml| completa|
 |clone_army_l_english.yml| completa|
 |dip_messages_l_english.yml| completa|
 |diplo_stances_l_english.yml| completa|
@@ -82,10 +82,10 @@ Di seguito i file principali e lo stato della loro traduzione rispetto alla vers
 |musicplayer_l_english.yml| completa|
 |name_lists_l_english.yml| completa|
 |necroids_l_english.yml| completa|
-|nemesis_content_l_english.yml| **da tradurre**|
+|nemesis_content_l_english.yml| **parziale**|
 |nemesis_crisis_l_english.yml| completa|
 |nemesis_custodian_l_english.yml| **in revisione**|
-|nemesis_espionage_l_english.yml| **da tradurre**|
+|nemesis_espionage_l_english.yml| **parziale**|
 |nemesis_intel_l_english.yml| **parziale**|
 |observer_events_l_english.yml| completa|
 |observer_l_english.yml| completa|

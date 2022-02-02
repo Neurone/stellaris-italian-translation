@@ -43,7 +43,7 @@ Jobs => "Posti di Lavoro" è una traduzione migliore di "Lavori". In progress, m
 
 Quando la traduzione è troppo lunga
 
-
+----------------------------------------
 REVISIONI DEEPL completate
 
 clone_army
