@@ -39,8 +39,8 @@
  job_turtle_miner_gestalt_desc:0 "Usando potenti trivelle, possiamo raccogliere sia il guscio minerale che le interiora biologiche dei giganteschi Nemma nativi."
  mod_job_turtle_miner_add:0 "Posti di lavoro da $job_turtle_miner$"
  mod_job_turtle_miner_gestalt_add:0 "Posti di lavoro da $job_turtle_miner_gestalt$"
- mod_job_turtle_miner_per_pop:0 ""§G+1§! Posto di lavoro da $job_turtle_miner$ ogni $VALUE$ Popolazione""
- mod_job_turtle_miner_gestalt_per_pop:0 "§G+1§! Posto di lavoro da $job_turtle_miner_gestalt$ ogni $VALUE$ Popolazione"
+ mod_job_turtle_miner_per_pop:0 ""§G+1§! Posto di lavoro da $job_turtle_miner$ ogni $VALUE$ Pop""
+ mod_job_turtle_miner_gestalt_per_pop:0 "§G+1§! Posto di lavoro da $job_turtle_miner_gestalt$ ogni $VALUE$ Pop"
 
  # Projects
  LONELY_BOT_PROJECT:0 "Il Restauro della Fabbrica"
