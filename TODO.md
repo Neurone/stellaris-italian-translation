@@ -51,7 +51,11 @@ event_chains
 events_6
 
 ----------------------------
-Nuovo client
+Nuovo client Transifex
+
+Pull da git:
+git pull
+npm run clean-transifex-files
 
 Pull:
 ../../transifex/cli/bin/tx pull -l it -t

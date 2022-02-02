@@ -115,7 +115,7 @@
 
  # Emancipator 2
  mandate.155.title:0 "Mandato di Emancipatore del Popolo Concluso"
- mandate.155.desc:0 "Secondo il mandato del nostro Sovrano, non c'è più Popolazione in schiavitù su [From.GetName]."
+ mandate.155.desc:0 "Come da mandato del nostro [Root.GetRulerTitle], nessun Pop è più schiavo su [From.GetName]."
 
  # Peacemaker
  mandate.161.title:0 "Mandato di Pacificatore Concluso"
