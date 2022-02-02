@@ -76,8 +76,8 @@
  job_catalytic_technician_plural: "Tecnici Catalitici"
  job_catalytic_technician_desc: "Sono necessari lavoratori altamente qualificati per trasformare la materia organica grezza in leghe durevoli necessarie per la costruzione avanzata."
  job_catalytic_technician_effect_desc: "£job_catalytic_technician£ $job_catalytic_technician_plural$ trasformano £food£ §Y$food$§! in £alloys£ §Y$alloys$§!"
- mod_job_catalytic_technician_add: "Lavori da $job_catalytic_technician$"
- mod_job_catalytic_technician_per_pop: "§G+1§! Lavoro da $job_catalytic_technician$ ogni $VALUE$ Popolazione"
+ mod_job_catalytic_technician_add: "Posti di lavoro da $job_catalytic_technician$"
+ mod_job_catalytic_technician_per_pop: "§G+1§! Posto di lavoro da $job_catalytic_technician$ ogni $VALUE$ Popolazione"
  mod_job_catalytic_technician_per_pop_short: "\n§G+1§! £mod_job_catalytic_technician_add£ ogni $VALUE$ £pop£"
 
 # Gestalt
@@ -85,6 +85,6 @@
  job_catalytic_drone_plural: "Droni Catalitici"
  job_catalytic_drone_desc: "Preziosi composti organici vengono trasformati in leghe durevoli per lo sviluppo navale e la costruzione avanzata da droni catalitici altamente specializzati."
  job_catalytic_drone_effect_desc: "£job_catalytic_drone£ $job_catalytic_drone_plural$ trasformano £food£ §Y$food$§! in £alloys£ §Y$alloys$§!"
- mod_job_catalytic_drone_add: "Lavori da $job_catalytic_drone$"
- mod_job_catalytic_drone_per_pop: "§G+1§! Lavoro da $job_catalytic_drone$ ogni $VALUE$ Popolazione"
+ mod_job_catalytic_drone_add: "Posti di lavoro da $job_catalytic_drone$"
+ mod_job_catalytic_drone_per_pop: "§G+1§! Posto di lavoro da $job_catalytic_drone$ ogni $VALUE$ Popolazione"
  mod_job_catalytic_drone_per_pop_short: "\n§G+1§! £mod_job_catalytic_drone_add£ ogni $VALUE$ £pop£"

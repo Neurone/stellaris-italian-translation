@@ -1,4 +1,4 @@
-// Ripulisce i file scaricati da Transifex
+// Ripulisce i file scaricati da Transifex e sovrascrive i file tradotti del mod
 
 const fs = require('fs');
 const {

@@ -2891,7 +2891,7 @@
  job_titan_hunter: "Titan Hunter"
  job_titan_hunter_plural: "Titan Hunters"
  job_titan_hunter_desc: "Fearless individuals who hunt the planet's titanic lifeforms for food. Their bones, teeth and tusks also make impressive - and valuable - trophies."
- mod_job_titan_hunter_add: "$job_titan_hunter$ Jobs"
+ mod_job_titan_hunter_add: "Posti di lavoro da $job_titan_hunter$"
  mod_job_titan_hunter_per_pop: "§G+1§! $job_titan_hunter$ Job per $VALUE$ Pops"
  mod_job_titan_hunter_per_pop_short: "\n§G+1§! £mod_job_hunter_gatherer_add£ per $VALUE$ £pop£"
  building_hab_fe_capital: "$building_hab_capital$"
@@ -3204,8 +3204,8 @@
  job_bluelotus_drone: "Transmuter Drone"
  job_bluelotus_drone_plural: "Transmuter Drones"
  job_bluelotus_drone_desc: "$job_bluelotus_drone_plural$ employ experimental methods to transmute everyday silicates into useful alloys."
- mod_job_bluelotus_technician_add: "$job_bluelotus_technician$ Jobs"
- mod_job_bluelotus_drone_add: "$job_bluelotus_drone$ Jobs"
+ mod_job_bluelotus_technician_add: "Posti di lavoro da $job_bluelotus_technician$"
+ mod_job_bluelotus_drone_add: "Posti di lavoro da $job_bluelotus_drone$"
 
  ####################################
  # Ship Templates
