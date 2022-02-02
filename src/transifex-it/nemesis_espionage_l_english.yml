@@ -329,8 +329,8 @@
  asset_internal_organs: "Organi Interni"
  asset_internal_organs_desc: "La conoscenza pratica del funzionamento dell'anatomia dei nostri avversari può essere notevolmente utile durante ogni tipo di operazione di spionaggio."
 
- asset_synapse_drone: "Drone Sinapsi"
- asset_synapse_drone_desc: "Gli agenti possono usare questo drone sinapsi deviante per ricevere pensieri dall'alveare."
+ asset_synapse_drone: "Drone Sinaptico"
+ asset_synapse_drone_desc: "Gli operatori possono usare questo drone sinaptico deviato per ricevere pensieri dall'alveare."
  asset_ephapse_relay: "Relè Sinaptico"
  asset_ephapse_relay_desc: "Questo Relè Sinaptico malformato può essere utilizzato per alterare i messaggi ricevuti dall'alveare."
  asset_labor_drone: "Drone da Lavoro"
