@@ -830,7 +830,7 @@
  ancrel.6000.name: "Omnicodex"
  ancrel.6000.desc: "L'Omnicodex contiene i dati genetici dettagliati di migliaia di specie senzienti che un tempo abitavano la galassia. I nostri genetisti possono utilizzare questi dati per ricreare una specie estinta su uno dei nostri pianeti.\n\nUna volta selezionato il pianeta, i genetisti selezioneranno una specie dall'Omnicodex che sia adatta al suo clima."
  ancrel.6000.a: "[planet_option_1.GetName]"
- ancrel.6000.a.tooltip: "§Y3 POP§! di una nuova specie dai tratti casuali è comparsa su §Y[planet_option_1.GetName]§!"
+ ancrel.6000.a.tooltip: "§Y3 Pop§! di una nuova specie dai tratti casuali sono comparsi su §Y[planet_option_1.GetName]§!"
  ancrel.6000.b: "[planet_option_2.GetName]"
  ancrel.6000.b.tooltip: "§Y3 POP§! di una nuova specie dai tratti casuali è comparsa su §Y[planet_option_2.GetName]§!"
  ancrel.6000.c: "[planet_option_3.GetName]"

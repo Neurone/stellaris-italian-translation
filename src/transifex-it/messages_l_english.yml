@@ -458,7 +458,7 @@
  MESSAGE_UPLIFTING_FAILED_TITLE: "Progetto Evolutivo Fallito"
  MESSAGE_UPLIFTING_FAILED: "Il nostro progetto per far Evolvere la Specie $SPECIES|Y$ sul Pianeta $PLANET|Y$ è fallito."
  MESSAGE_SPECIES_MODIFICATION_FAILED_TITLE: "Progetto Modifica Specie Fallito"
- MESSAGE_SPECIES_MODIFICATION_FAILED: "Il nostro progetto per Modificare la $POPS|Y$ POP di $PLANETS|Y$ in base al Modello $TEMPLATE|Y$ è fallito."
+ MESSAGE_SPECIES_MODIFICATION_FAILED: "Il nostro progetto per Modificare i $POPS|Y$ Pop di $PLANETS|Y$ in base al Modello $TEMPLATE|Y$ è fallito."
  MESSAGE_SPECIAL_PROJECT_AVAILABLE_TITLE: "Progetto Speciale Disponibile"
  SPECIAL_PROJECT_AVAILABLE: "Un Progetto Speciale è disponibile per lo sviluppo."
 

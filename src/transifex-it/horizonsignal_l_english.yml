@@ -264,7 +264,7 @@
  akx.9221.a: "È andato troppo oltre. Contenete l'epidemia."
  akx.9221.a.tooltip: "Tutta la Pop sul Pianeta Capitale verrà convertita, ma l'epidemia terminerà lì."
  akx.9221.b: "Contenete l'epidemia, ed epurate tutti i cittadini colpiti."
- akx.9221.b.tooltip: "Tutta la POP colpita verrà §REpurata§!: quasi l'intera popolazione di [Root.Capital.GetName]."
+ akx.9221.b.tooltip: "Tutta la Popolazione colpita verrà §REpurata§!: quasi l'intera popolazione di [Root.Capital.GetName]."
  akx.9221.c: "Ciò che fu, sarà. Fate circolare un campione dell'agente."
  akx.9221.c.tooltip: "Verrà trasformata la nostra intera specie."
 

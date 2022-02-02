@@ -43,10 +43,6 @@ Jobs => "Posti di Lavoro" è una traduzione migliore di "Lavori". In progress, m
 
 Quando la traduzione è troppo lunga
 
------------------------------
-
-..\..\transifex-client\dist\tx config mapping-bulk -p stellaris-italian-translation --source-language en --type "YML GENERIC" -f ".yml" --source-file-dir src/transifex-en --expression "src/transifex-<lang>/{filename}{extension}" --execute
-
 
 REVISIONI DEEPL completate
 
@@ -54,3 +50,24 @@ clone_army
 event_chains
 events_6
 
+----------------------------
+Nuovo client
+
+Pull:
+../../transifex/cli/bin/tx pull -l it -t
+npm run clean-transifex-files
+
+Push:
+npm run prepare-it-files-for-transifex
+../../transifex/cli/bin/tx push -l it -t
+
+----------------------------
+
+
+
+
+
+-----------------------------
+OLD, usare nuovo client
+
+tx config mapping-bulk -p stellaris-italian-translation --source-language en --type "YML GENERIC" -f ".yml" --source-file-dir src/transifex-en --expression "src/transifex-<lang>/{filename}{extension}" --execute

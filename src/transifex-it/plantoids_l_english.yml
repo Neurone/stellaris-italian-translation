@@ -46,7 +46,7 @@
 
  trait_plantoid_budding: "Gemmazione"
  trait_plantoid_budding_desc: "§LQuesta specie è capace di riprodursi per gemmazione, oltre alla più usuale fecondazione di semi o spore.§!"
- TRAIT_PLANTOID_BUDDING_EFFECT: "Ogni pop che lavora come schiavo o meglio produce 0,02 £mod_pop_growth_speed£ §Y$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$§!"
+ TRAIT_PLANTOID_BUDDING_EFFECT: "Ogni popolazione che lavora come schiavo o meglio produce 0,02 £mod_pop_growth_speed£ §Y$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$§!"
 
 ### Catalytic Processing by Byron Aytoun
 
