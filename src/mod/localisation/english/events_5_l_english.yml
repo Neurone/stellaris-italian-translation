@@ -23,7 +23,7 @@
  anomaly.187.desc:0 "Dopo innumerevoli tentativi falliti, i nostri ricercatori sono finalmente riusciti a caricare le scansioni neurali aliene in un gruppo di robot. Finora non hanno mostrato alcun segno di coscienza al di fuori di quella di un robot standard, portando molti a domandarsi se i risultati siano stati falsati.\n\nTuttavia, il dipartimento di ingegneria è estasiato, e chiede di integrare gli alieni nella nostra società."
  anomaly.187.a:0 "Possono insediarsi liberamente su uno dei nostri pianeti."
  anomaly.187.b:0 "Sarebbe meglio dividersi."
- anomaly.187.a.tooltip:0 "Una POP robotica aliena si stabilisce su [bot_planet.GetName]."
+ anomaly.187.a.tooltip:0 "Un Pop robotico alieno si stabilisce su [bot_planet.GetName]."
  anomaly.188.name:0 "Limbo: Lezione Imparata"
  anomaly.188.desc:0 "Dopo l'ultimo tentativo fallito nel trasferire le scansioni neurali aliene all'interno di un corpo robotico, il nostro dipartimento di ingegneria ha dovuto ammettere la sconfitta. Le scansioni sono andate distrutte nel processo... e molti scienziati pensano che in fondo sia meglio così. Vivere il resto della vita confinato nel corpo di un robot sembra un destino crudele per un'intelligenza superiore."
  anomaly.189.name:0 "Limbo: Un Nuovo Inizio"

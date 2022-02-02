@@ -72,7 +72,7 @@
 
  mandate_slaver_chain_title:0 "Mandato Schiavista"
  mandate_slaver_chain_desc:0 "[This.GetRulerTitle] [This.GetRulerName] è stato eletto con l'obiettivo di §Yschiavizzare§! almeno §Y5 individui§! entro la fine del loro regno.\n\nRicompensa:\n$mandate_influence_reward_t2$"
- pops_enslaved:0 "POP Schiavizzata"
+ pops_enslaved:0 "Popolazione Schiavizzata"
 
  mandate_nationalist_chain_title:0 "Mandato Rimpatriatore"
  mandate_nationalist_chain_desc:0 "[This.GetRulerTitle] [This.GetRulerName] è stato eletto con l'obiettivo di §Yrestituire§! le colonie appartenenti all'Impero §H[ceding_empire.GetName]§! entro la fine del loro regno. Puoi compiere questa azione dalla lista fazioni.\n\nRicompensa:\n$mandate_influence_reward_t3$"
@@ -115,7 +115,7 @@
 
  # Emancipator 2
  mandate.155.title:0 "Mandato di Emancipatore del Popolo Concluso"
- mandate.155.desc:0 "Secondo il mandato del nostro Sovrano, non c'è più POP in schiavitù su [From.GetName]."
+ mandate.155.desc:0 "Secondo il mandato del nostro Sovrano, non c'è più Popolazione in schiavitù su [From.GetName]."
 
  # Peacemaker
  mandate.161.title:0 "Mandato di Pacificatore Concluso"

@@ -31,7 +31,7 @@ verificare "spawning pools", da tradurre come "vasche di riproduzione"
 
 Leader Pool => Elenco Leader Disponibili
 
-POP => Pop
+POP => Pop quando è una unità, oppure Popolazione quando si riferisce a tutti i POP
 
 Contingente -> Contingenza
 
