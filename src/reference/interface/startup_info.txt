@@ -1,13 +1,13 @@
-﻿Winterly Greetings!
+﻿Greetings, and welcome to a new Custodian patch!
 
-It is November, and thus, we present a new Custodian patch!
+The 3.3 "Libra" update includes significant gameplay changes making Unity a more valuable resource with many more uses.
 
-Breathing new life into stories told many times before, we have added a smörgåsbord of new early-game anomalies and events to freshen up your experience.
+Planetary Ascension Tiers are a new way to let you upgrade your core worlds, improving the effects of planetary designations and reducing planetary sprawl.
 
-For Humanoid Aficionados, we are adding one more new civic to the Humanoids DLC, the Pompous Purists.
+The Necroids DLC now also gives Megacorps their own twist on Reanimators with the Permanent Employment civic.
 
 In addition, we have included many bugfixes and smaller improvements, including a slew of graphical fixes, AI improvements, and performance optimizations, which you can find detailed in our patch notes.
 
 ---
 
-Saved games from previous versions may not be compatible with version 3.2. If you wish to continue your old save in version 3.1, follow the forum link below and read the thread "How to revert Stellaris to a previous version."
+Saved games from previous versions may not be compatible with version 3.3. If you wish to continue your old save in version 3.2, follow the forum link below and read the thread "How to revert Stellaris to a previous version."
