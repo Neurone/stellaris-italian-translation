@@ -52,7 +52,7 @@
  FALLEN_MACHINE_EMPIRE_PEACE_PROPOSE_BERSERK: "$01_BERSERK_MACHINE_EMPIRE_ERROR$"
 
  # General Greetings
- DEFAULT_GREETINGS_STRING: "Salve!"
+ DEFAULT_GREETINGS_STRING: "Saluti!"
  01_HOSTILE_GREETING: "Dichiarate le vostre intenzioni, [From.GetSpeciesNamePluralInsult]."
  02_HOSTILE_GREETING: "Datevi una mossa, [From.GetSpeciesNamePlural]. La nostra pazienza per questa discussione inutile è già finita da tempo."
  03_HOSTILE_GREETING: "Smettetela con questi giochetti, [From.GetSpeciesNamePlural]. Cosa volete?"
@@ -2215,10 +2215,10 @@
 ## Crisis Diplo Messages
 
  CRISIS_MATERIALIST_GREETING_01: "Benvenuti, benvenuti, [From.GetSpeciesNamePlural]. Presumiamo che i vostri sensori a lungo e corto raggio siano pronti per la gloria che sta per arrivare? Non vorremmo che vi perdeste nemmeno un momento della nostra gloriosa ascensione."
- CRISIS_SPIRITUALIST_GREETING_01: "Tell us, [From.GetSpeciesNamePlural]: when an empire dies, do they take their gods with them? Shall we find out together?"
+ CRISIS_SPIRITUALIST_GREETING_01: "Dicci, [From.GetSpeciesNamePlural]: quando un impero muore, porta i suoi dei con sé? Vogliamo scoprirlo insieme?"
  CRISIS_PACIFIST_GREETING_01: "[From.GetSpeciesNamePlural], your refusal to arm yourselves does not make you immune to the arms of others. But at least your sacrifice will be swift."
  CRISIS_MILITARIST_GREETING_01: "Your saber-rattling is but the pointless posturing of an empire doomed to fall. Raise your weapons one last time, [From.GetSpeciesNamePlural], and give your lives for our new beginning."
- CRISIS_AUTHORITARIAN_GREETING_01: "A pity, that even someone so purportedly blessed with talent as your [From.GetRulerTitle] cannot save you from your fate. We are coming for you, [From.GetSpeciesNamePlural]."
+ CRISIS_AUTHORITARIAN_GREETING_01: "Peccato che anche una persona così apparentemente dotata di talento come il tuo [From.GetRulerTitle] non possa salvarti dal tuo destino. Stiamo venendo a prenderti, [From.GetSpeciesNamePlural]."
  CRISIS_EGALITARIAN_GREETING_01: "Il vostro popolo è unito nella sfida, ma questo non vi salverà. Non potete porre il veto all'estinzione."
  CRISIS_XENOPHILE_GREETING_01: "Avete cercato la vita aliena, ma ora osate rifiutarci. Quando il nostro lavoro sarà completato sarete uniti al resto della galassia, per sempre."
  CRISIS_XENOPHOBE_GREETING_01: "When the first [From.GetSpeciesNamePlural] gazed upon the stars, they felt fear and suspicion. Your ancestors should have heeded that instinct, for it was in the cold void that you met us."

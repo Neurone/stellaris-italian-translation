@@ -4,7 +4,7 @@
 
  trait_aquatic: "Acquatico"
  trait_aquatic_desc: "§LQuesta specie è perfettamente adattata a vivere nelle profondità dell'oceano. Tuttavia, sulla terraferma, è come un pesce fuor d'acqua.§!\n"
- trait_aquatic_tooltip: "Utilizzo di alloggi sui pianti §YOceanici§! e §YHabitat inondati§!: §G-10%§!\nProduzione di Cibo, Energia e Minerali su pianeti §YOceanici§!: §G+10%§!\nUtilizzo degli alloggi su mondi non §YUmidi§!: §R+30%§!\nAbitabilità su mondi non §YUmidi§!: §R-20%§!\n\nIl Beneficio di Ascensione §H$ap_hydrocentric$§! amplifica gli effetti di questo tratto."
+ trait_aquatic_tooltip: ""
  trait_aquatic_remove_evolutionary_mastery: "§RRichiede il Beneficio di Ascensione §Y$ap_evolutionary_mastery$§! per rimuoverlo.§!"
  trait_aquatic_remove_hydrocentric: "§RImpossibile rimuovere il tratto §Y$trait_aquatic$§! dopo aver ottenuto il Beneficio di Ascensione §Y$ap_hydrocentric$§!.§!"
 
@@ -73,7 +73,7 @@
  aquatics.160.desc: "Il drago sembrava rendersi conto delle nostre intenzioni, e con grazia è sceso in picchiata per riposare nell'area che avevamo lasciato libera. La grande scorta di cibo che abbiamo lasciato dietro di noi probabilmente ha aiutato, va detto - il drago ci ha dato dentro con una voracità stupefacente.\n\nI nostri [This.Owner.GetResearchers] lo stanno osservando a distanza."
  aquatics.160.A: "Guardate e aspettate."
  aquatics.165.name: "$aquatics.160.name$"
- aquatics.165.desc.normal: "Dopo diversi altri passaggi del pianeta, il drago ha apparentemente deciso che era sicuro atterrare. Anche se ha scelto una zona appartata, un certo numero di [Root.Owner.GetSpeciesNamePlural] sono stati uccisi e ancora di più sfollati - non c'è da stupirsi, data la sua incredibile dimensione e l'appetito vorace.\n\nOra si è insediato e sta decimando la flora e la fauna locale ad un ritmo allarmante. La popolazione locale si tiene a distanza."
+ aquatics.165.desc.normal: ""
  aquatics.165.desc.gestalt: "Dopo diversi altri passaggi sul pianeta, il drago ha apparentemente deciso che era sicuro atterrare. Anche se ha scelto una zona appartata, un certo numero di nostri droni sono stati distrutti e ancora di più sfollati - non c'è da stupirsi, data la sua incredibile dimensione e l'appetito vorace.\n\nOra si è stabilito, e sta decimando la flora e la fauna locale ad un ritmo allarmante. I nostri droni stanno mantenendo una distanza precauzionale."
  aquatics.170.name: "Prendere il Volo"
  aquatics.170.desc: "Dopo diversi anni in cui si è ingozzato dei generosi raccolti di [Root.GetName], il Drago del Cielo, ora considerevolmente più grosso, ha preso di nuovo il volo. Con un ultimo ruggito di saluto, si è alzato in volo - lasciando dietro di sé una grande collezione di squame, pelle rimossa e altri sottoprodotti della sua presenza."
@@ -161,7 +161,7 @@
 
  ap_hydrocentric: "Idrocentrico"
  ap_hydrocentric_desc: "Non ci accontenteremo più di rimpiazzi \"abbastanza buoni\" per le nostre dimore oceaniche: nessun pianeta sarà considerato adatto alla colonizzazione finché non sarà stato completamente inondato."
- ap_hydrocentric_tooltip: "Permette la costruzione di §YStazioni Minerarie del Ghiaccio§! sulle basi stellari, che abilitano la decisione §Y$decision_expand_planetary_sea$§! sui pianeti §YOceanici§! e la decisione §Y$decision_flood_habitat$§! sugli §YHabitat§!.\nLe specie con il tratto §Y$trait_aquatic$§! ottengono il 50% di benefici in più vivendo su pianeti §YOceanici§!, ma le penalità di vivere su mondi non §YUmidi§! sono ugualmente amplificate."
+ ap_hydrocentric_tooltip: ""
  ap_hydrocentric_deluge_tooltip: "Sblocca l'Arma Colossale §YDiluvio§!."
  ap_hydrocentric_deluge_pre_unlock_tooltip: "Sblocca l'Arma Colossale §YDiluvio§!. §R(richiede il Beneficio di Ascensione §Y$ap_colossus$§!)§!."
 
@@ -175,7 +175,7 @@
 
  sm_ice_mining_station: "Stazione Mineraria del Ghiaccio"
  sm_ice_mining_station_desc: "Questo sistema è una fonte abbondante di ghiaccio non sfruttato. Installando qui una stazione di raccolta, potremmo vederla utilizzata meglio, creando oceani abitabili per la nostra specie.\n\n$ice_mining_details$\n"
- ice_mining_station_tooltip: "Modificatore di Sistema:\n    $mod_station_gatherers_produces_mult$ : §G+15%§!\nSblocca la decisione §Y$decision_expand_planetary_sea$§! sui pianeti Oceanici.\nSblocca la decisione §Y$decision_flood_habitat$§! sugli §YHabitat§!."
+ ice_mining_station_tooltip: ""
  requires_ice_source: "§RRichiede un asteroide di ghiaccio o un mondo ghiacciato nel sistema.§!"
  ice_mining_details: "Gli asteroidi di ghiaccio possono essere estratti una volta, i mondi ghiacciati fino a 3 volte."
  has_ice_source: "§YEstrazione di Ghiaccio disponibile.§!"
@@ -189,22 +189,22 @@
  requires_max_3_times_ice_dumping: "$TRIGGER_PASS$Può essere emanato al massimo §Y3§! volte per pianeta (attuale: §Y[This.ice_dumping_happened]§!)"
  ICE_MINING_INTERRUPTED_TITLE: "Estrazione di Ghiaccio Interrotta"
  ICE_MINING_INTERRUPTED_DESC: "Dato che nessuna fonte di ghiaccio è attualmente disponibile, i nostri tentativi di espandere il mare planetario su §Y[This.GetName]§! sono stati annullati."
- ICE_MINING_INTERRUPTED_HABITAT_DESC: "As no source of ice is currently available, our attempts to flood §Y[This.GetName]§! have been cancelled."
+ ICE_MINING_INTERRUPTED_HABITAT_DESC: ""
  ICE_MINING_SUCCESS_TITLE: "Mare Planetario Esteso"
  ICE_MINING_SUCCESS_DESC: "Utilizzando il ghiaccio estratto dal sistema $SYSTEM|Y$, siamo riusciti ad estendere il mare planetario su §Y[This.GetName]§!."
  ICE_MINING_SUCCESS_BUT_EXHAUSTED_DESC: "$ICE_MINING_SUCCESS_DESC$\n\nLa fornitura di ghiaccio da questa fonte è ormai esaurita, quindi la §Y$sm_ice_mining_station$§! è stata dismessa."
- ICE_MINING_HABITAT_SUCCESS_TITLE: "Habitat Flooded"
- ICE_MINING_HABITAT_SUCCESS_DESC: "Using ice mined from the $SYSTEM|Y$ system, we have managed to flood §Y[This.GetName]§!."
- ICE_MINING_HABITAT_SUCCESS_BUT_EXHAUSTED_DESC: "$ICE_MINING_SUCCESS_HABITAT_DESC$\n\nThe supply of ice from this source has now been exhausted, so the §Y$sm_ice_mining_station$§! has been disbanded."
+ ICE_MINING_HABITAT_SUCCESS_TITLE: ""
+ ICE_MINING_HABITAT_SUCCESS_DESC: ""
+ ICE_MINING_HABITAT_SUCCESS_BUT_EXHAUSTED_DESC: ""
  ice_mined_planet: "Estrazione di Ghiaccio Planetaria"
  ice_mined_planet_desc: "Il pianeta è stato recentemente diminuito, in senso letterale, dalle operazioni di estrazione del ghiaccio."
 
- decision_flood_habitat: "Flood Habitat"
- decision_flood_habitat_desc: "Habitats could be ideal for us - if only there was enough water. Our ice mining networks enable us to harvest ice from other celestial bodies and flood [This.GetName], making it into an orbital aquarium."
- decision_flood_habitat_tooltip: "Habitability: §R-20%§!\nConsidered an §YOcean§! world for §YAquatic§! species.\nIce will be harvested from a system with an §Y$sm_ice_mining_station$§! on the starbase."
- flooded_habitat: "Flooded Habitat"
- flooded_habitat_desc: "This habitat has been flooded with water, imitating the natural environment of Aquatic creatures."
- flooded_habitat_tooltip: "Habitability: §R-20%§!\nConsidered an §YOcean§! world for §YAquatic§! species."
+ decision_flood_habitat: ""
+ decision_flood_habitat_desc: ""
+ decision_flood_habitat_tooltip: ""
+ flooded_habitat: ""
+ flooded_habitat_desc: ""
+ flooded_habitat_tooltip: ""
 
  # Ocean Paradise Origin
  origin_ocean_paradise: "Paradiso Oceanico"

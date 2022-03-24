@@ -43,6 +43,7 @@
  mycelial_network_modifier: "Rete Micellare"
  mycelial_network_modifier_improved: "Rete Micellare Migliorata"
  fumongus_authoritarian: "Attrazione Autoritaria"
+ rage_sage_soldiers: ""
 
  ####################################
  # Edicts
@@ -125,6 +126,10 @@
  syndaw_unfriendly_robots_desc: "Le tensioni tra la popolazione robotica ed organica del pianeta hanno ridotto la nostra produzione di £unity£ Unità."
  syndaw_research_malus: "Fallimento IA"
  syndaw_research_malus_desc: "Un'IA scientifica coinvolta nella ricerca sociologica ha subito dei danni hardware ed è attualmente in sostituzione."
+ snake_infestation: ""
+ snake_infestation_desc: ""
+ energy_poor: ""
+ energy_poor_desc: ""
 
  ####################################
  # Ship/Fleet Modifiers
