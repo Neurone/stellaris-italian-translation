@@ -85,7 +85,7 @@
  INTEL_INFO_intel_economy_colonies_med: "Intelligence Media sulle Colonie"
  INTEL_INFO_intel_economy_colonies_high: "Intelligence Alta sulle Colonie"
  INTEL_INFO_intel_economy_colonies_full: "Tutta l'Intelligence sulle Colonie"
- INTEL_INFO_intel_empire_sprawl: "Espansione Imperiale"
+ INTEL_INFO_intel_empire_sprawl: "$EMPIRE_SIZE$"
  INTEL_INFO_intel_economy_civships_locations: "Posizioni delle Navi Civili"
  INTEL_INFO_intel_economy_civships_orders: "Gli Ordini Attuali delle Navi Civili"
  INTEL_INFO_intel_military_admirals: "Ammiragli Impiegati"
@@ -181,7 +181,7 @@
  FIRST_CONTACT_SITE_LOCKED: "Indagine di Primo Contatto Bloccata"
  FC_GO_TO: "§HVai a§!\n§GClicca per muovere rapidamente la telecamera verso il luogo in cui si trova questa indagine di Primo Contatto§!"
  FIRST_CONTACT_SITE_CHALLENGE: "§HSfida§!\nRappresenta quanto sia impegnativa l'indagine, rispetto al livello dell'Emissario attualmente assegnato."
- ADD_FC_STAGE_CLUES_EFFECT: "Aggiungi $CLUES|Y$ dettagli"
+ ADD_FC_STAGE_CLUES_EFFECT: ""
  IS_NOT_FIRST_CONTACT_SITE_CLUES_TRIGGER: "Dettagli d'Indagine NON $COMPARE$ $NUM_COMPARE$"
  IS_FIRST_CONTACT_SITE_CLUES_TRIGGER: "Dettagli d'Indagine $COMPARE$ $NUM_COMPARE$"
  FC_SPECIES: "Specie"
@@ -205,7 +205,7 @@
  first_contact_skill_3: "Specializzazione in Primo Contatto"
  first_contact_skill_4: "Padronanza del Primo Contatto"
 
- FIRST_CONTACT_ADD_INTEL: "Intelligence su §Y[Root.ContactCountry.GetRealName]§! impostata a $INTEL|0G$"
+ FIRST_CONTACT_ADD_INTEL: ""
 
  # Events
  seek_friends_tt: "Cercheremo relazioni amichevoli con §Y[contact_empire.GetName]§!."
