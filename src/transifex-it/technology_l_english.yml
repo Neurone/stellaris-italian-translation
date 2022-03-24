@@ -874,7 +874,7 @@
  tech_planetary_unification_desc: "Antiche tribù in guerra e nazioni in conflitto, ora unificate in un impero. Noi non dobbiamo, noi non permetteremo, che si sbricioli." # We have progressed from warring tribes, from conflicting nations, to a unified Empire, a single will ready to grasp the stars.
  tech_planetary_unification_machine_intelligence: "Standard Uniformi"
  tech_planetary_unification_desc_machine_intelligence: "Le anormalità non saranno tollerate."
- tech_planetary_unification_effect: "Grants a lump sum of £unity£§YUnity§!"
+ tech_planetary_unification_effect: "Concede una somma forfettaria di £unity£§YUnità§!"
  tech_adaptive_bureaucracy: "Burocrazia Adattiva"
  tech_adaptive_bureaucracy_desc: "I progressi che abbiamo compiuto richiedono una nuova, più snella forma amministrativa, che sia di aiuto, piuttosto che d'ostacolo, alle nostre attività." # The leaps/progress/discoveries we have made demand a new form of administrative system, one that can be shaped by opportunity rather than limit it.
  tech_adaptive_bureaucracy_machine_intelligence: "CPU Positroniche"
@@ -1100,7 +1100,7 @@
  #####################################
  # Gateways
  #####################################
- gateway_capital: "§HAdministrative Path§!\n§EThis technology will lead to further advancements in capital buildings and £unity£ §HUnity§! gain. Upgraded planetary capitals are required for §Hhigh-level buildings§!.§!"
+ gateway_capital: "§HPercorso Amministrativo§!\n§EQuesta tecnologia porterà miglioramenti nella costruzione di edifici e nel guadagno di £unity£ §HUnità§!. Per §Hedifici di alto livello§! sono richieste capitali planetarie avanzate.§!"
  gateway_biological: "§HPercorso Biologico§!\n§EQuesta tecnologia porterà miglioramenti in campo biologico e nell'adattamento ai pianeti.§!"
  gateway_ship: "§HPercorso Navale§!\n§EQuesta tecnologia porterà miglioramenti nella costruzione di Spazioporti più grandi e navi da guerra più potenti.§!"
  gateway_psionics: "§HPercorso Psionico§!\n§EQuesta tecnologia porterà miglioramenti nel campo della psionica.§!"
