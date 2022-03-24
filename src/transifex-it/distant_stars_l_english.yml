@@ -1,7 +1,7 @@
 ﻿l_english:
 
  aianom.0.name: "Info Debug Anomalia IA"
- aianom.0.desc: ""
+ aianom.0.desc: "§H[Root.GetName]§! ha generato:\n\n£minerals£ (Una Tantum) §Y[Root.GetT1LumpMinerals]§! Livello 1, §Y[Root.GetT2LumpMinerals]§! Livello 2, §Y[Root.GetT3LumpMinerals]§! Livello 3, §Y[Root.GetT4LumpMinerals]§! Livello 4.\n£energy£ (Una Tantum) §Y[Root.GetT1LumpEnergy]§! Livello 1, §Y[Root.GetT2LumpEnergy]§! Livello 2, §Y[Root.GetT3LumpEnergy]§! Livello 3, §Y[Root.GetT4LumpEnergy]§! Livello 4.\n£physics£ (Una Tantum) §Y[Root.GetT1LumpPhysics]§! Livello 1, §Y[Root.GetT2LumpPhysics]§! Livello 2, §Y[Root.GetT3LumpPhysics]§! Livello 3, §Y[Root.GetT4LumpPhysics]§! Livello 4.\n£society£ (Una Tantum) §Y[Root.GetT1LumpSociety]§! Livello 1, §Y[Root.GetT2LumpSociety]§! Livello 2, §Y[Root.GetT3LumpSociety]§! Livello 3, §Y[Root.GetT4LumpSociety]§! Livello 4.\n£engineering£ (Una Tantum) §Y[Root.GetT1LumpEngineering]§! Livello 1, §Y[Root.GetT2LumpEngineering]§! Livello 2, §Y[Root.GetT3LumpEngineering]§! Livello 3, §Y[Root.GetT4LumpEngineering]§! Livello 4.\n\n£minerals£ (Deposito) §Y[Root.GetT1DepMinerals]§! Livello 1, §Y[Root.GetT2DepMinerals]§! Livello 2, §Y[Root.GetT3DepMinerals]§! Livello 3, §Y[Root.GetT4DepMinerals]§! Livello 4.\n£energy£ (Deposito) §Y[Root.GetT1DepEnergy]§! Livello 1, §Y[Root.GetT2DepEnergy]§! Livello 2, §Y[Root.GetT3DepEnergy]§! Livello 3, §Y[Root.GetT4DepEnergy]§! Livello 4.\n£physics£ (Deposito) §Y[Root.GetT1DepPhysics]§! Livello 1, §Y[Root.GetT2DepPhysics]§! Livello 2, §Y[Root.GetT3DepPhysics]§! Livello 3, §Y[Root.GetT4DepPhysics]§! Livello 4.\n£society£ (Deposito) §Y[Root.GetT1DepSociety]§! Livello 1, §Y[Root.GetT2DepSociety]§! Livello 2, §Y[Root.GetT3DepSociety]§! Livello 3, §Y[Root.GetT4DepSociety]§! Livello 4.\n£engineering£ (Deposito) §Y[Root.GetT1DepEngineering]§! Livello 1, §Y[Root.GetT2DepEngineering]§! Livello 2, §Y[Root.GetT3DepEngineering]§! Livello 3, §Y[Root.GetT4DepEngineering]§! Livello 4."
 
  AIANOM_LUMP_CAT: "Detriti Orbitali"
  AIANOM_LUMP_CAT_desc: "I sensori hanno rilevato entità potenzialmente interessanti nell'orbita di [Root.GetName]."
@@ -413,7 +413,7 @@
  distar.137.desc: "Il gigantesco scafo dello Spazzino è stato ridotto in un ammasso di rottami meccanici e tubi recisi. Mentre le nostre navi da guerra compiono l'ultimo giro di ricognizione, lo Spazzino tenta un ultimo disperato balzo iperspaziale.\n\nSfortunatamente per lui, i danni ai suoi sistemi centrali sembrano troppo estesi. Il suo nucleo esposto emette un bagliore blu mentre i motori si attivano e vanno in sovraccarico; la luminosità aumenta d'intensità, finché una serie di brecce nel nucleo non lo fanno a brandelli.\n\nIl cencioso reggente del Sistema [From.From.From.GetStarName] non esiste più."
  distar.137.a: "Analizzate i suoi resti."
  distar.137.paci: "Una vittoria agrodolce. Vediamo coda possiamo recuperare dai suoi resti."
- distar.137.tooltip: ""
+ distar.137.tooltip: "Ottieni due delle seguenti Tecnologie:\n £engineering£ §Y$tech_ship_armor_5$§!\n £physics£ §Y$tech_shields_5$§!\n £engineering£ §Y$tech_mass_drivers_5$§!\n £engineering£ §Y$tech_missiles_5$§!\n £physics£ §Y$tech_lasers_5$§!"
 
  distar.140.name: "Diamante Cosmico"
  distar.140.desc: "Sebbene ad una prima occhiata [From.GetName] sembri essere una normalissima nana bianca, la stella nasconde un segreto intrigante. Studiando le sue pulsazioni, l'equipaggio della [Root.GetName] ha scoperto che la sua composizione è quasi totalmente di carbonio cristallizzato. Sembrerebbe che questa formazione astronomica cristallina si sia creata con il raffreddamento della stella, partendo dal nucleo incandescente e risalendo man mano verso la superficie. [From.GetName] è un diamante di proporzioni cosmologiche, che brilla dietro ad un velo d'ossigeno ed elio."
@@ -505,11 +505,11 @@
 
  # Special Project
  STUDY_LIVING_SEA: "Studio del Mare Vivente"
- STUDY_LIVING_SEA_DESC: "I rapporti preliminari suggeriscono che l'oceano che ricopre questo pianeta sia in qualche modo vivo, un'entità aliena diversa da qualsiasi mai incontrata prima d'ora. I ricercatori suggeriscono un esteso studio orbitale per cercare di saperne di più su questo misterioso essere."
+ STUDY_LIVING_SEA_DESC: "I rapporti preliminari suggeriscono che l'oceano che copre questo pianeta è in qualche modo vivo, comprendendo un'entità aliena diversa da qualsiasi altra incontrata prima. I ricercatori propongono di organizzare uno studio orbitale esteso per saperne di più su questo essere misterioso."
 
  # Events
  distar.190.name: "Contatto Sconosciuto"
- distar.190.desc: ""
+ distar.190.desc: "L'equipaggio della [Root.GetName] ha fatto ritorno dalla propria missione visibilmente scosso. Forniscono resoconti vaghi, spesso contrastanti, di ciò che hanno visto su [From.GetName]; sebbene su un punto siano perfettamente d'accordo: il mare che avvolge il pianeta da un polo all'altro è in qualche modo vivo.\n\nSebbene non possieda alcun organo identificabile, l'oceano sembra poter comunicare tramite frequenze che influenzano la nostra attività cerebrale. È in grado di indurre pensieri, immagini, emozioni... e, come se non bastasse, riesce a comunicare con ogni individuo in modo diverso. Non sappiamo minimamente quali effetti potrebbero avere dei contatti prolungati con questo mare, o quanto possa essere sicuro tentarli.\n\nL'Ufficiale Scientifico [Root.GetLeaderName] richiede una §YDecisione§! planetaria su [From.GetName] per studiare questo strano mare."
  distar.190.desc.machi: "Le unità della [Root.GetName] hanno fatto ritorno dalla loro missione di ricerca con alcuni dati inconcludenti. Sebbene non possieda alcun organo identificabile, il mare che ricopre da un polo all'altro il pianeta sembra essere un'entità neurale a sé stante. Potrebbe aver avuto origine dalle fluttuazione casuali dell'equilibrio termodinamico, ma i dettagli ci sfuggono.\n\nInoltre, l'oceano sembra comunicare tramite frequenze che potrebbero influenzare gli organi cognitivi degli esseri organici. Sebbene non sia chiaro quali effetti potrebbe produrre sugli organici un contatto prolungato, le nostre unità non sono minimamente influenzate da questa vasta rete neurale."
  distar.190.desc.hive: "I droni [Root.GetName] sono tornati dalla loro missione di ricerca con dati inconcludenti. Anche se non ha organi o un corpo che possiamo identificare, il mare ancora fluente che avvolge da un polo all'altro del pianeta sembra essere una qualche forma di entità vivente.\n\nL'oceano planetario sembra comunicare utilizzando frequenze che tentano di indurre l'attività neurale nel destinatario. Ognuno dei nostri droni è stato accolto da una proiezione di pensieri estranei, immagini, impulsi ghiandolari... Ma lo sforzo è stato vano, e l'entità si è presto allontanata da noi.\n\nSembra che questo essere non possa comprendere una mente come la nostra. È possibile che altre forme organiche siano influenzate da un'esposizione prolungata a questo tentativo di comunicazione, ma noi siamo immuni ai suoi impulsi."
  distar.190.a: "Lo terremo in considerazione."
@@ -642,7 +642,7 @@
  distar.262.desc: "Ora che abbiamo colonizzato [From.GetName], dovremmo decidere il destino dei fungoidi pre senzienti che vivono su di esso.\n\nIn circostanze normali, le nostre politiche riguardanti gli esseri pre senzienti sarebbero sufficienti per gestire la loro presenza. Tuttavia, queste creature sembrano essere particolarmente deliziose. A causa della loro natura incredibilmente docile, sarebbe davvero semplice radunarli in un centro di lavorazione..."
  distar.262.a: "Allettante. Ma aderiremo alle nostre politiche."
  distar.262.b: "I nostri cittadini devono essere nutriti!"
- distar.262.b.tooltip: ""
+ distar.262.b.tooltip: "Raduna la popolazione [livestock_species.GetName] su [From.GetName] all'interno di un £building£ §Y$building_livestock_processing_center$§! (Produce: £food£ §Y12§!)."
  distar.262.b.tooltip.2: "Raduna la popolazione [livestock_species.GetName] su [From.GetName] all'interno di un recinto di lavorazione planetario. (Produce: £food£ §Y14§!)"
 
  distar.265.name: "Scienza Sonora"
@@ -742,8 +742,8 @@
 
 ## events_l_english.yml
  living_planet_chain_title: "Contatto Sconosciuto"
- living_planet_chain_desc: ""
- ketling_study_chain_title: "Le Origini dei Ketling"
+ living_planet_chain_desc: "I rapporti preliminari suggeriscono che l'oceano che ricopre §Y[From.GetName]§! sia in qualche modo... vivo, un'entità aliena mai vista prima d'ora.\n\nDovremmo stabilire un avamposto di ricerca a bassa orbita per studiare il mare vivente. Ci aspettiamo aggiornamenti."
+ ketling_study_chain_title: "Origini Ketling"
  ketling_study_chain_desc: "Studiando gli strani essere senzienti che vivono nelle gallerie di tre sistemi connessi tra loro, potremmo comprendere qualcosa sulla perduta civiltà interstellare che un tempo dominava su questi pianeti."
 
 ## modifiers_l_english.yml
@@ -1414,7 +1414,7 @@
  SUPERFLARE_PROJECT_DESC: "I sensori su [Root.GetName] segnalano che [From.GetStarName] si sta preparando ad un altro super-brillamento, non diverso da quello che ha sterminato l'antica civiltà su [From.From.GetName]. Dobbiamo trovare un modo per proteggere la nostra colonia prima dell'esplosione."
 
  PRIMITIVE_ROBOT_PROJECT: "Creatori Scomparsi"
- PRIMITIVE_ROBOT_PROJECT_DESC: ""
+ PRIMITIVE_ROBOT_PROJECT_DESC: "I ricercatori sono sconcertati dalla mancanza di spiegazione per la scomparsa della civiltà prima presente su [From.GetName]. Propongono un'analisi più approfondita dell'hardware degli antichi robot che si sono lasciati dietro, nel tentativo di fare un po' di luce sulla faccenda.\n\nRicompensa: £society£ §GRicerca Sociologica§!"
 
  RETROVIRUS_PROJECT: "Comportamento Planetario Erratico"
  RETROVIRUS_PROJECT_DESC: "Una serie di inspiegabili disordini civili si stanno diffondendo su [From.GetName]. I coloni mostrano comportamenti strani che solitamente iniziano con uno stato confusionale per poi sfociare in agitazione ed estrema violenza. Dobbiamo trovare la causa di tutto ciò, prima che le cose sfuggano di mano."
@@ -1525,7 +1525,7 @@
  distar.3010.desc: "Le sorprendenti letture rilevate su [impossible_organism_planet.GetName] sono state attribuite ad un piccolo organismo decisamente tenace. L'equipaggio della [Root.GetName] non è sicuro sulla sua classificazione, ma la sua abilità nel sopravvivere apparentemente senza alcun sostentamento è sbalorditiva. Considerando l'età del pianeta, è probabile che l'organismo abbia lottato contro la tossicità superficiale per millenni.\n\nL'Ufficiale Scientifico [Root.GetLeaderName] ha richiesto il permesso per raccogliere alcuni campioni dell'organismo sconosciuto, così che venga studiato."
  distar.3010.a: "Molto bene, campionatelo."
  distar.3010.b: "No. Studiatelo a distanza."
- distar.3010.b.tooltip: ""
+ distar.3010.b.tooltip: "Aggiunge il modificatore §YOrganismo Impossibile§! a [From.GetName]:\n£society£ §G+3§!"
  distar.3011.desc: "Gli studi sulla misteriosa forma di vita stanno procedendo al meglio. La comunità scientifica è affascinata dal suo potenziale di crescita. È già visibile ad occhio nudo e risponde agli stimoli; sembrerebbe assorbire energia e nutrimento da quasi ogni cosa che abbia a tiro, che sia organica o meno.\n\nPurtroppo la sua genetica ed i suoi processi biochimici e cellulari restano ancora sconosciuti."
  distar.3011.a: "Dovremmo continuare a studiarlo."
  distar.3011.a.phobe: "Disgustoso! Punzecchiatelo con un bastone..."
@@ -2235,13 +2235,13 @@
  MOD_PLANET_HYPERLANE_RANGE_ADD: "Portata Rilevazione Iperlinee Planetaria"
  MOD_SHIP_HYPERLANE_RANGE_ADD: "Portata Rilevazione Iperlinee Navale"
 
- liquidated_7: ""
- liquidated_6: ""
- liquidated_5: ""
- liquidated_4: ""
- liquidated_3: ""
- liquidated_2: ""
- liquidated_1: ""
+ liquidated_7: "§Y7 $clues$§! Liquidati:\n §G+3500§! £engineering£ Ricerca Ingegneristica\n §G+3500§! £energy£ Crediti Energetici"
+ liquidated_6: "§Y6 $clues$§! Liquidati:\n §G+3000§! £engineering£ Ricerca Ingegneristica\n §G+3000§! £energy£ Crediti Energetici"
+ liquidated_5: "§Y5 $clues$§! Liquidati:\n §G+2500§! £engineering£ Ricerca Ingegneristica\n §G+2500§! £energy£ Crediti Energetici"
+ liquidated_4: "§Y4 $clues$§! Liquidati:\n §G+2000§! £engineering£ Ricerca Ingegneristica\n §G+2000§! £energy£ Crediti Energetici"
+ liquidated_3: "§Y3 $clues$§! Liquidati:\n §G+1500§! £engineering£ Ricerca Ingegneristica\n §G+1500§! £energy£ Crediti Energetici"
+ liquidated_2: "§Y2 $clues$§! Liquidati:\n §G+1000§! £engineering£  Ricerca Ingegneristica\n §G+1000§! £energy£ Crediti Energetici"
+ liquidated_1: "§Y1 $clue$§! Liquidati:\n §G+500§! £engineering£ Ricerca Ingegneristica\n §G+500§! £energy£ Crediti Energetici"
  liquidated_0: "Ricerca di §Y$clues$§! Terminata"
  NO_SHIP_TO_UPGRADE: "Nessun oggetto richiede aggiornamenti"
  CANT_AFFORD_UPGRADE: "Non possiamo permetterci $COST|R$"
@@ -2440,8 +2440,8 @@
  distar.9000.lcluster_clue_sonic: "La comunità scientifica ha raggiunto una svolta nello studio del segnale recentemente analizzato da una delle nostre Navi Scientifiche.\n\nSebbene il pieno significato dell'equazione integrata nel segnale sonoro rimanga oscuro, i nostri scienziati sono stati in grado di abbinare abbastanza dati da capire che corrispondono alle fluttuazioni subspaziali dei misteriosi §HPortali-L§!!\n\nEsaminato singolarmente, il segnale ci è piuttosto inutile. Ma utilizzandolo assieme ad altri indizi riguardanti gli antichi Costruttori di Portali potrebbe condurci a nuove scoperte per riattivarli."
 
 #In events_l_english.yml
- living_sea_poi: ""
- living_sea_poi_desc: ""
+ living_sea_poi: "Prendi il controllo del sistema §Y[living_planet_tar.GetStarName]§!"
+ living_sea_poi_desc: "Per proseguire i nostri studi sul mare vivente che copre §Y[living_planet_tar.GetName]§!, il pianeta deve trovarsi all'interno dei nostri confini."
  NAME_Ketling_Army: "Esercito Ketling"
  ketling_army: "$NAME_Ketling_Army$"
 
