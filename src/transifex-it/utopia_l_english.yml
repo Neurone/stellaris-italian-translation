@@ -33,7 +33,7 @@
  ring_world_3_intermediate: "Sezione Completa Pianeta Anello"
  ring_world_3_intermediate_DESC: "Una sezione completamente funzionale ed abitabile del Pianeta Anello, completa di una biosfera attiva già pronta per l'insediamento."
 
- habitat_0_MEGASTRUCTURE_DETAILS: "§HHabitat§!\nAn §Y$pc_habitat$§! is a theoretically self-sustaining space station designed for permanent habitation."
+ habitat_0_MEGASTRUCTURE_DETAILS: "§HHabitat§!\nUn §Y$pc_habitat$§! è una Stazione Spaziale teoricamente autosufficiente progettata per essere un'abitazione permanente."
  habitat_0_CONSTRUCTION_INFO_DELAYED: "Un Habitat può utilizzare esclusivamente £building£ §YEdifici§! progettati per gli Habitat.  If built in orbit over a planet with £minerals£ §YMineral§!, £energy£ §YEnergy§!, or £physics£ £society£ £engineering£ §YResearch§! deposits, special £district£ §YDistricts§! will be available."
  habitat_0: "Habitat"
  habitat_0_DESC: "Una Stazione Abitabile in orbita attorno ad un pianeta inabitabile, in grado di contenere un certo numero di §HPOP§! ed §HEdifici§!, lontani dalla superficie."
