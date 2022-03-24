@@ -86,7 +86,7 @@
 
  edict_sacrifice_togetherness: "Sacrificio: Fratellanza"
  edict_sacrifice_togetherness_desc: "I più devoti tra noi vengono preparati per incontrare il loro destino, affinché la nostra società diventi più unita. Che la nostra unità splenda nella solitaria oscurità dello spazio!"
- edict_sacrifice_togetherness_tooltip: "§RKills all £job_mortal_initiate£ $job_mortal_initiate_plural$.§! Each one sacrificed increases the odds of additional gains in £unity£ Unity. $edict_sacrifice_unity_boost$"
+ edict_sacrifice_togetherness_tooltip: "§RUccide tutti gli £job_mortal_initiate£ $job_mortal_initiate_plural$.§! Ogni Iniziato sacrificato aumenta le probabilità di ulteriori guadagni in termini di £unity£ Unità. $edict_sacrifice_unity_boost$"
  sacrifice_togetherness_mod: "Sacrificio Aggiuntivo: Fratellanza"
  sacrifice_togetherness_mod_desc: "I più devoti tra noi hanno incontrato il loro destino; il loro sacrificio rafforza la nostra proclamazione di fratellanza. Che la nostra unità splenda nella solitaria oscurità dello spazio!"
  sacrifice_togetherness_1: "$sacrifice_togetherness_mod$"
@@ -102,7 +102,7 @@
 
  edict_sacrifice_harmony: "Sacrificio: Armonia"
  edict_sacrifice_harmony_desc: "I più devoti tra noi vengono preparati per incontrare il loro destino. Il loro sacrificio finale è un momento per la gioiosa celebrazione dello scopo. Che ogni giorno sia trascorso in onore di una bella vita!"
- edict_sacrifice_harmony_tooltip: "§RKills all £job_mortal_initiate£ $job_mortal_initiate_plural$.§! Each one sacrificed increases the odds of additional gains in Pop Happiness. $edict_sacrifice_unity_boost$"
+ edict_sacrifice_harmony_tooltip: "§RUccide tutti gli £job_mortal_initiate£ $job_mortal_initiate_plural$.§! Ogni Iniziato sacrificato aumenta le probabilità di ulteriori guadagni in termini di Felicità della Popolazione. $edict_sacrifice_unity_boost$"
  sacrifice_harmony_mod: "Sacrificio Aggiuntivo: Armonia"
  sacrifice_harmony_mod_desc: "I più devoti tra noi hanno incontrato il loro destino; il loro sacrificio rafforza la nostra proclamazione di armonia. Che ogni giorno sia trascorso in onore di una bella vita!"
  sacrifice_harmony_1: "$sacrifice_harmony_mod$"
@@ -117,8 +117,8 @@
  sacrifice_harmony_5_desc: "$sacrifice_harmony_mod_desc$"
 
  edict_sacrifice_bounty: "Sacrificio: Premio"
- edict_sacrifice_bounty_desc: "The most devout among us are prepared to meet their fate, keen that our society should be enriched by their final sacrifice. Let death cleanse the way for vibrant life, glorious in its essence!"
- edict_sacrifice_bounty_tooltip: "§RKills all £job_mortal_initiate£ $job_mortal_initiate_plural$.§! Each one sacrificed increases the odds of additional gains in £minerals£ Mineral and £energy£ Energy output. $edict_sacrifice_unity_boost$"
+ edict_sacrifice_bounty_desc: "I più devoti tra noi vengono preparati per incontrare il loro destino, desiderosi che la nostra società si arricchisca con il loro sacrificio finale. Che la morte purifichi la via per una vibrante vita, gloriosa nella sua essenza!"
+ edict_sacrifice_bounty_tooltip: "§RUccide tutti gli £job_mortal_initiate£ $job_mortal_initiate_plural$.§! Ogni Iniziato sacrificato aumenta le probabilità di ulteriori guadagni in termini di produzione di £minerals£ Minerali £energy£ Crediti Energetici. $edict_sacrifice_unity_boost$"
  sacrifice_bounty_mod: "Sacrificio Aggiuntivo: Premio"
  sacrifice_bounty_mod_desc: "I più devoti tra noi hanno incontrato il loro destino; il loro sacrificio rafforza la nostra proclamazione del premio. Che la morte purifichi la via per una vibrante vita, gloriosa nella sua essenza!"
  sacrifice_bounty_1: "$sacrifice_bounty_mod$"
@@ -162,7 +162,7 @@
  civic_reanimated_armies: "Rianimatori"
  civic_reanimated_armies_desc: "In questa società, la morte non è un ostacolo alla chiamata alle armi. I maestri dell'arte della negromanzia rianimano i cadaveri per far sorgere schiere di terrore e guardiani che incutono timore nei cuori dei mortali inferiori."
  disabled_by_synthetic_ascension: "Incompatibile con §YSynthetic Ascension§!"
- civic_tooltip_reanimated_armies_effects: "§YMilitary Academy§! building is replaced by a §YDread Encampment§!, granting £job_necromancer£ §YNecromancer§! jobs and allowing the recruitment of §YUndead Armies§!.\n$job_necromancer_effect_desc$.\nDefeated organic armies are sometimes resurrected as §YUndead Armies§!.\nDefeated organic Leviathans can sometimes be resurrected."
+ civic_tooltip_reanimated_armies_effects: "L'edificio §YAccademia Militare§! è sostituito da un §YAccampamento del Terrore§!, che garantisce Posti di lavoro da £job_necromancer£ §YNegromante§! e permette il reclutamento di §YEserciti di Non-Morti§!.\n$job_necromancer_effect_desc$.\nEserciti organici sconfitti sono talvolta resuscitati come §YEserciti di Non-Morti§!\nI Leviatani organici sconfitti possono talvolta essere resuscitati."
 
  building_dread_encampment: "Accampamento del Terrore"
  building_dread_encampment_desc: "È meglio nascondere le attività dei negromanti dagli occhi delicati del pubblico, mentre sono intenti a far risorgere orde di non morti per combattere nei nostri eserciti."
