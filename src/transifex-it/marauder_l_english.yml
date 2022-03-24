@@ -476,4 +476,4 @@
  WAR_COLOSSUS_GREETING_02: "Non potete sperare di resistere alla travolgente potenza del nostro Colosso. Ridurrà i vostri pianeti in cenere."
 
  CAN_TAKE_HOSTILE_ACTION_SATRAPY: "Il nostro status di Satrapia non lo permette."
- CAN_TAKE_HOSTILE_ACTION_OVERLORD: ""
+ CAN_TAKE_HOSTILE_ACTION_OVERLORD: "Il nostro status di Signore non lo permette."
