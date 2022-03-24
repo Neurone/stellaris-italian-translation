@@ -1679,8 +1679,8 @@
  ### Colony Type
  ################
 
- col_bureau:2 "Centro di Unificazione"
- col_bureau_desc:4 "Un intero pianeta dedicato all'unificazione del nostro impero."
+ col_bureau:0 "Centro di Unificazione"
+ col_bureau_desc:0 "Un intero pianeta dedicato all'unificazione del nostro impero."
  col_bureaucracy_custom:0 "La Capacità Amministravia dai Burocrati è aumentata di §G2§!.\nIl Mantenimento del Lavoro di Burocrate è ridotto del §G10%§!. \nProbabilità Cambio Etiche dei £pop£ Pop è ridotta del §G20%§!."
 
 
@@ -1693,8 +1693,8 @@
  col_bureau_machine:0 "$col_bureau$"
  col_bureau_machine_desc:0 "$col_bureau_desc$"
 
- col_habitat_bureau:1 "Unification Station"
- col_habitat_bureau_desc:1 "An entire habitat dedicated to unifying our empire."
+ col_habitat_bureau:0 "Unification Station"
+ col_habitat_bureau_desc:0 "An entire habitat dedicated to unifying our empire."
 
  col_habitat_bureau_spiritualist:0 "Ecclesiastical Station"
  col_habitat_bureau_spiritualist_desc:0 "$col_habitat_bureau_desc$"

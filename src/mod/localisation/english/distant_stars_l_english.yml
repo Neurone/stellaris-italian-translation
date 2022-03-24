@@ -504,8 +504,8 @@
  ## Living Sea event chain
 
  # Special Project
- STUDY_LIVING_SEA:0 "Study The Living Sea"
- STUDY_LIVING_SEA_DESC:0 "Preliminary reports suggest the ocean covering this planet is somehow alive, comprising an alien entity unlike any we've encountered before. Researchers propose an extended orbital study be organized in order to learn more about this mysterious being."
+ STUDY_LIVING_SEA:0 "Studio del Mare Vivente"
+ STUDY_LIVING_SEA_DESC:0 "I rapporti preliminari suggeriscono che l'oceano che copre questo pianeta è in qualche modo vivo, comprendendo un'entità aliena diversa da qualsiasi altra incontrata prima. I ricercatori propongono di organizzare uno studio orbitale esteso per saperne di più su questo essere misterioso."
 
  # Events
  distar.190.name:0 "Contatto Sconosciuto"
@@ -2440,8 +2440,8 @@
  distar.9000.lcluster_clue_sonic:0 "La comunità scientifica ha raggiunto una svolta nello studio del segnale recentemente analizzato da una delle nostre Navi Scientifiche.\n\nSebbene il pieno significato dell'equazione integrata nel segnale sonoro rimanga oscuro, i nostri scienziati sono stati in grado di abbinare abbastanza dati da capire che corrispondono alle fluttuazioni subspaziali dei misteriosi §HPortali-L§!!\n\nEsaminato singolarmente, il segnale ci è piuttosto inutile. Ma utilizzandolo assieme ad altri indizi riguardanti gli antichi Costruttori di Portali potrebbe condurci a nuove scoperte per riattivarli."
 
 #In events_l_english.yml
- living_sea_poi:2 "Prendi il controllo del sistema §Y[living_planet_tar.GetStarName]§!"
- living_sea_poi_desc:2 "Per proseguire i nostri studi sul mare vivente che copre §Y[living_planet_tar.GetName]§!, il pianeta deve trovarsi all'interno dei nostri confini."
+ living_sea_poi:0 "Prendi il controllo del sistema §Y[living_planet_tar.GetStarName]§!"
+ living_sea_poi_desc:0 "Per proseguire i nostri studi sul mare vivente che copre §Y[living_planet_tar.GetName]§!, il pianeta deve trovarsi all'interno dei nostri confini."
  NAME_Ketling_Army:0 "Esercito Ketling"
  ketling_army:0 "$NAME_Ketling_Army$"
 

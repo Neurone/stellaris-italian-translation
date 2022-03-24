@@ -243,7 +243,7 @@
  ##################
  artifact_sell_collector:0 "Vendi a Collezionisti Privati"
  artifact_sell_collector_desc:0 "Metti all'asta alcuni dei nostri Artefatti Minori per i collezionisti privati."
- artifact_sell_cooldown:0 "$artifact_sell_collector$ Cooldown"
+ artifact_sell_cooldown:0 "Tempo di recupero $artifact_sell_collector$"
  artifact_arcane_deciphering:0 "Ingegneria Inversa sulla Tecnologia Arcana"
  artifact_arcane_deciphering_desc:0 "Smonta e studia alcuni dei nostri Artefatti Minori per vedere quali intuizioni porteranno alla nostra ricerca scientifica."
  artifact_arcane_deciphering_effect:0 "Distruggi alcuni Artefatti Minori per bonus tecnologici casuali. Potremo ottenere un avanzamento in una tecnologia casuale, ottenere punti ricerca o guadagnare un bonus temporaneo alla velocità di ricerca.\n\nRicarica: £time£ §Y720§!"

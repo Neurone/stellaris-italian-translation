@@ -752,7 +752,7 @@
 
  anomaly.6787.name:0 "Old Soul"
  anomaly.6787.desc:0 "Through diligent effort, we have found a way to recharge the robot's power supply and scan its memory banks. Sadly, the machine has deteriorated so badly that we cannot retrieve coherent information. We will consider a follow-up study, and we may search for others of its kind, but the fate of this mechanical castaway must remain a mystery."
- 
+
  #TEMPORAL PRISM
 
  TEMPORAL_PRISM_CAT:0 "Unusual Temporal Fluctuations"
@@ -766,15 +766,15 @@
  colony.8099.name:0 "Insidious Ophidians"
  colony.8099.desc:0 "We have detected swarms of creatures burrowing up beneath our colony on [root.GetName]. They could emerge any day now. Our scientists theorize that surface vibrations may have awakened them from some form of subterranean slumber."
  colony.8099.a:0 "Mobilize scientists and soldiers."
- 
+
  colony.9100.name:0 "Slithering Subterfuge"
  colony.9100.desc:0 "Colonists on [root.GetName] are reporting that some homes are now infested with serpents, and many structures are experiencing power failures. We should see if there's a connection."
  colony.9100.a:0 "Observe these curious creatures."
  colony.9100.b:0 "Force them from the colony with fire."
- 
+
  colony.9101.desc:0 "The serpents are being drawn to sources of electrical energy, possibly seeking nourishment or pleasure. If we can alter our energy source, perhaps they'll find it distasteful... or painful."
  colony.9102.desc:0 "The serpents on [root.GetName] are less aggressive now, but they seem intent on dismantling the colonists' technology. Their techniques imply they possess at least a crude intelligence."
- 
+
  colony.9103.name:0 "Sinister Sibilance"
  colony.9103.desc:0 "Just as we have observed the invading serpents on [root.GetName], they are watching us. They have found ways to infiltrate and randomly operate our vehicles, computers, and mining equipment."
  colony.9103.desc.science:0 "Just as we have observed the invading serpents on [root.GetName], they are watching us. They have found ways to infiltrate and randomly operate our vehicles, computers, and mining equipment.\n\nWe know that the snakes have a simple language. For the sake of diplomacy, our scientists now refer to them as 'Ophids.' They refer to themselves as the 'Hisssss,' but we often mispronounce that name, which infuriates them and leads to more biting."
@@ -818,7 +818,7 @@
 
  VENDING_MACHINE_CAT:0 "An Invitation"
  VENDING_MACHINE_CAT_DESC:0 "A signal beacon orbits [From.GetName], beckoning travelers nearer. On the asteroid, a giant metal monolith looms, its purpose unknown."
- 
+
  anomaly.7000.name:0 "Mysterious Monolith"
  anomaly.7000.desc:0 "The monolith we found on [From.GetName] dwarfs the science ship we sent to investigate it. A majestic, smooth slab of metal, the once-garish pigment patterns on the front have been reduced to mere flecks.\n\nA small power outlet on the machine's side promises its secrets will be unveiled in exchange for a modest sum of energy credits."
 

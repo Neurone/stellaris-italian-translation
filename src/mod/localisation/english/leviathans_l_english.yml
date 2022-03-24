@@ -914,3 +914,6 @@
  monthly_opinion1:0 "Opinione Mensile: £opinion£ §G+1§!"
  monthly_opinion2:0 "Opinione Mensile: £opinion£ §G+2§!"
  monthly_opinion3:0 "Opinione Mensile: £opinion£ §G+3§!"
+
+ mod_planet_jobs_energy_upkeep_mult:0 "Costo di Mantenimento in Energia per il Posto di Lavoro"
+ mod_planet_structures_energy_upkeep_mult:0 "Costo di Mantenimento in Energia per Distretti ed Edifici"

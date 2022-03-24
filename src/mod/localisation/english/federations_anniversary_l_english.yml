@@ -47,11 +47,11 @@
  EDICT_FUND_VALUE:0 "Disponibile: £unity£§Y$VAL|0$§!"
  EDICT_CANNOT_CANCEL:0 "§RQuesto editto è attivo e non può essere annullato.§!"
  EMPIRE_SPRAWL_IMPACT_TITLE:0 "Impatto $EMPIRE_SIZE$"
- EMPIRE_SPRAWL_IMPACT_DESC:3 "§H$EMPIRE_SIZE$§! incrementa il costo di mantenimento degli §HEditti§!."
+ EMPIRE_SPRAWL_IMPACT_DESC:0 "§H$EMPIRE_SIZE$§! incrementa il costo di mantenimento degli §HEditti§!."
  EDICTS_CAPACITY_POPUP_TITLE:0 "Editti al Massimo della Capacità"
  EDICTS_CAPACITY_POPUP_DESC_VALUE:0 "Vuoi attivare questo Editto? Porterà il nostro Impero oltre il limite della §YCapacità Editti§! e aumenterà l'§Y$EMPIRE_SIZE$§!\n\nPuoi disattivare gli Editti per liberare spazio nella Capacità Editti."
 
- EDICT_UPKEEP_AND_FUND:1 "§Y$UPKEEP$ / $FUND$§!"
+ EDICT_UPKEEP_AND_FUND:0 "§Y$UPKEEP$ / $FUND$§!"
  UNTIL_CANCELLED:0 "Fino ad Annullamento."
  HAS_ENVOY_COOLDOWN:0 "Può essere riassegnato"
  HAS_NOT_ENVOY_COOLDOWN:0 "Non può essere riassegnato"
