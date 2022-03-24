@@ -85,7 +85,7 @@
  INTEL_INFO_intel_economy_colonies_med:0 "Intelligence Media sulle Colonie"
  INTEL_INFO_intel_economy_colonies_high:0 "Intelligence Alta sulle Colonie"
  INTEL_INFO_intel_economy_colonies_full:0 "Tutta l'Intelligence sulle Colonie"
- INTEL_INFO_intel_empire_sprawl:0 "Espansione Imperiale"
+ INTEL_INFO_intel_empire_sprawl:0 "$EMPIRE_SIZE$"
  INTEL_INFO_intel_economy_civships_locations:0 "Posizioni delle Navi Civili"
  INTEL_INFO_intel_economy_civships_orders:0 "Gli Ordini Attuali delle Navi Civili"
  INTEL_INFO_intel_military_admirals:0 "Ammiragli Impiegati"
@@ -145,7 +145,7 @@
  PACT_galactic_emperor:0 "Imperatore Galattico"
  PACT_galactic_emperor_heightened_security:0 "Sicurezza Rafforzata"
  PACT_closed_borders:0 "Confini Chiusi"
- PACT_overlord:0 "Signore Supremo"
+ PACT_overlord:0 "Signore"
  PACT_subject:0 "Soggetto"
  PACT_commercial_pact:0 "Accordo Commerciale"
  PACT_migration_treaty:0 "Trattato sulla Migrazione"
@@ -181,7 +181,7 @@
  FIRST_CONTACT_SITE_LOCKED:0 "Indagine di Primo Contatto Bloccata"
  FC_GO_TO:0 "§HVai a§!\n§GClicca per muovere rapidamente la telecamera verso il luogo in cui si trova questa indagine di Primo Contatto§!"
  FIRST_CONTACT_SITE_CHALLENGE:0 "§HSfida§!\nRappresenta quanto sia impegnativa l'indagine, rispetto al livello dell'Emissario attualmente assegnato."
- ADD_FC_STAGE_CLUES_EFFECT:0 "Aggiungi $CLUES|Y$ dettagli"
+ ADD_FC_STAGE_CLUES_EFFECT:0 "Adds $CLUES|Y$ insight(s)"
  IS_NOT_FIRST_CONTACT_SITE_CLUES_TRIGGER:0 "Dettagli d'Indagine NON $COMPARE$ $NUM_COMPARE$"
  IS_FIRST_CONTACT_SITE_CLUES_TRIGGER:0 "Dettagli d'Indagine $COMPARE$ $NUM_COMPARE$"
  FC_SPECIES:0 "Specie"
@@ -205,7 +205,7 @@
  first_contact_skill_3:0 "Specializzazione in Primo Contatto"
  first_contact_skill_4:0 "Padronanza del Primo Contatto"
 
- FIRST_CONTACT_ADD_INTEL:0 "Intelligence su §Y[Root.ContactCountry.GetRealName]§! impostata a $INTEL|0G$"
+ FIRST_CONTACT_ADD_INTEL:0 "Intel on the §Y[Root.ContactCountry.GetRealName]§! set to $INTEL|0G$\n"
 
  # Events
  seek_friends_tt:0 "Cercheremo relazioni amichevoli con §Y[contact_empire.GetName]§!."

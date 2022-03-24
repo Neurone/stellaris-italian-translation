@@ -246,13 +246,13 @@
  espionage.1040.a.tooltip:0 "We have acquired a §Ynew Asset§! for our Spy Network in the §H[luckycatch_country.GetName]§!."
 
  espionage.1050.name:0 "Finders Keepers"
- espionage.1050.desc:0 "A particularly observant operative in the §Y[finderskeepers_country.GetName]§! has laid their [root.species.GetHandNamePlural] on part of a §H[finderskeepers_country.GetAdj] encryption key§!. It would seem a careless [finderskeepers_country.GetSpeciesName] $job_administrator$ mislaid the device whilst commuting.\n\nThis bodes well enough for our operations in the [finderskeepers_country.GetName], but our study of the device's unique design has revealed novel insights for our general approach to §Y$MOD_INTEL_DECRYPTION_ADD$§!."
+ espionage.1050.desc:0 "A particularly observant operative in the §Y[finderskeepers_country.GetName]§! has laid their [root.species.GetHandNamePlural] on part of a §H[finderskeepers_country.GetAdj] encryption key§!. It would seem a careless [finderskeepers_country.GetSpeciesName] $job_politician$ mislaid the device whilst commuting.\n\nThis bodes well enough for our operations in the [finderskeepers_country.GetName], but our study of the device's unique design has revealed novel insights for our general approach to §Y$MOD_INTEL_DECRYPTION_ADD$§!."
 
  espionage.1060.name:0 "Stray Communiqué"
- espionage.1060.desc:0 "One of our $job_administrator_plural$ on [capital_scope.GetName] has carelessly misplaced a bundle of sensitive materials, including an §Hencryption key§! whose very existence outside of government facilities is a gross breach of protocol.\n\nOur domestic authorities are scrambling to switch security platforms, as it's quite possible these materials may have fallen into hostile [root.species.GetHandNamePlural]."
+ espionage.1060.desc:0 "One of our $job_politician_plural$ on [capital_scope.GetName] has carelessly misplaced a bundle of sensitive materials, including an §Hencryption key§! whose very existence outside of government facilities is a gross breach of protocol.\n\nOur domestic authorities are scrambling to switch security platforms, as it's quite possible these materials may have fallen into hostile [root.species.GetHandNamePlural]."
  espionage.1060.desc.corp:0 "One of our $job_executive_plural$ on [capital_scope.GetName] has carelessly misplaced a bundle of sensitive materials, including an §Hencryption key§! whose very existence outside of strictly-defined zones is a gross breach of protocol.\n\nOur security teams are scrambling to switch operating procedures, as it's quite possible these materials may have fallen into the [root.species.GetHandNamePlural] of our competitors."
  espionage.1060.a:0 "Fire this incompetent, at once!"
- espionage.1060.a.tooltip:0 "An £job_administrator£ §Y$job_administrator$§! on our capital is fired and §Rdemoted§!."
+ espionage.1060.a.tooltip:0 "A £job_politician£ §Y$job_politician$§! on our capital is fired and §Rdemoted§!."
  espionage.1060.b:0 "$espionage.1060.a$"
  espionage.1060.b.tooltip:0 "An £job_executive£ §Y$job_executive$§! on our capital is fired and §Rdemoted§!."
 
@@ -789,7 +789,7 @@
  espionage_finderskeepers:0 "Found Encryption Key"
  espionage_finderskeepers_desc:0 "One of our operatives recently found an encryption key, mislaid by a foreign power. By studying its workings we have gained insight into novel decryption techniques."
  espionage_straycomm:0 "Lost Encryption Key"
- espionage_straycomm_desc:0 "One of our $job_administrator_plural$ recently misplaced a bundle of confidential materials, including a live encryption key. Our domestic security has been compromised for the time being."
+ espionage_straycomm_desc:0 "One of our $job_politician_plural$ recently misplaced a bundle of confidential materials, including a live encryption key. Our domestic security has been compromised for the time being."
  espionage_drain_resources_exploit:0 "Enterprising Spy Network"
  espionage_drain_resources_exploit_desc:0 "A gang of operatives within one of our Spy Networks were caught exploiting local commerce. Our $role_spymaster$ has leveraged their black market enterprise for our direct benefit."
 
@@ -961,7 +961,7 @@
  resolution_emperor_by_election_tooltip:0 "Membership in the Imperial Council is determined through regular elections based on §YDiplomatic Weight§!."
 
  resolution_emperor_ina:0 "Agenzia di Navigazione Imperiale"
- resolution_emperor_ina_desc:0 "$resolution_custodian_ina_desc$"
+ resolution_emperor_ina_desc:0 "The INA will enforce standards and recommended practices for space travel, and will maintain a massive database of every known space hazard in all charted Imperium systems."
  resolution_emperor_disband_ina:0 "Sciogli l'Agenzia di Navigazione Imperiale"
  resolution_emperor_disband_ina_desc:0 "$resolution_custodian_disband_ina_desc$"
  resolution_emperor_gto:0 "$resolution_custodian_gto$"
