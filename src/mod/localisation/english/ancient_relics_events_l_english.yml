@@ -330,7 +330,7 @@
  ancrel.2020.desc:0 "§HIl Baol rimane in silenzio per un momento prima di rispondere.§! "Grazie. Abbiamo dimenticato il suono della gentilezza.""
  ancrel.2020.a:0 "Abbiamo qualche domanda..."
  ancrel.2021.desc:0 "§HUna specie di brivido attraversa il Baol. Hai la netta impressione che stia ridendo.§! "No. Abbiamo vissuto troppo a lungo in questa miserabile situazione. Ora desideriamo solo una fine. Ma prima... potreste dirci una cosa? Siamo sigillati qui da così tanto, ciechi ad ogni cosa che non fosse questa stanza, fissando l'aria stantia scorrere tra le ossa di metalli della stazione.\n\nDiteci. La nostra specie... vive ancora?""
- ancrel.2021.desc.phobe:0 ""Aspettate."" §HIl Baol trema.§! "Prima che tutto finisca. La nostra specie. Vi prego. Siamo sigillati qui da così tanto, ciechi ad ogni cosa che non fosse questa stanza, fissando l'aria stantia scorrere tra le ossa di metalli della stazione.\n\nDiteci. La nostra specie... vive ancora?""
+ ancrel.2021.desc.phobe:0 ""Aspettate." §HIl Baol trema.§! "Prima che tutto finisca. La nostra specie. Vi prego. Siamo sigillati qui da così tanto, ciechi ad ogni cosa che non fosse questa stanza, fissando l'aria stantia scorrere tra le ossa di metalli della stazione.\n\nDiteci. La nostra specie... vive ancora?""
  ancrel.2021.a:0 "In un certo senso. Anche se non sono più senzienti."
  ancrel.2021.b:0 "Non abbiamo tempo per questo. Staccate la spina!"
  ancrel.2021.b.exter:0 "Sterminateli!"
@@ -550,6 +550,13 @@
  ancrel.4020.a:0 "Il Rubricatore è nostro!"
  ancrel.4021.name:0 "Il Grande Scivolo di Ciarpame"
  ancrel.4021.desc:0 "Mentre tentava di estrarre un oggetto interessante da una pila di cianfrusaglie, [Root.GetLeaderName] ha accidentalmente dato il via ad una valanga di paccottiglia. Al di sotto di tutta quella roba, abbiamo scoperto i resti di una piccola creatura che cullava una bottiglia di sciacquabudella molto comune su [Root.Owner.GetHomeWorldName], come se la volesse proteggere dai danni. Tra il caos, abbiamo trovato anche un piccolo forziere pieno di preziosi artefatti alieni provenienti da ogni angolo della galassia."
+
+ ancrel.4121.desc:0 "Our foe has fallen at the hands of the §Y[From.Root.GetName]§!. The Rubricator relic she guarded has thereby been lost to us.\n\nAlthough the threat of the old dragon has been removed, it seems difficult to rejoice at this conclusion."
+ ancrel.4122.desc:0 "Our old foe has fallen. Some rejoiced and others dismayed at this news. Although the threat of Shard is removed, it seems regrettably probable that the Rubricator has either shared her fate, or soon will replicate artifacts for her destroyer.\n\nHowever, the dragon's remains have for unknown reasons been left behind, that much is certain, and they alone warrant retrieval."
+ SHARD_DESTROYED_BY_NON_DEFAULT_EMPIRE:0 "Shard's Remains"
+ SHARD_DESTROYED_BY_NON_DEFAULT_EMPIRE_DESC:0 "With the old dragon's demise at the hands of another, it is perhaps wishful thinking at best that her most treasured possession, the Rubricator, would have been overlooked and left behind.\n\nArtifacts aside, a dragon's remains alone could be a treasure trove."
+ ancrel.4123.name:0 "Dragon's Hoard"
+ ancrel.4123.desc:0 "During the extraction of materials from Shard's remains, the [Owner.GetScientistPlural] aboard the [Root.GetName] made a baffling discovery: among the scales and globules of dragon blood, drifted the Rubricator.\n\nLet us hope Shard's destroyer failed to grasp its value, or better yet, its existence altogether."
 
  ancrel.4031.name:0 "Pianeti Nascosti"
  ancrel.4031.desc:0 "c'è una colossale stazione spaziale. Architettonicamente stupefacente e costruita con tecnologie decisamente superiori alle nostre, è una vera opera d'arte.\n\nLa stazione sembra essersi schiantata al suolo, sopravvivendo all'impatto grazie alle sue insolite capacità di schermatura, che i nostri scienziati non vedono l'ora di studiare. Purtroppo, uno scavo archeologico ci impedirebbe di sfruttare queste terre finché non avremo finito."

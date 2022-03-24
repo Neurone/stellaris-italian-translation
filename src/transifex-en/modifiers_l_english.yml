@@ -29,7 +29,7 @@
  MOD_COUNTRY_SUBJECT_TRUST_CAP_ADD: "Subject Trust Cap"
  MOD_COUNTRY_SYNTHETIC_TRUST_CAP_ADD: "Trust Cap for Synthetics"
  MOD_COUNTRY_ORGANIC_TRUST_CAP_ADD: "Trust Cap for Organics"
- MOD_COUNTRY_ELECTION_INFLUENCE_COST: "Election Influence Cost"
+ MOD_COUNTRY_ELECTION_COST: "Election Cost"
  MOD_COUNTRY_EDICT_CAPACITY_ADD: "Edict Capacity"
  MOD_COUNTRY_EDICT_COST: "Edict Cost"
  MOD_COUNTRY_EDICT_COST_DESC: "Affects the cost of all Edicts enacted within the Empire, increasing or reducing the cost of enabling them."
@@ -37,6 +37,9 @@
  MOD_COUNTRY_SENSOR_RANGE_MULT: "Country Sensor Range"
  MOD_COUNTRY_EDICT_LENGTH_MULT: "Edict Duration"
  MOD_COUNTRY_EDICT_LENGTH_MULT_DESC: "Affects the duration of all Planetary Edicts enacted within the Empire, increasing or reducing the amount of time they are active."
+ MOD_COUNTRY_EDICT_FUND_ADD: "Edicts Fund"
+ MOD_COUNTRY_EDICT_FUND_MULT: "$MOD_COUNTRY_EDICT_FUND_ADD$"
+ mod_edicts_upkeep_mult: "Edicts Upkeep"
  MOD_COUNTRY_ALL_TECH_RESEARCH_SPEED: "Research Speed"
  MOD_COUNTRY_PHYSICS_TECH_RESEARCH_SPEED: "Research Speed (£physics£ Physics)"
  MOD_COUNTRY_SOCIETY_TECH_RESEARCH_SPEED: "Research Speed (£society£ Society)"
@@ -74,7 +77,7 @@
  MOD_MEGASTRUCTURE_BUILD_SPEED_ADD: "Megastructure Build Speed"
  MOD_MEGASTRUCTURE_PRODUCTION_MULT: "Megastructure Resource Production"
  MOD_MEGASTRUCTURE_BUILD_COST_MULT: "Megastructure Build Cost"
- MOD_DIPLO_WEIGHT_SPRAWL_MULT: "Diplomatic Weight From Empire Sprawl"
+ MOD_DIPLO_WEIGHT_SPRAWL_MULT: "Diplomatic Weight From Empire Size"
  MOD_DIPLO_WEIGHT_NAVAL_MULT: "Diplomatic Weight From Fleet Power"
  MOD_DIPLO_WEIGHT_ECONOMY_MULT: "Diplomatic Weight From Economy"
  MOD_DIPLO_WEIGHT_TECHNOLOGY_MULT: "Diplomatic Weight From Tech"
@@ -445,6 +448,8 @@
 
  MOD_COUNTRY_COMMAND_LIMIT_ADD: "Fleet Command Limit"
  MOD_COUNTRY_COMMAND_LIMIT_MULT: "$MOD_FLEET_COMMAND_LIMIT_ADD$"
+ MOD_COUNTRY_NAVAL_COVERAGE_ADD: "$navy_coverage$"
+ MOD_COUNTRY_NAVAL_COVERAGE_MULT: "$navy_coverage$"
 
  #Leader
  MOD_LEADER_RULER_SKILL_LEVELS: "Ruler Level Cap"
@@ -523,6 +528,7 @@
  volatile_motes_deficit: "$volatile_motes$ Shortage"
  rare_crystals_deficit: "$rare_crystals$ Shortage"
  exotic_gases_deficit: "$exotic_gases$ Shortage"
+ unity_deficit: "$unity$ Shortage"
 
  ####################################
  # Resource Modifiers
@@ -580,6 +586,8 @@
  mod_country_base_sr_dark_matter_produces_add: "Monthly £sr_dark_matter£ Dark Matter"
  mod_country_base_sr_zro_produces_add: "Monthly £sr_zro£ Zro"
 
+
+
  mod_country_monuments_influence_produces_add: "$MOD_COUNTRY_INFLUENCE_GAIN_ADD$"
  mod_country_suppression_influence_upkeep_add: "Influence Upkeep"
  mod_country_promotion_influence_upkeep_add: "Influence Upkeep"
@@ -606,6 +614,8 @@
  mod_country_traditions_influence_produces_add: "$MOD_COUNTRY_INFLUENCE_GAIN_ADD$"
  mod_country_ruler_influence_produces_add: "$MOD_COUNTRY_INFLUENCE_GAIN_ADD$"
  mod_country_ethic_influence_produces_add: "$MOD_COUNTRY_INFLUENCE_GAIN_ADD$"
+ mod_country_power_projection_influence_produces_add: "$country_power_projection$"
+ mod_country_power_projection_influence_produces_mult: "$country_power_projection$"
 
  ####################################
  # Dynamic Modifiers

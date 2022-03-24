@@ -104,7 +104,7 @@
  crisis.2091.a:0 "Queste infiltrazioni devono essere fermate!"
  synth_bombing_tooltip:0 "Su [Root.GetName] sono andate perdute molte vite ed infrastrutture."
  crisis.2092.name:0 "Base Stellare Distrutta dai Sintetici"
- crisis.2092.desc:0 "La Base Stellare di §H[Root.GetName]§! è stata distrutta! Stiamo ancora cercando di capire bene le dinamiche, ma sembra che diversi membri dell'equipaggio, incluso l'ingegnere capo, fossero stati rimpiazzati da infiltrati Sintetici.\n\nIn qualche modo devono aver messo le mani sui codici di autodistruzione della Base Stellare. La maggior parte dell'equipaggio è riuscito ad evacuare verso la superficie planetaria di [Root.GetName] prima dell'esplosione, ma le perdite materiali sono sostanziali."
+ crisis.2092.desc:0 "La Base Stellare di §H[Root.GetStarName]§! è stata distrutta! Stiamo ancora cercando di capire bene le dinamiche, ma sembra che diversi membri dell'equipaggio, incluso l'ingegnere capo, fossero stati rimpiazzati da infiltrati Sintetici.\n\nIn qualche modo devono aver messo le mani sui codici di autodistruzione della Base Stellare. La maggior parte dell'equipaggio della stazione è fuggita sulla superficie di [Root.GetName] prima che fosse distrutta, ma le nostre perdite in materiale e proprietà sono state sostanziali."
  crisis.2092.a:0 "È un disastro."
  synths_destroy_spaceport:0 "I sabotatori Sintetici hanno distrutto la Base Stellare di [Root.GetName]."
  crisis.2093.name:0 "Paura e Sospetto"

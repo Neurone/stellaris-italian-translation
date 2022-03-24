@@ -44,7 +44,7 @@
  TECH_UNLOCK_AKX_WORM_3_DESC:0 "$tech_akx_worm_3_desc$"
 
  tech_akx_worm_partial_custom:0 "§HSguardo al Futuro:§! $tech_akx_worm_3$"
- tech_akx_worm_partial_custom_desc:0 "Un sentore di prospettive future ed affetti passati.\n\nMetà di un tutto, inutile da solo; quando sarà completo permetterà ai nostri scienziati di dedicarsi alla §H$tech_akx_worm_3$§!."
+ tech_akx_worm_partial_custom_desc:0 "§HSguardo al futuro§!\nUn sentore di prospettive future ed affetti passati.\n\nMetà di un tutto, inutile da solo; quando sarà completo permetterà ai nostri scienziati di dedicarsi alla §H$tech_akx_worm_3$§!."
 
  ### BUILDINGS
  building_akx_worm_1:0 "Nucleo Energetico a Spirale"

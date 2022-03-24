@@ -76,10 +76,17 @@
  mod_job_mortal_initiate_add: "$job_mortal_initiate$ Jobs"
  mod_job_mortal_initiate_per_pop: "§G+1§! $job_mortal_initiate$ Job per $VALUE$ Pops"
  mod_job_mortal_initiate_per_pop_short: "\n§G+1§! £mod_job_mortal_initiate_add£ per $VALUE$ £pop£"
+ jobs_death_priest_and_mortal_initiate_effect_desc: "$job_death_priest_effect_desc$\n$job_mortal_initiate_effect_desc$"
+
+ edict_sacrifice_unity_boost: "\n\nIncreases the £unity£ Unity output of £job_death_priest£ $job_death_priest_plural$ while the edict is in effect.\n"
+
+ edict_sacrifice_dummy: "Sacrifices"
+ edict_sacrifice_dummy_desc: "The most devout amongst us are prepared to meet their fate, keen to give their lives for the better of our society. With the §HTogetherness§!, §HHarmony§! and §HBounty§! Sacrifices, they need wait no longer."
+ edict_sacrifice_dummy_tooltip: "§RKills all £job_mortal_initiate£ $job_mortal_initiate_plural$.§! Each one sacrificed grants additional £unity£ Unity, Pop Happiness or £minerals£ Mineral and £energy£ Energy output, depending on the ritual chosen. $edict_sacrifice_unity_boost$"
 
  edict_sacrifice_togetherness: "Sacrifice: Togetherness"
  edict_sacrifice_togetherness_desc: "The most devout amongst us are prepared to meet their fate, ensuring that our society is brought closer together. Let our unity shine out into the lonely dark of space!"
- edict_sacrifice_togetherness_tooltip: "§RKills all £job_mortal_initiate£ $job_mortal_initiate_plural$.§! Each one sacrificed increases the odds of additional gains in £unity£ Unity."
+ edict_sacrifice_togetherness_tooltip: "§RKills all £job_mortal_initiate£ $job_mortal_initiate_plural$.§! Each one sacrificed increases the odds of additional gains in £unity£ Unity. $edict_sacrifice_unity_boost$"
  sacrifice_togetherness_mod: "Additional Sacrifice: Togetherness"
  sacrifice_togetherness_mod_desc: "The most devout amongst us have met their fate; their sacrifice bolsters our proclamation of togetherness. Let our unity shine out into the lonely dark of space!"
  sacrifice_togetherness_1: "$sacrifice_togetherness_mod$"
@@ -95,7 +102,7 @@
 
  edict_sacrifice_harmony: "Sacrifice: Harmony"
  edict_sacrifice_harmony_desc: "The most devout amongst us are prepared to meet their fate. Their final sacrifice is a time for joyous celebration of purpose. Let every day be spent in honor of a good life!"
- edict_sacrifice_harmony_tooltip: "§RKills all £job_mortal_initiate£ $job_mortal_initiate_plural$.§! Each one sacrificed increases the odds of additional gains in Pop Happiness."
+ edict_sacrifice_harmony_tooltip: "§RKills all £job_mortal_initiate£ $job_mortal_initiate_plural$.§! Each one sacrificed increases the odds of additional gains in Pop Happiness. $edict_sacrifice_unity_boost$"
  sacrifice_harmony_mod: "Additional Sacrifice: Harmony"
  sacrifice_harmony_mod_desc: "The most devout amongst us have met their fate; their sacrifice bolsters our proclamation of harmony. Let every day be spent in honor of a good life!"
  sacrifice_harmony_1: "$sacrifice_harmony_mod$"
@@ -110,8 +117,8 @@
  sacrifice_harmony_5_desc: "$sacrifice_harmony_mod_desc$"
 
  edict_sacrifice_bounty: "Sacrifice: Bounty"
- edict_sacrifice_bounty_desc: "The most devout amongst us are prepared to meet their fate, keen that our society should be enriched by their final sacrifice. Let death cleanse the way for vibrant life, glorious in its essence!"
- edict_sacrifice_bounty_tooltip: "§RKills all £job_mortal_initiate£ $job_mortal_initiate_plural$.§! Each one sacrificed increases the odds of additional gains in £minerals£ Mineral and £energy£ Energy output."
+ edict_sacrifice_bounty_desc: "The most devout among us are prepared to meet their fate, keen that our society should be enriched by their final sacrifice. Let death cleanse the way for vibrant life, glorious in its essence!"
+ edict_sacrifice_bounty_tooltip: "§RKills all £job_mortal_initiate£ $job_mortal_initiate_plural$.§! Each one sacrificed increases the odds of additional gains in £minerals£ Mineral and £energy£ Energy output. $edict_sacrifice_unity_boost$"
  sacrifice_bounty_mod: "Additional Sacrifice: Bounty"
  sacrifice_bounty_mod_desc: "The most devout amongst us have met their fate; their sacrifice bolsters our proclamation of bounty. Let death cleanse the way for vibrant life, glorious in its essence!"
  sacrifice_bounty_1: "$sacrifice_bounty_mod$"
@@ -155,7 +162,7 @@
  civic_reanimated_armies: "Reanimators"
  civic_reanimated_armies_desc: "Within this society, death is no bar to the call to arms. Masters of the art of necromancy reanimate corpses to raise dread hosts and guardians, striking fear into the hearts of lesser mortals."
  disabled_by_synthetic_ascension: "Incompatible with §YSynthetic Ascension§!"
- civic_tooltip_reanimated_armies_effects: "§YMilitary Academy§! building is replaced by a §YDread Encampment§!, granting £job_necromancer£ §YNecromancer§! jobs and allowing the recruitment of §YUndead Armies§!.\n$job_necromancer_effect_desc$.\nDefeated organic armies are sometimes resurrected as §YUndead Armies§!.\nDefeated organic leviathans can sometimes be resurrected."
+ civic_tooltip_reanimated_armies_effects: "§YMilitary Academy§! building is replaced by a §YDread Encampment§!, granting £job_necromancer£ §YNecromancer§! jobs and allowing the recruitment of §YUndead Armies§!.\n$job_necromancer_effect_desc$.\nDefeated organic armies are sometimes resurrected as §YUndead Armies§!.\nDefeated organic Leviathans can sometimes be resurrected."
 
  building_dread_encampment: "Dread Encampment"
  building_dread_encampment_desc: "It is best to shield the activities of the necromancers from the tender eyes of the public as they raise undead hordes to fight in our armies."
@@ -230,6 +237,32 @@
  mod_job_chronicle_drone_per_pop_short: "\n§G+1§! £mod_job_chronicle_drone_add£ per $VALUE$ £pop£"
  action.62.memorialist.a: "They shall be remembered."
 
+ ### Permanent Employment by Victor Haeggman
+ civic_permanent_employment: "Permanent Employment"
+ civic_permanent_employment_desc: "This Megacorporation has ensured that its employees will never be out of a job. Ever. After the employee's time is up, they will be repurposed for simpler tasks so that they can still provide for their families and pay off their debts."
+ civic_tooltip_permanent_employment_effects: "Can build £building£ §Y$building_posthumous_employment_center$§!\n$job_reassigner_effect_desc$\nDefeated organic Leviathans can sometimes be resurrected."
+ job_reassigner: "Reassigner"
+ job_reassigner_desc: "Reassigners ensure that once a Megacorporation's citizen has passed on, their remains will stay at work until the fulfillment of their contract."
+ job_reassigner_plural: "Reassigners"
+ job_reassigner_effect_desc: "£job_necromancer£ $job_reassigner_plural$ turn £consumer_goods£ §Y$consumer_goods$§! and either £food£ §Y$food$§! or £minerals£ §Y$minerals$§! into £mod_pop_growth_speed£ §Y$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$§!. All assembled £pop£  pops will have the §YZombie§! trait."
+ planet_reassigners: "Reassigner Jobs"
+ mod_job_reassigner_add: "$job_reassigner$ Jobs"
+ trait_zombie: "Zombie"
+ trait_zombie_desc: "§LThe remains of a once-proud sapient being, this husk is not suitable for much more than the simplest tasks.§!"
+ TRAIT_ZOMBIE_EFFECT: "$mod_planet_jobs_produces_mult$: §R-25%§!\nPop Upkeep reduced by: §G100%§!\nCannot generate §YLeaders§!\nCannot be employed in §Y$pop_cat_ruler$§! or §Y$pop_cat_specialist$§! Jobs"
+ building_posthumous_employment_center: "Posthumous Employment Center"
+ building_posthumous_employment_center_desc: "At the Posthumous Employment Center, carcasses bereft of consciousness can find new purpose and a new opportunity to pay off their debts."
+ edict_sacrifice_bounty_zombie: "$edict_sacrifice_bounty$"
+ edict_sacrifice_bounty_zombie_desc: "The most devout among us are prepared to meet their fate, keen that our society should be enriched by their final sacrifice. Our deaths shall bring prosperous enterprise value, and our bodies will continue serving the corporation."
+ edict_sacrifice_bounty_zombie_tooltip: "$edict_sacrifice_bounty_tooltip$\nAdds §G+1§! £mod_pop_growth_speed£ §Y$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$§! to all £job_necromancer£ $job_reassigner_plural$."
+
+ necroids.260.name: "Diligent Decaying Drones"
+ necroids.260.desc: "Our chief executives had all just gathered for a holo-meeting to discuss the growth of zombie hygiene product sales when one of the heads of Animated Assets' aids burst into the conference hall. \"One of the Zombies on §Y[debt_free_zombie.Planet.GetName]§! has managed to work off their debt!\" they blurt out before noticing what they had stumbled in on. A pause stretched in the meeting before pandemonium erupted. Every assembled executive demanded to know how this might impact their reanimated workers supply.\n\nAfter some more analysis, it turned out that this was only an extraordinarily rare case. Only the deceased whose bodies had lasted a whole century had managed to pay off their debts - a minuscule number, on the grand scale. Our galactic corporation would barely notice if they were to be put to rest."
+ necroids.260.a: "They have earned their freedom, let them rest."
+ necroids.260.b: "Just add some more 0s to their debt."
+
+ zombie_contract_manipulation: "Zombie Contract Manipulation"
+ zombie_contract_manipulation_desc: "This empire fiddled with their zombie workers' contracts so that it's actually impossible to get out of debt."
  ### Miscellaneous
 
  vo_necroid_voice: "Necroid"

@@ -13,6 +13,8 @@ federations_l_english.yml in fase di traduzione
 
 ------------------------------
 
+dip_messages_l_english.yml -> alcune frasi ancora da tradurre verso la riga 2218
+
 forse: Stazione d'Osservazione => Posto d'Osservazione
 Observation Post è l'unica "stazione" che non è chiamata Station. Post significa postazione, posto, palo. Dà molto di più il senso di un avanposto dedicato rispetto al termine stazione.
 

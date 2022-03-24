@@ -43,6 +43,7 @@
  mycelial_network_modifier: "Mycelial Network"
  mycelial_network_modifier_improved: "Improved Mycelial Network"
  fumongus_authoritarian: "Authoritarian Attraction"
+ rage_sage_soldiers: "Sage Rage"
 
  ####################################
  # Edicts
@@ -125,6 +126,10 @@
  syndaw_unfriendly_robots_desc: "Tensions between robotic and organic populations on the planet have reduced our £unity£ Unity output."
  syndaw_research_malus: "AI Failure"
  syndaw_research_malus_desc: "A lab AI involved in societal research has suffered terminal hardware damage and is being replaced."
+ snake_infestation: "Infestation Nation"
+ snake_infestation_desc: "Snakes! Snakes everywhere! We're too busy dealing with them to do... other things."
+ energy_poor: "Depleted Energy"
+ energy_poor_desc: "Don't want to alarm you, but snakes are coiled around the generators and draining power."
 
  ####################################
  # Ship/Fleet Modifiers

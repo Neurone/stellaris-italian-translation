@@ -1,13 +1,13 @@
-﻿Saluti invernali!
+﻿Saluti e benvenuti alla nuova patch Custodian!
 
-È novembre, e quindi vi presentiamo una nuova patch Custode!
+L'aggiornamento 3.3 "Libra" include significative modifiche al gameplay che rendono l'Unità una risorsa più preziosa con molti più usi.
 
-Dando nuova vita a storie già raccontate molte volte, abbiamo aggiunto uno smörgåsbord di nuove anomalie ed eventi all'inizio del gioco per rinnovare la vostra esperienza.
+I livelli di ascensione planetaria sono un nuovo modo per permetterti di aggiornare i tuoi mondi principali, migliorando gli effetti delle designazioni planetarie e riducendo l'espansione planetaria.
 
-Per gli aficionados degli umanoidi, stiamo aggiungendo una nuova scelta civica al DLC Humanoids, i Puristi Pomposi.
+Il DLC Necroids ora dà anche alle Megacorporazioni il loro tocco di Rianimatori con la scelta civica Impiego Permanente.
 
 Inoltre, abbiamo incluso molte correzioni di errori e piccoli miglioramenti, tra cui una serie di correzioni grafiche, miglioramenti dell'IA e ottimizzazioni delle prestazioni, che potete trovare in dettaglio nelle nostre note sulla patch.
 
 ---
 
-I salvataggi delle versioni precedenti potrebbero non essere compatibili con la versione 3.2. Se desideri continuare il tuo vecchio salvataggio nella versione 3.1, segui il link del forum qui sotto e leggi il thread "Come riportare Stellaris a una versione precedente".
+I salvataggi delle versioni precedenti potrebbero non essere compatibili con la versione 3.3. Se desideri continuare il tuo vecchio salvataggio nella versione 3.2, segui il link del forum qui sotto e leggi il thread "Come riportare Stellaris a una versione precedente".

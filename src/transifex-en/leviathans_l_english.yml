@@ -914,3 +914,6 @@
  monthly_opinion1: "Monthly Opinion: £opinion£ §G+1§!"
  monthly_opinion2: "Monthly Opinion: £opinion£ §G+2§!"
  monthly_opinion3: "Monthly Opinion: £opinion£ §G+3§!"
+
+ mod_planet_jobs_energy_upkeep_mult: "Job Energy Upkeep"
+ mod_planet_structures_energy_upkeep_mult: "District and Building Energy Upkeep"
