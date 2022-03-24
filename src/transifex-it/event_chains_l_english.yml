@@ -164,3 +164,7 @@
  refugees.1.desc.2.b: "Una piccola flotta di navi martoriate con a bordo alcuni rifugiati §Y[Root.GetSpeciesNamePlural]§! in fuga da §Y[RefugeeEscapedFrom.GetName]§! è arrivata nel nostro spazio. Dopo averli sfamati e medicato i feriti, è stato permesso loro di stabilirsi su §H[Root.Planet.GetName]§!.\n\nQuesti cenciosi e terrorizzati rifugiati sono i pochi sopravvissuti del massacro compiuto dagli spietati [RefugeeEscapedFrom.GetSpeciesNamePlural]. Si sono salvati solamente grazie all'audace furto di alcune navi spaziali dismesse conservate in un vecchio cantiere navale del loro pianeta."
  refugees.1.desc.3: "Una piccola flotta di navi martoriate con a bordo alcuni rifugiati §Y[Root.GetSpeciesNamePlural]§! in fuga da §Y[RefugeeEscapedFrom.GetName]§! è arrivata nel nostro spazio. Dopo averli sfamati e medicato i feriti, è stato permesso loro di stabilirsi su §H[Root.Planet.GetName]§!.\n\nQuesti cenciosi e terrorizzati rifugiati stanno fuggendo dalla furia dei §H[RefugeeEscapedCrisis.GetName]§! nello spazio [RefugeeEscapedFrom.GetSpeciesAdj]. Sono a malapena riusciti a lasciare il loro pianeta natale, §H[RefugeeEscapedPlanet.GetName]§!, prima che l'incubo [RefugeeEscapedCrisis.GetSpeciesAdj] lo raggiungesse, lasciando alle spalle la maggior parte dei loro averi."
  refugees.1.a: "Qui sono i benvenuti."
+
+ snake_infestation_chain_name: "Ofidiani Insidiosi"
+ snake_infestation_chain_title: "Ofidiani Insidiosi"
+ snake_infestation_chain_desc: "Qualcosa sta sbucando dal terreno e infestando la nostra colonia!"

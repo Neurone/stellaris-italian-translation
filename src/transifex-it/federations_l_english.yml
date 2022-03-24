@@ -690,7 +690,10 @@
 
  requires_strongest: "§RRichiede che il $law_category_succession_type$ sia §Y$succession_type_strongest$§!.§!"
 
- requires_megacorp_or_merchant: "§RRequires you to have one of the §Y$civic_merchant_guilds$§! or §Y$civic_corporate_dominion$§! civics or to be a §Y$gov_megacorporation$§!.§!"
+ mercantile_traditions_completed: "Ha completato §Y$tr_mercantile_adopt$§!"
+ discovery_traditions_completed: "Ha completato §Y$tr_discovery_adopt$§!"
+ domination_traditions_completed: "Ha completato §Y$tr_domination_adopt$§!"
+ unyielding_traditions_completed: "Ha completato §Y$tr_unyielding_adopt$§!"
  disabled_for_hegemony: "§RUna §Y$hegemony_federation$§! non può vietare l'adesione di nazioni soggette.§!"
  president_no_effect: "Nessun effetto."
 
@@ -700,6 +703,9 @@
  level_4: "Livello 4"
  level_5: "Livello 5"
 
+ federation_acceptance_current_president_under_this_law: "Attualmente Presidente secondo questa Legge"
+ federation_acceptance_would_win: "Il più forte secondo questa metrica"
+ federation_acceptance_leader_would_lose: "Perderebbe la Presidenza"
  federation_acceptance_stronger: "È troppo potente"
  federation_acceptance_gestalt: "$ethic_gestalt_consciousness$"
  federation_acceptance_hegemony: "Tipo di Federazione Egemonia"
@@ -743,9 +749,11 @@
  federation_acceptance_has_subjects: "Ha Sudditi"
 
  #Federation specific
+ federation_acceptance_hegemony_or_default: "$default_federation$ o $hegemony_federation$"
  federation_acceptance_hegemony_federation: "$hegemony_federation$"
  federation_acceptance_military_federation: "$military_federation$"
- federation_acceptance_trade_league: "$trade_league$"
+ federation_acceptance_research_federation: "$research_federation$"
+ federation_acceptance_trade_league: "$trade_federation$"
 
  #Empire specific
  federation_acceptance_authoritarian: "$ethic_authoritarian$"
@@ -753,10 +761,10 @@
  federation_acceptance_xenophobe: "$ethic_xenophobe$"
  federation_acceptance_xenophile: "$ethic_xenophile$"
  federation_acceptance_materialist: "$ethic_materialist$"
- federation_acceptance_erudite_explorers_in_research_federation: "$erudite_explorers$ + $research_federation$"
- federation_acceptance_honorbound_warriors_in_military_federation: "$honorbound_warriors$ + $military_federation$"
- federation_acceptance_ruthless_capitalists_in_trade_federation: "$ruthless_capitalists$ + $trade_federation$"
- federation_acceptance_peaceful_traders_in_trade_federation: "$peaceful_traders$ + $trade_federation$"
+ federation_acceptance_erudite_explorers_in_research_federation: "$personality_erudite_explorers$ + $research_federation$"
+ federation_acceptance_honorbound_warriors_in_military_federation: "$personality_honorbound_warriors$ + $military_federation$"
+ federation_acceptance_ruthless_capitalists_in_trade_federation: "$personality_ruthless_capitalists$ + $trade_federation$"
+ federation_acceptance_peaceful_traders_in_trade_federation: "$personality_peaceful_traders$ + $trade_federation$"
  #federation_acceptance_erudite_explorers_in_research_federation: "$erudite_explorers$ in a $research_federation$"
  #federation_acceptance_honorbound_warriors_in_military_federation: "$honorbound_warriors$ in a $military_federation$"
  #federation_acceptance_ruthless_capitalists_in_trade_federation: "$ruthless_capitalists$ in a $trade_federation$"
@@ -960,6 +968,7 @@
  decision_project_cornucopia_desc: "$resolution_industry_project_cornucopia_desc$"
  decision_project_cornucopia_effects_short: "Mina a fondo questo mondo, aggiungendo §G+4§! §Y$district_mining_plural$§!, §G+5%§! §Y$mod_planet_jobs_minerals_produces_mult$§!, e §R-20%§! §Y$pop_habitability$§!."
  d_project_cornucopia: "$resolution_industry_project_cornucopia$"
+ d_project_cornucopia_desc: "Le estese operazioni di estrazione mineraria hanno reso questo pianeta più difficile da abitare... E più facile da sfruttare."
 
  federations.10000.name: "$resolution_industry_project_cornucopia$"
  federations.10000.desc: "Gli ingegneri di tutta la [global_event_country.GetGalCommunityOrGalImperium] si sono riuniti per condividere idee su come sfruttare maggiormente le risorse dei nostri mondi.\n\nLa Decisione Planetaria §HProgetto Cornucopia§! è ora disponibile."
@@ -1670,12 +1679,31 @@
  ### Colony Type
  ################
 
- col_bureau: "Centro Burocratico"
- col_bureau_desc: "Un intero mondo dedicato ai bisogni in continua espansione della burocrazia."
+ col_bureau: "Centro di Unificazione"
+ col_bureau_desc: "Un intero pianeta dedicato all'unificazione del nostro impero."
  col_bureaucracy_custom: "La Capacità Amministravia dai Burocrati è aumentata di §G2§!.\nIl Mantenimento del Lavoro di Burocrate è ridotto del §G10%§!. \nProbabilità Cambio Etiche dei £pop£ Pop è ridotta del §G20%§!."
 
- col_habitat_bureau: "Stazione Burocratica"
- col_habitat_bureau_desc: "Un intero habitat dedicato alle esigenze in continua espansione della burocrazia."
+
+ col_bureau_spiritualist: "Ecclesiastical Center"
+ col_bureau_spiritualist_desc: "$col_bureau_desc$"
+
+ col_bureau_hive: "$col_bureau$"
+ col_bureau_hive_desc: "$col_bureau_desc$"
+
+ col_bureau_machine: "$col_bureau$"
+ col_bureau_machine_desc: "$col_bureau_desc$"
+
+ col_habitat_bureau: "Unification Station"
+ col_habitat_bureau_desc: "An entire habitat dedicated to unifying our empire."
+
+ col_habitat_bureau_spiritualist: "Ecclesiastical Station"
+ col_habitat_bureau_spiritualist_desc: "$col_habitat_bureau_desc$"
+
+ col_habitat_bureau_hive: "$col_habitat_bureau$"
+ col_habitat_bureau_hive_desc: "$col_habitat_bureau_desc$"
+
+ col_habitat_bureau_machine: "$col_habitat_bureau$"
+ col_habitat_bureau_machine_desc: "$col_habitat_bureau_desc$"
 
  ################
  ### Modifiers
@@ -2558,7 +2586,7 @@
  origin.90.3: "Despite this knowledge, they apparently made no significant efforts to evacuate the planet. Aside from a few scattered survivors in space, their entire civilization perished along with their homeworld."
  origin_90.a: "Fate can be cruel."
 
- origin.91.name: "The Destruction of [From.From.GetName]"
+ origin.91.name: "The Destruction of [From.GetName]"
  origin.91.desc: "$origin.90.intro.desc$\n\n$origin.91.1$"
  origin.91.1: "Thanks to a massive evacuation effort, the planet had been completely abandoned prior to its destruction. No lives are believed to have been lost."
  origin_91.a: "Buon per loro."
@@ -2913,10 +2941,12 @@
  mod_federation_influence_produces_mult: "Federation Influence Gain"
  mod_federation_influence_produces_add: "$mod_federation_influence_produces_mult$"
 
- BUILD_PLAN: "Build Plan"
- BUILD_PLAN_ENTRY: "$BUILDABLE|Y$ on $PLANET|Y$ ($WEIGHT|Y0$)"
- NO_BUILD_PLAN_DESC: "$COUNTRY|Y$ currently has no Build Plan"
- CURRENT_PLAN: "Economic Plan: $PLAN|Y$"
+ BUILD_PLAN: "Piano di Costruzione"
+ BUILD_PLAN_ENTRY: "$BUILDABLE|Y$ su $PLANET|Y$ ($WEIGHT|Y0$)"
+ NO_BUILD_PLAN_DESC: "$COUNTRY|Y$ attualmente non ha un Piano di Costruzione"
+ CURRENT_PLAN: "Piano Economico: $PLAN|Y$"
+ DEBUG_SUB_PLAN: "\n    Sotto Piano: $SUB_PLAN|Y$"
+ DEBUG_INCOME_TARGET: "\n§YObiettivo di Reddito§!:"
  BUILD_PLAN_START_INCOME: "Stato economico prima che il Piano di Costruzione abbia inizio"
  BUILD_PLAN_CURRENT_INCOME: "Reddito"
  BUILD_PLAN_CURRENT_DEFICIT: "Deficit"
