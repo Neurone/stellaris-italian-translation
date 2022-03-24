@@ -39,7 +39,9 @@ Contingente -> Contingenza
 
 Amenities -> Comodità (più che servizi "generici")
 
-Jobs => "Posti di Lavoro" è una traduzione migliore di "Lavori". In progress, ma servirebbe revisione generale, altrimenti accettabile anche:
+Jobs => "Posti di Lavoro" è una traduzione migliore di "Lavori".
+
+Jump Drive => Motore a Balzo (verificare tutte le voci)
 
 **XXX Job** => **Lavoro da XXX** oppure **Posto di Lavoro da XXX**
 
