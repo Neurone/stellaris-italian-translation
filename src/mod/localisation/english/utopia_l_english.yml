@@ -19,8 +19,8 @@
  MEGASTRUCTURE_TOOLTIP_MAINTENANCE_HEADER:0 "Mantenimento Mensile:"
  MEGASTRUCTURE_UPGRADE_REMAINING:0 "£time£ $DAYS|Y0$ Giorni Rimanenti"
  MEGASTRUCTURE_UPGRADES_TO:0 "Aggiorna a:"
- MEGASTRUCTURE_SHIPYARD_TAB_DISABLED_NOT_OWNER:0 "§RYou are not the owner of this Megastructure.§!"
- MEGASTRUCTURE_SHIPYARD_TAB_DISABLED_OCCUPIED:0 "§RThis Megastructure is under occupation.§!"
+ MEGASTRUCTURE_SHIPYARD_TAB_DISABLED_NOT_OWNER:0 "§RNon sei il proprietario di questa Megastruttura.§!"
+ MEGASTRUCTURE_SHIPYARD_TAB_DISABLED_OCCUPIED:0 "§RQuesta megastruttura è sotto occupazione.§!"
 
  ring_world_1_MEGASTRUCTURE_DETAILS:0 "Un §Y$pc_ringworld_habitable$§! permette la creazione di varie aree abitabili, cannibalizzando gli altri pianeti del sistema per la raccolta dei materiali."
  ring_world_1_CONSTRUCTION_INFO_DELAYED:0 "Un Pianeta Anello completo è composto da 4 Sezioni, ognuna equivalente alle dimensioni di un enorme Pianeta Gaia.§!"
@@ -33,7 +33,7 @@
  ring_world_3_intermediate:0 "Sezione Completa Pianeta Anello"
  ring_world_3_intermediate_DESC:0 "Una sezione completamente funzionale ed abitabile del Pianeta Anello, completa di una biosfera attiva già pronta per l'insediamento."
 
- habitat_0_MEGASTRUCTURE_DETAILS:0 "§HHabitat§!\nUn §Y$pc_habitat$§! è una Stazione Spaziale teoricamente autosufficiente progettata per essere un'abitazione permanente."
+ habitat_0_MEGASTRUCTURE_DETAILS:0 "§HHabitat§!\nUn §Y$pc_habitat$§! è una stazione spaziale teoricamente autosufficiente progettata per l'abitazione permanente."
  habitat_0_CONSTRUCTION_INFO_DELAYED:0 "Un Habitat può utilizzare esclusivamente £building£ §YEdifici§! progettati per gli Habitat.  If built in orbit over a planet with £minerals£ §YMineral§!, £energy£ §YEnergy§!, or £physics£ £society£ £engineering£ §YResearch§! deposits, special £district£ §YDistricts§! will be available."
  habitat_0:0 "Habitat"
  habitat_0_DESC:0 "Una Stazione Abitabile in orbita attorno ad un pianeta inabitabile, in grado di contenere un certo numero di §HPOP§! ed §HEdifici§!, lontani dalla superficie."

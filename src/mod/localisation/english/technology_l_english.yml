@@ -874,7 +874,7 @@
  tech_planetary_unification_desc:0 "Antiche tribù in guerra e nazioni in conflitto, ora unificate in un impero. Noi non dobbiamo, noi non permetteremo, che si sbricioli." # We have progressed from warring tribes, from conflicting nations, to a unified Empire, a single will ready to grasp the stars.
  tech_planetary_unification_machine_intelligence:0 "Standard Uniformi"
  tech_planetary_unification_desc_machine_intelligence:0 "Le anormalità non saranno tollerate."
- tech_planetary_unification_effect:0 "Grants a lump sum of £unity£§YUnity§!"
+ tech_planetary_unification_effect:0 "Concede una quantità forfettaria di £unity£ §YUnità§!"
  tech_adaptive_bureaucracy:0 "Burocrazia Adattiva"
  tech_adaptive_bureaucracy_desc:0 "I progressi che abbiamo compiuto richiedono una nuova, più snella forma amministrativa, che sia di aiuto, piuttosto che d'ostacolo, alle nostre attività." # The leaps/progress/discoveries we have made demand a new form of administrative system, one that can be shaped by opportunity rather than limit it.
  tech_adaptive_bureaucracy_machine_intelligence:0 "CPU Positroniche"
@@ -1100,7 +1100,7 @@
  #####################################
  # Gateways
  #####################################
- gateway_capital:0 "§HPercorso Amministrativo§!\n§EQuesta tecnologia porterà miglioramenti nella costruzione di edifici e nel guadagno di £unity£ §HUnità§!. Per §Hedifici di alto livello§! sono richieste capitali planetarie avanzate.§!"
+ gateway_capital:0 "§HPercorso amministrativo§!\n§EQuesta tecnologia porterà a ulteriori progressi negli edifici della capitale e un guadagno di £unity£ §HUnità§!. Sono necessari capitali planetari aggiornate per gli §Hedifici di Alto livello§!.§!"
  gateway_biological:0 "§HPercorso Biologico§!\n§EQuesta tecnologia porterà miglioramenti in campo biologico e nell'adattamento ai pianeti.§!"
  gateway_ship:0 "§HPercorso Navale§!\n§EQuesta tecnologia porterà miglioramenti nella costruzione di Spazioporti più grandi e navi da guerra più potenti.§!"
  gateway_psionics:0 "§HPercorso Psionico§!\n§EQuesta tecnologia porterà miglioramenti nel campo della psionica.§!"
