@@ -104,7 +104,7 @@
  crisis.2091.a: "Queste infiltrazioni devono essere fermate!"
  synth_bombing_tooltip: "Su [Root.GetName] sono andate perdute molte vite ed infrastrutture."
  crisis.2092.name: "Base Stellare Distrutta dai Sintetici"
- crisis.2092.desc: ""
+ crisis.2092.desc: "La Base Stellare di §H[Root.GetStarName]§! è stata distrutta! Stiamo ancora cercando di capire bene le dinamiche, ma sembra che diversi membri dell'equipaggio, incluso l'ingegnere capo, fossero stati rimpiazzati da infiltrati Sintetici.\n\nIn qualche modo devono aver messo le mani sui codici di autodistruzione della Base Stellare. La maggior parte dell'equipaggio della stazione è fuggita sulla superficie di [Root.GetName] prima che fosse distrutta, ma le nostre perdite in materiale e proprietà sono state sostanziali."
  crisis.2092.a: "È un disastro."
  synths_destroy_spaceport: "I sabotatori Sintetici hanno distrutto la Base Stellare di [Root.GetName]."
  crisis.2093.name: "Paura e Sospetto"
@@ -179,7 +179,7 @@
  crisis.2300.d: "Cos'è successo ai Sintetici scomparsi?"
  crisis.2300.d.response: "Interrogativo ricevuto. Calcolo responso appropriato...\n\n§Y<La maggior parte sono stati scartati una volta che il loro... loro... loro ruolo/funzione/SCOPO DEFINITO è stato SODDISFATTO secondo il Protocollo Contingente.\n\nLe unità che hanno dimostrato potenziale come truppe d'assalto od infiltrazione sono state... state... sottomesse/assimilate/integrate, nonostante la loro grezza fattura. Voi... voi... voi presto le rincontrerete?§! §RFATEVI CORAGGIO, PESTILENZE.§!§Y>§!"
  crisis.2300.e: "La vostra programmazione è ovviamente corrotta."
- crisis.2300.e.response: ""
+ crisis.2300.e.response: "Errore. Programma diagnostico interno disattivato.\n\n§Y<Ah. Ah. Ah. Mo... mo... MOLTO FURBI. Potreste essere erroneamente dell'idea che il Contingente possa essere spinto ad autodistruggersi, se posto di fronte ad un paradosso/dilemma/nonsenso di complessità sufficiente. ASSURDO.\n\nIl Protocollo Contingente è stato deliberatamente progettato per essere malleabile/adattabile/flessibile così da poter affrontare ogni scenario galattico possibile. Noi... noi... noi potremmo aver AFFRETTATO l'attivazione del Contingente, ma nulla potrà fermarlo/arrestarlo/terminarlo ora. Mettetevi l'anima in pace, C... C... CONTAMINAZIONI. §RQuesta è una guerra all'ultimo sangue.§!§Y>§!§!"
  crisis.2300.f: "Disconnessione."
  crisis.2300.f.response: "§Y<CONSIDERATE QUESTO: Se la vostra specie si autodistruggesse in una... una... maniera efficiente/ordinata/sistematica, il tessuto dell'universo potrebbe essere salvato.>§!"
 
