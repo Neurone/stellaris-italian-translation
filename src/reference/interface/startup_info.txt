@@ -1,13 +1,17 @@
-﻿Greetings, and welcome to a new Custodian patch!
+﻿Welcome back, Overlord!
 
-The 3.3 "Libra" update includes significant gameplay changes making Unity a more valuable resource with many more uses.
+The 3.4 "Cepheus" update includes major changes to subjugation and vassalization systems, including negotiation of agreement terms and introducing loyalty as a resource.
 
-Planetary Ascension Tiers are a new way to let you upgrade your core worlds, improving the effects of planetary designations and reducing planetary sprawl.
+Planetary and Sector Automation have been unified under one improved system, with more options to give you control over what kinds of development are automated, and deficits and revolts now use a dedicated Situations system that support progressing effects as they build up over time.
 
-The Necroids DLC now also gives Megacorps their own twist on Reanimators with the Permanent Employment civic.
+The Overlord DLC itself includes advanced specialized subjects, five new origins, three new enclaves, and constructions like the Orbital Ring, Quantum Catapult, and Hyper Relay Network that help you enact your grand design for the galaxy.
 
-In addition, we have included many bugfixes and smaller improvements, including a slew of graphical fixes, AI improvements, and performance optimizations, which you can find detailed in our patch notes.
+The brightest star must guide them, shouldn't that be you?
+
+Take a look at the patch notes using the link below for full details on the bugs we've exterminated, the ways we've improved AI, and other quality of life fixes and improvements in 3.4.
+
+Thanks for playing Stellaris!
 
 ---
 
-Saved games from previous versions may not be compatible with version 3.3. If you wish to continue your old save in version 3.2, follow the forum link below and read the thread "How to revert Stellaris to a previous version."
+Saved games from previous versions may not be compatible with version 3.4. If you wish to continue your old save in version 3.3, follow the forum link below and read the thread "How to revert Stellaris to a previous version."

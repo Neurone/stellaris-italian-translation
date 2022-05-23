@@ -1,13 +1,17 @@
-﻿Saluti e benvenuti alla nuova patch Custodian!
+﻿Bentornato, Overlord!
 
-L'aggiornamento 3.3 "Libra" include significative modifiche al gameplay che rendono l'Unità una risorsa più preziosa con molti più usi.
+L'aggiornamento 3.4 "Cepheus" include importanti modifiche ai sistemi di sottomissione e vassallaggio, tra cui la negoziazione dei termini dell'accordo e l'introduzione della lealtà come risorsa.
 
-I livelli di ascensione planetaria sono un nuovo modo per permetterti di aggiornare i tuoi mondi principali, migliorando gli effetti delle designazioni planetarie e riducendo l'espansione planetaria.
+L'automazione dei pianeti e dei settori è stata unificata in un unico sistema migliorato, con più opzioni che consentono di controllare quali tipi di sviluppo vengono automatizzati, mentre i deficit e le rivolte ora utilizzano un sistema di situazioni dedicato che supporta gli effetti di progressione che si accumulano nel tempo.
 
-Il DLC Necroids ora dà anche alle Megacorporazioni il loro tocco di Rianimatori con la scelta civica Impiego Permanente.
+Il contenuto scaricabile Overlord include soggetti specializzati avanzati, cinque nuove origini, tre nuove enclavi e costruzioni come l'Anello Orbitale, la Catapulta Quantica e la Rete Iper Relè che vi aiutano a realizzare il vostro grande progetto per la galassia.
 
-Inoltre, abbiamo incluso molte correzioni di errori e piccoli miglioramenti, tra cui una serie di correzioni grafiche, miglioramenti dell'IA e ottimizzazioni delle prestazioni, che potete trovare in dettaglio nelle nostre note sulla patch.
+La stella più luminosa deve guidarli, non dovreste essere voi?
+
+Date un'occhiata alle note della patch utilizzando il link sottostante per tutti i dettagli sugli errori che abbiamo eliminato, sui modi in cui abbiamo migliorato l'IA e su altre correzioni e miglioramenti della qualità della vita nella versione 3.4.
+
+Grazie per aver giocato a Stellaris!
 
 ---
 
-I salvataggi delle versioni precedenti potrebbero non essere compatibili con la versione 3.3. Se desideri continuare il tuo vecchio salvataggio nella versione 3.2, segui il link del forum qui sotto e leggi il thread "Come riportare Stellaris a una versione precedente".
+I salvataggi delle versioni precedenti potrebbero non essere compatibili con la versione 3.4. Se desideri continuare il tuo vecchio salvataggio nella versione 3.3, segui il link del forum qui sotto e leggi il thread "Come riportare Stellaris a una versione precedente".
