@@ -2,12 +2,13 @@
 
 Questo mod, **compatibile** con la **modalità Ironman** e gli **achievement di Steam**, sostituisce la lingua inglese con la lingua italiana.
 
-Basato sulla versione: **Libra v3.3.4**
+Basato sulla versione: **Cepheus v3.4.3**
 
 Di seguito trovate l'attuale stato di traduzione del gioco base e dei DLC, ordinati per data di uscita.
 
 | Uscita | DLC | Stato Traduzione |
 |--|--|--|
+|2022.05.12| Overlord| **Da tradurre**|
 |2021.11.22| Pacchetto Specie - Aquatics| Completa|
 |2021.04.15| Nemesis| **Parziale**|
 |2020.10.29| Pacchetto Specie - Necroids| Completa|
