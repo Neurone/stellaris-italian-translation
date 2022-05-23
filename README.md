@@ -43,7 +43,7 @@ Per come è strutturato il gioco, e poiché questo mod vuole mantenere gli achie
 
 ### Stato della traduzione, per file
 
-In precedenza qui tenevo l'elenco dei file in lavorazione, ma sono diventati troppi (oltre 120). Per verificare lo stato corrente di ogni file (completato, in revisione, da tradurre, ecc.) è possibile verificare direttamente le traduzioni dal [progetto Transifex](https://www.transifex.com/internet-of-peers/stellaris-italian-translation/content/)
+In precedenza qui tenevo l'elenco dei file in lavorazione, ma sono diventati troppi (161 alla versione 3.43). Per verificare lo stato corrente di ogni file (completato, in revisione, da tradurre, ecc.) è possibile verificare direttamente le traduzioni dal [progetto Transifex](https://www.transifex.com/internet-of-peers/stellaris-italian-translation/content/)
 
 ### Cosa posso modificare su Github?
 

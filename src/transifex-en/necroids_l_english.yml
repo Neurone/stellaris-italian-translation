@@ -72,7 +72,7 @@
  job_mortal_initiate: "Mortal Initiate"
  job_mortal_initiate_plural: "Mortal Initiates"
  job_mortal_initiate_desc: "These most devout pupils of their faith dedicate the remaining portion of their lives to the betterment of their society - a study which concludes with their willing, fatal sacrifice."
- job_mortal_initiate_effect_desc: "£job_mortal_initiate£ $job_mortal_initiate_plural$ turn £consumer_goods£ §Y$consumer_goods$§! into £society£ §Y$society_research$§!"
+ job_mortal_initiate_effect_desc: "£job_mortal_initiate£ $job_mortal_initiate_plural$ produce £unity£ §Y$unity$§!, £society£ §Y$society_research$§! and £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
  mod_job_mortal_initiate_add: "$job_mortal_initiate$ Jobs"
  mod_job_mortal_initiate_per_pop: "§G+1§! $job_mortal_initiate$ Job per $VALUE$ Pops"
  mod_job_mortal_initiate_per_pop_short: "\n§G+1§! £mod_job_mortal_initiate_add£ per $VALUE$ £pop£"
@@ -99,6 +99,8 @@
  sacrifice_togetherness_4_desc: "$sacrifice_togetherness_mod_desc$"
  sacrifice_togetherness_5: "$sacrifice_togetherness_mod$"
  sacrifice_togetherness_5_desc: "$sacrifice_togetherness_mod_desc$"
+ sacrifice_togetherness_mod_overlord: "$edict_sacrifice_togetherness$"
+ sacrifice_togetherness_mod_overlord_desc: "The Overlord performed a strange, yet oddly compelling ritual. Some of our own were sacrificed, but we feel even closer than before."
 
  edict_sacrifice_harmony: "Sacrifice: Harmony"
  edict_sacrifice_harmony_desc: "The most devout amongst us are prepared to meet their fate. Their final sacrifice is a time for joyous celebration of purpose. Let every day be spent in honor of a good life!"
@@ -115,6 +117,8 @@
  sacrifice_harmony_4_desc: "$sacrifice_harmony_mod_desc$"
  sacrifice_harmony_5: "$sacrifice_harmony_mod$"
  sacrifice_harmony_5_desc: "$sacrifice_harmony_mod_desc$"
+ sacrifice_harmony_mod_overlord: "$edict_sacrifice_harmony$"
+ sacrifice_harmony_mod_overlord_desc: "Our Overlord performed a strange yet harmonious ritual. Some were sacrificed, but those who remain are more in tune with life than ever before."
 
  edict_sacrifice_bounty: "Sacrifice: Bounty"
  edict_sacrifice_bounty_desc: "The most devout among us are prepared to meet their fate, keen that our society should be enriched by their final sacrifice. Let death cleanse the way for vibrant life, glorious in its essence!"
@@ -131,6 +135,11 @@
  sacrifice_bounty_4_desc: "$sacrifice_bounty_mod_desc$"
  sacrifice_bounty_5: "$sacrifice_bounty_mod$"
  sacrifice_bounty_5_desc: "$sacrifice_bounty_mod_desc$"
+ sacrifice_bounty_mod_overlord: "$edict_sacrifice_bounty$"
+ sacrifice_bounty_mod_overlord_desc: "Our Overlord performed a strange yet bountiful ritual. A few of our own were sacrificed, but those who remain are now filled with radiant energy."
+
+ MESSAGE_OVERLORD_SACRIFICE_TITLE: "Mortal Initiates Sacrificed"
+ MESSAGE_OVERLORD_SACRIFICE_DESC: "The §YMortal Initiates§! working for our Overlord in their §Y$holding_sacrificial_shrine$§! have been ritually sacrificed."
 
  necroids.200.name: "A Sacrifice Made: [root.GetAdj] Togetherness"
  necroids.200.desc: "A palpable hush descends across the [root.GetName]. Pilgrims have journeyed from near and far to their chosen places of worship, forming new friendships and rekindling old ones along their way.\n\nOur society's rituals have been observed and invested in the newly-emerged $job_mortal_initiate_plural$, whose silent procession is said to have drawn smiles and tears alike. The principal $job_death_priest$ at [capital_scope.GetName] led a warm sermon, calling for the faithful to be nurturing and considerate of their relationships, and to thrive in our mutuality.\n\nAs each $job_mortal_initiate$ proceeded to the sacrificial chamber, collective sighs rang out. Each has met their end now, leaving a legacy in benevolent study."
@@ -162,11 +171,11 @@
  civic_reanimated_armies: "Reanimators"
  civic_reanimated_armies_desc: "Within this society, death is no bar to the call to arms. Masters of the art of necromancy reanimate corpses to raise dread hosts and guardians, striking fear into the hearts of lesser mortals."
  disabled_by_synthetic_ascension: "Incompatible with §YSynthetic Ascension§!"
- civic_tooltip_reanimated_armies_effects: "§YMilitary Academy§! building is replaced by a §YDread Encampment§!, granting £job_necromancer£ §YNecromancer§! jobs and allowing the recruitment of §YUndead Armies§!.\n$job_necromancer_effect_desc$.\nDefeated organic armies are sometimes resurrected as §YUndead Armies§!.\nDefeated organic Leviathans can sometimes be resurrected."
+ civic_tooltip_reanimated_armies_effects: "§YMilitary Academy§! building is replaced by a §YDread Encampment§!, granting £job_necromancer£ §YNecromancer§! jobs and allowing the recruitment of §YUndead Armies§!.\n$job_necromancer_effect_desc$.\nDefeated organic armies are sometimes resurrected as §YUndead Armies§!.\n\nDefeated organic Leviathans can sometimes be resurrected."
 
  building_dread_encampment: "Dread Encampment"
  building_dread_encampment_desc: "It is best to shield the activities of the necromancers from the tender eyes of the public as they raise undead hordes to fight in our armies."
- job_necromancer_effect_desc: "£job_necromancer£ $job_necromancer_plural$ turn £consumer_goods£ §Y$consumer_goods$§! into £physics£ £society£ §YResearch Points§! and £mod_country_naval_cap_add£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!, and spawn £defense_army£ §YUndead Defense Armies§!"
+ job_necromancer_effect_desc: "£job_necromancer£ $job_necromancer_plural$ turn £consumer_goods£ §Y$consumer_goods$§! into £physics£ £society£ §YResearch Points§! and £mod_country_naval_cap_add£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!, and spawn £defense_army£ §YUndead Defense Armies§!\nGrants access to the £building£ §Y$holding_dread_outpost$§! Holding"
  undead_army: "Undead Army"
  undead_army_desc: "Undead soldiers lifted from the grave by necromancers. Freed from the fear of death, they strike terror into the hearts of their enemies with their foul bearing and ferocity in battle!"
  undead_army_plural: "Undead Armies"
@@ -240,7 +249,7 @@
  ### Permanent Employment by Victor Haeggman
  civic_permanent_employment: "Permanent Employment"
  civic_permanent_employment_desc: "This Megacorporation has ensured that its employees will never be out of a job. Ever. After the employee's time is up, they will be repurposed for simpler tasks so that they can still provide for their families and pay off their debts."
- civic_tooltip_permanent_employment_effects: "Can build £building£ §Y$building_posthumous_employment_center$§!\n$job_reassigner_effect_desc$\nDefeated organic Leviathans can sometimes be resurrected."
+ civic_tooltip_permanent_employment_effects: "Can build £building£ §Y$building_posthumous_employment_center$§!\n$job_reassigner_effect_desc$\n\nGrants access to the £building£ §Y$holding_reemployment_center$§! Holding\nDefeated organic Leviathans can sometimes be resurrected."
  job_reassigner: "Reassigner"
  job_reassigner_desc: "Reassigners ensure that once a Megacorporation's citizen has passed on, their remains will stay at work until the fulfillment of their contract."
  job_reassigner_plural: "Reassigners"

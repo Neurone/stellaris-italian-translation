@@ -88,6 +88,8 @@
  crystal_breaker_desc: "Our fleets' targeting systems have adapted to the angular topography of the Crystalline Entities, maximizing damage output."
  drone_destroyer: "Drone Destroyer"
  drone_destroyer_desc: "Updated prediction algorithms allow our ships to better track and hit the nimble Ancient Mining Drones."
+ tiyanki_butcher: "Tiyanki Butcher"
+ tiyanki_butcher_desc: "Our in-depth knowledge of Tiyanki anatomy allows us to strike them with surgical precision, maximizing damage."
  droning_optimizations: "Droning Optimizations"
  droning_optimizations_desc: "Adjustments to standard mining practices allow for significantly reduced Energy expenditure."
  cloudbuster: "Cloudbuster"
@@ -168,6 +170,7 @@
  mod_damage_vs_country_type_amoeba_mult: "Damage to Space Amoebas"
  mod_damage_vs_country_type_crystal_mult: "Damage to Crystalline Entities"
  mod_damage_vs_country_type_drone_mult: "Damage to Ancient Mining Drones"
+ mod_damage_vs_country_type_tiyanki_mult: "Damage to Tiyanki"
  mod_damage_vs_country_type_cloud_mult: "Damage to Void Clouds"
  mod_damage_vs_country_type_swarm_mult: "Damage to Prethoryn Creatures"
  mod_damage_vs_country_type_fallen_empire_mult: "Damage to Fallen Empires"
@@ -178,6 +181,7 @@
  mod_damage_vs_country_type_ai_empire_mult: "Damage to the Contingency"
  mod_damage_vs_country_type_sentinels_mult: "Damage to Sentinels"
  mod_damage_vs_country_type_gate_builders_mult: "Damage to The Gate-builders"
+ mod_damage_vs_country_type_gray_mult: "Damage to the Gray Tempest"
  MOD_DAMAGE_VS_PLAYER_CRISIS_MULT: "Damage to Crisis-Seeking Civilizations"
 
  ####################################
