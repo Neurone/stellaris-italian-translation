@@ -41,78 +41,9 @@ Paradox aggiorna spesso i propri prodotti, non solo aggiungendo nuovi DLC e nuov
 
 Per come è strutturato il gioco, e poiché questo mod vuole mantenere gli achievement attivi, non è possibile aggiungere una lingua al gioco: l'unica alternativa per avere l'italiano è modificare una delle lingue disponibili. Per comodità quindi questo mod sovrascrive direttamente la lingua di default, ossia l'inglese. La fonte principale di frasi da tradurre di trova all'interno della cartella [src/mod/localisation/english](src/mod/localisation/english).
 
-### Stato della traduzione
+### Stato della traduzione, per file
 
-Di seguito i file principali e lo stato della loro traduzione rispetto alla versione v3.1.2 del gioco:
-
-| nome file | stato traduzione |
-|--|--|
-|achievements_l_english.yml| completa|
-|ai_crisis_l_english.yml| completa|
-|ancient_relics_events_l_english.yml| completa|
-|ancient_relics_l_english.yml| completa|
-|apocalypse_l_english.yml| completa|
-|aquatics_l_english.yml| completa|
-|clone_army_l_english.yml| completa|
-|dip_messages_l_english.yml| completa|
-|diplo_stances_l_english.yml| completa|
-|distant_stars_l_english.yml| completa|
-|dlc_recommendations_l_english.yml| completa|
-|event_chains_l_english.yml| completa|
-|events_2_l_english.yml| **in revisione**|
-|events_3_l_english.yml| completa|
-|events_4_l_english.yml| completa|
-|events_5_l_english.yml| completa|
-|events_6_l_english.yml| completa|
-|events_l_english.yml| completa|
-|federations_anniversary_l_english.yml| completa|
-|federations_l_english.yml| **parziale**|
-|federations_resolution_comments_l_english.yml| completa|
-|horizonsignal_l_english.yml| completa|
-|l_english.yml| **parziale**|
-|leviathans_l_english.yml| completa|
-|lithoids_l_english.yml| completa|
-|mandates_l_english.yml| completa|
-|marauder_l_english.yml| completa|
-|megacorp_l_english.yml| **in revisione**|
-|messages_l_english.yml| completa|
-|modifiers_2_l_english.yml| completa|
-|modifiers_3_l_english.yml| completa|
-|modifiers_l_english.yml| completa|
-|modifiers_utopia_l_english.yml| completa|
-|musicplayer_l_english.yml| completa|
-|name_lists_l_english.yml| completa|
-|necroids_l_english.yml| completa|
-|nemesis_content_l_english.yml| **parziale**|
-|nemesis_crisis_l_english.yml| completa|
-|nemesis_custodian_l_english.yml| **in revisione**|
-|nemesis_espionage_l_english.yml| **parziale**|
-|nemesis_intel_l_english.yml| **parziale**|
-|observer_events_l_english.yml| completa|
-|observer_l_english.yml| completa|
-|plantoids_l_english.yml| completa|
-|pop_factions_l_english.yml| completa|
-|prescripted_l_english.yml| completa|
-|projects_2_l_english.yml| completa|
-|projects_3_l_english.yml| completa|
-|projects_4_l_english.yml| completa|
-|projects_5_l_english.yml| completa|
-|projects_l_english.yml| completa|
-|scripted_loc_l_english.yml| completa|
-|ship_browser_l_english.yml| completa|
-|ship_sections_l_english.yml| completa|
-|social_gui_l_english.yml| completa|
-|standalone_l_english.yml| completa|
-|synthetic_dawn_events_l_english.yml| completa|
-|technology_l_english.yml| completa|
-|traditions_l_english.yml| completa|
-|triggers_effects_l_english.yml| completa|
-|tutorial_l_english.yml| completa|
-|unrest_l_english.yml| completa|
-|utopia_ascension_l_english.yml| completa|
-|utopia_l_english.yml| completa|
-|utopia_megastructures_l_english.yml| completa|
-|void_dweller_traditions_l_english.yml| completa|
+In precedenza qui tenevo l'elenco dei file in lavorazione, ma sono diventati troppi (oltre 120). Per verificare lo stato corrente di ogni file (completato, in revisione, da tradurre, ecc.) è possibile verificare direttamente le traduzioni dal [progetto Transifex](https://www.transifex.com/internet-of-peers/stellaris-italian-translation/content/)
 
 ### Cosa posso modificare su Github?
 

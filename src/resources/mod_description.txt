@@ -1,12 +1,12 @@
 Questo mod, [b]compatibile con la modalità Ironman e gli achievement di Steam[/b], sostituisce la lingua inglese con la lingua italiana.
 
-Versione supportata: Libra v3.3.*
+Versione supportata: Cepheus v3.4.*
 
 Grazie a tutta la comunità per i contributi alle traduzioni, e in particolare a [url=https://github.com/Nefando]Nefando[/url], [url=https://github.com/AR-9217]AndryRock[/url], [url=https://github.com/Daddie2]Daddie2[/url] e [url=https://github.com/anthx80]anthx80[/url]
 
 Per contribuire, suggerire modifiche o aggiornamenti alla traduzione potete utilizzare il [url=https://www.transifex.com/internet-of-peers/stellaris-italian-translation]progetto dedicato su Transifex[/url]. Sono ben accette proposte di collaborazione e correzioni anche minime.
 
-Se siete più avvezzi con gli strumenti di programmazione, potete invece mandare direttamete una pull request sul [url=https://github.com/Neurone/stellaris-italian-translation]repository GitHub[/url]. Sempre su GitHub trovate tutti i dettagli di come contribuire e di come creare eventualmente il vostro mod personalizzato.
+Se siete più avvezzi con gli strumenti di programmazione, potete invece mandare direttamente una pull request sul [url=https://github.com/Neurone/stellaris-italian-translation]repository GitHub[/url]. Sempre su GitHub trovate tutti i dettagli di come contribuire e di come creare eventualmente il vostro mod personalizzato.
 
 Di seguito l'attuale stato di traduzione del gioco base e dei DLC, ordinati per data di uscita.
 
@@ -15,6 +15,11 @@ Di seguito l'attuale stato di traduzione del gioco base e dei DLC, ordinati per 
         [th]Uscita[/th]
         [th]DLC[/th]
 		[th]Stato Traduzione[/th]
+    [/tr]
+    [tr]
+        [td]2022.05.12[/td]
+        [td]Overlord[/td]
+		[td]Da tradurre[/td]
     [/tr]
     [tr]
         [td]2021.11.22[/td]
