@@ -25,7 +25,7 @@
  situation.1045.b.tooltip: "Cancel the parade in favor of studying the reaction."
  situation.1045.c: "Replace the fang with a replica."
  situation.1045.c.tooltip: "This will reduce the amount of unity the opportunity will produce."
- situation.1050.name: "Overseer"
+ situation.1050.name: "Supervisore"
 # situation.1050.desc: "The extraction of the §YShard's Eye§! was a messy process with a few false starts. Luckily, the behemoth had a lot of eyes for us to practice on. We then towed the optic to [Target.Solar_System.GetName], and something both fascinating and revolting happened: the oculus started attaching and integrating itself into the local starbase overlooking §Y[Target.GetName]§!. The cause of this is unknown, but then again, much of the Drake's physiology is beyond us.\n\nThe fusing is not complete yet, but our [Owner.GetScientistPlural] believe it has to be halted now if we wish to proceed with our previous plans."
  situation.1050.a: "Let us see with the sight of The Shard!"
  situation.1050.a.tooltip: "Cancel the parade in favor of using the eye for a different purpose."
@@ -127,11 +127,11 @@
 # scavenger_bots_compactor: "Scavenger Bot's Compactor"
 # sky_dragons_plume: "Sky Dragon's Plume"
 
- scripted_SHARD: "Shard"
- scripted_SKY_DRAGON: "Sky Dragon"
+ scripted_SHARD: "Frammento"
+ scripted_SKY_DRAGON: "Drago del Cielo"
 
  habitat_lowercase: "habitat"
- ringworld_lowercase: "ringworld"
+ ringworld_lowercase: "Pianeta Anello"
  planetmoon: "[This.GetPlanetMoon]"
 
 #Decisions
