@@ -68,7 +68,12 @@
  opinion-3: "Opinione: £opinion£ §R-3§!"
  opinion-5: "Opinione: £opinion£ §R-5§!"
 
+ opinion1: "$OPINION$: £opinion£ §G+1§!"
+ opinion2: "$OPINION$: £opinion£ §G+2§!"
+ opinion3: "$OPINION$: £opinion£ §G+3§!"
+ opinion4: "$OPINION$: £opinion£ §G+4§!"
  opinion5: "Opinione: £opinion£ §G+5§!"
+ opinion7: "$OPINION$: £opinion£ §G+7§!"
  opinion10: "Opinione: £opinion£ §G+10§!"
  opinion15: "Opinione: £opinion£ §G+15§!"
  opinion20: "Opinione: £opinion£ §G+20§!"
@@ -110,7 +115,7 @@
  leviathans.105.a: "Vorremmo scambiare £minerals£ §YMinerali§!."
  leviathans.105.b: "Vorremmo scambiare £energy£ §YCrediti Energetici§!."
  leviathans.105.f: "Vorremmo scambiare £food£ §YCibo§!."
- leviathans.105.c: "Saremmo interessati alle Risorse Strategiche."
+ leviathans.105.c: "We are interested in §YStrategic Resources§!."
  leviathans.105.c.sr1: "Abbiamo già intrapreso un §YAccordo Commerciale con i Riggan§!\n"
  leviathans.105.c.sr2: "Abbiamo già intrapreso un §YAccordo Commerciale con la XuraCorp§!\n"
  leviathans.105.c.sr3: "Abbiamo già intrapreso un §YAccordo Commerciale con i Muutagan§!\n"
@@ -152,15 +157,12 @@
  leviathans.125.b.reply: "Molto bene. Il cibo che avete consegnato è perfettamente commestibile."
  leviathans.125.c.reply: "Il vostro popolo non soffrirà più la fame! Le spedizioni di cibo partiranno immediatamente."
 
- leviathans.130.desc: "I Granelli Volatili sono un pregiato condimento Riggan. Rinomati in tutta la galassia per il loro sapore deciso, diverso da tutti gli altri, un'esplosione di sensazioni imparagonabile. Li vendiamo solo ai clienti migliori, tra i quali annoveriamo i cittadini [Root.GetSpeciesNamePlural].\n\nPagando il giusto corrispettivo, saremmo propensi a rifornirvi di magnifici Granelli Volatili per un periodo di dieci anni standard."
+ leviathans.130.desc: "The volatile mote is a prized Riggan condiment. It is renowned throughout the galaxy for its distinct flavor, which is unlike any other - and its explosiveness, which is unlike any other. We sell it only to our most valued trading partners, among which we count the [Root.GetName].\n\nIf you can meet our modest price, we are willing to export Volatile Motes to you for a period of ten standard years."
  leviathans.130.a.reply: "Non ve ne pentirete. A meno che non esageriate col consumo di spezia, ovviamente... poi c'è una piccola probabilità di autocombustione. Abbastanza ridotta a dire il vero."
- #leviathans.130.a:0 "We want to buy your spice."
  leviathans.131.desc: "Questo è un prodotto di cui, qui alla XuraCorp, siamo particolarmente orgogliosi. La nostra Divisione Medica ha di recente iniziato a raffinare un gas dalle proprietà uniche, semplificando notevolmente il processo, spesso arduo, di adattamento ad un nuovo ambiente planetario. Difficilmente, tuttavia, potrà adattarsi alla fisiologia aliena!\n\nSiamo disposti a fornirvi i nostri Gas Esotici per un periodo di dieci anni standard, dopo di che il contratto dovrà essere rinegoziato."
  leviathans.131.a.reply: "Così si fa! I nostri mercantili cominceranno subito le consegne.\n\n§LIl contratto d'acquisto di questo prodotto dispensa la XuraCorp dalla responsabilità per i possibili eventi collaterali derivanti dal suo utilizzo: irritazioni cutanee, episodi psicotici, discromia oculare, mutazioni aggressive, prolasso emorroidale, episodi di suicidio tra i coloni, trance precognitiva, esaurimento della biosfera, delirio sequenziale, generazione di micro-buchi neri, eruzioni, collasso societario, estinzioni di massa, esplosioni inaspettate di supernove, distruzione totale o parziale dell'Impero Stellare, bombardamento di raggi gamma, paradossi spazio-temporali, instabilità del metaverso, entropia universale, collasso del continuum spazio-tempo...§!"
- #leviathans.131.a:0 "We will purchase this XuraGel."
  leviathans.132.desc: "Gli Shi'rakkat-Du, definiti anche Cristalli Rari da coloro che non sono della nostra specie, sono noti come simbolo cardine della nostra civiltà. Quando questi cristalli vibrano, emettono un tono musicale peculiare che possiede effetti rilassanti su qualsiasi essere senziente.\n\nSebbene non siamo molto inclini a condividere gli Shi'rakkat-Du con gli stranieri, nel vostro caso potremmo fare un'eccezione. Pagando il giusto prezzo potreste garantirvi una fornitura dei nostri cristalli per un periodo di dieci anni."
  leviathans.132.a.reply: "Ottimo. I nostri mercantili si occuperanno quanto prima della distribuzione dei cristalli ai vostri pianeti. Possano gli Shi'rakkat-Du cantare per voi."
- #leviathans.132.a:0 "We will buy your crystals."
 
  leviathans.133.name: "Risorse Strategiche Acquisite"
 
@@ -231,19 +233,19 @@
  leviathans.300.name: "La Compagnia Artigiana"
  leviathans.300.desc: "Salve, [my_country.GetRulerName]. Il sottoscritto, direttore della Compagnia Artigiana, vi porge i suoi saluti.\n\nIn cosa possiamo esservi utili? Magari potremmo creare un'opera d'arte per il vostro divertimento? O forse volete sponsorizzare la nostra enclave nella sua creazione della bellezza trascendentale?"
  leviathans.300.desc.continued: "Molto bene. Possiamo fare altro per voi?"
- leviathans.300.a: "Vogliamo commissionarvi un'opera d'arte."
+ leviathans.300.a: "We want to commission an §Yart piece§!."
  leviathans.300.a.reply: "Purtroppo non possiamo offrirvi di più, finché non avremo riscontri sulla produzione precedente. Abbiamo i nostri protocolli da rispettare."
- leviathans.300.b: "Vorremmo diventare vostri finanziatori."
- leviathans.300.b.stop: "Vorremmo annullare il nostro patrocinio."
+ leviathans.300.b: "We wish to become your §Ypatron§!."
+ leviathans.300.b.stop: "We wish to §Ycancel our patronage§!."
  leviathans.300.b.stop.tooltip: "§RTermina§! il guadagno mensile di £opinion£ Opinione\n\n"
- leviathans.300.b.reply: "Oh, capisco. È un vero peccato, ma avete la nostra riconoscenza per averci finanziato finora.\n\nArrivederci."
- leviathans.300.c: "Organizzate un festival sui nostri pianeti."
+ leviathans.300.b.reply: "Oh, I see. That is unfortunate, [my_country.GetSpeciesAdj], but we thank you for your initial support.\n\nGoodbye."
+ leviathans.300.c: "Organize a §Yfestival§! across our worlds."
  leviathans.300.c.allow: "Richiede che la §YCompagnia Artigiana§! possieda:\n£opinion£ Opinione +50"
  leviathans.300.c.outofstock: "Potete organizzare un solo §YFestival dei Mondi§! ogni 20 anni."
- leviathans.300.d: "Parlatemi della vostra compagnia."
+ leviathans.300.d: "§YTell us more§! about your troupe."
  leviathans.300.d.reply: "Siamo la Compagnia Artigiana. Una congrega di creativi provenienti da tutti i pianeti, accomunati dal desiderio di produrre opere meravigliose in queste oasi di pace. Portiamo qui idee e metodi innovativi, e poi assieme cerchiamo di dare concretezza alle aspirazioni individuali.\n\nPossiamo fornire molti servizi a coloro che comprendono ed amano l'arte. Se ci finanziate nella nostra attività, possiamo organizzare per voi grandiosi eventi culturali."
  leviathans.300.e: "Vi occupate anche di altro?"
- leviathans.300.f: "Vogliamo investire in un Ministero della Cultura."
+ leviathans.300.f: "We want to invest in a §YMinistry of Culture§!."
  leviathans.316.name: "Il Ministero della Cultura"
  leviathans.316.desc: "Ah, il §YMinistero della Cultura§!... è stato progettato per sfidare idee divergenti e promuovere una maggiore unità imperiale tramite l'arte. Un vero capolavoro, se possiamo dirlo.\n\nChiediamo solo §R£energy£ -2000§!."
  leviathans.302.desc: "Meraviglioso! Saremmo lieti di affidarvi una delle nostre creazioni. Di sicuro allieterà il vostro popolo.\n\nQuesto è il nostro prezzo:\n§R£energy£ -600§!"
@@ -328,15 +330,15 @@
  leviathans.500k.desc: "Siamo in possesso delle mappe spaziali di intere galassie, raccolte nel tempo da esploratori di centinaia di razze diverse. Vi potrebbero interessare?"
  leviathans.500l.desc: "La conoscenza è tutto. Deve sopravvivere."
 
- leviathans.500.a: "Siamo interessati alle mappe dei sistemi solari ancora poco esplorati."
- leviathans.500.b: "Potreste aiutarci nella nostra ricerca?"
+ leviathans.500.a: "We are interested in procuring §Ynew star charts§!."
+ leviathans.500.b: "Can you aid us in our §Yresearch§!?"
  leviathans.500.b.alreadyaided: "I Curatori stanno già implementando la nostra capacità di ricerca."
- leviathans.500.c: "Parlateci dei misteri dell'universo."
- leviathans.500.d: "Possiamo reclutare uno dei vostri scienziati?"
+ leviathans.500.c: "Tell us about the §Ymysteries§! of the universe."
+ leviathans.500.d: "Could we recruit one of your §Yscientists§!?"
  leviathans.500.d.alreadyrecruited: "Abbiamo già alle nostre dipendenze uno scienziato che fa parte dei Curatori."
  leviathans.500.d.opinion: "Richiede che i §YCuratori§! possiedano:\n£opinion£ Opinione +50"
  leviathans.500.e: "Arrivederci."
- leviathans.500.h: "Puoi raccontarci degli altri tuoi clienti?"
+ leviathans.500.h: "Can you tell us about your §Yother customers§!?"
 
  leviathans.506.name: "Mappe Galattiche"
  leviathans.506a.desc: "Possiamo fornirvi dettagliati rapporti di sorveglianza dei sistemi solari che non avete ancora esplorato. A quanti sistemi siete interessati?"
@@ -356,14 +358,46 @@
  leviathans.508.desc: "Esistono entità estremamente potenti in agguato in alcuni sistemi solari della nostra galassia. Gli agenti dei Curatori, con grande dispendio di mezzi e vite, sono riusciti a raccogliere informazioni che potrebbero rivelarsi fondamentali, per un futuro scontro con tali entità."
  leviathans.508.a: "Diteci qualcosa che non conosciamo."
  leviathans.508.a.reply: "Questo dovrebbe interessarvi... abbiamo aggiunto un sistema solare nel vostro §YRapporto§!."
- leviathans.508.b: "Parlateci del $leviathans.510.name$." #ether drake
- leviathans.508.c: "Parlateci della $leviathans.515.name$." #enigmatic fortress
- leviathans.508.d: "Parlateci del $leviathans.520.name$." #stellar devourer
- leviathans.508.e: "Parlateci dell'$leviathans.525.name$." #dimensional horror
- leviathans.508.f: "Parlateci dello $leviathans.530.name$." #asteroid hiver
- leviathans.508.g: "Parlateci della $leviathans.535.name$." #infinity machine
- leviathans.508.h: "Parlateci della $leviathans.540.name$." #automated dreadnought
- leviathans.508.i: "Parlateci del $leviathans.545.name$." #wraith
+ leviathans.508.b: "Tell us about the §Y$NAME_Ether_Drake$§!."
+ leviathans.508.c: "Tell us about the §Y$NAME_Enigmatic_Fortress$§!."
+ leviathans.508.d: "Tell us about the §Y$NAME_Stellar_Devourer$§!."
+ leviathans.508.e: "Tell us about the §Y$NAME_Dimensional_Horror$§!."
+ leviathans.508.f: "Tell us about the §Y$NAME_Alien_Hive$§!." #Asteroid Hive
+ leviathans.508.g: "Tell us about the §Y$NAME_Infinity_Machine$§!."
+ leviathans.508.h: "Tell us about the §Y$NAME_Automated_Dreadnought$§!."
+ leviathans.508.i: "Tell us about the §Y$NAME_Wraith$§!."
+ leviathans.508.j: "Tell us about the §Y$NAME_Voidspawn$§!."
+ leviathans.508.k: "Tell us about the §Y$NAME_Scavenger_Bot$§!." #Scavenger Bot
+ leviathans.508.l: "Tell us about the §Y$NAME_Elderly_Tiyanki$§!." #Tiyanki Matriarch
+
+ leviathans.550.name: "Prole del Vuoto"
+ leviathans.550.desc: "If our suspicions hold true, the Voidspawn is far away from home. We believe it is the progeny of an extragalactic predator of unthinkable proportions: one that stalks the void of space in search of its prey. Though we have never before encountered a live specimen, we have heard tales of the destruction and chaos grown Voidspawn leave in their wake. It is said that worlds fester under their shadow."
+ leviathans.550.a: "$leviathans.510.a$"
+ leviathans.550.a.reply: "From what we can tell, the mother lays its planet-sized eggs in orbit of a star, where they then incubate for thousands of years, sometimes even long enough to develop an atmosphere and organic life.\n\nThey feed off of living matter, and adult Voidspawn are said to exert a strange influence on all living things. Fortunately this spawn seems to have been abandoned by its parents.\n\nPerhaps it would be best to stifle the creature while it is still young and vulnerable?"
+ leviathans.550.b: "Come possiamo sconfiggerla?"
+ leviathans.550.b.reply: "Non abbiamo mai sentito di alcuna Prole del Vuoto sconfitta in battaglia, ma questa è appena nata. La Prole del Vuoto sputa saliva tossica e lancia pungiglioni corrosivi che possono sciogliere anche la corazza più spessa; applicare uno strato protettivo a prova d'acido dovrebbe rallentare il processo. Vi aiuteremo a crearlo. La Prole del Vuoto è una minaccia per tutti noi."
+
+ leviathans.555.name: "Spazzino"
+ leviathans.555.desc: "Ah, the scrap bot. The Scavenger is a curious construct from a lost age. Endlessly it searches through the debris fields of the galaxy, welding the guns, engines, and materials scavenged from countless derelicts onto its own hull. Its mass and firepower have been increasing in such a fashion for centuries, with no sign of relenting.\n\nIt is unknown if there is a limit to how massive it could build itself, given enough time and scrap to work with."
+ leviathans.555.a: "Chi l'ha costruito, prima di tutto?"
+ leviathans.555.a.reply: "Unfortunately, no definitive data regarding the Scavenger's origin is known to exist. Some researchers believe it to be a malfunctioning scrap collection service machine from a lost empire, its purpose long since muddled by hardware degradation. Others believe it to have originated as a single microscopic nanobot, programmed by some unknown designer to endlessly build itself larger and stronger by exploiting its environment. Still others believe it to have begun as a robotic ship's captain, the sole survivor of an intergalactic battle waged millennia ago, its reasoning systems irrevocably damaged by the sudden destruction of its entire civilization.\n\nOf course, this is all just speculation."
+ leviathans.555.b: "Possiamo comunicare con lui?"
+ leviathans.555.b.reply: "Sono stati fatti molti tentativi per comunicare con lui, o per alterare la sua programmazione. Sfortunatamente, la maggior parte di queste spedizioni si sono trasformate nei rottami che compongono lo Spazzino. Coloro in grado di fuggire sono sopravvissuti. Ha saldato abbastanza artiglieria sulla sua struttura da poter distruggere da solo l'intera flotta di un impero; cosa che dev'essere già successa in più di un'occasione.\n\nNaturalmente, ogni scontro non fa che potenziare sempre di più lo Spazzino, fornendogli altri componenti da riutilizzare."
+ leviathans.555.c: "$leviathans.510.b$"
+ leviathans.555.c.reply: "As you may have surmised, the Scavenger was not built according to any definitive, pre-existing schematics. As a result, some of its parts fit together... less than optimally, leading to a discrete number of structural weaknesses. Of course, to the uninitiated, most of these are obscured from view, but our advanced sensors have managed to isolate them.\n\nTell your fleets to focus fire on the indicated sections of the Scavenger's hull, and it should substantially impact the amount of damage the construct is able to take before collapsing."
+ leviathans.555.aa: "Ricordateci le sue origini."
+ leviathans.555.bb: "Ricordateci come possiamo comunicare con lui."
+
+ leviathans.556.name: "Matriarca Tiyanki"
+ leviathans.556.desc: "È magnifica, non è vero? Una vecchia Matriarca avvizzita, la sua pelle è segnata ed indurita dal passare degli eoni, i suoi tentacoli sono in grado di aprire lo scafo di una nave da guerra come un'ostrica. Decenni fa, i nostri ricercatori sentirono dire che un capitano giurò di dare la caccia alla Matriarca fino ai confini della galassia. Tuttavia, considerando che è ancora viva, è improbabile che abbia avuto successo."
+ leviathans.556.a: "Perché la Matriarca è tanto più grande degli altri Tiyanki?"
+ leviathans.556.a.reply: "Le sue incredibili dimensioni sono sicuramente un'anomalia, ne siamo certi. Crediamo che la Matriarca sia una viaggiatrice proveniente dalle profondità di un'altra galassia, in cui una specie di Tiyanki si sono evolute molto più grandi e forti.\n\nNaturalmente, è anche possibile che la Matriarca soffra semplicemente di una forma avanzata di gigantismo, sebbene questo non spiegherebbe la sua estrema longevità."
+ leviathans.556.b: "Cosa sapete del capitano che dà la caccia alla Matriarca?"
+ leviathans.556.b.reply: "Molto poco. È possibile che il capitano abbia inseguito la Matriarca da qualche altra galassia. Sebbene non ci sia chiaro perché uno dovrebbe essere così folle da sfidare una creatura in grado di distruggere intere flotte."
+ leviathans.556.c: "$leviathans.510.b$"
+ leviathans.556.c.reply: "La Matriarca è formidabile, ma non indistruttibile. Sebbene la sua pelle la protegga dalla maggior parte dei proiettili, possiede comunque un gran punto debole.\n\nÈ presente un enorme siluro protonico conficcato nella sua schiena, una ferita guarita male di una recente battaglia. Anche se sembra difettoso, le nostre scansioni hanno accertato che possa ancora detonare, se sottoposto ad uno specifico impluso energetico.\n\nVi stiamo trasmettendo tutti i dettagli."
+ leviathans.556.aa: "Ricordateci perché la Matriarca è più grande degli altri Tiyanki."
+ leviathans.556.bb: "Ricordateci chi è il capitano che dà la caccia alla Matriarca."
 
  leviathans.590.name: "Assumi Scienziato"
  leviathans.590.desc: "Siamo disposti a prestare i servizi di uno dei nostri più brillanti scienziati alla vostra causa. Speriamo vi sia chiaro che questa è una proposta più unica che rara!\n\nUna generosa... donazione sarebbe molto apprezzata, prima del trasferimento."
@@ -466,6 +500,7 @@
  ### DRAGON
  leviathans.610.name: "Incontro con il Drago Etereo"
  leviathans.610.desc: "La creatura osservata nel Sistema [From.GetName] è diversa da ogni cosa incontrata prima d'ora.\n\nÈ estremamente aggressiva e possiede capacità distruttive, sta di guardia ad un planetoide estremamente ricco di risorse."
+ leviathans.610.desc.here_be_dragons: "The creature observed in the [From.GetName] system bears some initial resemblance to the Sky Dragon of our home system, although further scans demonstrate that it is clearly a different species, and probably even evolved independently to it.\n\nHighly aggressive and with destructive capabilities to match, it guards a planetoid that initial scans indicate is exceptionally resource-rich."
  leviathans.610.a: "Infausto."
 
  leviathans.649.desc: "Abbiamo ricevuto l'ultima trasmissione dalla nostra flotta, prima che venisse distrutta. Sosteneva che la gigantesca creatura sembrava seguire la loro traccia SL...\n\nSe la bestia conosce il nostro odore, faremmo meglio a prepararci alla rappresaglia."
@@ -509,10 +544,11 @@
  leviathans.1000.name: "Divoratore Stellare"
  leviathans.1000.desc: "Dalle profondità della stella del Sistema [stellarite_system.GetName] emerge un essere gigantesco, più grande di una normale luna. Il suo corpo irradia calore, nella stessa lunghezza d'onda prodotta dalla stella di questo sistema...\n\nLa sta §Ymangiando§!!\n\nLa creatura sta banchettando tra le macchie solari, divorando le loro emissioni energetiche, e noi abbiamo interrotto il suo pasto. La bestia trasuda onde luminose, pulsando rapidamente ad intensa frequenza... come un ruggito fluorescente."
  leviathans.1001.desc: "Appena la [Root.GetName] entra nel Sistema [Root.GetStarName] si imbatte in qualcosa di mostruoso. Un essere gigante, radioso come una piccola stella. All'inizio i nostri strumenti l'aveano confuso con un sistema solare binario.\n\nLa bestia trasuda onde luminose, pulsando rapidamente ad intensa frequenza... come un ruggito fluorescente."
- leviathans.1016.desc: "Il Divoratore Stellare è stato sconfitto. I suoi resti vanno via via evaporando, lasciando intatto l'intestino e la materia stellare che contiene.\n\nIl nostro team scientifico ci invita ad esaminarne i resti. Chissà quale profonda conoscenza potremmo trarre dal suo apparato digestivo..."
- leviathans.1016.desc.gesta: "Il Divoratore Stellare è stato sconfitto. I suoi resti vanno via via evaporando, lasciando intatto l'intestino e la materia stellare che contiene.\n\nChissà quale profonda conoscenza potremmo trarre dal suo apparato digestivo..."
+ leviathans.1016.desc: "The Stellar Devourer has been vanquished. Its remains curled up and evaporated, leaving only its egg sac and its digestive system with the stellar matter it contains.\n\nSome of our scientists have urged us to examine the remains, while others wish for us to retrieve the egg sac. Maybe there is some profound knowledge to be had from understanding its digestive system, or might we gain some insight from the egg sac?"
+ leviathans.1016.desc.gesta: "The Stellar Devourer has been vanquished. Its remains curled up and evaporated, leaving only its egg sac and its digestive tract with the stellar matter it contains.\n\nMaybe there is some profound knowledge to be had from understanding its digestive system, or perhaps the egg sac should be studied back on our capital?"
  leviathans.1016.a: "Studiate il cadavere."
  leviathans.1016.b: "Ricavatene un trofeo che chiunque possa vedere."
+ leviathans.1016.c: "Retrieve the egg sac."
  leviathans.1017.desc: "Lo studio dei resti del Divoratore Stellare hanno lasciato i nostri scienziati stupiti e perplessi. L'essere mangia-stelle non era che una specie di forno di fusione in miniatura, che raccoglieva la materia solare per produrre energia.\n\nDato che il corpo contiene ancora una parte significativa della materia solare proveniente dalla stella del Sistema [guardians_stellarite_home_system.GetName], l'ultima di cui si è cibato, dovrebbe essere possibile estrarre l'energia e rinvigorire la stella. Raccogliendo il calore corporeo potremmo soddisfare il nostro fabbisogno energetico per un breve periodo, ma condanneremmo il sistema ad un'eterna era glaciale."
  leviathans.1017.desc.gesta: "Lo studio dei resti del Divoratore Stellare ci lasciano stupiti e perplessi. L'essere mangia-stelle non era che una specie di forno di fusione in miniatura, che raccoglieva la materia solare per produrre energia.\n\nDato che il corpo contiene ancora una parte significativa della materia solare proveniente dalla stella del Sistema [guardians_stellarite_home_system.GetName], l'ultima di cui si è cibato, dovrebbe essere possibile estrarre l'energia e rinvigorire la stella. Raccogliendo il calore corporeo potremmo soddisfare il nostro fabbisogno energetico per un breve periodo, ma condanneremmo il sistema ad un'eterna era glaciale."
  leviathans.1017.a: "Provate a riaccendere la stella."
@@ -896,8 +932,7 @@
  TECH_UNLOCK_CURATOR_LAB_2_TITLE: "$TECH_UNLOCK_COMPONENT_LINE$ $tech_archeology_lab$"
  TECH_UNLOCK_CURATOR_LAB_2_DESC: "$tech_archeology_lab_desc$"
 
- opinion1: "$OPINION$: £opinion£ §G+1§!"
- opinion7: "$OPINION$: £opinion£ §G+7§!"
+
 
  horror_energy_object: "$energy_uninhabitable_category$"
 
@@ -916,4 +951,8 @@
  monthly_opinion3: "Opinione Mensile: £opinion£ §G+3§!"
 
  mod_planet_jobs_energy_upkeep_mult: "Costo di Mantenimento in Energia per il Posto di Lavoro"
+ mod_planet_jobs_consumer_goods_upkeep_mult: "Job Consumer Goods Upkeep"
  mod_planet_structures_energy_upkeep_mult: "Costo di Mantenimento in Energia per Distretti ed Edifici"
+ mod_planet_structures_rare_crystals_upkeep_mult: "District and Building Rare Crystals Upkeep"
+ mod_planet_structures_volatile_motes_upkeep_mult: "District and Building Volatile Motes Upkeep"
+ mod_planet_structures_exotic_gases_upkeep_mult: "District and Building Exotic Gases Upkeep"
