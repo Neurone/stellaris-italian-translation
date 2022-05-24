@@ -650,7 +650,7 @@
  tr_subterfuge_finish_desc: "Il §G50%§! del Costo per Livello di Infiltrazione delle §Operazioni§! riuscite viene rimborsato.\nBenefici d'Ascensione Sbloccati: §G+1§!"
 
  tr_subterfuge_information_security: "Sicurezza delle Informazioni"
- tr_subterfuge_information_security_delayed: "Solo abbracciando una tradizione di segretezza possiamo proteggere informazioni vitali da occhi indiscreti."
+ tr_subterfuge_information_security_delayed: "Only by embracing a tradition of secrecy can we protect vital information from prying eyes. Enhanced security systems and countermeasures deny our enemies any potential advantages."
 
  tr_subterfuge_nda: "Accordo di Non Divulgazione"
  tr_subterfuge_nda_hive: "Nessun Punto Debole"
@@ -665,14 +665,11 @@
  tr_subterfuge_operational_security_gestalt_delayed: "Non siamo più soli come una volta: una pletora di entità concorrenti - e potenzialmente ostili - condivide ora la nostra galassia con noi. Per prosperare in questa nuova realtà, dovremo adattarci al concetto di \"copertura\" e dedicare una parte significativa di noi stessi a scoprire i segreti degli altri."
 
  tr_subterfuge_double_agents: "Doppi Agenti"
- tr_subterfuge_double_agents_desc: "Ogni volta che una §YOperazione§! ostile che ci prende di mira fallisce, guadagniamo §Y10§! Intelligence verso l'impero che ci spia."
+ tr_subterfuge_double_agents_effect: "Ogni volta che una §YOperazione§! ostile che ci prende di mira fallisce, guadagniamo §Y10§! Intelligence verso l'impero che ci spia."
  tr_subterfuge_double_agents_delayed: "Attraverso mezzi creativi di persuasione, siamo in grado di influenzare anche il più devoto dei nostri nemici a contribuire alla nostra causa."
 
  tr_subterfuge_shadow_recruits: "Reclute Ombra"
- tr_subterfuge_shadow_recruits_gestalt: "$tr_subterfuge_shadow_recruits$"
- tr_subterfuge_shadow_recruits_delayed: "Mentre i nostri nemici hanno semplicemente adottato l'ombra, i nostri operatori sono nati in essa, plasmati da essa."
- tr_subterfuge_shadow_recruits_gestalt_delayed: "Mentre i nostri nemici hanno semplicemente adottato l'ombra, i nostri droni operativi sono stati creati in essa, plasmati da essa."
-
+ tr_subterfuge_shadow_recruits_delayed: "Whereas our enemies merely adopted the shadows, our [Root.GetOperativesLowerPlural] were born in it, molded by it."
 
 ################################################################
 # Unyielding
@@ -687,7 +684,7 @@
  tr_unyielding_federations_finish_desc: "$MOD_STARBASE_DEFENSE_PLATFORM_CAPACITY_MULT$ §G+50%§!\n$mod_starbases_upkeep_mult$ §G-20%§!\nGrants access to the §Y$military_federation$§! Federation type.\nAscension Perks Unlocked: §G+1§!"
 
  tr_unyielding_resistance_is_frugal: "La Resistenza è Frugale"
- tr_unyielding_resistance_is_frugal_desc: "Gli edifici di tipo £building£ §Y$building_stronghold$§! producono ora §Y3§! £unity£ Unità. Inoltre, la §Y$MOD_ARMY_DEFENSE_HEALTH_MULT$§! è aumentata del §G+25%§!."
+ tr_unyielding_resistance_is_frugal_desc: "£defense_army£ §YDefense Armies§! now produce §Y0.5§! £unity£ Unity. In addition, §Y$MOD_ARMY_DEFENSE_HEALTH_MULT$§! is increased by §G+25%§!."
  tr_unyielding_resistance_is_frugal_hive: "$tr_unyielding_resistance_is_frugal$"
  tr_unyielding_resistance_is_frugal_machine: "$tr_unyielding_resistance_is_frugal$"
  tr_unyielding_resistance_is_frugal_delayed: "Il nostro popolo è molto confortato dalla forza dei baluardi che custodiscono i nostri pianeti e li considera vitali per assicurare un futuro più prospero."
@@ -743,7 +740,7 @@
  requires_not_ap_the_flesh_is_weak: "$TRIGGER_FAIL$ Può non possedere il Beneficio d'Ascensione §Y$ap_the_flesh_is_weak$§!."
  requires_finished_cybernetics_project: "$TRIGGER_FAIL$ Deve aver completato il Progetto Speciale §YLa Carne è Debole§!."
 
- requires_ap_mind_over_matter: "$TRIGGER_FAIL$ Richiede il Beneficio d'Ascensione §Y$ap_mind_over_matter$§!."
+ requires_ap_mind_over_matter: "$TRIGGER_FAIL$Requires the §Y$ap_mind_over_matter$§! Ascension Perk or the §Y$origin_shroudwalker_apprentice$§! Origin."
  requires_not_ap_mind_over_matter: "$TRIGGER_FAIL$ Può non possedere il Beneficio d'Ascensione §Y$ap_mind_over_matter$§!."
  allow_decision_mastery_of_nature: "§HSblocca Decisione:§! Padronanza della Natura"
  describe_decision_mastery_of_nature: "§EQuesta Decisione aumenta permanentemente di §Y2§! il numero massimo di Distretti che un pianeta può supportare. Può essere utilizzata solamente una volta per pianeta.§!"
@@ -838,6 +835,7 @@
  ap_hive_worlds_desc: "Dovremmo creare pianeti viventi che fanno tanto parte dell'Alveare quanto gli stessi droni che li abitano."
  ap_shared_destiny: "Destino Condiviso"
  ap_shared_destiny_desc: "Mentre raggiungiamo vette sempre più elevate, non dobbiamo lasciare indietro chi ci ha serviti lealmente. Il glorioso futuro del nostro impero è sempre stato immaginato per essere condiviso."
+ ap_shared_destiny_effect: "Your §YSubjects§! do not suffer $r_loyalty$ penalties from you having multiple Subjects."
  ap_world_shaper_desc: "Modellare ed alterare con cura l'ecosistema di un intero pianeta non è così diverso dal processo che compie un artista quando crea una statua dall'argilla."
  ap_master_builders_desc: "La costruzione di una Megastruttura richiede un ammontare di risorse e pianificazioni senza precedenti. Stiamo aprendo nuovi orizzonti nel campo della macro-ingegneria."
  ap_imperial_prerogative_desc: "Man mano che la nostra civiltà continua a crescere, così deve fare anche il suo cuore pulsante. Altri sistemi verranno messi sotto il nostro controllo diretto."
@@ -870,3 +868,6 @@
  ap_galactic_wonders_utopia_and_megacorp_desc: "$ap_galactic_wonders_desc$"
 
  ap_technological_ascendancy_rare: "Le §MTecnologie Rare§! ora compaiono §Y1.5§! volte in più rispetto al normale. Questo effetto modifica una probabilità dell'§Y1%§! in una dell'§Y1.5%§!."
+ ap_grasp_the_void_tech_effect: "§YFTL travel technologies§! now appear at §Y1.5§! times the normal rate."
+
+ requires_not_shroudwalker_apprentice: "$TRIGGER_FAIL$May not have the §Y$origin_shroudwalker_apprentice$§! Origin."
