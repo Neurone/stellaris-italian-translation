@@ -227,7 +227,7 @@
  civic_anglers_desc:0 "Abile nell'utilizzare le ricchezze della natura, questa società si procura un afflusso stabile di sostentamento e di valore economico."
  civic_corporate_anglers:0 "$civic_anglers$"
  civic_corporate_anglers_desc:0 "$civic_anglers_desc$"
- civic_tooltip_anglers_effects:0 "Sui §HPianeti Oceanici§!, i §HDistretti Agricoli§! sono illimitati.\nSui §YPianeti Umidit§!, i £job_farmer£ §Y$job_farmer_plural$§! sono sostituiti da £job_angler£ §Y$job_angler_plural$§! e £job_pearl_diver£ §Y$job_pearl_diver_plural$§!.\n§Y$job_angler_plural$§Y producono §Y8§! £food£ §Y$food$§! e §Y2§! £trade_value£ §Y$TRADE_VALUE$§!, e §Y$job_pearl_diver_plural$§! producono §Y3§! £consumer_goods£ §Y$consumer_goods$§! e §Y2§! £trade_value£ §Y$TRADE_VALUE$§!.\nAggiunge il tratto §H$trait_aquatic$§!"
+ civic_tooltip_anglers_effects:0 "Sui §HPianeti Oceanici§!, i §HDistretti Agricoli§! sono illimitati.\nSui §YPianeti Umidit§!, i £job_farmer£ §Y$job_farmer_plural$§! sono sostituiti da £job_angler£ §Y$job_angler_plural$§! e £job_pearl_diver£ §Y$job_pearl_diver_plural$§!.\n§Y$job_angler_plural$§Y producono §Y8§! £food£ §Y$food$§! e §Y2§! £trade_value£ §Y$TRADE_VALUE$§!, e §Y$job_pearl_diver_plural$§! producono §Y3§! £consumer_goods£ §Y$consumer_goods$§! e §Y3§! £trade_value£ §Y$TRADE_VALUE$§!.\nAggiunge il tratto §H$trait_aquatic$§!"
  job_aqu_angler_effect_desc:0 "I £job_angler£ $job_angler_plural$ producono £food£ §Y$food$§! e £trade_value£ §Y$TRADE_VALUE$§!"
  job_angler:0 "Pescatore"
  job_angler_plural:0 "Pescatori"

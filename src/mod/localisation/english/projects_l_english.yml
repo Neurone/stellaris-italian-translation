@@ -9,7 +9,7 @@
  MIGRATING_FORESTS_2_PROJECT:0 "Bruciare le Foreste Erranti"
  MIGRATING_FORESTS_2_PROJECT_DESC:0 "La presenza di queste foreste non può essere tollerata. Dev'essere fatto uno sforzo per eliminarle dalla superficie."
  SEISMIC_DISTURBANCE_1_PROJECT:0 "Stabilire le Comunicazioni"
- SEISMIC_DISTURBANCE_1_PROJECT_DESC:0 "Abbiamo bisogno di trovare un modo per comunicare con gli alieni sotterranei. Forse potremmo riuscire a convivere con la loro civiltà."
+ SEISMIC_DISTURBANCE_1_PROJECT_DESC:0 "We need to find some way to communicate with the [Root.Owner.GetSubMantleLower] aliens. Perhaps we can find a way to coexist with their civilization."
  SEISMIC_DISTURBANCE_2_PROJECT:0 "Attacco Preventivo"
  SEISMIC_DISTURBANCE_2_PROJECT_DESC:0 "Gli alieni che stanno scavando per raggiungere la superficie sono una minaccia che dev'essere affrontata. Lanceremo un attacco preventivo contro le loro città sotterranee."
  SEISMIC_DISTURBANCE_3_PROJECT:0 "Distruggere la Civiltà Sotterranea"

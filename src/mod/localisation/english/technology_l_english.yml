@@ -61,12 +61,18 @@
  tech_corvette_build_speed:0 "Modelli Standardizzati per Corvette"
  tech_corvette_build_speed_desc:0 "Stabilendo nuovi standard di progettazione e costruzione delle Corvette possiamo migliorare l'efficienza della catena di produzione."
 
+ tech_corvette_hull_effect:0 "$mod_shipsize_corvette_hull_add$: §G+100§!"
+ tech_corvette_build_speed_effect:0 "$mod_ship_corvette_cost_mult$: §G-5%§!\n$mod_shipsize_corvette_build_speed_mult$: §G-25%§!"
+
  tech_destroyer_hull_1:0 "Scafi Migliorati per Cacciatorpediniere"
  tech_destroyer_hull_1_desc:0 "I miglioramenti compiuti nelle tecniche di costruzione ci permettono di costruire Cacciatorpediniere più solide e robuste."
  tech_destroyer_hull_2:0 "Scafi Avanzati per Cacciatorpediniere"
  tech_destroyer_hull_2_desc:0 "L'ultima generazione di scafi per Cacciatorpediniere possiede campi d'integrità strutturale ottimizzati e paratie migliorate."
  tech_destroyer_build_speed:0 "Modelli Standardizzati per Cacciatorpediniere"
  tech_destroyer_build_speed_desc:0 "Stabilendo nuovi standard di progettazione e costruzione delle Cacciatorpediniere possiamo migliorare l'efficienza della catena di produzione."
+
+ tech_destroyer_hull_effect:0 "$mod_shipsize_destroyer_hull_add$: §G+200§!"
+ tech_destroyer_build_speed_effect:0 "$mod_ship_destroyer_cost_mult$: §G-5%§!\n$mod_shipsize_destroyer_build_speed_mult$: §G-25%§!"
 
  tech_cruiser_hull_1:0 "Scafi Migliorati per Incrociatori"
  tech_cruiser_hull_1_desc:0 "I miglioramenti compiuti nelle tecniche di costruzione ci permettono di costruire Incrociatori più solidi e robusti."
@@ -75,12 +81,18 @@
  tech_cruiser_build_speed:0 "Modelli Standardizzati per Incrociatori"
  tech_cruiser_build_speed_desc:0 "Stabilendo nuovi standard di progettazione e costruzione degli Incrociatori possiamo migliorare l'efficienza della catena di produzione."
 
+ tech_cruiser_hull_effect:0 "$mod_shipsize_cruiser_hull_add$: §G+500§!"
+ tech_cruiser_build_speed_effect:0 "$mod_ship_cruiser_cost_mult$: §G-5%§!\n$mod_shipsize_cruiser_build_speed_mult$: §G-25%§!"
+
  tech_battleship_hull_1:0 "Scafi Migliorati per Corazzate"
  tech_battleship_hull_1_desc:0 "I miglioramenti compiuti nelle tecniche di costruzione ci permettono di costruire Corazzate più solide e robuste."
  tech_battleship_hull_2:0 "Scafi Avanzati per Corazzate"
  tech_battleship_hull_2_desc:0 "L'ultima generazione di scafi per Corazzate possiede campi d'integrità strutturale ottimizzati e paratie migliorate."
  tech_battleship_build_speed:0 "Modelli Standardizzati per Corazzate"
  tech_battleship_build_speed_desc:0 "Stabilendo nuovi standard di progettazione e costruzione delle Corazzate possiamo migliorare l'efficienza della catena di produzione."
+
+ tech_battleship_hull_effect:0 "$mod_shipsize_battleship_hull_add$: §G+800§!"
+ tech_battleship_build_speed_effect:0 "$mod_ship_battleship_cost_mult$: §G-5%§!\n$mod_shipsize_battleship_build_speed_mult$: §G-25%§!"
 
  tech_titan_hull_1:0 "Scafi Migliorati per Titani"
  tech_titan_hull_1_desc:0 "I miglioramenti compiuti nelle tecniche di costruzione ci permettono di costruire Titani più solidi e robusti."

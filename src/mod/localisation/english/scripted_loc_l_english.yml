@@ -31,8 +31,11 @@
  getunitdrone_leader_plural:0 "Leader"
 
  team_member_key:0 "membro del team"
+ team_members_key:0 "team members"
  drone_key:0 "drone"
+ drones_key:0 "drones"
  unit_key:0 "unità"
+ units_key:0 "units"
 
  getterraformer_machine:0 "unità di terraformazione"
  getterraformer_machine_plural:0 "unità di terraformazione"
@@ -50,6 +53,13 @@
  getscientistplural_machine:0 "unità scientifiche"
  getscientistplural_hive:0 "droni scientifici"
  getscientistplural_normal:0 "scienziati"
+
+ getengineer_machine:0 "engineering unit"
+ getengineer_hive:0 "engineering drone"
+ getengineer_normal:0 "engineer"
+ getengineerplural_machine:0 "engineering units"
+ getengineerplural_hive:0 "engineering drones"
+ getengineerplural_normal:0 "engineers"
 
  get1stplanetkiller_cracker:0 "$PLANET_KILLER_CRACKER$"
  get1stplanetkiller_shielder:0 "$PLANET_KILLER_SHIELDER$"
@@ -73,3 +83,9 @@
 
  gray_goo_world_active_nanites:0 "Sciamante di naniti attivi, questo pianeta è in costante cambiamento; litosfera ed atmosfera vengono rielaborate all'infinito."
  gray_goo_world_inactive_nanites:0 "Un pianeta caotico ed inospitale, sfigurato seguendo quale sorta di folle progetto."
+
+ submantle_sub:0 "subterranean"
+ submantle_mantle:0 "mantle-dwelling"
+ SubMantle_Sub:0 "Subterranean"
+ SubMantle_Mantle:0 "Mantle-Dwelling"
+

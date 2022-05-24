@@ -1,6 +1,7 @@
 ﻿l_english:
 
  vo_lithoid_voice:0 "Litoidi"
+ lithoid:0 "Litoide"
 
  MESSAGE_TERRAVORE_CONSUME_WORLD_TITLE:0 "Consuma il mondo"
  MESSAGE_TERRAVORE_CONSUME_WORLD_MINERALS_TEXT:0 "Il consumo di $PLANET|Y$ frutterà minerali allo sciame."

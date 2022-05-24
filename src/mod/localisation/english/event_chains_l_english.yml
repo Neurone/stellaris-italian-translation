@@ -11,7 +11,7 @@
  test_counter:0 "Provate il contatore"
  migrating_forests_chain_title:0 "Foreste Erranti su [Root.GetName]"
  migrating_forests_chain_desc:0 "Le foreste erranti su [Root.GetName] stanno interferendo con lo sviluppo della nostra colonia. Bisogna trovare una soluzione a questo problema se vogliamo prosperare su questo mondo."
- subterranean_civilization_chain_title:0 "Civiltà Sotterranea"
+ subterranean_civilization_chain_title:0 "[Root.owner.GetSubMantleUpper] Civilization"
  subterranean_civilization_chain_desc:0 "Una civiltà aliena sotterranea su [Root.GetName] sta scavando un tunnel verso la nostra colonia in superficie. Il loro numero e le loro intenzioni ci sono sconosciuti e potrebbero essere una minaccia significativa."
  abandoned_terraforming_chain_title:0 "Progetto Terraformazione Abbandonato"
  abandoned_terraforming_chain_desc:0 "[Root.GetName] è stato parzialmente terraformato da qualcuno migliaia di anni fa, ma il processo è stato interrotto per ragioni sconosciute. Il risultato è un sistema climatico e una biosfera altamente instabili. Abbiamo localizzato l'attrezzatura di terraformazione abbandonata e dobbiamo decidere cosa farne."
@@ -71,6 +71,8 @@
  hunting_hyacinth_desc:0 "La Giacinto, la nave gemella dell'arca che ha portato i nostri antenati su [Root.Capital.GetName], avrebbe dovuto raggiungerci dalla Terra un secolo fa. Dobbiamo scoprire che ne è stato di lei."
  nomads_observation_chain_title:0 "Insoliti Viaggiatori Spaziali"
  nomads_observation_chain_desc:0 "Abbiamo rilevato, all'interno dei nostri confini, degli strani alieni di cui non riusciamo a decodificare le comunicazioni. Dato che per noi è impossibile tradurre il loro linguaggio, possiamo solo aspettare e vedere chi sono e cosa vogliono."
+ shrouded_ship_chain_title:0 "Shrouded"
+ shrouded_ship_chain_desc:0 "One of our vessels has been lost to the Shroud."
 
  ####################################
  # Points of Interest

@@ -116,6 +116,7 @@
  requires_no_habitable_planets:0 "$TRIGGER_FAIL$ Impossibile da costruire in un sistema con pianeti abitabili."
  requires_surveyed_system:0 "Impossibile da costruire in un sistema che non è stato ispezionato."
  requires_inside_border:0 "$TRIGGER_FAIL$ Impossibile da costruire al di fuori dei confini imperiali."
+ requires_inside_border_or_subject:0 "$TRIGGER_FAIL$Cannot build outside Empire or Subject borders."
  must_build_around_star:0 "$TRIGGER_FAIL$ Dev'essere costruito attorno ad una stella."
  requires_no_black_hole:0 "$TRIGGER_FAIL$ Impossibile costruire Pianeti ad Anello attorno ai Buchi Neri."
  requires_no_black_hole_or_dyson_sphere:0 "$TRIGGER_FAIL$ Impossibile costruire in un sistema con un Buco Nero od una Sfera di Dyson."

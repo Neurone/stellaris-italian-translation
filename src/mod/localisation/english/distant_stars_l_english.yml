@@ -690,32 +690,6 @@
  distar.320.name:0 "$distar.311.name$"
  distar.320.desc:0 "$distar.311.desc.base$\n\nI naniti hanno costruito una sorta di rete computazionale avanzata sulla superficie di [From.From.From.GetName]. Non sembrerebbe attiva, e non possiede un'IA; i naniti si sono disattivati non appena terminata la costruzione.\n\nI nostri ricercatori sono completamente all'oscuro di quale sia lo scopo della rete. Il suo studio dovrebbe tenerli impegnati per un bel po' di tempo."
 
- leviathans.508.k:0 "Parlateci dello $leviathans.555.name$."
- #Scavenger
- leviathans.508.l:0 "Parlateci della $leviathans.556.name$."
- #Tiyanki Matriarch
- leviathans.555.name:0 "Spazzino"
- leviathans.555.desc:0 "Ah, il robot di rottami. Lo Spazzino è un curioso costrutto di un tempo andato. Scava continuamente tra i campi di detriti della galassia per cercare armi, utensili, motori e materiali per integrarli nel suo scafo. La sua massa e la potenza di fuoco è in crescita da secoli ormai, e non dà alcun segno di volersi fermare.\n\nNon sappiamo se possa mai esistere un limite alla grandezza che potrebbe raggiungere, con tempo e rottami a sufficienza."
- leviathans.555.a:0 "Chi l'ha costruito, prima di tutto?"
- leviathans.555.a.reply:0 "Sfortunatamente, non esistono dati relativi alla provenienza dello Spazzino. Alcuni ricercatori credono che fosse una macchina per il recupero degli scarti appartenuta ad un impero perduto, ed ora malfunzionante. Altri credono che sia stato creato come un singolo microscopico nanorobot, programmato per diventare incessantemente più grande e potente sfruttando l'ambiente. Altri ancora credono che sia un antico capitano robotico, unico sopravvissuto di una battaglia intergalattica combattuta millenni fa; i suoi sistemi di ragionamento sarebbero andati irreparabilmente danneggiati dopo la caduta della sua civiltà.\n\nNaturalmente, tutte queste sono solo speculazioni."
- leviathans.555.b:0 "Possiamo comunicare con lui?"
- leviathans.555.b.reply:0 "Sono stati fatti molti tentativi per comunicare con lui, o per alterare la sua programmazione. Sfortunatamente, la maggior parte di queste spedizioni si sono trasformate nei rottami che compongono lo Spazzino. Coloro in grado di fuggire sono sopravvissuti. Ha saldato abbastanza artiglieria sulla sua struttura da poter distruggere da solo l'intera flotta di un impero; cosa che dev'essere già successa in più di un'occasione.\n\nNaturalmente, ogni scontro non fa che potenziare sempre di più lo Spazzino, fornendogli altri componenti da riutilizzare."
- leviathans.555.c:0 "$leviathans.510.b$"
- leviathans.555.c.reply:0 "Come avrete potuto notare, lo Spazzino non è costruito seguendo uno schema preciso. Ne risulta che alcune delle sue parti non... combacino perfettamente, creando un discreto numero di debolezze strutturali. Naturalmente, la maggior parte di essere rimangono oscure ad un occhio non attento, ma i nostri avanzati sensori sono riusciti ad isolarle.\n\nDite alle vostre flotte di concentrare il fuoco verso quei punti e dovreste infliggere molti più danni al costrutto."
- leviathans.555.aa:0 "Ricordateci le sue origini."
- leviathans.555.bb:0 "Ricordateci come possiamo comunicare con lui."
-
- leviathans.556.name:0 "Matriarca Tiyanki"
- leviathans.556.desc:0 "È magnifica, non è vero? Una vecchia Matriarca avvizzita, la sua pelle è segnata ed indurita dal passare degli eoni, i suoi tentacoli sono in grado di aprire lo scafo di una nave da guerra come un'ostrica. Decenni fa, i nostri ricercatori sentirono dire che un capitano giurò di dare la caccia alla Matriarca fino ai confini della galassia. Tuttavia, considerando che è ancora viva, è improbabile che abbia avuto successo."
- leviathans.556.a:0 "Perché la Matriarca è tanto più grande degli altri Tiyanki?"
- leviathans.556.a.reply:0 "Le sue incredibili dimensioni sono sicuramente un'anomalia, ne siamo certi. Crediamo che la Matriarca sia una viaggiatrice proveniente dalle profondità di un'altra galassia, in cui una specie di Tiyanki si sono evolute molto più grandi e forti.\n\nNaturalmente, è anche possibile che la Matriarca soffra semplicemente di una forma avanzata di gigantismo, sebbene questo non spiegherebbe la sua estrema longevità."
- leviathans.556.b:0 "Cosa sapete del capitano che dà la caccia alla Matriarca?"
- leviathans.556.b.reply:0 "Molto poco. È possibile che il capitano abbia inseguito la Matriarca da qualche altra galassia. Sebbene non ci sia chiaro perché uno dovrebbe essere così folle da sfidare una creatura in grado di distruggere intere flotte."
- leviathans.556.c:0 "$leviathans.510.b$"
- leviathans.556.c.reply:0 "La Matriarca è formidabile, ma non indistruttibile. Sebbene la sua pelle la protegga dalla maggior parte dei proiettili, possiede comunque un gran punto debole.\n\nÈ presente un enorme siluro protonico conficcato nella sua schiena, una ferita guarita male di una recente battaglia. Anche se sembra difettoso, le nostre scansioni hanno accertato che possa ancora detonare, se sottoposto ad uno specifico impluso energetico.\n\nVi stiamo trasmettendo tutti i dettagli."
- leviathans.556.aa:0 "Ricordateci perché la Matriarca è più grande degli altri Tiyanki."
- leviathans.556.bb:0 "Ricordateci chi è il capitano che dà la caccia alla Matriarca."
-
  enraged_army:0 "$NAME_Enraged_Colonists$"
  enraged_army_desc:0 "Afflitti da una misteriosa patologia, questi coloni sono diventati ostili."
 
@@ -1401,14 +1375,6 @@
  enigmatic_madness_desc:0 "La nostra popolazione è ancora tormentata da incubi persistenti dovuti ad un'ascensione andata male."
  enigmatic_slumber:0 "Vegetale"
  enigmatic_slumber_desc:0 "Questa popolazione è intrappolata in un coma causato dall'ipnoterapia."
- # Hatchling Curators Menu
- leviathans.508.j:0 "Parlateci della Prole del Vuoto."
- leviathans.550.name:0 "Prole del Vuoto"
- leviathans.550.desc:0 "Se i nostri sospetti sono fondati, la Prole del Vuoto è molto distante da casa. Crediamo sia la progenie di un predatore extragalattico di dimensioni impensabili, che vaga nel vuoto spaziale in cerca di prede. Sebbene non abbiamo mai trovato un esemplare in vita, abbiamo sentito racconti sul caos e la distruzione che porta con sé. Si dice che i pianeti marciscano sotto la sua ombra."
- leviathans.550.a:0 "$leviathans.510.a$"
- leviathans.550.a.reply:0 "Da quello che sappiamo, la madre depone le immense uova nell'orbita di una stella, dove incubano per migliaia di anni, a volte anche abbastanza per sviluppare un'atmosfera ed ospitare vita organica.\n\nSi nutrono di materia organica, e si dice che un adulto di Prole del Vuoto eserciti una strana influenza su ogni essere vivente. Fortunatamente questo cucciolo sembra essere stato abbandonato dai genitori.\n\nForse sarebbe meglio eliminare la creature finché è ancora giovane e vulnerabile..."
- leviathans.550.b:0 "Come possiamo sconfiggerla?"
- leviathans.550.b.reply:0 "Non abbiamo mai sentito di alcuna Prole del Vuoto sconfitta in battaglia, ma questa è appena nata. La Prole del Vuoto sputa saliva tossica e lancia pungiglioni corrosivi che possono sciogliere anche la corazza più spessa; applicare uno strato protettivo a prova d'acido dovrebbe rallentare il processo. Vi aiuteremo a crearlo. La Prole del Vuoto è una minaccia per tutti noi."
 
  SUPERFLARE_PROJECT:0 "Difesa dal Super-Brillamento"
  SUPERFLARE_PROJECT_DESC:0 "I sensori su [Root.GetName] segnalano che [From.GetStarName] si sta preparando ad un altro super-brillamento, non diverso da quello che ha sterminato l'antica civiltà su [From.From.GetName]. Dobbiamo trovare un modo per proteggere la nostra colonia prima dell'esplosione."
