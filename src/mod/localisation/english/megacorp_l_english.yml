@@ -1426,7 +1426,7 @@
 
  job_fe_maintenance_bot:0 "Custode"
  job_fe_maintenance_bot_plural:0 "Custodi"
- job_fe_maintenance_bot_desc:0 "Queste antiche macchine manutenzionano e riparano senza sosta i componenti del Pianeta Anello su cui risiedono."
+ job_fe_maintenance_bot_desc:0 "Queste antiche macchine manutengono e riparano senza sosta i componenti del Pianeta Anello su cui risiedono."
  mod_job_fe_maintenance_bot_add:0 "Posti di lavoro da $job_fe_maintenance_bot$"
  mod_job_fe_maintenance_bot_per_pop:0 "§G+1§! $job_fe_maintenance_bot$ Job per $VALUE$ Pops"
  mod_job_fe_maintenance_bot_per_pop_short:0 "\n§G+1§! £mod_job_maintenance_drone_add£ per $VALUE$ £pop£"
