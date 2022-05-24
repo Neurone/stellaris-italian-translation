@@ -166,7 +166,7 @@
  CANCEL_RESOLUTION_DESC: "$RESOLUTION|H$ is canceled"
  custodian_remaining_term_time: "Once their term is up, the Custodian will revert to being a Galactic Council member."
  CUSTODIAN_TERM: "Term"
- TIMER_NUMBER: "£time£ $DAYS|Y$"
+ TIMER_NUMBER: "£time£ $NUMBER|Y$"
  INCREASE_CUSTODIAN_TERM: "Current Galactic Custodian term increases by $VAL|2G$ days"
  DECREASE_CUSTODIAN_TERM: "Current Galactic Custodian term decreases by $VAL|2R$ days"
  SET_CUSTODIAN_TERM: "Remaining Galactic Custodian term is set to $VAL|Y$ days"
