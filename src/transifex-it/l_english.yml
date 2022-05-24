@@ -916,7 +916,7 @@
  FLEETS: "Flotte"
  ACHIEVEMENTS: "§HObiettivi§! \nEsplora i tuoi obiettivi di Stellaris"
  HOMEPAGE: "§HSito Web§! \nVisita il sito ufficiale di Stellaris"
- FORUM: "§HForums§! \nAccess Paradox's Stellaris forum"
+ FORUM: "§HForum§! \nAccedi al forum Stellaris di Paradox"
  FACEBOOK: "§HFacebook§! \nApri la pagina Facebook ufficiale di Stellaris"
  TWITTER: "§HTwitter§! \nSegui StellarisGame su Twitter"
  CLOSE_TITLE: "§HChiudi§!"
@@ -2507,7 +2507,7 @@
  FRIENDS: "Amici"
  HOST_LOCKED_OPTION: "§RSolo l'Host può modificare questa opzione.§!"
  JOIN: "Partecipa"
- POPS_DISCONNECTED_TITLE: "Paradox Online disconnesso"
+ POPS_DISCONNECTED_TITLE: "Paradox Online Disconnesso"
  POPS_DISCONNECTED: "Sei stato disconnesso dai servizi Paradox Online, forse perché ti sei autenticato da qualche altra parte. Alcuni servizi non funzioneranno correttamente finché non ti autenticherai nuovamente."
  POPS_UNEXPECTED_ERROR: "Errore inaspettato"
  PLAYER_NAME: "Nome Giocatore"
@@ -11886,7 +11886,7 @@
  EXPLORE_BYPASS_INACTIVE: "Il $BYPASS$ non è stato attivato."
  TRIGGER_TEST: "$CONDITION$ $TEXT$"
 
- PATCHNOTES: "§HClick§! to go to Paradox's Stellaris forum to read the full patch notes for 3.4"
+ PATCHNOTES: "§HClicca§! per andare al forum Paradox di Stellaris per leggere le note complete dell'aggiornamento 3.4"
 
  sys_unsurveyed: "Sistema non ispezionato"
  sys_unclaimed: "Sistema non rivendicato"
