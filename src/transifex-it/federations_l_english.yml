@@ -810,7 +810,7 @@
  discovery_traditions_completed: "Ha completato §Y$tr_discovery_adopt$§!"
  domination_traditions_completed: "Ha completato §Y$tr_domination_adopt$§!"
  unyielding_traditions_completed: "Ha completato §Y$tr_unyielding_adopt$§!"
- disabled_for_hegemony: "§RUna §Y$hegemony_federation$§! non può vietare l'adesione di nazioni soggette.§!"
+ disabled_for_hegemony: "§RUna §Y$hegemony_federation$§! non può vietare l'adesione di nazioni suddite.§!"
  president_no_effect: "Nessun effetto."
 
  level_1: "Livello 1"
