@@ -98,8 +98,6 @@ Di seguito l'attuale stato di traduzione del gioco base e dei DLC, ordinati per 
     [/tr]
 [/table]
 
-A causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, [u]per poter conservare la modalità Ironman e achievement non è possibile tradurre completamente tutte le frasi presenti nel gioco[/u] (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.).
-
 Per facilitare il confronto con il resto del mondo, [b]non sono tradotti volutamente i nomi degli achievement[/b] ma solo la loro descrizione.
 
 Ricordo infine che ho creato questo mod a maggio 2019 partendo dai testi diligentemente tradotti dal team Battle of Paradox Italia, ed in particolare dal buon [url=https://steamcommunity.com/profiles/76561198030059915]Puxxup[/url], perché volevo creare una versione compatibile con Ironman e achievement di Steam. Tanta acqua è passata sotto i ponti, nuovi DLC sono usciti, molte traduzioni sono state revisionate e aggiunte, e il mod ha preso quindi da tempo una strada tutta sua, ma è sempre bene ricordare le proprie origini, ed è per questo che troverete citati nei credits in-game anche il team BoPI, Puxxup e diversi altri traduttori.

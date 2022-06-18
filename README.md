@@ -25,7 +25,7 @@ Di seguito trovate l'attuale stato di traduzione del gioco base e dei DLC, ordin
 |2016.08.04| Pacchetto Specie - Plantoids| Completa|
 |2016.05.09| Stellaris Base| Completa, **in revisione**|
 
-A causa della modalità con la quale Stellaris effettua il check dei mod all'avvio, **per poter conservare la modalità Ironman e achievement non è possibile tradurre completamente tutte le frasi presenti nel gioco** (es. nomi delle navi, nomi degli alieni, nomi delle fazioni e delle città, ecc.). Inoltre, per facilitare il confronto con il resto del mondo, **non sono tradotti volutamente i nomi degli achievement ma solo la loro descrizione**.
+Per facilitare il confronto con il resto del mondo, **non sono tradotti volutamente i nomi degli achievement ma solo la loro descrizione**.
 
 Grazie a tutta la comunità per i contributi alle traduzioni, e in particolare a [Nefando](https://github.com/Nefando), [AndryRock](https://github.com/AR-9217), [Daddie2](https://github.com/Daddie2) e [anthx80](https://github.com/anthx80).
 
