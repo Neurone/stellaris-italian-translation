@@ -19,7 +19,7 @@ Di seguito l'attuale stato di traduzione del gioco base e dei DLC, ordinati per 
     [tr]
         [td]2022.05.12[/td]
         [td]Overlord[/td]
-		[td]Da tradurre[/td]
+		[td][b]Da tradurre[/b][/td]
     [/tr]
     [tr]
         [td]2021.11.22[/td]

@@ -50,7 +50,7 @@
  enclave.27:0 "Emergency Fleet Recall"
  enclave.27.desc:0 "Dear valued client,\n\nAs we currently find ourselves under attack, we have urgent need to recall our own forces. As per our contract, we will immediately enact clause 285b.15, and our fleet will leave your service as soon as this notice reaches you. We look forward to renewing our partnership once this unfortunate situation is resolved, and apologize for any inconvenience."
  enclave.27.a:0 "Best of luck."
- enclave.27.b:0 "È un oltraggio!"
+ enclave.27.b:0 "Questo è oltraggioso!"
  enclave.28:0 "Peace Deal"
  enclave.28.desc:0 "Attention, [Root.GetName], a year has passed since your recent regrettable act of aggression. We of the [mercenary_enclave_country.GetName] are ready to let bygones be bygones - after all, conflict may be profitable, but not when it comes between business partners. If you would simply offer an apology, and send us a modest token of goodwill, we are willing to overlook this unfortunate incident."
  enclave.28.a:0 "Die and rot, mercenary scum."
