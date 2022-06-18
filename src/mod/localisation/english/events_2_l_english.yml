@@ -751,7 +751,7 @@
  country.1100.name:0 "Estinzione di Massa"
  country.1100.desc:0 "I nostri primi incerti passi nel vuoto al di là di §Y[Root.Capital.GetName]§! non sono determinati esclusivamente dalla curiosità, da un desiderio di conquistare l'ignoto o dal bisogno di lasciare il nostro segno nella galassia.\n\nLa biosfera di §Y[Root.Capital.GetName]§! è stata sottoposta a rapidi cambiamenti, negli ultimi secoli, e rinomati scienziati hanno avvertito che §Y[Root.Capital.GetName]§! potrebbe dover affrontare l'inizio di un'estinzione di massa... quella ciclica epurazione della vita inseparabile dall'esistenza di ogni pianeta nel cosmo.\n\nÈ stato preparato un piano di ricerca per studiare alcuni pianeti resi inabitabili da gravi incidenti astronomici o catastrofi planetarie. La nostra speranza è che la ricostruzione di questi eventi possa evitare un simile fato a §Y[Root.Capital.GetName]§! ed al popolo §Y[Root.GetSpeciesAdj]§!.\n\nSpetta a te, in quanto [Root.GetRulerTitle] del popolo §Y[Root.GetSpeciesAdj]§!, assicurarti che questa spedizione venga portata a termine.\n\nConsulta il §HRegistro Eventi§! per i dettagli."
  country.1100.a:0 "Per il futuro del popolo [Root.GetSpeciesAdj]."
- country.1100.owned:0 "Non si trova nei nostri territori. Trova un altro soggetto."
+ country.1100.owned:0 "Non si trova nei nostri territori. Trova un altro suddito."
  country.1105.name:0 "Estinzione di Massa: Pianeta Distrutto"
  country.1105.desc:0 "I nostri astronomi sono convinti che la fascia di asteroidi in questo sistema un tempo fosse un pianeta abitabile, lacerato da forze sconosciute.\n\nÈ stato sviluppato un Progetto Speciale per studiare uno dei maggiori asteroidi della fascia."
  country.1110.name:0 "Estinzione di Massa: Pianeta Bruciato"
