@@ -59,7 +59,7 @@
  tr_expansion_colonization_fever_machine: "Unità Colonizzatrici Automatiche"
  tr_expansion_colonization_fever_machine_delayed: "La produzione di unità colonizzatrici estremamente specializzate e con codici d'adattamento ad ambienti specifici accelererà l'integrazione di nuovi pianeti alla nostra collettività."
  tr_expansion_colonization_fever_hive: "Mente Unica"
- tr_expansion_colonization_fever_hive_delayed: "La mente collettiva è composta da un coro di pensieri che nemmeno il freddo vuoto spaziale può zittire."
+ tr_expansion_colonization_fever_hive_delayed: "L'unica mente è un coro di pensieri che nemmeno il freddo vuoto dello spazio può mettere a tacere."
 
  tr_expansion_a_new_life: "Una Nuova Vita"
  tr_expansion_a_new_life_desc: "£pops£ §Y$MOD_POP_GROWTH_SPEED$§! aumentata del §G+10%§!."
@@ -77,7 +77,7 @@
  tr_expansion_courier_network_machine: "Software Estendibile"
  tr_expansion_courier_network_machine_delayed: "Costruendo le nostre reti sinaptiche pensando all'espansione futura verso altri pianeti, possiamo ridurre la perdita di segnale a distanze interstellari."
  tr_expansion_courier_network_hive: "Autonomia Limitata"
- tr_expansion_courier_network_hive_delayed: "Non c'è alcun bisogno che ogni Alveare venga controllato direttamente dalla Mente in continuazione, è possibile dar loro istruzioni basilari e fare in modo che le svolgano autonomamente finché non verranno fornite nuove direttive."
+ tr_expansion_courier_network_hive_delayed: "Ogni Alveare non deve essere sempre controllato direttamente dall'Unica Mente, ma può ricevere istruzioni di base ed eseguirle autonomamente fino a quando non è necessaria una nuova direzione."
 
  tr_expansion_reach_for_the_stars: "Raggiungere le Stelle"
  tr_expansion_reach_for_the_stars_desc: "§Y$MOD_COUNTRY_STARBASE_INFLUENCE_COST_MULT$§! ridotto del §G10%§!."
@@ -241,7 +241,7 @@
  tr_synchronicity_cloned_organs_delayed: "Le vasche di clonazione producono in massa gli organi che si consumano più facilmente, come il cuore ed i polmoni, aumentando la durata della vita dei droni ad alta priorità."
  tr_synchronicity_kinship_gestalt: "Agenti Sincronizzati"
  tr_synchronicity_kinship_gestalt_desc: "§Y$mod_leaders_upkeep_mult$§! ridotto del §G20%§!."
- tr_synchronicity_kinship_gestalt_delayed: "Gli agenti con scopi simili dovrebbero essere comandati come singolo gruppo, riducendo così lo sforzo della Mente."
+ tr_synchronicity_kinship_gestalt_delayed: "Gli agenti con scopi simili riceveranno gli ordini in gruppo, riducendo la pressione sull'Unica Mente."
  tr_synchronicity_instinctive_synchronization: "Sincronizzazione Istintiva"
  tr_synchronicity_instinctive_synchronization_desc: "§Y$job_synapse_drone_plural$§! produce §Y2§! £mod_pop_amenities_usage_no_happiness_mult£ servizi."
  tr_synchronicity_instinctive_synchronization_delayed: "Il nostro alveare in crescita ha maggiori esigenze di lavoro sincronizzato e di sviluppo."
