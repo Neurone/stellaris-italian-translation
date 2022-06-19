@@ -45,6 +45,8 @@ Jobs => "Posti di Lavoro" è una traduzione migliore di "Lavori".
 
 **XXX Job** => **Lavoro da XXX**, oppure **Posto di Lavoro da XXX** Quando la traduzione è troppo lunga
 
+Slot => Spazio
+
 ----------------------------------------
 REVISIONI DEEPL completate
 
