@@ -25,9 +25,11 @@ Modifiche Epigenetiche => Inneschi Epigenetici
 Warp Drive => Motore a Curvatura
 Warp => Curvatura
 
+Jump Drive => Motore a Balzo (verificare tutte le voci)
+
 Warform => trovare unica traduzione. Inizio con "Costrutto di Guerra"
 
-Army/Armies => **Esercito/Eserciti** NON *Armata*
+Army/Armies => Usare **Truppa/Truppe** se sono di terra, *Armata/Armante* che sono flotte
 
 verificare "spawning pools", da tradurre come "vasche di riproduzione"
 
@@ -41,11 +43,7 @@ Amenities -> Comodità (più che servizi "generici")
 
 Jobs => "Posti di Lavoro" è una traduzione migliore di "Lavori".
 
-Jump Drive => Motore a Balzo (verificare tutte le voci)
-
-**XXX Job** => **Lavoro da XXX** oppure **Posto di Lavoro da XXX**
-
-Quando la traduzione è troppo lunga
+**XXX Job** => **Lavoro da XXX**, oppure **Posto di Lavoro da XXX** Quando la traduzione è troppo lunga
 
 ----------------------------------------
 REVISIONI DEEPL completate

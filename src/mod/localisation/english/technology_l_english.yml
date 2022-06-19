@@ -318,9 +318,9 @@
  tech_kinetic_artillery_1_desc:0 "Artiglieria a lunghissimo raggio in grado di scagliare potenti colpi a distanze estreme con un elevato grado di precisione."
  tech_kinetic_artillery_2:0 "Artiglieria Cinetica"
  tech_kinetic_artillery_2_desc:0 "Cannoni a lungo raggio ancora più potenti, dotati di una nuova canna e di un computer di puntamento."
- tech_mass_accelerator_1:0 "Mega-Cannone"
+ tech_mass_accelerator_1:0 "Mega Cannone"
  tech_mass_accelerator_1_desc:0 "Un enorme cannone ad accelerazione di massa che può essere installato solamente tramite montaggio spinale; spara colpi mostruosamente potenti a distanze impressionanti."
- tech_mass_accelerator_2:0 "Giga-Cannone"
+ tech_mass_accelerator_2:0 "Giga Cannone"
  tech_mass_accelerator_2_desc:0 "Una versione ancora più potente di cannone ad accelerazione di massa in grado di penetrare anche gli scudi più resistenti."
 
  # Auto-Cannon Branch

@@ -6,7 +6,7 @@
  ### Clone Army Origin
 
  clone_soldier:0 "Clone Soldato"
- origin_clone_army:0 "Armata dei Cloni"
+ origin_clone_army:0 "Armata di Cloni"
  origin_clone_army_desc:0 "Una specie di cloni soldato dalla vita breve e sterile, eccezionalmente abili in questioni di guerra, lasciati soli e senza padrone a mettere in discussione il loro scopo ingegneristico e il loro destino incerto."
  origin_tooltip_clone_army_effects:0 "- Inizia con due §Y2§! £building£ Edifici §H$building_clone_army_clone_vat$§! sul tuo Pianeta Natale, che producono Popolazione £pops£ §Y$clone_soldier$§!.\n- Le §R§HAntiche Vasche di Clonazione§! possiedono un §HLimite Imperiale§! di 5.§!\n- Gli §HAmmiragli§! dell'Armata dei Cloni garantiscono un §G25%§! addizionale alla §H$MOD_SHIP_FIRE_RATE_MULT$§! e una riduzione del §G10%§! sul §HCosto di Mantenimento delle Navi§!."
  trait_clone_soldier_infertile:0 "$clone_soldier$"
