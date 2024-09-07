@@ -1,0 +1,28 @@
+﻿l_english:
+ LEADER_TIER_TEXTURE_POSTFIX_RENOWNED: "_renowned"
+ LEADER_TIER_TEXTURE_POSTFIX_PARAGON: "_paragon"
+ LEADER_TIER_TEXTURE_POSTFIX_NONE: ""
+ LEADER_TIER_TEXTURE_POSTFIX: "[Root.LeaderTierTexturePostfix]"
+ TRAIT_KEY_POSTFIX_NONE: ""
+ TRAIT_KEY_POSTFIX_MACHINE: "_machine"
+ TRAIT_KEY_POSTFIX_HIVE: "_hive"
+
+ LEADER_TIER_FRAME: "[Root.LeaderTierNumber]"
+ LEADER_TIER_1: "1"
+ LEADER_TIER_2: "2"
+ LEADER_TIER_3: "3"
+
+ default_council_agenda_suffix: ""
+ machine_council_agenda_suffix: "_machine"
+ hive_council_agenda_suffix: "_hive"
+
+ prosperity_visual_ethics: "£xenophile£ £pacifist£"
+ isolationist_visual_ethic: "£xenophobe£ £pacifist£"
+ manifesti_visual_ethic: "£egalitarian£"
+ progressive_visual_ethic: "£egalitarian£"
+ supremacist_visual_ethic: "£xenophobe£ £militarist£"
+ technologist_visual_ethic: "£materialist£"
+ totalitarian_visual_ethic: "£authoritarian£"
+ traditionalist_visual_ethic: "£spiritualist£"
+ xenoist_visual_ethic: "£xenophile£ £egalitarian£"
+ imperialist_visual_ethic: "£authoritarian£ £militarist£"
