@@ -60,7 +60,7 @@
  ####################################
  # Corvette
  ####################################
- CORVETTE_MID_M1S1: "Nave Lanciamissili"
+ CORVETTE_MID_M1S1: ""
  CORVETTE_MID_S3: "Intercettore"
  CORVETTE_MID_S1: "Nucleo di Scambio"
  CORVETTE_MID_S2PD1: "Nave Picchetto"
@@ -69,12 +69,12 @@
  # Cruiser
  ####################################
  CRUISER_BOW_L1: "Artiglieria di Prua"
- CRUISER_BOW_M1S2: "Missili di Prua"
+ CRUISER_BOW_M1S2: ""
  CRUISER_BOW_M2: "Cannoni di Prua"
  CRUISER_MID_S2HB: "Hangar Centrale"
  CRUISER_MID_L1M1: "Artiglieria Centrale"
  CRUISER_MID_M3: "Cannoni Centrali"
- CRUISER_MID_M2S2: "Missili Centrali"
+ CRUISER_MID_M2S2: ""
  CRUISER_STERN_M1: "Cannoni di Poppa"
  CRUISER_STERN_S2: "Cannoniera di Poppa"
 
@@ -113,7 +113,7 @@
  ####################################
  # Other
  ####################################
- MISSILE_DEFAULT: "Sezione Missilistica"
+ MISSILE_DEFAULT: ""
  DEFAULT_CONSTRUCTION_SECTION: "Nave Cantiere"
  DEFAULT_COLONIZATION_SECTION: "Nave Colonia"
  DEFAULT_SCIENCESHIP_SECTION: "Nave Scientifica"
@@ -125,3 +125,5 @@
  DEFAULT_TRANSPORT_SECTION: "Nave Trasporto"
  SHIP_COLOSSUS_SECTION: "Colosso"
  GHOST_SHIP_SECTION: "Struttura Nave Fantasma"
+ lost_swarm_adult: ""
+ lost_swarm_adult_plural: ""
