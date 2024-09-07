@@ -19,7 +19,7 @@
 
  waiting_world_ruins: "Rovine Desolate"
  waiting_world_ruins_desc: "Il vento sospira tra le rovine. Nessuno si reca fin laggiù."
- d_mothballed_facilities: "Strutture in Disuso"
+ d_mothballed_facilities: ""
  d_mothballed_facilities_desc: "Distretti ed edifici terminati secondo i vecchi standard coloniali, ma ovviamente lasciati in disuso ed incuria per anni."
 
  loop_debris_01_object: "Detriti del Segnale Orizzonte"
@@ -48,7 +48,7 @@
 
  ### BUILDINGS
  building_akx_worm_1: "Nucleo Energetico a Spirale"
- building_akx_worm_1_desc: "Aumenta significativamente la produzione energetica del pianeta utilizzando tecniche che esulano dalla fisica convenzionale; tecniche implicate negli incubi notturni e quando si sogna di cadere."
+ building_akx_worm_1_desc: ""
 
  building_akx_worm_2: "Istituto del Loop"
  building_akx_worm_2_desc: "Gli insegnamenti del Loop incoraggiano l'intuizione, la conformità ed il senso di prospettiva."
@@ -135,7 +135,7 @@
  akx.9005.a.neutral: "Non verranno dimenticati."
 
  akx.9006.name: "Il Segnale Orizzonte: - Fine Messaggio -"
- akx.9006.desc: "[horizonsignal_firstleader.GetName] obbedisce, con un misto di riluttanza e sollievo. I rapporti psichici indicano che è soggetto ad incubi ricorrenti... parla di labirinti impossibili, dell'affamato vortice dello spazio interstellare, del suo nome pronunciato nell'oscurità. Nel giro di un anno, il messaggio si interrompe."
+ akx.9006.desc: ""
  akx.9006.a: "Ci è sfuggito qualcosa."
  akx.9006.b: "Ci siamo persi qualcosa."
 
@@ -161,7 +161,7 @@
  akx.9012.a: "Tuttavia, questa potrebbe non essere la fine."
 
  akx.9013.name: "Il Segnale Orizzonte: - Fine Messaggio -"
- akx.9013.desc: "[horizonsignal_secondleader.GetName] obbedisce, con evidente sollievo. I rapporti psichici indicano che è soggetto ad incubi ricorrenti... parla di labirinti impossibili, dell'affamato vortice dello spazio interstellare, del suo nome pronunciato nell'oscurità. Nel giro di un anno, il messaggio si interrompe."
+ akx.9013.desc: ""
  akx.9013.a: "Un'opportunità mancata."
  akx.9013.b: "Scampata per un pelo."
 
@@ -183,7 +183,7 @@
 
 
  akx.9023.name: "Il Segnale Orizzonte: - Fine Messaggio -"
- akx.9023.desc: "[horizonsignal_thirdleader.GetName] obbedisce, con evidente sollievo. I rapporti psichici indicano che è soggetto ad incubi ricorrenti... parla di labirinti impossibili, dell'affamato vortice dello spazio interstellare, del suo nome pronunciato nell'oscurità. Nel giro di un anno, il messaggio si interrompe."
+ akx.9023.desc: ""
 
  akx.9090.name: "Il Segnale Orizzonte: Causa ed Effetto"
  akx.9090.desc: "I nostri osservatori riferiscono che il loquace buco nero presente nel Sistema [horizonsignal_system.GetName] si è attivato per un attimo, alla morte di [horizonsignal_secondleader.GetName]. Un rapido ed incomprensibile segnale. Come un impeto di rabbia, aggiunge uno degli osservatori."
@@ -200,7 +200,7 @@
  ##THE LOOP TEMPLE: continuation of intro
 
  akx.9100.name: "Il Tempio del Loop: Tracce nella Pietra"
- akx.9100.desc: "Gli archeologi hanno ritrovato un tempio abbandonato nei remoti altopiani di [Root.GetName]... sepolto da secoli, ma di recente riaffiorato grazie ad un terremoto. Le tecniche di datazione suggeriscono che si tratta di una reliquia pre-industriale, scavata a mano nella roccia vulcanica. Tuttavia, il simbolo ricorrente sulle pareti e sull'altare, un serpente a forma di nastro di Möbius che si mangia la coda, non ha precedenti nella nostra storia recente, e le iscrizioni sono in un alfabeto sconosciuto. Uno degli archeologi suggerisce che si potrebbe trattare di una reliquia lasciata da una razza sconosciuta di precursori.\n\nPer una coincidenza presumibilmente insignificante, sembra che il sisma si sia verificato al termine dell'ultimo messaggio del buco nero nel Sistema [horizonsignal_system.GetName]."
+ akx.9100.desc: ""
  #create LOOP_TEMPLE_PROJECT
  akx.9100.spiritual.a: "Ci è stata aperta una via."
  akx.9100.neutral.a: "Merita alcuni studi."
@@ -211,7 +211,7 @@
  akx.9101.a.notspiritual: "Aprite il Tempio del Loop al pubblico."
  akx.9101.a.notspiritual.tooltip: "Qualcosa dal nostro passato. Ciò che fu, sarà."
  akx.9101.a.spiritual: "Rendete il Tempio del Loop un luogo di pellegrinaggio."
- akx.9101.a.spiritual.tooltip: "La saggezza della fede dei nostri antenati. Ciò che fu, sarà. Aumenta la felicità del pianeta, tra le altre cose."
+ akx.9101.a.spiritual.tooltip: ""
  akx.9101.b: "Riserva il Tempio per i soli studi accademici."
  akx.9101.b.tooltip: "Limitiamone l'accesso a chi ne ha davvero bisogno."
  akx.9101.c: "C'è qualcosa che non va. Sigillate il Tempio."
@@ -224,11 +224,11 @@
  ##THE MESSENGER: Worm-related event
 
  akx.9200.name: "Il Messaggero: §HCIÒ CHE FU, SARÀ§!"
- akx.9200.desc: "La [Root.GetName] ha localizzato un piccolo oggetto artificiale, minimamente alimentato, che trasmette un segnale continuo a distanza ravvicinata. Questo genere di oggetti solitamente si rivelano essere capsule di salvataggio, ed è proprio ciò che sembra. È qui fuori da molto tempo.\n\nQuando l'equipaggio la apre, osservando attentamente le procedure di quarantena, trova degli antichi resti conservati dall'ambiente sterile della capsula. Niente di insolito, per ora. Il capitano della [Root.GetName], tuttavia, indica che non si aspettava di trovare sulle pareti le parole §HCIÒ CHE FU, SARÀ; CIÒ CHE SARÀ, FU§! scritte con i fluidi corporei dell'occupante, che ora l'equipaggio chiama ironicamente il Messaggero. Gli scienziati aggiungono che sono presenti delle somiglianze anatomiche inaspettate tra la specie del Messaggero... e la nostra."
+ akx.9200.desc: ""
  #creates the MESSENGER_POD_PROJECT_1 special project
 
  akx.9201.name: "Il Messaggero: Possibilità"
- akx.9201.desc: "Abbiamo stabilito che la capsula di salvataggio è di un modello disponibile durante la precedente fase della civiltà galattica... nessuna nuova tecnologia. I resti del Messaggero, tuttavia, sono un'altra storia. Si tratta indiscutibilmente di un nostro antenato, o una variante della nostra specie. Forse abbiamo dei cugini là fuori... o forse siamo stati sottoposti a manipolazione genetica da una razza di precursori. [researchingscientist.GetName] chiede il permesso di condurre ricerche più approfondite."
+ akx.9201.desc: ""
  akx.9201.militarist.a: "Dategli il permesso di continuare."
  akx.9201.militarist.a.tooltip: "Aumenta la ricerca sulla Mappatura Genetica"
  #create MESSENGER_POD_PROJECT_2_UNLEASHED project
@@ -239,33 +239,34 @@
  akx.9201.c.tooltip: "Ci sono cose che è meglio non sapere."
 
  akx.9210.name: "Il Messaggero: Liberi"
- akx.9210.desc: "[researchingscientist.GetName] ha ricostruito la specie del Messaggero. È più debole rispetto a noi, ma possiede abilità cognitive decisamente migliori. Non siamo ancora in grado di stabilire se il Messaggero sia una versione modificata della nostra specie, o un nostro antenato. È un po' imbarazzante immaginare che potremmo discendere da una specie tanto debole... ma [researchingscientist.GetName] rimane di questa opinione. In effetti, considera la perdita delle abilità cognitive una \"tragedia\".\n\nTalmente una tragedia che ha deciso di alterare la sua fisiologia per renderla più simile a quella del Messaggero. Insiste che ciò gli permetterà di continuare al meglio il progetto."
+ akx.9210.desc: ""
  akx.9210.a: "Che tradimento creativo! Giustiziatelo, per favore."
  akx.9210.b: "Che tradimento creativo! Giustiziatelo e distruggete gli appunti."
  akx.9210.c: "Un'idea eccellente! Che prosegua."
 
  akx.9211.name: "Il Messaggero: Una Nuova Luce"
- akx.9211.desc: "[researchingscientist.GetName] ha ricreato il patrimonio genetico del Messaggero. Senza chiedere alcuna opinione, ha anche creato un agente retrovirale estremamente contagioso. Si sta dilagando tra i nostri pianeti. Sotto la sua influenza, gli appartenenti alla nostra specie dominante stanno cadendo in uno stato di coma metamorfico, risvegliandosi giorni dopo trasformati nella specie del Messaggero. Tutto ciò sta causando... un po' di agitazione."
+ akx.9211.desc: ""
  akx.9211.a: "È andato troppo oltre. Ora basta. Contenete l'epidemia."
- akx.9211.a.tooltip: "Tutta la Pop sul Pianeta Capitale verrà convertita, ma l'epidemia terminerà lì."
+ akx.9211.a.tooltip: ""
  akx.9211.b: "Contenete l'epidemia, ed epurate tutti i cittadini colpiti."
  akx.9211.b.tooltip: "Tutta la Pop colpita verrà §REpurata§!: quasi l'intera popolazione di [Root.Capital.GetName]."
- akx.9211.c: "Ciò che fu, sarà. Cambieremo. Portatemi un campione dell'agente."
- akx.9211.c.tooltip: "Verrà trasformata la nostra intera specie."
+ akx.9211.c: ""
+ akx.9211.c.tooltip: ""
 
  akx.9220.name: "Il Messaggero: Al Guinzaglio"
- akx.9220.desc: "[researchingscientist9220.GetName] ha ricostruito la specie del Messaggero. È piuttosto impressionante... diciamo preoccupante. Sembra decisamente più robusta ed aggressiva della nostra. Non siamo ancora in grado di stabilire se il Messaggero sia una versione modificata della nostra specie, o un nostro antenato. [researchingscientist9220.GetName] è convinto che un tempo fossimo una specie più belligerante, e che i precursori ci misero quindi una \"museruola genetica\". In effetti, considera la perdita delle abilità marziali una \"tragedia\".\n\nTalmente una tragedia che ha deciso di alterare la sua fisiologia per renderla più simile a quella del Messaggero. Insiste che ciò gli permetterà di continuare al meglio il progetto."
+ akx.9220.desc: ""
  akx.9220.a: "Che tradimento creativo! Giustiziatelo, per favore."
  akx.9220.b: "Che tradimento creativo! Giustiziatelo e distruggete gli appunti."
  akx.9220.c: "Un'idea eccellente! Che prosegua."
+ akx.9220.c.tooltip: ""
 
  akx.9221.name: "Il Messaggero: Cala la Notte"
- akx.9221.desc: "[researchingscientist9220.GetName] ha ricreato il patrimonio genetico del Messaggero. Senza chiedere alcuna opinione, ha anche creato un agente retrovirale estremamente contagioso. Si sta dilagando tra i nostri pianeti. Sotto la sua influenza, gli appartenenti alla nostra specie dominante stanno cadendo in uno stato di coma metamorfico, risvegliandosi giorni dopo trasformati nella specie del Messaggero. Tutto ciò sta causando... un po' di agitazione."
+ akx.9221.desc: ""
  akx.9221.a: "È andato troppo oltre. Contenete l'epidemia."
  akx.9221.a.tooltip: "Tutta la Pop sul Pianeta Capitale verrà convertita, ma l'epidemia terminerà lì."
  akx.9221.b: "Contenete l'epidemia, ed epurate tutti i cittadini colpiti."
  akx.9221.b.tooltip: "Tutta la Popolazione colpita verrà §REpurata§!: quasi l'intera popolazione di [Root.Capital.GetName]."
- akx.9221.c: "Ciò che fu, sarà. Fate circolare un campione dell'agente."
+ akx.9221.c: ""
  akx.9221.c.tooltip: "Verrà trasformata la nostra intera specie."
 
  ##################################
@@ -273,7 +274,7 @@
 
  akx.9300.name: "Un Appuntamento"
  akx.9300.desc: "La [Root.GetName] è stata contatta... dalla §HSyzygy§! di [Root.Owner.GetName]. La comunicazione è avvenuta nonostante il fatto che non abbia inviato alcun ID riconoscibile, e nessuna nave con quel nome sia mai stata commissionata. L'ufficiale in comando della Syzygy sostiene di essere il Capitano $H[mirrored_syzygy_admiral.GetName]§!."
- akx.9300.a.admiralabsent: "Uhm. Il nostro ammiraglio che porta quel nome sta bene ed è altrove."
+ akx.9300.a.admiralabsent: ""
  akx.9300.a.admiralabsent.tooltip: "Aprite le comunicazioni."
  akx.9300.a.admiralpresent: "Interessante. [mirrored_syzygy_admiral.GetName] è qui."
  akx.9300.b: "DEVE essere un'imboscata. Non corriamo rischi. Alle armi."
@@ -283,7 +284,7 @@
  akx.9310.a: "Che succede qui? Sei veramente [mirrored_syzygy_admiral.GetName]?"
  akx.9310.a.response: "§G\"Se lo sono? Voi siete gli stessi dello scorso anno? Ogni giorno è una morte. Ogni futuro è una scelta. Il tempo è un labirinto, non una strada.\"§!\n\nUn sogghigno... sembra non stia bene.\n\n§G\"Chiedetelo al Loop.\"§!"
  akx.9310.b: "Se vuoi morire, perché aspettare? Hai mille modi per farlo."
- akx.9310.b.response: "§G\"Non ricordate? Certo che no, ancora... e nemmeno potreste, ora, se ci siete riusciti. Il Loop ha bisogno di sacrifici, e li desidera così.\"§! Un'agonizzante colpo di tosse. §G\"Meglio non scherzare con il Loop.\"§!"
+ akx.9310.b.response: ""
  akx.9310.c: "Cos'è il Loop?"
  akx.9310.c.response: "§G\"Il Loop è ciò che è venuto prima e ciò che verrà in seguito... il §!§HVerme in Attesa§!§G... e, suppongo, che il Verme sia il Loop. Diciamo che se il tempo è un labirinto\"§!... il Capitano inizia a gesticolare inutilmente... §G\"allora il Loop è il suo mostro. Od il suo creatore... no, non riesco a spiegarlo... ne saprete di più molto presto. L'avete già fatto, nel mio passato... Armi bloccate?\"§!"
  akx.9310.d.notpacifist: "Arrenditi. Qualunque cosa tu abbia fatto, possiamo aiutarti."
@@ -310,7 +311,7 @@
  akx.9315.b: "Così sia."
 
  akx.9319.name: "Un Appuntamento: Interferenza"
- akx.9319.desc: "Un messaggio disturbato proviene dal Capitano della Syzygy, nel Sistema [syzygy_location.GetStarName]. Dietro di lui, il ponte è avvolto nel fumo. §G\"Troppo tardi,\"§! tossisce. §G\"Ci avete messo troppo. Il Loop non mi perdonerà. Vi prego...\"§!\n\nIl messaggio termina qui."
+ akx.9319.desc: ""
  akx.9319.a: "Chi è stato?"
  akx.9319.a.tooltip: "La Syzygy è stata distrutta da un altro impero. Se raggiungerai il sistema prima che i detriti vadano alla deriva, potresti trovare qualcosa di utile."
 
@@ -323,7 +324,7 @@
  akx.9321.b: "Ciò che fu, sarà; ciò che sarà, fu."
 
  akx.9330.name: "Un Appuntamento: Il Giorno e l'Ora"
- akx.9330.desc: "Durante l'anno seguente, abbiamo ricevuto dei rapporti indicanti la presenza dell'ammiraglio [From.GetName] in vari punti del nostro spazio, ed oltre. Quando un Leader famoso muore, accadono questo genere di cose, naturalmente; ed è diventato una specie di leggenda dal momento dell'incontro con la Syzygy. Ma non possiamo esserne certi."
+ akx.9330.desc: ""
  akx.9330.a: "Potremmo non saperlo mai."
  akx.9330.b: "Oh, possiamo esserne certi."
 
@@ -402,12 +403,12 @@
  akx.9510.b.tooltip: "Ciò causerà infelicità nella colonia."
 
  akx.9520.name: "Il Mondo in Attesa: Troppi"
- akx.9520.desc: "Arrivano notizie interessanti da [waiting_world.GetName], dove abbiamo trovato i distretti abbandonati. Un censimento mostra che il numero di coloni è più alto del previsto. I dati sulle nuove colonie sono sempre imprecisi, ma da quanto ne sappiamo sembra che tutti siano in possesso di documenti validi... e che nessuno abbia denunciato la presenza di stranieri. Ma o il tasso di natalità è estremamente alto, o ci troviamo di fronte ad un'immigrazione irregolare, o... qualcosa del genere. In qualche modo, la popolazione è maggiore di quanto dovrebbe essere."
+ akx.9520.desc: ""
  akx.9520.a: "Distruggete quei distretti. Avremmo dovuto farlo molto tempo fa."
  akx.9520.b: "Indagate a fondo; tenete d'occhio la situazione."
 
  akx.9525.name: "Il Mondo in Attesa: E Ne Arrivano Altri"
- akx.9525.desc: "Un altro aggiornamento da [waiting_world.GetName], dove abbiamo trovato i distretti abbandonati. Il numero di coloni continua ad aumentare, ed ora si trovano alcune irregolarità nei registri... nuclei familiari che non dovrebbero esistere, date di nascita senza senso. Deve trattarsi di un canale d'immigrazione clandestino da una colonia perduta, o qualche sorta di sabotaggio da parte dei coloni."
+ akx.9525.desc: ""
  akx.9525.a: "Distruggete quei distretti. Avremmo dovuto farlo molto tempo fa."
  akx.9525.b: "Strano! Ma c'è sempre posto per altri coloni. Continuate ad indagare."
 
@@ -437,7 +438,7 @@
  akx.9541.b: "Ditelo a tutti. Che ci odino pure, basta che ci temano."
 
  akx.9545.name: "Il Mondo in Attesa: Tutto e Niente"
- akx.9545.desc: "La nostra squadra riferisce che la popolazione del pianeta è sana, normale ed apparentemente disorientata da tutto questo trambusto. Sono presenti alcune peculiarità, tuttavia. Un numero insolito di parti gemellari; una ripugnanza planetaria nei confronti della puntualità; ed alcune fluttuazioni nelle radiazioni solari, caratteristiche delle stelle pre-supernova. Osservano anche un certo numero di \"eventi luminosi\" sulla superficie, in cui la luce viene in qualche modo accumulata e rilasciata dalle funzioni prismatiche dell'atmosfera. Questi sono dati importanti e peculiari. Ma potrebbero essere una coincidenza. La sorte dei coloni rimane un mistero."
+ akx.9545.desc: ""
  akx.9545.a: "\"Ciò che sarà, fu.\""
  akx.9545.b: "Coloni... i coloni sono strani."
 
@@ -486,7 +487,7 @@
  akx.10010.b: "NO. Siamo qui per imparare e, nel caso, eliminarlo."
 
  akx.10020.name: "Il Futuro"
- akx.10020.desc: "Il Verme ci ama. Ci amerà per sempre, e l'ha sempre fatto. Si snoda attorno al cuore della nostra stella natale. Si snoda attorno ad ogni spira infinitesimale d'informazione genetica. Provoca una serie di cataclismi che scuotono la crosta del nostro pianeta... ma quando la nostra stella inizia a raffreddarsi... quei cataclismi ci riscaldano. Capiamo molto di più. Saremo per sempre ciò che eravamo destinati ad essere, l'amore estremo del Verme."
+ akx.10020.desc: ""
  akx.10020.a: "CIÒ CHE FU, DEVE ESSERE... CIÒ CHE DEVE ESSERE, FU"
 
  akx.10021.name: "Il Loop in Frantumi"
