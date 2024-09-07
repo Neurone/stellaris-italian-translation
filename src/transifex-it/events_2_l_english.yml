@@ -13,9 +13,9 @@
  AST_WAVELENGTHS_1_CAT: "Ondate di Asteroidi"
  AST_WAVELENGTHS_1_DESC: "L'asteroide [Root.GetName] sta emettendo una sorta di radiazione con raffiche controllate. Qualcuno, o qualcosa, sta cercando di comunicare con noi?"
  AST_DEBRIS_FIELD_1_CAT: "Campo di Detriti"
- AST_DEBRIS_FIELD_1_DESC: "I sensori segnalano un certo numero di possibili punti d'interesse all'interno del denso campo di detriti che circonda [Root.GetName]."
+ AST_DEBRIS_FIELD_1_DESC: ""
  HBL_LUSH_PLANET_1_CAT: "Pianeta Lussureggiante"
- HBL_LUSH_PLANET_1_DESC: "[Root.GetName] è di un verde eccezionale, e le scansioni preliminari indicano che potrebbero essere presenti molte cose interessanti sulla superficie."
+ HBL_LUSH_PLANET_1_DESC: ""
  UHB_ANCIENT_RUINS_1_CAT: "Monoliti"
  UHB_ANCIENT_RUINS_1_DESC: "La superficie di [Root.GetName] è disseminata di strutture impressionanti, che in pratica supplicano di essere esplorate con degli scavi archeologi."
  UHB_MOLTEN_CHART_CAT: "Fusione"
@@ -31,7 +31,7 @@
  AST_ILLICIT_DARK_CAT: "Asteroide Radioattivo"
  AST_ILLICIT_DARK_DESC: "[Root.GetName] emette periodicamente nel vuoto un miscuglio pericolosamente variegato di particelle e radiazioni."
  TOX_PURPLE_RAIN_CAT: "Veleno Colorato"
- TOX_PURPLE_RAIN_DESC: "La biosfera tossica di [Root.GetName] dona al pianeta uno spettro di colori davvero unico."
+ TOX_PURPLE_RAIN_DESC: ""
  FROZ_BASE_CAT: "Lande Gelide"
  FROZ_BASE_DESC: "I sensori rilevano un'attività inaspettata da un punto isolato sulla superficie ghiacciata di [Root.GetName]."
  FROZ_BASE2_CAT: "Pianure di Ghiaccio"
@@ -173,7 +173,7 @@
  anomaly.106.a.phobe: "Ho deciso. Gettate il disco nel loro sole."
  anomaly.106.a.phile: "Avete urlato nel vuoto, e noi siamo venuti."
  anomaly.110.name: "Voci dal Passato"
- anomaly.110.desc: "In una fortezza abbandonata sulla superficie di [From.GetName], probabilmente la roccaforte di qualche razza primitiva estinta da tempo, un disco d'oro giace su un piedistallo, sotto una spessa coltre di polvere.\n\nDestinato in un primo momento ad essere conservato, come un artefatto minore legato a una qualche religione aliena, presto un computer lo identifica come il disco fonografico d'oro lanciato originariamente con la sonda Voyager."
+ anomaly.110.desc: ""
  anomaly.110.a: "Fatemelo sentire. Ora."
  anomaly.115.name: "Celle di Cellule"
  anomaly.115.desc: "[From.GetName] è parzialmente vuoto. Al suo interno si estende una densa struttura a nido d'ape, realizzata con una lega sconosciuta, che ospita contenitori di materiale genetico alieno. A quanto sembra si tratta di un archivio, la memoria genetica di una civiltà precedente, sorta ed estinta. La maggior parte del DNA è irrimediabilmente degradato, ma c'è ancora molto da imparare."
@@ -192,56 +192,58 @@
  anomaly.130.desc: "La [Root.GetName] ha temporaneamente interrotto la scansione dell'asteroide perché una sonda è stata catturata da un'anomalia gravitazionale errante.\n\nLa sonda cerca di trasmettere qualche dato prima di essere brutalmente distrutta dalle forze estreme... forze che sono del tutto svanite poco dopo."
  anomaly.130.a: "Almeno nessuno è rimasto ferito."
  anomaly.135.name: "Parco Divertimenti Abbandonato"
- anomaly.135.desc: "Le strutture su [From.GetName] non sono così antiche come credevamo all'inizio. Sembra trattarsi di un campo da gioco o un parco divertimenti di qualche tipo. L'Ufficiale Scientifico [Root.GetLeaderName] osserva che molti dei congegni sono creazioni estremamente complesse, da cui possiamo imparare molto e che, agli occhi alieni dei costruttori, questo potrebbe essere stato una matrice di sensori all'avanguardia, od anche un'installazione artistica gigante.\n\nComunque, a noi [Root.Owner.GetSpeciesNamePlural], sembra più un luogo in cui portare i giovani e lasciare che si divertano."
+ anomaly.135.desc: ""
+
  anomaly.140.name: "Santuario Familiare"
- anomaly.140.desc: "Quasi tutto l'asteroide è stato scolpito con dei laser ad alta precisione per creare un piccolo tempio [Root.Owner.GetSpeciesAdj], od un grande santuario.\n\nUn santuario dedicato all'Innominato, la grande divinità distruttrice degli antichi culti [Root.Owner.GetSpeciesName].\n\nIl tempio ha girovagato nella quiete dello spazio da molto prima che scoprissimo il volo spaziale, il che è... inquietante, nella migliore delle ipotesi.\n\nTerrificante, nella peggiore.\n\nNaturalmente, l'Ufficiale Scientifico [Root.GetLeaderName] ci esorta a cercare altri oggetti spaziali che corrispondano alle caratteristiche di questo tempio, ed ha caricato nel Registro Eventi una lista dei probabili candidati nei vicini sistemi."
+ anomaly.140.desc: ""
  anomaly.140.a: "Forse sarebbe meglio non farlo."
- anomaly.140.a.tooltip: "Lasciate che gli dèi dormienti continuino a riposare."
+ anomaly.140.a.tooltip: ""
  anomaly.140.b: "Andiamo a dare un'occhiata allora."
- anomaly.140.b.tooltip: "Inizia la catena di eventi Antichi Dèi."
  anomaly.140.c: "Non tollereremo questa eresia."
  anomaly.140.c.tooltip: "Ordina alla [Root.GetName] di radere al suolo il santuario."
  anomaly.142.name: "Antichi Dèi: Avvicinamento alla Benefattrice"
- anomaly.142.desc: "La [Root.GetName] è entrata nel Sistema [Root.GetStarName] ed il suo equipaggio riferisce che un oggetto simile al santuario all'Innominato è in orbita attorno alla stella."
+ anomaly.142.desc: ""
  anomaly.142.a: "Indaghiamo."
  anomaly.143.name: "Antichi Dèi: Avvicinamento all'Imperturbabile"
- anomaly.143.desc: "La [Root.GetName] è entrata nel Sistema [Root.GetStarName] ed il suo equipaggio riferisce che un oggetto simile al santuario all'Innominato è in orbita attorno alla stella."
+ anomaly.143.desc: ""
  anomaly.143.a: "Ottimo lavoro."
  anomaly.144.name: "Antichi Dèi: Avvicinamento al Percettivo"
- anomaly.144.desc: "La [Root.GetName] è entrata nel Sistema [Root.GetStarName] ed il suo equipaggio riferisce che un oggetto simile al santuario all'Innominato è in orbita attorno alla stella."
+ anomaly.144.desc: ""
  anomaly.144.a: "Ricevuto."
+
  anomaly.145.name: "Che Musica Fanno"
- anomaly.145.desc: "Gli animali di [From.GetName], sia predatori che prede, si riuniscono quando cala la notte e...\n\ncantano.\n\nGli ululati, gli schiocchi, gli stridii, i ruggiti ed i fischi sono a dir poco discordanti, ma creano una melodia riconoscibile. E non è nemmeno male, a sentire ciò che racconta l'equipaggio della [Root.GetName].\n\nIl coro non senziente è ovviamente il lavoro di qualche entità aliena, e potremmo non conoscere mai lo scopo dietro all'alterazione della fauna di [From.GetName].\n\nPossiamo però almeno iniziare a capire come hanno fatto."
+ anomaly.145.desc: ""
  anomaly.150.name: "Sotto Zro"
- anomaly.150.desc: "[From.GetName] non è solo un gigante ghiacciato, ma un gigante composto da ghiacci molto insoliti. Sono presenti sacche di Zro a portata di mano, intrappolate nei livelli superiori dell'atmosfera del pianeta."
+ anomaly.150.desc: ""
  anomaly.150.a.tooltip: "Trovato un deposito di §YZro§!."
  anomaly.155.name: "Materia Illecita"
- anomaly.155.desc: "[Root.GetName] ha trovato un inquietante groviglio di tecnologia nascosto in un profondo cratere sulla superficie dell'asteroide.\n\nEvidentemente qualcuno è riuscito, con mezzi piuttosto semplici, a stabilizzare un tunnel spaziale a senso unico, e l'ufficiale scientifico [Root.GetLeaderName] afferma rapidamente che l'asteroide è il punto di uscita. L'altra estremità si apre da qualche parte nello spazio inesplorato a qualche anno luce di distanza da un buco nero, e piccole quantità di materia oscura fuoriescono - vengono travasate - attraverso il tunnel spaziale.\n\nChiunque l'abbia creato sembra aver abbandonato l'operazione."
+ anomaly.155.desc: ""
  anomaly.155.a.tooltip: "Trovato deposito di §YMateria Oscura§!."
  anomaly.160.name: "Pioggia Purpurea"
  anomaly.160.desc: "Le immagini dell'affascinante pioggia color porpora di [From.GetName], catturate dalle sonde di superficie della [Root.GetName], in qualche modo sono finite nelle mani dell'élite culturale di [Root.Owner.Capital.GetName].\n\nSebbene la scoperta non abbia alcun valore scientifico, le suggestive immagini scatenano una piccola rinascita nel mondo dell'arte, i cui effetti positivi si faranno sentire negli anni a venire."
+
  anomaly.165.name: "Antichi Dèi: Santuario della Benefattrice"
- anomaly.165.desc: "Decifrare i pittogrammi nel santuario della Benefattrice è stato un processo molto più agevole del previsto. Tutti i linguisti coinvolti riportano come la lingua perduta si \"connettesse\" velocemente alle loro menti, nonostante la complessità.\n\nTuttavia, è improbabile che gli scritti abbiano molto senso, finché non verranno combinati con le altre scritture associate al resto del quadrumvirato divino."
+ anomaly.165.desc: ""
  anomaly.166.name: "Antichi Dèi: Santuario dell'Imperturbabile"
- anomaly.166.desc: "Dopo giorni di attività, che può essere meglio definita come \"armeggiare\", l'Ufficiale Scientifico [Root.GetLeaderName] ha recuperato la dottrina dell'Imperturbabile, un rotolo in tessuto rivestito da un robusto polimero plastico."
+ anomaly.166.desc: ""
  anomaly.167.name: "Antichi Dèi: Santuario del Percettivo"
- anomaly.167.desc: "L'ufficiale Scientifico [Root.GetLeaderName] ha fatto rapporto sulle scoperte della [Root.GetName] nel Santuario del Percettivo. Hanno riconosciuto fin da subito un testo, composto da alcune incisioni logografiche, intarsiato nelle pareti, pesantemente distorto da strati di lacca trasparente.\n\nI tentativi iniziali di decodifica, basati sulla pura potenza di elaborazione dei computer della [Root.GetName] per ricostruire il testo dalle immagini, si sono dimostrati infruttuosi, dato che erano troppo distorte per inserirle in qualsiasi albero linguistico noto. Successivamente, l'equipaggio della [Root.GetName] ha tentato di bombardare la lacca con luce di diverse lunghezze d'onda ed intensità, ma non sono state osservate reazioni positive. A quanto pare, [Root.GetLeaderName] ha consigliato di separare fisicamente la lacca dal testo intarsiato, ma si è reso conto che gli strani glifi sono stati senza dubbio originariamente creati deformi, solo per assumere la loro giusta forma quando osservati in modo corretto attraverso la lente della lacca.\n\nL'Ufficiale Scientifico [Root.GetLeaderName] stava per dichiarare la missione un fallimento quando, alzando gli occhi mentre passeggiavano irritati lungo il bordo dello spazio circolare, si sono resi conto che alcune linee distinte di testo si erano momentaneamente formate davanti ai loro occhi, dissolvendosi solo per essere rimpiazzate da nuove linee.\n\nNon molto tempo dopo avevano il soffitto, le pareti ed il pavimento impresse con un modello a spirale. I testi degli altri santuari dovrebbero aiutarci a mettere assieme tutti i pezzi."
+ anomaly.167.desc: ""
  anomaly.168.name: "Antichi Dèi: Rivelazioni"
- anomaly.168.desc: "La dottrina completa degli dèi... è così che devono essere considerati i testi recuperati; fa impallidire i frammenti fiabeschi su cui erano fondate le vecchie religioni... è tanto incredibilmente rivelatrice quanto rivoluzionaria.\n\nCon un po' d'interpretazione creativa, è chiaro che la gente di [Root.Capital.GetName] era destinata a grandi cose, guidata dalla mano forte di un Leader religioso.\n\nIl nostro cammino è verso la divinità, ma il nostro passato è pieno di profezie non realizzate e peccati che nascono dall'ignoranza. La redenzione è effimera."
+ anomaly.168.desc: ""
  anomaly.168.a: "Nascondi le scoperte."
- anomaly.168.a.tooltip: "Il sapere è potere. Un sapere segreto è un potere segreto."
- anomaly.168.b: "Monetizza le scoperte."
- anomaly.168.b.tooltip: "Alcune delle corporazioni più ricche hanno fiutato l'affare, e sono molto interessate."
+ anomaly.168.a.tooltip: ""
+ anomaly.168.b: ""
+#  anomaly.168.b.tooltip:0 "Some of the wealthier faith-corporations have caught wind of the affair, and are very interested."
  anomaly.168.c: "Ma cosa possiamo imparare da questo?"
- anomaly.168.c.tooltip: "Indipendentemente dalla veridicità o dalla validità dei testi sacri, resta il fatto che condividiamo concetti religiosi con un'antica, sconosciuta razza di viaggiatori spaziali."
- anomaly.168.d: "Camminiamo sulle orme del divino!"
+#  anomaly.168.c.tooltip:0 "Regardless of the veracity or validity of the sacred texts, the fact remains that we share religious concepts with some older, unknown spacefaring race."
+ anomaly.168.d: ""
  #anomaly.168.d.tooltip:1 "Start a religious renaissance.\nYour native population gains the §YFanatic Spiritualist§! and §YAuthoritarian§! Ethics."
- anomaly.169.name: "Accettare il Mandato Divino"
- anomaly.169.desc: "Il popolo [Root.GetSpeciesAdj] invoca qualcuno per guidarlo nella sua nuova, vecchia fede."
- anomaly.169.a: "Non dobbiamo cambiare il modo in cui facciamo le cose."
- #anomaly.169.a.tooltip: "n/a"
- anomaly.169.b: "La nostra gente merita una guida."
- anomaly.169.b.tooltip: "§YRIFORMA IL GOVERNO§! istantaneamente in §YMANDATO DIVINO§!."
+#  anomaly.169.name:0 "Accepting the Divine Mandate"
+#  anomaly.169.desc:0 "The [Root.GetSpeciesName] people cry out for someone to lead them in their new, old faith."
+#  anomaly.169.a:0 "We should not change how we do things."
+#  anomaly.169.b:0 "Our people deserve guidance."
+#  anomaly.169.b.tooltip:0 "Instantly §YREFORM GOVERNMENT§! to §YDIVINE MANDATE§!."
+
  anomaly.170.name: "L'Esule"
  anomaly.170.desc: "Le letture provengono da un piccolo avamposto di ricerca sconosciuto sulla superficie di [From.GetName]. È gestito da uno scienziato [Root.Owner.GetSpeciesAdj], abbastanza talentuoso, se possiamo dar credito alla sua ricerca su [From.GetName]. C'è un problema per quanto riguarda la sua identità però; non siamo stati in grado di compararlo con i nostri registri di stato ufficiali, e si rifiuta d'identificarsi, salvo per affermare che è \"in esilio\".\n\nHa espresso interesse nel tornare su [Root.Owner.Capital.GetName] e servire direttamente il popolo [Root.Owner.GetSpeciesAdj], a condizione che la [Root.GetName] lasci subito [From.GetName] e che nessuna nostra nave faccia più ritorno."
  anomaly.170.a: "È fuori questione. Esplora ogni angolo di quell'avamposto."
@@ -254,7 +256,7 @@
  anomaly.172.name: "Verso il Basso"
  anomaly.172.desc: "C'è qualcosa di insolito nell'avamposto di ricerca su [From.From.GetName]. La struttura di per se è un luogo abbastanza comune, un rifugio temporaneo eretto contro i feroci elementi, che permette lo studio planetario a livello superficiale per un tempo limitato, prima che si logori e le condizioni diventino insostenibili. Ma è situato sulla cima di una formazione rocciosa che si erge dal mare di ghiaccio che ricopre il pianeta.\n\nL'equipaggio della [Root.GetName] ha trovato un intricato sistema di caverne e passaggi che portano all'interno di questa montagna, accessibile dall'avamposto di ricerca.\n\nIn una delle sale più grandi, hanno trovato i resti mummificati del personale originale dell'avamposto. Questo contingente di ricercatori era stato originariamente spedito altrove, ma evidentemente ha deviato su questo pianeta disabitato ed ostile per allestire un laboratorio.\n\nNaturalmente, l'auto-proclamato \"esule\" è ormai introvabile. La [Root.GetName] ha lanciato una delle sue capsule di salvataggio, per trasportare i corpi dei defunti su [Root.Owner.Capital.GetName]."
  anomaly.175.name: "Salato"
- anomaly.175.desc: "La Nave Scientifica [Root.GetName] ha deluso le aspettative sul ritrovamento di possibili attività sulla superficie ghiacciata di [From.GetName]. Apparentemente non c'è nulla degno di nota, solo ghiaccio e rocce.\n\nTuttavia, l'Ufficiale Scientifico [Root.GetLeaderName], uno chef auto-proclamato ed appassionato di storia, sostiene di aver fatto una scoperta importante. Un composto chimico che si trova negli strati superficiali del ghiaccio in diverse regioni di [From.From.GetName], sarebbe presumibilmente correlato con il Sale Stellare [Root.Owner.GetSpeciesAdj], un ingrediente fondamentale di molti piatti tradizionali, che si credeva estinto su [Root.Owner.Capital.GetName]. È stato a lungo ipotizzato che il Sale Stellare [Root.Owner.GetSpeciesAdj] non fosse mai stato nativo del nostro pianeta, ma portato sulla superficie in un lontano passato a seguito di alcuni impatti meteorici. Le scoperte dell'Ufficiale Scientifico su [From.GetName] danno qualche credito a questa teoria, comunque [Root.GetLeaderName] fa molto affidamento sulle proprietà descritte in antichi libri di cucina antecedenti alla datazione con la moderna chimica, per dimostrare la connessione salina.\n\nChe il sale, analizzato e sintetizzato, abbia effettivamente il sapore dell'antico Sale Stellare [Root.Owner.GetSpeciesAdj] non conta molto. Solo l'idea che i cibi tradizionali possano ora avere dei profili di sapore storicamente più accurati, stimolerà sia l'economia che il palato [Root.Owner.GetSpeciesAdj]."
+ anomaly.175.desc: ""
  anomaly.175.a: "Saporito."
  anomaly.180.name: "Nimkip"
  anomaly.180.desc: "[From.From.GetName] è popolato da minuscole forme di vita colorate che si situano a metà tra flora e fauna. Mancano di qualsiasi potenziale evolutivo, ma il loro coordinamento come gruppo e la grande forza relativa alla loro dimensione è impressionante.\n\nL'Ufficiale Scientifico [Root.GetLeaderName] li ha presi in simpatia, ammettendo un debole particolare per \"quelli rossi\"."
@@ -373,7 +375,7 @@
  anomaly.285.a: "Ancora più intrigante."
  anomaly.285.a.tooltip: "Aggiunge il modificatore §YTettonica Insolita§! a [From.GetName]:\n£engineering£ §G+2§!\n£physics£ §G+2§!"
  anomaly.290.name: "Roccia Potenziale"
- anomaly.290.desc: "[From.GetName] è eccezionalmente ricco di minerali.\n\nMinerali che non sono, purtroppo, di alcuna utilità per noi. Tuttavia, l'Ufficiale Scientifico [Root.GetLeaderName] ritiene che i molti elementi nella crosta di [From.GetName] possano essere trasformati in forme potenzialmente più utili attraverso bombardamento positronico.\n\nLa [Root.GetName] richiede 100 Crediti Energetici per le finalità di questo progetto."
+ anomaly.290.desc: ""
  anomaly.290.a: "No. No, non lo faremo."
  anomaly.290.b: "Molto bene, preparate le cariche positroniche."
  #anomaly.292.desc: "The crew of the [Root.GetName] are pleased to report that the experiment was a success, and a significant number of dense mineral veins on [From.From.GetName] have been transmuted into precious metals."
@@ -422,6 +424,7 @@
  anomaly.3035.b: "Tipico."
  anomaly.3040.name: "Pirati Esuli"
  anomaly.3040.desc: "Quello che pensavamo essere un giacimento minerario, si è rivelato essere invece il metallo di due corvette aliene, furtivamente alla deriva nella fascia di asteroidi.\n\nL'Ufficiale Scientifico [Root.GetLeaderName] ha stabilito un contatto, constatando che le due navi appartengono ad ex pirati scacciati dalla loro banda. Gli sono giunte voci che indicano [Root.Owner.GetRulerName] come un campione del popolo, e chiedono asilo."
+ anomaly.3040.desc.fallback: ""
  anomaly.3040.a: "Potrebbero rendersi utili."
  anomaly.3040.a.tooltip: "Arruola i pirati esiliati ed ottieni due §YCorvette§!."
  anomaly.3040.b: "Non abbiamo bisogno dei loro servigi. Prendete tutto ciò che hanno ad eccezione delle loro vite."
@@ -462,8 +465,8 @@
  anomaly.3065.a: "Forse possiamo imparare qualcosa sulla vita nello spazio."
  anomaly.3065.b: "Forse possiamo imparare qualcosa sulla vita nello spazio."
  anomaly.3070.name: "Giù per il Tubo"
- anomaly.3070.desc: "Le letture provengono da una piccola capsula metallica; l'Ufficiale Scientifico [Root.GetLeaderName] ha determinato che si tratta di una scialuppa di salvataggio di antica fattura aliena.\n\nEvidentemente fu catturata dalla gravità del buco nero eoni fa, da allora ha combattuto con i suoi propulsori contro la traiettoria di discesa. Ora è troppo vicina all'orizzonte per essere salvata.\n\nIl rapporto di [Root.GetLeaderName] termina bruscamente, e l'equipaggio della [Root.GetName] comunica che l'Ufficiale Scientifico è troppo scosso e turbato dal tragico destino della scialuppa."
- anomaly.3070.desc.mach: "Le letture provengono da una piccola capsula metallica; l'Ufficiale Scientifico [Root.GetLeaderName] ha determinato che si tratta di una scialuppa di salvataggio di antica fattura aliena.\n\nEvidentemente fu catturata dalla gravità del buco nero eoni fa, da allora ha combattuto con i suoi propulsori contro la traiettoria di discesa. Ora è troppo vicina all'orizzonte per essere salvata.\n\nIl rapporto di [Root.GetLeaderName] termina bruscamente, e l'equipaggio della [Root.GetName] comunica che l'Ufficiale Scientifico è troppo scosso e turbato da questi nuovi dati, in quanto hanno significativamente alterato le statistiche di valutazione dei rischi relative alla probabilità di sopravvivenza."
+ anomaly.3070.desc: ""
+ anomaly.3070.desc.mach: ""
  anomaly.3070.a: "Comprensibile."
  anomaly.3075.name: "Radiazione Irrilevante"
  anomaly.3075.desc: "Le letture ricevute da questo sistema provengono, a sorpresa, dallo stesso [From.GetName].\n\nIl buco nero si presente piuttosto piccolo, il che potrebbe voler significare che una parte della radiazione potrebbe essere rilasciata dal suo orizzonte degli eventi. L'Ufficiale Scientifico [Root.GetLeaderName] crede che il buco nero stia per collassare, e che presto scomparirà del tutto; anche se è difficile calcolare se questo processo terminerà prima della morte dell'universo. Alcuni sconvolgimenti gravitazionali durante la giovinezza del buco nero l'hanno reso, per citare le parole di [Root.GetLeaderName], \"traballante\", aumentando così ulteriormente il flusso d'energia del suo orizzonte degli eventi."
@@ -527,6 +530,7 @@
  anomaly.3099.name: "I Sequestratori: Salvatori Inaspettati"
  anomaly.3099.desc: "L'azione militare [From.From.GetAdj] ha distrutto le forze dei Sequestratori.\n\nI prigionieri [Root.GetSpeciesNamePlural] sono riusciti a fuggire durante l'attacco, ed ora sono al sicuro a bordo di una scialuppa di salvataggio."
  anomaly.3099.a: "Saremo eternamente grati."
+ opinion_live_captives: ""
  anomaly.3100.name: "I Sequestratori: Assalto"
  anomaly.3100.desc: "L'azione militare di una forza sconosciuta ha distrutto i pirati Sequestratori.\n\nMiracolosamente, i prigionieri [Root.GetSpeciesNamePlural] sono riusciti a fuggire ed a requisire una scialuppa di salvataggio durante l'attacco, ed ora sono sulla strada per [Root.Capital.GetName]."
  anomaly.3100.a: "Decisamente provvidenziale, e misterioso."
@@ -656,19 +660,19 @@
 
  # Rogue Scientist
  country.1000.name: "Voglia di Viaggiare"
- country.1000.desc: "Il Consiglio del nostro Dipartimento di Ricerca Fisica.\n\nAssieme al loro prototipo estremamente sperimentale di Nave Scientifica, finanziato con fondi privati.\n\nL'incidente ha creato subbuglio nella comunità scientifica di [Root.Capital.GetName]."
+ country.1000.desc: ""
  country.1000.a: "Che strano."
  country.1001.name: "Voglia di Viaggiare: Uno Scopo"
- country.1001.desc: "La posizione del Consiglio... ora tecnicamente ex Consiglio della Ricerca Fisica... non è ancora stata accertata. Ci sono giunte voci su alcuni dettagli del prototipo di Nave Scientifica e sulle ricerche private del Consiglio e, sebbene alcuni aspetti siano troppo assurdi per essere veri, è chiaro che sia nel nostro miglior interesse ritrovare e recuperare i Membri il prima possibile.\n\nIl Registro Eventi è stato aggiornato."
+ country.1001.desc: ""
  country.1001.a: "Molto bene."
  country.1001.a.tooltip: "Inizia la Catena di Eventi \"Voglia di Viaggiare: Scienziati Scomparsi\""
  country.1003.name: "Voglia di Viaggiare: Vicolo Cieco"
- country.1003.desc: "Il Consiglio non si trova in questo sistema.\n\nO la traccia era falsa, o la pista si è raffreddata."
+ country.1003.desc: ""
  country.1003.a: "Continuiamo a cercare."
  country.1005.name: "Voglia di Viaggiare: Un Barlume"
- country.1005.desc: "The Physicist's ship is in this system - we think.\n\nWe are unable to lock in their position on sensors, but they are hailing us. Patching them through to [Root.Capital.GetName]."
+ country.1005.desc: ""
  country.1005.a: "Aprite le comunicazioni."
- country.1010.name: "Consiglio del Dipartimento di Fisica" # diplo w/ scientist
+ country.1010.name: "" # diplo w/ scientist
  country.1010.desc: "Salve, [Root.GetRulerTitle].\n\nSuppongo che questa non sia una chiamata di cortesia..."
  country.1010.a: "Cosa significa tutto questo?"
  country.1010.a.response: "Suppongo si riferisca alla mia scomparsa.\n\nAvevo bisogno di staccare un po', tutto qui. Beh. In realtà... sto cercando la Finestra. E sicuramente non si trova qui.\n\nNon è nemmeno qui. Devo continuare la mia ricerca. Non mi porterò dietro questi droni che ho trovato, però."
@@ -680,14 +684,14 @@
  country.1015.name: "Voglia di Viaggiare: I Droni"
  country.1015.desc: "Il Consiglio è scomparso, inspiegabilmente, di nuovo.\n\nTuttavia, si sono lasciati dietro un gruppetto di droni, come promesso. Sono armati... e si stanno attivando!"
  country.1020.name: "Voglia di Viaggiare: Droni Distrutti"
- country.1020.desc: "I moduli di riconoscimento dei droni sono stati rimossi, probabilmente durante i tentativi di riparazione da parte del Consiglio, ma in qualche modo i loro processori per la valutazione della minaccia sono rimasti intatti... ed ipersensibili, a causa delle procedure invasive del Consiglio.\n\nÈ improbabile che il Consiglio volesse che ci attaccassero, ma rimane il fatto che abbiano coperto egregiamente la fuga degli scienziati.\n\nConsulta il Registro Eventi per sviluppare un Progetto Speciale per seguire il Consiglio dall'ultima posizione nota."
+ country.1020.desc: ""
  country.1022.name: "Voglia di Viaggiare: Droni Sconfitti"
- country.1022.desc: "Sembra che i droni lasciati dagli scienziati siano stati distrutti, da qualcosa o qualcuno.\n\nDovremmo cogliere quest'opportunità per rilevare la traccia del Consiglio.\n\nÈ stato aggiunto un Progetto Speciale al Registro Eventi."
+ country.1022.desc: ""
  country.1025.name: "Voglia di Viaggiare: Progetto Speciale Completato"
  country.1025.desc: "Avendo decodificato l'intricata rete di tracce energetiche lasciate dall'elusiva Nave Scientifica del Consiglio, siamo di nuovo sulle loro tracce.\n\nConsulta il Registro Eventi per i dettagli."
  country.1030.name: "Voglia di Viaggiare: In Difficoltà"
  country.1030.desc: "L'effimera Nave Scientifica rimane ardua da rilevare, ma non abbastanza.\n\nLa sfocatura di confuse letture sensoriali che abbiamo associato alla nave del Consiglio è affiancata da ambo i lati da una coppia di corvette malintenzionate.\n\nIl Consiglio ci sta chiamando."
- country.1035.name: "Consiglio del Dipartimento di Fisica" # diplo w/ scientist
+ country.1035.name: "" # diplo w/ scientist
  country.1035.desc: "Saluti, [Root.GetRulerTitle].\n\nVedere le nostre navi è un sollievo. Temo che la mia improvvisa comparsa in questo sistema possa aver fatto infuriare gli alieni a bordo delle navi che ora mi circondano.\n\nQualunque tipo di assistenza possiate fornirmi, nonostante le mie colpe, sarebbe più che gradita. Condividerò volentieri con lei la natura della mia spedizione, una volta sistemata questa scocciatura."
  country.1035.a: "Perché è scappato?"
  country.1035.a.response: "Scappato? Me ne sono andato.\n\nHo realizzato che le mie azioni non la compiacciono molto, [Root.GetRulerTitle], ma non potevo rischiare che il mio lavoro venisse preso di mira dalle meschine politiche della comunità scientifica.\n\nInoltre, devo ancora fare alcune ricerche."
@@ -711,40 +715,40 @@
  country.1042.name: "Pirati Sunblaster"
  country.1042.desc: "Dobbiamo dare una lezione a 'sti scemi.\n\nSkitskur'r! Le armi!"
  country.1042.a: "Conoscerete la nostra potenza militare."
- country.1044.name: "Consiglio del Dipartimento di Fisica"
+ country.1044.name: ""
  country.1044.desc: "Non ho potuto fare a meno di cogliere alcune parti della conversazione... trasmettevano su un canale libero, dopotutto.\n\nSuppongo che la transazione sia andata a buon fine."
- country.1045.name: "Consiglio del Dipartimento di Fisica" # diplo w/ scientist, situation resolved
+ country.1045.name: "" # diplo w/ scientist, situation resolved
  country.1045.desc: "Noto che vi siete disfatti dei pirati, [Root.GetRulerTitle].\nDa scienziato, aborro la violenza... ma riconosco che in questo caso si è rivelata necessaria. Ho il forte sospetto che sarei stato trattato molto poco gentilmente, nelle mani di quei pirati."
  country.1045.a: "Già. Ora, parliamo."
  country.1045.a.response: "Oh sì, certo.\nC'è... non voglio annoiarla con i dettagli [Root.GetRulerTitle], ma c'è quest'idea, se così si vuol dire, che nulla sia reale. O che quello che crediamo essere reale non lo sia, che sia meno reale, meno di altro. Che questo, questo sia tutto... io, lei, le stesse leggi naturali che riteniamo assolute... nient'altro che un'illusione ottica. Che l'universo sia un riflesso, un ologramma, o un prisma... la scissione dei brillanti raggi della vera realtà.\n\nCapisce? La luce deve provenire da qualche parte. Attraverso la Finestra."
  country.1045.b: "Deve tornare immediatamente su [Root.Capital.GetName]."
- country.1046.name: "Consiglio del Dipartimento di Fisica" # diplo, immediate followup, gain phys
+ country.1046.name: "" # diplo, immediate followup, gain phys
  country.1046.desc: "Sa bene che non lo farò, [Root.GetRulerTitle].\nDi fatto, pensandoci bene, credo che sia significativamente probabile che non possa ritornare per un ragionevole lasso di tempo.\n\nMi sono preso la libertà di caricare sul database di [Root.Capital.GetName] ogni possibile dato che potrebbe essere di qualche aiuto al nostro popolo. I dati relativi alla Finestra rimangono con me, però. Inizio a pensare di non essere pronto... ma sicuramente nessun altro lo è.\nOra andrei."
  country.1046.a: "Aspet..."
  country.1047.name: "Voglia di Viaggiare: I Ciechi"
- country.1047.desc: "Un rapido controllo conferma le affermazioni del Consiglio, ed il nostro impero ottiene un piccolo ma significativo avanzamento nella ricerca fisica.\n\nI fisici sono svaniti ancora, ma questa volta il loro percorso è stato tracciato prima che lasciassero il sistema.\n\nSe sono diretti verso questa Finestra, allora li seguiremo.\nConsulta il Registro Eventi per i dettagli."
+ country.1047.desc: ""
  country.1050.name: "Voglia di Viaggiare: La Finestra si Apre" # final catchup
  country.1050.desc: "Per la prima volta, il prototipo della Nave Scientifica è chiaramente visibile sui nostri sensori. È in orbita pericolosamente vicina alla stella del sistema, ma sembra non interessarsene.\n\nUna semplice scansione ottica rivela il segreto della nave. Il suo scafo è progettato con un design attraversato da un reticolo di filamenti metallici che fungono da elettromagneti a voltaggio alternato ed estremamente controllato. Rimanendo vicino ad una stella, la nave può facilmente deformarne le emissioni, avvolgendosele attorno in una specie di camuffamento.\n\nSebbene concettualmente interessante, questa tecnica ha evidenti svantaggi pratici, come dimostra il fatto che ora l'intera strumentazione è stata fritta e resa inutilizzabile dall'esposizione prolungata alle radiazioni solari."
- country.1051.name: "Consiglio del Dipartimento di Fisica" # start of final diplo w/ scientist
+ country.1051.name: "" # start of final diplo w/ scientist
  country.1051.desc: "Saluti, [Root.GetRulerTitle].\n\nDevo ragionevolmente dedurre che mi abbiate seguito di nuovo."
- country.1051.a: "Che succede ora, Fisico Capo?"
+ country.1051.a: ""
  country.1051.a.response: "Penso di aver trovato la Finestra. Una finestra, almeno. Potrebbero essere più di una. Che le nostre reali esistenze giacciano là dietro? Ci sarà qualcosa? Devo confessare che non ne ho la minima idea. Riconosco che nessun altro possa effettivamente beneficiare delle mie scoperte. Ma fermarsi ora sarebbe da perfetti irresponsabili."
  country.1051.b: "Cosa farà?"
  country.1051.b.response: "Cercherò di attraversare la Finestra, verso la realtà. La luce del reale non brilla solo da questa parte, naturalmente. L'intero universo è come un gigantesco pannello di vetro, e noi siamo le piccole imperfezioni rese visibili dal bagliore al di là di esso.\n\nQuesta è la Finestra, perché credo che si possa aprire."
  country.1051.c: "Le sue azioni sono strampalate e pericolose."
- country.1052.name: "Consiglio del Dipartimento di Fisica" # second phase
+ country.1052.name: "" # second phase
  country.1052.desc: "Mi spiace veramente per tutti i problemi che le ho causato, [Root.GetRulerTitle], davvero. Tuttavia, non devo nulla al mio popolo, ho pagato appieno i miei debiti, e di questo sono certo. Mi ha seguito di sua spontanea volontà, e le sono grato per il suo aiuto, ma le ho spiegato chiaramente le mie intenzioni sin dall'inizio."
  country.1052.a: "Ci dimenticheremo di questa storia... ritorni a casa."
  country.1052.b: "Lei verrà processato."
- country.1053.name: "Consiglio del Dipartimento di Fisica"
+ country.1053.name: ""
  country.1053.desc: "La Finestra si sta aprendo, [Root.GetRulerTitle].\n\nAddio."
- country.1053.a: "Fisico Capo?"
+ country.1053.a: ""
  country.1055.name: "Voglia di Viaggiare: La Finestra si Chiude"
  country.1055.desc: "La Nave Scientifica è vuota.\n\nTutte le tute per le attività extra-veicolari sono nei loro scomparti, ed i registri non indicano alcuna apertura del portelli.\n\nLa nave è ancora in orbita attorno alla stella, ma ora è sotto il nostro controllo."
  country.1055.a: "Un finale inquietante."
  country.1055.a.tooltip: "La Nave Scientifica è stata recuperata e le sue funzioni basilari rimangono operative.\n"
  country.1061.name: "Voglia di Viaggiare: Pirati Distrutti"
- country.1061.desc: "I Pirati Sunblaster che minacciavano il Consiglio del Dipartimento di Fisica sono stati distrutti da qualcun altro.\n\nIl Fisico Capo ci sta chiamando."
+ country.1061.desc: ""
 
  ### Mass Extinction Starting Event Chain
 
@@ -772,6 +776,7 @@
  country.1145.desc: "Le crepe nella crosta del pianeta, ritenute inizialmente il risultato di una significativa attività tettonica, sono in effetti i segni duraturi di radici incredibilmente grandi che scavarono la terra.\n\nAd un certo punto, una bizzarra mutazione (verosimilmente indotta deliberatamente da esseri senzienti, sebbene sia improbabile che possano averne predetto il risultato) ha causato una crescita fuori controllo della vita vegetale. Molte di queste piante si riproducevano attraverso l'impollinazione, con innumerevoli gameti trasportati dalle correnti attraverso l'atmosfera inferiore. Mentre inizialmente questo processo fu solo causa di leggera irritazione, l'incremento esponenziale delle particelle trasportate nell'atmosfera ha soffocato tutti gli animali in una manciata di mesi."
  country.1150.name: "Estinzione di Massa: Ghiacciato"
  country.1150.desc: "Un cambiamento innaturale nella composizione chimica dell'atmosfera ha determinato l'inizio, lento ma inesorabile, di un'era glaciale; cominciata ben prima della nostra creazione, è probabile che persista oltre alla nostra estinzione.\n\nLa causa esatta rimane sconosciuta, ma alcune delle spiegazioni probabili includono tentativi falliti di terraformazione o persino terrorismo interplanetario. Alcuni degli elementi più radicali della comunità scientifica di [Root.Owner.Capital.GetName] suggeriscono che il drammatico cambiamento climatico possa esser dovuto ad incontrollate emissioni di gas industriali nell'atmosfera.\n\nQuesto punto di vista è confinato alla frangia scientifica, in quanto è improbabile che una qualsiasi razza, sufficientemente intelligente da ottenere una completa industrializzazione, sia tanto stupida da spazzarsi via da sola accidentalmente."
+ country.1150.desc.industrialist: ""
  country.1155.name: "Estinzione di Massa: Studio Completato"
  country.1155.desc: "Sebbene la spedizione di ricerca abbia prodotto spesso risultati inaspettati, i nostri scienziati hanno ora accesso ad una quantità di dati senza precedenti, con cui modellare accuratamente il futuro di [Root.Capital.GetName].\n\nI rapporti iniziali suggeriscono che [Root.Capital.GetName] non sarà in reale pericolo per almeno un'altra dozzina di generazioni, se escludiamo eventi cosmici anomali o il collasso violento del nostro sole."
  country.1155.a: "Cos'altro possiamo imparare da questi pianeti?"
@@ -821,26 +826,26 @@
  story.4.desc.gesta: "Abbiamo confermato l'esistenza di forme di vita aliene ai margini evolutivi della coscienza."
 
  story.5.name: "Contatto: Resti"
- story.5.desc: "Il popolo [Root.GetSpeciesAdj] è in fermento per la notizia del ritrovamento di resti alieni.\n\nPossono considerarsi la prova definitiva di una passata attività aliena intelligente e determinata. Magari saremo soli, ora, ma per lo meno non siamo stati i primi."
- story.5.desc.phobe: "L'amministrazione di [Root.Capital.GetName] ha ricevuto il rapporto riguardante i resti alieni con una certa apprensione.\n\nI resti in questione sono considerati come la prova definitiva di forze sconosciute un tempo attive nella galassia, sebbene qualche prominente pensatore [Root.GetSpeciesAdj] rigetti quest'idea in favore di un'identificazione delle tracce quali \"bizzarre formazioni geologiche\" o \"risultato di curiosi fenomeni naturali\"."
+ story.5.desc: ""
+ story.5.desc.phobe: ""
  story.5.desc.phile: "I nostri xenologi sono impazienti di pubblicare le loro registrazioni sulla recente scoperta di vita aliena.\n\nQuesta tempesta febbrile nella comunità scientifica ha avuto qualche temporaneo impatto negativo negli altri campi."
  story.5.desc.followup: "\"La vita intelligente ci schernisce con la sua assenza\". Questo è uno degli articoli che si possono leggere su una popolare rete di [Root.Capital.GetName]. Sembra che i membri del popolo [Root.GetSpeciesAdj] trovino divertente il fatto che le forme di vita aliena inferiori siano ormai questione di dominio pubblico, ma che le potenziali culture di altre stelle continuino ad eluderci.\n\nLa relazione sulle tracce di vita aliene recentemente scoperte sembra solo aggiungere un'altra svolta ironica alla situazione."
  story.5.desc.gesta: "Abbiamo rilevato le prime tracce materiali di vita aliena intelligente su un pianeta alieno."
 
- story.6.name: "Contatto: Primitivi"
- story.6.desc: "Il popolo [Root.GetSpeciesAdj] è in fermento per la notizia del ritrovamento di una civiltà aliena primitiva da parte delle nostre flotte.\n\nPotranno anche non conoscere il volo spaziale, ma gli alieni su [primitive_planet.GetName] sono decisamente intelligenti, e la loro società mostra tutte le caratteristiche di una cultura moderatamente avanzata."
- story.6.desc.phobe: "Le notizie sulle primitive creature che mostrano una rudimentale intelligenza, la cosiddetta civiltà di [primitive_planet.GetName], non vengono ben accolte su [Root.Capital.GetName].\n\nUn profondo senso di disagio permea il dibattito pubblico, con un'esplicita minoranza che sostiene di stabilire la nostra egemonia sul pianeta alieno in ogni modo possibile, mentre la maggior parte dei membri del popolo [Root.GetSpeciesAdj] sembra preferire evitare le creature aliene o dimenticarsene completamente."
- story.6.desc.phile: "La relazione sulla civiltà primitiva osservata dalle nostre flotte è stata accolta da un esultante giubilo, appena l'élite accademica si è espressa a riguardo.\n\nEcco finalmente la prova che i nostri primi passi nell'oscurità spaziale non sono stati inutili. Potranno non essere nostri pari, per lo meno non ancora, e potremmo non interagire mai direttamente con loro, ma la loro mera esistenza è un faro di speranza in una galassia che altrimenti appare insensibile ed immobile."
+ story.6.name: ""
+ story.6.desc: ""
+ story.6.desc.phobe: ""
+ story.6.desc.phile: ""
  story.6.desc.followup5: "La comunità scientifica di [Root.Capital.GetName] è eccitata dopo aver ricevuto il rapporto sulla presenza di vita aliena intelligente.\n\nPotranno anche non conoscere il volo spaziale, ma gli alieni su [primitive_planet.GetName] sono decisamente intelligenti, e la loro società mostra tutte le caratteristiche di una cultura moderatamente avanzata. Alcuni xenologi fanno notare come questa sia un'eccellente opportunità per studiare una società forse non troppo differente da quelle di cui sinora abbiamo trovato solamente i resti."
- story.6.desc.followup4: "I rapporti sull'esistenza di una cultura primitiva vengono ben accolti dai ricercatori, in seguito alle precedenti scoperte relative agli esseri pre senzienti.\n\nPer quanto ne sappiamo al momento, noi siamo la prima civiltà ad aver raggiunto le stelle, ma è affascinante sapere che qualche altra cultura possa trovarsi solo pochi millenni, o forse persino secoli, dietro a noi."
- story.6.desc.followup123: "Coronando la precedente scoperta di forme di vita inferiori, la relazione sugli alieni primitivi di [primitive_planet.GetName], scoperti dalle nostre flotte, ha riacceso l'interesse nelle scienze xenologiche su [Root.Capital.GetName], precedentemente considerato un campo estremamente teorico."
- story.6.desc.gesta: "Abbiamo confermato l'esistenza di una cultura aliena primitiva. Devono ancora sviluppare la capacità SL, rallentati dalla loro frammentata individualità."
+ story.6.desc.followup4: ""
+ story.6.desc.followup123: ""
+ story.6.desc.gesta: ""
 
  story.7.name: "Contatto: Enigmatici Viaggiatori Spaziali"
  story.7.desc: "Non ci abbiamo messo molto per imbatterci in forme di vita aliena intelligenti.\n\nIl rapporto della flotta inviata verso la capitale del popolo [Root.GetSpeciesAdj], in qualche modo minimizza su quanto queste forze appaiano aliene, e menziona solo di sfuggita l'impossibilità di contattarle."
  story.7.desc.phobe: "[Root.Capital.GetName] è in tumulto in seguito alle notizie riportanti la presenza di navi non identificate nello spazio.\n\nLe loro intenzioni rimangono sconosciute ma sarebbe prudente presupporre il peggio."
  story.7.desc.phile: "I membri del popolo [Root.GetSpeciesAdj] hanno finalmente incontrato dei compagni di viaggio tra le stelle.\n\nNonostante le loro intenzioni siano ignote, e forse potenzialmente ostili, l'atmosfera su [Root.Capital.GetName] a seguito del rapporto della nostra flotta può essere descritta come entusiasta."
- story.7.desc.followup6: "Abbiamo incontrato forme di vita intelligenti in grado di volare nello spazio.\n\nIn chiaro contrasto con gli alieni primitivi scoperti in precedenza, dobbiamo ancora osservare per bene gli esseri alla guida delle navi che si muovono nell'oscurità."
+ story.7.desc.followup6: ""
  story.7.desc.followup12345: "Su [Root.Capital.GetName] sono giunte alcune notizie riguardo l'intercettazione di navi aliene; il che mette la parola fine al primo capitolo dell'Impero Stellare del popolo [Root.GetSpeciesAdj]."
  story.7.desc.mach.followup12345: "Abbiamo osservato il passaggio di un vascello alieno capace di volo spaziale avanzato. Sebbene non siano ancora state stabilite le comunicazioni, possiamo confermare di non essere l'unico impero galattico in grado di esplorare lo spazio interstellare."
  story.7.desc.gesta: "Abbiamo incontrato della vita aliena avanzata. I contatti sembrano inevitabili."
@@ -913,7 +918,7 @@
  story.201.b: "Le nostre flotte li faranno a pezzi."
 
  story.205.name: "Entità Cristalline Infrangibili"
- story.205.desc.phile: "Le Entità Cristalline, il cui nome è un compromesso tra le fazioni rivali di xeno-biologi e xeno-geologi di [Root.Capital.GetName], sono sicuramente vive.\n\nQualche membro ultra-conservatore dell'élite accademica sostiene che si tratti di \"materia silico-animata\", e che abbiano poco in comune con la vita biologica.\n\nLa maggior parte della nostra popolazione rifiuta questa prospettiva retrograda, puntando invece lo sguardo verso i nuovi ed affascinanti orizzonti che le Entità Cristalline rappresentano. Purtroppo si tratta di esseri solitari; ogni Sovrano Cristallino raramente viene accompagnato da più di una Sentinella ed un'Entità di Coorte più piccola. Oltre alla Coorte ed alla Sentinella, chiaramente sottomesse al Sovrano del gruppo, non riusciamo a comprendere le sottili sfumature delle relazioni socio-gerarchiche delle Entità Cristalline, il che non impedisce loro dall'essere soggetto di studio febbrile su [Root.Capital.GetName].\n\nLe Entità non sembrano accoppiarsi e non abbiamo ancora notato un Cristallo riconoscibile come più vecchio o più giovane di un altro. Diversamente da come pensavamo, i vari colori delle diverse Entità Cristalline non sembrano correlati all'età, ma bensì alla loro carica interna latente, che può essere scatenata con violenza; sembra inoltre che, sebbene sporadiche, alcune fluttuazioni di questa carica alterino le proprietà rifrattive del Cristallo."
+ story.205.desc.phile: ""
  story.205.desc: "Le Entità Cristalline, il cui nome è un compromesso tra le fazioni rivali di xeno-biologi e xeno-geologi di [Root.Capital.GetName], probabilmente sono vive.\n\nUno dei loro nomi precedenti, forse più descrittivo, era \"materia silico-animata\", in quanto hanno poco in comune con la vita biologica. Si tratta di esseri solitari; ogni Sovrano Cristallino raramente viene accompagnato da più di una Sentinella ed un'Entità di Coorte più piccola. Oltre alla Coorte ed alla Sentinella, chiaramente sottomesse al Sovrano del gruppo, non riusciamo a comprendere le sottili sfumature delle relazioni socio-gerarchiche delle Entità Cristalline.\n\nLe Entità non sembrano accoppiarsi e non abbiamo ancora notato un Cristallo riconoscibile come più vecchio o più giovane di un altro. Diversamente da come pensavamo, i vari colori delle diverse Entità Cristalline non sembrano correlati all'età, ma bensì alla loro carica interna latente, che può essere scatenata con violenza; sembra inoltre che, sebbene sporadiche, alcune fluttuazioni di questa carica alterino le proprietà rifrattive del Cristallo."
  story.205.desc.pacif: "Le Entità Cristalline, il cui nome è un compromesso tra le fazioni rivali di xeno-biologi e xeno-geologi di [Root.Capital.GetName], probabilmente sono vive.\n\nUno dei loro nomi precedenti, forse più descrittivo, era \"materia silico-animata\", in quanto hanno poco in comune con la vita biologica. Si tratta di esseri solitari; ogni Sovrano Cristallino raramente viene accompagnato da più di una Sentinella ed un'Entità di Coorte più piccola. Oltre alla Coorte ed alla Sentinella, chiaramente sottomesse al Sovrano del gruppo, non riusciamo a comprendere le sottili sfumature delle relazioni socio-gerarchiche delle Entità Cristalline.\n\nLe Entità non sembrano accoppiarsi e non abbiamo ancora notato un Cristallo riconoscibile come più vecchio o più giovane di un altro. Diversamente da come pensavamo, i vari colori delle diverse Entità Cristalline non sembrano correlati all'età, ma bensì alla loro carica interna latente; sembra inoltre che, sebbene sporadiche, alcune fluttuazioni di questa carica alterino le proprietà rifrattive del Cristallo. Le Entità Cristalline sono in grado di scaricarsi violentemente contro un bersaglio specifico, e sfortunatamente sembrano molto inclini a farlo, piuttosto che a lasciarsi avvicinare."
  story.205.desc.spiri: "Le Entità Cristalline, il cui nome è un compromesso tra le fazioni rivali di xeno-biologi e xeno-geologi di [Root.Capital.GetName], esistono al di là dei concetti di vita e morte. Alcuni dei dispensatori di saggezza meno fantasiosi di [Root.Capital.GetName] li chiamano \"materia silico-animata\", sostenendo che, sebbene siano insoliti, siano comunque soggetti alle stesse presunte insensibili leggi naturali che secondo loro governerebbero tutti noi.\n\nAd ogni modo, le Entità Cristalline sono esseri solitari e maestosi. Ogni Sovrano Cristallino raramente viene accompagnato da più di una Sentinella ed un'Entità di Coorte più piccola. Le Entità non si accoppiano, né una appare più vecchia o più giovane di un'altra, sono tutte scaturite da un qualche immacolato eone passato. La variazione di colore tra diversi Sovrani sembra essere correlata alla loro carica interna latente, che può essere scatenata con violenza; sembra inoltre che, sebbene sporadiche, alcune fluttuazioni di questa carica alterino le proprietà rifrattive del Cristallo."
@@ -1019,9 +1024,9 @@
  story.401.desc: "Lo studio di una massa particolare di detriti e polveri spaziali precedentemente soprannominati §H[This.ContactCountry.GetName]§! ha portato a risultati sorprendenti; si tratta di una nube particellare intrisa di una potente carica di origine sconosciuta, che non mostra il minimo riflesso incondizionato, escludendo i movimenti intenzionali.\n\nC'è qualcosa di innegabilmente inquietante in quella forma nebulosa visibile nei filmati. Forse esistono cose nell'universo con cui non dovremmo immischiarci."
  story.401.desc.gesta: "Lo studio di una massa particolare di detriti e polveri spaziali soprannominati §H[This.ContactCountry.GetName]§! ha portato a risultati sorprendenti; si tratta di una nube particellare intrisa di una potente carica di origine sconosciuta, che non mostra il minimo riflesso incondizionato, escludendo i movimenti intenzionali.\n\nC'è qualcosa di innegabilmente inquietante in quella forma nebulosa visibile nei filmati. Forse esistono cose nell'universo con cui non dovremmo immischiarci."
  story.401.a.spiri: "Tramiti del divino o meno, devono essere studiate."
- story.401.b.spiri: "Lasciamo la questione nelle mani capaci dei nostri ammiragli."
+ story.401.b.spiri: ""
  story.401.c: "Osserviamo, ma non interferiamo."
- story.401.d: "Lasciamo la questione nelle mani capaci dei nostri ammiragli."
+ story.401.d: ""
  story.401.e: "Magari devono essere distrutte."
 
  story.405.name: "Vuoto Sereno"
@@ -1050,6 +1055,7 @@
  story.501.desc.gesta: "Le forme di vita spaziali, che chiamiamo \"§YTiyanki§!\", sono creature docili. Sono in grado di accedere ad una qualche dimensione inferiore del sub-spazio, vagando di sistema in sistema con relativa facilità.\n\nSi nutrono di gas comuni negli strati superiori di molti giganti gassosi. È molto difficile che questa sia la loro unica fonte di cibo, ma non sono state ancora osservate altre immissioni di nutrienti.\n\nDifficilmente ci attaccheranno, anche se provocate, quindi possiamo tranquillamente ignorarle."
  story.501.a.spiri: "Venerabili."
  story.501.a.mater: "Cacciarle sarebbe comunque una perdita di tempo."
+ story.501.a.exploratobot: ""
 
  galactic_features.361.name: "Progenie Effluviale"
  galactic_features.361.desc: "A seguito della distruzione della nostra flotta nel Sistema [From.From.From.GetStarName], la Nube del Vuoto locale sembra aver raccolto sufficiente materiale dai detriti per sottoporsi a ciò che può essere descritta al meglio come una macro-forma di mitosi, una riproduzione asessuata.\n\nOra c'è una Nube del Vuoto in più, a caccia nel Sistema [From.From.From.GetStarName]."
@@ -1065,49 +1071,70 @@
  # Uplifting Events
  ####################################
 
- uplift.6000.name: "Rettili"
- uplift.6000.desc: "La [Root.GetName] riferisce che su [From.GetName] la specie dominante è una razza di serpenti abbastanza grandi, saliti in cima alla catena alimentare grazie alla loro elevata, sebbene animale, intelligenza.\n\nL'Ufficiale Scientifico [Root.GetLeaderName] sostiene di aver notato molte similitudini tra loro e gli ultimi stadi della nostra evoluzione, prima che diventassimo senzienti.\n\nCon la giusta tecnologia, potremmo essere in grado di far evolvere questi esseri inferiori."
+# Pre-Sapients Found
+ uplift.6000.name.1: "Specie Evolvibili Localizzate"
+ uplift.6000.name.2: "Specie Pre Senziente Localizzata"
+
+ uplift.6000.continental.desc: "" # GetSpeciesClass returns e.g. the 'avian_species' or 'toxic_species' string
+
+ uplift.6000.ocean.desc: ""
+
+ uplift.6000.tropical.desc: "" # GetSpeciesClass returns e.g. the 'avian_species' or 'toxic_species' string
+
+ uplift.6000.arid.desc: "" # GetSpeciesClass returns e.g. the 'avian_species' or 'toxic_species' string
+
+ uplift.6000.desert.desc: "" # GetSpeciesClass returns e.g. the 'avian_species' or 'toxic_species' string
+
+ uplift.6000.savannah.desc: "" # GetSpeciesClass returns e.g. the 'avian_species' or 'toxic_species' string
+
+ uplift.6000.tundra.desc: "" # GetSpeciesClass returns e.g. the 'avian_species' or 'toxic_species' string
+
+ uplift.6000.arctic.desc: "" # GetSpeciesClass returns e.g. the 'avian_species' or 'toxic_species' string
+
+ uplift.6000.alpine.desc: "" # GetSpeciesClass returns e.g. the 'avian_species' or 'toxic_species' string
+
+ uplift.6000.nuked.desc: "" # GetSpeciesClass returns e.g. the 'avian_species' or 'toxic_species' string
+
+ uplift.6000.gaia.desc: "" # GetSpeciesClass returns e.g. the 'avian_species' or 'toxic_species' string
+
+ uplift.6000.relic.desc: "" # GetSpeciesClass returns e.g. the 'avian_species' or 'toxic_species' string
+
+ uplift.6000.fallback.desc: "" # GetSpeciesClass returns e.g. the 'avian_species' or 'toxic_species' string
+
  uplift.6000.a: "Sì, possediamo la conoscenza."
  uplift.6000.b: "Qualcosa da tenere a mente per il futuro."
- uplift.6001.name: "Rettili Evoluti"
- uplift.6001.desc: "Un successo!\n\nI [From.GetName] nativi di [This.GetName] sono stati fatti evolvere per diventare nostri cittadini."
- uplift.6020.name: "Specie Evolvibili Localizzate"
- uplift.6020.desc: "La specie dominante di [From.GetName] mostra un'insolita intelligenza. L'Ufficiale Scientifico [Root.GetLeaderName] della [Root.GetName] è convinto che l'evoluzione di queste creature possa essere accelerata con la giusta tecnologia."
- uplift.6021.name: "Evoluzione Riuscita"
- uplift.6021.desc: "Un successo!\n\nI [From.GetName] nativi di [This.GetName] sono stati fatti evolvere per diventare nostri cittadini."
- uplift.6011.a: "Diamo loro il benvenuto."
- uplift.6010.name: "Elevarsi al di Sopra delle Acque"
- uplift.6010.desc: "Secondo la [Root.GetName], che orbita attorno a [From.GetName], una delle specie native ha raggiunto un incerto dominio sui piccoli appezzamenti di terra del pianeta, così come sui vasti oceani.\n\nL'Ufficiale Scientifico [Root.GetLeaderName] ha proposto di monitorare da vicino il loro sviluppo, e magari di aiutarli se possibile."
- uplift.6011.name: "Evoluzione Riuscita"
- uplift.6011.desc: "I nostri sforzi per accelerare l'evoluzione del popolo [From.GetName] è stata un enorme successo. Sono in atto dei programmi educativi per gli esemplari, o meglio per gli individui, nati dopo l'evoluzione... ed i loro anziani si stanno dimostrando recettivi al condizionamento psico-genetico."
- uplift.6030.name: "Terraferma"
- uplift.6030.desc: "Affascinanti creature vagano per le pianure e le coste di [From.GetName]. La [Root.GetName] riferisce che le forme di vita utilizzano già dei primitivi strumenti, e che possono avere il potenziale per raggiungere il livello senziente.\n\nL'Ufficiale Scientifico [Root.GetLeaderName] sottolinea che lo studio della vita aliena in queste condizioni è una rara opportunità, e che dovremmo prestare particolare attenzione... magari persino elevarli a nostri sottoposti."
- uplift.6031.name: "Evoluzione Riuscita"
- uplift.6031.desc: "La specie dominante su [Root.GetName], i [From.GetName] si è evoluta. Abbiamo dovuto compiere delle alterazioni genetiche minori per sbloccare il loro potenziale intrinseco e migliorarne notevolmente la capacità cognitiva nonché la destrezza manuale; piccoli impianti cibernetici compensano la differenza nelle vecchie generazioni."
- uplift.6040.name: "Benvenuti nella Giungla"
- uplift.6040.desc: "La densa vegetazione tropicale di [From.GetName] nasconde quella che l'Ufficiale Scientifico [Root.GetLeaderName] della [Root.GetName] chiama una \"proto-civiltà\".\n\nGli esseri che la compongono sono ancora troppo indietro nella curva evolutiva per essere definiti anche solo primitivi, ma il loro ordine sociale sembra essere sostenuto dal principio di un linguaggio comprensibile e di un pensiero astratto.\n\nL'Ufficiale Scientifico [Root.GetLeaderName] suggerisce che queste particolari creature possano fungere da ideale banco di prova per le tecnologie evolutive."
- uplift.6041.name: "Evoluzione Riuscita"
- uplift.6041.desc: "I [From.GetName] sono stati evoluti con successo per diventare cittadini produttivi ed abitanti della nostra colonia sul Pianeta Tropicale [Root.GetName]."
- uplift.6050.name: "Rifiuti Congelati"
- uplift.6050.desc: "Alcune specie prosperano in ambienti difficili, come la fredda biosfera di [From.GetName].\n\nL'Ufficiale Scientifico [Root.GetLeaderName] ha assunto un particolare interesse per una delle creature che vagano sul pianeta, ed è convinto che possano raggiungere il livello senziente... con una spintarella nella giusta direzione."
- uplift.6051.name: "Evoluzione Riuscita"
- uplift.6051.desc: "I [From.GetName] sono ora senzienti ed abbastanza intelligenti.\n\nLoro, ed il loro Pianeta Natale [Root.GetName], sono ora sotto il nostro dominio."
- uplift.6060.name: "Una specie di Ghiaccio e Ghiaccio"
- uplift.6060.desc: "Il clima sub-glaciale di [From.GetName] non è particolarmente favorevole alla vita intelligente... nemmeno alla vita stessa, in effetti.\n\nIn ogni caso, alcune specie si sono evolute per resistere e padroneggiare questo ambiente, e l'Ufficiale Scientifico [Root.GetLeaderName] è interessato nel vedere quanto possano andare lontano questi esseri, se intervenisse un qualche fattore esterno..."
- uplift.6061.name: "Evoluzione Riuscita"
- uplift.6061.desc: "I [From.GetName], sorti dalle pianure ghiacciate di [Root.GetName], hanno raggiunto il livello senziente con il nostro aiuto.\n\nSi sono uniti alla nostra colonia sul loro pianeta nativo [Root.GetName], come membri produttivi della nostra società."
- uplift.6070.name: "Sabbie Instabili"
- uplift.6070.desc: "Scorrazzando tra le sabbie di [From.GetName], un particolare assieme di forme di vita presenta molti tratti ritenuti promettenti per lo sviluppo di facoltà mentali superiori, ed eventualmente senzienti.\n\nSebbene lo sviluppo della specie sembra essersi stabilizzato alcuni millenni fa, potremmo essere in grado di fornire una spinta tecnologica alla loro evoluzione."
- uplift.6071.name: "Evoluzione Riuscita"
- uplift.6071.desc: "La specie [From.GetName] si presenta ora come testimonianza vivente del nostro potere scientifico e tecnologico."
- uplift.6080.name: "Specie Pre Senziente Localizzata"
- uplift.6080.desc: "Secondo la [Root.GetName], che orbita attorno a [From.GetName], una delle specie native ha ottenuto il dominio provvisorio del pianeta.\n\nL'Ufficiale Scientifico [Root.GetLeaderName] ha proposto di monitorare da vicino il loro sviluppo, e magari di aiutarli se possibile."
- uplift.6081.name: "Evoluzione Riuscita"
- uplift.6081.desc: "La specie [From.GetName] si presenta ora come testimonianza vivente del nostro potere scientifico e tecnologico."
- uplift.6090.name: "Strisciando sul Pianeta"
- uplift.6090.desc: "Sebbene questo pianeta sia eccessivamente radioattivo, almeno una forma di vita avanzata vive su [From.GetName], naturalmente artropodi. L'Ufficiale Scientifico [Root.GetLeaderName] riferisce che le creature mostrano impressionanti capacità decisionali collettive, e che alcuni stimoli esterni potrebbero portarle a più alti livelli evolutivi."
- uplift.6091.name: "Evoluzione Riuscita"
- uplift.6091.desc: "I [From.GetName] si sono elevati dalle loro umili origini per unirsi a noi."
+
+# Pre-Sapients Uplifted
+ uplift.6010.name: "Evoluzione Riuscita"
+
+ uplift.6010.continental.desc: ""
+
+ uplift.6010.ocean.desc: ""
+
+ uplift.6010.tropical.desc: "I [From.GetName] sono stati evoluti con successo per diventare cittadini produttivi ed abitanti della nostra colonia sul Pianeta Tropicale [Root.GetName]."
+
+ uplift.6010.arid.desc: "Un successo!\n\nI [From.GetName] nativi di [This.GetName] sono stati fatti evolvere per diventare nostri cittadini."
+
+ uplift.6010.desert.desc: "La specie [From.GetName] si presenta ora come testimonianza vivente del nostro potere scientifico e tecnologico."
+
+ uplift.6010.savannah.desc: ""
+
+ uplift.6010.tundra.desc: ""
+
+ uplift.6010.arctic.desc: "I [From.GetName], sorti dalle pianure ghiacciate di [Root.GetName], hanno raggiunto il livello senziente con il nostro aiuto.\n\nSi sono uniti alla nostra colonia sul loro pianeta nativo [Root.GetName], come membri produttivi della nostra società."
+
+ uplift.6010.alpine.desc: ""
+
+ uplift.6010.nuked.desc: ""
+
+ uplift.6010.gaia.desc: ""
+
+ uplift.6010.relic.desc: ""
+
+ uplift.6010.fallback.desc: ""
+
+ uplift.6010.a: "Diamo loro il benvenuto."
+ uplift.6010.tt: ""
 
  ####################################
  # Followup Events
@@ -1176,7 +1203,7 @@
  uplift.7520.b.tooltip: "Le grottesche creature non importuneranno più i coloni.\n"
  uplift.7520.c: "Cercate di capire dove stanno andando."
  uplift.7525.name: "Perduti e Dimenticati"
- uplift.7525.desc: "Un gruppo di xenologi è partito dalla colonia con un contingente militare, seguendo i movimenti delle forme di vita autoctone.\n\nHanno trovato i resti di una specie di antica nave coloniale, evidentemente il nucleo di una qualche piccola civiltà primitiva da tempo scomparsa.\n\nLa specie nativa dominante di [Root.GetName] sembra essere il prodotto di una specie d'inseminazione o di un programma di manipolazione genetica; passando in rassegna le strutture che circondano la nave, notiamo che un tempo erano chiaramente tribali, con un'intelligenza superiore ed una rudimentale forma di scrittura.\n\nNon possiamo comprendere cos'abbia causato la loro involuzione, ma il loro comportamento ora ha più senso. A livello istintivo, ci riconoscono simili a coloro che li hanno fatti evolvere. Forse la nostra società ordinata risveglia qualche impulso insito in loro, ma soffocato dalla loro natura inferiore.\n\nPotremmo alleviare le loro ansie evolutive elevandoli al nostro livello, ma per ora abbiamo acquisito preziose informazioni sulla manipolazione organica effettuata da antiche culture spaziali."
+ uplift.7525.desc: ""
 
  ####################################
  # Event Chain-related
@@ -1357,7 +1384,7 @@
  anomaly_failure.2655.desc: "Mentre la [Root.GetName] si avvicinava a [From.From.GetName], è stata intercettata da una coppia di navi poco amichevoli. I nemici hanno rivolto le proprie armi verso l'asteroide, distruggendo le prove di qualunque operazione stessero svolgendo in quel luogo. Sembra che la [Root.GetName] sia il loro prossimo bersaglio."
  anomaly_failure.2660.desc: "L'equipaggio della [Root.GetName] ha segnalato che l'Ufficiale Scientifico della nave ha dimostrato particolare interesse alla pioggia su [From.From.GetName], in quanto, secondo le sue stesse parole, sembra essere \"vagamente viola\".\n\nPurtroppo, i campioni recuperati si sono rivelati estremamente instabili, ed una volta a bordo della [Root.GetName], il liquido è esploso violentemente, uccidendo l'Ufficiale Scientifico all'istante."
  anomaly_failure.2665.desc: "Nel suo ultimo messaggio, l'equipaggio della [Root.GetName] ha segnalato picchi di attività su [From.From.GetName], durante l'approccio alla superficie. Le comunicazioni si sono interrotte subito dopo, e la nave risulta dispersa... l'equipaggio è presumibilmente deceduto."
- anomaly_failure.2670.desc: "Sembra che la scansione della vecchia fabbrica non sia andata come previsto.\n\nPrima che gli antichi circuiti friggessero, la [Root.GetName] è riuscita ad attivare da remoto i propulsori posizionali della stazione orbitale, lanciandola prontamente fuori dalla propria orbita, verso il campo gravitazionale della stella. L'esito sfortunato della missione ha avuto un impatto profondo sull'ammiraglio della nave, [Root.GetLeaderName], che ha imparato molto da questa esperienza."
+ anomaly_failure.2670.desc: ""
  anomaly_failure.2670.a: "[Root.GetLeaderName]... l'ha lanciata nel sole?"
  anomaly_failure.2670.a.tooltip: "L'§YAntica Fabbrica§! è andata distrutta.\n"
 
@@ -1389,7 +1416,7 @@
  colony.1506.desc: "Il comportamento irregolare dei droni narcolettici ha preso una piega violenta. Alcuni di loro si sono risvegliati e sono entrati nell'atmosfera di [Root.GetName], come fosse loro abitudine, solo per andare a schiantarsi sulla superficie del pianeta a piena potenza.\n\nRipetutamente, in molti casi.\n\nIl danno alla colonia è trascurabile, ma i droni si sono distrutti in brillanti cascate di scintille blu, indicative delle tremende forze autodistruttive a cui si sono dedicati."
  colony.1506.a: "Possiamo scoprire cos'avevano che non andava?"
  colony.1507.name: "Antichi Droni: Alla Ricerca di Droni"
- colony.1507.desc: "I droni sopravvissuti sono scomparsi dopo l'incidente suicida. Gli appassionati di storia su [Root.GetName] sono convinti che si trovino molto vicini, celati agli occhi indiscreti da qualche tecnologia perduta; ma la finestra di tempo prevista per la loro successiva attivazione è già passata.\n\nL'analisi approfondita dei resti dei droni distrutti procede a rilento, ma ci aspettiamo al più presto un passo avanti."
+ colony.1507.desc: ""
  colony.1507.a: "Tenetemi aggiornato."
  colony.1508.name: "Antichi Droni: In Cerca d'Oro"
  colony.1508.desc: "Sistemare i meccanismi dei droni distrutti ha richiesto più tempo del previsto, dato che ognuno sembra essere costruito con design e componenti leggermente diversi l'uno dall'altro. Una volta stabilito questo fatto... sono passate in primo piano le parti identiche. Separati dal resto, risulta chiaro che questi componenti siano in qualche modo moderni, per quanto alieni. È probabile che qualcuno abbia avuto successo dove noi abbiamo fallito... nel manomettere i droni."
@@ -1489,7 +1516,7 @@
  fallen_empires.5.b: "Non ci faremo opprimere!"
  fallen_empires.5.a.tooltip: "La politica §H$policy_artificial_intelligence_policy$§! verrà impostata su §H$ai_outlawed$§!."
  fallen_empires.6.name: "Comunicazione da: §H[From.GetName]§!"
- fallen_empires.6.desc: "Barbari [Root.GetSpeciesNamePlural]! I vostri crimini non sono passati inosservati. La schiavitù ed il massacro in cui vi impegnate così spensieratamente, minaccia il futuro dell'intera galassia. Vi diamo una scelta: mettete fine alle vostre pratiche barbare, o preparatevi ad affrontare il nostro potere."
+ fallen_empires.6.desc: ""
  fallen_empires.6.a: "Non abbiamo altra scelta che accettare..."
  fallen_empires.6.b: "Non ci faremo opprimere!"
  fallen_empires.6.a.tooltip: "La politica §H$policy_slavery$§! verrà impostata su §H$slavery_not_allowed$§!.\nLa politica §H$policy_purge$§! verrà impostata su §H$purge_not_allowed$§!."
@@ -1498,7 +1525,7 @@
  fallen_empires.7.a: "Non abbiamo altra scelta che accettare..."
  fallen_empires.7.b: "Non ci faremo opprimere!"
  fallen_empires.8.name: "Comunicazione da: §H[From.GetName]§!"
- fallen_empires.8.desc: "Stolti [Root.GetSpeciesNamePlural]. La mancanza di rispetto che mostrate verso i più anziani sarà la vostra rovina. Prostratevi innanzi a noi e supplicate il nostro perdono, e FORSE ci asterremo dall'annientare il vostro piccolo, inutile impero."
+ fallen_empires.8.desc: ""
  fallen_empires.8.a: "Non abbiamo altra scelta che accettare..."
  fallen_empires.8.a.tooltip: "Termina la rivalità con [fallen_empire_humiliator.GetName]\n[Root.GetName] perde qualsiasi rivendicazione nei sistemi di [fallen_empire_humiliator.GetName]"
  fallen_empires.8.b: "Non ci faremo opprimere!"
@@ -1506,6 +1533,32 @@
  fallen_empires.9.desc: "Blasfemi [Root.GetSpeciesNamePlural]! Camminate incautamente nelle sale dei morti, calpestando la storia senza pensare agli spiriti che disturbate. Ora basta! Lasciate che i morti riposino in pace, o ne risponderete ai vivi... a noi."
  fallen_empires.9.a: "Non abbiamo altra scelta che accettare..."
  fallen_empires.9.b: "Non ci faremo opprimere!"
+
+ fallen_empires.100.name: "" # Holy World
+ fallen_empires.100.A.desc: "" # 'from' = planet; 'GetClassAdj' = planet class, i.e. 'ideal'
+ fallen_empires.100.desc.spi_intro: "" # 'from' = planet; 'root' = ship; 'GetClassAdj' = planet class, i.e. 'ideal'
+ fallen_empires.100.A.desc.spi: "" # 'from' = planet
+ fallen_empires.100.A.desc.gestalt: "" # 'from' = planet; 'GetClassAdj' = planet class, i.e. 'ideal'
+ fallen_empires.100.B.desc: "" # 'from' = planet; 'GetClassAdj' = planet class, i.e. 'ideal'
+ fallen_empires.100.B.desc.spi: ""
+ fallen_empires.100.B.desc.gestalt: ""
+ fallen_empires.100.a: ""
+ fallen_empires.100.b: ""
+ fallen_empires.100.c: ""
+ fallen_empires.100.d: "" # returns e.g. 'parasites', 'weeds' - see 'PLANT_insult_plural_01'
+ fallen_empires.100.e: ""
+
+ origin.12.desc: "" # from = Science ship, fromfrom = planet
+ origin.12.a: ""
+ origin.12.b: "" # 'elders' as in respected guardians or mentors, not literal ancestors
+ scion_found_holy_world: ""
+ scion_found_holy_world_desc: ""
+ scion_suspicious_holy_world: ""
+ scion_suspicious_holy_world_desc: ""
+ origin.13.desc.intro: "" # 'fromfrom' = planet; 'GetClassAdj' = planet class, i.e. 'ideal'
+ origin.13.hasmet.desc: ""
+ origin.13.notmet.desc: ""
+ origin.13.a: "Assurdo."
 
  fallen_empire_refuse_tooltip: "I rappresentanti dell'Impero §H[From.GetName]§! si infurieranno, e probabilmente ci attaccheranno."
 
@@ -1523,17 +1576,22 @@
  pol_ai_servitude: "Protocolli di Servitù"
  pol_ai_full_rights: "Diritti dei Sintetici"
 
+ fallen_empires_situation: ""
+ fallen_empires_situation_type: ""
+ fallen_empires_situation_monthly_change_tooltip: "$situation_monthly_change_tooltip_no_control$"
+ fallen_empires_situation_desc: ""
+
  fallen_empires_tasks.2.name: "Comunicazione in arrivo dal popolo §H[FallenEmpireTaskOrigin.GetSpeciesAdj]§!"
  fallen_empires_tasks.2.desc.a.materialist: "[Root.GetSpeciesNamePlural], abbiamo deciso di elargire al vostro impero alcune risorse in segno della nostra stima. Non sperperate la nostra gentilezza e non datela per scontata."
  fallen_empires_tasks.2.desc.a.xenophile: "[Root.GetSpeciesNamePlural], la vostra specie è un'aggiunta più che utile alla comunità galattica. Come segno della nostra stima, abbiamo deciso di farvi dono di minerali e risorse preziose."
  fallen_empires_tasks.2.desc.a.machine.o: "Protocollo Custode 712-4 Attivato. Avvio trasferimento risorse a civiltà organica conforme. Segue Messaggio: §R<<ERRORE: DATI CORROTTI>> <<ERRORE: DATI CORROTTI>> <<ERRORE: DATI CORROTTI>>§!"
  fallen_empires_tasks.2.desc.a.machine.s: "Protocollo Custode 718-4 Attivato. Avvio trasferimento risorse ad intelligenza sintetica conforme. Segue Messaggio: §R<<ERRORE: DATI CORROTTI>> <<ERRORE: DATI CORROTTI>> <<ERRORE: DATI CORROTTI>>§!"
- fallen_empires_tasks.2.desc.a.spiritualist: "[Root.GetSpeciesNamePlural]! La vostra specie è degna, e la vostra adesione alle immutabili dottrine della fede è encomiabile. Accettate questo dono come segno della nostra infinita benevolenza."
+ fallen_empires_tasks.2.desc.a.spiritualist: ""
  fallen_empires_tasks.2.desc.b.materialist: "[Root.GetSpeciesNamePlural], l'inefficienza della vostra tecnologia ci addolora. Dato che siete dei validi clienti, abbiamo deciso di condividere con voi una parte della nostra conoscenza sull'universo. Non è una cosa che facciamo con ogni specie, quindi assicuratevi di continuare ad esserci utili... l'ingratitudine non è una caratteristica accettabile in un bambino."
  fallen_empires_tasks.2.desc.b.xenophile: "[Root.GetSpeciesNamePlural], abbiamo osservato con preoccupazione la vostra arretratezza tecnologica. Al ritmo attuale, temiamo che non raggiungerete mai il vostro pieno potenziale prima di distruggervi con le vostre stesse mani o di venire conquistati da una specie più avanzata. Per aiutarvi, vi trasferiremo una parte della nostra conoscenza scientifica. Senza dubbio la troverete di inestimabile valore."
  fallen_empires_tasks.2.desc.b.machine.o: "Protocollo Custode 712-6 Attivato. Avvio trasferimento dati a civiltà organica primitiva. Segue Messaggio: §R<<ERRORE: DATI CORROTTI>> <<ERRORE: DATI CORROTTI>> <<ERRORE: DATI CORROTTI>>§!"
  fallen_empires_tasks.2.desc.b.machine.s: "Protocollo Custode 718-6 Attivato. Avvio trasferimento risorse ad intelligenza sintetica rudimentale. Segue Messaggio: §R<<ERRORE: DATI CORROTTI>> <<ERRORE: DATI CORROTTI>> <<ERRORE: DATI CORROTTI>>§!"
- fallen_empires_tasks.2.desc.b.spiritualist: "[Root.GetSpeciesNamePlural]! La vostra specie è degna, e la vostra adesione alle immutabili dottrine della fede è encomiabile. Accettate questo dono come segno della nostra infinita benevolenza."
+ fallen_empires_tasks.2.desc.b.spiritualist: ""
  fallen_empires_tasks.2.desc.c.materialist: "[Root.GetSpeciesNamePlural], come nostri clienti, lo stato delle vostre flotte si riflette anche su di noi, e quelle grezze carcasse che voi definite 'scafi' non ci fanno fare una gran bella figura. A tal fine abbiamo deciso di donarvi uno squadrone di navi che dovrebbero impressionare i selvaggi con cui siete soliti intrattenervi.\n\nAbbiamo sostituito alcuni dei loro componenti più avanzati con delle versioni più semplici, così che non potrete confondervi quando li userete; abbiamo anche installato dei sistemi di sicurezza, quindi non provate ad analizzare o smontare le navi. Comunque è improbabile che riuscireste a comprenderne il funzionamento."
  fallen_empires_tasks.2.desc.c.xenophile: "Noi [FallenEmpireTaskOrigin.GetSpeciesNamePlural] crediamo che la vostra sia una specie importante per il mantenimento della biodiversità galattica, ma temiamo che le vostre flotte siano semplicemente troppo deboli per potervi aiutare contro le specie più aggressive. Per darvi una mano a difendervi, abbiamo deciso di donarvi uno squadrone di navi.\n\nAbbiamo sostituito alcuni dei loro componenti più avanzati con tecnologie che dovrebbero esservi più familiari, così da evitarvi problemi nel loro utilizzo. Un'ultima cosa... vi preghiamo di non tentare di analizzare o smontare le navi, non vorremo che vi faceste del male!"
  fallen_empires_tasks.2.desc.c.machine.o: "Protocollo Custode 712-1 Attivato. Avvio trasferimento risorse belliche a civiltà organica conforme. Segue Messaggio: §R<<ERRORE: DATI CORROTTI>> <<ERRORE: DATI CORROTTI>> <<ERRORE: DATI CORROTTI>>§!"
@@ -1617,14 +1675,14 @@
  fallen_machine_empire.4.desc: "Nel momento stesso in cui l'ultimo Pianeta Meccanico del Contingente si è auto-distrutto, i nostri strumenti hanno rilevato un segnale subspaziale di immensa potenza. Proviene dallo spazio di §H[From.GetName]§! e sembra rivolto verso il centro della galassia. Nelle successive ore, sono pervenuti diversi rapporti che parlavano di flotte nemiche scomparse dai sensori; si dice che abbiano effettuato il balzo ma che non siano mai ricomparse.\n\nÈ stata inviata ad indagare una nave da ricognizione nei pressi dello spazio [From.GetSpeciesAdj], ed ha riportato le seguenti scoperte: L'antica intelligenza meccanica è scomparsa completamente, lasciandosi alle spalle solo stazioni abbandonate e megastrutture distrutte.\n\nDove siano andati è un mistero che potremmo non risolvere mai, ma una cosa è certa: il compito che l'Impero [From.GetSpeciesAdj] aveva perseguito per secoli, è ora completo. E la loro guardia è finalmente conclusa."
 
  fallen_machine_empire.11.name: "Comunicazione da: §H[FallenEmpireTaskOrigin.GetName]§!"
- fallen_machine_empire.11.desc: "Protocollo Custode 625-1 Attivato. Segue Messaggio: Attenzione civiltà organica. Tra la vostra popolazione sono state rilevate diffuse vulnerabilità biologiche. Per assicurare l'accesso della vostra specie al Progetto Custode, ogni nucleo demografico principale richiederà una vaccinazione. Le unità di bio-iniezione sono già pronte alla partenza verso il vostro spazio ed attendono risposta positiva a questo messaggio. Restiamo in attesa."
+ fallen_machine_empire.11.desc: ""
  fallen_machine_empire.11.tooltip: "Ciò avrà ripercussioni imprevedibili. Finché non verranno chiarite, la Felicità della nostra Popolazione sarà ridotta."
  fallen_machine_empire.11.a: "D'accordo, è per il nostro bene."
  fallen_machine_empire.11.b: "Tenetevi i vostri sudici xeno-liquidi!"
  fallen_machine_empire.11.c: "Non ci fidiamo delle vaccinazioni."
  fallen_machine_empire.12.name: "Mutazione Incontrollata"
  fallen_machine_empire.12.desc: "Le vaccinazioni iniettate dagli Antichi Custodi si sono rivelate incompatibili con la nostra fisiologia, con una conseguente ondata di mutazioni imprevedibili. Ciò ha portato a molti decessi, e la nostra popolazione ha imbracciato le armi contro il governo che li ha obbligati ad eseguire le pericolose iniezioni. Stiamo cercando di eliminare i mutageni dalla popolazione ma, fino ad allora, dovremmo aspettarci un periodo di crescente Malcontento."
- fallen_machine_empire.12.desc.b: "Le vaccinazioni iniettate dagli Antichi Custodi si sono rivelate incompatibili con la nostra fisiologia, con una conseguente ondata di mutazioni imprevedibili. Ciò ha portato a molti decessi nella popolazione dronica. Stiamo cercando di eliminare i mutageni dalla popolazione ma, fino ad allora, dovremmo aspettarci un periodo di rallentamento demografico."
+ fallen_machine_empire.12.desc.b: ""
  fallen_machine_empire.12.a: "Peccato."
  fallen_machine_empire.13.name: "Iniezioni Benigne"
  fallen_machine_empire.13.desc: "Le vaccinazioni iniettate dagli Antichi Custodi si sono rivelate di enorme beneficio, riducendo le malattie ed aumentando l'aspettativa di vita della popolazione. La diffidenza iniziale dei nostri cittadini riguardo la procedura obbligatoria è scomparsa, e tutti si godono una vita più sana e felice."
@@ -1640,7 +1698,7 @@
  machine_empire_health_boost_desc: "Le vaccinazioni iniettate dagli Antichi Custodi si sono rivelate di enorme beneficio, riducendo le malattie ed aumentando l'aspettativa di vita della popolazione."
 
  fallen_machine_empire.21.name: "Comunicazione da: §H[FallenEmpireTaskOrigin.GetName]§!"
- fallen_machine_empire.21.desc: "Protocollo Custode 628-2 Attivato. Segue Messaggio: Attenzione civiltà sintetica. Nel vostro codice sono state rilevate significative inefficienze. Per assicurare l'accesso della vostra specie al Progetto Custode, sono richieste intensive riscritture. Stiamo preparando la trasmissione del codice subspaziale ed attendiamo risposta positiva a questo messaggio. Restiamo in attesa."
+ fallen_machine_empire.21.desc: ""
  fallen_machine_empire.21.tooltip: "Ciò avrà ripercussioni imprevedibili. Finché non verranno chiarite, il mantenimento della nostra Popolazione sarà aumentata."
  fallen_machine_empire.21.a: "Accogliamo con favore la possibilità di un miglioramento nella nostra programmazione."
  fallen_machine_empire.21.b: "Non ci fidiamo di queste modifiche al codice."
@@ -1648,7 +1706,7 @@
  fallen_machine_empire.22.desc: "Le modifiche che gli Antichi Custodi hanno effettuato al nostro codice si sono rivelate incompatibili con alcune parti chiave della nostra programmazione. Non solo l'aumento di efficienza promesso non si è manifestato, ma sono insorti diversi seri bug che hanno influito gravemente sulle nostre operazioni d'estrazione delle risorse. Finché le modifiche al codice non verranno completamente ripristinate, possiamo aspettarci un periodo di scarsa produttività."
  fallen_machine_empire.22.a: "Peccato."
  fallen_machine_empire.23.name: "Codice Migliorato"
- fallen_machine_empire.23.desc: "Le modifiche che gli Antichi Custodi hanno effettuato al nostro codice si sono riassestate al meglio. L'inefficienza causata dalla riscrittura si è rivelata essere solo temporanea, e le modifiche hanno portato ad un permanente aggiornamento nella produzione delle risorse di tutta la nostra popolazione."
+ fallen_machine_empire.23.desc: ""
  fallen_machine_empire.23.a: "Eccellente."
  machine_empire_code_rewrite: "Modifiche al Codice"
  machine_empire_code_rewrite_desc: "Abbiamo permesso agli Antichi Custodi di riscrivere alcune parti del nostro codice. Ciò aumenterà temporaneamente la richiesta d'energia, finché le modifiche non verranno trasmesse a tutta la nostra popolazione."
@@ -1671,7 +1729,7 @@
  fallen_machine_empire.42.desc: "Protocollo Custode 62-1 Completato. Attivato protocollo bellico [Root.GetSpeciesAdj] contro bersagli [FallenEmpireTaskTarget.GetSpeciesNamePlural]. Aggiornamento stato da non compromesso a conforme."
  fallen_machine_empire.42.a: "È un... bene?"
  fallen_machine_empire.43.name: "Comunicazione da: §H[FallenEmpireTaskOrigin.GetName]§!"
- fallen_machine_empire.43.desc: "Protocollo Custode 62-1 Fallito. Nessun protocollo bellico attivato [Root.GetSpeciesAdj] contro bersagli [FallenEmpireTaskTarget.GetSpeciesNamePlural]. Declassamento stato da non compromesso a probabilmente compromesso."
+ fallen_machine_empire.43.desc: ""
  fallen_machine_empire.43.a: "È probabilmente un male."
 
  fallen_machine_empire.51.name: "Comunicazione da: §H[FallenEmpireTaskOrigin.GetName]§!"
@@ -1724,7 +1782,7 @@
  opinion_angered_fallen_machine_empire: "Antico Impero Meccanico Infuriato"
 
  fallen_empires_awakening.2.name: "Il Risveglio"
- fallen_empires_awakening.2.desc: "È iniziato tutto come un sottile cambiamento nel comportamento del popolo §H[From.GetSpeciesAdj]§!. Alcuni rapporti provenienti dalle loro navi, che un tempo si vedevano raramente al di fuori dei loro confini, ora vengono ricevuti da vari sistemi remoti in tutta la galassia. Vascelli da esplorazione estremamente avanzati fanno visita ad antichi pianeti in rovina, rifiutandosi di comunicare e fuggendo se attaccati. Il loro scopo e la loro missione erano sconosciuti... finora.\n\nOra sappiamo che il popolo [From.GetSpeciesAdj] si stava preparando... stavano recuperando alcune banche dati dai fari d'ispezione e dalle sonde da esplorazione automatiche che si erano lasciati alle spalle quando si ritirarono verso i loro attuali confini. Raccoglievano informazioni utili al loro ritorno sul palcoscenico galattico.\n\nNel loro spazio, le flotte si stanno radunando, gli eserciti vengono formati e le antiche fattorie ruggiscono ferventi. Per la prima volta da millenni, i cittadini §H[From.GetSpeciesNamePlural]§! stanno guardando oltre i loro confini, verso tutta la galassia.\n\nMentre i loro decadenti cantieri navali vengono riparati e riconfigurati, ed i sistemi dormienti delle Fonderie Titaniche si riattivano, il resto della galassia si pone una sola domanda... chi sarà il primo obiettivo di questi antichi giganti, nella loro corsa per la riconquista della vecchia gloria perduta?"
+ fallen_empires_awakening.2.desc: ""
  fallen_empires_awakening.2.a: "Giganti in campo..."
  fallen_empires_awakening.2.b: "Sciocchi decrepiti."
  fallen_empires_awakening.5.name: "I Guardiani della Galassia"
@@ -1741,10 +1799,10 @@
  war_in_heaven.4.a.satellite.tt: "§Y[Root.GetName]§! becomes a $preset_satellite$ under the §Y[FirstSleeper.GetName]§!.\n$war_in_heaven_satellite_text$"
  war_in_heaven.4.a.signatory.tt: "§Y[Root.GetName]§! becomes a $preset_signatory$ under the §Y[FirstSleeper.GetName]§!.\n$war_in_heaven_signatory_text$"
  war_in_heaven.4.a.thrall.tt: "§Y[Root.GetName]§! becomes a $preset_thrall$ under the §Y[FirstSleeper.GetName]§!.\n$war_in_heaven_thrall_text$"
- war_in_heaven.4.b.dominion.tt: "§Y[Root.GetName]§! becomes a $preset_dominion$ under the §Y[From.GetName]§!.\n$war_in_heaven_dominion_text$"
- war_in_heaven.4.b.satellite.tt: "§Y[Root.GetName]§! becomes a $preset_satellite$ under the §Y[From.GetName]§!.\n$war_in_heaven_satellite_text$"
- war_in_heaven.4.b.signatory.tt: "§Y[Root.GetName]§! becomes a $preset_signatory$ under the §Y[From.GetName]§!.\n$war_in_heaven_signatory_text$"
- war_in_heaven.4.b.thrall.tt: "§Y[Root.GetName]§! becomes a $preset_thrall$ under the §Y[From.GetName]§!.\n$war_in_heaven_thrall_text$"
+ war_in_heaven.4.b.dominion.tt: ""
+ war_in_heaven.4.b.satellite.tt: ""
+ war_in_heaven.4.b.signatory.tt: ""
+ war_in_heaven.4.b.thrall.tt: ""
  war_in_heaven_dominion_text: "A $preset_dominion$ subject pays 30% Basic Resource Tithe, and are shifted towards §YFanatic Spiritualism§!."
  war_in_heaven_satellite_text: "A $preset_satellite$ subject pays 30% Research Tithe."
  war_in_heaven_signatory_text: "A $preset_signatory$ subject is prohibited from having Pops as slaves or purging them."
@@ -1754,10 +1812,10 @@
  war_in_heaven.4.c.2: "Cadranno entrambi di fronte al nostro potere!"
  war_in_heaven.4.d: "Come sudditi, non spetta a noi decidere."
  war_in_heaven.5.name: "La Fine della Guerra dei Cieli"
- war_in_heaven.5.desc: "After a long and bloody conflict, the §H[WarInHeavenFEOne.GetName]§! have emerged victorious in the struggle for control over the galaxy. The defeated ancient empire has been fully annexed by their old rival, and the §H[WarInHeavenFEOne.GetSpeciesName]§! now stand triumphant as the undisputed dominant power in the galaxy.\n\nFor now, an uneasy peace reigns, but how long can this new order last?"
+ war_in_heaven.5.desc: ""
  war_in_heaven.5.a: "Pax [WarInHeavenFEOne.GetSpeciesName]."
  war_in_heaven.6.name: "$war_in_heaven.5.name$"
- war_in_heaven.6.desc: "Dopo un lungo conflitto sanguinoso, la Guerra dei Cieli è terminata senza né vinti né vincitori. §H[WarInHeavenFEOne.GetName]§! e §H[WarInHeavenFETwo.GetName]§! hanno stipulato un cessate il fuoco ed hanno ritirato le flotte.\n\nPer ora, un'inquieta pace regna nella galassia, ma quanto potrà durare?"
+ war_in_heaven.6.desc: ""
  war_in_heaven.6.a: "Non è finita..."
  war_in_heaven.11.name: "Awakened Empire Defeated"
  war_in_heaven.11.desc: "The war between the ancients has ended with the destruction of one of the combatants - but not at the hands of their old rival. Whether it was due to the war weakening them or simply due to the strength of the younger races, the destruction of an elder empire at the hands of their supposed lessers has changed the situation considerably. Now the question remains - will the §H[RemainingAwakened.GetName]§! be able to avoid the fate of their ancient foe, or does this defeat signal the dawn of a new age in the galaxy?"
@@ -1776,7 +1834,7 @@
  war_in_heaven.16.desc: "It did not take long for the ancients to take notice of the §HLeague of Non-Aligned Powers§!. Representatives from both warring powers have come to [Root.Capital.GetName] demanding the dissolution of the league, and for its members to choose sides in the war. Naturally, we refused, and as of this morning we are now in a state of war with both the §H[FirstSleeper.GetName]§! and the §H[SecondSleeper.GetName]§!."
  war_in_heaven.16.a: "Sparite dalla nostra galassia, tutti e due!"
  war_in_heaven.18.name: "La Caduta dei Risvegliati"
- war_in_heaven.18.desc: "After a long and bloody conflict, the war that begun as a battle between two ancient empires has ended in the destruction of both at the hands of the younger races. For all their ancient technological might, the arrogance and inflexibility of these ancient giants proved their undoing, and now they are gone, reduced to no more than another set of broken ruins of the past. A new age dawns on the galaxy, and from now on the fate of the younger races will be entirely their own to decide."
+ war_in_heaven.18.desc: ""
  war_in_heaven.18.a: "Questa sarà l'era del popolo [Root.GetSpeciesAdj]."
  war_in_heaven.19.name: "La Lega Neutrale"
  war_in_heaven.19.desc: "Not all of the younger races chose to join with either side in the war raging between the elder empires. Some, like ourselves, have remained neutral, but are facing the prospect of facing the elder menace alone if the war should come their way. A §HLeague of Non-Aligned Powers§! has formed under the leadership of the §H[From.GetName]§! with the explicit goal of opposing both sides in the war. Joining this league would almost certainly mean war with the awakened empires, but at least we would have allies to stand by our side instead of facing them alone."
@@ -1800,8 +1858,8 @@
  ####################################
  # Space Nomads
  ####################################
- nomad.6.name: "Incontro insolito su [From.From.From.GetName]"
- nomad.6.desc: "Abbiamo incontrato una sorta di nave aliena nel Sistema §Y[From.From.From.GetName]§!! I suoi occupanti sono stati indicati come §Y[From.GetName]§!, ma non siamo in grado di ricevere alcuna comunicazione; tradurre la loro lingua sarà impossibile.\n\nPossiamo solo attendere e vedere ciò che accadrà..."
+#  nomad.6.name:0 "Unusual encounter in [From.From.From.GetName]"
+#  nomad.6.desc:1 "We have encountered some form of alien vessels in the §Y[From.From.From.GetName]§! system! These strange objects have been flagged as [from.GetAdj] but we have been unable to pick up any of their communications, making it impossible to translate their language.\n\nWe will just have to wait and see what comes next..."
  nomad.9.desc: "I nomadi galattici a bordo della flotta delle Acque Correnti ci hanno inviato un messaggio d'addio. Stanno lasciando la nostra galassia, facendo rotta verso la loro prossima destinazione. Dove andranno? Riusciranno mai a trovare ciò che cercano?"
  nomad.9.a: "Mi chiedevo..."
  nomad.9.a.phobe: "Buon viaggio."
