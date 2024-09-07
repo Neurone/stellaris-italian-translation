@@ -3,14 +3,185 @@
  # Plantoids Species Pack
  ########################
 
+ ### Fruitful Partnership Origin
+ ## By Giada Zavarise
+
+ feeding_station: ""
+ feeding_station_plural: ""
+
+ origin_fruitful: ""
+ origin_fruitful_desc: ""
+ origin_tooltip_fruitful_effects: ""
+ civic_tooltip_hive_xenophile_or_pacifist: ""
+
+ START_SCREEN_FRUITFUL_PLANTOID: ""
+ START_SCREEN_FRUITFUL_FUNGOID: ""
+
+ ## Techs
+ sm_feeder: ""
+ sm_feeder_desc: ""
+ sm_feeder_tt: ""
+ sm_ring_feeder: ""
+ sm_ring_feeder_desc: ""
+
+ tech_critter_feeder: ""
+ tech_critter_feeder_desc: ""
+
+ sseeder: ""
+
+ has_origin_fruitful_special_project_key: ""
+
+ seeded_planet_0_modifier: ""
+ seeded_planet_0_modifier_desc: ""
+ seeded_planet_0_modifier_tooltip: ""
+ seeded_planet_1_modifier: ""
+ seeded_planet_1_modifier_desc: ""
+ seeded_planet_1_modifier_tooltip: ""
+ seeded_planet_2_modifier: ""
+ seeded_planet_2_modifier_desc: ""
+ seeded_planet_2_modifier_tooltip: ""
+ seeded_planet_3_modifier: ""
+ seeded_planet_3_modifier_desc: ""
+ seeded_planet_3_modifier_tooltip: ""
+
+ MESSAGE_FRUITFUL_SEED_PLANTED_TITLE: ""
+ MESSAGE_FRUITFUL_SEED_PLANTED_OWNER: ""
+ MESSAGE_FRUITFUL_SEED_PLANTED_NO_OWNER: ""
+
+ MESSAGE_FRUITFUL_SEED_LOST_TITLE: ""
+ MESSAGE_FRUITFUL_SEED_LOST: ""
+
+ MESSAGE_FRUITFUL_SEED_CRITTER_TITLE: ""
+ MESSAGE_FRUITFUL_SEED_CRITTER: ""
+
+ OPEN_SEED_PODS_PROJECT: ""
+ OPEN_SEED_PODS_PROJECT_DESC: ""
+
+ WEEDS_ARMY_PROJECT: ""
+ WEEDS_ARMY_PROJECT_DESC: ""
+
+ FRUITFUL_SEED_POD: ""
+
+ fruitful_army: ""
+
+ # Events
+ origin.7100.name: ""
+ origin.7100.desc: ""
+ origin.7100.tooltip: ""
+
+ origin.7304.name: ""
+ origin.7304.desc: ""
+
+ origin.7321.name: ""
+ origin.7321.desc: ""
+
+ origin.7326.name: ""
+ origin.7326.desc.base: ""
+ origin.7326.desc.knowowner: ""
+ origin.7326.desc.notknowowner: ""
+ origin.7326.a.desc: ""
+
+ origin.7327.name: ""
+ origin.7327.desc.base: ""
+ origin.7327.desc.knowowner: ""
+ origin.7327.desc.notknowowner: ""
+ origin.7327.desc.moreseeds: ""
+
+ origin.7328.name: ""
+ origin.7328.desc: ""
+
+ origin.7400.name: ""
+ origin.7400.desc: ""
+
+ origin.7500.name: ""
+ origin.7500.desc: ""
+
+ origin.7510.name: ""
+ origin.7510.desc: ""
+
+ origin.7600.name: ""
+ origin.7600.desc: ""
+
+ origin.7710.name: ""
+ origin.7710.desc: ""
+
+ MESSAGE_FRUITFUL_WEED_ARMY_TITLE: ""
+ MESSAGE_FRUITFUL_WEED_ARMY: ""
+
+ opinion_nice_forests: ""
+ opinion_cut_our_forests: ""
+
+ opinion_voted_to_kill_tiyanki: ""
+ opinion_voted_to_help_tiyanki: ""
+
+ fruitful_partnership_chain_title: ""
+ fruitful_partnership_chain_desc: ""
+
+ fruitful_partnership_war_chain_title: ""
+ fruitful_partnership_war_chain_desc: ""
+
+ decision_uproot_weed: ""
+ decision_uproot_weed_desc: ""
+
+ ## Seed Bombing
+ bombardment_seed_bombing: ""
+ bombardment_seed_bombing_desc: ""
+
+ d_seed_bombing_plantoid_blocker: ""
+ d_seed_bombing_plantoid_blocker_desc: ""
+
+ d_seed_bombing_fungoid_blocker: ""
+ d_seed_bombing_fungoid_blocker_desc: ""
+
+ d_seed_bombing_blocker_custom_tooltip: ""
+
+ origin.7201.name: ""
+ origin.7201.desc: ""
+ MESSAGE_FRUITFUL_SEED_BOMBING_TITLE: ""
+ MESSAGE_FRUITFUL_SEED_BOMBING: ""
+
+ ## Critters interactions
+
+ # Amoebas
+ story.101.desc.fruitful: ""
+ story.107.fruitful.desc: ""
+ story.107.a.fruitful.tooltip: ""
+
+ # Crystals
+ story.201.desc.fruitful: ""
+ story.207.fruitful.desc: ""
+ story.207.a.fruitful.tooltip: ""
+
+ # Study the Tyanki and get their tech
+ origin.7000.name: "$story.501.name$"
+ origin.7000.desc: ""
+ origin.7000.a: ""
+ origin.7000.b: "Abbiamo altre priorità."
+
+ TIYANKIS_PROJECT: ""
+ TIYANKIS_PROJECT_DESC: ""
+
+ origin.7005.name: "$story.501.name$"
+ origin.7005.desc: ""
+
+ ### Civics
+
  civic_idyllic_bloom: "Fioritura Idilliaca"
  civic_idyllic_bloom_desc: "Questa società ha sempre speso molto tempo per migliorare e curare il proprio ambiente, nel tentativo di costruire un vero paradiso per i suoi abitanti."
- civic_hive_idyllic_bloom: "$civic_idyllic_bloom$"
+ civic_hive_idyllic_bloom: ""
  civic_hive_idyllic_bloom_desc: "La Mente Alveare si prende cura dell'ambiente, costruendo un paradiso alla ricerca della perfezione sinergica."
  civic_tooltip_idyllic_bloom_effects: "Can build £building£ §Y$building_gaiaseeders$§! on your and your vassal's worlds ideal to your starting species.\n$building_gaiaseeders_all_desc$\nAs you unlock improved £society£ §YTerraforming§! technologies, £building£ §Y$building_gaiaseeders$§! can be constructed on additional planet types."
- civic_tooltip_not_idyllic_bloom: "NON possiede la Scelta Civica §Y$civic_idyllic_bloom$§!"
 
  disables_idyllic_bloom: "§RScegliendo questo Beneficio d'Ascensione la Scelta Civica $civic_idyllic_bloom$ verrà disattivata.§!"
+
+ civic_tooltip_not_idyllic_bloom: ""
+ concept_idyllic_bloom_civics: "Fioritura Idilliaca"
+ concept_idyllic_bloom_civics_desc: ""
+
+ gaia_seeder_bloomed_pops_effect: ""
+ gaia_seeder_bloom_timer_tooltip: ""
+ MESSAGE_POPS_IDYLLIC_BLOOMED_TITLE: ""
+ MESSAGE_POPS_IDYLLIC_BLOOMED: ""
 
  gaiaseeders_tomb_world: "$TRIGGER_FAIL$Requires £society£ §Y$tech_climate_restoration$§! to build on §YTomb Worlds§!."
  gaiaseeders_same_climate_start: "$TRIGGER_FAIL$Requires £society£ §Y$tech_terrestrial_sculpting$§! to build on"
@@ -38,6 +209,9 @@
  building_gaiaseeders_4_desc: "$building_gaiaseeders_all_desc$"
  building_gaiaseeders_4_effect_desc: "Terraformazione del pianeta in un §YPianeta Gaia§! in fase di completamento."
 
+ building_gaiaseeders_pc_gaia: ""
+ building_gaiaseeders_pc_gaia_desc: ""
+
  plant.100.name: "Perfezione Idilliaca"
  plant.100.desc: "Through our superior bio-engineering, considerable investments, and years of hard labor, our Gaia Seeding project on §Y[Root.GetName]§! has come to fruition.\n\nFrom this day on, §Y[Root.GetName]§! must be considered a true gem among planets, to admire, or perhaps envy."
  plant.100.a: "Che i festeggiamenti abbiano inizio!"
@@ -59,28 +233,49 @@
 
  thankful_for_gaia: "Thankful for Gaia"
  thankful_for_gaia_desc: "Our Overlord has recently terraformed one of our planets into a gaia world. How kind of them!"
+
 ### Traits by Byron Aytoun
 
  trait_plantoid_phototrophic: "Fototrofico"
  trait_plantoid_phototrophic_desc: "§LQuesta specie è sostenuta da una combinazione di cibo e luce solare.§!\n"
- TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT: "Sostituisce il §Y50%§! del Mantenimento Base di £food£ §YCibo§! con il Mantenimento della £energy£ §YEnergia§!."
+ TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT: ""
 
  trait_plantoid_radiotrophic: "Radiotrofico"
  trait_plantoid_radiotrophic_desc: "§LQuesta specie è sostenuta da una combinazione di cibo e radiazioni a bassa energia, e come tale può prosperare sui mondi più inospitali.§!"
- TRAIT_PLANTOID_RADIOTROPHIC_EFFECT: "$TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT$\nLa Popolazione che vive sui §YPianeti Sepolcro§! non ha costo di Mantenimento di £energy£ §YEnergia§!.\nVelocità di Crescita della Popolazione su §YPianeti Sepolcro§! §G+10%§!\nAbitabilità Pianeti Sepolcro: §G+10%§!"
+ TRAIT_PLANTOID_RADIOTROPHIC_EFFECT: ""
  trait_harvested_radiotrophic: "$trait_plantoid_radiotrophic$"
  trait_harvested_radiotrophic_desc: "$trait_plantoid_radiotrophic_desc$"
+ trait_lithoid_radiotrophic: "$trait_plantoid_radiotrophic$"
+ trait_lithoid_radiotrophic_desc: "$trait_plantoid_radiotrophic_desc$"
+ TRAIT_LITHOID_RADIOTROPHIC_EFFECT: ""
 
  trait_plantoid_budding: "Gemmazione"
  trait_plantoid_budding_desc: "§LQuesta specie è capace di riprodursi per gemmazione, oltre alla più usuale fecondazione di semi o spore.§!"
- TRAIT_PLANTOID_BUDDING_EFFECT: "Ogni popolazione che lavora come schiavo o meglio produce 0,02 £mod_pop_growth_speed£ §Y$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$§!"
+ trait_lithoid_budding: ""
+ trait_lithoid_budding_desc: ""
+ TRAIT_PLANTOID_BUDDING_EFFECT: ""
+ TRAIT_LITHOID_BUDDING_EFFECT: ""
 
+ trait_advanced_phototrophic: ""
+ trait_advanced_phototrophic_desc: ""
+ TRAIT_ADVANCED_PHOTOTROPHIC_EFFECT: ""
+
+ trait_advanced_radiotrophic: "$trait_plantoid_radiotrophic$"
+ trait_advanced_radiotrophic_desc: ""
+ TRAIT_ADVANCED_RADIOTROPHIC_EFFECT: ""
+
+ trait_advanced_budding: ""
+ trait_advanced_budding_desc: ""
+
+ trait_plantoid_bloomed: ""
+ trait_plantoid_bloomed_desc: ""
+ plantoid_bloomed_trait_tooltip: ""
 ### Catalytic Processing by Byron Aytoun
 
 # Regular
  civic_catalytic_processing: "Trattamento Catalitico"
  civic_catalytic_processing_desc: "Concentrando i loro sforzi industriali sulla chimica catalitica, questa civiltà ha sbloccato la chiave per utilizzare materiali organici nella costruzione di strutture spaziali."
- civic_tooltip_catalytic_processing_effects: "Sostituisce £job_foundry£ §Y$job_foundry_plural$§! con £job_catalytic_technician£ §Y$job_catalytic_technician_plural$§!. $job_catalytic_technician_effect_desc$."
+ civic_tooltip_catalytic_processing_effects: ""
 
 # Corporate
  civic_corporate_catalytic_processing: "Catalytic Recyclers"
@@ -90,12 +285,18 @@
 # Hive Mind
  civic_hive_catalytic_processing: "Organic Reprocessing"
  civic_hive_catalytic_processing_desc: "La Mente Alveare rielabora la materia organica in eccesso in risorse avanzate adatte alle strutture spaziali."
- civic_tooltip_hive_catalytic_processing_effects: "Sostituisce £job_alloy_drone£ §Y$job_alloy_drone_plural$§! con £job_catalytic_drone£ §Y$job_catalytic_drone_plural$§!. $job_catalytic_drone_effect_desc$."
+ civic_tooltip_hive_catalytic_processing_effects: ""
+
+ catalytic_gestalt_additional_effects: ""
 
 # Machine Intelligence
- civic_machine_catalytic_processing: "$civic_hive_catalytic_processing$"
+ civic_machine_catalytic_processing: ""
  civic_machine_catalytic_processing_desc: "L'Intelligenza Artificiale rielabora la materia organica superflua in risorse avanzate adatte alle strutture spaziali."
- civic_tooltip_machine_catalytic_processing_effects: "Sostituisce £job_fabricator£ §Y$job_fabricator_plural$§! con £job_catalytic_drone£ §Y$job_catalytic_drone_plural$§!. $job_catalytic_drone_effect_desc$."
+ civic_tooltip_machine_catalytic_processing_effects: ""
+
+ civic_tooltip_not_catalytic: ""
+ concept_catalytic_civics: "Trattamento Catalitico"
+ concept_catalytic_civics_desc: ""
 
 # Regular & Corporate
  job_catalytic_technician: "Tecnico Catalitico"
@@ -114,3 +315,8 @@
  mod_job_catalytic_drone_add: "Posti di lavoro da $job_catalytic_drone$"
  mod_job_catalytic_drone_per_pop: "§G+1§! Posto di lavoro da $job_catalytic_drone$ ogni $VALUE$ Pop"
  mod_job_catalytic_drone_per_pop_short: "\n§G+1§! £mod_job_catalytic_drone_add£ ogni $VALUE$ £pop£"
+
+ ### Invasive Species trait
+ trait_invasive: ""
+ TRAIT_INVASIVE_EFFECT: ""
+ trait_invasive_desc: ""
