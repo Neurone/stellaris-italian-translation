@@ -8,22 +8,28 @@ Di seguito trovate l'attuale stato di traduzione del gioco base e dei DLC, ordin
 
 | Uscita | DLC | Stato Traduzione |
 |--|--|--|
-|2022.05.12| Overlord| **Da tradurre**|
-|2021.11.22| Pacchetto Specie - Aquatics| Completa|
-|2021.04.15| Nemesis| **Parziale**|
-|2020.10.29| Pacchetto Specie - Necroids| Completa|
-|2020.03.17| Federations| **Parziale**|
-|2019.10.24| Pacchetto Specie - Lithoids| Completa|
-|2019.06.04| Pacchetto Narrativo - Ancient Relics| Completa|
-|2018.12.06| MegaCorp| Completa, **in revisione**|
-|2018.05.22| Pacchetto Narrativo - Distant Stars| Completa|
-|2018.02.22| Apocalypse| Completa|
-|2017.12.07| Pacchetto Specie - Humanoids| Completa|
-|2017.09.21| Pacchetto Narrativo - Synthetic Dawn| Completa|
-|2017.04.06| Utopia| Completa|
-|2016.10.20| Pacchetto Narrativo - Leviathans| Completa|
-|2016.08.04| Pacchetto Specie - Plantoids| Completa|
-|2016.05.09| Stellaris Base| Completa, **in revisione**|
+|2024.09.24|Cosmic Storms|**Da tradurre**|
+|2020.05.07|The Machine Age|**Da tradurre**|
+|2023.11.16|Pacchetto Narrativo - Astral Planes|**Da tradurre**|
+|2023.05.09|Galactic Paragons|**Da tradurre**|
+|2023.03.14|Pacchetto Narrativo - First Contact|**Da tradurre**|
+|2022.09.20|Pacchetto Specie - Toxoids|**Da tradurre**|
+|2022.05.12|Overlord|**Da tradurre**|
+|2021.11.22|Pacchetto Specie - Aquatics|Completa|
+|2021.04.15|Nemesis|**Parziale**|
+|2020.10.29|Pacchetto Specie - Necroids|Completa|
+|2020.03.17|Federations|**Parziale**|
+|2019.10.24|Pacchetto Specie - Lithoids|Completa|
+|2019.06.04|Pacchetto Narrativo - Ancient Relics|Completa|
+|2018.12.06|MegaCorp|Completa, **in revisione**|
+|2018.05.22|Pacchetto Narrativo - Distant Stars|Completa|
+|2018.02.22|Apocalypse|Completa|
+|2017.12.07|Pacchetto Specie - Humanoids|Completa|
+|2017.09.21|Pacchetto Narrativo - Synthetic Dawn|Completa|
+|2017.04.06|Utopia|Completa|
+|2016.10.20|Pacchetto Narrativo - Leviathans|Completa|
+|2016.08.04|Pacchetto Specie - Plantoids|Completa|
+|2016.05.09|Stellaris Base|Completa, **in revisione**|
 
 Per facilitare il confronto con il resto del mondo, **non sono tradotti volutamente i nomi degli achievement ma solo la loro descrizione**.
 

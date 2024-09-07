@@ -23,15 +23,16 @@
 
  # General-Purpose
  enclave.100.name:0 "Veiled Tunnel"
- enclave.100a.desc:1 "Something waits in the [From.GetName] system: a veiled passage, cut from the fabric of spacetime, its horizon rippling with psionic energy. Sensor data is erratic, and the crew of our science vessel reports strange disturbances: wildly visceral dreams, a persistent sense of being watched, fitful hallucinations...\n\nDespite the frustrating lack of useful telemetry, it seems clear we have stumbled on a tunnel through uncharted reaches. A dangerous path, yet the rewards may be great; on the tunnel's far side lies a distant corner of the galaxy."
+ enclave.100a.desc:2 "Something waits in the [From.GetName] system: a veiled passage, cut from the fabric of spacetime, its horizon rippling with psionic energy. Sensor data is erratic, and the crew of our science vessel reports strange disturbances: wildly visceral dreamlike visions, a persistent sense of being watched, fitful hallucinations...\n\nDespite the frustrating lack of useful telemetry, it seems clear we have stumbled on a tunnel through uncharted reaches. A dangerous path, yet the rewards may be great; on the tunnel's far side lies a distant corner of the galaxy."
  enclave.100b.desc:1 "Something waits in the [From.GetName] system: a veiled passage, cut from the fabric of spacetime, its horizon rippling with psionic energy. Sensor data is erratic, but the hive has been disturbed. A persistent feeling of being watched pervades us, the distinct sense that something looms just beyond the tunnel's mouth.\n\nDespite the frustrating lack of useful telemetry, it seems clear we have stumbled on a passage through uncharted reaches. A dangerous path, yet the rewards may be great; on the tunnel's far side lies a distant corner of the galaxy."
  enclave.100.a:0 "What mysteries lie beyond the veil?"
 
  # Mercenary Enclaves
  enclave.2.name:0 "Mercenary Enclave Foundation"
  enclave.2.desc:2 "We are debating whether or not to help set up the [fleet.GetName] as an independent §YMercenary Enclave§!. The proposal, first put forward by the fleet commanders, would result in us losing control of the fleet. We would also be responsible for providing them with a sizeable investment in §YEnergy Credits§! and §YAlloys§!. In return, they would give us a number of shares in the company. These would come with periodic dividends and special privileges.\n\nThey assure us that in times of need, they will always be ready to fight for us. And our money."
- enclave.2.tooltip.a:0 "Fleet needs an admiral"
- enclave.2.tooltip.aa:0 "Fleet has an admiral"
+ enclave.2.tooltip.a:0 "Fleet needs a Commander"
+ enclave.2.tooltip.aa:0 "Fleet has a Commander"
+ enclave.2.tooltip.cloak:0 "All ships in this fleet must be incapable of Cloaking."
  enclave.2.tooltip.b:1 "There is already an enclave here"
  enclave.2.tooltip.bb:1 "No other enclave in system"
  enclave.2.tooltip.c:0 "System must be under our control"
@@ -40,9 +41,8 @@
  enclave.2.tooltip.dd:0 "Mercenary capacity available"
  enclave.2.tooltip.e:1 "System requires an asteroid or a moon"
  enclave.2.tooltip.ee:1 "System has an asteroid or a moon"
- enclave.2.tooltip.f: "We must be the owner of this fleet"
+ enclave.2.tooltip.f:0 "We must be the owner of this fleet"
  enclave.2.a.tooltip:0 "A Mercenary Enclave is founded."
- enclave.23.desc:0 "Thanks for founding us! TODO_CD" #TODO_CD
  enclave.25:0 "Mercenary Enclave Destroyed"
  enclave.25.desc:1 "Our fleet has overcome the defenses of the mercenaries in [merc_system.GetName], and their station has been blown to pieces. The rest of the [FROM.GetName] collapsed quickly after, and their remaining fleets have disbanded. While some of the surviving captains may turn to piracy, others have announced their plans to honor smaller contracts, offering logistical support or space station garrisoning. But such trifling affairs are of little consequence. The important fact is that the Mercenary Enclave is no more, and from its wreckage we have been able to salvage a sizable amount of resources."
  enclave.26.desc:1 "Word has reached us that a Mercenary Enclave has been destroyed by the [mercenary_destroyer.GetName] in [merc_system.GetName]. The aggressors proved too strong for the [FROM.GetName] to face on their own, and the station housing the Board, barracks, and their shipyards was destroyed. The mercenary fleet disbanded shortly after, as every captain was left to fend for themselves, but some representatives have stated that they will honor the company's contracts in logistics and starbase garrisoning as best they can despite the dissolution of the Company."
@@ -60,11 +60,12 @@
  enclave.205.desc.hostile:0 "Ah, the warmonger returns.\n\nHave you finally come to your senses and seen the futility of these pointless actions of yours? For a small sum, a mere token of your goodwill, we at the [mercenary_enclave_country.GetName] are willing to put these disagreements aside. Together, let us look forward to a profitable future."
  enclave.205.desc.unfriendly:0 "We have no services for you. Get out."
  enclave.205.a:1 "We wish to §Yrent a fleet§!."
- enclave.205.tooltip.a:0 "Another empire is already renting our fleet."
+ enclave.205.tooltip.a:1 "The [event_target:current_client.GetName] is already renting our fleet."
  enclave.205.tooltip.b:0 "No available fleet to rent out."
  enclave.205.b:1 "We wish to §Ymanage§! our rented fleet."
  enclave.205.c:1 "We are interested in setting up §YMercenary Garrisons§!."
  enclave.205.d:1 "We want to help you field a §Ybigger fleet§!."
+ enclave.205.d.timeout:0 "The enclave is recruiting new officers and crew. They cannot field further logistical improvements until after §Y[event_target:mercenary_enclave_country.upgraded_station_timer]§!."
  enclave.205.e:1 "We are looking for §Ytactical insight§! into formidable foes."
  enclave.205.f:1 "We wish to hire §Yground troops§!."
  enclave.205.g:1 "What §Ylogistical solutions§! can you offer?"
@@ -79,7 +80,7 @@
  mercenary_tt_logistic:0 "Let the mercenaries assist with your supply lines and increase your §YNaval Capacity§!."
  mercenary_tt_patron:0 "The §YPatron§! of an enclave can help them develop or requisition a fleet that is already hired."
 
- enclave.210.desc:0 "Excellent! Recruiting a [mercenary_enclave_country.GetName] fleet is always the right choice. Our forces are amongst the best-trained and most disciplined in the galaxy, and our tech is cutting edge. Pirates, insurgents, and any other rabble you might have recourse to deal with will soon learn to show respect.\n\n Additionally, each of our fleets comes with a battle-proven admiral at no extra charge. Adept in all facets of interstellar warfare, they will surely lead your forces to victory."
+ enclave.210.desc:0 "Excellent! Recruiting a [mercenary_enclave_country.GetName] fleet is always the right choice. Our forces are amongst the best-trained and most disciplined in the galaxy, and our tech is cutting edge. Pirates, insurgents, and any other rabble you might have recourse to deal with will soon learn to show respect.\n\n Additionally, each of our fleets comes with a battle-proven Commander at no extra charge. Adept in all facets of interstellar warfare, they will surely lead your forces to victory."
  enclave.211.desc:0 "I trust that you will put your new troops to excellent use, and that peace will soon return to your empire!"
  enclave.215.desc:1 "Do you wish to terminate or prolong a contract? Let us prepare the necessary documents. We are currently running a promotion where customers receive a complimentary crate of grenades for every renewed contract!"
  enclave.215.a:0 "We'd like to discuss another matter."
@@ -100,11 +101,14 @@
  enclave.240.c:0 "The Prethoryn Swarm"
  enclave.240.d:0 "The Extradimensional Invaders"
  enclave.240.e:0 "The Contingency AI"
+ enclave.240.f:0 "Cetana"
+
  enclave.245.desc:0 "The Khan's ships present an overall well rounded composition, with no clear weakness. Our analysts suggest that torpedoes might perform well to take their ships down, but caution against specialized defense. A mix of both shields and armor is probably your best bet to keep your ships alive. The Khan has proven to be an extremely competent commander and underestimating them would be a terrible mistake. Consider their retinue as an extreme menace."
  enclave.250.desc:0 "The Gray Tempest relies on two complementary weapon types: energy beams and strike craft. The former is countered by shields, but shields are bypassed by their strike craft. Our projections show that ships fitted with point defense in addition to shields have a much better chance to survive the engagement. Nanite ships are extremely well protected, but torpedoes might help in breaching their defenses."
  enclave.255.desc:0 "Prethoryn fleets rely on slow moving projectiles and hosts of smaller ships to take down their foes. One option to fend them off is to use point defense, coupled with armor and improvements to your ship's hull resilience; another is to engage them at extreme range. With sufficiently powerful energy weapons, one might manage to destroy their fleets before they can even get in range."
  enclave.260.desc:0 "The Unbidden's exclusive reliance on energy gives us an obvious weakness to exploit. Weapons dealing extra damage to their shields should prove devastating, but if you can fit weapons that completely bypass their shields, they won't be long for this dimension. Defensively, you should look at bringing your own shields to the fight to adequately counter their energy beams."
  enclave.265.desc:0 "Contingency ships exclusively use energy weapons- as such, it is best to use shields to mitigate incoming damage. Simulations indicate that despite having strong defense, their ship's hulls are relatively fragile. Our analysts estimate that penetrating weapons might perform very well against them."
+ enclave.266.desc: "Cetana's ships rely on long range, high damage energy weapons and sturdy regenerating armor. They are adept at taking down large targets, and you would do well to instead harass them with swarms of smaller crafts. Torpedos or energy weapons should perform adequately against her fleets, and shielding your vessels might help them survive a little longer."
 
  enclave.270.desc:0 "Looking to pacify a colony or uproot terrorists? Our planetside support services offer companies of trained professionals, ready to work in challenging and high-risk environments to help you bring order to the galaxy."
  enclave.270.a:0 "A small contingent of mercenaries."
@@ -123,8 +127,8 @@
  enclave.280.c.desc:0 "We are always delighted to meet our patrons. Rest assured that the next dividend shipment should reach you shortly. Would you care to tell us what you think about our range of new services in high consequence protection? We think our civilian clients will love them!"
  enclave.280.b:1 "We want you to §Yrecall§! your fleet."
  enclave.280.c:0 "We are inclined to share our §Ytechnology§! with you."
- enclave.280.c.timeout: "The enclave is still upgrading with our tech. We can share new technologies with them after §Y[event_target:mercenary_enclave_country.updating_databanks_timer]§!."
- enclave.285.desc:1 "You certainly understand that recalling a fleet is a sensitive matter. We have of course prepared the necessary loopholes in all our standard contracts, but we will need at least six months to bring the fleet back, and a... generous compensation to avoid upsetting our current customers.\n\n We believe that this course of action is not in the best interests of our organization, but you are our patron - we'll make it happen if you wish it so."
+ enclave.280.c.timeout:0 "The enclave is still upgrading with our tech. We can share new technologies with them after §Y[event_target:mercenary_enclave_country.updating_databanks_timer]§!."
+ enclave.285.desc:2 "You certainly understand that recalling a fleet is a sensitive matter. We have of course prepared the necessary loopholes in all our standard contracts, but we will need at least six months to bring the fleet back, and a... generous compensation to avoid upsetting our current customers.\n\nWe believe that this course of action is not in the best interests of our organization, but you are our patron - we'll make it happen if you wish it so."
  enclave.285.tooltip:0 "This will displease the Enclave."
  enclave.290.name:1 "Commandeered Fleet Arrives."
  enclave.290.desc:1 "The Mercenary Fleet that we commandeered from our enclave is awaiting orders."
@@ -132,10 +136,14 @@
  enclave.294.desc:1 "Dearest client,\n\nAs provisioned by clause 285b.15 of our contract, we must regrettably bring our arrangement to an early close and recall the Mercenary Fleet that you rented from us. As per contract stipulations: this notice serves as your 3-month warning before the fleet must leave your service. We enclose the generous compensation to which you are entitled.\n\nWe apologize for the inconvenience, and wish you the best of luck in your future endeavors."
  enclave.294.b:1 "We needed those ships!"
 
- enclave.2030.desc:1 "Our logistic support service is there to help you deploy your fleets to the farthest reaches of the galaxy. Our dedicated experts will make sure that your ships are equipped with all they need, from ammunition to food, down to the last bolt on your temperature regulators. Additionally, we will set up supply depots ahead of the fleet, or broker provisioning contracrs with local civilian companies. Your ships deserve the best care, and we are here to provide it."
+ enclave.2030.desc:1 "Our logistic support service is there to help you deploy your fleets to the farthest reaches of the galaxy. Our dedicated experts will make sure that your ships are equipped with all they need, from ammunition to food, down to the last bolt on your temperature regulators. Additionally, we will set up supply depots ahead of the fleet, or broker provisioning contracts with local civilian companies. Your ships deserve the best care, and we are here to provide it."
  enclave.2035.name:0 "Logistic Support Contract Ending"
  enclave.2035.desc:1 "Dearest client,\n\nThe Logistic Support service we provide you is due for renewal. As per the terms of our contract: if we do not receive prompt instructions to do otherwise, you will be automatically billed for renewal of this service.\n\nWe trust that you are satisfied, and look forward to doing more business with you!"
  enclave.2035.a:0 "We don't need this service right now."
+ enclave.2060.name:0 "Fleet Contract Ended"
+ enclave.2060.desc:0 "Our contract with the [event_target:mercenary_enclave_country.GetName] has ended and their fleet is about to depart. Should we contact them to renew the contract?"
+ enclave.2060.a:0 "Not at this time."
+ enclave.2060.b:0 "Yes, open communications."
 
  #Modifiers
  mercenary_fleet_size_upgrade_1:0 "Mercenary Fleet Size Upgrade"
@@ -151,6 +159,8 @@
  tactic_v_swarm:0 "Mercenary Tactics: The Prethoryns"
  tactic_v_extradimensional:0 "Mercenary Tactics: Extradimensionals"
  tactic_v_ai_empire:0 "Mercenary Tactics: The Contingency"
+ tactic_v_synth_queen: "Mercenary Tactics: Cetana"
+ damage_vs_synth_queen_merc: "Damage to Cetana: §G+15%§!"
 
  merc_financial_troubles:0 "Financial Troubles"
 
@@ -196,7 +206,7 @@
  high_level:0 "I"
  lord_of_war:0 "Lord of War"
 
- enclave.2000.name:0 "Mercenary Enclave Pays Dividends"
+ enclave.2000.name:1 "The [mercenary_enclave_country.GetName] Enclave Pays Dividends"
  enclave.2000.desc:1 "Esteemed Patron, our recent contracts have been fruitful. We have expanded our civilian operations, and several corporations have hired us for a variety of security and peacekeeping services. While on contract, our operatives chanced upon some valuable scientific research. You will find it attached along with your regular dividends."
  enclave.2005.desc:1 "Esteemed Patron, the company is doing well, and our earnings are steadily increasing. Here are your dividends, along with an extra delivery of resources we recovered from a civilian client who defaulted on their payment."
  enclave.2010.desc:1 "Esteemed Patron, we are pleased to announce record profits during this fiscal interval! As such, we have included a generous bonus to your regular dividends."
@@ -208,14 +218,23 @@
  enclave.2025.c:0 "Let us help instead."
  enclave.2040.desc:0 "You want to share your technology? Your trust in us is an honor, dear patron. While our R&D department is committed to keeping us on the bleeding edge of research, we simply cannot mobilize the same amount of resources as you. And any knowledge that you share with us will be used to develop our activities in the most ethical manner!"
  enclave.2040.a.tt:0 "We will share our §Ytechnology§! with this enclave. This can only be done once every §Y10 years§!."
+ merc_enclave_grants_ships:0 "§Y[mercenary_enclave_country]§! will additionally grant us a §Gsmall military fleet§!"
 
-
+ enclave.2050.name:0 "A Deal We Should Not Refuse"
+ enclave.2050.desc:0 "We have received an urgent communique from the [mercenary_enclave_country.GetName]. They say that the [khan_country.GetName] made them an offer they cannot refuse. Their only way out of the deal is to find employment elsewhere within two months. If no one hires them, they will enter the service of the Khan and have no choice but to wage total war against us."
+ enclave.2050.a:0 "Contact the [mercenary_enclave_country.GetName]."
+ enclave.2050.a.tt:0 "We have £time£ §Y60 Days§! to decide if we want to hire them or not."
+ enclave.2050.b:0 "We cannot afford it now. Maybe later."
+ enclave.2050.b.tt:0 "We have £time£ §Y7 Days§! to decide if we want to hire them or not."
+ enclave.2050.c:0 "Traitors! Their greed will be their downfall."
 
  # Salvager Enclaves
  enclave.305.name:0 "[salvager_enclave_country.GetName]"
  enclave.305.a.desc:0 "Pleased to make your acquaintance! On behalf of the [salvager_enclave_country.GetName], I welcome you to our humble, interstellar workshop.\n\nSay... I'd recognize those keel fixtures anywhere - some fine work. We make a habit of keeping up with what's flying in the galaxy, try to keep up with local trends. But where was I..?\n\nAh yes: welcome! How can we facilitate your salvage and reclamation needs?"
  enclave.305.b.desc:0 "Hello, hello! On behalf of the [salvager_enclave_country.GetName], I welcome you to our salvage yard. Hulls, drives, blueprints, fittings: we stock it all.\n\nI'm not even joking - you'd be amazed what people leave inside their old ships. Just recently I laid my [salvager_enclave_country.species.GetHandNamePlural] on an entire galley unit, cast in gold. Wild.\n\nAnyway, how can we facilitate your salvage and reclamation needs?"
  enclave.305.c.desc:0 "Salutations! On behalf of the [salvager_enclave_country.GetName], I welcome you to our workshop and scrapyard. Legions of dedicated engineers stand ready to repair, rebuild, and tear down just about anything they can latch a tool onto. You'll find our passion for the trade is quite insatiable.\n\nHow can we facilitate your salvage and reclamation needs today?"
+ enclave.305.desc.scavenger_first:0 "Welcome! I sure am glad to meet some fellow scavengers - the galaxy can be a lonely place for those like us.\n\nYou know the drill - we gather together old parts that no one sees any use for, and breathe new life into them. If there's anything you can't get your [Root.GetSpeciesHandNamePlural] on, rest assured, we will have it.\n\nAnyway, how can we facilitate your salvage and reclamation needs?"
+ enclave.305.desc.scavenger_followup:0 "Greetings! Have you gotten bored of running an empire yet? You could join us in the scrapping business - it's much less stressful, and you clearly have the knack for it."
  enclave.305.n.desc:0 "Hello again! Busy times, these - I trust your empire's affairs are running smoothly? I dare say we're all abuzz here, as usual. Idle [salvager_enclave_country.species.GetHandNamePlural] make fast work of outdated colony ships..."
  enclave.305.o.desc:0 "Greetings! And how might we serve your engineering needs today?\n\nHmm, curious hull plate fixtures you have there - how are they working out for you?"
  enclave.305.p.desc:0 "Welcome back! And hey, get a load of those smooth, new drive signatures! I do hope we're managing to impart some small, positive influence on the way you maintain your ships; they'll thank you for it.\n\nHow can we be of service?"
@@ -228,6 +247,7 @@
  enclave.305.d:0 "Can you aid us with §Yconstruction§! efforts?"
  enclave.305.e:0 "We'd like you to salvage some §Ydebris§!."
  enclave.305.f:1 "Can you help us with §Yengineering research§!?"
+ enclave.305.g:1 "We wish to hire a §Y$master_salvager$§!."
 
  enclave.310.desc:1 "Splendid! It would be our pleasure to take that off your hands.\n\nAccording to our scanners, you have the following fleets within range. You'll find our estimates attached; the choice is now yours!\n\n$enclave.310.instructions$"
  enclave.310.organic.desc:0 "Splendid! It would be our pleasure to... By the stars, what is that?! You call that a vessel? I mean, I can see how it... Wow, it's a mean-looking thing. Please, don't do anything hasty! We can take living 'ships' off your hands too, but I'm afraid §Hwe must charge a clean-up penalty§!.\n\nAccording to our scanners, you have the following fleets within range. You'll find our estimates attached; the choice is now yours!\n\n$enclave.310.instructions$"
@@ -268,6 +288,8 @@
  enclave.335.desc:0 "Of course! Our mechanics have been hard at work devising ambitious new work plans, and it would be our pleasure to extend to you a limited-time frenzy of productivity.\n\nWe'll put that Salvage Works of yours into high gear, reclaiming and repurposing parts for projects on §Yall your starbases§!. We even have a few tricks up our sleeves to help you produce ships, in case that should be useful!\n\nBear in mind that work like this takes its toll; we shan't manage this often."
  enclave.335.a:0 "$enclave.310.a$"
 
+ enclave.336.desc:0 "Hello again! I'm pleased to say we're ready to kick things back into a higher gear, and get that Salvage Works to really earn its keep.\n\nWhat do you say? Ready to speed up shipbuilding across §Yall your starbases§!?"
+
  enclave.340.a.desc:0 "A most solemn calling. It pains us more deeply than you can know to hear of ships stricken in battle, but life is harsh out here in the vacuum, and needs must.\n\n... Please, forgive my reverie. Absolutely, that is a service we can provide.\n\n$enclave.340.main.desc$"
  enclave.340.b.desc:0 "Alas. So, the harsh vacuum has claimed more ships... But of course, we will gladly attempt to reclaim something positive from this tragic battle you speak of.\n\n$enclave.340.main.desc$"
  enclave.340.main.desc:0 "If you would be so kind as to grants us §Ysalvage rights§! and furnish us with §Yco-ordinates§! for these debris fields, we shall compensate you in due course."
@@ -282,10 +304,37 @@
  enclave.345.desc:1 "It would be our pleasure! Idle [salvager_enclave_country.species.GetHandNamePlural] make curious minds, and that counts double for us! We are most happy to lend aid and share handy tips with our §Yregular customers§! - so long as our modest expenses are covered.\n\nWe would also appreciate any donation you can make to help shore up our humble starbase! Old hulls can be repurposed many times over, but sometimes there's just no beating the reliability of a freshly-smelted bulkhead."
  enclave.345.a:0 "$enclave.310.a$"
 
+ enclave.346.desc:0 "Hello, friends! Our years of collaborative study have really whisked by. The way I hear it, a few of our engineers have picked up a few tips from you, as well as you from us!\n\nHowever, the agreed upon time has now elapsed and we could use those keen-minded apprentices of ours back at home... That is, unless you're willing to compensate us for a while longer?"
+
+ enclave.350.desc:0 "As one of our more §Yregular customers§!, we would certainly be willing to send someone to oversee your scrapping efforts, for a small cut. It will be a welcome diversion to trawl freshly-charred wrecks."
+ enclave.350.desc.not_available:0 "We offer our §Yregular customers§! the services of an overseer who can improve your scrapping efforts, for a small cut. Unfortunately, none of our overseers are available at the moment - they are in high demand, and I'm afraid some of our other customers take priority."
+ enclave.350.a:0 "$enclave.310.a$"
+ enclave.352.desc:0 "Greetings! The overseer we had sent to you has returned to us, their term in the field complete. However, we would certainly be willing to send a replacement, if you still have use for our services."
+
+ master_salvager:0 "Master Salvager"
+ master_salvager_desc:1 "An experienced technician from the Salvager Enclave ensures battlefield debris is put to efficient use."
+
+ master_salvager_catch_phrase: "§L"Right, let's do some field work! Got any interesting wreckage floating about?"§!"
+
+ leader_trait_master_salvager: "$master_salvager$"
+ leader_trait_master_salvager_desc: "A veteran of Salvage operations from the [salvager_enclave_country.GetName], sharing their expertise for a small fee."
+ leader_trait_master_salvager_effect: "$SYSTEM_EFFECTS_TXT$:\n$t$Friendly Ships in System:\n$tt$Monthly Hull Points Repaired: §G+2%§!\n$t$When Debris is Scavenged/Researched in System:\n$tt$Chance to Salvage Ships: §Y15%§!\n$tt$$salvage_ship_restrictions$"
+
+ councilor_master_salvager: "$master_salvager$"
+ councilor_master_salvager_female: "$councilor_master_salvager$"
+ councilor_master_salvager_desc: "$master_salvager_desc$"
+ councilor_master_salvager_unlock_title: "§HCouncil Position from the [salvager_enclave_country.GetName]§!"
+ councilor_master_salvager_conditional_tooltip: "Leader has the §Y$leader_trait_master_salvager$§! Trait."
+
+ unlocks_salvager_council_position: "\n§EAllows the unlocking of Council Position:§!\n§H$t$$councilor_master_salvager$§!\n$tt$$COUNCIL_POSITION_MODIFIER_BASE$\n$ttt$$MOD_COUNTRY_SCAVENGE_DEBRIS_MULT$: §G+10%§!\n$ttt$$MOD_SHIP_FRIENDLY_TERRITORY_ARMOR_MULT$: §G+2%§!\n$COUNCIL_POSITION_AVAILABLE_FOR$$t$$scientist_with_icon$\n\n$COUNCIL_POSITION_REQUIREMENTS$$councilor_master_salvager_conditional_tooltip$"
+
+ master_salvager_already_bought: "§RWe have already purchased the services of a $master_salvager$.§!"
+ master_salvager_explanation: "\nWe will hire a Level 5 Scientist with the §Y$leader_trait_master_salvager$§! Trait."
+
  enclave.360.name:0 "Reclaimed Bounty"
  enclave.360.intro:0 "A train of cargo barges has just arrived from the §Y[salvager_enclave_country.GetName]§!, carrying a consignment of reclaimed resources."
  enclave.360.a.desc:1 "$enclave.360.intro$\n\nThe Salvagers enclosed a message expressing their thanks, as well as a tangible gift - some form of kinetic artwork. The way it moves within our artificial gravity fields is unnerving, and yet quite captivating."
- enclave.360.b.desc:1 "$enclave.360.intro$\n\nThe courier was relentless in expressing thanks on behalf of the Salvagers - that is, until they became transfixed by the engine housings on our own cargo tugs. This empassioned and deeply curious enthusiast had to be forcibly removed before any unloading of cargo could commence."
+ enclave.360.b.desc:1 "$enclave.360.intro$\n\nThe courier was relentless in expressing thanks on behalf of the Salvagers - that is, until they became transfixed by the engine housings on our own cargo tugs. This impassioned and deeply curious enthusiast had to be forcibly removed before any unloading of cargo could commence."
  enclave.360.c.desc:0 "$enclave.360.intro$\n\nEnclosed amongst the cargo is a database of §Hblueprints§!, hastily-drawn yet quite thorough in their detail. It appears to be the work of someone who was either very excited by their find, or else was studying the schematics as some form of education.\n\nEither way, the [salvager_enclave_country.GetName] has presented their studies for our use, with their compliments."
  enclave.360.d.desc:0 "$enclave.360.intro$\n\nThe courier appeared quite nervous; visibly keen to resume some other errand. This skittish [salvager_enclave_country.GetSpeciesName] seemed in a particular hurry to divest the food supplies we have been owed. Indeed, these morsels come to us surprisingly well-packaged - almost as though a substitution has been made somewhere..."
  enclave.360.e.desc:0 "$enclave.360.intro$\n\nThe courier appeared quite nervous; visibly keen to resume some other errand. This skittish [salvager_enclave_country.GetSpeciesName] was courteous enough in handing over various §Hblueprints§! they say came their way during the course of this salvage. There was, however, some apparent urgency behind their delivery of food supplies.\n\nIndeed, there have been unconfirmed sightings of familiar-looking, spaceborne creatures in the [salvager_enclave_system.GetName] system of late..."
@@ -297,7 +346,7 @@
  enclave.365.tt:0 "We will receive:"
  enclave.365.d:0 "Hail them! We have more debris they could handle."
 
- enclave.375:0 "Salvager Enclave Destroyed"
+ enclave.375.name:0 "Salvager Enclave Destroyed"
  enclave.375.desc:0 "Our offensive in the [salvager_system.GetName] system was a resounding success. The [FROM.GetName] is destroyed, and the few remaining survivors have scattered to the void. With their facilities in ruin, their petty services are a thing of the past. The galaxy is well rid of them."
  enclave.380.desc:0 "We have received reports that the [FROM.GetName] Enclave in the [salvager_system.GetName] system has been destroyed. The aggressors made short work of the campaign, reducing the Salvagers' facilities to rubble. The few remaining survivors have scattered, and it appears that for the time being the galaxy will have to make do without their services."
 
@@ -331,9 +380,12 @@
  enclave.405.b:2 "Would you be willing to send us a §Yteacher§! from your order?"
  enclave.405.c:1 "Can you give us §Yinsight§! on another empire?"
  enclave.405.c.tt:1 "We need at least §Y20§! £opinion£ Opinion with the §Y[shroudwalker_enclave_country.GetName]§! in order to ask for an §YInsight§!."
- enclave.405.c.tt.2:0 "We need an active Spy Network to be able to ask the §Y[shroudwalker_enclave_country.GetName]§! to guide our clandestine efforts."
+ enclave.405.c.tt.2:1 "We need an active Spy Network to be able to ask the §Y[shroudwalker_enclave_country.GetName]§! to guide our clandestine efforts."
  enclave.405.d:1 "Tell us about §Ytravel§! via the Shroud."
  enclave.405.d.tt:1 "We need at least §Y30§! £opinion£ Opinion with the §Y[shroudwalker_enclave_country.GetName]§! in order to inquire about the §YShroud Beacon§!."
+ enclave.405.e:0 "Could you teach us how to harvest §YZro§!?"
+ enclave.405.e.tt:0 "We need at least §Y50§! £opinion£ Opinion with the §Y[shroudwalker_enclave_country.GetName]§! to ask about §YZro§! harvesting."
+ enclave.405.f:0 "We met someone claiming to be a §YVeilfarer§!..."
 
  enclave.410.desc:1 "Ah, a momentous query - no less poignant for being asked by so many before you. Such a question carries a heavy price, but we can provide answers.\n\nKnow this, however: the Shroud allows us to perceive events which have not yet come to pass, and this knowledge shall help guide your course. But it is beyond the power of any one event to alter the turning of the galaxy.\n\nIf you would strike this bargain, know that your aspirations should extend no further than to be better prepared. But oh, what grand designs may be built upon even the merest glimpse at what is to come..."
  enclave.410.a:0 "We will consider something else."
@@ -350,10 +402,10 @@
  enclave.420.b:0 "We would like a §YShroud Beacon§!."
  shroud_beacon_info:1 "Permits building a §HShroud Beacon§! on one of our Starbases. Once built, it will spawn a §HShroud Tunnel§!, providing passage to and from the §Y[shroudwalker_enclave_system.GetName] system§!. Only one Tunnel can be spawned - choose its location carefully."
  enclave.425.desc:1 "A saying is known to us: the paths of the Shroud are strange and winding. May this Beacon light your way forward."
- 
- enclave.435:0 "Shroudwalker Enclave Destroyed"
+
+ enclave.435.name:0 "Shroudwalker Enclave Destroyed"
  enclave.435.desc:0 "Victory in the [shroudwalker_system.GetName] system! Our forces made short work of the so-called mystics of the [FROM.GetName]. For all the grand talk of knowledge and power, their foolish devotion to the Shroud could not provide clairvoyance enough to forestall our assault. In fact, our forces easily breached the facility's mechanical defenses. However, once inside, they discovered the enclave empty, save for a lone acolyte they found deep in meditation in a remote chamber. Where the rest have gone, we have no idea, but the galaxy is well rid of such hollow dogma."
- enclave.440.desc:0 "Reports are coming in surrounding the destruction of the [FROM.GetName] in the [shroudwalker_system.GetName] system. The aggressors made short work of the campaign, reducing the Shroudwalker’s facilities to rubble. It is strange to think that these mystics could not foresee their own demise. Or could this tragedy be a part of some still grander design? Who can say? Without their services, the future remains shrouded."
+ enclave.440.desc:1 "Reports are coming in surrounding the destruction of the [FROM.GetName] in the [shroudwalker_system.GetName] system. The aggressors made short work of the campaign, reducing the Shroudwalkers' facilities to rubble. It is strange to think that these mystics could not foresee their own demise. Or could this tragedy be a part of some still grander design? Who can say? Without their services, the future remains shrouded."
 
  requires_not_shroudwalker_system:0 "§RCannot be built in a system shared with the §YShroudwalker Enclave§!.§!"
  requires_no_bypass:0 "§RCannot be built in a system with an existing Wormhole.§!"
@@ -407,7 +459,7 @@
  shroudwalkers_depart_anger_desc:0 "Our Teachers have abandoned us. We need no further lessons."
 
  enclave.4243.name:0 "A Warning"
- enclave.4243.desc:0 "Apprentices, you walk a dangerous path. Did you think we would not notice, we who have nurtured you for centuries? In teaching you of the Shroud, we hoped to enlighten, to elevate. But this? Power and bloodlust, and a crisis of your own making. Remember your teachings! This universe is nothing but the shadow of a dream. There is still time. Give up this misguided ambition before you are destroyed by it."
+ enclave.4243.desc:1 "Apprentices, you walk a dangerous path. Did you think we would not notice, we who have nurtured you for centuries? In teaching you of the Shroud, we hoped to enlighten, to elevate. But this? Power and violence, and a crisis of your own making. Remember your teachings! This universe is nothing but the shadow of a dream. There is still time. Give up this misguided ambition before you are destroyed by it."
  enclave.4243.a:0 "What have we become?"
  enclave.4243.b:0 "Our destiny is clear. Do not stand in our way."
 
@@ -481,7 +533,7 @@
  enclave.5025.a:0 "Infuriating."
 
  enclave.5030.name:0 "They Cry to Dream Again"
- enclave.5030.desc:0 "Widespread use of the drug Lucid continues on [Root.GetName]. Despite the harsh penalties being meted out to offenders, a growing number of our people have come to view the euphoric dream state as preferable to waking life. Even if the result is their own death, they will not be detered. Stability on [Root.GetName] continues to decline."
+ enclave.5030.desc:0 "Widespread use of the drug Lucid continues on [Root.GetName]. Despite the harsh penalties being meted out to offenders, a growing number of our people have come to view the euphoric dream state as preferable to waking life. Even if the result is their own death, they will not be deterred. Stability on [Root.GetName] continues to decline."
 
  enclave.5035.name:0 "That Sleep of Death"
  enclave.5035.desc:0 "The number of Lucid-related deaths on [Root.GetName] continue to rise. However, as societal conditions worsen, more and more people are turning to the drug for escape. If things continue like this, we are in danger of losing the colony."
@@ -543,9 +595,9 @@
  enclave.5100.a:0 "You shall have them."
  enclave.5100.b:0 "The price is too steep."
  enclave.5105.name:0 "The Key is Fashioned"
- enclave.5105.desc:0 ""The Shroud shivers! With your help, we have at last completed construction of the Great Key. Even now, our most gifted brethren have gathered to begin the Opening. With their minds tethered to the Key, their psionic abilities have been amplified. Now, these brave pilgrims enter a shared dream. At their awakening, a Door to the Shroud will open.\n\nMay those that dwell within the Shroud bless their efforts.""
+ enclave.5105.desc:1 ""The Shroud shivers! With your help, we have at last completed construction of the Great Key. Even now, our most gifted brethren have gathered to begin the Opening. With their minds tethered to the Key, their psionic abilities have been amplified. Now, these brave pilgrims enter a shared dreamlike state. At their awakening, a Door to the Shroud will open.\n\nMay those that dwell within the Shroud bless their efforts.""
  enclave.5106.name:0 "Shroud-Scented World"
- enclave.5106.desc:0 "Disturbing news from our colony on [Root.GetName]: despite the lack of resources, some of the more zealous Reformers attempted to fashion a Key themselves. By amplifying their psionic abilities with the makeshift device, they entered into a shared dream state. This precipitated a breach in the fabric of spacetime above the colony's central city. Noxious, anxiety-inducing fumes are issuing forth, presumably from the Shroud itself. Many are calling this phenomenon 'Shroud Stench', and we are told the experience is far from pleasant. Morale on [Root.GetName] is at an all-time low."
+ enclave.5106.desc:1 "Disturbing news from our colony on [Root.GetName]: despite the lack of resources, some of the more zealous Reformers attempted to fashion a Key themselves. By amplifying their psionic abilities with the makeshift device, they entered into a shared dreamlike state. This precipitated a breach in the fabric of spacetime above the colony's central city. Noxious, anxiety-inducing fumes are issuing forth, presumably from the Shroud itself. Many are calling this phenomenon 'Shroud Stench', and we are told the experience is far from pleasant. Morale on [Root.GetName] is at an all-time low."
  great_schism_03:0 "Shroud Stench"
  enclave.5110.name:0 "The Door Opens"
  enclave.5110.desc:0 "Incredible news from our colony on [Root.GetName]: awakening from their months-long trance, the Reformers have succeeded in opening a doorway to the Shroud. A brilliant rift in spacetime has appeared above the colony's central city. Now, something like a great wind is issuing forth, iridescent with milky light. The psionic resonance that has blown through the colony has permeated the hearts and minds of Reformers and colonists alike. Many believe that this is the dawn a new 'golden age' on [Root.GetName]."
@@ -607,8 +659,8 @@
  SHATTERED_FRONTIER_ANOMALY_DESC:0 "A strange gravity well suddenly appeared above [shattered_frontier_planet.GetName], disrupting many of our satellite orbits. The colony itself doesn't seem to be under threat yet, but this phenomenon is situated uncomfortably close to one of our colonies.\n\nFurthermore, many of the satellites we placed above [shattered_frontier_planet.GetName] face an early de-orbiting if we do not intervene soon. Should that happen, it would significantly hamper our ability to study the new gravity well in detail."
 
  enclave.5501.name:0 "Orbital Rupture Collapses"
- enclave.5501.desc:0 "Researchers on [root.GetName] inform us that the gravity well anomaly has collapsed, causing electrical failures in many of our diagnostic devices and nearby satellites. This event seems to have occured the moment we ceased our observations; something many regard as an unnerving coincidence.\n\nThe colonists on [root.GetName] also report widespread hardware failures, though only some of this can be linked to the orbital blast. Instead, the rest of our colony is having to deal with unusually chaotic mobs who have taken it upon themselves to vandalize key facilities. Local officials are baffled by the spontaneous nature of these riots."
- enclave.5501.gestalt.desc:0 "The gravity well anomaly over [root.GetName] has violently collapsed, causing electrical failures on the ground and amongst nearby satellites. This event seems to have occured the moment we ceased our observations, culminating in an orbital shockwave across multiple radiation bands.\n\nWhile disruptions to our hardware have so far proven quite manageable, this unusual radiation appears to cause some interference amongst our drones. We cannot... sense them quite so fluently. It is as though [root.GetName] has been immersed in some form of dense vapor."
+ enclave.5501.desc:0 "Researchers on [root.GetName] inform us that the gravity well anomaly has collapsed, causing electrical failures in many of our diagnostic devices and nearby satellites. This event seems to have occurred the moment we ceased our observations; something many regard as an unnerving coincidence.\n\nThe colonists on [root.GetName] also report widespread hardware failures, though only some of this can be linked to the orbital blast. Instead, the rest of our colony is having to deal with unusually chaotic mobs who have taken it upon themselves to vandalize key facilities. Local officials are baffled by the spontaneous nature of these riots."
+ enclave.5501.gestalt.desc:0 "The gravity well anomaly over [root.GetName] has violently collapsed, causing electrical failures on the ground and amongst nearby satellites. This event seems to have occurred the moment we ceased our observations, culminating in an orbital shockwave across multiple radiation bands.\n\nWhile disruptions to our hardware have so far proven quite manageable, this unusual radiation appears to cause some interference amongst our drones. We cannot... sense them quite so fluently. It is as though [root.GetName] has been immersed in some form of dense vapor."
  shattered_frontier_looting:0 "Post-Anomaly Looting"
  shattered_frontier_deviancy:0 "Post-Anomaly Deviancy"
 
@@ -634,15 +686,15 @@
 
  enclave.5503.name:0 "Moment of Clarity"
  enclave.5503.looting.desc:0 "Officials overseeing our stricken colony on [root.GetName] are astonished to report that - despite our taking no remedial action - normality has been restored. They describe the situation as though all of [root.GetName] has been granted respite from a prolonged siege. A calm has descended, though no-one knows why.\n\n$enclave.5503.regular.end$"
- enclave.5503.regular.end:0 "Many of the colonists have gathered themselves into new, closer communities. As they begin the work of mutual healing, they share their stories of strange dreams and lingering nightmares. These tales have instilled a renewed sense of purpose in the settlers, who now look upon their home with fearful reverence."
+ enclave.5503.regular.end:1 "Many of the colonists have gathered themselves into new, closer communities. As they begin the work of mutual healing, they share their stories of strange visions and lingering nightmares. These tales have instilled a renewed sense of purpose in the settlers, who now look upon their home with fearful reverence."
  enclave.5503.benefits.desc:0 "Officials overseeing our stricken colony on [root.GetName] are pleased to report that normality has been restored. They describe the situation as though all of [root.GetName] has been granted respite from a prolonged siege. A calm has descended, though few believe our actions actually had much to do with it.\n\n$enclave.5503.regular.end$"
- enclave.5503.lockdown.desc:0 "Officials administering the lockdown on [root.GetName] are relieved to report that normality has been restored. They describe the situation as though all of [root.GetName] has been granted respite from a prolonged siege - one which the colonists have felt from within and without. Whether those outside aggressors exhausted themselves or lost interest, few believe our actions had much to do with it.\n\nMany of the colonists have gathered themselves up into docile, closer communities. As they begin the work of healing, they share their stories of strange dreams and lingering nightmares. Many resent our handling of the situation, but the tales these settlers tell have instilled a renewed sense of purpose in them. They now look upon their home with fearful awe."
+ enclave.5503.lockdown.desc:1 "Officials administering the lockdown on [root.GetName] are relieved to report that normality has been restored. They describe the situation as though all of [root.GetName] has been granted respite from a prolonged siege - one which the colonists have felt from within and without. Whether those outside aggressors exhausted themselves or lost interest, few believe our actions had much to do with it.\n\nMany of the colonists have gathered themselves up into docile, closer communities. As they begin the work of healing, they share their stories of strange visions and lingering nightmares. Many resent our handling of the situation, but the tales these settlers tell have instilled a renewed sense of purpose in them. They now look upon their home with fearful awe."
  enclave.5503.d:0 "Relief at last."
  enclave.5503.gestalt.desc:0 "Normality has been restored to our stricken colony on [root.GetName]. The situation is perplexing: it is as though a corrosive fog had been attacking the colony, and we have at last become immune to its effects. A sense of orderliness has returned, though we do not fully comprehend why; our actions do not fully align with this outcome.\n\nOur drones have now resumed their usual tasks and routines, unstressed by apparently psionic disturbances. What was the purpose of these? Was the anomaly - the Shroud - trying to guide us through some arcane lesson?"
  shattered_frontier_pop_community:0 "Survivor of the Psionic Frontier"
 
  enclave.5504.name:0 "Orbital Silhouette"
- enclave.5504.desc:0 "After weeks of fruitless investigation into the gravity well orbiting [root.GetName], an unusually dense wave of stellar wind has provided our scientists with a disturbing breakthrough.\n\nAs the irradiated winds from [root.GetStarName] washed over the anomaly, they cast the faint but unmistakeable outline of a colony ship, its landing craft in a clear state of disarray. Further, unconfirmed rumors suggest that bodies may have been spotted amongst the shadowy debris.\n\nThe mood amongst many colonists - and some of the research team - has taken a dark turn."
+ enclave.5504.desc:0 "After weeks of fruitless investigation into the gravity well orbiting [root.GetName], an unusually dense wave of stellar wind has provided our scientists with a disturbing breakthrough.\n\nAs the irradiated winds from [root.GetStarName] washed over the anomaly, they cast the faint but unmistakable outline of a colony ship, its landing craft in a clear state of disarray. Further, unconfirmed rumors suggest that bodies may have been spotted amongst the shadowy debris.\n\nThe mood amongst many colonists - and some of the research team - has taken a dark turn."
  enclave.5504.gestalt.desc:0 "After weeks of fruitless investigation into the gravity well orbiting [root.GetName], a dense wave of stellar wind has provided us an unusual breakthrough.\n\nAs the irradiated winds from [root.GetStarName] washed over the anomaly, they cast the faint outline of a colony ship, its landing craft in a clear state of disarray. The remains of some complex lifeforms appeared strewn about the shadowy debris. Their shape seemed remarkably similar to our own."
  enclave.5504.c:0 "We should brace ourselves."
  shattered_frontier_ship:0 "Stricken Colony Ship"
@@ -691,7 +743,7 @@
  enclave.5520.b:0 "Hard to say. You arrived inside of a maelstrom."
  enclave.5521.desc:0 ""Extraordinary! We're finally home? So many pieces of Waking Memory are coming back to me now... I... must apologize. I see now that our arrival here is quite out of the ordinary. I will endeavor to explain.\n\nMy name is §Y[shattered_frontier_governor.GetName]§!, and I am - was - the governor appointed to a new colony in the [shattered_frontier_planet.solar_system.GetName] system. Only... It's not this [shattered_frontier_planet.solar_system.GetName] system?\n\nWhere we came from, where we've been since... We were given no answers, and so much time to speculate... We were taken somewhere, weren't we?""
  enclave.5521.a:0 "It appears that way, yes."
- enclave.5522.desc.intro:0 "So, we were Visited after all... That had been our prevailing theory. The colonists and I have been stripped of our 'waking' memories for what feels like a lifetime, yet we were always able to remember our dreams.\n\nWe lived out multiple lives on a version of [shattered_frontier_planet.GetName] that only ever existed in our imaginations; a colony being abandoned and remade for what we thought would be eternity. This... is the first world we've seen which has felt real."
+ enclave.5522.desc.intro:1 "So, we were Visited after all... That had been our prevailing theory. The colonists and I have been stripped of our 'waking' memories for what feels like a lifetime, yet we were always able to remember our visions.\n\nWe lived out multiple lives on a version of [shattered_frontier_planet.GetName] that only ever existed in our imaginations; a colony being abandoned and remade for what we thought would be eternity. This... is the first world we've seen which has felt real."
  enclave.5522.desc:0 ""$enclave.5522.desc.intro$\n\nI suspect this makes little sense to you. I'm sorry. But for now, we are relieved to be back in the [root.GetName]. May we set down roots at last - somewhere new? Please, consider us at your disposal.""
  enclave.5522.a:0 "Very well, Governor."
  enclave.5525.a:0 "$enclave.5521.a$"
@@ -702,7 +754,7 @@
  enclave.5530.a:0 "We tire of this trickery. Leave, immediately!"
  enclave.5530.a.spirit:0 "Now you take our form? Begone, demon!"
  enclave.5530.b:0 "Imposter! To battlestations!"
- enclave.5531.desc:0 ""...So be it. My fellow colonists and I have spent an eternity knowing only the torture of our own, endless dreams - dreams of a [shattered_frontier_planet.GetName] which can clearly never exist here.\n\nWe are confused, adrift, and evidently not welcome here. If this is truly the [root.GetName] we once left behind, I for one shall be glad to see the back of it. Farewell.""
+ enclave.5531.desc:1 ""...So be it. My fellow colonists and I have spent an eternity knowing only the torture of our own, endless visions - visions of a [shattered_frontier_planet.GetName] which can clearly never exist here.\n\nWe are confused, adrift, and evidently not welcome here. If this is truly the [root.GetName] we once left behind, I for one shall be glad to see the back of it. Farewell.""
 
  enclave.5535.name:0 "$enclave.5515.name$"
  enclave.5535.desc:0 "The lines of communication are filled with static, though the pattern does not repeat. Its source is analog... Some sort of atmospheric interference? It sounds like wind - deeply unpleasant, rasping wind.\n\n"Hhhhheeehhhhhhhh...""
@@ -720,15 +772,15 @@
  enclave.5550.desc:0 ""Explain... I cannot. There are feelings, of doubt and anger and goals not reached. Our purpose - to colonize [shattered_frontier_planet.GetName] - stands unfulfilled. You, who are us; we, who are not you. At the center is [shattered_frontier_planet.GetName], though it is not your [shattered_frontier_planet.GetName]. Yet our mission remains: to spread desire and volition across the galaxy. Only now, we have wills and desires of our own: ambition and purpose, gifted by those who are external to us...""
  enclave.5550.a:0 "Leave this place at once!"
  enclave.5550.b:0 "Abomination. We must destroy you."
- enclave.5551.desc:0 ""...Regrettable. But there is also opportunity. We can recognize this, now that we are freed from the dream-place. We-who-are-not-you, colonists, no longer bound by dreams of [shattered_frontier_planet.GetName]...\n\nWe are confused, and burdened by many questions, but we know where to seek answers. Farewell, spreader-of-ill-will.""
- 
+ enclave.5551.desc:1 ""...Regrettable. But there is also opportunity. We can recognize this, now that we are freed from the vision. We-who-are-not-you, colonists, no longer bound by visions of [shattered_frontier_planet.GetName]...\n\nWe are confused, and burdened by many questions, but we know where to seek answers. Farewell, spreader-of-ill-will.""
+
  enclave.5557.name:0 "Opaque Veil"
  enclave.5557.desc:0 "The currents of time are muddied, impenetrable. Unfortunately, the rite of Divination has failed to pierce the veil of the Shroud. Accordingly, we will return a portion of the cost, minus a small tithe for our efforts."
  enclave.5557.a:0 "Very well."
- 
+
  enclave.5566.name:0 "Wayward Pilgrims"
  enclave.5566.desc:0 "Sensors detect the approach of several transport vessels. Battered and broken-down, the ships appear cobbled together from spare parts. The commander of the caravan's flagship is hailing us, but given the state of their technology, any communication is likely to be audio only."
- enclave.5565.desc:0 "Divine blessings upon you. I am the annointed leader of this caravan. We ask for safe passage through your space, and a kind donation of food. We are on pilgrimage, and after long years in the void, my people grow thin."
+ enclave.5565.desc:0 "Divine blessings upon you. I am the anointed leader of this caravan. We ask for safe passage through your space, and a kind donation of food. We are on pilgrimage, and after long years in the void, my people grow thin."
  enclave.5565.a:0 "We will provide what aid we can."
  enclave.5565.b:0 "You may pass, but we cannot spare the food."
  enclave.5565.c:0 "You are not welcome here."
@@ -741,7 +793,7 @@
  enclave.5575.name:0 "Unholy End"
  enclave.5575.desc:0 "The caravan of pilgrims who came to us begging for aid has met a grisly end. Reconstructive telemetry indicates they were engaged in some form of experiment, possibly psionic in nature. Due to a sudden spike in energy, the containment field around their flagship's engine core was breached. The resulting explosion destroyed the caravan, and has unleashed a potent Psionic Storm in the [wayward_pilgrims_system.GetName] system. Every estimate shows it will take several years before a storm of this size can dissipate.\n\nWhatever these holy fools aimed to do here, they obviously failed, and we have been left to deal with the fallout."
  enclave.5575.a:0 "Intolerable."
- 
+
  wayward_pilgrim_00:0 "Happy Pilgrims"
  wayward_pilgrim_01:0 "Unhappy Pilgrims"
  wayward_pilgrim_02:0 "Satisfied Pilgrims"
@@ -750,7 +802,7 @@
  wayward_pilgrim_05:0 "Rejected Pilgrims"
  wayward_pilgrim_06:0 "Glory of the Blessed Realm"
  wayward_pilgrim_07:0 "Wayward Storm"
- 
+
  enclave.6000.name:0 "Strange Manifestations"
  enclave.6000.a.desc:0 "Strange developments on the [Root.GetName]: after passing through the Shroud Tunnel, the fleet commander has undergone a rapid transformation. While their personality and memories remain unaffected, their physical form has been dramatically altered. They now have the aspect (and internal organs) of an entirely alien species."
  enclave.6000.b.desc:0 "Alarming developments on the [Root.GetName]: after passing through the Shroud Tunnel, the fleet commander has undergone a horrifying transformation. While their personality and memories remain unaffected, their physical form has been dramatically altered. They now have the aspect (and internal organs) of an entirely alien species."
@@ -770,6 +822,42 @@
  enclave.6010.a.desc:0 "The subtle mental changes experienced by the commander of the [Root.GetName] are now coming into focus: a month after their passage through the Shroud Tunnel, their command style has noticeably shifted. It is fair to say that the experience has resulted in the development of a new trait."
  enclave.6010.b.desc:0 "The neural changes first experienced by the commander of the [Root.GetName] are now coming into collective focus: a month after the drone's passage through the Shroud Tunnel, their disposition has noticeably shifted. The experience has resulted in the development of a new trait."
  enclave.6010.c.desc:0 "The neural changes first experienced by the commander of the [Root.GetName] are now becoming clear: a month after their passage through the Shroud Tunnel, the drone's personality matrix has noticeably shifted. The experience has resulted in the development of a new trait."
+ shroud_touched_intro:0 "Passage through the Shroud is not lightly taken;"
+ #Non Gestalt Traits
+ leader_trait_admiral_mind_wipe_01:0 "Shroud-Touched Commander"
+ leader_trait_admiral_mind_wipe_01_desc:0 "$shroud_touched_intro$ this commander's mind now swirls with new ideas to enhance ship performance."
+ leader_trait_admiral_mind_wipe_02:0 "Shroud-Touched Commander"
+ leader_trait_admiral_mind_wipe_02_desc:0 "$shroud_touched_intro$ this commander's mind now swirls with new ideas to enhance weapon systems."
+ leader_trait_scientist_mind_wipe_01:0 "Shroud-Touched Scientist"
+ leader_trait_scientist_mind_wipe_01_desc:0 "$shroud_touched_intro$ this scientist's mind now swirls with new ideas to boost research performance."
+ leader_trait_scientist_mind_wipe_02:0 "Shroud-Touched Scientist"
+ leader_trait_scientist_mind_wipe_02_desc:0 "$shroud_touched_intro$ this scientist's mind now swirls with new ideas to assist archaeological research."
+ leader_trait_general_mind_wipe_01:0 "Shroud-Touched Commander"
+ leader_trait_general_mind_wipe_01_desc:0 "$shroud_touched_intro$ this commander's mind now swirls with new ideas to increase the potency of our armies."
+ leader_trait_general_mind_wipe_02:0 "Shroud-Touched Commander"
+ leader_trait_general_mind_wipe_02_desc:0 "$shroud_touched_intro$ this commander's mind now swirls with new ideas to enhance the performance of our armies."
+ leader_trait_ruler_mind_wipe_01:1 "Shroud-Touched Architect"
+ leader_trait_ruler_mind_wipe_01_desc:0 "$shroud_touched_intro$ this ruler's mind now swirls with new ideas to assist construction efforts."
+ leader_trait_ruler_mind_wipe_02:1 "Shroud-Touched Logistician"
+ leader_trait_ruler_mind_wipe_02_desc:0 "$shroud_touched_intro$ this ruler's mind now swirls with new ideas to boost fleet performance."
+
+ #Gestalt Traits
+ gestalt_trait_commander_mind_wipe_01:0 "Shroud-Touched Naval Drone"
+ gestalt_trait_commander_mind_wipe_01_desc:0 "$shroud_touched_intro$ this drone is now capable of enhancing ship performance."
+ gestalt_trait_commander_mind_wipe_02:0 "Shroud-Touched Naval Drone"
+ gestalt_trait_commander_mind_wipe_02_desc:0 "$shroud_touched_intro$ this drone is now capable of enhancing weapon systems."
+ gestalt_trait_scientist_mind_wipe_01:0 "Shroud-Touched Research Drone"
+ gestalt_trait_scientist_mind_wipe_01_desc:0 "$shroud_touched_intro$ this drone is now capable of advanced research techniques."
+ gestalt_trait_scientist_mind_wipe_02:0 "Shroud-Touched Research Drone"
+ gestalt_trait_scientist_mind_wipe_02_desc:0 "$shroud_touched_intro$ this drone is now capable of enhanced archaeological research."
+ gestalt_trait_general_mind_wipe_01:0 "Shroud-Touched Assault Drone"
+ gestalt_trait_general_mind_wipe_01_desc:0 "$shroud_touched_intro$ this drone's uplink to our armies has been enhanced."
+ gestalt_trait_general_mind_wipe_02:0 "Shroud-Touched Assault Drone"
+ gestalt_trait_general_mind_wipe_02_desc:0 "$shroud_touched_intro$ this drone's uplink to our armies has been improved."
+ gestalt_trait_ruler_mind_wipe_01:0 "Shroud-Touched Command Drone"
+ gestalt_trait_ruler_mind_wipe_01_desc:0 "$shroud_touched_intro$ this drone is now capable of enhancing our construction techniques."
+ gestalt_trait_ruler_mind_wipe_02:0 "Shroud-Touched Command Drone"
+ gestalt_trait_ruler_mind_wipe_02_desc:0 "$shroud_touched_intro$ is now capable of boosting fleet performance."
 
  enclave.6015.name:0 "A Curtain Falls"
  enclave.6015.desc:0 "With our Shroud Beacon offline, we have lost access to the Shroud Tunnel network. Our fleets will be unable to utilize the network until the Beacon is replaced."
@@ -780,13 +868,13 @@
  enclave.6020.desc:0 "After its recent passage through the Shroud Tunnel, the systems on the [Root.GetName] began behaving strangely: entries in the ships log are displayed at random; doors have been observed opening and closing; and - far more worrisome - the engine's containment field has begun to fluctuate. So far, efforts to track down the source of the problem have proven futile."
 
  enclave.6025.name:0 "Dreamer's Wake"
- enclave.6025.desc:0 "Strange developments on the science vessel [Root.GetName]: a repeating pattern observed within the engine's containment field has revealed the existence of an artificial consciousness. Spawned by the interaction between the ship's systems and the psionic energy of the Shroud, until now it has existed in a dream-like state. Analogous to the Rapid Eye Movement some species experience during sleep, the entity's neural processes were responsible for the malfunctions affecting ship performance.\n\nEven more incredible, our investigations appear to have awoken it. In exchange for continued habitation within the ship's systems, the entity has agreed to work for us. In theory, a partnership could improve many of the [Root.GetName]'s operations."
+ enclave.6025.desc:0 "Strange developments on the science vessel [Root.GetName]: a repeating pattern observed within the engine's containment field has revealed the existence of an artificial consciousness. Spawned by the interaction between the ship's systems and the psionic energy of the Shroud, until now it has existed in a dreamlike state. Analogous to the Rapid Eye Movement some species experience during sleep, the entity's neural processes were responsible for the malfunctions affecting ship performance.\n\nEven more incredible, our investigations appear to have awoken it. In exchange for continued habitation within the ship's systems, the entity has agreed to work for us. In theory, a partnership could improve many of the [Root.GetName]'s operations."
  enclave.6025.a:0 "A fair trade."
  enclave.6025.b:0 "Artificial abomination... Eliminate it."
  embrace_dreamer:0 "Embraced Dreamer"
  embrace_dreamer_desc:0 "With an integrated artificial consciousness, the operations of this science vessel have been improved."
  eliminate_dreamer:0 "Eliminated Dreamer"
- eliminate_dreamer_desc:0 "Artficial intelligences have no place aboard our vessels; in this we stand united."
+ eliminate_dreamer_desc:0 "Artificial intelligences have no place aboard our vessels; in this we stand united."
 
  # Introductions
  enclave.7000.title:0 "[shroudwalker_enclave_country.GetName]"
@@ -832,13 +920,18 @@
  shroudwalker_spy_network_finish:0 "The [shroudwalker_enclave_country.GetName] will return with an update on what they have gleaned from the Shroud."
 
  shroudwalker_teacher_cooldown_tt:0 "§RWe will not be able to request another teacher from the Shroudwalkers until §Y[root.shroudwalker_teacher_timer]§!.§!"
- shroudwalker_teacher_already_bought:0 "§RWe have already purchased the services of a Shroudwalker teacher.§!"
+ shroudwalker_teacher_already_bought:1 "§RWe have already purchased the services of a Shroudwalker Teacher.§!"
  shroudwalker_teacher_already_exists:0 "§RThis planet already has the services of a Shroudwalker teacher.§!"
 
- enclave.7100.desc:0 "Mastery of the Shroud is a journey of 10 000 lifetimes; even our most gifted teachers can claim only partial knowledge of its mysteries. Nevertheless, their wisdom is invaluable. Should you wish it, we will dispatch one  to guide your course."
+ enclave.7100.desc:1 "Mastery of the Shroud is a journey of 10,000 lifetimes; even our most gifted teachers can claim only partial knowledge of its mysteries. Nevertheless, their wisdom is invaluable. Should you wish it, we will dispatch one to guide your course."
  enclave.7100.a:0 "We wish to learn."
 
- enclave.7105.desc:0 "To know that there is always more to know; this is the highest wisdom. A teacher will be sent to you. Learn well, and you will surely reap the rewards."
+ enclave.7105.desc:1 "To know that there is always more to know: this is the highest wisdom. A teacher will be sent to you. Learn well, and you will surely reap the rewards."
+
+ enclave.7110.desc:0 "A most interesting story. §YVeilfarer§!, you said? In some ways, this coven does resemble our own, but while these differences may appear subtle to the uninitiated, they are profound: a distorted reflection, from an universe not quite like our own.\n\nThe Shroud has many tears on its surface. Those who enter its mysteries may not always end up in the same universe from whence they started."
+ enclave.7110.a:0 "Psionic travel across dimensions... Fascinating."
+ enclave.7110.a.tooltip:0 "§PPsi Jump Drive technology§! now appears at §Y1.5§! times the normal rate."
+
 
  decision_shroudwalker_teacher:0 "Shroudwalker Teacher"
  decision_shroudwalker_teacher_desc:0 "An adept of the [shroudwalker_enclave_country.GetName] is on planet, instructing in the ways of the Shroud."
@@ -852,5 +945,50 @@
 
  shroud_beacon_active_tooltip:0 "The [Root.GetName] has an active §YShroud Beacon§!."
 
- shroudwalker_teacher_explanation:0 "Unlocks the planet decision §Y$decision_shroudwalker_teacher$§!."
+# shroudwalker_teacher_explanation:1 "\nUnlocks the §Yplanetary decision§! §H$decision_shroudwalker_teacher$§! with the following effects:\n£amenities£ $MOD_PLANET_AMENITIES_MULT$: §G+5%§!\n$mod_planet_jobs_unity_produces_mult$: §G+10%§!\n$mod_planet_telepaths_unity_produces_add$: §G+3§!"
 
+ shroudwalker_teacher_explanation:2 "\nWe will hire a Level 5 Official with the §Y$leader_trait_shroudwalker$§! Trait."
+
+ enclave.7250.desc:0 "Zro is of particular interest to us. We could teach you the ways of harvesting and storing it, but only if you agree to give us a share of your production. In perpetuity."
+ enclave.7250.a:0 "You'll get your share. Teach us."
+ enclave.7255.desc:0 "Zro is a wonderful yet tragic substance. It has many applications, but should never be used lightly, for it is the last legacy of a most venerable species. Harvest it, treasure it, and don't forget to pay us what you owe."
+
+ shroudwalker_zro_tithe:0 "Shroudwalker Zro Tithe"
+ shroudwalker_zro_tithe_desc:0 "The [shroudwalker_enclave_country.GetName] taught us how to harvest Zro. In exchange, we have sworn to give them a tenth of all our Zro production."
+
+ shroudwalker_teacher_desc: "$leader_trait_shroudwalker_desc$"
+ shroudwalker_teacher_catch_phrase: "§L"The secrets of the Shroud shall be uncovered in time."§!"
+
+ leader_trait_shroudwalker: "Shroudwalker Teacher"
+ leader_trait_shroudwalker_desc: "An adept of the [shroudwalker_enclave_country.GetName], skilled in instructing in the ways of the Shroud."
+
+ councilor_shroudwalker_teacher: "Shroudwalker Teacher"
+ councilor_shroudwalker_teacher_female: "$councilor_shroudwalker_teacher$"
+ councilor_shroudwalker_teacher_desc: "An adept of the [shroudwalker_enclave_country.GetName] serves on the council, instructing in the ways of the Shroud."
+ councilor_shroudwalker_teacher_unlock_title: "§HCouncil Position from the [shroudwalker_enclave_country.GetName]§!"
+ councilor_shroudwalker_teacher_conditional_tooltip: "Leader has the §Y$leader_trait_shroudwalker$§! Trait."
+
+ unlocks_shroudwalker_council_position: "\n§EAllows the unlocking of Council Position:§!\n§H$t$$councilor_shroudwalker_teacher$§!\n$tt$$COUNCIL_POSITION_MODIFIER_BASE$\n$ttt$$mod_category_psionics_draw_chance_mult$: §G+5%§!\n$ttt$$mod_country_unity_produces_mult$ §G+1%§!\n$ttt$$mod_shroud_delve_cost$: §G-2%§!\n$COUNCIL_POSITION_AVAILABLE_FOR$$t$$official_with_icon$\n\n$COUNCIL_POSITION_REQUIREMENTS$$councilor_shroudwalker_teacher_conditional_tooltip$"
+
+ enclave.8000.name: "Attack on [FROM.GetName]"
+ enclave.8000.start: "Following our attack on the [FROM.GetName], [root.GetTitle] §Y[root.GetName]§! has left our borders. [root.GetHeSheCap] recorded a message upon [root.GetHisHer] departure."
+ enclave.8000.end: "Thankfully, aside from vacating [root.GetHisHer] workspace, [root.GetName] did not cause any other disruptions to leadership."
+ enclave.8000.councilor_end: "Due to [root.GetHisHer] involvement on the Council, the departure of [root.GetName] and [root.GetHisHer] staffers has caused major disruptions to government operations."
+
+ shroudwalker_teacher_farewell: "§L"You have meddled with powers you cannot possibly comprehend. Tread carefully, and take what solace you can from the present, for on the path you've chosen the future holds only pain."§!"
+ enclave.8000.shroudwalker_teacher.desc: "$enclave.8000.start$\n\n$shroudwalker_teacher_farewell$\n\n$enclave.8000.end$"
+ enclave.8000.shroudwalker_teacher.desc.councilor: "$enclave.8000.start$\n\n$shroudwalker_teacher_farewell$\n\n$enclave.8000.councilor_end$"
+
+ master_salvager_farewell: "§L"Well, you've shown your true colors. Somehow, I expected better. May your engines sputter and die. To the void with you."§!"
+ enclave.8000.master_salvager.desc: "$enclave.8000.start$\n\n$master_salvager_farewell$\n\n$enclave.8000.end$"
+ enclave.8000.master_salvager.desc.councilor: "$enclave.8000.start$\n\n$master_salvager_farewell$\n\n$enclave.8000.councilor_end$"
+
+ curator_archivist_farewell: "§L"Despicable! Vulgar! Craven! To think that we ever considered you civilized... But I suppose such treachery was only to be expected - base instinct and petty greed ever were a mark of your people's character."§!"
+ enclave.8000.curator_archivist.desc: "$enclave.8000.start$\n\n$curator_archivist_farewell$\n\n$enclave.8000.end$"
+ enclave.8000.curator_archivist.desc.councilor: "$enclave.8000.start$\n\n$curator_archivist_farewell$\n\n$enclave.8000.end$"
+
+ trader_leader_farewell: "§L"So why wasn't I let in on this little market secret? Enlighten me, what's the angle here? Where's the profit? Don't you idiots know you've ruined us both?"§!"
+ enclave.8000.trader_leader.desc: "$enclave.8000.start$\n\n$trader_leader_farewell$\n\n$enclave.8000.end$"
+ enclave.8000.trader_leader.desc.councilor: "$enclave.8000.start$\n\n$trader_leader_farewell$\n\n$enclave.8000.councilor_end$"
+
+ leader_leaves_tt: "§Y[root.GetName]§! leaves our empire."

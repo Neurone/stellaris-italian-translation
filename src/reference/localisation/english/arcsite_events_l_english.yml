@@ -1,0 +1,166 @@
+﻿l_english:
+####################
+# ARCHAEOLOGY SITES
+####################
+
+# Ice Trauma (by Gemma Thomson)
+ site_ice_trauma:0 "Under the Ice"
+ site_ice_trauma_desc:0 "The vast, frozen wastelands of [from.planet.GetName] were once seas, spread atop an abundance of deep volcanic canyons. Though the environment is no longer capable of supporting life, we have detected the ruins of ancient submarine settlements in icebound trenches close to the planet's surface."
+
+ arcsite.1000.name:0 "Ghostly Spires"
+ arcsite.1000.desc:0 "Our [owner.GetScientistPlural] have set their camps around the edges of a glassy, frozen lake. Under sufficient light, one may catch glimpses of spectral towers underneath. They grasp upwards from the lake bed like steadfast tendrils.\n\nOur less experienced crews are still adjusting to work in such biting, sterile cold. Despite this, our excavations have proceeded swiftly. We have exposed numerous airlocks, all designed for primitive submarine vessels. There is, as yet, no sign of the vessels themselves. Whether the tower's inhabitants stayed or fled, every one of its docks was left empty."
+ arcsite.1000.a:0 "We should invest further in these ice-breaking techniques."
+
+ arcsite.1005.name:0 "Some Wear and Tear"
+ arcsite.1005.desc:0 "As we continue to remove large sections of ice from around the various icebound habitats, our [owner.GetScientistPlural] at the docking tower have discovered a primitive computer terminal. Its brittle metal casing appears to have been... chewed upon.\n\nThe terminal booted up correctly after some minor repairs. Large parts of the habitat's data network remain offline, but we can infer a great deal from local caches of stock manifests, personnel files, and what appears to be a stash of mission logs."
+
+ arcsite.1010.name:0 "Troubling Developments"
+ arcsite.1010.desc:0 "Our knowledge of the ancient settlement on [from.planet.GetName] deepens, but so too does our concern. What we have uncovered is the remains of a frontier colony - a remnant of a civilization so long forgotten, we cannot even discern their name.\n\nWhen seas were a more dominant feature on this world, disparate groups of settlers were brought from their homeworld and conscripted into pioneer submarine crews. Their goal: to establish colonies and exploit the planet's natural resources. Their reality, however, was one of unchecked biological experiments, radical political change, and significant peril fending off §Yhostile flora and fauna§!.\n\nThe sensor logs from a navigation buoy appear to have tracked one such crew en route to a nearby outpost. We believe their vessel may still be there, trapped in ice along with a cache of useful materials."
+ arcsite.1010.a:0 "Dispatch a research team immediately."
+ arcsite.1010.b:0 "See what we can learn about those hostile ocean-dwellers."
+
+ arcsite.1016.name:0 "Fire and Water"
+ arcsite.1016.desc:0 "Blackened ice surrounds the cave in which we found the crumpled, burnt wreckage of an ancient submarine. Sheltered from the worst of this planet's freeze-thaw cycles, this scorched cave has preserved evidence of multiple calamities befalling this crew.\n\nThe vessel's crude nuclear engine bears signs of hasty patchwork repairs; in the crew quarters we found scratch marks and faint residue from chemical burns. At some point all the submarine's escape shuttles were deployed, yet only one remains nearby - it became lodged inside a dormant lava vent.\n\nThere is little more to glean from this burnt-out wreckage, but the crew's erstwhile destination - a colonial §Ysupply cache§! - has remained intact. Our recovery team has therefore succeeded in retrieving what the doomed submariners could not."
+
+ arcsite.1017.name:0 "Sovereign Submarine"
+ arcsite.1017.desc:0 "We have tunnelled through significant quantities of ice to find the intact wreckage of a submarine, sealed within an airtight cave. Tundral conditions have long since reduced all organic matter to fine dust, but so too have they preserved a wealth of cultural artifacts.\n\nOur anthropological survey suggests a hotbed of political activity as this submarine's crew broke away from the nearby colony. They proclaimed several sovereign boundaries within the hull of their own submarine, espousing all manner of political ideologies. Surprisingly, this extreme factionalism appears to have strengthened the social bonds of this crew rather than forcing them apart. The matter is sure to spark lively debate amongst our own political scientists."
+ arcsite.1017.auth.a:0 "... Keeping us one step ahead of dissidents."
+
+ arcsite.1018.name:0 "Genetic Legacy"
+ arcsite.1018.desc:0 "We had expected such an ancient wreck to have been crushed long ago. Instead we find that this stricken hulk was flash-frozen, preserving its superstructure along with the corpses of numerous creatures. Some of these appear to have been native fauna: large, ferocious and decidedly predatory in nature. The others appear to have been their prey: a small group of sapient beings wearing environment suits.\n\nThese individuals - the submarine's crew - did not originate on [fromfrom.planet.GetName]. Rather, our autopsy suggests that these aliens had gene-spliced themselves with material from local lifeforms. We can only imagine what drove the colonists to modify themselves so extensively, and yet we cannot deny: by preserving this genetic material within themselves, they have ensured the survival of a valuable genetic history."
+ arcsite.1018.phobe.a:0 "Such vile obscenity."
+
+ arcsite.1020.name:0 "Frozen Ordeals"
+ arcsite.1020.desc.intro:0 "Having surveyed all we can from the wrecked submarine and abandoned habitats, our teams on [from.planet.GetName] are preparing to regroup near the planet's surface. There is much we still do not know about this colony. Most of what we found simply amounts to an eclectic legacy, of life on a particularly lonely frontier."
+ arcsite.1020.tech.desc:0 "$arcsite.1020.desc.intro$\n\nAlthough they lacked faster-than-light travel, these ancient submariners have steered us towards remarkable breakthroughs in other fields. They made these discoveries in hardship, the likes of which we can strive not to experience ourselves."
+ arcsite.1020.default.desc:0 "$arcsite.1020.desc.intro$\n\nAlthough their civilization did not yet possess faster-than-light technology, hardship seems to steered this once-submarine colony towards some singular breakthroughs in science and economics, which we are now at liberty to exploit."
+ arcsite.1020.a:0 "These cautionary tales may benefit our colonists."
+ arcsite.1020.b:0 "Sub-surface habitats are an interesting idea."
+ arcsite.1020.c:0 "We could put that submarine's armaments to good use."
+ arcsite.1020.a.memorialist:0 "We shall cherish their memory."
+ arcsite.1020.a.prospectors:0 "A curious enterprise."
+
+ ice_trauma_insights_colony:0 "Frozen Submariners' Legacy" #modifier
+ ice_trauma_insights_engineering:0 "Frozen Submariners' Ingenuity" #modifier
+ ice_trauma_memorialist_unity:0 "In Memory of the Frozen Submariners" #modifier
+
+# Engineered Species
+ site_engineered_species:0 "Plentiful Fossils"
+ site_engineered_species_desc:1 "[from.planet.GetName] appears to be a standard habitable planet, but on closer inspection, our research team has spotted large deposits of fossils in seemingly well-preserved conditions. Interestingly, larger clusters contain multiple specimens on the same layer, indicating that they either died at the same time or were placed there intentionally. Examination of these remains gives us the opportunity to better understand the evolutionary process of the species inhabiting this planet."
+
+ arcsite.2000.name:0 "Loads of Bones"
+ arcsite.2000.desc:0 "We scanned the surface and found a few promising deposits, filled with the remains of a variety of different species. Some resemble those still living on the surface, while others are nothing like we have seen before.\n\nAlthough the work is hard and the wildlife is agitated by our presence, [leader.GetName] has already made remarkable discoveries and managed to reconstruct some of the extinct species. This, in turn, sparked a dispute among the research team. While some want to display these species in exhibitions, others prefer to study the material, as they are the best-preserved fossils found to date, and this dig site is almost exhausted."
+ arcsite.2000.study:0 "Study the fossils."
+ arcsite.2000.use:0 "Make an exhibition out of them."
+ arcsite.2001.name:0 "Fossil Study" #Study
+ arcsite.2001.desc:0 "We have done extensive research to determine the relationship of fossil species to the current biosphere on [from.planet.GetName]. It turns out that some of them belong to the same genus, having many similarities. Further studies might bring us more answers."
+ arcsite.2002.name:0 "Interplanetary Exhibition" #Use
+ arcsite.2002.desc:0 "Quite a few people came to our exhibition. Although we can't use the collected material for our research, we attracted some generous funders and sent the fossils on an interplanetary tour. The alien appearance of exhibits caused a small boom of people interested in xenoarchaeology."
+
+ arcsite.2010.name:0 "Cave Dwellers"
+ arcsite.2010.desc:0 "Exhausting the first site, we decided to move to more remote places in search of more material for research. [leader.GetName] found a good enough spot, a cave that served as a home for some intelligent extinct species. Careful probing and examination revealed something unusual: whatever lived in this cave used an ingenious dye that reveals itself when exposed to heat and light.\n\nWe have identified two types of paintings: one telling the story of the past, and the other portraying daily life. Unfortunately, we disrupted the delicate ecosystem that preserved the drawings. The resulting chain reaction, combined with the age of the dye, causes it to fade and disappear on short notice. The team must decide which one is worth saving."
+ arcsite.2010.study:0 "Preserve the history."
+ arcsite.2010.use:0 "Preserve the daily life."
+ arcsite.2011.name:0 "Cave Dwellers History" #Study
+ arcsite.2011.desc:0 "We captured drawings related to the past and gained insight into the species' history. It appears that these cave dwellers came into contact with an advanced civilization that somewhat influenced their looks and development. Given the depictions of the creatures, we assume that the species was prone to rapid genetic mutations, and their generations varied greatly in appearance."
+ arcsite.2012.name:0 "Cave Dwellers Life" #Use
+ arcsite.2012.desc:0 "We captured drawings related to daily life and gained insight into the history of the species. They depict cave dwellers as a conglomeration of different-looking but similarly intelligent species who participated in complex rituals. [leader.GetName] assumed that the various creatures basked in the light of the deity, worked for him, and in return were given freedom."
+
+ arcsite.2020.name:0 "Bone Structure"
+ arcsite.2020.desc:0 "Exploring further into the deep chasms of the cave, we came across a grotto with a strange bone structure inside. Given the current state of the structure, it looks like it collapsed and sank into the ground - probably as a result of an earthquake. [Leader.GetName] ordered a camp to be set up, and we have already done some perimeter scans, but the ground is not stable. We may not have adequate time to examine the structure fully once we get inside.\n\nThe greatest potential yield for our studies lies in the building itself. We can either study the intriguing bone-like material or focus our efforts on exploration, searching the structure for more clues about the aliens who built and used it and their daily routine."
+ arcsite.2020.study:0 "Study the building."
+ arcsite.2020.use:0 "Study its interior."
+ arcsite.2021.name:0 "Living Structure" #Study
+ arcsite.2021.desc:0 "After uneventful research, [Leader.GetName] concluded that the building was... alive. Not now, but years ago, sometime during its creation. It was a mass of bones and tissues molded together to create a building that could reshape for the desired purpose. Given the way the building collapsed, one might even assume that this was a deliberate act on the part of the structure itself.\n\nUnfortunately, we compromised the structure during our studies and it collapsed even further, rendering the building useless for further research. [Leader.GetName] ordered the team to move forward."
+ arcsite.2022.name:0 "Underground Civilization" #Use
+ arcsite.2022.desc:0 "The interior of this creepy structure turned out to be a maze of half-collapsed corridors filled with bone-like material lying everywhere. With some difficulty, we were able to extract several tools and objects that indicate that a complex culture lived on this planet. They will give us great insight into what life may have been like for these extinct species.\n\nUnfortunately, we compromised the structure during our studies and it collapsed even further, rendering the building useless for further research. [Leader.GetName] has ordered the team to move forward."
+
+ arcsite.2030.name:0 "Underground Facility"
+ arcsite.2030.desc:0 "We finally reached the end of the cave. We entered something that resembled an old abandoned bunker built deep underground. It doesn't look like anything we've found before: we assume alien visitors set up a research lab down here. And given the dilapidated tanks, various bones, and fossils lying around, they were studying these species just as we were... Only they had this opportunity to conduct research when their specimens were still alive.\n\n[Leader.GetName] immediately jumped to work, trying to gather any useful information from the site and data banks, as soon as we plugged them into the power source."
+ arcsite.2030.proceed:0 "What mysteries will we uncover?"
+
+ arcsite.2040.name:0 "Breakthrough"
+ arcsite.2040.revelation.desc:0 "We compared our knowledge from previous studies to the information from the databanks. The conclusion we made is disconcerting. It appears that thousands of years ago, a space-faring civilization landed on this world and found the indigenous specimens easy to train, using their genetic manipulation techniques. At first, they enslaved the population of intelligent - albeit not fully-developed - autochthons, and conducted various experiments on them. These included making them into living tissue for construction purposes. Or into obedient slaves. Or into pets and livestock.\n\nThe previous instances we found were probably remnants of these species before they devolved into the non-sapient biosphere that now thrives on the [from.planet.GetName]. A horrifying end for a species that could, one day, have traversed the galaxy just as we do."
+ arcsite.2040.ignorance.desc:0 "It appears that thousands of years ago, an advanced civilization found the specimens living here to be an interesting study. They were, fascinated by the diverse biosphere. Old databanks are still working, filled with strange conclusions and somewhat worrying experiments. They contain a basic genetic composition of the species and how they might have developed in the past and future.\n\nWhat happened to the researchers themselves? Did they devolve to the state of cave dwellers we found before? Or maybe it is the opposite, and they evolved from them, leaving the planet at some point? It brings us to wonder: what other mysteries does the universe hold?"
+ arcsite.2040.revelation:0 "This is horrible."
+ arcsite.2040.ignorance:0 "Universe is full of wonders."
+ arcsite.2040.phobe:0 "This proves that Xenos can't be trusted!"
+ arcsite.2040.phile:0 "Such crimes would be impossible under our government!"
+
+ engineered_species_revelation:0 "Harsh Truth" #modifier
+ engineered_species_revelation_desc:0 "While we were able to embrace the knowledge of long-dead aliens and their genetic manipulation test subjects, it also proved to us that space is not a friendly place. It is easy to turn from predator to prey."
+ engineered_species_ignorance:0 "Mysterious Universe" #modifier
+ engineered_species_ignorance_desc:0 "Exploring the universe is an undertaking full of wonders. It is amazing that life can flourish even in the farthest corners of the galaxy and in the most dangerous conditions. Our people, fascinated by stories of diverse creatures living together in harmony, are ready to face the mysteries of the universe."
+ engineered_species_ownway:0 "Unified Thought"
+ engineered_species_ownway_desc:0 "The universe is harsh, but we must stay true to our path so that we do not follow the mistakes of those who have gone before us."
+
+ # Debris Belt
+ site_debris_belt:0 "Debris Belt"
+ site_debris_belt_desc:0 "Our scans of the [From.Planet.System.GetName] system show that its asteroid belt is of an unusual variety. Instead of the standard mix of rocks, ice and space rubble that usually make up such formations, it seems to be the remains of a number of large, artificial habitats. These must have been destroyed with incredible violence sometime in the last few millennia. Untold secrets may be contained within the resulting debris field, but it is so extensive that charting it out could take quite some time."
+ r_odryskan_crystal:0 "Crystal of Odryskia"
+ r_odryskan_crystal_desc:0 "A crystal of incalculable wealth. It is said that the value of even a single shard is enough to drive mortal minds to insanity."
+ r_odryskan_crystal_regular_effect:0 "One of our scientists may gain the §YManiacal§! trait."
+ NAME_The_Cabin:0 "The Cabin"
+
+ arcsite.2500.name:0 "The Cabin"
+ arcsite.2500.desc:0 "We are not the first to discover the debris belt in the §Y[From.Planet.System.GetName]§! system: a craft - so small that our [Root.Owner.GetResearchers] are dubbing it a "space cabin" - has been found, containing the remains of a single toxoid alien and a considerable number of data crystals. Judging by the rate of decay, our best guess is that this alien expired only a few centuries ago."
+ arcsite.2505.name:0 "A Long Sojourn"
+ arcsite.2505.desc:0 "The data crystals discovered in the alien's space cabin are in fact mission logs. Our [Root.Owner.GetResearchers] have sent us a sample, along with a preliminary translation. They start in an upbeat tone:\n\n"This is the chance of a lifetime. The ruins of the fabled Odryskans are within reach. My new home isn't much, but it's good enough for me, and soon I'll be able to send enough credits home to pay for my daughter's treatment."\n\nSoon enough however, the logs grow sour:\n\n"Wife and daughter dead. No one left to mourn for me. Salvage sold on black market barely enough to support living costs. Too late to turn back now."\n\nAll told, the alien spent over five decades trawling the rubble belt in an apparently futile search for riches."
+ arcsite.2505.A:0 "Surely they found something in all those years!"
+ arcsite.2515.name:0 "Descent Into Madness"
+ arcsite.2515.desc:0 "It is not true\nIt is not true\nIt is not true\nIt is not true\n§RLIES!§!\n...\n...\n...\nBut what if it is true?\n\nThe logs become increasingly disturbing as the alien slips further and further into madness."
+ arcsite.2520.name:0 "Peace At The Last"
+ arcsite.2520.desc:0 "Our [Root.Owner.GetResearchers] have finished translating the alien's data crystals. They present an interpretation of the last log, in which, not long before their death, the recorder experiences a rare moment of lucidity:\n\n"I have finally found what I am looking for. Many would consider me mad for continuing the search this long. I think, probably, that they are right. I am old, now - dying, even - and my kin are long since dust. There is no point in selling the artifact, but perhaps now I can find peace."\n\nThe logs go on to pinpoint where the alien concealed the treasure. By following them, we have tracked down an astonishingly large gemstone of immeasurable value."
+ arcsite.2520.A:0 "Our precious..."
+
+ #Krazura Arcsite
+ site_krazura_dig: "Ancient Capital Site"
+ site_krazura_desc: "We've discovered the ruins of an ancient city on [From.Planet.GetName]. Given its size and scale, this was likely the capital or central administrative hub of a major space-faring civilization.\n\nA full excavation will be necessary to properly determine its origin."
+
+ arcsite.3025.name: "Broken Nest"
+ arcsite.3025.desc: "Grand sanctums and ruined temples dot the landscape of the capital. A deeper exploration has revealed that this civilization was destroyed more than half a million years ago.\n\nBased on the discovery of several remarkably well-preserved murals, the inhabitants appeared to be avian in biology. A rough transliteration of their language indicates they called themselves the Krazura."
+ arcsite.3025.a: "Keep digging."
+ arcsite.3030.name: "Rift Remnants"
+ arcsite.3030.intro: "Further excavation has resulted in a startling discovery: a chamber so massive it could house one of the planet's smaller mountains. Despite the awesome scale of its construction, this 'Grand Hall' serves no apparent function, with only a single means of entrance and egress.\n\nRoughly spherical, the chamber's walls show strong evidence of dimensional warping; it is reasonable to conclude that the chamber was built around a wormhole or some other subspace portal."
+ arcsite.3030.a.desc: "$arcsite.3030.intro$\n\nWhat's more, a mural etched just outside the Hall provided an incredible discovery: this planet is none other than Skravird, ancestral home of the famous Admiral Skrand Sharpbeak!"
+ arcsite.3030.b.desc: "$arcsite.3030.intro$\n\nA mural etched just outside the Hall indicates this planet was once called Skravird."
+ arcsite.3030.tt: "Changes the planet's name to §YSkravird§!."
+ arcsite.3031.name: "No Nest Like Home"
+ arcsite.3031.desc: "You have found Skravird. I thought my home lost forever.\n\nTo have the chance to set my talons into its ground, to feel the warm south wind blowing through my feathers... What you have done for me and for my people is beyond measure.\n\nI am refreshed, in body and mind. You have my gratitude."
+ arcsite.3031.a: "Good luck to you Admiral."
+ arcsite.3035.name: "Open Eyes"
+ arcsite.3035.desc: "We have established that the Krazura were not native to our dimension. Arriving through a portal of some kind, they found themselves adrift in a strange and alien galaxy. Much later, the Grand Hall was built around their arrival site.\n\nThe few remaining records indicate they viewed themselves as arbiters of great and mystical power. Their supreme leader, known as the 'Yakura', was believed to be a single individual, reincarnating into a new body with each generation.\n\nBeneath the Grand Hall, we unearthed the remains of several such rulers. Interestingly, the earliest possessed a different genetic structure from those that followed. It seems the journey to this universe impacted the Krazura's very DNA, resulting in the emergence of a 'double' set of eyes."
+ arcsite.3040.name: "The Menace"
+ arcsite.3040.desc: "The Krazura started out as refugees in our universe. Nevertheless, records discovered near the Grand Hall show that they quickly established themselves as a powerful interstellar empire. For many generations they enjoyed a Golden Age. Their people prospered, and the ability and supremacy of the Yakura went unquestioned. Then the Menace appeared.\n\nA foe unlike any they had encountered before, this nameless enemy seemed obsessed with their destruction. The Krazura's greatest sages stood powerless before the indomitable threat, their mighty magic rendered useless."
+ arcsite.3045.name: "The Last Migration"
+ arcsite.3045.a.desc: "We have uncovered a cache of records that offer clues as to the fate of the Krazura.\n\nCommanding their navy's flagship was a legendary Admiral, a great hero of his people. Before the alien Menace could achieve a final victory, he and his crew were sent on a last, daring mission. In a bid to outflank the enemy, they entered an untested Gateway. The ship and its crew were never heard from again.\n\nWhat happened remains a mystery. Is it possible that this ship is still out there?"
+ arcsite.3045.b.desc: "We have uncovered a cache of records that offer clues as to the fate of the Krazura.\n\nIn a daring bid to outlfank the enemy, the Yakura ordered the flagship to enter an untested Gateway. In command was the legendary Admiral Skrand Sharpbeak.\n\nHe and his crew are the inheritors of a remarkable legacy. Whether Skrand wishes to accept the title or not, his people now look to him as Yakura."
+ arcsite.3045.a: "May his wings soar."
+
+ #Krazura Random Events
+
+ arcsite.3055.name: "Baleful Bird"
+ arcsite.3055.desc: "Even as overall progress stalled, our [owner.GetResearchers] revealed the entrance to a previously undiscovered chamber. Inside was a massive statue, as imposing as it is beautiful.\n\nAvian in form, its long, powerful neck is fashioned of metallic links that somehow manage to hover in place. Sharp plumage erupts from a patrician skull, and its eyes are golden heralds of power. Moving through the chamber, our [owner.GetResearchers] had the uncomfortable sensation that they were being watched.\n\nBehind the figure they discovered hidden a door or seal, but whatever this baleful bird was guarding has long since ceased to function."
+ arcsite.3060.name: "Feather Rot"
+ arcsite.3060.desc: "Based on what we have discovered thus far, this civilization was no stranger to tragedy.\n\nAncient records stored in some kind of crypt or mausoleum detail the emergence of a great plague, one which afflicted the species' avian physiognomy in particularly gruesome ways.\n\nFirst manifesting in the plumage, the virus caused feathers to rot at the root. Within days, these effects had spread to the blood. We cannot know for certain, but early estimates place the mortality rate at over 30%.\n\nA poignant monument was erected in one of the city's central squares. Atop a mound of bones, a single, skeletal bird looks hopelessly to the sky, its fallen feathers strewn about a pair of brittle talons."
+ arcsite.3060.a: "Horrid even to contemplate."
+ arcsite.3060.b: "Gruesome."
+
+################
+# RANDOM EVENTS
+################
+
+ arcsite.9000.name:0 "Lonely Vigil"
+ arcsite.9000.desc:0 "Chief archaeologist [leader.GetName] has been growing steadily more withdrawn of late. [leader.GetHeSheCap] appear[leader.GetSXX] less invested in our research goals, choosing instead to obsess over the various diaries and logs we have uncovered so far. [leader.GetHeSheCap] often mutter[leader.GetSXX] about "how lonely these people must have been".\n\nIt is possible the bleakness of this dig site is taking a toll. We can arrange for team-wide counseling, or else trust that [leader.GetName] finds resolution in [leader.GetHisHer] work." #Uses he/she/they loc., i.e. 'She appears' vs. 'They appear'
+ arcsite.9000.a:0 "Make arrangements. Our team's health is of utmost importance."
+ arcsite.9000.b:0 "Leave [leader.GetHimHer] be. Perhaps [leader.GetHeShe] [leader.GetIsAre] onto something."
+ arcsite.9001.desc:0 "Chief archaeologist [absconded_archaeologist.GetName] has absconded, taking a sizeable portion of our anthropological data with [absconded_archaeologist.GetHimHer]. The team reports one ground vehicle missing, but all our environment suits remain at the base.\n\nIt is possible [absconded_archaeologist.GetName] escaped to another submarine habitat somewhere across the tundra, but realistically... We must assume the worst."
+ arcsite.9001.a:0 "Deeply regrettable."
+ arcsite.9002.desc:0 "A heavy toll has been exacted upon archaeologist [leader.GetName]. Though they appear quite haggard now, [leader.GetHeShe] has rejoined the team and presented a compelling hypothesis. It seems we had overlooked several subtle details in the corpus of personal documents. Together, these clues provide just the sort of breakthrough we had been hoping for."
+ arcsite.9002.a:0 "But was it worth the cost?"
+
+ arcsite.9005.name:0 "Icebreaker"
+ arcsite.9005.desc:0 "The excavation team on [fromfrom.planet.GetName] has been working closely with our [owner.GetResearchers] on [owner.capital_scope.GetName], trying out novel solutions for work in harsh tundra. The ground team has deployed a prototype excavator whose design draws heavily on terraforming techniques.\n\nEarly trials suggest this machine will significantly speed up our work here. However, they have identified §Hseveral risks§!. Additional funds will be required if we are to try and mitigate those."
+ arcsite.9005.a:0 "The risks and potential cost are too great."
+ arcsite.9005.tt.carefree:0 "adding §G4 clues§! to §H$site_ice_trauma$§!\n§H[leader.GetName]§! gains:\n$t$§Y$leader_trait_carefree$§! trait\n$t$Experience: +§G150§!" #directly follows loc string 'RANDOM_EFFECT'
+ arcsite.9005.tt.paranoid:0 "adding §R-2 clues§! to §H$site_ice_trauma$§!\n§H[leader.GetName]§! gains:\n$t$§Y$leader_trait_paranoid$§! trait\n$t$Experience: +§G50§!" #directly follows loc string 'RANDOM_EFFECT'

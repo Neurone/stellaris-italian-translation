@@ -78,122 +78,6 @@ guiTypes = {
 			}
 
 		containerWindowType = {
-			name = "shared_stockpile"
-			position = { x = 605 y = 5 }
-			size = { width = 100%% height = 100% }
-
-			@labelWindowWidth = 142
-			@labelWindowHeight = 28
-			@labelPosY = 15
-
-			containerWindowType = {
-				name = "shared_stockpile_title"
-				size = { width = @labelWindowWidth height = @labelWindowHeight }
-				position = { x = 170 y = @labelPosY }
-
-				background = {
-					name = "bg"
-					spriteType = "GFX_tiles_dark_area_cut_8"
-				}
-
-				instantTextBoxType = {
-					name = "shared_stockpile_title"
-					font = "cg_16b"
-					position = { x = 0 y = 5 }
-					maxWidth = @labelWindowWidth
-					maxHeight = @labelWindowHeight
-					fixedSize = yes
-					text = "SHARED_SECTOR_RESOURCES"
-					format = center
-					text_color_code = "H"
-					alwaysTransparent = no
-				}
-			}
-
-			containerWindowType = {
-				name = "shared_stockpile_monthly"
-				size = { width = @labelWindowWidth height = @labelWindowHeight }
-				position = { x = 320 y = @labelPosY }
-
-				background = {
-					name = "bg"
-					spriteType = "GFX_tiles_dark_area_cut_8"
-				}
-
-				instantTextBoxType = {
-					name = "shared_stockpile_monthly"
-					font = "cg_16b"
-					position = { x = 0 y = 5 }
-					maxWidth = @labelWindowWidth
-					maxHeight = @labelWindowHeight
-					fixedSize = yes
-					text = "SHARED_SECTOR_MONTHLY"
-					format = center
-					text_color_code = "H"
-					alwaysTransparent = no
-				}
-			}
-
-			containerWindowType = {
-				name = "shared_stockpile_stockpile"
-				size = { width = @labelWindowWidth height = @labelWindowHeight }
-				position = { x = 470 y = @labelPosY }
-
-				background = {
-					name = "bg"
-					spriteType = "GFX_tiles_dark_area_cut_8"
-				}
-
-				instantTextBoxType = {
-					name = "shared_stockpile_stockpile"
-					font = "cg_16b"
-					position = { x = 0 y = 5 }
-					maxWidth = @labelWindowWidth
-					maxHeight = @labelWindowHeight
-					fixedSize = yes
-					text = "SHARED_SECTOR_STOCKPILE"
-					format = center
-					text_color_code = "H"
-					alwaysTransparent = no
-				}
-			}
-
-			buttonType = {
-				name = "shared_transfer_resources"
-				quadTextureSprite = "GFX_standard_button_142_34_button"
-				position = { x = 460 y = 42 }
-				pdx_tooltip = "SHARED_SECTOR_STOCKPILE_DESC"
-				font = "cg_16b"
-			}
-
-			instantTextBoxType = {
-				name = "amount"
-				font = "cg_16b"
-				position = { x = 472 y = 62 }
-				maxWidth = 140
-				maxHeight = 34
-				fixedSize = yes
-				format = center
-				text_color_code = "E"
-				alwaysTransparent = yes
-			}
-
-			containerWindowType = {
-				name = "monthly_resources_transfer"
-				size = { width = 100 height = 100% }
-				position = { x = 340 y = 48 }
-
-				gridBoxType = {
-					name = "resources_grid"
-					slotSize = { width = 100 height = 25 }
-					format = "UPPER_LEFT"
-					max_slots_horizontal = 1
-					add_horizontal = no
-				}
-			}
-		}
-
-		containerWindowType = {
 			name = "planets_window"
 			position = { x = 0 y = 10 }
 
@@ -211,13 +95,35 @@ guiTypes = {
 			}
 
 			buttonType={
+				name = "sort_governor"
+				font = "cg_16b"
+				spriteType = "GFX_button_116_24"
+				buttonText = "governor"
+				position = { x = 108 y = @sort_button_height }
+				orientation = UPPER_LEFT
+				pdx_tooltip = "SORT_BY_GOVERNOR"
+				oversound = mouse_over
+			}
+
+			buttonType={
 				name = "sort_name"
 				font = "cg_16b"
 				spriteType = "GFX_button_116_24"
 				buttonText = "NAME"
-				position = { x = 108 y = @sort_button_height }
+				position = { x = 229 y = @sort_button_height }
 				orientation = UPPER_LEFT
 				pdx_tooltip = "SORT_BY_NAME"
+				oversound = mouse_over
+			}
+
+			buttonType={
+				name = "sort_pops"
+				font = "cg_16b"
+				spriteType = "GFX_button_150_24"
+				buttonText = "POPS"
+				position = { x = 350 y = @sort_button_height }
+				orientation = UPPER_LEFT
+				pdx_tooltip = "SORT_BY_POP"
 				oversound = mouse_over
 			}
 
@@ -226,31 +132,9 @@ guiTypes = {
 				font = "cg_16b"
 				spriteType = "GFX_galactic_object_button"
 				buttonText = "OUTPUT"
-				position = { x = 229 y = 92 }
+				position = { x = 504 y = 92 }
 				orientation = UPPER_LEFT
 				pdx_tooltip = "SORT_BY_OUTPUT"
-				oversound = mouse_over
-			}
-
-			buttonType={
-				name = "sort_governor"
-				font = "cg_16b"
-				spriteType = "GFX_button_116_24"
-				buttonText = "governor"
-				position = { x = 502 y = @sort_button_height }
-				orientation = UPPER_LEFT
-				pdx_tooltip = "SORT_BY_GOVERNOR"
-				oversound = mouse_over
-			}
-
-			buttonType={
-				name = "sort_pops"
-				font = "cg_16b"
-				spriteType = "GFX_event_button_452"
-				buttonText = "POPS"
-				position = { x = 623 y = 93 }
-				orientation = UPPER_LEFT
-				pdx_tooltip = "SORT_BY_POP"
 				oversound = mouse_over
 			}
 
@@ -259,7 +143,7 @@ guiTypes = {
 				font = "cg_16b"
 				spriteType = "GFX_button_150_24"
 				buttonText = "DISTRICTS"
-				position = { x = 1080 y = @sort_button_height }
+				position = { x = 776 y = @sort_button_height }
 				orientation = UPPER_LEFT
 				pdx_tooltip = "SORT_BY_DISTRICTS"
 				oversound = mouse_over
@@ -402,7 +286,7 @@ guiTypes = {
 			name = "char_age_label"
 			font = "cg_16b"
 			text = "AGE"
-			position = { x = -107 y = 60 }
+			position = { x = -115 y = 60 }
 			maxWidth = 74
 			maxHeight = 20
 			orientation = "UPPER_RIGHT"
@@ -460,6 +344,9 @@ guiTypes = {
 		}
 	}
 
+	### Sector List Entry
+	@sector_titles_pos_x = 280
+
 	containerWindowType = {
 		name = "planet_list_sector_entry"
 		size = { width = 1225 height = 100 }
@@ -469,82 +356,22 @@ guiTypes = {
 			quadTextureSprite = "GFX_sector_header_bg"
 		}
 
-		# Governor
 		containerWindowType = {
-			name = "governor"
-			size = { width = 64 height = 77 }
-			position = { x = 9 y = 9 }
-			clipping = yes
-
-			background = {
-				name = "governor_background"
-				spriteType = "GFX_tiles_dark_area_cut_8"
-				position = { x = 0 y =0 }
-			}
-
-			buttonType = {
-				name = "bg"
-				quadTextureSprite = "GFX_leader_bg_governor"
-				position = { x = 0 y = 0 }
-				scale = 0.2
-				alwaysTransparent = yes
-			}
-
-			iconType = {
-				name = "portrait"
-				quadTextureSprite = "GFX_portrait_character"
-				position = { x = -45 y = -9 }
-				scale = 0.25
-				alwaysTransparent = yes
-			}
-		}
-
-		containerWindowType = {
-			name = "no_governor"
-			size = { width = 74 height = 86 }
-			position = { x = 4 y = 4 }
-
-			background = {
-				name = "no_governor_background"
-				spriteType = "GFX_tiles_dark_area_cut_8"
-				position = { x = 0 y =0 }
-			}
-
-			instantTextBoxType={
-				name = "no_governor_assign_desc"
-				position = { x = 6 y = 24 }
-				font = "cg_16b"
-				text = "FLEETVIEW_NO_LEADER_ASSIGN"
-				maxWidth = 60
-				maxHeight = 80
-				fixedSize = yes
-				format = center
-				alwaysTransparent = yes
-			}
-		}
-
-		containerWindowType = {
-			name = "governor_frame_box"
-			size = { width = 74 height = 86 }
-			position = { x = 4 y = 4 }
-
-			background = {
-				name = "no_leader_frame"
-				spriteType = "GFX_clean_frame_area"
-				alwaysTransparent = yes
-			}
+			name = "leader_portrait_container"
+			position = { x = 0 y = 0 }
+			size = { width = 250 height = 105 }
+			clipping = no
 		}
 
 		instantTextBoxType = {
 			name = "sector_name"
 			font = "malgun_goth_24"
 			text = "SECTOR_NAME"
-			position = { x = 85 y = 7 }
-			maxWidth = 200
+			position = { x = @sector_titles_pos_x y = 6 }
+			maxWidth = 160
 			maxHeight = 35
 			fixedSize = yes
 			format = left
-			#text_color_code = "H"
 			alwaysTransparent = yes
 		}
 
@@ -552,8 +379,8 @@ guiTypes = {
 			name = "sector_type"
 			font = "cg_16b"
 			text = "SECTOR_CAPITAL"
-			position = { x = 83 y = 30 }
-			maxWidth = 200
+			position = { x = @sector_titles_pos_x y = 28 }
+			maxWidth = 160
 			maxHeight = 35
 			fixedSize = yes
 			format = left
@@ -565,24 +392,69 @@ guiTypes = {
 		buttonType = {
 			name = "rename_button"
 			quadTextureSprite = "gfx_transparency_button"
-			position = { x = 85 y = 7 }
-			size = { x = 260 y = 15 }
+			position = { x = @sector_titles_pos_x y = 17 }
+			size = { x = 170 y = 35 }
+			pdx_tooltip = "RENAME_OBJECT_DESC"
 		}
 
-		iconType = {
-			name = "current_focus"
-			quadTextureSprite = "GFX_sector_agricultural_focus_selected"
-			position = { x= 233 y = 48  }
-		}
+		containerWindowType = {
+			name = "sector_info"
+			position = { x = 50 y = 0 }
 
-		buttonType = {
-			name = "sector_settings"
-			quadTextureSprite = "GFX_standard_button_200_34_button"
-			position = { x = -950 y = 45 }
-			orientation = "UPPER_RIGHT"
-			text = "SECTOR_SETTINGS"
-			font = "cg_16b"
-			pdx_tooltip = "SECTOR_AUTOMATION_DESC"
+			iconType = {
+				name = "systems_icon"
+				quadTextureSprite = "GFX_text_systems"
+				position = { x = 237 y = 57 }
+			}
+
+			instantTextBoxType = {
+				name = "systems"
+				font = "cg_16b"
+				text = "COLONIES"
+				position = { x = 222 y = 80 }
+				maxWidth = 50
+				maxHeight = 35
+				fixedSize = yes
+				format = center
+				text_color_code = "E"
+			}
+
+			iconType = {
+				name = "colonies_icon"
+				spriteType = "GFX_system_cap_icon"
+				position = { x = 283 y = 55 }
+			}
+
+			instantTextBoxType = {
+				name = "colonies"
+				font = "cg_16b"
+				text = "SIZE"
+				position = { x = 267 y = 80 }
+				maxWidth = 50
+				maxHeight = 35
+				fixedSize = yes
+				format = center
+				text_color_code = "E"
+			}
+
+			iconType = {
+				name = "pops_icon"
+				spriteType = "GFX_planet_view_pop"
+				position = { x = 330 y = 52 }
+				scale = 0.9
+			}
+
+			instantTextBoxType = {
+				name = "pops"
+				font = "cg_16b"
+				text = "POPS"
+				position = { x = 316 y = 80 }
+				maxWidth = 50
+				maxHeight = 35
+				fixedSize = yes
+				format = center
+				text_color_code = "E"
+			}
 		}
 
 		gridBoxType = {
@@ -592,64 +464,9 @@ guiTypes = {
 			format = "UPPER_LEFT"
 		}
 
-		iconType = {
-			name = "systems_icon"
-			quadTextureSprite = "GFX_text_systems"
-			position = { x = 87 y = 52 }
-		}
-
-		instantTextBoxType = {
-			name = "systems"
-			font = "cg_16b"
-			text = "COLONIES"
-			position = { x = 72 y = 75 }
-			maxWidth = 50
-			maxHeight = 35
-			fixedSize = yes
-			format = center
-			text_color_code = "E"
-		}
-
-		iconType = {
-			name = "colonies_icon"
-			spriteType = "GFX_system_cap_icon"
-			position = { x = 133 y = 50 }
-		}
-
-		instantTextBoxType = {
-			name = "colonies"
-			font = "cg_16b"
-			text = "SIZE"
-			position = { x = 117 y = 75 }
-			maxWidth = 50
-			maxHeight = 35
-			fixedSize = yes
-			format = center
-			text_color_code = "E"
-		}
-
-		iconType = {
-			name = "pops_icon"
-			spriteType = "GFX_planet_view_pop"
-			position = { x = 180 y = 47 }
-			scale = 0.9
-		}
-
-		instantTextBoxType = {
-			name = "pops"
-			font = "cg_16b"
-			text = "POPS"
-			position = { x = 166 y = 75 }
-			maxWidth = 50
-			maxHeight = 35
-			fixedSize = yes
-			format = center
-			text_color_code = "E"
-		}
-
 		containerWindowType = {
 			name = "resources"
-			position = { x = 255 y = 15 }
+			position = { x = 420 y = 15 }
 			size = { width = 150 height = 97 }
 
 			containerWindowType = {
@@ -893,63 +710,19 @@ guiTypes = {
 			}
 		}
 
-		containerWindowType = {
-			name = "stockpile"
-			position = { x = 605 y = 0 }
-			size = { width = 100%% height = 100% }
-
-			instantTextBoxType = {
-				name = "stockpile_label"
-				font = "cg_16b"
-				text = "LOCAL_SECTOR_STOCKPILE"
-				position = { x = 70 y = 22 }
-				maxWidth = 110
-				maxHeight = 20
-				fixedSize = yes
-				format = left
-				text_color_code = "E"
-			}
-
-			containerWindowType = {
-				name = "amount_bg_box_1"
-				size = { width = 90 height = 35 }
-				position = { x = 180 y = 13 }
-				clipping = no
-
-				background = {
-					name = "amount_bg_1"
-					spriteType = "GFX_tiles_dark_area_cut_8"
-					pdx_tooltip = "LOCAL_SECTOR_STOCKPILE_DESC"
-				}
-			}
-
-			instantTextBoxType = {
-				name = "amount"
-				font = "cg_16b"
-				text = "XXXX"
-				position = { x = 170 y = 22 }
-				maxWidth = 150
-				maxHeight = 20
-				fixedSize = yes
-				format = center
-				text_color_code = "E"
-				alwaysTransparent = yes
-			}
-
-			buttonType = {
-				name = "transfer_resources"
-				quadTextureSprite = "GFX_standard_button_200_34_button"
-				position = { x = 60 y = 45 }
-				text = "SECTOR_TRANSFER_RESOURCES"
-				font = "cg_16b"
-			}
-		}
-
 		buttonType = {
 			name = "delete_sector"
 			quadTextureSprite = "GFX_button_sector_delete"
 			position = { x = 1183 y = 12 }
 			buttonFont = "cg_16b"
+		}
+
+		buttonType = {
+			name = "edit_sector"
+			quadTextureSprite = "GFX_edit_sectors"
+			position = { x = 1143 y = 12 }
+			buttonFont = "cg_16b"
+			pdx_tooltip = "EDIT_SECTOR_BUTTON"
 		}
 		
 		buttonType = {
@@ -1001,8 +774,8 @@ guiTypes = {
 			font = "cg_16b"
 			text = ""
 			position = { x = 155 y = 5 }
-			maxWidth = 200
-			maxHeight = 35
+			maxWidth = 445
+			maxHeight = 20
 			fixedSize = yes
 			format = left
 			text_color_code = "H"
@@ -1013,8 +786,8 @@ guiTypes = {
 			font = "cg_16b"
 			text = ""
 			position = { x = 155 y = 21 }
-			maxWidth = 120
-			maxHeight = 35
+			maxWidth = 115
+			maxHeight = 40
 			fixedSize = yes
 			format = left
 			#text_color_code = "E"
@@ -1040,8 +813,8 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "resources"
-			position = { x = 255 y = 15 }
-			size = { width = 150 height = 97 }
+			position = { x = 255 y = 30 }
+			size = { width = 150 height = 95 }
 
 			containerWindowType = {
 				name = "sectors_energy_group"

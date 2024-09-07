@@ -284,6 +284,7 @@ guiTypes = {
 			position = { x = 420  y = 31 }
 			size = { x = 100 y = 16 }
 			format = left
+			first_on_top = yes
 		}
 
 		instantTextBoxType = {

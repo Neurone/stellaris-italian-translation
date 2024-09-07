@@ -1,17 +1,11 @@
-﻿Welcome back, Overlord!
+﻿It is time to leave our flawed biological vessels behind. The Machine Age has begun!
 
-The 3.4 "Cepheus" update includes major changes to subjugation and vassalization systems, including negotiation of agreement terms and introducing loyalty as a resource.
+Welcome to the Stellaris 3.12 'Andromeda' update alongside our newest Major Expansion, The Machine Age.
 
-Planetary and Sector Automation have been unified under one improved system, with more options to give you control over what kinds of development are automated, and deficits and revolts now use a dedicated Situations system that support progressing effects as they build up over time.
+The Machine Age focuses primarily on cybernetics, synthetics, and machines - whether they be the technophants of the Cybernetic Creed, a desperate civilization racing against extinction in Synthetic Fertility, or individualistic machine Arc Welders building megastructures across the galaxy. Machine empires have many new options available to them as well, including brand new Modularity, Nanotech, and Virtuality Ascension Paths.
 
-The Overlord DLC itself includes advanced specialized subjects, five new origins, three new enclaves, and constructions like the Orbital Ring, Quantum Catapult, and Hyper Relay Network that help you enact your grand design for the galaxy.
+For the first time since the Contingency was introduced in the Stellaris 1.8 'Capek' release, a new End-Game Crisis has been unleashed. Imprisoned for countless millenia, an ancient threat emerges to throw the very meaning of life into question.
 
-The brightest star must guide them, shouldn't that be you?
+A transformative age is upon us, sparked by innovation and oiled by opportunity.
 
-Take a look at the patch notes using the link below for full details on the bugs we've exterminated, the ways we've improved AI, and other quality of life fixes and improvements in 3.4.
-
-Thanks for playing Stellaris!
-
----
-
-Saved games from previous versions may not be compatible with version 3.4. If you wish to continue your old save in version 3.3, follow the forum link below and read the thread "How to revert Stellaris to a previous version."
+Thank you for playing Stellaris!

@@ -3,17 +3,20 @@
  vo_aquatics_voice:0 "Aquatic"
 
  trait_aquatic:0 "Aquatic"
- trait_aquatic_desc:0 "§LThis species is perfectly adapted to living in the depths of the ocean. However, on dry land, it is like a fish out of water.§!\n"
+ trait_aquatic_desc:1 "§LThis species is perfectly adapted to living in the depths of the ocean. However, on dry land, it is like a fish out of water.§!\n\n§RRequires§! §YOcean World§! §Rhomeworld§!."
  trait_aquatic_tooltip:2 "Housing Usage on §YOcean§! worlds and §YFlooded Habitats§!: §G-10%§!\nFood, Energy and Mineral output on §YOcean§! worlds: §G+10%§!\nHousing Usage on non-§YWet§! worlds: §R+30%§!\nHabitability on non-§YWet§! worlds: §R-20%§!\n\nThe §H$ap_hydrocentric$§! Ascension Perk amplifies this trait's effects."
- trait_aquatic_remove_evolutionary_mastery:0 "§RRequires §Y$ap_evolutionary_mastery$§! Ascension Perk to remove.§!"
+ trait_robot_aquatic: "Waterproof"
+ trait_robot_aquatic_desc: "§LInitially designed for exploring the ocean's depths, these machines face severe limitations when operating on dry land.§!\n\n§RRequires§! §YOcean World§! §Rhomeworld§!."
+ trait_robot_aquatic_tooltip: "Housing Usage on §YOcean§! worlds and §YFlooded Habitats§!: §G-10%§!\nFood, Energy and Mineral output on §YOcean§! worlds: §G+10%§!\nHousing Usage on non-§YWet§! worlds: §R+30%§!\nHabitability on non-§YWet§! worlds: §R-20%§!\n\nThe §H$ap_hydrocentric$§! Ascension Perk amplifies this trait's effects."
+ trait_aquatic_remove_evolutionary_mastery:1 "§RRequires §Y$tr_genetics_resequencing$§! Tradition to remove.§!"
  trait_aquatic_remove_hydrocentric:0 "§RCannot remove §Y$trait_aquatic$§! trait after taking §Y$ap_hydrocentric$§! Ascension Perk.§!"
 
  leader_trait_aquatic_admiral:0 "Aquatic"
- leader_trait_aquatic_admiral_desc:0 "The ship adaptations needed to make this admiral feel at home have the fortuitous side-effect of making the fleet's hull stronger and more durable."
+ leader_trait_aquatic_admiral_desc:0 "The ship adaptations needed to make this commander feel at home have the fortuitous side-effect of making the fleet's hull stronger and more durable."
 
  origin_here_be_dragons:0 "Here Be Dragons"
  origin_here_be_dragons_desc:0 "Since time immemorial, this civilization has shared its star system with a formidable dragon. The mysterious creature's behavior sways between distant benevolence and haughty indifference. How this relationship will evolve as the planet dwellers take to the stars remains to be seen."
- civic_tooltip_aquatics_effects:0 "- Start with a §HSpace Dragon§! roaming your home system.\n- The Dragon may protect you from harm, but beware its wrath should you displease it."
+ civic_tooltip_aquatics_effects:1 "- $HOME_SYSTEM$ Inhabited by a protective §ISky Dragon§!, that will become wrathful if displeased"
 
  START_SCREEN_HERE_BE_DRAGONS:0 "We have always known the Dragon. It has graced the skies above [GetHomeWorldName] since time immemorial, our early interactions with it scattered throughout [GetSpeciesAdj] folklore. For a long time it was a story of conflict, as our early weaponry proved no match for the mighty beast - but then the stories tell of a visionary who, against all odds, managed to broker peace between [GetSpeciesName] and Dragon.\n\nIn subsequent encounters, the Dragon has proved a distant, enigmatic figure whose example has ever spurred our efforts to reach for the stars. However, the invention of rapid propulsion systems and the discovery of the hyperlane network have brought about a new, uneasy period of relations with the Dragon, as we increasingly intrude upon areas it has roamed in solitude for eons.\n\nIt is for us to decide what our future holds: $START_SCREEN_HERE_BE_DRAGONS_END$"
  START_SCREEN_HERE_BE_DRAGONS_HIVE:0 "We have always known the Dragon. It has graced the skies above [GetHomeWorldName] since time immemorial, our early interactions with it scattered throughout the murky depths of our collective consciousness. In early conflicts, the mighty beast had the upper hand, our weaponry proving no match for it- but eventually we were able to make peace with it, and we have coexisted uneasily ever since.\n\nThough it remains an enigmatic figure, the example of the Dragon has ever spurred us to greater feats, culminating in the invention of rapid propulsion systems capable of taking us into its domain. Now, as we increasingly intrude on areas it has roamed in solitude for eons, we enter an uneasy period of relations with the Dragon.\n\nIt is for us to decide what our future holds: $START_SCREEN_HERE_BE_DRAGONS_END$"
@@ -29,15 +32,18 @@
  aquatics.105.desc.origin_machine:0 "$aquatics.105.desc.origin_start$\n\nAs our processors recalibrate themselves to account for the consequences of the deed, we find that we have a surprising amount of refactoring to do. The previously ever-present dragon has had a considerable impact on our programming, with billions of fail-safes to counter the unpredictability of its actions, one which will take some time to untangle. On the other hand, with this formidable threat lifted from us, we may now look forward to a future where we are capable of anything, where no obstacle no matter how seemingly insurmountable may constrain us."
  aquatics.105.desc.others:0 "We have slain the Dragon Protector of the [dragon_system.GetName] system! Though it put up a tough fight, it proved no match for our mighty fleets. Now the denizens of [dragon_planet.GetName] will have to face their foes as equals, no longer safe in the knowledge that none can get past the dragon.\n\nIt appears that the body it left behind is a veritable treasure trove for our [This.GetScientistPlural], who believe they can find out a way to synthetically produce the dragon's scales."
  aquatics.105.A:0 "Let's see what secrets its remains may yield."
+ aquatics.105.A.tooltip:0 "Unlocks the §Y$trait_drake_scaled$§! trait for §YLeviathan Transgenesis§!."
 
  aquatics.110.name:0 "Sky Dragon Slain"
  aquatics.110.desc:0 "The [From.GetName] has vanquished the Sky Dragon! As a result of this terrible deed, [dragon_planet.GetName] is now vulnerable to attack."
  aquatics.110.A:0 "Woe..."
  aquatics.115.name:0 "Sky Dragon Reanimated"
- aquatics.115.desc:0 "True to their word, our necromancers have returned the Sky Dragon of the [dragon_system.GetName] system to life! Though a little rough around the edges - as one would expect from a being just brought back from the dead - it now eagerly awaits our commands."
- aquatics.115.A:0 "Our enemies shall burn!"
+ aquatics.115.desc.regular:0 "True to their word, our necromancers have returned the Sky Dragon of the [dragon_system.GetName] system to life! Though a little rough around the edges - as one would expect from a being just brought back from the dead - it now eagerly awaits our commands."
+ aquatics.115.desc.hive:0 "Controlling the §YSky Dragon§! was always in our plans. Our drones were especially evolved to claim this prize. While the infestation process required some adaptation, we are now the Sky Dragon, and it is us. With its knowledge and experience integrated into the hive, we stand well prepared to meet any of its kin."
+ aquatics.115.desc.machine: "The creature designated §YSky Dragon§! has been overhauled according to Mechromancy protocols. Its freezing exhalations now approach 1 degree Kelvin. The reanimated dragon is now under our control."
+ aquatics.115.A:1 "Our enemies shall freeze!"
  REANIMATE_ORIGIN_DRAGON:0 "Reanimate the Sky Dragon"
- REANIMATE_ORIGIN_DRAGON_DESC:0 "Though the dragon of the [dragon_system.GetName] system has been slain, our necromancers assure us that this state of affairs need not last long. They promise that they can have it up and running - and safely in thralldom to us - in short order."
+ REANIMATE_ORIGIN_DRAGON_DESC:2 "Though the dragon of the [dragon_system.GetName] system has been slain, our [Owner.GetNecromancersLower] assure us that this state of affairs need not last long. They promise that they can revive it - safely in thralldom to us - in short order."
  slew_origin_dragon:0 "Primordial Dragonslayers"
  slew_origin_dragon_desc:0 "Since time immemorial, a mighty Drake has roamed our home system... but no more! Freed from this threat, nothing remains that could hold us back as we march into the future."
 
@@ -70,7 +76,7 @@
  aquatics.155.desc.normal:0 "The dragon did not appreciate our show of hostility. With a loud bellow - the force of which was strong enough to cause minor earthquakes across half the planet - the dragon smote a large center of population on [Root.GetName] with its icy flames."
  aquatics.155.desc.gestalt:0 "The dragon did not appreciate our show of hostility. With a loud bellow - the force of which was strong enough to cause minor earthquakes across half the planet - the dragon smote [Root.GetName] with icy flames, destroying vital production facilities and killing a large number of drones."
  aquatics.160.name:0 "The Dragon has Landed"
- aquatics.160.desc:0 "The dragon appeared to realise our intentions, and gracefully swooped down to rest in the area we had vacated. The large supply of food we left behind probably helped, it must be said - the dragon has laid into it with astounding voracity.\n\nOur [This.Owner.GetResearchers] are observing it from a distance."
+ aquatics.160.desc:0 "The dragon appeared to realize our intentions, and gracefully swooped down to rest in the area we had vacated. The large supply of food we left behind probably helped, it must be said - the dragon has laid into it with astounding voracity.\n\nOur [This.Owner.GetResearchers] are observing it from a distance."
  aquatics.160.A:0 "Watch and wait."
  aquatics.165.name:0 "$aquatics.160.name$"
  aquatics.165.desc.normal:1 "After several further passes of the planet, the dragon apparently decided it was safe to land. Although it picked a secluded area, a number of [Root.Owner.GetSpeciesNamePlural] were killed and even more displaced - unsurprising, given its incredible size and voracious appetite.\n\nIt has now settled in, and is decimating the local flora and fauna at an alarming rate. The local population is keeping its distance."
@@ -118,6 +124,7 @@
  aquatics.215.desc:0 "The dragon snarled in fury as our probe latched onto it and swiftly located and burrowed into a minute gap between its scales. While the [Root.GetName] was forced to engage emergency FTL to avoid the displeased dragon, the probe was able to pick up intriguing readings. From what we can tell, the durability of the dragon's scales is the result of a complex cocktail of enzymes that trigger a unique chemical reaction when the creature enters the atmosphere of [dragon_colony.GetName] at high speeds.\n\nThough much is left to uncover, our [This.Owner.GetResearchers] are clear about one thing: due to the complexity of the dragon's biology, if we wish to gain access to the material from which its scales are made, we will have to kill it first. Nonetheless, they assure us that the knowledge they have gained will be useful, either way."
 
  first_contact_dragon:0 "Draconic Communications"
+ aquatic_events.250.name:0 "$first_contact_dragon$"
  aquatic_events.250.desc:0 "Following our successes in establishing communications with a number of alien species, one of our leading [This.Owner.GetLinguists] has brought forth a radical proposal. Though past efforts to communicate with the Sky Dragon have failed miserably, [needed_name.GetSheHe] argue[needed_name.GetSXX] that now is the time to make another attempt.\n\nAccording to our earliest histories, there was a fabled Accord between [This.Owner.Species.GetName] and Dragon, after which direct conflict ceased. Citing this as proof that understanding on some level is possible, [needed_name.GetSheHe] note[needed_name.GetSXX] that our recent experiences with utterly alien lifeforms make us better equipped than ever before to understand the drake."
  aquatic_events.250.desc.hive:0 "Having established communications with a number of alien species, our linguistic thought processes have concluded that it is time for us to again attempt to converse with the Sky Dragon. Though recent efforts have failed miserably, we dimly recall a past understanding when we made peace with the dragon, following our ancient struggle.\n\nNow that we have more experience in dealing with utterly alien lifeforms, we are better equipped than ever before to understand the drake."
  aquatic_events.250.desc.machine:0 "Having established communications with a number of alien species, our linguistic subroutines have reached a new consensus: it is again time to attempt to converse with the Sky Dragon. Though past efforts have failed by all meaningful criteria, the records of our creators suggest that understanding on some level is possible. After all, they supposedly fought and then made peace with the dragon, for hitherto unknown reasons.\n\nEquipped with experience in dealing with utterly alien lifeforms, we are now better prepared than ever before to seek to understand the drake."
@@ -146,6 +153,7 @@
 
  aquatics.305.name:0 "$aquatics.180.name$"
  aquatics.305.desc:0 "The [This.GetName] reports sighting a terrifying space dragon in the [From.GetName] system!\n\nThe system also appears to be a center of the [From.Owner.GetName], with one of the planets in the system showing signs of particularly dense population.\n\nSo far, the dragon has not reacted to us, nor is there any sign of conflict between it and the other inhabitants of the system. Perhaps it would be best to leave it be." #this event happens during first contact, so [From.Owner.GetName] is 'alpha menace'
+ aquatics.305.desc.pre-ftl:0 "The [This.GetName] reports sighting a terrifying space dragon in the [From.GetName] system! The system also appears to be home to [root.GetAAnPreFTLLower] [Owner.GetPreFTLLower] civilization: one of the planets shows signs of habitation.\n\nSo far the dragon has not reacted to our presence - nor is there any sign of conflict between it and the other inhabitants of the system. Perhaps it would be best to leave it be." # e.g. 'home to an unsophisticated civilization' or 'home to a pre-FTL civilization'
 
  space_dragon_origin:0 "Sky Dragon"
  space_dragon_origin_plural:0 "Sky Dragons"
@@ -161,17 +169,29 @@
 
  ap_hydrocentric:0 "Hydrocentric"
  ap_hydrocentric_desc:0 "No longer shall we settle for "good enough" replacements for our oceanic abodes: no planet shall be deemed fit for colonization until it has been thoroughly inundated."
- ap_hydrocentric_tooltip:2 "Allows the construction of §YIce Mining Stations§! on starbases, which enable the §Y$decision_expand_planetary_sea$§! decision on §YOcean§! worlds and §Y$decision_flood_habitat$§! decision on §YHabitats§!.\nSpecies with the §Y$trait_aquatic$§! trait gain 50% greater benefits for living on §YOcean§! worlds, but penalties for living on non-§YWet§! worlds are likewise amplified."
+ ap_hydrocentric_tooltip:3 "Allows the construction of §YIce Mining Stations§! on starbases, which enable the §Y$decision_expand_planetary_sea$§! decision on §YOcean§! worlds and §Y$decision_flood_habitat$§! decision on §YHabitats§!.\nSpecies with the §Y$trait_aquatic$§! or §Y$trait_robot_aquatic$§! trait gain 50% greater benefits for living on §YOcean§! worlds, but penalties for living on non-§YWet§! worlds are likewise amplified."
  ap_hydrocentric_deluge_tooltip:0 "Unlocks the §YDeluge§! Colossus Weapon."
  ap_hydrocentric_deluge_pre_unlock_tooltip:0 "Unlocks the §YDeluge§! Colossus Weapon §R(requires §Y$ap_colossus$§! Ascension Perk)§!."
 
  terraforming:0 "Terraforming"
  terraforming_ocean:0 "Terraforming to Ocean Worlds"
  has_terraforming_candidate:0 "§YTerraforming candidate(s) present in the system.§!"
+ has_frozen_terraforming_candidate:0 "§YFrozen terraforming candidate(s) present in the system.§!"
+ has_toxic_terraforming_candidate:0 "§YToxic terraforming candidate(s) present in the system.§!"
 
- aquatics.1.name:0 "Evolved Aquatics"
- aquatics.1.desc:0 "We came from the ocean, our species evolving to be ideally suited to living in the depths of the seas. Even as we take to the stars, we have not abandoned our roots: the water is and shall always be our home. Now, our evolution is complete - no longer shall we adapt ourselves to living elsewhere, rather than shaping worlds to suit our needs. As we greet the warmth of a new day, we know that nothing need part us from the ocean ever again."
+ aquatics.1.name:0 "Advanced Aquatics"
+ aquatics.1.desc:0 "We came from the ocean, our species ideally suited to living in the depths of the seas. Even as we take to the stars, we have not abandoned our roots: the water is and shall always be our home. Now, our ascension is complete - no longer shall we adapt ourselves to living elsewhere rather than shaping worlds to suit our needs. As we greet the warmth of a new day, we know that nothing needs to take us from the ocean ever again."
  aquatic.1.A:0 "It shall be a home like no other."
+
+ MESSAGE_FROZEN_TERRAFORM_FOUND_TITLE:0 "$aquatics.5.name$"
+ MESSAGE_FROZEN_TERRAFORM_FOUND_DESC:0 "We have disovered another potential frozen terraforming candidate, [From.GetName] could make an excelent ocean world."
+
+ aquatics.5.name:0 "Frozen Terraforming Candidate Discovered"
+ aquatics.5.desc.intro:1 "Our detailed survey of [From.GetName] has revealed a world with a sufficiently thick layer of ice that it could be restored into a pleasant ocean world, if rendered significantly warmer and bequeathed with a hospitable atmosphere."
+ aquatics.5.desc.1:0 "$aquatics.5.desc.intro$\n\nTerraforming this [From.GetPlanetMoon] would theoretically be possible, but we do not yet possess the means to accomplish this monumental task within a realistic timeframe."
+ aquatics.5.desc.2:0 "$aquatics.5.desc.intro$\n\nThe energy costs would be daunting, but we do have the means to gradually terraform this [From.GetPlanetMoon] into something that would support life once again."
+
+ FROZEN_TERRAFORMING_CANDIDATE_EFFECT:0 "§Y[From.GetName]§! will be able to be terraformed if we choose the §H$ap_hydrocentric$§! ascension perk and research the £society£ §H$tech_climate_restoration$§! technology."
 
  sm_ice_mining_station:0 "Ice Mining Station"
  sm_ice_mining_station_desc:0 "This system is a plentiful source of unexploited ice. By setting up a harvesting station here, we could see it put to better use, creating habitable oceans for our kind.\n\n$ice_mining_details$\n"
@@ -209,13 +229,17 @@
  # Ocean Paradise Origin
  origin_ocean_paradise:0 "Ocean Paradise"
  origin_ocean_paradise_desc:0 "Since its birth, this civilization has enjoyed peace in a generous environment with no natural enemies, enabling unhindered growth and opulence."
- origin_ocean_paradise_effects:0 "- Homeworld is an §H$pc_ocean$§! (size: £planetsize£ §Y30§!) with rich §H$food$§! deposits and bonuses to §H$MOD_POP_HAPPINESS$§!, §H$MOD_POP_GROWTH_SPEED$§!, and §HOutput§!.\n- Guaranteed habitable planets are instead §H$pc_frozen$s§!."
+ origin_ocean_paradise_effects:2 "- $HOMEWORLD$$TABBED_NEW_LINE$- ['concept_pc_ocean'] (size: £planetsize£ 30)$TABBED_NEW_LINE$- $PLANETARY_MODIFIERS$ ['concept_ocean_paradise_mod']$TABBED_NEW_LINE$- $PLANETARY_FEATURES$ ['concept_crystal_reef']\n- ['concept_guaranteed_colonies']: Replaced with ['concept_pc_frozen', Frozen Worlds]"
+ origin_ocean_machines: "Subaquatic Machines"
+ origin_ocean_machines_desc: "Since its creation, this machine civilization has delved deep into the underwater realms of an abundant ocean untouched by natural adversaries."
+ origin_ocean_machines_effects: "- $HOMEWORLD$$TABBED_NEW_LINE$- ['concept_pc_ocean'] (size: £planetsize£ 30)$TABBED_NEW_LINE$- $PLANETARY_MODIFIERS$ ['concept_ocean_paradise_mod']$TABBED_NEW_LINE$- $PLANETARY_FEATURES$ ['concept_crystal_reef']\n- ['concept_guaranteed_colonies']: Replaced with ['concept_pc_frozen', Frozen Worlds]"
 
  START_SCREEN_OCEAN_PARADISE:0 ""Joy to those who possess the wisdom of acceptance." So goes a common proverb in [Root.GetAdj] society. The bounty of life is all around, once one learns to appreciate it. In such waters, long have we prospered.\n\nBut our elders do not sense the stagnation. They confuse our survival instincts with impatience. If we do not seek change, change will find us, and we will be unprepared. We cannot be alone in this vast universe. To keep our home, some of us must resolve to leave it.\n\nOur descents into the Abyss have proven worthwhile. Unworldly wreckage, perilously retrieved, precipitated a torrent of technological breakthroughs. At last, we are ready to journey beyond our oceans, to explore, to see, to learn, and to protect."
  START_SCREEN_OCEAN_PARADISE_HIVE:0 ""Joy to we who possess the wisdom of acceptance." The bounty of life is all around, once one learns to appreciate it. In such waters, long have we prospered.\n\nAlas, stagnation nears. If we do not seek change, change will find us, and we will be unprepared. We cannot be alone in this vast universe. To keep our home, part of us must resolve to leave it.\n\nOur descents into the Abyss have proven worthwhile. Unworldly wreckage, perilously retrieved, precipitated a torrent of technological breakthroughs. At last, we are ready to journey beyond our oceans, to explore, to see, to learn, and to protect."
+ START_SCREEN_OCEAN_PARADISE_ROBOT: "Long have we [Root.GetAdj] been able to enjoy the tranquility of the ocean, and our very frames seem optimized for an aquatic existence.\n\nBut existence is a swirling current, and if we do not adapt, we invite stagnation. We cannot be sure we are alone in this universe, and our home world is a pearl that risks being plucked.\n\nWe have stayed in a small pond, protected by our nebula, but no longer. With the introduction of the [GetStartingDrive], we are ready to sail the endless stellar seas."
 
  ocean_paradise:0 "Ocean Paradise"
- ocean_paradise_desc:0 "Few worlds boast conditions so fortunate. At the top of this planet's food chain, there is bliss. Its rich, flourishing resources could potentially last an eternity - if properly managed."
+ ocean_paradise_desc:0 "Few worlds boast conditions so fortunate. Its rich, flourishing resources could last an eternity - if properly managed."
  ocean_paradise_hive:0 "$ocean_paradise$"
  ocean_paradise_hive_desc:0 "$ocean_paradise_desc$"
 
@@ -224,10 +248,15 @@
 
  # Anglers Civic
  civic_anglers:0 "Anglers"
- civic_anglers_desc:0 "Adept at utilizing nature's bounty, this society provides for itself a stable influx of sustenance and economic value."
- civic_corporate_anglers:0 "$civic_anglers$"
+ civic_anglers_desc:1 "This society is well-adapted to an aquatic environment, using the bounty of the sea to fuel its economy."
+ civic_machine_anglers: "Marine Machines"
+ civic_machine_anglers_desc: "This mechanical society is engineered for seamless operation in diverse aquatic environments and excels in crafting unparalleled marine infrastructure to drive its economy."
+ civic_tooltip_machine_anglers_effects: "On §HOcean Worlds§!, §HAgriculture Districts§! are uncapped.\nOn §YWet§! worlds, £job_farmer£ §Y$job_farmer_plural$§! are replaced by £job_angler£ §Y$job_angler_plural$§! and £job_pearl_diver£ §Y$job_pearl_diver_plural$§!.\n§Y$job_angler_plural$§! produce §Y8§! £food£ §Y$food$§! and §Y2§! £trade_value£ §Y$TRADE_VALUE$§!, and §Y$job_pearl_diver_plural$§! produce §Y6§! £consumer_goods£ §Y$consumer_goods$§! and §Y2§! £trade_value£ §Y$TRADE_VALUE$§!.\nAdds the §H$trait_robot_aquatic$§! trait."
+ civic_corporate_anglers:1 "Trawling Operations"
  civic_corporate_anglers_desc:0 "$civic_anglers_desc$"
- civic_tooltip_anglers_effects:2 "On §HOcean Worlds§!, §HAgriculture Districts§! are uncapped.\nOn §YWet§! worlds, £job_farmer£ §Y$job_farmer_plural$§! are replaced by £job_angler£ §Y$job_angler_plural$§! and £job_pearl_diver£ §Y$job_pearl_diver_plural$§!.\n§Y$job_angler_plural$§! produce §Y8§! £food£ §Y$food$§! and §Y2§! £trade_value£ §Y$TRADE_VALUE$§!, and §Y$job_pearl_diver_plural$§! produce §Y3§! £consumer_goods£ §Y$consumer_goods$§! and §Y3§! £trade_value£ §Y$TRADE_VALUE$§!.\nAdds the §H$trait_aquatic$§! trait."
+ civic_tooltip_anglers_effects:3 "On §HOcean Worlds§!, §HAgriculture Districts§! are uncapped.\nOn §YWet§! worlds, £job_farmer£ §Y$job_farmer_plural$§! are replaced by £job_angler£ §Y$job_angler_plural$§! and £job_pearl_diver£ §Y$job_pearl_diver_plural$§!.\n§Y$job_angler_plural$§! produce §Y8§! £food£ §Y$food$§! and §Y2§! £trade_value£ §Y$TRADE_VALUE$§!, and §Y$job_pearl_diver_plural$§! produce §Y6§! £consumer_goods£ §Y$consumer_goods$§! and §Y2§! £trade_value£ §Y$TRADE_VALUE$§!.\nAdds the §H$trait_aquatic$§! trait."
+ civic_corporate_machine_anglers: "Maritime Robotics"
+ civic_corporate_machine_anglers_desc: "$civic_machine_anglers_desc$"
  job_aqu_angler_effect_desc:1 "£job_angler£ $job_angler_plural$ produce £food£ §Y$food$§! and £trade_value£ §Y$TRADE_VALUE$§!"
  job_angler:0 "Angler"
  job_angler_plural:0 "Anglers"
@@ -239,5 +268,7 @@
  job_pearl_diver_plural:0 "Pearl Divers"
  job_pearl_diver_desc:0 "Concerning cultivation and farming more than diving, these specialists still bring back a large variety of treasures from the depths."
  mod_job_pearl_diver_add:0 "Pearl Diver Jobs"
- job_pearl_diver_effect_desc:0 "£job_pearl_diver£ $job_pearl_diver_plural$ produce £consumer_goods£ §Y$consumer_goods$§! and £trade_value£ §Y$TRADE_VALUE$§!"
- civic_tooltip_not_anglers:0 "Does NOT have §Y$civic_anglers$§! Civic"
+ job_pearl_diver_effect_desc:1 "£job_pearl_diver£ $job_pearl_diver_plural$ turn $r_food$ and $r_minerals$ into £consumer_goods£ §Y$consumer_goods$§! and £trade_value£ §Y$TRADE_VALUE$§!"
+ civic_tooltip_not_anglers:1 "Does NOT have an ['concept_angler_civics'] Civic"
+ concept_angler_civics: "Anglers"
+ concept_angler_civics_desc: "Anglers Civics consist of \n- ['civic:civic_anglers']$NEW_LINE$- ['civic:civic_corporate_anglers']$NEW_LINE$- ['civic:civic_machine_anglers']$NEW_LINE$- ['civic:civic_corporate_machine_anglers']"
