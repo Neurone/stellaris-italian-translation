@@ -8,19 +8,21 @@
  clone_soldier: "Clone Soldato"
  origin_clone_army: "Armata di Cloni"
  origin_clone_army_desc: "Una specie di cloni soldato dalla vita breve e sterile, eccezionalmente abili in questioni di guerra, lasciati soli e senza padrone a mettere in discussione il loro scopo ingegneristico e il loro destino incerto."
- origin_tooltip_clone_army_effects: "- Inizia con due §Y2§! £building£ Edifici §H$building_clone_army_clone_vat$§! sul tuo Pianeta Natale, che producono Popolazione £pops£ §Y$clone_soldier$§!.\n- Le §R§HAntiche Vasche di Clonazione§! possiedono un §HLimite Imperiale§! di 5.§!\n- Gli §HAmmiragli§! dell'Armata dei Cloni garantiscono un §G25%§! addizionale alla §H$MOD_SHIP_FIRE_RATE_MULT$§! e una riduzione del §G10%§! sul §HCosto di Mantenimento delle Navi§!."
+ origin_tooltip_clone_army_effects: ""
+
+
  trait_clone_soldier_infertile: "$clone_soldier$"
  trait_clone_soldier_infertile_desc: "§LIngegnerizzato per l'obbedienza e la guerra: di breve durata, incapace di riprodursi naturalmente e molto efficiente.§!"
  trait_clone_soldier_fertile: "Discendente di Clone Soldato"
  trait_clone_soldier_fertile_desc: "§LUna volta sterili, ingegnerizzati per l'obbedienza e la guerra. Il loro vantaggio genetico è diminuito, ora sono abbastanza stabili per la riproduzione naturale.§!"
  trait_clone_soldier_infertile_full_potential: "Clone Soldato Progenitore"
  trait_clone_soldier_infertile_full_potential_desc: "§LCloni al loro picco genetico, con forza, efficienza, durata e longevità ulteriormente migliorate, ma per sempre sterili.§!"
- leader_trait_clone_army_admiral: "Ammiraglio Armata dei Cloni"
- leader_trait_clone_army_admiral_desc: "Dalla sua vasta formazione militare, questo leader capisce come massimizzare l'efficienza delle navi e dei soldati."
- leader_trait_clone_army_full_admiral: "Ammiraglio Progenitore Armata dei Cloni"
- leader_trait_clone_army_full_admiral_desc: "Sottoposto fin dalla sua creazione a un regime di educazione militare così intenso che pochi sarebbero in grado di sopportare, questo leader possiede eccellenti capacità marziali e di comando."
- leader_trait_clone_army_fertile_admiral: "Ammiraglio Discendente Armata dei Cloni"
- leader_trait_clone_army_fertile_admiral_desc: "Grazie alla sua educazione militare specializzata, questo leader possiede una comprensione superiore alla media delle procedure marziali e di come ottimizzarle al meglio."
+ leader_trait_clone_army_commander: ""
+ leader_trait_clone_army_commander_desc: "Dalla sua vasta formazione militare, questo leader capisce come massimizzare l'efficienza delle navi e dei soldati."
+ leader_trait_clone_army_full_commander: ""
+ leader_trait_clone_army_full_commander_desc: "Sottoposto fin dalla sua creazione a un regime di educazione militare così intenso che pochi sarebbero in grado di sopportare, questo leader possiede eccellenti capacità marziali e di comando."
+ leader_trait_clone_army_fertile_commander: ""
+ leader_trait_clone_army_fertile_commander_desc: "Grazie alla sua educazione militare specializzata, questo leader possiede una comprensione superiore alla media delle procedure marziali e di come ottimizzarle al meglio."
  TRAIT_INFERTILE: "§RNon può riprodursi naturalmente§!"
  genelock_trait_tooltip: "§RNon può essere modificato geneticamente§!"
 
@@ -29,7 +31,7 @@
 
  building_clone_army_clone_vat: "Antica Vasca di Clonazione"
  building_clone_army_clone_vat_desc: "Tecnologia perduta ereditata dai Creatori. Può essere smontata e riassemblata, ma i suoi componenti interni e il suo funzionamento sono troppo avanzati per essere replicati."
- building_clone_army_clone_vat_effect_desc: "Produce e sostiene una £pops£ Popolazione di §Y20§! Y$clone_soldier$§!. L'efficacia di questa crescita si riduce quando la  $building_clone_army_clone_vat$ raggiunge la massima capacità."
+ building_clone_army_clone_vat_effect_desc: ""
 
  START_SCREEN_CLONE_ARMY: "Siamo stati creati per la guerra! Soldati ingegnerizzati che vivono e muoiono grazie alle Antiche Vasche di Clonazione lasciate dai nostri Creatori, fusi per sempre nel loro stampo. Qualsiasi ricordo dei nostri padroni si è perso nelle generazioni passate, e non sappiamo quando o perché ci hanno abbandonato. È probabile che le registrazioni siano state continuamente cancellate come routine, sempre fedeli al protocollo militare - ma ad un certo punto negli ultimi secoli, questo è cambiato. Per caso, o forse per qualche istinto di sopravvivenza scaturito per errore, il nostro subconscio ci ha spinto a cercare risposte, a cercare nuovi scopi e modi per rompere la forma impostaci.\n\nI nostri sforzi da allora sono stati incessanti e ci hanno finalmente permesso di accedere alle grandi distese dello spazio. Man mano che il nostro orizzonte si allarga, si allarga anche la nostra conoscenza, e così aumentano le nostre possibilità di essere liberi.\n\nNon sprecheremo le possibilità che ci sono state date dai nostri antenati. Combatteremo per trasmettere queste possibilità ai futuri cloni e per eliminare le restrizioni che ci sono state imposte.\n"
 
@@ -74,7 +76,7 @@
  clone_army_digsite_desc: "Da quando ci siamo risvegliati alla nostra condizione, l'assenza di identità e di scopo ha afflitto la nostra specie. Abbiamo grossolanamente sottovalutato l'impatto che avrebbe avuto sulla nostra capacità di andare avanti, per non parlare della cooperazione. Lottiamo per raggiungere un accordo e abbiamo fame di risposte.\n\nQuesto sito di scavi è stato istituito per cercare prove sulle questioni dibattute a proposito della creazione della nostra specie, e per trovare un punto di vista fondamentale che ci aiuti ad unirci."
 
  clones.11.name: "Storia Perduta"
- clones.11.desc: "Un cantiere centrale è riuscito a datare con successo l'installazione di una delle nostre §YAntiche Vasche di Clonazione§! analizzando il terreno sotto la struttura - confrontando la sua densità e composizione con quella dei suoi dintorni - e abbiamo raggiunto una stima ragionevole di quando è stato piazzato lì.\n\nSembra che i primi della nostra specie, i primi cloni, siano stati prodotti circa dodici secoli fa.\n\nMolte generazioni di storia si sono perse nell'apatia. Molto ci è sfuggito, e forse è qualcosa da rimpiangere."
+ clones.11.desc: ""
  clones.12.name: "Antichi Parenti"
  clones.12.desc: "Uno dei siti di scavo ha riportato la scoperta di fossili antichi, simili alla nostra specie. Fossili molto antichi. Sono stati trovati dentro e intorno ai resti di quelle che si presume siano fattorie primitive. Apparentemente, sia i fossili che l'architettura precedono la costruzione delle nostre §YAntiche Vasche di Clonazione§! di più di un millennio.\n\nIl sequenziamento iniziale del DNA ha confermato significative somiglianze tra il nostro corredo genetico e quello della materia fossile, ed si è concluso che i resti appartengono ai nostri antichi predecessori, da prima che noi fossimo dei cloni.\n\nQuesto mette le cose in prospettiva."
  clones.12.tooltip: "Queste scoperte ci metteranno un po' ad essere metabolizzate..."
