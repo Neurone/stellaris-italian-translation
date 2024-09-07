@@ -211,7 +211,7 @@
  ethic_militarist_warning_hostile_1: "Firmare qualcosa in opposizione all'onorabile $GREETER$ significa firmare l'inizio della vostra fine."
 
  ### Warning - Pacifist
- ethic_pacifist_warning_hostile: "Se votate contro di noi, capiremo che avete scelto la via del massacro - e vi porterà alla sofferenza."
+ ethic_pacifist_warning_hostile: ""
  ethic_pacifist_warning_hostile_0: "Non vorrete di certo che il $COUNTRY$ cada in rovina?"
  ethic_pacifist_warning_hostile_1: "Non opponetevi al $GREETER$ nel prossimo voto. Sarebbe il vostro fallimento."
 
@@ -269,7 +269,7 @@
  ethic_militarist_appreciation_hostile_1: "Vivete per fallire un altro giorno."
 
  ### Appreciation - Pacifist
- ethic_pacifist_appreciation_friendly: "Può uno sperare di vedere una fine al massacro nel nostro tempo?"
+ ethic_pacifist_appreciation_friendly: ""
  ethic_pacifist_appreciation_friendly_0: "La pace arriverà."
  ethic_pacifist_appreciation_friendly_1: "Avete salvato il futuro! Quale compito è più puro di questo?"
  ethic_pacifist_appreciation_neutral: "È bello vedere che il concetto di 'riconciliazione' è conosciuto a $COUNTRY$."
