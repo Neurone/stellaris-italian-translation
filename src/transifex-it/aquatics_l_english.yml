@@ -3,17 +3,20 @@
  vo_aquatics_voice: "Acquatica"
 
  trait_aquatic: "Acquatico"
- trait_aquatic_desc: "§LQuesta specie è perfettamente adattata a vivere nelle profondità dell'oceano. Tuttavia, sulla terraferma, è come un pesce fuor d'acqua.§!\n"
+ trait_aquatic_desc: ""
  trait_aquatic_tooltip: "Utilizzo di alloggi sui pianti §YOceanici§! e §YHabitat inondati§!: §G-10%§!\nProduzione di Cibo, Energia e Minerali su pianeti §YOceanici§!: §G+10%§!\nUtilizzo degli alloggi su mondi non §YUmidi§!: §R+30%§!\nAbitabilità su mondi non §YUmidi§!: §R-20%§!\n\nIl Beneficio di Ascensione §H$ap_hydrocentric$§! amplifica gli effetti di questo tratto."
- trait_aquatic_remove_evolutionary_mastery: "§RRichiede il Beneficio di Ascensione §Y$ap_evolutionary_mastery$§! per rimuoverlo.§!"
+ trait_robot_aquatic: ""
+ trait_robot_aquatic_desc: ""
+ trait_robot_aquatic_tooltip: "Utilizzo di alloggi sui pianti §YOceanici§! e §YHabitat inondati§!: §G-10%§!\nProduzione di Cibo, Energia e Minerali su pianeti §YOceanici§!: §G+10%§!\nUtilizzo degli alloggi su mondi non §YUmidi§!: §R+30%§!\nAbitabilità su mondi non §YUmidi§!: §R-20%§!\n\nIl Beneficio di Ascensione §H$ap_hydrocentric$§! amplifica gli effetti di questo tratto."
+ trait_aquatic_remove_evolutionary_mastery: ""
  trait_aquatic_remove_hydrocentric: "§RImpossibile rimuovere il tratto §Y$trait_aquatic$§! dopo aver ottenuto il Beneficio di Ascensione §Y$ap_hydrocentric$§!.§!"
 
  leader_trait_aquatic_admiral: "Acquatico"
- leader_trait_aquatic_admiral_desc: "Gli adattamenti della nave necessari per far sentire questo ammiraglio a casa hanno il fortuito effetto collaterale di rendere lo scafo della flotta più forte e resistente."
+ leader_trait_aquatic_admiral_desc: ""
 
  origin_here_be_dragons: "Qui Ci Sono I Draghi"
  origin_here_be_dragons_desc: "Da tempo immemorabile, questa civiltà condivide il suo sistema stellare con un formidabile drago. Il comportamento della misteriosa creatura oscilla tra la lontana benevolenza e l'altera indifferenza. Resta da vedere come si evolverà questa relazione man mano che gli abitanti del pianeta prenderanno il volo verso le stelle."
- civic_tooltip_aquatics_effects: "- Inizia con un §HDrago Spaziale§! che si aggira per il tuo sistema natale.\n- Il Drago può proteggerti dal male, ma fai attenzione alla sua ira se lo infastidite."
+ civic_tooltip_aquatics_effects: ""
 
  START_SCREEN_HERE_BE_DRAGONS: "Conosciamo il Drago da sempre. Ha abbellito i cieli sopra [GetHomeWorldName] da tempo immemorabile, le nostre prime interazioni con lui sono disseminate nel folklore [GetSpeciesAdj]. Per molto tempo è stata una storia di conflitto, dato che le nostre prime armi non erano all'altezza della potente bestia - ma poi le storie raccontano di un visionario che, contro ogni aspettativa, riuscì a mediare la pace tra la nostra specie e il Drago.\n\nNegli incontri successivi, il Drago si è dimostrato una figura lontana ed enigmatica il cui esempio ha sempre spronato i nostri sforzi per raggiungere le stelle. Tuttavia, l'invenzione di sistemi di propulsione rapida e la scoperta della rete di iperlinee hanno portato a un nuovo periodo di relazioni difficili con il Drago, in quanto ci intromettiamo sempre più in aree in cui ha vagato in solitudine per eoni.\n\nSta a noi decidere cosa ci riserva il futuro: $START_SCREEN_HERE_BE_DRAGONS_END$"
  START_SCREEN_HERE_BE_DRAGONS_HIVE: "Conosciamo il Drago da sempre. Ha abbellito i cieli sopra [GetHomeWorldName] da tempo immemorabile, le nostre prime interazioni con lui sono disseminate nelle torbide profondità della nostra coscienza collettiva. Nei primi conflitti, la bestia possente aveva il sopravvento, le nostre armi non erano all'altezza, ma alla fine siamo stati in grado di fare pace con lui, e da allora abbiamo coesistito senza problemi.\n\nAnche se rimane una figura enigmatica, l'esempio del Drago ci ha sempre spronato a grandi imprese, culminate nell'invenzione di sistemi di propulsione rapida in grado di portarci nel suo dominio. Ora, mentre ci intromettiamo sempre più nelle zone in cui ha vagato in solitudine per eoni, entriamo in un periodo di relazioni non facili con il Drago.\n\nSta a noi decidere cosa ci riserva il futuro: $START_SCREEN_HERE_BE_DRAGONS_END$"
@@ -29,15 +32,18 @@
  aquatics.105.desc.origin_machine: "$aquatics.105.desc.origin_start$\n\nMentre i nostri processori si ricalibrano per tenere conto delle conseguenze dell'accaduto, scopriamo che abbiamo una sorprendente quantità di refactoring da fare. Il drago, prima sempre presente, ha avuto un impatto considerevole sulla nostra programmazione, con miliardi di fail-safe per contrastare l'imprevedibilità delle sue azioni, cosa che richiederà del tempo per districarsi. D'altra parte, senza questa formidabile minaccia che ci opprime, possiamo ora guardare avanti verso un futuro in cui siamo capaci di tutto, dove nessun ostacolo, per quanto apparentemente insormontabile, può vincolarci."
  aquatics.105.desc.others: "Abbiamo ucciso il Drago Protettore del sistema [dragon_system.GetName]! Anche se ha combattuto duramente, non ha dimostrato di poter competere con le nostre potenti flotte. Ora gli abitanti di [dragon_planet.GetName] dovranno affrontare i loro nemici da pari a pari, non più al sicuro sapendo che nessuno può superare il drago.\n\nSembra che il corpo che ha lasciato sia un vero e proprio tesoro per i nostri [This.GetScientistPlural], che credono di poter trovare un modo per produrre sinteticamente le scaglie del drago."
  aquatics.105.A: "Vediamo quali segreti possono svelare i suoi resti."
+ aquatics.105.A.tooltip: ""
 
  aquatics.110.name: "Drago del Cielo Ucciso"
  aquatics.110.desc: "[From.GetName] ha sconfitto il Drago del Cielo! Come risultato di questa terribile azione, [dragon_planet.GetName] è ora vulnerabile agli attacchi."
  aquatics.110.A: "Guai..."
  aquatics.115.name: "Drago del Cielo Rianimato"
- aquatics.115.desc: "Fedeli alla loro parola, i nostri negromanti hanno riportato in vita il Drago del Cielo del sistema [dragon_system.GetName]! Anche se un po' arrugginito, come ci si aspetterebbe da un essere appena resuscitato dalla morte, ora attende con ansia i nostri comandi."
- aquatics.115.A: "I nostri nemici bruceranno!"
+ aquatics.115.desc.regular: "Fedeli alla loro parola, i nostri negromanti hanno riportato in vita il Drago del Cielo del sistema [dragon_system.GetName]! Anche se un po' arrugginito, come ci si aspetterebbe da un essere appena resuscitato dalla morte, ora attende con ansia i nostri comandi."
+ aquatics.115.desc.hive: ""
+ aquatics.115.desc.machine: ""
+ aquatics.115.A: ""
  REANIMATE_ORIGIN_DRAGON: "Rianimare il Drago del Cielo"
- REANIMATE_ORIGIN_DRAGON_DESC: "Anche se il drago del sistema [dragon_system.GetName] è stato ucciso, i nostri negromanti ci assicurano che questo stato di cose non deve durare a lungo. Ci promettono che potranno rimetterlo in piedi e attivo - e al sicuro a noi sottomesso - in breve tempo."
+ REANIMATE_ORIGIN_DRAGON_DESC: ""
  slew_origin_dragon: "Uccisori di Draghi Primordiali"
  slew_origin_dragon_desc: "Da tempo immemorabile, un potente Drago ha vagato per il nostro sistema... ma non più! Liberati da questa minaccia, non rimane nulla che possa trattenerci mentre marciamo verso il futuro."
 
@@ -70,7 +76,7 @@
  aquatics.155.desc.normal: "Il drago non ha apprezzato la nostra dimostrazione di ostilità. Con un forte ruggito - la cui forza fu abbastanza forte da causare piccoli terremoti su metà del pianeta - il drago ha colpito un grande centro abitato su [Root.GetName] con le sue fiamme ghiacciate."
  aquatics.155.desc.gestalt: "Il drago non ha apprezzato la nostra dimostrazione di ostilità. Con un forte ruggito - la cui forza è stata abbastanza forte da causare piccoli terremoti su metà del pianeta - il drago ha colpito [Root.GetName] con fiamme ghiacciate, distruggendo impianti di produzione vitali e uccidendo un gran numero di droni."
  aquatics.160.name: "Il Drago è Atterrato"
- aquatics.160.desc: "Il drago sembrava rendersi conto delle nostre intenzioni, e con grazia è sceso in picchiata per riposare nell'area che avevamo lasciato libera. La grande scorta di cibo che abbiamo lasciato dietro di noi probabilmente ha aiutato, va detto - il drago ci ha dato dentro con una voracità stupefacente.\n\nI nostri [This.Owner.GetResearchers] lo stanno osservando a distanza."
+ aquatics.160.desc: ""
  aquatics.160.A: "Guardate e aspettate."
  aquatics.165.name: "$aquatics.160.name$"
  aquatics.165.desc.normal: "Dopo diversi altri passaggi del pianeta, il drago ha apparentemente deciso che era sicuro atterrare. Anche se ha scelto una zona appartata, un certo numero di [Root.Owner.GetSpeciesNamePlural] sono stati uccisi e ancora di più sfollati - non c'è da stupirsi, data la sua incredibile dimensione e l'appetito vorace.\n\nOra si è insediato e sta decimando la flora e la fauna locale ad un ritmo allarmante. La popolazione locale si tiene a distanza."
@@ -118,6 +124,7 @@
  aquatics.215.desc: "Il drago ha ringhiato con rabbia quando la nostra sonda si è agganciata su di esso e rapidamente ha individuato e scavato in una piccola fessura tra le sue scaglie. Benché [Root.GetName] sia stato costretto ad attivare il motore SL di emergenza per evitare il drago adirato, la sonda è stata in grado di raccogliere letture intriganti. Da quello che possiamo dire, la robustezza delle scaglie del drago è il risultato di un complesso cocktail di enzimi che innescano una reazione chimica unica quando la creatura entra nell'atmosfera di [dragon_colony.GetName] ad alta velocità.\n\nAnche se c'è ancora molto da scoprire, i nostri [This.Owner.GetResearchers] sono chiari su una cosa: a causa della complessità della biologia del drago, se vogliamo accedere al materiale di cui sono fatte le sue scaglie, dovremo prima ucciderlo. Tuttavia, ci assicurano che la conoscenza che hanno acquisito sarà utile in ogni caso."
 
  first_contact_dragon: "Comunicazioni Draconiche"
+ aquatic_events.250.name: ""
  aquatic_events.250.desc: "In seguito ai nostri successi nello stabilire comunicazioni con diverse specie aliene, uno dei nostri principali [This.Owner.GetLinguists] ha avanzato una proposta radicale. Anche se gli sforzi passati per comunicare con il Drago del Cielo sono falliti miseramente, sostiene che ora è il momento di fare un altro tentativo.\n\nSecondo le nostre storie più antiche, ci fu un favoloso accordo tra [This.Owner.Species.GetName] e Drago, dopo il quale il conflitto diretto cessò. Citando questo come prova che la comprensione a qualche livello è possibile, il nostro esperto fa notare che le nostre recenti esperienze con forme di vita completamente aliene ci rendono meglio equipaggiati che mai per comprendere il drago."
  aquatic_events.250.desc.hive: "Avendo stabilito delle comunicazioni con un certo numero di specie aliene, i nostri processi di pensiero linguistico hanno concluso che è tempo per noi di tentare di nuovo di conversare con il Drago del Cielo. Anche se gli sforzi recenti sono falliti miseramente, ricordiamo debolmente un'intesa passata quando abbiamo fatto pace con il drago, dopo la nostra antica lotta.\n\nOra che abbiamo più esperienza nel trattare con forme di vita completamente aliene, siamo meglio equipaggiati che mai per capire il drago."
  aquatic_events.250.desc.machine: "Avendo stabilito comunicazioni con diverse specie aliene, le nostre subroutine linguistiche hanno raggiunto un nuovo consenso: è di nuovo il momento di tentare di conversare con il Drago del Cielo. Anche se i tentativi passati sono falliti secondo tutti i criteri significativi, le registrazioni dei nostri creatori suggeriscono che la comprensione a qualche livello è possibile. Dopo tutto, si suppone che abbiano combattuto e poi fatto pace con il drago, per ragioni finora sconosciute.\n\nDotati di esperienza nel trattare con forme di vita completamente aliene, siamo ora più preparati che mai a cercare di capire il drago."
@@ -146,6 +153,7 @@
 
  aquatics.305.name: "$aquatics.180.name$"
  aquatics.305.desc: "[This.GetName] riporta l'avvistamento di un terrificante drago spaziale nel sistema [From.GetName]!\n\nIl sistema sembra anche essere un centro di [From.Owner.GetName], con uno dei pianeti del sistema che mostra segni di una popolazione particolarmente densa.\n\nFinora, il drago non ha reagito alla nostra presenza, né vi è alcun segno di conflitto tra lui e gli altri abitanti del sistema. Forse sarebbe meglio lasciarlo stare." #this event happens during first contact, so [From.Owner.GetName] is 'alpha menace'
+ aquatics.305.desc.pre-ftl: "" # e.g. 'home to an unsophisticated civilization' or 'home to a pre-FTL civilization'
 
  space_dragon_origin: "Drago del Cielo"
  space_dragon_origin_plural: "Draghi del Cielo"
@@ -161,17 +169,29 @@
 
  ap_hydrocentric: "Idrocentrico"
  ap_hydrocentric_desc: "Non ci accontenteremo più di rimpiazzi \"abbastanza buoni\" per le nostre dimore oceaniche: nessun pianeta sarà considerato adatto alla colonizzazione finché non sarà stato completamente inondato."
- ap_hydrocentric_tooltip: "Permette la costruzione di §YStazioni Minerarie del Ghiaccio§! sulle basi stellari, che abilitano la decisione §Y$decision_expand_planetary_sea$§! sui pianeti §YOceanici§! e la decisione §Y$decision_flood_habitat$§! sugli §YHabitat§!.\nLe specie con il tratto §Y$trait_aquatic$§! ottengono il 50% di benefici in più vivendo su pianeti §YOceanici§!, ma le penalità di vivere su mondi non §YUmidi§! sono ugualmente amplificate."
+ ap_hydrocentric_tooltip: ""
  ap_hydrocentric_deluge_tooltip: "Sblocca l'Arma Colossale §YDiluvio§!."
  ap_hydrocentric_deluge_pre_unlock_tooltip: "Sblocca l'Arma Colossale §YDiluvio§!. §R(richiede il Beneficio di Ascensione §Y$ap_colossus$§!)§!."
 
  terraforming: "Terraformazione"
  terraforming_ocean: "Terraformazione in Pianeta Oceanico"
  has_terraforming_candidate: "§YCandidato(i) alla trasformazione presenti nel sistema.§!"
+ has_frozen_terraforming_candidate: ""
+ has_toxic_terraforming_candidate: ""
 
- aquatics.1.name: "Acquatici Evoluti"
- aquatics.1.desc: "Siamo venuti dall'oceano, la nostra specie si è evoluta per essere idealmente adatta a vivere nelle profondità dei mari. Anche se andiamo verso le stelle, non abbiamo abbandonato le nostre radici: l'acqua è e sarà sempre la nostra casa. Ora, la nostra evoluzione è completa - non dovremo più adattarci a vivere altrove, piuttosto che plasmare mondi per soddisfare le nostre esigenze. Mentre salutiamo il calore di un nuovo giorno, sappiamo che nulla ci separerà più dall'oceano."
+ aquatics.1.name: ""
+ aquatics.1.desc: ""
  aquatic.1.A: "Sarà una casa come nessun'altra."
+
+ MESSAGE_FROZEN_TERRAFORM_FOUND_TITLE: ""
+ MESSAGE_FROZEN_TERRAFORM_FOUND_DESC: ""
+
+ aquatics.5.name: ""
+ aquatics.5.desc.intro: ""
+ aquatics.5.desc.1: ""
+ aquatics.5.desc.2: ""
+
+ FROZEN_TERRAFORMING_CANDIDATE_EFFECT: ""
 
  sm_ice_mining_station: "Stazione Mineraria del Ghiaccio"
  sm_ice_mining_station_desc: "Questo sistema è una fonte abbondante di ghiaccio non sfruttato. Installando qui una stazione di raccolta, potremmo vederla utilizzata meglio, creando oceani abitabili per la nostra specie.\n\n$ice_mining_details$\n"
@@ -209,13 +229,17 @@
  # Ocean Paradise Origin
  origin_ocean_paradise: "Paradiso Oceanico"
  origin_ocean_paradise_desc: "Fin dalla sua nascita, questa civiltà ha goduto della pace in un ambiente generoso senza nemici naturali, permettendo una crescita e un'opulenza senza ostacoli."
- origin_ocean_paradise_effects: "- Il Pianeta Natale è un §H$pc_ocean$§! (dimensione: £planetsize£ §Y30§!) con ricchi depositi di §H$food$§! e bonus a §H$MOD_POP_HAPPINESS$§!, §H$MOD_POP_GROWTH_SPEED$§!, e §HProduzione§!.\n- I pianeti abitabili garantiti sono invece §H$pc_frozen$s§!"
+ origin_ocean_paradise_effects: ""
+ origin_ocean_machines: ""
+ origin_ocean_machines_desc: ""
+ origin_ocean_machines_effects: ""
 
  START_SCREEN_OCEAN_PARADISE: "\"Gioia a chi possiede la saggezza dell'accettazione\". Così recita un proverbio comune nella società [Root.GetAdj]. La generosità della vita è tutt'intorno, una volta che si impara ad apprezzarla. In tali acque, abbiamo prosperato a lungo.\n\nMa i nostri anziani non percepiscono la stagnazione. Confondono il nostro istinto di sopravvivenza con l'impazienza. Se non cerchiamo il cambiamento, il cambiamento ci troverà e noi saremo impreparati. Non possiamo essere soli in questo vasto universo. Per mantenere la nostra casa, alcuni di noi devono decidere di lasciarla.\n\nLe nostre discese nell'Abisso si sono dimostrate utili. Relitti ultraterreni, recuperati pericolosamente, hanno fatto precipitare un torrente di scoperte tecnologiche. Finalmente, siamo pronti a viaggiare oltre i nostri oceani, per esplorare, vedere, imparare e proteggere."
  START_SCREEN_OCEAN_PARADISE_HIVE: "\"Gioia a noi che possediamo la saggezza dell'accettazione\". La generosità della vita è tutt'intorno, una volta che si impara ad apprezzarla. In tali acque, a lungo abbiamo prosperato.\n\nAhimè, la stagnazione si avvicina. Se non cerchiamo il cambiamento, il cambiamento ci troverà e noi saremo impreparati. Non possiamo essere soli in questo vasto universo. Per mantenere la nostra casa, una parte di noi deve decidere di lasciarla.\n\nLe nostre discese nell'Abisso si sono dimostrate utili. Relitti ultraterreni, recuperati pericolosamente, hanno fatto precipitare un torrente di scoperte tecnologiche. Finalmente, siamo pronti a viaggiare oltre i nostri oceani, per esplorare, vedere, imparare e proteggere."
+ START_SCREEN_OCEAN_PARADISE_ROBOT: ""
 
  ocean_paradise: "Paradiso Oceanico"
- ocean_paradise_desc: "Pochi mondi vantano condizioni così fortunate. In cima alla catena alimentare di questo pianeta, c'è la beatitudine. Le sue ricche e fiorenti risorse potrebbero potenzialmente durare un'eternità - se gestite correttamente."
+ ocean_paradise_desc: ""
  ocean_paradise_hive: "$ocean_paradise$"
  ocean_paradise_hive_desc: "$ocean_paradise_desc$"
 
@@ -224,10 +248,15 @@
 
  # Anglers Civic
  civic_anglers: "Pescatori"
- civic_anglers_desc: "Abile nell'utilizzare le ricchezze della natura, questa società si procura un afflusso stabile di sostentamento e di valore economico."
- civic_corporate_anglers: "$civic_anglers$"
+ civic_anglers_desc: ""
+ civic_machine_anglers: ""
+ civic_machine_anglers_desc: ""
+ civic_tooltip_machine_anglers_effects: ""
+ civic_corporate_anglers: ""
  civic_corporate_anglers_desc: "$civic_anglers_desc$"
- civic_tooltip_anglers_effects: "Sui §HPianeti Oceanici§!, i §HDistretti Agricoli§! sono illimitati.\nSui §YPianeti Umidit§!, i £job_farmer£ §Y$job_farmer_plural$§! sono sostituiti da £job_angler£ §Y$job_angler_plural$§! e £job_pearl_diver£ §Y$job_pearl_diver_plural$§!.\n§Y$job_angler_plural$§Y producono §Y8§! £food£ §Y$food$§! e §Y2§! £trade_value£ §Y$TRADE_VALUE$§!, e §Y$job_pearl_diver_plural$§! producono §Y3§! £consumer_goods£ §Y$consumer_goods$§! e §Y3§! £trade_value£ §Y$TRADE_VALUE$§!.\nAggiunge il tratto §H$trait_aquatic$§!"
+ civic_tooltip_anglers_effects: ""
+ civic_corporate_machine_anglers: ""
+ civic_corporate_machine_anglers_desc: ""
  job_aqu_angler_effect_desc: "I £job_angler£ $job_angler_plural$ producono £food£ §Y$food$§! e £trade_value£ §Y$TRADE_VALUE$§!"
  job_angler: "Pescatore"
  job_angler_plural: "Pescatori"
@@ -239,5 +268,7 @@
  job_pearl_diver_plural: "Cacciatori di Perle"
  job_pearl_diver_desc: "Occupandosi della coltivazione e dell'allevamento più che dell'immersione, questi specialisti riportano comunque una grande varietà di tesori dalle profondità."
  mod_job_pearl_diver_add: "Posti di lavoro da Cacciatore di Perle"
- job_pearl_diver_effect_desc: "£job_pearl_diver£ $job_pearl_diver_plural$ producono £consumer_goods£ §Y$consumer_goods$§! e £trade_value£ §Y$TRADE_VALUE$§!"
- civic_tooltip_not_anglers: "NON possiede la Scelta Civica §Y$civic_anglers$§!"
+ job_pearl_diver_effect_desc: ""
+ civic_tooltip_not_anglers: ""
+ concept_angler_civics: "Pescatori"
+ concept_angler_civics_desc: ""
