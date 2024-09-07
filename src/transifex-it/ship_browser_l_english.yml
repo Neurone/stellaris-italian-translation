@@ -7,6 +7,7 @@
  SHIP_GRAPHICS_ZOOM_OUT_TOOLTIP: "Usa §GRotella di scorrimento del mouse all'indietro§! per rimpicciolire."
  SHIP_GRAPHICS_ROTATE_TOOLTIP: "Tieni premuto e trascina il §GTasto destro del mouse§! sul modello della nave per ruotare."
  SHIP_GRAPHICS_CORVETTE_DESC: "Le corvette sono la prima classe di navi militari disponibili per gli imperi. Sono veloci, agili ed economiche."
+ SHIP_GRAPHICS_FRIGATE_DESC: ""
  SHIP_GRAPHICS_DESTROYER_DESC: "I cacciatorpediniere scambiano l'agilità e la velocità di una corvetta per una maggiore potenza di fuoco e uno scafo più spesso."
  SHIP_GRAPHICS_CRUISER_DESC: "Gli incrociatori sono versatili e resistenti, in grado di assorbire e infliggere danni."
  SHIP_GRAPHICS_BATTLESHIP_DESC: "Le corazzate sono costose ma potenti. Con il loro grande raggio di tiro, eccellono nel ferire un avversario prima che possa contrattaccare."
