@@ -183,6 +183,8 @@
  mod_damage_vs_country_type_gate_builders_mult: "Danni ai Costruttori di Portali"
  mod_damage_vs_country_type_gray_mult: "Damage to the Gray Tempest"
  MOD_DAMAGE_VS_PLAYER_CRISIS_MULT: "Danni alle civiltà in cerca di crisi"
+ MOD_DAMAGE_VS_RIVAL_MULT: ""
+ MOD_DAMAGE_VS_SUPERIOR_EMPIRES_MULT: ""
 
  ####################################
  # Opinion Modifiers
