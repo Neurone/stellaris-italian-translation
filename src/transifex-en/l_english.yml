@@ -8370,7 +8370,7 @@
  requires_actor_not_machine_assimilator: "$TRIGGER_FAIL$§RWe are a §Y$civic_machine_assimilator$§!. We assimilate.§!"
  requires_actor_not_inward_perfection: "$TRIGGER_FAIL$§RWe are focusing on our §Y$civic_inwards_perfection$§! and have little interest in diplomacy with other empires.§!"
  requires_recipient_not_inward_perfection: "$TRIGGER_FAIL$§RThey are focusing on their §Y$civic_inwards_perfection$§! and have little interest in diplomacy with other empires.§!"
-requires_actor_not_selective_kinship: "$TRIGGER_FAIL$§RWe are [Root.GetSpeciesClass] and our §Y$civic_selective_kinship$§! makes the [From.GetSpeciesClass] most abhorrent.§!"
+ requires_actor_not_selective_kinship: "$TRIGGER_FAIL$§RWe are [Root.GetSpeciesClass] and our §Y$civic_selective_kinship$§! makes the [From.GetSpeciesClass] most abhorrent.§!"
  requires_recipient_not_selective_kinship: "$TRIGGER_FAIL$§RThey are [From.GetAAnSpeciesClass] [From.GetSpeciesClass] Empire and their §Y$civic_selective_kinship$§! means they barely tolerate our company.§!"
  requires_actor_not_barbaric_despoilers: "$TRIGGER_FAIL$§RWe are §Y$civic_barbaric_despoilers$§!, we do not engage in this type of diplomacy.§!"
  requires_recipient_not_barbaric_despoilers: "$TRIGGER_FAIL$§RThey are §Y$civic_barbaric_despoilers$§!, they do not engage in this type of diplomacy.§!"

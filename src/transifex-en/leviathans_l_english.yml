@@ -889,8 +889,8 @@
  leviathans.3204.a: "Prepare an away team."
 
  leviathans.3205.desc: "Our science team has finished exploring the massive network of tunnels and chambers running through the hive asteroid in the [hive_system.GetName] system. No live specimens of the spaceborne creatures that attacked us were encountered, but the scientists did find the remains of some kind of birthing chamber.\n\nThis has given us a great deal of insight into the life cycle of these entities, further expanding our understanding of galactic biology."
-leviathans.3230.name: "Meteorites Mustered"
-leviathans.3230.desc: "The inhabitants of the [from.solar_system.GetName] system have awoken. While still hostile to most spacecraft, we can rest easy knowing that [from.solar_system.GetName] will be a bastion under the protection of our new primitive drones."
+ leviathans.3230.name: "Meteorites Mustered"
+ leviathans.3230.desc: "The inhabitants of the [from.solar_system.GetName] system have awoken. While still hostile to most spacecraft, we can rest easy knowing that [from.solar_system.GetName] will be a bastion under the protection of our new primitive drones."
 
  ### SPECIAL PROJECTS
  INVESTIGATE_ENCLAVE: "Investigate [target_enclave.GetName]"
