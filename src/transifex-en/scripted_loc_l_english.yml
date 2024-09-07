@@ -20,6 +20,19 @@
  edible_fallback: "Morsel"
  edible_fallback_plural: "Morsels"
 
+ avian_species: "avian" # lower-case adjective, used for 'GetSpeciesClass'
+ mammalian_species: "mammalian" # lower-case adjective, used for 'GetSpeciesClass'
+ reptilian_species: "reptilian" # lower-case adjective, used for 'GetSpeciesClass'
+ fungoid_species: "fungoid" # lower-case adjective, used for 'GetSpeciesClass'
+ mollusc_species: "molluscoid" # lower-case adjective, used for 'GetSpeciesClass'
+ human_species: "human" # lower-case adjective, used for 'GetSpeciesClass'
+ arthropoid_species: "arthropoid" # lower-case adjective, used for 'GetSpeciesClass'
+ plantoid_species: "plantoid" # lower-case adjective, used for 'GetSpeciesClass'
+ aquatic_species: "aquatic" # lower-case adjective, used for 'GetSpeciesClass'
+ toxic_species: "toxoid" # lower-case adjective, used for 'GetSpeciesClass'
+ necroid_species: "necroid" # lower-case adjective, used for 'GetSpeciesClass'
+ lithoid_species: "lithoid" # lower-case adjective, used for 'GetSpeciesClass'
+
  test.edible.title: "Hungry?"
  test.edible.desc: "Even [Root.GetRulerName], our great [Root.GetRulerTitle], is but a moist [Root.GetEdibleName] among [Root.GetEdibleNamePlural]."
 
@@ -36,6 +49,8 @@
  drones_key: "drones"
  unit_key: "unit"
  units_key: "units"
+ crew_key: "crew"
+ crew_member_key: "crew member"
 
  getterraformer_machine: "terraforming unit"
  getterraformer_machine_plural: "terraforming units"
@@ -50,9 +65,18 @@
  getscientist_machine: "science unit"
  getscientist_hive: "science drone"
  getscientist_normal: "scientist"
+
+ getscientist_machine_capital: "Science Unit"
+ getscientist_hive_capital: "Science Drone"
+ getscientist_normal_capital: "Scientist"
+
  getscientistplural_machine: "science units"
  getscientistplural_hive: "science drones"
  getscientistplural_normal: "scientists"
+
+ getscientistplural_machine_capital: "Science Units"
+ getscientistplural_hive_capital: "Science Drones"
+ getscientistplural_normal_capital: "Scientists"
 
  getengineer_machine: "engineering unit"
  getengineer_hive: "engineering drone"
@@ -60,6 +84,22 @@
  getengineerplural_machine: "engineering units"
  getengineerplural_hive: "engineering drones"
  getengineerplural_normal: "engineers"
+
+ getcolonist_machine: "colonization unit"
+ getcolonist_hive: "colonization drone"
+ getcolonist_normal: "colonist"
+
+ getcolonist_machine_capital: "Colonization Unit"
+ getcolonist_hive_capital: "Colonization Drone"
+ getcolonist_normal_capital: "Colonist"
+
+ getcolonistplural_machine: "colonization units"
+ getcolonistplural_hive: "colonization drones"
+ getcolonistplural_normal: "colonists"
+
+ getcolonistplural_machine_capital: "Colonization Units"
+ getcolonistplural_hive_capital: "Colonization Drones"
+ getcolonistplural_normal_capital: "Colonists"
 
  get1stplanetkiller_cracker: "$PLANET_KILLER_CRACKER$"
  get1stplanetkiller_shielder: "$PLANET_KILLER_SHIELDER$"
@@ -89,3 +129,5 @@
  SubMantle_Sub: "Subterranean"
  SubMantle_Mantle: "Mantle-Dwelling"
 
+ getmechanical: "mechanical"
+ getbiological: "biological"

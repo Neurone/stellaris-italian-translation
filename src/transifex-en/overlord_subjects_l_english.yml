@@ -20,6 +20,15 @@
  LOYALTY_MONTHLY_CHANGE_OPINION: "Subject opinion: $VAL|=+$"
  LOYALTY_MONTHLY_CHANGE_RESOURCE_CONTRIBUTION: "Resource Contribution: $VAL|=+$"
  LOYALTY_MONTHLY_CHANGE_ONE_RESOURCE: "$NAME$: $VAL|=+$"
+ ACCEPTANCE_FROM_LOYALTY: "From Loyalty Change"
+ ACCEPTANCE_FROM_LOYALTY_BASE: "§HLoyalty Change§!: §Y$VAL|=+$§!"
+ ACCEPTANCE_FROM_LOYALTY_RELATIVE_POWER: "§HRelative Power§!: §Yx$VAL$§!"
+ ACCEPTANCE_FROM_LOYALTY_PERSONALITY: "$PERSONALITY|H$: $VAL|0%$"
+ ACCEPTANCE_FROM_LOYALTY_SPECIALTY: "§HSpecialization§!: $VAL|0%$"
+ ACCEPTANCE_FROM_ECONOMIC_HARM: "§HEconomic Harm§!: $VAL|0%$"
+ ACCEPTANCE_FROM_ECONOMIC_GAIN: "§HEconomic Gain§!: $VAL|0%$"
+ ACCEPTANCE_FROM_INTANGIBLE_HARM: "§HResearch Lost§!: $VAL|0%$"
+ ACCEPTANCE_FROM_INTANGIBLE_GAIN: "§HResearch Gained§!: $VAL|0%$"
  ACTION_NEGOTIATE_EXISTING_AGREEMENT_IDENTICAL: "The new Agreement is identical to the current one"
  RESOURCE_CONTRIBUTION_VALUE: "§Y$NAME$:§! $VALUE$"
  RESOURCE_CONTRIBUTION_ICON_AND_VALUE: "$ICON$ $VALUE|0Y$"
@@ -49,6 +58,7 @@
  AGREEMENT_ACCEPTANCE_VALUE: "Acceptance: $VAL|+=0$"
  AGREEMENT_ACCEPTANCE_VALUE_HEADER: "§HAgreement acceptance§!"
  AGREEMENT_ACCEPTANCE_VALUE_FLAVOR: "§EAgreement acceptance determines whether or not the receiving party will accept the Agreement.§!"
+ AGREEMENT_ACCEPTANCE_VALUE_REJECTION_INFO: "§EThe other party must spend £influence£ Influence to reject this agreement, and will be forced to accept it if they cannot afford the cost.§!"
  TERM_VALUE_REQUIRES: "The $TERM|Y$ value $TERM_VALUE|Y$ requires:"
  TERM_RESOURCE_VALUE_REQUIRES: "Changing $TERM_VALUE|Y$ requires:"
  TERM_RESOURCE_TOO_LOW: "$TERM_VALUE|Y$ cannot be lower than $MIN_VALUE|Y$"
@@ -85,20 +95,20 @@
  # Specialist level up
  MESSAGE_SUBJECT_LEVEL_UP_TITLE: "Specialist Subject Leveled Up"
  MESSAGE_SUBJECT_LEVEL_UP_DESC: "Your Subject $SUBJECT|Y$ has reach tier $TIER|Y$ of the $SPECIALIZATION|Y$ Specialization."
- MESSAGE_SUBJECT_LEVEL_UP_specialist_bulwark_TITLE: "$MESSAGE_SUBJECT_LEVEL_UP_TITLE$"
- MESSAGE_SUBJECT_LEVEL_UP_specialist_scholarium_TITLE: "$MESSAGE_SUBJECT_LEVEL_UP_TITLE$"
- MESSAGE_SUBJECT_LEVEL_UP_specialist_prospectorium_TITLE: "$MESSAGE_SUBJECT_LEVEL_UP_TITLE$"
+ MESSAGE_SUBJECT_LEVEL_UP_specialist_bulwark_TITLE: "Bulwark Specialist Subject Leveled Up"
+ MESSAGE_SUBJECT_LEVEL_UP_specialist_scholarium_TITLE: "Scholarium Specialist Subject Leveled Up"
+ MESSAGE_SUBJECT_LEVEL_UP_specialist_prospectorium_TITLE: "Prospectorium Specialist Subject Leveled Up"
 
  MESSAGE_WE_LEVEL_UP_TITLE: "Specialization Leveled Up"
  MESSAGE_WE_LEVEL_UP_DESC: "We have reached tier $TIER|Y$ of the $SPECIALIZATION|Y$ Specialization."
- MESSAGE_WE_LEVEL_UP_specialist_bulwark_TITLE: "$MESSAGE_WE_LEVEL_UP_TITLE$"
- MESSAGE_WE_LEVEL_UP_specialist_scholarium_TITLE: "$MESSAGE_WE_LEVEL_UP_TITLE$"
- MESSAGE_WE_LEVEL_UP_specialist_prospectorium_TITLE: "$MESSAGE_WE_LEVEL_UP_TITLE$"
+ MESSAGE_WE_LEVEL_UP_specialist_bulwark_TITLE: "Bulwark $MESSAGE_WE_LEVEL_UP_TITLE$"
+ MESSAGE_WE_LEVEL_UP_specialist_scholarium_TITLE: "Scholarium $MESSAGE_WE_LEVEL_UP_TITLE$"
+ MESSAGE_WE_LEVEL_UP_specialist_prospectorium_TITLE: "Prospectorium $MESSAGE_WE_LEVEL_UP_TITLE$"
 
  # Specialist conversion
  MESSAGE_SUBJECT_STARTED_CONVERTING_TITLE: "Subject Specialization Started"
  MESSAGE_SUBJECT_STARTED_CONVERTING_DESC: "Your Subject $SUBJECT|Y$ has started converting to the $SPECIALIZATION|Y$ Specialization."
- MESSAGE_WE_STARTED_CONVERTING_TITLE: "Specialization started"
+ MESSAGE_WE_STARTED_CONVERTING_TITLE: "Specialization Started"
  MESSAGE_WE_STARTED_CONVERTING_DESC: "We have started converting to the $SPECIALIZATION|Y$ Specialization."
 
  MESSAGE_SUBJECT_FINISHED_CONVERTING_TITLE: "Subject Specialization Complete"
@@ -111,6 +121,7 @@
  specialist_conversion_base_time: "Base: $DAYS|Y0$ days"
  specialist_conversion_time_from_sprawl: "From $SPRAWL|Y$ £empire_sprawl£ $EMPIRE_SIZE$: +$TIME_PERCENT$ conversion time"
  specialist_conversion_speed_from_ethic: "From being $ETHIC|Y$: $TIME_PERCENT$ conversion time"
+ specialist_conversion_time_from_overlord: "From Overlord $OVERLORD|Y$: $TIME_PERCENT$ conversion time"
  specialist_conversion_monthly_cost: "Monthly Cost for Overlord: $COST$"
 
  # Specialist modifiers
@@ -166,11 +177,12 @@
  specialist_type_desc: "This Term dictates what sort of Specialization, if any, the Subject empire will be converted into."
  resource_subsidies: "Contribution"
  resource_subsidies_desc: "This Term dictates the amount of resources the Subject is obligated to pay to the Overlord each month. The number is a percentage of the Subject's current monthly production.\n\nA negative value means the Overlord is obligated to pay the Subject rather than the other way around, but it is still based on a percentage of the Subject's current monthly production."
- AGREEMENT_RESOURCE_TAX: "The Subject will pay $VALUE|Y$ tax of their monthly $RESOURCE|Y$ production to the Overlord."
- AGREEMENT_RESOURCE_SUBSIDIES: "The Overlord will provide the Subject with a subsidy matching $VALUE|Y$ of their monthly $RESOURCE|Y$ production."
+ AGREEMENT_RESOURCE_TAX: "The Subject will pay $VALUE|Y$ tax of their monthly $RESOURCE|Y$ production to the Overlord.\n\n$AGREEMENT_RESOURCE_BLOCKS_TRADE$"
+ AGREEMENT_RESOURCE_SUBSIDIES: "The Overlord will provide the Subject with a subsidy matching $VALUE|Y$ of their monthly $RESOURCE|Y$ production.\n\n$AGREEMENT_RESOURCE_BLOCKS_TRADE$"
  AGREEMENT_RESOURCE_CONTRIBUTION_NONE: "There's neither a subsidy nor a tax in place for this type of contribution."
- AGREEMENT_RESOURCE_EXISTING_TRADE_DEAL: "A trade deal with $OTHER|H$ already exists for one of these resources."
- TRADE_DEAL_RESOURCE_EXISTING_AGREEMENT: "We are currently exchanging $RESOURCE|H$ as part of our Subject Agreement with $OTHER|H$"
+ AGREEMENT_RESOURCE_EXISTING_TRADE_DEAL: "$TRIGGER_FAIL$A §HTrade Deal§! with $OTHER|H$ already exists for one of these resources."
+ TRADE_DEAL_RESOURCE_EXISTING_AGREEMENT: "$TRIGGER_FAIL$We are currently exchanging $RESOURCE|H$ as part of our §HSubject Agreement§! with $OTHER|H$"
+ AGREEMENT_RESOURCE_BLOCKS_TRADE: "§RThis term will block §HTrade Deals§! for $RESOURCE$ Resources.§!"
 
  subject_loyalty: "Subject"
  subject_xenophobe: "Is Xenophobe"
@@ -219,7 +231,7 @@
  subject_holdings_limit: "Holdings Limit"
  subject_holdings_limit_desc: "This Term dictates how many Holdings the Overlord can have in total across the Subject's planets."
  subject_holdings_limit_tooltip: "$TERM$ ($VALUE|Y$)"
- subject_holdings_limit_0: "0"
+ subject_holdings_limit_0: "None"
  subject_holdings_limit_0_desc: "The Overlord cannot have Holdings on any of the Subject's planets."
  subject_holdings_limit_1: "1"
  subject_holdings_limit_1_desc: "The Overlord can have 1 Holding in total across the Subject's planets."
@@ -262,6 +274,7 @@
  protectorate_extra_subject: "$MODIFIER$\nNot allowed to have §YResearch Agreement§! diplomatic pacts."
  protectorate_extra_overlord: "Monthly: $RESOURCES$"
  satrapy_naval_cap: "$MODIFIER$"
+ loyalty_effects_subject: "$MODIFIER$"
 
  reset_to_selected_preset: "Reset"
  RESET_TERMS_TOOLTIP: "Reset proposed §YAgreement Terms§! to the default terms for the selected §YSubject preset§!."
@@ -273,10 +286,13 @@
  specialist_none_desc: "The Subject will not have any Specialization."
  specialist_bulwark: "Bulwark"
  specialist_bulwark_desc: "The Subject will specialize in defensive capabilities, in exchange for weaker resource production."
+ specialist_bulwark_summary: "$text_icon_preset_bulwark$ Bulwarks specialize in defensive capabilities, in exchange for weaker resource production."
  specialist_scholarium: "Scholarium"
  specialist_scholarium_desc: "The Subject will specialize in research, in exchange for weaker military capabilities."
+ specialist_scholarium_summary: "$text_icon_preset_scholarium$ Scholaria specialize in research, in exchange for weaker military capabilities."
  specialist_prospectorium: "Prospectorium"
  specialist_prospectorium_desc: "The Subject will specialize in mining and strategic resources, in exchange for weaker research production."
+ specialist_prospectorium_summary: "$text_icon_preset_prospectorium$ Prospectoria specialize in mining and strategic resources, in exchange for weaker research production."
 
  # Preset names
  preset_vassal: "Vassal"
@@ -316,6 +332,7 @@
  preset_signatory: "Signatory"
  preset_thrall: "Thrall"
  preset_satrapy: "Satrapy"
+ preset_relic_satrapy: "$preset_satrapy$"
 
  # Preset AI
  preset_vassal_nice_01: "$preset_vassal$"
@@ -400,6 +417,7 @@
  not_allowed_for_scholarium: "$TRIGGER_FAIL$Not allowed for §YScholarium§! preset."
  not_allowed_for_prospectorium: "$TRIGGER_FAIL$Not allowed for §YProspectorium§! preset."
  not_allowed_for_subsidiary: "$TRIGGER_FAIL$Not allowed for §YSubsidiary§! preset."
+ not_allowed_for_satrapy: "$TRIGGER_FAIL$Not allowed for §YSatrapy§! preset."
  not_allowed_for_feudal_society: "$TRIGGER_FAIL$Not allowed for an Overlord with the §Y$civic_feudal_realm$§! Civic."
  not_allowed_for_franchising: "$TRIGGER_FAIL$Not allowed for an Overlord with the §Y$civic_franchising$§! Civic."
  not_allowed_for_imperial_fiefdom: "$TRIGGER_FAIL$Not allowed for Subjects of an §Y$personality_imperial_origin_overlord_ai$§!."
@@ -423,8 +441,8 @@
  ACTION_NEGOTIATE_EXISTING_AGREEMENT_TITLE: "Negotiate Agreement"
  ACTION_NEGOTIATE_EXISTING_AGREEMENT_DESC: "Negotiate the terms of our Agreement with §H[Recipient.GetName]§!."
  ACTION_NEGOTIATE_EXISTING_AGREEMENT_OFFER_DESC: "§H[Actor.GetName]§! has proposed a change to the terms in our Agreement with them."
- ACTION_NEGOTIATE_EXISTING_AGREEMENT_PROPOSAL_FAILED_ACTOR: "Our proposal to change the terms of our Agreement with §H[Recipient.GetName]§! was declined."
- ACTION_NEGOTIATE_EXISTING_AGREEMENT_PROPOSAL_FAILED_RECIPIENT: "The proposal to change Agreement terms from §H[Actor.GetName]§! timed out and was auto-declined."
+ ACTION_NEGOTIATE_EXISTING_AGREEMENT_PROPOSAL_FAILED_ACTOR: "Our proposal to change the terms of our Agreement with §H[Recipient.GetName]§! was accepted." # Negotiations are force accepted if the recipient can't pay to decline
+ ACTION_NEGOTIATE_EXISTING_AGREEMENT_PROPOSAL_FAILED_RECIPIENT: "The proposal to change Agreement terms from §H[Actor.GetName]§! timed out and was auto-accepted."
  MESSAGE_NEGOTIATE_EXISTING_AGREEMENT_TITLE: "Negotiate Agreement"
 
  # Secret Fealty diplomatic actions
@@ -453,7 +471,9 @@
  IN_ALLEGIANCE_WAR_WITH_SUBJECTS_OVERLORD: "We are at war with their Overlord."
 
  MESSAGE_BREAK_SECRET_FEALTY_TITLE: "Secret Fealty Broken"
+ DIPLO_ACTION_BREAK_SECRET_FEALTY_KEY: "Break Secret Fealty to Potential Overlord"
  MESSAGE_PROPOSE_TO_BREAK_SECRET_FEALTY_TITLE: "$ACTION_PROPOSE_TO_BREAK_SECRET_FEALTY_TITLE$"
+ DIPLO_ACTION_PROPOSE_TO_BREAK_SECRET_FEALTY_KEY: "End Secret Fealty With Potential Subject"
 
  # Failure texts
  IN_FEDERATION_WITH_THEIR_OVERLORD: "We are in a Federation with their Overlord."
@@ -497,12 +517,15 @@
  AGREEMENT_HOLDINGS_OPEN_CAPITAL_PLANET: "§GClick to open Planet View of the empire capital§!"
  HOLDING_RESOURCES_TARGET_COUNTRY: "§HFor $COUNTRY|Y$:§!"
 
+ OVERLORD_HOLDING_CONSTRUCTION_TITLE: "Overlord Holding Construction Complete"
+ OVERLORD_HOLDING_CONSTRUCTION_DESC: "Our Overlord $OVERLORD|Y$ has finished building a $HOLDING|Y$ on our planet $PLANET|Y$."
+
  holding_garrison: "Overlord Garrison"
  holding_garrison_desc: "A garrison established to oversee the local enforcers, occasionally reinforced by military battalions in more dire circumstances."
  holding_garrison_armies_desc: "Every Overlord army on this planet gives an additional §G-10%§! [Root.CrimeOrDeviancy], §G+0.5§! $r_loyalty$ and §R-5%§! Happiness, to a maximum of §G-30%§! [Root.CrimeOrDeviancy], (an additional) §G+1.5§! $r_loyalty$ and §R-15%§! Happiness."
  holding_orbital_assembly_complex: "Orbital Assembly Complex"
  holding_orbital_assembly_complex_desc: "A soaring building filled with long assembly lines, creating everything one could dream of."
- holding_orbital_assembly_complex_constructors_desc: "Every Overlord §HConstruction Ship§! in orbit gives an additional §G10%§! §Y$MOD_PLANET_BUILDING_BUILD_SPEED_MULT$§! and produces §G3§! $r_alloys$ for the Overlord, to a maximum of §G40%§! §Y$MOD_PLANET_BUILDING_BUILD_SPEED_MULT$§! and §G9§! $r_alloys$."
+ holding_orbital_assembly_complex_effect: "Increases the effects of modules on the planet's §YOrbital Ring§!."
  holding_propaganda_office: "Ministry of Truth"
  holding_propaganda_office_desc: "A ministry overseeing local faiths, news, and political interest groups. With the right prod everything runs a tad smoother."
  holding_satellite_campus: "Satellite Campus"
@@ -515,7 +538,7 @@
  holding_energy_requisitorium_desc: "A ministry overseeing taxation and the minting of energy credits, often coming into conflict with the domestic bureaucracy."
  holding_material_requisitorium: "Ministry of Extraction"
  holding_material_requisitorium_desc: "A ministry overseeing local mineral production, extraction, and purification. They often secure the best land purchases and reap the benefits for their patron."
- holding_produce_requisitorium: "Ministry of Production"
+ holding_produce_requisitorium: "Ministry of Acquisition"
  holding_produce_requisitorium_desc: "A ministry overseeing local produce. In addition to placing a small tax on this world, some products have a tendency to disappear into their convoluted, bureaucratic process."
  job_energy_requisitioned_effect_desc: "£job_technician£ [Root.EnergyProducer] produces §R-3§! $r_energy$ for the Subject and §G4§! $r_energy$ for the Overlord."
  job_minerals_requisitioned_effect_desc: "£job_miner£ [Root.MineralsProducer] produces §R-2§! $r_minerals$ for the Subject and §G3§! $r_minerals$ for the Overlord."
@@ -536,7 +559,7 @@
  holding_overlord_vigil_command_desc: "A command center specialized in - and delegated to - calculating the best possible means of increasing defensive measures."
  holding_parasitic_algorithms: "Ministry of Science"
  holding_parasitic_algorithms_desc: "A ministry overseeing local research and science, bringing the most noteworthy breakthroughs and discoveries back to their benefactor."
- holding_parasitic_algorithms_effect_desc: "Every Overlord §HScience Ship§! in orbit gives an additional §G3%§! §Y$RESEARCH_EFFICIENCY$§! to the Overlord and §R-0.5§! $r_loyalty$ from the Subject, to a maximum of §G9%§! §Y$RESEARCH_EFFICIENCY$§! and (an additional) §R-1.5§! $r_loyalty$."
+ holding_parasitic_algorithms_effect_desc: "[Root.ResearchProducerIcon] [Root.ResearchProducer] turn Subject [Root.SubjectResearcherUpkeep] into $r_research$ for the Overlord."
 
  holding_noble_vacation_homes: "Noble Chateaus"
  holding_noble_vacation_homes_desc: "A home away from home, this is the perfect place for the Overlord's ruling elite to let off steam, so that they don't cause incidents back home."
@@ -546,7 +569,7 @@
  holding_dread_outpost_desc: "The Dread Outpost is an arcane structure that produces unholy reanimated armies while sending back insidious data to this planet's Overlord."
 
  holding_communal_housing_outreach: "Communal Housing Outreach"
- holding_communal_housing_outreach_desc: "Everyone is entitled to a home, which is why the Ovelord have extended their Communal Housing Project to this planet. This serves as a great forum for teaching the inhabitants the value of egalitarianism."
+ holding_communal_housing_outreach_desc: "Everyone is entitled to a home, which is why the Overlord has extended their Communal Housing Project to this planet. This serves as a great forum for teaching the inhabitants the value of egalitarianism."
 
  holding_idyllic_bloom: "Gaia Seeder Outpost"
  holding_idyllic_bloom_desc: "Hyper-advanced terraforming techniques mastered by the Overlord are housed in this structure. After being introduced to the planet, it will take a decade to finish its world-changing work."
@@ -554,7 +577,8 @@
  holding_idyllic_bloom_effect: "Will finish terraforming §Y10§! years after construction."
 
  holding_reemployment_center: "Reemployment Center"
- holding_reemployment_center_desc: "Never leave a resource unexploited, even if that resource is the Vassal's dead. With the Reemployment Center, the Overlord can ensure that the vassal's planets are always filled with employees even though the quality of work might vary."
+ holding_reemployment_center_desc: "Never leave a resource unexploited, even if that resource is the Subject's dead. With the Reemployment Center, the Overlord can ensure that the Subject's planets are always filled with employees even though the quality of work might vary."
+ holding_reemployment_center_effect: "\nA new £pop£ §YZombie Pop§! will be reanimated on §Y[Planet.reemployment_center_timer]§!"
 
  holding_recruitment_office: "Recruitment Office"
  holding_recruitment_office_desc: "Everyone must do their part. That is why the Overlord is offering military training in exchange for a tour in their fleet. Service guarantees citizenship."
@@ -566,7 +590,7 @@
  no_free_district_for_ranger_lodge: "$TRIGGER_FAIL$§RNo untouched nature remains on this planet for us to protect.§!"
  blocker_tied_to_ranger_lodge: "$TRIGGER_FAIL$§RThis blocker will remain as long as the §Y$holding_park_ranger_lodge$§! Holding exists.§!"
 
- holding_tree_of_life_sapling: "Tree of Life Sapling"
+ holding_tree_of_life_sapling: "Tree of Life Sprout"
  holding_tree_of_life_sapling_desc: "The Overlord has existed with their Tree of Life for so long that they can no longer imagine life without it. Now, they want to share the same opportunity with their vassals."
 
  holding_franchise_headquarters: "Franchise Headquarters"
@@ -620,7 +644,7 @@
  mod_shipclass_mining_station_build_speed_mult: "Mining Station Build Speed"
  holding_splinter_hive_modifier: "Splinter Hive Symbiotic Link"
  holding_noble_vacation_home_modifier: "Relaxed Nobles"
- mod_planet_jobs_unity_upkeep_mult: "£unity£ $unity$ upkeep from £job£ Jobs"
+ mod_planet_jobs_unity_upkeep_mult: "£unity£ $unity$ Upkeep from £job£ Jobs"
  MOD_SUBJECT_TECH_COST_MULT: "Technology Research Cost"
  mod_planet_refiners_exotic_gases_produces_mult: "£job_gas_refiner£ [Root.Refiners] Output"
  mod_planet_translucers_rare_crystals_produces_mult: "£job_translucer£ [Root.Translucers] Output"
@@ -681,8 +705,9 @@
  LOYALTY_RESOURCE_TERM_TT_ENTRY: "$NAME|H$: $VAL|+=0$"
  LOYALTY_MONTHLY_DISCRETE_TERM_TT_ENTRY: "$NAME|H$: $VAL|+=1$"
  LOYALTY_MONTHLY_RESOURCE_TERM_TT_ENTRY: "$NAME|H$: $VAL|+=1$"
- LOYALTY_OPINION: "Relations: $VAL|+=0$"
- LOYALTY_RELATIVE_POWER: "Relative Power: $VAL|+=0$"
+ LOYALTY_INITIAL: "Initial Loyalty: "
+ LOYALTY_OPINION: "§HRelations§!: $VAL|+=0$"
+ LOYALTY_RELATIVE_POWER: "§HRelative Power§!: $VAL|+=0$"
  LOYALTY_AGREEMENT_TERMS_HEADER: "$TERMS_HEADER$"
  LOYALTY_RESOURCE_CONTRIBUTION_HEADER: "$RESOURCE_CONTRIBUTION$"
  LOYALTY_BREAKDOWN_FLAVOR: "§ELoyalty decides the relationship between the two parties in an §HAgreement§!: The §HOverlord§! and their §HSubject§!.§!"
@@ -690,6 +715,11 @@
  LOYALTY_MONTHLY_BREAKDOWN_FLAVOR: "$LOYALTY_BREAKDOWN_FLAVOR$"
  LOYALTY_BREAKDOWN_HEADER_NEW: "§HNew Loyalty§!"
  LOYALTY_BREAKDOWN_HEADER_OLD: "§HCurrent Loyalty§!"
+ LOYALTY_ECONOMIC_HARM_LOYALTY: "§HFrom Economic Harm:§! $VAL|+=0$"
+ LOYALTY_ECONOMIC_GAIN_LOYALTY: "§HFrom Economic Gain:§! $VAL|+=0$"
+ LOYALTY_INTANGIBLE_HARM_LOYALTY: "§HFrom Research Lost:§! $VAL|+=0$"
+ LOYALTY_INTANGIBLE_GAIN_LOYALTY: "§HFrom Research Gained:§! $VAL|+=0$"
+ LOYALTY_ECONOMIC_IMPACT: "Economic Impact: $VAL|0%$"
  LOYALTY_MONTHLY_TERMS_BREAKDOWN_HEADER_NEW: "§HNew Monthly Loyalty from Terms§!"
  LOYALTY_MONTHLY_TERMS_BREAKDOWN_HEADER_OLD: "§HCurrent Monthly Loyalty from Terms§!"
  LOYALTY_IMPACT_PER_AGREEMENT_TERM: "§HLoyalty impact from this Agreement Term§!"
@@ -715,7 +745,7 @@
  job_overlord_propagandist_drone_plural: "$job_overlord_propagandist_plural$"
  mod_job_overlord_propagandist_add: "$job_overlord_propagandist$ Jobs"
  mod_job_overlord_propagandist_drone_add: "$mod_job_overlord_propagandist_add$"
- job_overlord_propagandist_desc: "Propagandists working for the local ministry are experts at infilitrating and defusing situations among the locals."
+ job_overlord_propagandist_desc: "Propagandists working for the local ministry are experts at infiltrating and defusing situations among the locals."
  job_overlord_propagandist_drone_desc: "Diplomatically equipped drones who are experts at defusing rebellious thoughts and ideas."
  job_overlord_propagandist_effect_desc: "£job_overlord_propagandist£ $job_overlord_propagandist_plural$ turn Subject $r_unity$ into $r_influence$ for the Overlord."
  job_overlord_propagandist_drone_effect_desc: "$job_overlord_propagandist_effect_desc$"
@@ -789,8 +819,8 @@
  mod_job_overlord_offspring_drone_feeder_drone_add: "$mod_job_overlord_offspring_drone_feeder_add$"
  job_overlord_offspring_drone_feeder_desc: "It is a prestigious responsibility to keep the Offspring safe and comfortable, even if the role often involves merely gathering food for it."
  job_overlord_offspring_drone_feeder_drone_desc: "Feeding the Offspring is a vital job to ensure stability on the planet."
- job_overlord_offspring_drone_feeder_effect_desc: "£job_overlord_breeder£ $job_overlord_offspring_drone_feeder$ provide access to §Y$offspring_defense_plural$§! and an increase in £mod_planet_jobs_worker_produces_mult£ §Y$mod_planet_jobs_worker_produces_mult$§!."
- job_overlord_offspring_drone_feeder_drone_effect_desc: "£job_overlord_breeder£ $job_overlord_offspring_drone_feeder_plural$ provide access to §Y$offspring_defense_plural$§! and an increase in £mod_planet_jobs_simple_drone_produces_mult£ §Y$mod_planet_jobs_simple_drone_produces_mult$§!."
+ job_overlord_offspring_drone_feeder_effect_desc: "£job_overlord_breeder£ $job_overlord_offspring_drone_feeder$ use $r_food$ (or $r_minerals$) provide access to §Y$offspring_defense_plural$§! and an increase in £mod_planet_jobs_worker_produces_mult£ §Y$mod_planet_jobs_worker_produces_mult$§!."
+ job_overlord_offspring_drone_feeder_drone_effect_desc: "£job_overlord_breeder£ $job_overlord_offspring_drone_feeder_plural$ use $r_food$ (or $r_minerals$) provide access to §Y$offspring_defense_plural$§! and an increase in £mod_planet_jobs_simple_drone_produces_mult£ §Y$mod_planet_jobs_simple_drone_produces_mult$§!."
 
  # Overlord Metallurgist/Foundry Drone/Fabricator/Catalytic Technician/Catalytic Drone
  job_overlord_metallurgist: "Overlord $job_foundry$"
@@ -905,8 +935,8 @@
  mod_job_overlord_mortal_initiate_add: "$job_overlord_mortal_initiate$ Jobs"
  job_overlord_mortal_initiate_desc: "The customs of our Overlord may seem strange and mysterious, but our way forward is by accepting them. Only those who are willing will be asked to make the ultimate sacrifice."
  job_overlord_mortal_initiate_drone: "$job_overlord_mortal_initiate$ Drone"
- job_overlord_mortal_initiate_drone_plural: "$job_overlord_bio_trophy$ Drones"
- mod_job_overlord_mortal_initiate_drone_add: "$job_overlord_bio_trophy$ Jobs"
+ job_overlord_mortal_initiate_drone_plural: "$job_overlord_mortal_initiate$ Drones"
+ mod_job_overlord_mortal_initiate_drone_add: "$job_overlord_mortal_initiate$ Jobs"
  job_overlord_mortal_initiate_drone_desc: "The customs of our Overlord may seem strange and mysterious, yet we are to be a part of them. A few of our drones have been designated to join what the Overlord calls 'a study of life', one which concludes with their willing sacrifice."
  job_overlord_mortal_initiate_effect_desc: "£job_mortal_initiate£ $job_overlord_mortal_initiate_plural$ produce £unity£ §YUnity§!, £amenities£ §Y$amenity$§! and £society£ §YResearch§! for the Subject. $job_overlord_mortal_initiate$ can be used for §YSacrifices§!."
 
@@ -915,7 +945,7 @@
  planet_overlord_managers: "Overlord Managers"
  job_overlord_manager_plural: "Overlord Managers"
  mod_job_overlord_manager_add: "$job_overlord_manager$ Jobs"
- job_overlord_manager_desc: "Middle managers that optimize the behavior of the local white-collar workers to syngerize with the Overlord's long-term corporate trajectory."
+ job_overlord_manager_desc: "Middle managers that optimize the behavior of the local white-collar workers to synergize with the Overlord's long-term corporate trajectory."
  job_overlord_manager_effect_desc: "£job_manager£ $job_overlord_manager_plural$ turn £consumer_goods£ §Y$consumer_goods$§! into £unity£ §YUnity§! and £mod_trade_value_add£ §Y$TRADE_VALUE$§! for the Subject, and £unity£ §YUnity§! for the Overlord."
 
  planet_holdings: "Holdings"
@@ -931,28 +961,45 @@
  planet_requisitioned_food: "Requisitioned Food"
  planet_requisitioned_alloys: "Requisitioned Alloys"
  planet_requisitioned_consumer_goods: "Requisitioned Consumer Goods"
+ planet_requisitioned_research: "Requisitioned Research"
  holdings_jobs: "Holdings Jobs"
  planet_overlord_breeders: "Overlord Breeders"
  planet_overlord_metallurgists: "Overlord Metallurgists"
 
  # Resource shorthand
- r_energy: "£energy£ §Y$energy$§!"
- r_minerals: "£minerals£ §Y$minerals$§!"
- r_food: "£food£ §Y$food$§!"
- r_alloys: "£alloys£ §Y$alloys$§!"
- r_consumer_goods: "£consumer_goods£ §Y$consumer_goods$§!"
- r_unity: "£unity£ §Y$unity$§!"
- r_influence: "£influence£ §Y$influence$§!"
- r_research: "£physics£ £society£ £engineering£ §YResearch Points§!"
- r_amenities: "£amenities£ §YAmenities§!"
- r_trade_value: "£trade_value£ §YTrade Value§!"
- r_loyalty: "£loyalty£ §YMonthly Loyalty§!"
- r_rare_crystals: "£rare_crystals£ §Y$rare_crystals$§!"
- r_volatile_motes: "£volatile_motes£ §Y$volatile_motes$§!"
- r_exotic_gases: "£exotic_gases£ §Y$exotic_gases$§!"
- r_living_metal: "£sr_living_metal£ §Y$sr_living_metal$§!"
- r_dark_matter: "£sr_dark_matter£ §Y$sr_dark_matter$§!"
- r_zro: "£sr_zro£ §Y$sr_zro$§!"
+ r_energy: "£energy£ §Y$energy$§!"
+ r_minerals: "£minerals£ §Y$minerals$§!"
+ r_food: "£food£ §Y$food$§!"
+ r_alloys: "£alloys£ §Y$alloys$§!"
+ r_consumer_goods: "£consumer_goods£ §Y$consumer_goods$§!"
+ r_unity: "£unity£ §Y$unity$§!"
+ r_influence: "£influence£ §Y$influence$§!"
+ r_research: "£physics£ £society£ £engineering£ §YResearch Points§!"
+ r_physics: "£physics£ §YPhysics Research§!"
+ r_society: "£society£ §YSociety Research§!"
+ r_engineering: "£engineering£ §YEngineering Research§!"
+ r_amenities: "£mod_planet_amenities_add£ §YAmenities§!"
+ r_trade_value: "£mod_trade_value_add£ §YTrade Value§!"
+ r_loyalty: "£loyalty£ §YMonthly Loyalty§!"
+ r_rare_crystals: "£rare_crystals£ §Y$rare_crystals$§!"
+ r_volatile_motes: "£volatile_motes£ §Y$volatile_motes$§!"
+ r_exotic_gases: "£exotic_gases£ §Y$exotic_gases$§!"
+ r_living_metal: "£sr_living_metal£ §Y$sr_living_metal$§!"
+ r_dark_matter: "£sr_dark_matter£ §Y$sr_dark_matter$§!"
+ r_zro: "£sr_zro£ §Y$sr_zro$§!"
+ r_nanites: "£nanites£ §Y$nanites$§!"
+ r_basic: "£energy£ £minerals£ £food£ §YBasic Resource§!"
+ r_basic_plural: "£energy£ £minerals£ £food£ §YBasic Resources§!"
+ r_advanced: "£alloys£ £consumer_goods£ §YAdvanced Resource§!"
+ r_advanced_plural: "£alloys£ £consumer_goods£ §YAdvanced Resources§!"
+ r_strategic: "£rare_crystals£ £exotic_gases£ £volatile_motes£ §YStrategic Resource§!"
+ r_strategic_plural: "£rare_crystals£ £exotic_gases£ £volatile_motes£ §YStrategic Resources§!"
+ r_minor_artifacts: "£minor_artifacts£ §YMinor Artifacts§!"
+ r_astral_threads: "£astral_threads£ §Y$astral_threads$§!"
+
+ w_basic_plural: "£energy£ £minerals£ £food£ Basic Resources"
+ w_advanced_plural: "£alloys£ £consumer_goods£ Advanced Resources"
+ w_strategic_plural: "£rare_crystals£ £exotic_gases£ £volatile_motes£ Strategic Resources"
 
  # Resource subsidies groups
  resource_subsidies_basic: "Basic"
@@ -989,8 +1036,8 @@
  SPECIALIST_XP_TITLE: "Specialist XP"
  SPECIALIST_XP_PER_MONTH: "Based on $LOYALTY|Y$ Loyalty, the Subject's Specialization gains $XP_CHANGE|+$ XP every month."
  SPECIALIST_XP_DESC: "§HSpecialist Experience§! §Eincreases as the Subject remains loyal to their Overlord. A disloyal Subject will lose experience.§!\n§HNew Perks and Abilities§! §Eare gained as new§! §HTiers§! §Eare unlocked with§! §HXP§!§E.§!"
- SPECIALIST_TIER_UNLOCKS: "Tier XP Unlocks"
- SPECIALIST_TIER_UNLOCK_XP: "Tier $TIER$: $XP|Y0$ xp"
+ SPECIALIST_TIER_UNLOCKS: "Tier XP Requirements"
+ SPECIALIST_TIER_UNLOCK_XP: "Tier $TIER$: $XP|Y0$ XP"
  SPECIALIST_TIER_ACTIVE: "§GActive§!"
  SPECIALIST_TIER_INACTIVE: "§gInactive§!"
  SPECIALIST_TIER_LOCKED: "§RLocked§!"
@@ -1028,7 +1075,7 @@
  specialist.920.desc: "The team at [From.GetName] has news to share with us.  [Root.SensorReadings]\n\n[Root.SensorReadingsRare]"
  specialist.920.desc.gestalt: "There's good news from [From.GetName] after our drones' latest findings."
 
- SCHOLARIUM_PLANETARY_SENSORS: "Scholarium Sensor Abnomality"
+ SCHOLARIUM_PLANETARY_SENSORS: "Scholarium Sensor Abnormality"
  SCHOLARIUM_PLANETARY_SENSORS_DESC: "We have picked up on uncommon signals coming from [From.GetName], seemingly trying to initiate contact with us. We have been unable to communicate with whatever or whoever it is, and will have to send a ship to inspect it more closely if we want to learn more about what it might be."
 
  ## Scripted Loc for Planetary Sensors
@@ -1124,14 +1171,14 @@
  ResourceDiscovery5: "We have come across an old and ruined mining or research station at [Root.GetName]. It seems likely that this crashed to the surface at some point in the past. It also shows signs of having been attacked. Despite the extensive damage, the station is continuing to direct a signal underground. Before moving on, we should no doubt investigate this further."
 
  # Second Half - Energy
- ResourceDiscoveryEnergy1: "It seems to have been attached to an electric current running below the surface, the origin of which remains unclear.  What’s more, we have no way to determine how long the current will last, or if it is entirely stable, but we believe we can make use of it."
+ ResourceDiscoveryEnergy1: "It seems to have been attached to an electric current running below the surface, the origin of which remains unclear.  What's more, we have no way to determine how long the current will last, or if it is entirely stable, but we believe we can make use of it."
  ResourceDiscoveryEnergy2: "It appears to have been built to keep an archaic generator alive and hidden just below the surface, and despite all the equipment problems one might expect the generator appears to be running fine. With some work, we should be able to stabilize it and make use of it ourselves."
  ResourceDiscoveryEnergy3: "When we looked further into the mysterious generator, we found it is attached to several large cables running throughout [Root.GetName]. The whole thing seems to be run by a single apparatus housed far below the surface. With only a slight modification to the current, we can probably make use of the energy it creates."
 
  # Second Half - Minerals
- ResourceDiscoveryMinerals1: "The generator is attached to a mineral vein buried below ground, once probably an important source of raw material for whoever was in charge of the machine’s operations. Though somewhat diminished, we can make use of these resources ourselves."
+ ResourceDiscoveryMinerals1: "The generator is attached to a mineral vein buried below ground, once probably an important source of raw material for whoever was in charge of the machine's operations. Though somewhat diminished, we can make use of these resources ourselves."
  ResourceDiscoveryMinerals2: "Further exploration revealed the generator is connected to a dim grotto complete with several smaller veins of minerals. Scattered about the floor were the bodies of a previously unknown lithoid species. It is unclear if they were harvesting the minerals or eating them straight from the ground, but in either case the bodies are encrusted with mineral protrusions that may well prove useful to us."
- ResourceDiscoveryMinerals3: "The generator is built within a gigantic underground chamber, filled to the brim with minerals of all kinds. Emptying the grotto is going to be an endeavor in itself. Digging is likely to result in the need to push deeper into the world’s crust."
+ ResourceDiscoveryMinerals3: "The generator is built within a gigantic underground chamber, filled to the brim with minerals of all kinds. Emptying the grotto is going to be an endeavor in itself. Digging is likely to result in the need to push deeper into the world's crust."
 
  # Second Half - Alloys
  ResourceDiscoveryAlloys1: "Further exploration of the area revealed it is connected to an ancient apparatus somehow still continuing its operations. Using the resources on hand, the machine continues to spit out well-forged and entirely pristine bricks of useful alloys."
@@ -1151,18 +1198,18 @@
  # Second Half - Exotic Gases
  ResourceDiscoveryExoticGases1: "For some reason, it seems to be connected to a waste disposal site deep below the ground. The site is so ancient that it will likely prove impossible to speculate on its origins, but we believe we can harvest some of these toxic gases for our own purposes."
  ResourceDiscoveryExoticGases2: "It seems to have been attached to a crowded research facility centered around a natural occurrence of toxic gases stemming from the core of [Root.GetName]. Readjusting the facility somewhat should allow us to harvest these for ourselves."
- ResourceDiscoveryExoticGases3: "It led further below the surface where we came across a machine of incredible proportions, probably once used to stabilize [Root.GetName], but now damaged beyond repair. Though unsalvageable, the machine’s damaged state has led to the creation of several toxic gases that we might make use of."
+ ResourceDiscoveryExoticGases3: "It led further below the surface where we came across a machine of incredible proportions, probably once used to stabilize [Root.GetName], but now damaged beyond repair. Though unsalvageable, the machine's damaged state has led to the creation of several toxic gases that we might make use of."
 
  # Second Half - Zro
  ResourceDiscoveryZro1: "As we continued to follow it, we found a source of zro buried deep below the surface. Exotic harvesting tools littered the chamber floor, and with a little ingenuity we should be able to make use of them ourselves."
  ResourceDiscoveryZro2: "It is connected to a defunct facility hidden in the depths below. The facility itself appears intended to survey a zro impact site. Though empty and largely offline, it should eventually be possible to reuse it for our own purposes."
 
  # Second Half - Dark Matter
- ResourceDiscoveryDarkMatter1: "Through a complex process, it seems to be attached to a research drone. Circling a micro black hole located far below the planet’s surface the drone has somehow managed to stabilize the singularity, perhaps in an effort to research it. Though we are unable to replicate this technological feat, we should be able to utilize the drone for our own means."
+ ResourceDiscoveryDarkMatter1: "Through a complex process, it seems to be attached to a research drone. Circling a micro black hole located far below the planet's surface the drone has somehow managed to stabilize the singularity, perhaps in an effort to research it. Though we are unable to replicate this technological feat, we should be able to utilize the drone for our own means."
 
  # Second Half - Living Metal
  ResourceDiscoveryLivingMetal1: "We have discovered that it leads to a chamber further below the surface. There we chanced upon a beguiling amalgamation of living metal and what we believe was once a molluscoid creature. It seems the two have fused together, slowly expanding through the cavern networks below the ground. With some effort, we should be able to start chipping pieces off the metal, for our own uses, without doing the creature too much harm."
- ResourceDiscoveryLivingMetal2: "It didn’t take long for us to find the living metal is centered on a narrow grotto. As it slithers and reacts to touch, we believe it might be more alive than one might first think. If we harvest it carefully, we should be able to maximize our use of the creature, without killing it."
+ ResourceDiscoveryLivingMetal2: "It didn't take long for us to find the living metal is centered on a narrow grotto. As it slithers and reacts to touch, we believe it might be more alive than one might first think. If we harvest it carefully, we should be able to maximize our use of the creature, without killing it."
 
  prospectorium_resource_discovery_desc: "We have picked up on signals indicating there might be more valuable resources to be uncovered at [prospectorium_discovery_target.System.GetName]. We have sent some preliminary drones to scour the region - so it will be ready for further analysis and work when we can send a ship there."
 
@@ -1196,6 +1243,7 @@
  # Decisions
  decision_strip_mining: "Strip Mining"
  decision_strip_mining_desc: "$d_prospectorium_strip_mine_desc$"
+ decision_strip_mining_tt: "Remove a random §YAgricultural Feature§!."
 
  # Trade Actions
  trade_action_pledge_loyalty: "Pledge Loyalty"
@@ -1220,11 +1268,6 @@
  prospectorium_technology_society_modifier: "$prospectorium_technology_physics_modifier$"
  prospectorium_technology_engineering_modifier: "$prospectorium_technology_physics_modifier$"
 
- # Tabs
- t: "    "
- tt: "        "
- ttt: "            "
-
  # Custom tooltips for traits.
  leader_trait_bulwark_watcher_tooltip: "$t$§L$leader_trait_bulwark_watcher$§!\n$tt$$MOD_SHIP_FRIENDLY_TERRITORY_EVASION_MULT$: §G+15%§!\n$tt$$MOD_SHIP_FRIENDLY_TERRITORY_TRACKING_MULT$: §G+15%§!"
  leader_trait_bulwark_retaliator_tooltip: "$t$§L$leader_trait_bulwark_retaliator$§!\n$tt$$MOD_SHIP_FRIENDLY_TERRITORY_FIRE_RATE_MULT$: §G+30%§!"
@@ -1235,7 +1278,7 @@
  leader_trait_prospectorium_extractor_tooltip: "$t$§L$leader_trait_prospectorium_extractor$§!\n$tt$$mod_planet_jobs_energy_produces_mult$: §G+20%§!\n$tt$$mod_planet_jobs_minerals_produces_mult$: §G+20%§!\n$tt$$mod_planet_jobs_alloys_produces_mult$: §G+20%§!"
  leader_trait_prospectorium_optimizer_tooltip: "$t$§L$leader_trait_prospectorium_optimizer$§!\n$tt$$mod_planet_jobs_upkeep_mult$: §G-15%§!"
  leader_trait_prospectorium_refiner_tooltip: "$t$§L$leader_trait_prospectorium_refiner$§!\n$tt$$mod_planet_chemists_volatile_motes_produces_mult$: §G+25%§!\n$tt$$mod_planet_refiners_exotic_gases_produces_mult$: §G+25%§!\n$tt$$mod_planet_translucers_rare_crystals_produces_mult$: §G+25%§!"
- bulwark_battlewright_tooltip: "$t$£construction_ship£ §LBulwark Battlewright§!\n$tt$All Friendly Ships in System:\n$ttt$$MOD_SHIP_HULL_REGEN_ADD_PERC$: §G+2%§!\n$tt$$MOD_SHIP_HULL_MULT$: §G+50%§!\n$tt$$MOD_SHIP_ARMOR_MULT$: §G+50%§!"
+ bulwark_battlewright_tooltip: "$t$£construction_ship£ §LBulwark Battlewright§!\n$tt$All Friendly Ships in System:\n$ttt$$MOD_SHIP_HULL_REGEN_ADD_PERC$: §G+0.25%§!\n$tt$$MOD_SHIP_HULL_MULT$: §G+50%§!\n$tt$$MOD_SHIP_ARMOR_MULT$: §G+50%§!"
  scholarium_3_arctrellis_tooltip: "$t$£science_ship£ §LScholarium Arctrellis§!\n$tt$Any Ship in System Piloted by AI:\n$ttt$$MOD_SHIP_ACCURACY_MULT$: §R-25%§!\n$ttt$$MOD_SHIP_FIRE_RATE_MULT$: §R-25%§!\n$ttt$$MOD_SHIP_BASE_SPEED_MULT$: §R-25%§!"
 
  # Specialist Perks
@@ -1252,10 +1295,10 @@
  bulwark_2_penalties: "Bulwark Penalties II"
  bulwark_2_bulwark_insight: "Bulwark Insight II"
  bulwark_2_bulwark_insight_desc: "§EAdd to Researchable Technologies:§!\n$t$£engineering£ $tech_modular_engineering$\n$t$£engineering£ $tech_starbase_4$"
- bulwark_2_leaders: "Bulwark Admirals"
- bulwark_2_leaders_desc: "§EAdmirals in pool:§!\n$t$Leader Level: §G+1§!\n§ETransfer Leader:§!\n$t$Admirals with a Bulwark trait can be traded with the Overlord."
+ bulwark_2_leaders: "Bulwark Commanders"
+ bulwark_2_leaders_desc: "§ETransfer Leader:§!\n$t$$commander_plural_with_icon$ with a Bulwark trait can be traded with the Overlord."
  bulwark_2_traits: "Bulwark Traits"
- bulwark_2_traits_desc: "§EAdmirals gain one random trait:§!\n$leader_trait_bulwark_watcher_tooltip$\n$leader_trait_bulwark_retaliator_tooltip$\n$leader_trait_bulwark_sentinel_tooltip$"
+ bulwark_2_traits_desc: "§E$commander_plural_with_icon$ gain one random trait:§!\n$leader_trait_bulwark_watcher_tooltip$\n$leader_trait_bulwark_retaliator_tooltip$\n$leader_trait_bulwark_sentinel_tooltip$"
  bulwark_3_modifier: "Bulwark Bonuses III"
  bulwark_3_penalties: "Bulwark Penalties III"
  bulwark_3_bulwark_insight: "Bulwark Insight III"
@@ -1279,9 +1322,9 @@
  scholarium_2_modifier_desc: "Monthly Scientific Research: §G+30%§!\n$MOD_COUNTRY_NUM_TECH_ALTERNATIVES_ADD$: §G+1§!"
  scholarium_2_penalties: "Scholarium Penalties II"
  scholarium_2_leaders: "Scholarium Scientists"
- scholarium_2_leaders_desc: "§EScientists in pool:§!\n$t$Leader Level: §G+1§!\n§ETransfer Leader:§!\n$t$Scientists with a Scholarium trait can be traded with the Overlord."
+ scholarium_2_leaders_desc: "§ETransfer Leader:§!\n$t$$scientist_plural_with_icon$ with a Scholarium trait can be traded with the Overlord."
  scholarium_2_traits: "Scholarium Traits"
- scholarium_2_traits_desc: "§EScientists gain one random trait:§!\n$leader_trait_scholarium_investigator_tooltip$\n$leader_trait_scholarium_explorer_tooltip$\n$leader_trait_scholarium_observer_tooltip$"
+ scholarium_2_traits_desc: "§E$scientist_plural_with_icon$ gain one random trait:§!\n$leader_trait_scholarium_investigator_tooltip$\n$leader_trait_scholarium_explorer_tooltip$\n$leader_trait_scholarium_observer_tooltip$"
  scholarium_2_discovery: "Scholarium Discovery II"
  scholarium_2_discovery_desc: "§EPlanetary Sensors Reward:§!\n$t$Research Points in Caches: §G+1000§!"
  scholarium_3_modifier: "Scholarium Bonuses III"
@@ -1304,10 +1347,10 @@
  prospectorium_2_modifier_desc: "$mod_station_gatherers_cost_mult$: §G-25%§!\n$mod_country_energy_produces_mult$: §G+20%§!\n$mod_country_minerals_produces_mult$: §G+20%§!\n$mod_country_alloys_produces_mult$: §G+20%§!\nMonthly Strategic Resources: §G+20%§!"
  prospectorium_2_penalties: "Prospectorium Penalties II"
  prospectorium_2_penalties_desc: "Monthly Scientific Research: §R-40%§!"
- prospectorium_2_leaders: "Prospectorium Governors"
- prospectorium_2_leaders_desc: "§EGovernors in pool:§!\n$t$Leader Level: §G+1§!\n§ETransfer Leader:§!\n$t$Governors with a Prospectorium trait can be traded with the Overlord."
+ prospectorium_2_leaders: "Prospectorium Officials"
+ prospectorium_2_leaders_desc: "§ETransfer Leader:§!\n$t$$official_plural_with_icon$ with a Prospectorium trait can be traded with the Overlord."
  prospectorium_2_traits: "Prospectorium Traits"
- prospectorium_2_traits_desc: "§EGovernors gain one random trait:§!\n$leader_trait_prospectorium_extractor_tooltip$\n$leader_trait_prospectorium_optimizer_tooltip$\n$leader_trait_prospectorium_refiner_tooltip$"
+ prospectorium_2_traits_desc: "§E$official_plural_with_icon$ gain one random trait:§!\n$leader_trait_prospectorium_extractor_tooltip$\n$leader_trait_prospectorium_optimizer_tooltip$\n$leader_trait_prospectorium_refiner_tooltip$"
  prospectorium_2_mining_tech: "Prospectorium Mining Tech I"
  prospectorium_2_mining_tech_desc: "§EAdd to Researchable Technologies:§!\n$t$£engineering£ $tech_mine_rare_crystals$\n$t$£physics£ $tech_mine_volatile_motes$\n$t$£engineering£ $tech_mine_exotic_gases$"
  prospectorium_2_deposits: "Prospectorium Deposits II"
@@ -1335,8 +1378,9 @@
  preset_satellite_desc: "A Satellite is a Fallen Empire Subject type obligated to pay a significant research tax to their ancient Overlord."
  preset_signatory_desc: "A Signatory is a Fallen Empire Subject type with no independent diplomacy from their ancient Overlord."
  preset_thrall_desc: "A Thrall is a Fallen Empire Subject type obligated to pay a monthly basic resource tax to their ancient Overlord and with no ability to expand their borders."
- preset_scion_desc: "A Scion is a Fallen Empire Subject type supported and aided by their Ancient Overlord."
+ preset_scion_desc: "A Scion is a Subject type that was guided through their development by a Fallen Empire Overlord."
  preset_satrapy_desc: "A Satrapy is a Khan Subject type obligated to pay their warmongering Overlord both ships and basic resources."
+ preset_relic_satrapy_desc: "A Satrapy is a Subject type continuing the traditions of the Great Khan that is obligated to provide their Overlord with both ships and resources."
 
  # Subject presets flavor text
  preset_bulwark_flavor_desc: "This subject specializes in military affairs. They are known for their excellence in defensive matters, providing insight and protection for their overlord. In turn, their single-minded focus makes them highly reliant on material support to keep their empire running."
@@ -1352,6 +1396,8 @@
  preset_thrall_flavor_desc: "A thrall serves as a subject to an ancient awakened empire. Subjected to a harsh rule from afar, they pay a considerable amount of wealth to their ambitious overlord, who uses their vassals' wealth to fuel their own war machines."
  preset_scion_flavor_desc: "A scion serves as a subject to an ancient awakened empire. Long supported by an ancient philanthropic benefactor, they are autonomous in almost all aspects of their rule. They occasionally receive gifts or aid from their liege for reasons unfathomable to the rest of the galaxy."
  preset_satrapy_flavor_desc: "A satrapy serves as a subject to the Great Khan. Having bent to the military might of the marauders, they have been given the right to govern their region of the galaxy in the Great Khan's name. As long as they continue to support the marauders' ongoing conquests with ships and resources, they are left to attend to their own matters."
+ preset_relic_satrapy_flavor_desc: "A satrapy was the subject style favored by the Great Khan, now with a new leader on the throne it would be a waste to toss away such tradition. In return for supporting their Overlord's ongoing conquests with ships and resources, they are left to attend to their own matters."
+
 
  # Specialist subject fail texts.
  is_capital: "$TRIGGER_FAIL$§R$requires_capital_planet_desc$§!"
@@ -1384,13 +1430,23 @@
 
  # Policies
  policy_subjugation_war_terms: "Subjugation War Terms"
- policy_subjugation_war_terms_desc: "Our stance regarding the initial subject Agreement Terms of those we subjugate via war.\n"
- oppressive_terms_name: "Oppressive"
- balanced_terms_name: "Balanced"
- benevolent_terms_name: "Benevolent"
+ policy_subjugation_war_terms_desc: "Our stance regarding the initial Agreement Terms for Vassals or Subsidiaries we subjugate via war.\n"
+ oppressive_terms_name: "Oppressive Vassalage"
+ balanced_terms_name: "Balanced Vassalage"
+ benevolent_terms_name: "Benevolent Vassalage"
  oppressive_terms: "$oppressive_terms_name$"
- oppressive_terms_desc: "Those we subjugate are inferior to us, we tolerate them only because they remain silent and shower us with their pathetic gifts.\n\n§EInitial Agreement Terms:\n$t$$subject_can_be_integrated$\n$t$$subject_can_not_do_diplomacy$\n$t$$subject_cannot_expand$\n$t$Joins Overlord Wars: All\n$t$Joins Subject Wars: Defensive\n$t$Subject Holdings Limit: 1§!"
+ oppressive_terms_desc: "Those we subjugate are inferior to us, we tolerate them only because they remain silent and shower us with their pathetic gifts.\n\n§EInitial Vassal Agreement Terms:\n$t$$subject_can_be_integrated$\n$t$$subject_can_not_do_diplomacy$\n$t$$subject_cannot_expand$\n$t$Joins Overlord Wars: All\n$t$Joins Subject Wars: Defensive\n$t$Subject Holdings Limit: 1§!"
  balanced_terms: "$balanced_terms_name$"
- balanced_terms_desc: "We believe in treating our subjects fairly. Perhaps in time, they will see the wisdom of our ways and the errors of theirs.\n\n§EInitial Agreement Terms:\n$t$$subject_can_not_be_integrated$\n$t$$subject_can_do_diplomacy_but_not_vote$\n$t$$subject_can_expand_with_tithe$\n$t$Joins Overlord Wars: Defensive\n$t$Joins Subject Wars: Defensive\n$t$Subject Holdings Limit: 1§!"
+ balanced_terms_desc: "We believe in treating our subjects fairly. Perhaps in time, they will see the wisdom of our ways and the errors of theirs.\n\n§EInitial Vassal Agreement Terms:\n$t$$subject_can_not_be_integrated$\n$t$$subject_can_do_diplomacy_but_not_vote$\n$t$$subject_can_expand_with_tithe$\n$t$Joins Overlord Wars: Defensive\n$t$Joins Subject Wars: Defensive\n$t$Subject Holdings Limit: 1§!"
  benevolent_terms: "$benevolent_terms_name$"
- benevolent_terms_desc: "Our subjects are as much part of us as we are of them, their success is our victory, and we shall move forward as one.\n\n§EInitial Agreement Terms:\n$t$$subject_can_not_be_integrated$\n$t$$subject_can_do_diplomacy$\n$t$$subject_can_expand$\n$t$Joins Overlord Wars: Defensive\n$t$Joins Subject Wars: Defensive\n$t$Subject Holdings Limit: 1§!"
+ benevolent_terms_desc: "Our subjects are as much part of us as we are of them, their success is our victory, and we shall move forward as one.\n\n§EInitial Vassal Agreement Terms:\n$t$$subject_can_not_be_integrated$\n$t$$subject_can_do_diplomacy$\n$t$$subject_can_expand$\n$t$Joins Overlord Wars: Defensive\n$t$Joins Subject Wars: Defensive\n$t$Subject Holdings Limit: 1§!"
+
+ oppressive_corporate_terms_name: "Hostile Takeover"
+ oppressive_corporate_terms: "$oppressive_corporate_terms_name$"
+ oppressive_corporate_terms_desc: "The pathetic attempt to block this acquisition has failed; no matter their convictions, in the end, everyone has a price.\n\n§EInitial Subsidiary Agreement Terms:\n$t$$subject_can_not_be_integrated$\n$t$$subject_can_do_diplomacy_but_not_vote$\n$t$$subject_can_expand_with_tithe$\n$t$Basic Resource Taxes: 45%\n$t$Advanced Resource Taxes: 15%\n$t$Joins Overlord Wars: All\n$t$Joins Subject Wars: Defensive\n$t$Subject Holdings Limit: 1§!\n\nThis is an §YOppressive Subjugation Policy§!."
+ balanced_corporate_terms_name: "Standard Acquisition"
+ balanced_corporate_terms: "$balanced_corporate_terms_name$"
+ balanced_corporate_terms_desc: "With a satisfactory deal in place, both parties can now get back to work.\n\n§EInitial Subsidiary Agreement Terms:\n$t$$subject_can_not_be_integrated$\n$t$$subject_can_do_diplomacy_but_not_vote$\n$t$$subject_can_expand_with_tithe$\n$t$Basic Resource Taxes: 30%\n$t$Joins Overlord Wars: Defensive\n$t$Joins Subject Wars: Defensive\n$t$Subject Holdings Limit: 1§!\n\nThis is a §YBalanced Subjugation Policy§!."
+ benevolent_corporate_terms_name: "Negotiated Synergy"
+ benevolent_corporate_terms: "$benevolent_corporate_terms_name$"
+ benevolent_corporate_terms_desc: "The best deals benefit both parties; like life itself, business flourishes in harmony.\n\n§EInitial Subsidiary Agreement Terms:\n$t$$subject_can_not_be_integrated$\n$t$$subject_can_do_diplomacy$\n$t$$subject_can_expand$\n$t$Basic Resource Taxes: 30%\n$t$Joins Overlord Wars: Defensive\n$t$Joins Subject Wars: Defensive\n$t$Subject Holdings Limit: 1§!\n\nThis is a §YBenevolent Subjugation Policy§!."

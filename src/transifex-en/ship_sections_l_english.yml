@@ -60,7 +60,7 @@
  ####################################
  # Corvette
  ####################################
- CORVETTE_MID_M1S1: "Missile Boat"
+ CORVETTE_MID_M1S1: "Torpedo Boat"
  CORVETTE_MID_S3: "Interceptor"
  CORVETTE_MID_S1: "Shifter Core"
  CORVETTE_MID_S2PD1: "Picket Ship"
@@ -69,12 +69,12 @@
  # Cruiser
  ####################################
  CRUISER_BOW_L1: "Artillery Bow"
- CRUISER_BOW_M1S2: "Missile Bow"
+ CRUISER_BOW_M1S2: "Torpedo Bow"
  CRUISER_BOW_M2: "Broadside Bow"
  CRUISER_MID_S2HB: "Hangar Core"
  CRUISER_MID_L1M1: "Artillery Core"
  CRUISER_MID_M3: "Broadside Core"
- CRUISER_MID_M2S2: "Missile Core"
+ CRUISER_MID_M2S2: "Torpedo Core"
  CRUISER_STERN_M1: "Broadside Stern"
  CRUISER_STERN_S2: "Gunship Stern"
 
@@ -113,7 +113,7 @@
  ####################################
  # Other
  ####################################
- MISSILE_DEFAULT: "Missile Section"
+ MISSILE_DEFAULT: "Torpedo Section"
  DEFAULT_CONSTRUCTION_SECTION: "Construction Ship"
  DEFAULT_COLONIZATION_SECTION: "Colony Ship"
  DEFAULT_SCIENCESHIP_SECTION: "Science Ship"
@@ -125,3 +125,5 @@
  DEFAULT_TRANSPORT_SECTION: "Transport Ship"
  SHIP_COLOSSUS_SECTION: "Colossus"
  GHOST_SHIP_SECTION: "Ghost Ship Frame"
+ lost_swarm_adult: "Locust"
+ lost_swarm_adult_plural: "Locusts"

@@ -105,7 +105,7 @@
  subject.1005.title: "A Direction for War"
  subject.1005.desc: "As they were allowed to continue unabated, the movement demanding a more warlike agenda from our government has only increased in strength the last month. When the conflict between our leadership and the movement came to a head, our [Root.GetRulerTitle] [Root.GetRulerName] publicly embraced the movement.\n\nAs it has become clear that we not only support it, but are ready to follow the many demands handed over to us, the large group of followers are eagerly awaiting what we will do next."
  subject.1005.a: "We will find a position for their old leader."
- subject.1005.a.tt: "An §YAdmiral§! will be recruited."
+ subject.1005.a.tt: "A §YCommander§! will be recruited."
  subject.1005.b: "It is time to embrace our empire's military tendencies."
  subject.1005.c: "Our resources will be spent on restoring our ships to their former glory."
 
@@ -155,20 +155,20 @@
  specialist_overlord_war_exhaustion_robot_modifier: "$specialist_overlord_war_exhaustion_modifier$"
  specialist_overlord_war_exhaustion_robot_modifier_desc: "$specialist_overlord_war_exhaustion_robot_modifier$"
 
- ## Event Chain - Rival Admirals
- subject.1102.title: "The Bickering Admirals"
- subject.1102.desc: "We have seen a rise in disagreements and arguing between some of our admirals and leaders. If [admiral_democracy.GetName] thinks we should go through with something, you can be sure that [admiral_oligarchy.GetName] will argue that we should do the opposite.\n\nAt first it seemed to only be a good-natured rivalry between equals, but lately it has become ever more toxic and hostile, and we are starting to see their peers taking sides as well."
+ ## Event Chain - Rival Commanders
+ subject.1102.title: "The Bickering Commanders"
+ subject.1102.desc: "We have seen a rise in disagreements and arguing between some of our commanders and leaders. If [admiral_democracy.GetName] thinks we should go through with something, you can be sure that [admiral_oligarchy.GetName] will argue that we should do the opposite.\n\nAt first it seemed to only be a good-natured rivalry between equals, but lately it has become ever more toxic and hostile, and we are starting to see their peers taking sides as well."
  subject.1102.a: "We will end this bickering, one way or another."
  subject.1102.b: "They will figure it out, in time."
 
  subject.1105.title: "A Split Admiralty"
- subject.1105.desc_democracy: "No longer is it a simple case of disagreeing, as the whole admiralty have reached a point of outright hostility to one another. What was at first two admirals arguing has now split the whole office in two, and there is no longer anyone trying to broker peace between them.\n\nIn addition to splitting the admiralty, they have now also split into two clearly defined political groups, one supporting our current democratic leadership, and one that thinks the admiralty should have a stronger political role in our government."
- subject.1105.desc_oligarchy: "No longer is it a simple case of disagreeing, as the whole admiralty have reached a point of outright hostility to one another. What at first were two admirals arguing has now split the whole office in two, and there is no longer anyone trying to broker peace between them.\n\nIn addition to splitting the admiralty, they have now also split into two clearly defined political groups, one supporting our current leadership, and one that thinks the general populace should have a larger role to play in our government."
- subject.1105.desc_neither: "No longer is it a simple case of disagreeing, as the whole admiralty have reached a point of outright hostility to one another. What at first were two admirals arguing has now split the whole office in two, and there is no longer anyone trying to broker peace between them.\n\nIn addition to splitting the admiralty, they have now also split into two clearly defined political groups, one who believes the admiralty should play a strong role in our government, and one that thinks the general populace should be given more political power."
+ subject.1105.desc_democracy: "No longer is it a simple case of disagreeing, as the whole admiralty have reached a point of outright hostility to one another. What was at first two commanders arguing has now split the whole office in two, and there is no longer anyone trying to broker peace between them.\n\nIn addition to splitting the admiralty, they have now also split into two clearly defined political groups, one supporting our current democratic leadership, and one that thinks the admiralty should have a stronger political role in our government."
+ subject.1105.desc_oligarchy: "No longer is it a simple case of disagreeing, as the whole admiralty have reached a point of outright hostility to one another. What at first were two commanders arguing has now split the whole office in two, and there is no longer anyone trying to broker peace between them.\n\nIn addition to splitting the admiralty, they have now also split into two clearly defined political groups, one supporting our current leadership, and one that thinks the general populace should have a larger role to play in our government."
+ subject.1105.desc_neither: "No longer is it a simple case of disagreeing, as the whole admiralty have reached a point of outright hostility to one another. What at first were two commanders arguing has now split the whole office in two, and there is no longer anyone trying to broker peace between them.\n\nIn addition to splitting the admiralty, they have now also split into two clearly defined political groups, one who believes the admiralty should play a strong role in our government, and one that thinks the general populace should be given more political power."
  subject.1105.a: "How long will they keep this nonsense going?"
 
- subject.1107.title: "The Bickering Admirals"
- subject.1107.desc: "We have received news that our vassal, [subject_empire.GetName], seems to have an internal struggle going on right now, with their admiralty in shambles after two admirals have ended up embroiled in a conflict.\n\nWith their leadership scrambling to get everything under control, we are unsure how reliable an ally and vassal they can be, as the two sides backing the rival admirals are continuously vying for power."
+ subject.1107.title: "The Bickering Commanders"
+ subject.1107.desc: "We have received news that our vassal, [subject_empire.GetName], seems to have an internal struggle going on right now, with their admiralty in shambles after two commanders have ended up embroiled in a conflict.\n\nWith their leadership scrambling to get everything under control, we are unsure how reliable an ally and vassal they can be, as the two sides backing the rival commanders are continuously vying for power."
  subject.1107.a: "Let us step in before it gets worse."
  subject.1107.b: "It's not our job to fix their internal affairs."
 
@@ -195,7 +195,7 @@
  subject.1125.b: "The oligarchs are right, move the funding to the military."
 
  subject.1130.title: "Violence in the Streets"
- subject.1130.desc: "After a particularly bloody protest close to the offices of the oligarchic faction, several members of both factions have been brought into question. As expected, both sides have incredibly different stories, mostly blaming their rivals for everything that went down.\n\nNot only do they want us to choose a side, but both sides are willing to step in and make sure that it is worth our time."
+ subject.1130.desc: "After a particularly violent protest close to the offices of the oligarchic faction, several members of both factions have been brought into question. As expected, both sides have incredibly different stories, mostly blaming their rivals for everything that went down.\n\nNot only do they want us to choose a side, but both sides are willing to step in and make sure that it is worth our time."
  subject.1130.a: "The populists have the right of it."
  subject.1130.b: "Clearly, the oligarchs were innocent in this attack."
 
@@ -227,8 +227,8 @@
  overlord_admiralty_democratic_victory: "After the conflict came to a head in the admiralty itself, it seems the democratic faction has beaten back their opponents, as they take control of many of our central faculties."
  overlord_admiralty_oligarchic_victory: "After the conflict came to a head in the admiralty itself, it seems the oligarchic faction has taken the victory in the brewing conflict, as a widespread announcement is shared across all our colonies."
 
- overlord_admiralty_democratic_killed_opponents: "With everything under their control, the democratic admirals bring their old rivals through a short mock prosecution, before they are publicly executed as traitors to our empire."
- overlord_admiralty_democratic_released_opponents: "With everything under their control, the democratic admirals bring their old rivals through a short mock prosecution, but most of them are released after receiving strict fines."
+ overlord_admiralty_democratic_killed_opponents: "With everything under their control, the democratic commanders bring their old rivals through a short mock prosecution, before they are publicly executed as traitors to our empire."
+ overlord_admiralty_democratic_released_opponents: "With everything under their control, the democratic commanders bring their old rivals through a short mock prosecution, but most of them are released after receiving strict fines."
  overlord_admiralty_democratic_separatists: "Though everything is under democratic control, their old rivals disappeared in the chaos. It does not take long before we receive reports of a growing separatist movement around many of the old members of the admiralty."
 
  overlord_admiralty_oligarchic_killed_opponents: "After making their public announcement, it is followed by a speech denouncing their rivals as rabble-rousers, populists, and traitors. The strongest democratic elements are quickly put to death, with the rest disappearing from public view."
@@ -346,7 +346,7 @@
 
  ## Event Chain - Experiments!
  subject.2105.title: "Experimental Research"
- subject.2105.desc: "Our research efforts grow ever more important in light of the continuous stream of demands from [overlord_empire.GetName]. Many of our scientist struggle with this pressure, but we see glimmers of genius and the occasional amazing breakthrough.\n\nThe latest of these might come from [targeted_scientist.GetName], who has designed a set of daring experiments for one of our departments to undertake. The only problem being that experiments on live [Root.GetSpeciesNamePlural] are part of every single one of their proposals."
+ subject.2105.desc: "Our research efforts grow ever more important in light of the continuous stream of demands from the [overlord_empire.GetName]. Many of our scientists struggle with this pressure, but we see glimmers of genius and the occasional amazing breakthrough.\n\nThe latest of these might come from [targeted_scientist.GetName], who has designed a set of daring experiments for one of our departments to undertake. The only problem being that experiments on live [Root.GetSpeciesNamePlural] are part of every single one of their proposals."
  subject.2105.desc_gestalt: "We have received yet more demands from the [overlord_empire.GetName], as they want us to improve our research output. Several calculations have been run to figure out how we could live up to our overlord's expectations, and we believe we have found a way to adjust our processes to enable us to do so.\n\nTo go through with it however, we would have to conduct several experiments on our drones and our shared neural network. There will be a significant risk involved."
  subject.2105.a: "We wll sponsor it." # Non-Gestalt yes
  subject.2105.b: "Shut it down." # Non-Gestalt no

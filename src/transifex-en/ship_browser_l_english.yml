@@ -7,6 +7,7 @@
  SHIP_GRAPHICS_ZOOM_OUT_TOOLTIP: "Use §GMouse Scroll Wheel Backward§! to zoom out."
  SHIP_GRAPHICS_ROTATE_TOOLTIP: "Hold and drag §GRight Mouse Button§! on the ship model to rotate."
  SHIP_GRAPHICS_CORVETTE_DESC: "Corvettes are the first military ship class available for empires. They are fast, nimble and cheap."
+ SHIP_GRAPHICS_FRIGATE_DESC: "Frigates are an advanced variant of the Corvette that specialize torpedo delivery. They may be slower and more vulnerable, but can be devastating against large targets."
  SHIP_GRAPHICS_DESTROYER_DESC: "Destroyers trade the agility and speed of a Corvette for more firepower and a thicker hull."
  SHIP_GRAPHICS_CRUISER_DESC: "Cruisers are versatile and durable, capable of both soaking up and delivering damage."
  SHIP_GRAPHICS_BATTLESHIP_DESC: "Battleships are expensive but powerful. With their great firing range, they excel at injuring an opponent before they can strike back."

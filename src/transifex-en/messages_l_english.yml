@@ -10,7 +10,7 @@
  MESSAGE_CONSTRUCTION_FINISH_STARBASE: "The $SYSTEM|Y$ Starbase has finished its construction queue."
  MESSAGE_ORDER_FINISH_COLONIZE_PLANET: "We have established the colony $COLONY|Y$ in the $SYSTEM|Y$ system."
  MESSAGE_SPACEPORT_CONSTRUCTION_MESSAGE_TYPE_TITLE: "Construction Complete"
- MESSAGE_STARBASE_CONSTRUCTION_MESSAGE_TYPE_TITLE: "Construction Complete"
+ MESSAGE_STARBASE_CONSTRUCTION_MESSAGE_TYPE_TITLE: "Starbase Construction Complete"
  MESSAGE_ARMY_RECRUITMENT_TITLE: "Army Recruitment Finished"
  MESSAGE_ARMY_RECRUITMENT: "Recruitment of armies has been completed on $PLANET|Y$."
  MESSAGE_POP_CONSTRUCTION_MESSAGE_TYPE_TITLE: "$MESSAGE_CONSTRUCTION_MESSAGE_TYPE_TITLE$"
@@ -19,18 +19,22 @@
  ####################################
  # Fleet Orders
  ####################################
- MESSAGE_FLEET_ORDER_FINISH_BUILD_ORBITAL_STATION: "§H$FLEET$§! completed the construction of a $SHIPCLASS|Y$ in orbit of $PLANET|Y$."
- MESSAGE_FLEET_ORDER_ANOMALY: "§H$FLEET$§! has found an §HAnomaly§! on $PLANET|Y$."
- MESSAGE_FLEET_ORDER_FINISH_BUILD_SPACE_STATION: "§H$FLEET$§! completed the construction of a $SHIPCLASS|Y$ in $STAR|Y$."
- MESSAGE_FLEET_ORDER_ANALYZE_FAIL: "§H$FLEET$§! has failed to analyze the FTL trail."
- MESSAGE_FLEET_ORDER_ANALYZE_FINISH: "§H$FLEET$§! has analyzed the FTL trail."
+ MESSAGE_FLEET_ORDER_FINISH_BUILD_ORBITAL_STATION: "§Y$FLEET$§! completed the construction of a $SHIPCLASS|H$ in orbit of $PLANET|Y$."
+ MESSAGE_FLEET_ORDER_ANOMALY: "§Y$FLEET$§! has found an §HAnomaly§! on $PLANET|Y$."
+ MESSAGE_FLEET_ORDER_FINISH_BUILD_SPACE_STATION: "§Y$FLEET$§! completed the construction of a $SHIPCLASS|Y$ in $STAR|Y$."
+ MESSAGE_FLEET_ORDER_ANALYZE_FAIL: "§Y$FLEET$§! has failed to analyze the FTL trail."
+ MESSAGE_FLEET_ORDER_ANALYZE_FINISH: "§Y$FLEET$§! has analyzed the FTL trail."
  MESSAGE_FLEET_SYSTEM_FULLY_SURVEYED: "The $SYSTEM|Y$ system has been fully surveyed."
  MESSAGE_FLEET_ORDER_FINISH_MESSAGE_TYPE_TITLE: "Fleet Order Finished"
- MESSAGE_SYSTEM_SURVEYED_TITLE: "System surveyed"
+ MESSAGE_SYSTEM_SURVEYED_TITLE: "System Surveyed"
  AUTO_EXPLORE_CANCELED_MESSAGE_TYPE_TITLE: "Fleet Order Canceled"
- MESSAGE_FLEET_ORDER_AUTO_EXPLORE_CANCELED: "§H$FLEET$§! canceled its Auto Surveying order. It cannot reach or find any other unsurveyed systems."
+ AUTO_EXPLORE_CANCELED_MESSAGE_TYPE_KEY: "$AUTO_EXPLORE_CANCELED_MESSAGE_TYPE_TITLE$ (Auto-Exploration)"
+ MESSAGE_FLEET_ORDER_AUTO_EXPLORE_CANCELED: "§Y$FLEET$§! canceled its Science Ship Automation order. It cannot reach or find any other tasks to execute."
+ AUTO_EXPLORE_FALLBACK_MESSAGE_TYPE_TITLE: "Fleet Falling Back to Exploration"
+ MESSAGE_FLEET_ORDER_AUTO_EXPLORE_FALLBACK: "§Y$FLEET$§! cannot reach any unsurveyed systems but will try to explore to find additional ones."
  FLEET_BUILD_ORDER_CANCELED_MESSAGE_TYPE_TITLE: "$AUTO_EXPLORE_CANCELED_MESSAGE_TYPE_TITLE$"
- MESSAGE_FLEET_BUILD_ORDER_CANCELED_MESSAGE: "$FLEET|H$ was unable to build a $STATION|H$ in $SYSTEM|H$. Resources have been refunded."
+ FLEET_BUILD_ORDER_CANCELED_MESSAGE_TYPE_KEY: "$FLEET_BUILD_ORDER_CANCELED_MESSAGE_TYPE_TITLE$ (Construction)"
+ MESSAGE_FLEET_BUILD_ORDER_CANCELED_MESSAGE: "$FLEET|Y$ was unable to build a $STATION|H$ in $SYSTEM|Y$. Resources have been refunded."
  MESSAGE_BYPASS_EXPLORED: "Wormhole Explored"
  BYPASS_EXPLORED_MESSAGE: "The Wormhole in $SYSTEM1|Y$ has been explored. It connects to the $SYSTEM2|Y$ system."
  MESSAGE_ESN_ARRIVED_TITLE: "Experimental Subspace Navigation"
@@ -70,13 +74,15 @@
  ACTION_FORM_FEDERATION_VOTE_PASSED: "The §H[Actor.GetAllianceName]§! voted to form a Federation."
  ACTION_FORM_FEDERATION_VOTE_FAILED: "The vote to form a federation failed."
  ACTION_RELEASE_SUBJECT_PASSED: "§H[Actor.GetName]§! has released us from being a Subject."
- ACTION_OFFER_PEACE_VOTE_PASSED: "The §H[Actor.GetAllianceName]§! voted to accept sigining peace offer with §H[Recipient.GetName]§!."
- ACTION_OFFER_PEACE_VOTE_FAILED: "The §H[Actor.GetAllianceName]§! voted to reject sigining peace offer with §H[Recipient.GetName]§!."
+ ACTION_OFFER_PEACE_VOTE_PASSED: "The §H[Actor.GetAllianceName]§! voted to accept signing a peace offer with §H[Recipient.GetName]§!."
+ ACTION_OFFER_PEACE_VOTE_FAILED: "The §H[Actor.GetAllianceName]§! voted to reject signing a peace offer with §H[Recipient.GetName]§!."
 
  MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE_TITLE: "Trade Deal Ended, We Lack Resources"
  MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE_THEM_TITLE: "Trade Deal Ended, They Lack Resources"
  MESSAGE_TRADE_DEAL_END_CANCELLED_ACTION_TITLE: "Trade Deal Ended, Trade Action Not Valid"
+ TRADE_DEAL_END_CANCELLED_ACTION_KEY: "Trade Deal Ended, Invalid for Our Empire"
  MESSAGE_TRADE_DEAL_END_CANCELLED_ACTION_THEM_TITLE: "Trade Deal Ended, Trade Action Not Valid"
+ TRADE_DEAL_END_CANCELLED_ACTION_THEM_KEY: "Trade Deal Ended, Invalid for Other Empire"
  MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS_TITLE: "Trade Deal Ended, We closed our borders"
  MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS_THEM_TITLE: "Trade Deal Ended, They closed their borders"
  MESSAGE_TRADE_DEAL_END_GUARANTEE_ALLIANCE_TITLE: "Trade Deal Ended, We Entered An Alliance"
@@ -198,6 +204,12 @@
  MESSAGE_BREAK_SUPPORT_TITLE: "Support Revoked"
  MESSAGE_OPEN_BORDERS_TITLE: "Borders Opened"
  MESSAGE_CLOSE_BORDERS_TITLE: "Borders Closed"
+ MESSAGE_FORM_SOCIETAL_ENLIGHTENMENT_PACT_TITLE: "Societal Enlightenment Invitation"
+ MESSAGE_BREAK_SOCIETAL_ENLIGHTENMENT_PACT_TITLE: "Societal Enlightenment Ended"
+ MESSAGE_FORM_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_PACT_TITLE: "Technological Enlightenment Invitation"
+ MESSAGE_BREAK_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_PACT_TITLE: "Technological Enlightenment Ended"
+ MESSAGE_FORM_PRE_FTL_TRADE_PACT_TITLE: "Commercial Agreement Invitation"
+ MESSAGE_BREAK_PRE_FTL_TRADE_PACT_TITLE: "Commercial Agreement Ended"
 
  ACTION_MAKE_RIVAL_NOTIFICATION: "§H[From.GetName]§! has declared §H[Root.GetName]§! their §H$RIVAL$§!.\n\nThis will significantly worsen their diplomatic relations."
  ACTION_END_RIVALRY_NOTIFICATION: "§H[From.GetName]§! has ended their $RIVALRY$ with §H[Root.GetName]§!.\n\nThey may be on the path towards reconciliation."
@@ -220,6 +232,8 @@
  ACTION_INSULT_NOTIFICATION: "§H[From.GetName]§! insulted §H[Root.GetName]§!.\n\nIt seems that conflict is brewing..."
  ACTION_INTEGRATE_SUBJECT_NOTIFICATION: "§H[From.GetName]§! started to integrate §H[Root.GetName]§!.\n\nSoon, the last vestiges of [Root.GetAdj] independence will be stripped away."
  ACTION_CANCEL_SUBJECT_INTEGRATION_NOTIFICATION: "§H[From.GetName]§! stopped integrating §H[Root.GetName]§!.\n\nIt appears that [Root.GetSpeciesNamePlural] may be more trouble than they're worth."
+ MESSAGE_TYPE_RELICS_GAINED_INTEGRATION_TITLE: "Relics gained from Integration"
+ MESSAGE_RELICS_GAINED_INTEGRATION: "We have gained all the relics that §H[From.GetName]§! possessed after integrating them."
  ACTION_FORM_DEFENSIVE_PACT_NOTIFICATION: "§H[From.GetName]§! entered into a Defensive Pact with §H[Root.GetName]§!.\n\nThey will now defend each other against all foes."
  ACTION_BREAK_DEFENSIVE_PACT_NOTIFICATION: "§H[From.GetName]§! broke off their Defensive Pact with §H[Root.GetName]§!.\n\nIt seems they believe themselves better off alone."
  ACTION_FORM_NON_AGGRESSION_PACT_NOTIFICATION: "§H[From.GetName]§! entered into a Non-Aggression Pact with §H[Root.GetName]§!.\n\nWe shall see if this peace will last."
@@ -256,19 +270,21 @@
  ####################################
  # War
  ####################################
- SURRENDER_OUR_SIDE: "Our warleader has surrendered unconditionally, cease fire has been established. The enemy has up to six months to place their demands."
- SURRENDER_THEIR_SIDE: "Their warleader has surrendered unconditionally, cease fire has been established. We now have six months to decide our demands."
+ SURRENDER_OUR_SIDE: "Our war leader has surrendered unconditionally, cease fire has been established. The enemy has up to six months to place their demands."
+ SURRENDER_THEIR_SIDE: "Their war leader has surrendered unconditionally, cease fire has been established. We now have six months to decide our demands."
  WAR_END_VICTORY: "We have Won this war"
  WAR_END_DEFEAT: "We have Lost this war"
  WAR_END_STATUS_QUO: "The war has ended with a Status Quo"
  MESSAGE_OUR_SURRENDER_TITLE: "We Surrender"
  MESSAGE_THEIR_SURRENDER_TITLE: "They Surrender"
  MESSAGE_VICTORY_TITLE: "§GVictory§!"
+ VICTORY_KEY: "Victory"
  MESSAGE_DEFEAT_TITLE: "§RDefeat§!"
+ DEFEAT_KEY: "Defeat"
  MESSAGE_ALLIED_ENTERED_WAR: "The $ATTACKER|Y$ has declared war on our ally, the $CALLER|Y$.\n\nConsequently, we are now §Yat war§! with the $ATTACKER|Y$!"
  MESSAGE_GUARANTEED_ENTERED_WAR: "Guaranteed is under attack"
  MESSAGE_GUARANTEER_ENTERED_WAR_DESC: "The $ATTACKER|Y$ has declared war on $CALLER|Y$, whose independence we have guaranteed.\n\nConsequently, we are now §Yat war§! with the $ATTACKER|Y$!"
- MESSAGE_GUARANTEER_ENTERED_WAR_TITLE: "Guaranteer Entered War"
+ MESSAGE_GUARANTEER_ENTERED_WAR_TITLE: "Guarantor Entered War"
  MESSAGE_ALLIED_ENTERED_WAR_TITLE: "Ally Entered War"
  MESSAGE_OVERLORD_ENTERED_WAR_TITLE: "Overlord Entered War"
  MESSAGE_OVERLORD_ENTERED_WAR_DESC: "The $ATTACKER|Y$ has declared war on our Overlord, the $CALLER|Y$.\n\nConsequently, we are now §Yat war§! with the $ATTACKER|Y$!"
@@ -293,7 +309,8 @@
  MESSAGE_ENEMY_VASSAL_ENTER_WAR_DESC: "$ENEMY|Y$, the subject of one of our enemies has entered the war against us."
  MESSAGE_ENEMY_LEAVES_WAR: "Enemy Leaves War"
  MESSAGE_ENEMY_LEAVES_WAR_DESC: "$ENEMY|Y$ has left the war due to being subjugated or annexed by $OVERLORD|Y$."
-
+ TOAST_TRUCE_IS_OVER_TITLE: "Truce Expired"
+ TOAST_TRUCE_IS_OVER_DESC: "Our truce with the §Y$ENEMY$§! is over."
  ####################################
  # Fleet Detected
  ####################################
@@ -312,27 +329,33 @@
  ####################################
  # Leaders
  ####################################
- FLEET_LEADER_DEATH: "$CLASS|Y$ $LEADER|Y$ died when the $SHIP|Y$ was destroyed."
- ARMY_LEADER_DEATH: "Our $CLASS|Y$, $LEADER|Y$ has died while commanding $ARMY|Y$."
- PLANET_LEADER_DEATH: "Our $CLASS|Y$, $LEADER|Y$ has died on $PLANET|Y$."
- COUNTRY_LEADER_DEATH: "Our $CLASS|Y$, $LEADER|Y$ has died!"
- HEIR_DEATH: "Our §Y$HEIR$§!, $HEIRNAME|Y$ has died!"
- RULER_ELECTED: "A new Ruler has been elected! $TITLE$ $LEADER|Y$ will rule until the next election, which will take place $TIME|Y$."
+ FLEET_LEADER_DEATH: "$CLASS|H$ $LEADER|Y$ died when the $SHIP|Y$ was destroyed."
+ ALIVE_FLEET_LEADER_DEATH: "$CLASS|H$ $LEADER|Y$ died while operating the $SHIP|Y$."
+ ARMY_LEADER_DEATH: "Our $CLASS|H$, $LEADER|Y$ has died while commanding $ARMY|Y$."
+ PLANET_LEADER_DEATH: "Our $CLASS|H$, $LEADER|Y$ has died on $PLANET|Y$."
+ COUNTRY_LEADER_DEATH: "Our $CLASS|H$, $LEADER|Y$ has died!"
+ SYSTEM_LEADER_DEATH: "Our $CLASS|H$, $LEADER|Y$ has died in system $SYSTEM|Y$"
+ SPY_LEADER_DEATH: "Our $CLASS|H$, $LEADER|Y$ has died while in $TARGET|Y$."
+ HEIR_DEATH: "Our §H$HEIR$§!, $HEIRNAME|Y$ has died!"
+ RULER_ELECTED: "A new Ruler has been elected! $TITLE$ $LEADER|Y$ will rule until the next election, which will take place on $TIME|Y$."
  RULER_ELECTED_UNTIL_DEATH: "$TITLE$ $LEADER|Y$ has been chosen as the new Ruler, and will reign until their death."
  RULER_ELECTED_HEIR: "As per the order of succession, $TITLE$ $LEADER|Y$ is the new Ruler."
  MESSAGE_LEADER_DEATH_TITLE: "Leader Died"
+ MESSAGE_LEADER_RETIRED_TITLE: "Leader Retired"
  MESSAGE_RULER_ELECTED_TITLE: "Ruler Elected"
- MESSAGE_RULER_ELECTED_UNTIL_DEATH_TITLE: "Ruler Elected"
+ MESSAGE_RULER_ELECTED_UNTIL_DEATH_TITLE: "Ruler Elected Until Death"
  MESSAGE_RULER_ELECTED_HEIR_TITLE: "Reign Succeeded"
  MESSAGE_ELECTION_MESSAGE_TYPE_TITLE: "Election"
  MESSAGE_DEMOCRATIC_ELECTION_DESC: "The campaigning to elect a new $TITLE$ is under way.\nThe result will be announced on $DATE|Y$."
  MESSAGE_OLIGARCHIC_ELECTION_DESC: "The negotiations for appointing a new $TITLE$ are under way.\nThe decision will be announced on $DATE|Y$."
  ELECTION_CLICK_FOR_MORE_INFO: "Click for more info"
  LEADER_DEATH_AGE: "$CLASS|Y$ $LEADER|Y$ has died at the age of $AGE|Y$."
+ LEADER_RETIRED_DESC: "$CLASS|Y$ $LEADER|Y$ has retired at the age of $AGE|Y$."
  TOOLTIP_KILL_LEADER: "$CLASS|Y$ $LEADER|Y$ §Rdies§!"
+ TOOLTIP_FIRE_LEADER: "$CLASS|Y$ $LEADER|Y$ §Ris fired§!"
  MESSAGE_LEADER_EXPERIENCE_TITLE: "A Leader has Gained Experience"
  LEADER_EXPERIENCE_NOTIFICATION_DESC: "§T$CLASS|Y$ $LEADER|Y$ gained experience from combat\n\n$STATS$§!"
- MESSAGE_LEADER_LEVEL_UP_TITLE: "A Leader has Gained a Level"
+ MESSAGE_LEADER_LEVEL_UP_TITLE: "Leader Level Up"
  LEADER_LEVEL_UP_DESC: "$CLASS|Y$ $LEADER|Y$ has leveled up\n\nSkill: $LEVEL|Y$\n"
  LEADER_LEVEL_UP_NEXT_LEVEL_DESC: "$CLASS|Y$ $LEADER|Y$ has leveled up\n\nSkill: $LEVEL|Y$\nExperience needed for next Level: $EXP|Y0$"
 
@@ -343,8 +366,17 @@
  LEADER_GENERAL_BASE_EXPERIENCE: "§TGround Engagement: $VAL|0H$ experience§!"
  LEADER_GENERAL_HOSTILE_KILLED_EXPERIENCE: "§THostile Forces Destroyed: $VAL|0H$ experience§!"
  LEADER_GENERAL_FRIENDLY_LOST_EXPERIENCE: "§TFriendly Forces Lost: $VAL|0H$ experience§!"
+
+ LEADER_COMMANDER_BASE_EXPERIENCE: "§TEngagement: $VAL|0H$ experience§!"
+ LEADER_COMMANDER_HOSTILE_KILLED_EXPERIENCE: "§THostile Forces Destroyed: $VAL|0H$ experience§!"
+ LEADER_COMMANDER_FRIENDLY_LOST_EXPERIENCE: "§TFriendly Forces Lost: $VAL|0H$ experience§!"
+
  MESSAGE_NEW_HEIR_TITLE: "§HNew Heir§!"
+ NEW_HEIR_KEY: "New Heir"
  NEW_HEIR_TEXT: "§Y$HEIR$§! is the new heir to our Empire and will take the throne when our current ruler dies."
+ MESSAGE_LEADER_POOL_REFRESHED_MESSAGE_TYPE_TITLE: "Leader Pool Refreshed"
+ LEADER_POOL_REFRESHED_TITLE: "Your Empire Leader Pool has been refreshed, you have new Leaders that you can recruit."
+ LEADER_POOL_REFRESHED_INSTRUCTION: "Click to open the Leaders View"
 
  ####################################
  # Technology
@@ -359,6 +391,13 @@
  MESSAGE_DEBRIS_ANALYZED_FINISH_BONUS: "£$AREA_KEY$£ §Y$AREA$ Research§!: §G+$VAL|0$§! points"
  MESSAGE_DEBRIS_ANALYZED_FINISH_TECH_PROGRESS: "$TECH|Y$: §G+$VAL|%0$§! progress"
  MESSAGE_DEBRIS_ANALYZED_FINISH_MESSAGE_TYPE_TITLE: "Debris Analyzed"
+
+ MESSAGE_DEBRIS_SCAVENGED_FINISH: "We have finished scavenging the debris in $SYSTEM|Y$."
+ MESSAGE_DEBRIS_SCAVENGED_FINISH_RESOURCE: "£$RESOURCE_KEY$£ §Y$NAME$§!: §G+$VAL$§!"
+ MESSAGE_DEBRIS_SCAVENGED_FINISH_MESSAGE_TYPE_TITLE: "Debris Scavenged"
+
+ MESSAGE_DEBRIS_SCAVENGED_AND_ANALYZED_FINISH: "We have finished scavenging and analyzing the debris in $SYSTEM|Y$."
+ MESSAGE_DEBRIS_SCAVENGED_AND_ANALYZED_FINISH_MESSAGE_TYPE_TITLE: "Debris Scavenged and Analyzed"
 
  ####################################
  # Anomaly
@@ -435,12 +474,16 @@
  # Invasion
  ####################################
  MESSAGE_INVASION_TITLE: "Invasion Over"
- MESSAGE_INVASION_ATTACKER_WIN: "We have successfully invaded $PLANET|H$!"
+ INVASION_ATTACKER_WIN_KEY: "$MESSAGE_INVASION_TITLE$ (Invasion Successful)"
+ INVASION_ATTACKER_LOSE_KEY: "$MESSAGE_INVASION_TITLE$ (Invasion Failed)"
+ INVASION_DEFENDER_WIN_KEY: "$MESSAGE_INVASION_TITLE$ (Defensive Successful)"
+ INVASION_DEFENDER_LOSE_KEY: "$MESSAGE_INVASION_TITLE$ (Defensive Failed)"
+ MESSAGE_INVASION_ATTACKER_WIN: "We have successfully invaded $PLANET|Y$!"
  MESSAGE_INVASION_ATTACKER_LOSE: "Our invasion of $PLANET|H$ has failed."
- MESSAGE_INVASION_DEFENDER_WIN: "We successfully fended off the invaders on $PLANET|H$!"
- MESSAGE_INVASION_DEFENDER_LOSE: "We failed to fend off the invaders on $PLANET|H$."
+ MESSAGE_INVASION_DEFENDER_WIN: "We successfully fended off the invaders on $PLANET|Y$!"
+ MESSAGE_INVASION_DEFENDER_LOSE: "We failed to fend off the invaders on $PLANET|Y$."
  MESSAGE_RETREAT_CASUALTIES_TITLE: "Retreating Armies Lost"
- RETREAT_CASUALTIES_DESC: "We lost $NUM|Y$ of our $TOTAL|Y$ armies while attempting to retreat from $PLANET|H$\n$LOST$"
+ RETREAT_CASUALTIES_DESC: "We lost $NUM|Y$ of our $TOTAL|Y$ armies while attempting to retreat from $PLANET|Y$\n$LOST$"
  MESSAGE_LOST_ARMY: "$NUMBER$. $NAME|R$"
 
 
@@ -479,11 +522,11 @@
 #####################################
 
  MESSAGE_MEGASTRUCTURE_BUILT_TITLE: "Megastructure Built"
- MESSAGE_MEGASTRUCTURE_BUILT: "Completed construction of the $MEGASTRUCTURE|H$ in the $SYSTEM|H$ system."
+ MESSAGE_MEGASTRUCTURE_BUILT: "Completed construction of the $MEGASTRUCTURE|H$ in the $SYSTEM|Y$ system."
  MESSAGE_MEGASTRUCTURE_UPGRADED_TITLE: "Megastructure Upgraded"
- MESSAGE_MEGASTRUCTURE_UPGRADED: "Completed upgrading the $MEGASTRUCTURE|H$ in the $SYSTEM|H$ system."
+ MESSAGE_MEGASTRUCTURE_UPGRADED: "Completed upgrading the $MEGASTRUCTURE|H$ in the $SYSTEM|Y$ system."
  MESSAGE_ALIEN_MEGASTRUCTURE_BUILT_TITLE: "Alien Megastructure Built"
- MESSAGE_ALIEN_MEGASTRUCTURE_BUILT: "$COUNTRY|H$ has completed construction of their $MEGASTRUCTURE|H$ in the $SYSTEM|H$ system."
+ MESSAGE_ALIEN_MEGASTRUCTURE_BUILT: "$COUNTRY|Y$ has completed construction of their $MEGASTRUCTURE|H$ in the $SYSTEM|Y$ system."
 
  #####################################
 # Casus Belli
@@ -502,7 +545,7 @@
 # Claims
 #####################################
  MESSAGE_NEW_CLAIM_ON_SYSTEM_TITLE: "Foreign Empire Claims Our System"
- MESSAGE_NEW_CLAIM_ON_SYSTEM: "Though it rightfully belongs to us, the $COUNTRY|H$ has audaciously laid claim to the $SYSTEM|H$ system!"
+ MESSAGE_NEW_CLAIM_ON_SYSTEM: "Though it rightfully belongs to us, the $COUNTRY|Y$ has audaciously laid claim to the $SYSTEM|Y$ system!"
 
 #####################################
 # Star Destroyed
