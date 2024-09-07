@@ -20,6 +20,19 @@
  edible_fallback: "Bocconcino"
  edible_fallback_plural: "Bocconcini"
 
+ avian_species: "" # lower-case adjective, used for 'GetSpeciesClass'
+ mammalian_species: "" # lower-case adjective, used for 'GetSpeciesClass'
+ reptilian_species: "" # lower-case adjective, used for 'GetSpeciesClass'
+ fungoid_species: "" # lower-case adjective, used for 'GetSpeciesClass'
+ mollusc_species: "" # lower-case adjective, used for 'GetSpeciesClass'
+ human_species: "" # lower-case adjective, used for 'GetSpeciesClass'
+ arthropoid_species: "" # lower-case adjective, used for 'GetSpeciesClass'
+ plantoid_species: "" # lower-case adjective, used for 'GetSpeciesClass'
+ aquatic_species: "" # lower-case adjective, used for 'GetSpeciesClass'
+ toxic_species: "" # lower-case adjective, used for 'GetSpeciesClass'
+ necroid_species: "" # lower-case adjective, used for 'GetSpeciesClass'
+ lithoid_species: "" # lower-case adjective, used for 'GetSpeciesClass'
+
  test.edible.title: "Fame?"
  test.edible.desc: "Persino [Root.GetRulerName], il nostro grande Sovrano, non è altro che un [Root.GetEdibleName]."
 
@@ -36,6 +49,8 @@
  drones_key: "droni"
  unit_key: "unità"
  units_key: "unità"
+ crew_key: ""
+ crew_member_key: ""
 
  getterraformer_machine: "unità di terraformazione"
  getterraformer_machine_plural: "unità di terraformazione"
@@ -50,9 +65,18 @@
  getscientist_machine: "unità scientifica"
  getscientist_hive: "drone scientifico"
  getscientist_normal: "scienziato"
+
+ getscientist_machine_capital: ""
+ getscientist_hive_capital: ""
+ getscientist_normal_capital: "Scienziato"
+
  getscientistplural_machine: "unità scientifiche"
  getscientistplural_hive: "droni scientifici"
  getscientistplural_normal: "scienziati"
+
+ getscientistplural_machine_capital: ""
+ getscientistplural_hive_capital: ""
+ getscientistplural_normal_capital: "Scienziati"
 
  getengineer_machine: "unità di ingegneria"
  getengineer_hive: "drone per l'ingegneria"
@@ -60,6 +84,22 @@
  getengineerplural_machine: "unità di ingegneria"
  getengineerplural_hive: "droni per l'ingegneria"
  getengineerplural_normal: "ingegneri"
+
+ getcolonist_machine: ""
+ getcolonist_hive: ""
+ getcolonist_normal: ""
+
+ getcolonist_machine_capital: ""
+ getcolonist_hive_capital: ""
+ getcolonist_normal_capital: "Colono"
+
+ getcolonistplural_machine: ""
+ getcolonistplural_hive: ""
+ getcolonistplural_normal: ""
+
+ getcolonistplural_machine_capital: ""
+ getcolonistplural_hive_capital: ""
+ getcolonistplural_normal_capital: "Coloni"
 
  get1stplanetkiller_cracker: "$PLANET_KILLER_CRACKER$"
  get1stplanetkiller_shielder: "$PLANET_KILLER_SHIELDER$"
@@ -89,3 +129,5 @@
  SubMantle_Sub: "Sotterraneo"
  SubMantle_Mantle: "Abitante del mantello"
 
+ getmechanical: ""
+ getbiological: ""
