@@ -17,7 +17,7 @@
  retaliatory_genome_mapping: "Mappatura del Genoma per Ritorsione"
  retaliatory_genome_mapping_DESC: "Inviando una nave verso il Pianeta Natale alieno, potremmo acquisire da loro gli stessi dati che sospettiamo abbiano rubato a noi."
  woodwind_instrument_investigation: "Indagine sullo Strumento Ligneo"
- woodwind_instrument_investigation_DESC: "Dobbiamo capire da che materiale è composto il misterioso strumento che sembra avere un effetto rilassante sulla nostra biologia."
+ woodwind_instrument_investigation_DESC: ""
  disappearing_pops_project: "Scomparsa su [missing_pops_planet.GetName]"
  disappearing_pops_project_DESC: "Le forze dell'ordine locali di [missing_pops_planet.GetName] richiedono il supporto di una squadra militare per reprimere i disordini mentre indagano su una recente ondata di misteriose sparizioni."
  mystery_cream_project: "Senza Età"
@@ -41,6 +41,6 @@
  SNEK_SCIENCE_PROJECT: "Usa la Scienza"
  SNEK_SCIENCE_PROJECT_DESC: "La scienza! Stiamo usando la scienza! Dopo una serie di attente osservazioni e riunioni produttive, intendiamo trovare schemi nei comportamenti degli ofidi e adottare metodicamente piani per contrastarli. Se riusciamo a trovare prove dell'uso di strumenti e di strategie di adattamento, potremmo anche essere in grado di ragionare con loro! Dobbiamo solo fare in modo di non alterare i dati interferendo con le loro attività, anche quando mordono i coloni e sottraggono energia."
  SNEK_WAR_PROJECT: "Usa i Soldati"
- SNEK_WAR_PROJECT_DESC: "Guerra! Stiamo andando in guerra! Non sappiamo perché sono venuti qui. Non sappiamo bene cosa facciano qui. Ma sappiamo questo: ci odiano, quindi devono imparare a temerci. È ora di mettere delle sentinelle, di organizzare delle pattuglie e di farci strada di casa in casa con gli inceneritori di ofidiani. Bruciateli! A qualunque costo, dobbiamo opporci a tutto ciò che striscia."
+ SNEK_WAR_PROJECT_DESC: ""
 
 
