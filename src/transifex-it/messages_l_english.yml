@@ -10,7 +10,7 @@
  MESSAGE_CONSTRUCTION_FINISH_STARBASE: "La Base Stellare del sistema $SYSTEM|Y$ ha completato la sua coda di costruzione."
  MESSAGE_ORDER_FINISH_COLONIZE_PLANET: "Abbiamo fondato la colonia $COLONY|Y$ nel Sistema $SYSTEM|Y$."
  MESSAGE_SPACEPORT_CONSTRUCTION_MESSAGE_TYPE_TITLE: "Costruzione Completata"
- MESSAGE_STARBASE_CONSTRUCTION_MESSAGE_TYPE_TITLE: "Costruzione Completata"
+ MESSAGE_STARBASE_CONSTRUCTION_MESSAGE_TYPE_TITLE: ""
  MESSAGE_ARMY_RECRUITMENT_TITLE: "Reclutamento Esercito Completato"
  MESSAGE_ARMY_RECRUITMENT: "Il reclutamento degli eserciti su $PLANET|Y$ è stato completato."
  MESSAGE_POP_CONSTRUCTION_MESSAGE_TYPE_TITLE: "$MESSAGE_CONSTRUCTION_MESSAGE_TYPE_TITLE$"
@@ -19,18 +19,22 @@
  ####################################
  # Fleet Orders
  ####################################
- MESSAGE_FLEET_ORDER_FINISH_BUILD_ORBITAL_STATION: "§H$FLEET$§! ha completato la costruzione di $SHIPCLASS|Y$ nell'orbita di $PLANET|Y$."
- MESSAGE_FLEET_ORDER_ANOMALY: "§H$FLEET$§! ha scoperto un'§HAnomalia§! su $PLANET|Y$."
- MESSAGE_FLEET_ORDER_FINISH_BUILD_SPACE_STATION: "§H$FLEET$§! ha completato la costruzione di una nave di classe $SHIPCLASS|Y$ nel Sistema $STAR|Y$."
- MESSAGE_FLEET_ORDER_ANALYZE_FAIL: "§H$FLEET$§! non è riuscita ad analizzare la Traccia SuperLuce."
- MESSAGE_FLEET_ORDER_ANALYZE_FINISH: "§H$FLEET$§! ha analizzato la Traccia SuperLuce."
+ MESSAGE_FLEET_ORDER_FINISH_BUILD_ORBITAL_STATION: ""
+ MESSAGE_FLEET_ORDER_ANOMALY: ""
+ MESSAGE_FLEET_ORDER_FINISH_BUILD_SPACE_STATION: ""
+ MESSAGE_FLEET_ORDER_ANALYZE_FAIL: ""
+ MESSAGE_FLEET_ORDER_ANALYZE_FINISH: ""
  MESSAGE_FLEET_SYSTEM_FULLY_SURVEYED: "Il Sistema $SYSTEM|Y$ è stato interamente ispezionato."
  MESSAGE_FLEET_ORDER_FINISH_MESSAGE_TYPE_TITLE: "Ordine Flotta Completato"
- MESSAGE_SYSTEM_SURVEYED_TITLE: "Sistema ispezionato"
+ MESSAGE_SYSTEM_SURVEYED_TITLE: "Sistema Ispezionato"
  AUTO_EXPLORE_CANCELED_MESSAGE_TYPE_TITLE: "Ordine Flotta Annullato"
- MESSAGE_FLEET_ORDER_AUTO_EXPLORE_CANCELED: "§H$FLEET$§! ha interrotto il Rilevamento Automatico. Non può raggiungere o trovare altri sistemi non ispezionati."
+ AUTO_EXPLORE_CANCELED_MESSAGE_TYPE_KEY: ""
+ MESSAGE_FLEET_ORDER_AUTO_EXPLORE_CANCELED: ""
+ AUTO_EXPLORE_FALLBACK_MESSAGE_TYPE_TITLE: ""
+ MESSAGE_FLEET_ORDER_AUTO_EXPLORE_FALLBACK: ""
  FLEET_BUILD_ORDER_CANCELED_MESSAGE_TYPE_TITLE: "$AUTO_EXPLORE_CANCELLED_MESSAGE_TYPE_TITLE$"
- MESSAGE_FLEET_BUILD_ORDER_CANCELED_MESSAGE: "$FLEET|H$ non è stata in grado di costruire una $STATION|H$ su $SYSTEM|H$. Le risorse sono state rimborsate."
+ FLEET_BUILD_ORDER_CANCELED_MESSAGE_TYPE_KEY: ""
+ MESSAGE_FLEET_BUILD_ORDER_CANCELED_MESSAGE: ""
  MESSAGE_BYPASS_EXPLORED: "Tunnel Spaziale Esplorato"
  BYPASS_EXPLORED_MESSAGE: "Il Tunnel Spaziale del Sistema $SYSTEM1|Y$ è stato esplorato. È connesso al Sistema $SYSTEM2|Y$."
  MESSAGE_ESN_ARRIVED_TITLE: "Navigazione Subspaziale Sperimentale"
@@ -70,13 +74,15 @@
  ACTION_FORM_FEDERATION_VOTE_PASSED: "L'Alleanza §H[Actor.GetAllianceName]§! ha votato a favore della formazione di una Federazione."
  ACTION_FORM_FEDERATION_VOTE_FAILED: "La proposta di formare una Federazione non è stata approvata."
  ACTION_RELEASE_SUBJECT_PASSED: "§H[Actor.GetName]§! ci ha liberati dalla Sudditanza."
- ACTION_OFFER_PEACE_VOTE_PASSED: "The §H[Actor.GetAllianceName]§! voted to accept sigining peace offer with §H[Recipient.GetName]§!."
- ACTION_OFFER_PEACE_VOTE_FAILED: "The §H[Actor.GetAllianceName]§! voted to reject sigining peace offer with §H[Recipient.GetName]§!."
+ ACTION_OFFER_PEACE_VOTE_PASSED: ""
+ ACTION_OFFER_PEACE_VOTE_FAILED: ""
 
  MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE_TITLE: "Accordo Commerciale Terminato, Non Disponiamo di Risorse Sufficienti"
  MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE_THEM_TITLE: "Accordo Commerciale Terminato, Non Dispongono di Risorse Sufficienti"
  MESSAGE_TRADE_DEAL_END_CANCELLED_ACTION_TITLE: "Trade Deal Ended, Trade Action Not Valid"
+ TRADE_DEAL_END_CANCELLED_ACTION_KEY: ""
  MESSAGE_TRADE_DEAL_END_CANCELLED_ACTION_THEM_TITLE: "Trade Deal Ended, Trade Action Not Valid"
+ TRADE_DEAL_END_CANCELLED_ACTION_THEM_KEY: ""
  MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS_TITLE: "Accordo Commerciale Terminato, Abbiamo Chiuso i Nostri Confini"
  MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS_THEM_TITLE: "Accordo Commerciale Terminato, Hanno Chiuso i Loro Confini"
  MESSAGE_TRADE_DEAL_END_GUARANTEE_ALLIANCE_TITLE: "Accordo Commerciale Terminato, Siamo Entrati in un'Alleanza"
@@ -198,6 +204,12 @@
  MESSAGE_BREAK_SUPPORT_TITLE: "Supporto Revocato"
  MESSAGE_OPEN_BORDERS_TITLE: "Confini Aperti"
  MESSAGE_CLOSE_BORDERS_TITLE: "Confini Chiusi"
+ MESSAGE_FORM_SOCIETAL_ENLIGHTENMENT_PACT_TITLE: ""
+ MESSAGE_BREAK_SOCIETAL_ENLIGHTENMENT_PACT_TITLE: ""
+ MESSAGE_FORM_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_PACT_TITLE: ""
+ MESSAGE_BREAK_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_PACT_TITLE: ""
+ MESSAGE_FORM_PRE_FTL_TRADE_PACT_TITLE: ""
+ MESSAGE_BREAK_PRE_FTL_TRADE_PACT_TITLE: ""
 
  ACTION_MAKE_RIVAL_NOTIFICATION: "§H[From.GetName]§! ha dichiarato §H[Root.GetName]§! suo §H$RIVAL$§!.\n\nCiò peggiorerà decisamente le loro relazioni diplomatiche."
  ACTION_END_RIVALRY_NOTIFICATION: "§H[From.GetName]§! ha terminato la sua $RIVALRY$ con §H[Root.GetName]§!.\n\nPotrebbero essere in via di riconciliazione."
@@ -220,6 +232,8 @@
  ACTION_INSULT_NOTIFICATION: "§H[From.GetName]§! ha insultato §H[Root.GetName]§!.\n\nSembra che si stia per scatenare un conflitto..."
  ACTION_INTEGRATE_SUBJECT_NOTIFICATION: "§H[From.GetName]§! ha iniziato l'integrazione di §H[Root.GetName]§!.\n\nPresto, le ultime vestigia della loro indipendenza scompariranno."
  ACTION_CANCEL_SUBJECT_INTEGRATION_NOTIFICATION: "§H[From.GetName]§! ha interrotto l'integrazione di §H[Root.GetName]§!.\n\nSembra che i cittadini [Root.GetSpeciesNamePlural] diano più problemi di quanti ne risolvano."
+ MESSAGE_TYPE_RELICS_GAINED_INTEGRATION_TITLE: ""
+ MESSAGE_RELICS_GAINED_INTEGRATION: ""
  ACTION_FORM_DEFENSIVE_PACT_NOTIFICATION: "§H[From.GetName]§! ha stipulato un Patto Difensivo con §H[Root.GetName]§!.\n\nOra si difenderanno l'un l'altro dai nemici."
  ACTION_BREAK_DEFENSIVE_PACT_NOTIFICATION: "§H[From.GetName]§! ha interrotto il Patto Difensivo con §H[Root.GetName]§!.\n\nSembra che credano di cavarsela meglio da soli."
  ACTION_FORM_NON_AGGRESSION_PACT_NOTIFICATION: "§H[From.GetName]§! ha stipulato un Patto di Non Aggressione con §H[Root.GetName]§!.\n\nVediamo se questa pace durerà."
@@ -256,19 +270,21 @@
  ####################################
  # War
  ####################################
- SURRENDER_OUR_SIDE: "Il nostro Signore della Guerra ha dichiarato la resa incondizionata, ed è stato stabilito il cessate il fuoco. Il nemico ha sei mesi per avanzare le sue richieste."
- SURRENDER_THEIR_SIDE: "Il Signore della Guerra nemico ha dichiarato la resa incondizionata, ed è stato stabilito il cessate il fuoco. Abbiamo sei mesi per avanzare le nostre richieste."
+ SURRENDER_OUR_SIDE: ""
+ SURRENDER_THEIR_SIDE: ""
  WAR_END_VICTORY: "Abbiamo Vinto questa guerra"
  WAR_END_DEFEAT: "Abbiamo Perso questa guerra"
  WAR_END_STATUS_QUO: "La guerra si è conclusa con uno Status Quo"
  MESSAGE_OUR_SURRENDER_TITLE: "Ci Arrendiamo"
  MESSAGE_THEIR_SURRENDER_TITLE: "Si Arrendono"
  MESSAGE_VICTORY_TITLE: "§GVittoria§!"
+ VICTORY_KEY: "Vittoria"
  MESSAGE_DEFEAT_TITLE: "§RSconfitta§!"
+ DEFEAT_KEY: ""
  MESSAGE_ALLIED_ENTERED_WAR: "$ATTACKER|Y$ ha dichiarato guerra al nostro alleato, $CALLER|Y$.\n\nDi conseguenza, ora siamo §Yin guerra§! con $ATTACKER|Y$!"
  MESSAGE_GUARANTEED_ENTERED_WAR: "Un Impero Liberato è sotto attacco"
  MESSAGE_GUARANTEER_ENTERED_WAR_DESC: "$ATTACKER|Y$ ha dichiarato guerra a $CALLER|Y$, a cui abbiamo garantito l'indipendenza.\n\nDi conseguenza, ora siamo §Yin guerra§! con $ATTACKER|Y$!"
- MESSAGE_GUARANTEER_ENTERED_WAR_TITLE: "Un Impero Liberatore è Entrato in Guerra"
+ MESSAGE_GUARANTEER_ENTERED_WAR_TITLE: ""
  MESSAGE_ALLIED_ENTERED_WAR_TITLE: "Un Alleato è Entrato in Guerra"
  MESSAGE_OVERLORD_ENTERED_WAR_TITLE: "Il nostro Signore è Entrato in Guerra"
  MESSAGE_OVERLORD_ENTERED_WAR_DESC: "$ATTACKER|Y$ ha dichiarato guerra al nostro Signore, $CALLER|Y$.\n\nDi conseguenza, ora siamo §Yin guerra§! con $ATTACKER|Y$!"
@@ -293,7 +309,8 @@
  MESSAGE_ENEMY_VASSAL_ENTER_WAR_DESC: "$ENEMY|Y$, suddito di uno dei nostri nemici, è entrato in guerra contro di noi."
  MESSAGE_ENEMY_LEAVES_WAR: "Un Nemico ha Abbandonato la Guerra"
  MESSAGE_ENEMY_LEAVES_WAR_DESC: "$ENEMY|Y$ has left the war due to being subjugated or annexed by $OVERLORD|Y$."
-
+ TOAST_TRUCE_IS_OVER_TITLE: ""
+ TOAST_TRUCE_IS_OVER_DESC: ""
  ####################################
  # Fleet Detected
  ####################################
@@ -312,27 +329,33 @@
  ####################################
  # Leaders
  ####################################
- FLEET_LEADER_DEATH: "$CLASS|Y$ $LEADER|Y$ è morto a bordo della nave $SHIP|Y$ quando è andata distrutta."
- ARMY_LEADER_DEATH: "Il nostro $CLASS|Y$, $LEADER|Y$ è morto al comando di $ARMY|Y$."
- PLANET_LEADER_DEATH: "Il nostro $CLASS|Y$, $LEADER|Y$ è morto sul Pianeta $PLANET|Y$."
- COUNTRY_LEADER_DEATH: "Il nostro $CLASS|Y$, $LEADER|Y$ è morto!"
- HEIR_DEATH: "Il nostro §Y$HEIR$§!, $HEIRNAME|Y$ è morto!"
- RULER_ELECTED: "È stato eletto un nuovo Sovrano! $TITLE$ $LEADER|Y$ resterà in carica fino alle prossime elezioni, che avranno luogo il $TIME|Y$."
+ FLEET_LEADER_DEATH: ""
+ ALIVE_FLEET_LEADER_DEATH: ""
+ ARMY_LEADER_DEATH: ""
+ PLANET_LEADER_DEATH: ""
+ COUNTRY_LEADER_DEATH: ""
+ SYSTEM_LEADER_DEATH: ""
+ SPY_LEADER_DEATH: ""
+ HEIR_DEATH: ""
+ RULER_ELECTED: ""
  RULER_ELECTED_UNTIL_DEATH: "$TITLE$ $LEADER|Y$ è stato scelto come nuovo Sovrano, e resterà in carica fino alla sua morte."
  RULER_ELECTED_HEIR: "Per ordine di successione, $TITLE$ $LEADER|Y$ è il nuovo Sovrano."
  MESSAGE_LEADER_DEATH_TITLE: "Leader Morto"
+ MESSAGE_LEADER_RETIRED_TITLE: ""
  MESSAGE_RULER_ELECTED_TITLE: "Sovrano Eletto"
- MESSAGE_RULER_ELECTED_UNTIL_DEATH_TITLE: "Sovrano Eletto"
+ MESSAGE_RULER_ELECTED_UNTIL_DEATH_TITLE: ""
  MESSAGE_RULER_ELECTED_HEIR_TITLE: "Erede Salito al Trono"
  MESSAGE_ELECTION_MESSAGE_TYPE_TITLE: "Elezioni"
  MESSAGE_DEMOCRATIC_ELECTION_DESC: "La campagna elettorale per eleggere un nuovo $TITLE$ è in corso.\nI risultati verranno annunciati il $DATE|Y$."
  MESSAGE_OLIGARCHIC_ELECTION_DESC: "I negoziati per nominare un nuovo $TITLE$ sono in corso.\nLa decisione verrà annunciata il $DATE|Y$."
  ELECTION_CLICK_FOR_MORE_INFO: "Clicca per ulteriori informazioni"
  LEADER_DEATH_AGE: "$CLASS|Y$ $LEADER|Y$ è morto all'età di $AGE|Y$ anni."
+ LEADER_RETIRED_DESC: ""
  TOOLTIP_KILL_LEADER: "$CLASS|Y$ $LEADER|Y$ §RMorto§!"
+ TOOLTIP_FIRE_LEADER: ""
  MESSAGE_LEADER_EXPERIENCE_TITLE: "Un Leader ha Guadagnato Esperienza"
  LEADER_EXPERIENCE_NOTIFICATION_DESC: "§T$CLASS|Y$ $LEADER|Y$ ha ottenuto esperienza dal combattimento\n\n$STATS$§!"
- MESSAGE_LEADER_LEVEL_UP_TITLE: "Un Leader è Avanzato di Livello"
+ MESSAGE_LEADER_LEVEL_UP_TITLE: ""
  LEADER_LEVEL_UP_DESC: "$CLASS|Y$ $LEADER|Y$ è avanzato di livello\n\nLivello: $LEVEL|Y$\n"
  LEADER_LEVEL_UP_NEXT_LEVEL_DESC: "$CLASS|Y$ $LEADER|Y$ è avanzato di livello\n\nLivello: $LEVEL|Y$\nEsperienza necessaria per il prossimo Livello: $EXP|Y0$"
 
@@ -343,8 +366,17 @@
  LEADER_GENERAL_BASE_EXPERIENCE: "§TBattaglia Terrestre: $VAL|0H$ punti esperienza§!"
  LEADER_GENERAL_HOSTILE_KILLED_EXPERIENCE: "§TForze Ostili Eliminate: $VAL|0H$ punti esperienza§!"
  LEADER_GENERAL_FRIENDLY_LOST_EXPERIENCE: "§TForze Alleate Perdute: $VAL|0H$ punti esperienza§!"
+
+ LEADER_COMMANDER_BASE_EXPERIENCE: ""
+ LEADER_COMMANDER_HOSTILE_KILLED_EXPERIENCE: "§TForze Ostili Eliminate: $VAL|0H$ punti esperienza§!"
+ LEADER_COMMANDER_FRIENDLY_LOST_EXPERIENCE: "§TForze Alleate Perdute: $VAL|0H$ punti esperienza§!"
+
  MESSAGE_NEW_HEIR_TITLE: "§HNuovo Erede§!"
+ NEW_HEIR_KEY: ""
  NEW_HEIR_TEXT: "§Y$HEIR$§! è il nuovo Erede del nostro impero e salirà al trono alla morte dell'attuale Sovrano."
+ MESSAGE_LEADER_POOL_REFRESHED_MESSAGE_TYPE_TITLE: ""
+ LEADER_POOL_REFRESHED_TITLE: ""
+ LEADER_POOL_REFRESHED_INSTRUCTION: ""
 
  ####################################
  # Technology
@@ -359,6 +391,13 @@
  MESSAGE_DEBRIS_ANALYZED_FINISH_BONUS: "£$AREA_KEY$£ §YRicerca $AREA$§!: §G+$VAL|0$§! punti ricerca"
  MESSAGE_DEBRIS_ANALYZED_FINISH_TECH_PROGRESS: "$TECH|Y$: §G+$VAL|%0$§! progresso ricerca"
  MESSAGE_DEBRIS_ANALYZED_FINISH_MESSAGE_TYPE_TITLE: "Detriti Analizzati"
+
+ MESSAGE_DEBRIS_SCAVENGED_FINISH: ""
+ MESSAGE_DEBRIS_SCAVENGED_FINISH_RESOURCE: ""
+ MESSAGE_DEBRIS_SCAVENGED_FINISH_MESSAGE_TYPE_TITLE: ""
+
+ MESSAGE_DEBRIS_SCAVENGED_AND_ANALYZED_FINISH: ""
+ MESSAGE_DEBRIS_SCAVENGED_AND_ANALYZED_FINISH_MESSAGE_TYPE_TITLE: ""
 
  ####################################
  # Anomaly
@@ -435,12 +474,16 @@
  # Invasion
  ####################################
  MESSAGE_INVASION_TITLE: "Invasione Terminata"
- MESSAGE_INVASION_ATTACKER_WIN: "Abbiamo invaso il Pianeta $PLANET|H$!"
+ INVASION_ATTACKER_WIN_KEY: ""
+ INVASION_ATTACKER_LOSE_KEY: ""
+ INVASION_DEFENDER_WIN_KEY: ""
+ INVASION_DEFENDER_LOSE_KEY: ""
+ MESSAGE_INVASION_ATTACKER_WIN: ""
  MESSAGE_INVASION_ATTACKER_LOSE: "La nostra invasione del Pianeta $PLANET|H$ è fallita."
- MESSAGE_INVASION_DEFENDER_WIN: "Abbiamo respinto gli invasori sul Pianeta $PLANET|H$!"
- MESSAGE_INVASION_DEFENDER_LOSE: "Non siamo riusciti a respingere gli invasori sul Pianeta $PLANET|H$."
+ MESSAGE_INVASION_DEFENDER_WIN: ""
+ MESSAGE_INVASION_DEFENDER_LOSE: ""
  MESSAGE_RETREAT_CASUALTIES_TITLE: "Eserciti in Ritirata Perduti"
- RETREAT_CASUALTIES_DESC: "Abbiamo perso $NUM|Y$ eserciti su $TOTAL|Y$ durante il tentativo di ritirata da $PLANET|H$\n$LOST$"
+ RETREAT_CASUALTIES_DESC: ""
  MESSAGE_LOST_ARMY: "$NUMBER$. $NAME|R$"
 
 
@@ -479,11 +522,11 @@
 #####################################
 
  MESSAGE_MEGASTRUCTURE_BUILT_TITLE: "Megastruttura Costruita"
- MESSAGE_MEGASTRUCTURE_BUILT: "Costruzione di $MEGASTRUCTURE|H$ nel Sistema $SYSTEM|H$ Completata."
+ MESSAGE_MEGASTRUCTURE_BUILT: ""
  MESSAGE_MEGASTRUCTURE_UPGRADED_TITLE: "Megastruttura Aggiornata"
- MESSAGE_MEGASTRUCTURE_UPGRADED: "Aggiornamento di $MEGASTRUCTURE|H$ nel Sistema $SYSTEM|H$ Completato."
+ MESSAGE_MEGASTRUCTURE_UPGRADED: ""
  MESSAGE_ALIEN_MEGASTRUCTURE_BUILT_TITLE: "Megastruttura Aliena Costruita"
- MESSAGE_ALIEN_MEGASTRUCTURE_BUILT: "$COUNTRY|H$ ha terminato la costruzione di $MEGASTRUCTURE|H$ nel Sistema $SYSTEM|H$."
+ MESSAGE_ALIEN_MEGASTRUCTURE_BUILT: ""
 
  #####################################
 # Casus Belli
@@ -502,7 +545,7 @@
 # Claims
 #####################################
  MESSAGE_NEW_CLAIM_ON_SYSTEM_TITLE: "Impero Straniero Rivendica Nostro Sistema"
- MESSAGE_NEW_CLAIM_ON_SYSTEM: "Sebbene appartenga a noi, $COUNTRY|H$ ha audacemente rivendicato il Sistema $SYSTEM|H$!"
+ MESSAGE_NEW_CLAIM_ON_SYSTEM: ""
 
 #####################################
 # Star Destroyed
