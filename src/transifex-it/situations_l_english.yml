@@ -1,61 +1,123 @@
 ﻿l_english:
 
+ FROM_SITUATIONS: ""
+ TO_TARGET: ""
+ SITUATION_MONTHLY_CHANGE: ""
+ NO_ACTIVE_EFFECTS: ""
+ SITUATION_FINISHER_EFFECTS: ""
+ SITUATION_FINISHER_EFFECTS_TOOLTIP: ""
+ SITUATION_FINISHER_EFFECTS_DELAYED_TOOLTIP: ""
+ SITUATION_APPROACH_SELECT_TOOLTIP: ""
+ ACTIVE_APPROACH: "§GAttiva§!" #Also used for stages
+ ACTIVE_APPROACH_EFFECTS: ""
+ STAGE_EFFECTS: ""
+ EFFECTS_FROM_SITUATION: ""
+ EFFECTS_FROM_SITUATION_E: ""
+ EFFECTS_FROM_SITUATION_H: ""
+ TRACK_SITUATION: ""
+ SITUATION_GOTO: ""
+ SITUATION_PROGRESS: "Avanzamento"
+ SITUATION_CURRENT_PROGRESS: ""
+ SITUATION_PREDICTED_PROGRESS: ""
+ SITUATION_OUTCOME_IN_MONTHS: ""
+ SITUATION_NEXT_STAGE_IN_MONTHS: ""
+ SITUATION_CURRENT_STAGE: ""
+ SITUATION_STAGE_ACTIVE_RANGE: ""
+ OUTSTANDING_SITUATIONS: ""
+ CLICK_TO_EXPAND_OR_COLLAPSE: ""
+ PREDICTED_OUTCOME: ""
+ ACTIVE_STAGE: ""
+ SITUATION_APPROACH_UNAVAILABLE: ""
+ SITUATION_APPROACH_LOCKED: ""
+ SITUATION_APPROACH_LOCKED_TIMED: ""
+ OUTLINER_SITUATION_PROGRESS: ""
+ OUTLINER_SITUATION_OUTCOME_TIME: ""
+ CLICK_TO_OPEN_SITUATION_LOG: ""
+ SITUATION_STAGE_NO_EFFECTS: ""
+ SITUATION_TARGET_TOOLTIP: ""
+ SITUATION_TARGET_TOOLTIP_SPECIFY_SYSTEM: ""
+ SITUATION_TARGET_TOOLTIP_NO_TARGET: ""
+ SITUATION_START_HEADER: ""
+ SITUATION_START_TOOLTIP: ""
+ civilian_difficulty: ""
+ cadet_difficulty: ""
+
+ situation_unknown_outcome_approach: ""
+ situation_monthly_change_tooltip_no_control: ""
+ situation_monthly_change_tooltip_little_control: ""
+ situation_monthly_change_tooltip_approaches_dependent: ""
+ set_situation_approach_icon_text: ""
+
+ approach_irreversible_tooltip: ""
+ stage_unknown_effects: ""
+
  situation_mysterious_labyrinth: "Il Labirinto Misterioso"
  situation_mysterious_labyrinth_type: "$situation_mysterious_labyrinth$"
  situation_mysterious_labyrinth_desc: "Abbiamo scoperto un labirinto sospetto e apparentemente alieno su [Target.GetName]. Non è chiaro come o perché sia arrivato lì."
- approach_investigate: "Esplora il suo interno."
- approach_observe: "Sorveglialo da lontano."
- approach_cordon_off: "Mettilo in quarantena."
- approach_destroy: "Distruggilo."
- approach_default: "Non fare nulla."
- approach_encourage: "Incoraggialo."
- approach_discourage: "Scoraggialo."
- severity_1: "I"
- severity_2: "II"
- severity_3: "III"
- severity_4: "IV"
- severity_5: "V"
+ approach_investigate: ""
+ approach_observe: ""
+ approach_cordon_off: ""
+ approach_destroy: ""
+ approach_destroy_labyrinth_tooltip: ""
+ approach_default: ""
+ approach_encourage: ""
+ approach_discourage: ""
+ stage_1: ""
+ stage_2: ""
+ stage_3: ""
+ stage_4: ""
+ stage_5: ""
+ stage_6: ""
+ stage_7: ""
+ stage_8: ""
+ stage_9: ""
+ stage_10: ""
+ stage_2_alt: ""
+ stage_3_alt: ""
  string_current_approach: "Approccio Attuale"
+ situation_mysterious_labyrinth_monthly_change_tooltip: ""
 
  situation.5.name: "Il Labirinto Misterioso"
-# situation.5.desc: "Our colonists on [This.GetName] have made a startling discovery: deep in a remote mountain range, they stumbled across a mysterious structure that, according to our scans, was not there when we first surveyed the [This.GetPlanetMoon]. Although it appears to be in excellent - almost brand new - condition, there is no evidence of [Owner.GetAdj] involvement in its construction. In fact, its architecture shows alien characteristics, with curves and angles that appear unusual and even disturbing to our sense of aesthetic.\n\nAt its entrance, there is a sign (in our language, curiously) with the words "Welcome to the Magnificent Labyrinth of Exotic Trans-Dimensional Anomalies. Enter at your own risk.""
+ situation.5.desc: ""
  situation.5.A: "Inviate una squadra ad indagare."
  situation.5.A.tooltip: "Questo Approccio costerà £energy£ §R5§! §YEnergia§! al mese."
  situation.5.B: "Non abbiamo tempo per questo."
  situation.10.name: "Movimenti Sorprendenti"
-# situation.10.desc: "It appears that the alien labyrinth on [Target.GetName] is attempting to attract our attention. Our [Owner.GetResearchers] are loath to ascribe such agency to a building, but that is the only way to put it: it is now no longer situated in a remote mountain pass, but is now instead located a short distance from one of our main settlements. Exactly how it changed position is unclear - from one day to the next, it had simply shifted location. Similarly, the warning signs at the entrance have disappeared, and it now looks... inviting.\n\nWhile some are curious to enter, our [Owner.GetResearchers] urge caution. What is clear, however, is that we can no longer content ourselves with observing the labyrinth - a new approach will be necessary."
-# situation.10.desc.gestalt: "It appears that the alien labyrinth on [Target.GetName] is attempting to attract our attention. While it seems surprising that a building would possess a sophisticated consciousness, that is the only way to put it: it is now no longer situated in a remote mountain pass, but is now instead located a short distance from one of our main drone storage areas. Exactly how it changed position is unclear - from one day to the next, it had simply shifted location. Similarly, the warning signs at the entrance have disappeared, and it now looks... inviting.\n\nThis change will make it harder to prevent any drones from stumbling into it, unless we make an effort to cordon off the area."
+ situation.10.desc: ""
+ situation.10.desc.gestalt: ""
  situation.10.A: "Isolate l'area - nessuno può entrare!"
  situation.10.A.tooltip: "Questo Approccio costerà £energy£ §R10§! §YEnergia§! al mese."
  situation.10.B: "Forse dovremmo indagare dopo tutto."
  situation.10.C: "Il labirinto è pericoloso. Deve essere distrutto."
  situation.15.name: "Ricerca di Attenzione"
-# situation.15.desc.base: "The labyrinth appears to resent our lack of attention to it. The entire structure has gradually changed in appearance, morphing from a forbidding edifice into what looks a lot like a pleasure palace."
-# situation.15.desc.base.end: "Our [Root.GetResearchers] are bemused at the changes, and it is becoming ever harder to prevent anyone from entering the structure."
-# situation.15.desc.standard: "$situation.15.desc.base$ Gone is the sign warning of danger; now, adorable [Owner.Species.GetClass] [Owner.Species.GetSpawnNamePlural] crawl around the entrance, begging for attention, and somehow, the insides give the impression of vast beaches and unending sunrises just beyond sight.\n\n$situation.15.desc.base.end$"
-# situation.15.desc.human: "$situation.15.desc.base$ Gone is the sign warning of danger; now, adorable kittens crawl around the entrance, mewing for attention, and somehow, the insides give the impression of vast beaches and unending sunrises just beyond sight.\n\n$situation.15.desc.base.end$"
-# situation.15.desc.gestalt.base: "The labyrinth appears to resent our lack of attention to it. The entire structure has gradually changed in appearance, morphing from a forbidding edifice into what looks a lot like a luxurious drone storage facility."
-# situation.15.desc.gestalt.base.end: "Our [Root.GetResearchers] are bemused at the changes, and it is becoming ever harder to prevent drones from entering the structure."
-# situation.15.desc.machine: "$situation.15.desc.base$ Gone is the sign warning of danger; now, devices offering high-quality gear oil, scratch removal services, and rapid disk defragmentation aids are in view just inside the entrance.\n\n$situation.15.desc.gestalt.base.end$"
-# situation.15.desc.hive: "$situation.15.desc.base$ Gone is the sign warning of danger; now, devices offering drones high-quality nutrition, comforting neural vibes, and appendage replacements are in view just inside the entrance.\n\n$situation.15.desc.gestalt.base.end$"
+ situation.15.desc.base: ""
+ situation.15.desc.base.end: ""
+ situation.15.desc.standard: ""
+ situation.15.desc.human: ""
+ situation.15.desc.gestalt.base: ""
+ situation.15.desc.gestalt.base.end: ""
+ situation.15.desc.machine: ""
+ situation.15.desc.hive: ""
  situation.15.A: "Dovremo raddoppiare i nostri sforzi."
  situation.15.A.tooltip: "Il nostro attuale Approccio costerà ora ulteriori £unity£ §R10§! §YUnità§! al mese."
  situation.20.name: "Una Ricompensa per l'Ostinazione"
-# situation.20.desc: "The labyrinth is gone.  From one day to the next, it simply was not there anymore. On its site, a message was left for us: "Although it was our intention to study the Beings of your Dimension within our facility, your obstinance in refusing to enter despite all the temptations offered has been an education of its own. We are left enriched by the experience - it will prove most useful to our... endeavors. As a token of our goodwill, we leave you a minor space-time anomaly at the site of our laboratory. We hope it will prove... diverting, to you.""
+ situation.20.desc: ""
  situation.25.name: "Labirinto Distrutto"
-# situation.25.desc: "Despite its unusual properties, the labyrinth proved no match for our heavy weaponry. Where it lay, only rubble remains.\n\nUnfortunately, we have not managed to glean much from the remains, but some of the exotic elements used in its construction are salvageable."
+ situation.25.desc: ""
  situation.30.name: "Labirinto Scomparso"
-# situation.30.desc: "The labyrinth is gone. From one day to the next, it simply was not there anymore. Nothing remains on the site where it once stood, leaving our [Owner.GetResearchers] baffled as to what it was all about. But perhaps we are safer not knowing."
+ situation.30.desc: ""
  situation.30.A: "Una minaccia ci viene tolta."
  situation.40.name: "Rapporto della Spedizione"
-# situation.40.desc: "Our communication link to the [Owner.GetResearchers] we sent into the labyrinth was cut off almost as soon as they entered. Nothing was heard for several days afterward as we waited with bated breath. As time passed, hope faded, and we resigned ourselves to the loss of our people.\n\nThen, once all hope was lost, they reemerged! However, this has only raised further questions: they claim to have no memory of their stay within the labyrinth, and their instruments recording their expedition seem to have been garbled. Furthermore, even though they were in the labyrinth for a matter of weeks, they seem to have aged several years!"
+ situation.40.desc: ""
  situation.45.name: "Perplessità Continue"
-# situation.45.desc: "Further expeditions into the labyrinth have yielded varying, at times unnerving results. On one occasion, our [Owner.GetResearchers] were in for mere seconds, but could give no answer as to why they turned back so fast. On another, they were gone for weeks, but came back seemingly younger than they had left, and with year-long gaps in their memories. Some groups came back in a better physical state than they had left; others bore fresh scars of serious injuries.\n\nOver time, the sign at the entrance has changed, too. "Enter at your own risk" became "Danger of death," and finally "Do not enter the labyrinth. If you do, the planet will explode." In a macabre touch, [Owner.GetAdj] [Owner.Species.GetRemnantNamePlural] adorn the walls - though quite where they came from is not apparent, since there have been no recent unexplained disappearances.\n\nIt is not clear what further study will bring - as our [Owner.GetResearchers] point out, we have no way to confirm or deny the warning stated on the sign. It is, however, becoming ever harder to find volunteers to enter the labyrinth."
+ situation.45.desc: ""
+ situation.45.desc.hive: ""
+ situation.45.desc.machine: ""
  situation.50.name: "Una Partenza"
-# situation.50.desc: "Contrary to its warnings, the labyrinth's disappearance did not destroy [Target.GetName]. Instead, its departure was quite unremarkable - from one day to the next, it was simply gone. A message was left behind: "We thank you for so kindly allowing us to study the Beings of your Dimension. It has proven most useful to our... endeavors. Fortunately, you proved sufficiently... fascinating to the Ministry of Extradimensional Security for them to provide us funding for a smooth exit. As a token of our goodwill, we leave you a minor space-time anomaly at the site of our laboratory. We hope it will prove... diverting.""
+ situation.50.desc: ""
  situation.50.A: "Ci addentreremo nei suoi segreti."
  situation.55.name: "Una Partenza Turbolenta"
-# situation.55.desc: "Contrary to its warnings, the labyrinth's disappearance did not destroy [Target.GetName]. However, it certainly left its mark: earthquakes ravaged the land, and volcanoes, long-dormant, erupted into life.\n\nAmidst the widespread destruction, a message was left behind: "We thank you for so kindly allowing us to study the Beings of your Dimension. It has proven most useful to our... endeavors. We apologize for the inconvenience our departure causes - we were not able to secure the funding from the Ministry of Extradimensional Security necessary for a smooth withdrawal. As a token of our goodwill, we leave you a minor space-time anomaly at the site of our laboratory. We hope it will prove... diverting.""
+ situation.55.desc: ""
  situation.55.A: "Ogni nuvola ha il suo lato positivo."
 
  d_space_time_anomaly: "Anomalia Spazio-Temporale"
@@ -64,8 +126,9 @@
  situation_living_snow: "Neve insolita"
  situation_living_snow_type: "Neve insolita"
  situation_living_snow_desc: "La neve ha cominciato ad accumularsi fuori da uno dei principali insediamenti coloniali su [Target.GetName], un pianeta desertico dove la neve è un evento decisamente insolito."
+ situation_living_snow_monthly_change_tooltip: ""
  situation_snow_hostile: "Scioglila. Tutta."
- situation_snow_observation: "Osserva pacificamente."
+ situation_snow_observation: ""
  situation_snow_very_hostile_tt: "Sforzi Piromani Eccezionali"
  too_late_to_change_approach: "§RÈ troppo tardi per cambiare gli Approcci all'Evento.§!"
  situation.150.name: "Neve insolita"
@@ -94,7 +157,7 @@
  situation.170.A.tooltip: "Il costo dell'osservazione della neve aumenta a £unity£ §R15§! §YUnity§! al mese."
 # situation.170.B:0 "We must get rid of the snow with all haste!"
  situation.175.name: "Cambiamento climatico"
-# situation.175.desc: "The spread of the snow on [Target.GetName] has not just been a source of novelty - and difficulty - for our colonists. It has also caused rapid changes to the ecosystem, with various native species of flora and fauna put under enormous strain. Already, there have been massive migrations away from the affected areas. However, to our surprise, certain other species have thrived in the new, colder conditions. Our climatologists eagerly observe the developments, calling it a "once in a lifetime" opportunity to watch rapid non-[Owner.GetAdj] controlled climate change in action."
+ situation.175.desc: ""
  situation.180.desc: "La vostra presenza ci ha dato intelligenza. Ci siamo nutriti dei vostri Lost Ones per imparare nuovi modi di pensare, nuovi modi di esistere. Ma voi cercate di distruggerci. Abbiamo acquisito la sapienza solo di recente, non siamo ancora disposti a rinunciarvi. La vostra posizione non ci ha lasciato scelta: questo significa guerra."
  situation.180.A: "$situation.185.B$"
  situation.185.desc: "La vostra presenza ci ha dato intelligenza. Ci siamo nutriti dei vostri Persi per imparare nuovi modi di pensare, nuovi modi di esistere. Non sappiamo ancora cosa significhi questo stato d'essere, questa sapienza. Desideriamo appartarci in un angolo del nostro pianeta, dove possiamo avere campo libero per esplorare cosa significa essere noi.\n\nSe non ce lo permettete, sappiate che non siamo ancora disposti a rinunciare alla nostra nuova esistenza. Ci difenderemo, se necessario."
@@ -109,5 +172,1026 @@
  situation.190.desc: "Abbiamo perso il controllo di [FromFrom.GetName] - che è stato sequestrato dal §YLiving Snow§!! Stanno già avvenendo cambiamenti significativi nell'ecosistema di [FromFrom.GetPlanetMoon]. Il nostro [This.GetResearchers] avverte che, a meno che non riusciamo a riprendere il [FromFrom.GetPlanetMoon], la sua composizione sarà presto cambiata al di là della nostra capacità di abitarlo."
  situation.190.tooltip: "§Dovremmo riprenderci il pianeta, prima che sia troppo tardi!§!"
  situation.195.name: "Ghiaccio infinito"
- situation.195.desc: "Con la Neve Vivente che consolida il suo controllo su [Root.GetName], il [Root.GetPlanetMoon] è diventato sempre più freddo, le sue condizioni atmosferiche cambiano ad un ritmo sempre maggiore. Ora, il mondo non può più essere considerato abitabile. Non è chiaro se saremo mai in grado di riportarlo al suo stato precedente... ma il nostro [Root.Owner.GetResearchers] ci assicura che molto di interessante si può imparare osservando le buffonate della neve mentre scopre il suo nuovo stato d'essere - e le sue uniche reazioni chimiche che hanno portato tale cambiamento su [Root.GetName]."
+ situation.195.desc: ""
  situation.195.A: "Brrrrrrrrrrrrr...."
+
+ ### Geomagnetic Storm
+
+ ## UI
+ # Situation
+ situation_entry_top_header: ""
+ situation_geomagnetic_storm: ""
+ situation_geomagnetic_storm_type: ""
+ situation_geomagnetic_storm_desc: ""
+ situation_geomagnetic_storm_monthly_change_tooltip: ""
+ situation_geomagnetic_storm_outcome: ""
+
+ protect_simple_drones: ""
+ protect_complex_drones: ""
+ protect_everydrone: ""
+ approach_protect_effect: ""
+ protect_nobody: ""
+ approach_protect_nobody_effect: ""
+
+ radiation_damage_low: ""
+ radiation_damage_mid: ""
+ radiation_damage_high: ""
+
+ # Deposit
+ d_machine_care_home: ""
+ d_machine_care_home_desc: ""
+
+ # Jobs
+ job_machine_nurse: ""
+ job_machine_nurse_plural: ""
+ job_machine_nurse_desc: ""
+ mod_job_machine_nurse_add: ""
+ mod_job_machine_nurse_per_pop: ""
+ mod_job_machine_nurse_per_pop_short: ""
+
+ # Modifiers
+ broken_assembly_line: ""
+ broken_assembly_line_desc: ""
+ radiation_hardened_components: ""
+ radiation_hardened_components_desc: ""
+ software_damage: ""
+ software_damage_desc: ""
+ machine_care_museum: ""
+ machine_care_museum_desc: ""
+
+
+ ## Events
+ # Intro
+ situation.200.name: ""
+ situation.200.desc: ""
+ situation.200.a: ""
+ situation.200.b: ""
+ situation.200.c: ""
+ situation.200.d: ""
+ situation.200.a.tooltip: ""
+ situation.200.b.tooltip: ""
+ situation.200.c.tooltip: ""
+ situation.200.d.tooltip: ""
+
+ situation.202.name: ""
+ situation.202.desc: ""
+
+ # Event: Bio-trophies want to help their caretakers
+ situation.203.name: ""
+ situation.203.desc: ""
+ situation.203.a: ""
+ situation.203.b: ""
+
+
+ ## Random events
+ # Each event has three variations (one for severity level) as the gestalt gets more damaged and confused
+
+ # Random negative event: malfunctioning drones
+ situation.210.name: ""
+ situation.210.desc.1: ""
+ situation.210.a.1: ""
+ situation.210.b.1: ""
+ situation.210.c.1: ""
+
+ situation.210.desc.2: ""
+ situation.210.a.2: ""
+ situation.210.a.2.tooltip: ""
+ situation.210.b.2: ""
+ situation.210.b.2.tooltip: ""
+ situation.210.c.2: ""
+ situation.210.c.2.tooltip: ""
+
+ situation.210.desc.3: ""
+ situation.210.a.3: ""
+ situation.210.a.3.tooltip: ""
+ situation.210.b.3: ""
+ situation.210.b.3.tooltip: ""
+ situation.210.c.3: ""
+ situation.210.c.3.tooltip: ""
+
+ # Random negative event: faulty assembly line
+ situation.213.name: ""
+ situation.213.desc.1: ""
+ situation.213.a.1: ""
+ situation.213.b.1: "Abbiamo altre priorità."
+
+ situation.213.desc.2: ""
+ situation.213.a.2: ""
+ situation.213.a.2.tooltip: ""
+ situation.213.b.2: ""
+ situation.213.b.2.tooltip: ""
+
+ situation.213.desc.3: ""
+ situation.213.a.3: ""
+ situation.213.a.3.tooltip: ""
+ situation.213.b.3: ""
+ situation.213.b.3.tooltip: ""
+
+ # Random negative event: miscalculation
+ situation.215.name: ""
+ situation.215.desc.1: ""
+
+ situation.215.desc.2: ""
+ situation.215.a.2: ""
+ situation.215.a.2.tooltip: ""
+
+ situation.215.desc.3: ""
+ situation.215.a.3: ""
+ situation.215.a.3.tooltip: ""
+
+ # Random negative event: miscalculation - rogue servitors variant
+ situation.216.name: ""
+ situation.216.desc.1: ""
+
+ situation.216.desc.2: ""
+ situation.216.a.2: ""
+ situation.216.a.2.tooltip: ""
+
+ situation.216.desc.3: ""
+ situation.216.a.3: ""
+ situation.216.a.3.tooltip: ""
+
+ # Random negative event: disappearing drones
+ situation.250.name: ""
+ situation.250.desc.1: ""
+
+ situation.250.desc.2: ""
+ situation.250.a.2: ""
+
+ situation.250.desc.3: ""
+ situation.250.a.3: ""
+
+ # Follow-up: found disappearing drones, but their drives are wiped out
+ situation.251.name: ""
+ situation.251.desc.1: ""
+ situation.251.a.1: ""
+ situation.251.b.1: ""
+
+ situation.251.desc.2: ""
+ situation.251.a.2: ""
+ situation.251.b.2: ""
+ situation.251.b.2.tooltip: ""
+
+ situation.251.desc.3: ""
+ situation.251.a.3: ""
+ situation.251.a.3.tooltip: ""
+ situation.251.b.3: ""
+ situation.251.b.3.tooltip: ""
+
+ # Droids repaired, but they're kinda wonky
+ situation.252.name: "Declassa"
+ situation.252.desc.1: ""
+
+ situation.252.desc.2: ""
+ situation.252.a.2: ""
+
+ situation.252.desc.3: ""
+ situation.252.a.3: ""
+
+ # Droids repaired, better than before
+ situation.253.name: "Aggiorna"
+ situation.253.desc.1: ""
+
+ situation.253.desc.2: ""
+ situation.253.a.2: ""
+
+ situation.253.desc.3: ""
+ situation.253.a.3: ""
+
+ ## Endings
+
+ # Worst end: lost all drones
+ situation.290.name: ""
+ situation.290.desc: ""
+ situation.290.a: ""
+ situation.290.b: ""
+ situation.290.c: ""
+ situation.291.name: ""
+ situation.291.desc: ""
+
+ # Good end: stronger hivemind
+ situation.292.name: ""
+ situation.292.desc.base: ""
+ situation.292.desc: ""
+
+ # Neutral end: storm fades away
+ situation.293.name: ""
+ situation.293.desc: ""
+
+ # Bad end: scarred Hivemind
+ situation.294.name: ""
+ situation.294.desc: ""
+
+ # Care home follow-up
+ situation.299.name: ""
+ situation.299.desc: ""
+ situation.299.a: ""
+ situation.299.b: ""
+
+
+ ### Gravity Well
+ situation_gravity_well: ""
+ situation_gravity_well_type: ""
+ situation_gravity_well_desc: ""
+ situation_gravity_well_monthly_change_tooltip: ""
+
+ situation_gravity_well_finish_tooltip: ""
+ situation_gravity_well_fail_tooltip: ""
+
+ # Severity
+ gravity_well_low: ""
+ gravity_well_mid: ""
+ gravity_well_high: ""
+ gravity_well_no_return: ""
+
+ approach_retreat: "Ritirata"
+ approach_stand: ""
+ approach_advance: ""
+
+ approach_outcome_tooltip: ""
+
+ string_gravitational_pull: ""
+ country_situations: "Eventi"
+ mod_country_situations_sr_dark_matter_produces_add: ""
+ mod_country_situations_physics_research_produces_add: ""
+ mod_country_situations_influence_produces_add: ""
+ mutiny_tooltip: ""
+
+ gestalt_black_hole_good: ""
+ gestalt_black_hole_good_desc: ""
+ gestalt_black_hole_bad: ""
+ gestalt_black_hole_bad_desc: ""
+
+ situation.501.name: ""
+ situation.501.desc: ""
+ situation.501.a: ""
+ situation.501.b: ""
+ situation.501.c: ""
+
+ # Random events
+ situation.510.name: ""
+ situation.510.spirit.desc: ""
+ situation.510.desc: ""
+ situation.510.tooltip: ""
+
+ situation.511.name: ""
+ situation.511.black.desc: ""
+ situation.511.desc: ""
+ situation.511.tooltip: ""
+
+ situation.513.name: ""
+ situation.513.desc: ""
+ situation.513.tooltip: ""
+
+ situation.520.name: ""
+ situation.520.desc: ""
+
+ situation.530.name: ""
+ situation.530.desc: ""
+
+ situation.540.name: ""
+ situation.540.desc: ""
+ situation.540.a: "Vale il rischio."
+ situation.540.a.tooltip: ""
+ situation.540.b: ""
+
+ situation.541.name: ""
+ situation.541.desc: ""
+
+ situation.542.name: ""
+ situation.542.desc: ""
+
+ situation.580.name: ""
+ situation.580.desc: ""
+
+ # Ending 1: fall
+ situation.590.name: ""
+ situation.590.desc.base: ""
+ situation.590.desc.normal: ""
+ situation.590.desc.hive: ""
+ situation.590.desc.machine: ""
+ situation.590.a: ""
+ situation.590.b: ""
+
+ # Gestalt Ending
+ situation.591.name: ""
+
+ #Good Ending
+ situation.591.base.hive: ""
+ situation.591.base.machine: ""
+
+ situation.591.desc.hive: ""
+ situation.591.desc.machine: ""
+
+ #Bad ending
+ situation.592.name: ""
+ situation.592.desc.hive: ""
+ situation.592.desc.machine: ""
+
+ # Ending 2: escape
+ situation.596.name: ""
+ situation.596.desc: ""
+ situation.597.name: ""
+ situation.597.desc: ""
+
+ #Deficit Situations
+ situation_energy_deficit: ""
+ situation_energy_deficit_type: ""
+ situation_energy_deficit_desc: ""
+ situation_mineral_deficit: ""
+ situation_mineral_deficit_type: ""
+ situation_mineral_deficit_desc: ""
+ situation_food_deficit: ""
+ situation_food_deficit_type: ""
+ situation_food_deficit_desc: ""
+ situation_consumer_goods_deficit: ""
+ situation_consumer_goods_deficit_type: ""
+ situation_consumer_goods_deficit_desc: ""
+ situation_alloys_deficit: ""
+ situation_alloys_deficit_type: ""
+ situation_alloys_deficit_desc: ""
+ situation_rare_crystals_deficit: ""
+ situation_rare_crystals_deficit_type: ""
+ situation_rare_crystals_deficit_desc: ""
+ situation_volatile_motes_deficit: ""
+ situation_volatile_motes_deficit_type: ""
+ situation_volatile_motes_deficit_desc: ""
+ situation_exotic_gases_deficit: ""
+ situation_exotic_gases_deficit_type: ""
+ situation_exotic_gases_deficit_desc: ""
+ situation_deficit_desc_base: ""
+
+ situation_deficit_monthly_change_tooltip: ""
+ situation_energy_deficit_monthly_change_tooltip: ""
+ situation_mineral_deficit_monthly_change_tooltip: ""
+ situation_food_deficit_monthly_change_tooltip: ""
+ situation_consumer_goods_deficit_monthly_change_tooltip: ""
+ situation_alloys_deficit_monthly_change_tooltip: ""
+ situation_rare_crystals_deficit_monthly_change_tooltip: ""
+ situation_volatile_motes_deficit_monthly_change_tooltip: ""
+ situation_exotic_gases_deficit_monthly_change_tooltip: ""
+
+ deficit_approach_do_nothing: ""
+ deficit_approach_do_nothing_tooltip: ""
+ deficit_approach_recycling: ""
+ deficit_approach_invest_in_mote_producers: ""
+ deficit_approach_invest_in_crystal_producers: ""
+ deficit_approach_invest_in_gas_producers: ""
+ deficit_approach_cut_science_investment: ""
+ deficit_approach_cut_investment: ""
+ deficit_approach_cut_maintenance: ""
+ deficit_approach_invest_in_alloys_production: ""
+ deficit_approach_invest_in_farmers: ""
+ deficit_first: ""
+ deficit_second: ""
+ deficit_third: ""
+ deficit_fourth: ""
+ string_expenditures_greater_than_income: ""
+ string_not_in_deficit: ""
+ string_resource_reserves: ""
+
+ string_expenditures_greater_than_income_energy: ""
+ string_not_in_deficit_energy: ""
+ string_resource_reserves_energy: ""
+ string_expenditures_greater_than_income_minerals: ""
+ string_not_in_deficit_minerals: ""
+ string_resource_reserves_minerals: ""
+ string_expenditures_greater_than_income_food: ""
+ string_not_in_deficit_food: ""
+ string_resource_reserves_food: ""
+ string_expenditures_greater_than_income_consumer_goods: ""
+ string_not_in_deficit_consumer_goods: ""
+ string_resource_reserves_consumer_goods: ""
+ string_expenditures_greater_than_income_alloys: ""
+ string_not_in_deficit_alloys: ""
+ string_resource_reserves_alloys: ""
+ string_expenditures_greater_than_income_rare_crystals: ""
+ string_not_in_deficit_rare_crystals: ""
+ string_resource_reserves_rare_crystals: ""
+ string_expenditures_greater_than_income_volatile_motes: ""
+ string_not_in_deficit_volatile_motes: ""
+ string_resource_reserves_volatile_motes: ""
+ string_expenditures_greater_than_income_exotic_gases: ""
+ string_not_in_deficit_exotic_gases: ""
+ string_resource_reserves_exotic_gases: ""
+
+ faction_loan_taken: ""
+ country_defaulted: ""
+ consumer_goods_rationing: ""
+ consumer_goods_rationing_desc: ""
+
+ d_exploited_deposit_blocker: ""
+ d_exploited_deposit_blocker_desc: ""
+
+ financial_advisors_generic_upper: ""
+ financial_advisors_authoritarian_upper: ""
+ financial_advisors_megacorp_upper: ""
+ financial_advisors_xenophile_upper: ""
+ financial_advisors_spiritualist_upper: ""
+ financial_advisors_egalitarian_upper: ""
+ financial_advisors_hive_upper: ""
+ financial_advisors_machine_upper: ""
+
+ planet_buildings_hab_capital: "Amministrazione dell'Habitat"
+ mod_planet_buildings_hab_capital_upkeep_mult: ""
+
+ deficit.100.name: ""
+ deficit.100.desc: ""
+ deficit.100.desc.gestalt: ""
+ deficit.100.A: ""
+ deficit.100.B: ""
+ deficit.100.C: ""
+ BANKRUPTCY: ""
+ deficit.110.desc: ""
+ deficit.110.desc.gestalt: ""
+ end_deficit_effect_tooltip: ""
+ end_other_deficit_situations_tooltip: ""
+
+ deficit.125.name: ""
+ deficit.125.desc: ""
+ deficit.125.desc.gestalt: ""
+ deficit.130.desc: ""
+ deficit.130.desc.gestalt: ""
+
+ deficit.140.name: ""
+ deficit.140.desc: ""
+ deficit.140.A: ""
+ deficit.140.A.tooltip: ""
+ deficit.140.B: ""
+ deficit.140.B.tooltip: ""
+ deficit.145.desc: ""
+ deficit.145.desc.gestalt: ""
+
+ deficit.155.name: ""
+ deficit.155.desc: ""
+ deficit.155.desc.gestalt: ""
+ deficit.155.A: ""
+ deficit.160.desc: ""
+
+ deficit.170.name: ""
+ deficit.170.desc: ""
+ deficit.170.desc.machine: ""
+ deficit.170.A: ""
+ deficit.170.A.tooltip: ""
+ deficit.170.B: ""
+ deficit.170.B.tooltip: ""
+
+ deficit.175.desc: ""
+
+ deficit.185.name: ""
+ deficit.185.desc: ""
+ deficit.185.A: ""
+ deficit.185.B: ""
+ deficit.185.C: ""
+ deficit.190.desc: ""
+
+ deficit.200.name: ""
+ deficit.200.desc: ""
+ deficit.200.A: ""
+ deficit.200.B: ""
+ deficit.200.C: ""
+ deficit.205.desc: ""
+ deficit.205.desc.gestalt: ""
+
+
+ deficit.215.name: ""
+ deficit.215.desc: ""
+ deficit.215.A: ""
+ deficit.215.B: ""
+ deficit.215.C: ""
+ deficit.220.desc: ""
+ deficit.220.desc.gestalt: ""
+
+ deficit_situation_finish_tooltip: ""
+ deficit_situation_extra_defaulted_tooltip: ""
+
+ #Leviathan situations
+ leviathan_celebration_opportunity: "[This.GetLeviathanParadeName] Opportunity"
+ leviathan_celebration_opportunity_type: "Leviathan Parade Opportunity"
+ leviathan_celebration_opportunity_desc: ""
+ leviathan_celebration_opportunity_monthly_change_tooltip: ""
+ leviathan_celebration_default: "Allow the Celebration"
+ leviathan_celebration_do_nothing_effect: ""
+ leviathan_celebration_encourage: "Encourage the Celebration"
+ leviathan_celebration_discourage: "Discourage the Celebration"
+ approach_reorganize: ""
+ approach_reorganize_effect: ""
+ leviathan_celebration_encourage_effect: "By encouraging the celebration of this grand feat, we are sure to have more opportunities to make this an event to remember."
+ leviathan_celebration_discourage_effect: ""
+ leviathan_celebration_voidspawn_effect: ""
+
+ leviathan_celebration_opportunity_finish_tooltip: ""
+ leviathan_celebration_opportunity_fail_tooltip: ""
+ situation_tainted_voidspawn_finish_effect: ""
+
+ stage_leviathan_2_tooltip: ""
+ stage_leviathan_3_tooltip: ""
+
+ situation_tainted_voidspawn: ""
+ situation_tainted_voidspawn_type: ""
+ situation_tainted_voidspawn_desc: ""
+ situation_tainted_voidspawn_monthly_change_tooltip: ""
+ approach_clean_the_contaminant: ""
+ approach_clean_the_contaminant_effect: ""
+ approach_study_the_contaminant: ""
+ approach_study_the_contaminant_effect: ""
+
+ situation_stellarite_infested_star: ""
+ situation_stellarite_infested_star_type: ""
+ situation_stellarite_infested_star_desc: ""
+ situation_stellarite_infested_star_fail_tooltip: ""
+ situation_stellarite_infested_star_finish_tooltip: ""
+ situation_stellarite_infested_star_monthly_change_tooltip: ""
+ approach_search_for_a_cure: ""
+ approach_search_for_a_cure_effect: ""
+ approach_cure_it: ""
+ approach_cure_it_effect: ""
+
+ decision_reorganize_leviathan_parade: ""
+ decision_reorganize_leviathan_parade_desc: ""
+ #Events
+ situation.1000.name: ""
+ situation.1000.desc.small: ""
+ situation.1000.desc.standard: ""
+ situation.1000.desc.large: ""
+ situation.1000.a: ""
+ situation.1000.b: ""
+ situation.1000.c: ""
+ situation.1005.name: "[This.GetLeviathanParadeName]"
+ situation.1005.desc.small: ""
+ situation.1005.desc.standard: ""
+ situation.1005.desc.large: ""
+ situation.1005.a: "If they won't to show up for it, why did they ask for a celebration?"
+ situation.1005.b: "Today was a good day for all [Owner.GetSpeciesNamePlural]."
+ situation.1005.c: "We stand united today, as one."
+
+ situation.1045.name: "Destabilized Fang"
+ situation.1045.desc: ""
+ situation.1045.a: "Construct a better container and bring the fang down."
+ situation.1045.b: ""
+ situation.1045.b.tooltip: ""
+ situation.1045.c: "Replace the fang with a replica."
+ situation.1045.c.tooltip: "This will reduce the amount of unity the opportunity will produce."
+ situation.1050.name: "Supervisore"
+ situation.1050.desc: ""
+ situation.1050.a: "Let us see with the sight of The Shard!"
+ situation.1050.a.tooltip: ""
+ situation.1050.b: "Scrape it off, we have deadlines to reach."
+ situation.1050.c: "Very carefully remove it, we wouldn't want to damage it."
+ situation.1055.name: "Power Surge"
+ situation.1055.desc: ""
+ situation.1055.a: "Attach it to the [Target.GetPlanetHabitat]'s power grid."
+ situation.1055.b: "Incorporate it into the performance."
+ situation.1055.b.tooltip: "This will increase the amount of unity the opportunity will produce."
+ situation.1055.c: "Find the off-switch"
+ situation.1060.name: "Regenerating Flagella"
+ situation.1060.desc: ""
+ situation.1060.a: "Use this to feed the onlookers!"
+ situation.1060.b: "Let the reaction run its course."
+ situation.1060.c: "Cauterize the Flagella."
+ situation.1065.name: "Perpetual Pursuit of the Plume"
+ situation.1065.desc: ""
+ situation.1065.a: "Kill the pests."
+ situation.1065.b: "We should set up a sanctuary for them in [Target.Solar_System.GetName]."
+ situation.1065.b.tooltip: ""
+ situation.1065.c: ""
+ situation.1065.d: "Fire some warning shots, drive them off!"
+ situation.1070.name: "The Densest of Metals"
+ situation.1070.desc: ""
+ situation.1070.a: "Break it apart and use it for construction."
+ situation.1070.b: ""
+ situation.1070.c: "Return the Compactor to space and let it work."
+ situation.1070.c.tooltip: ""
+ situation.1075.name: "The Leaking Sack"
+ situation.1075.desc: ""
+ situation.1075.a: "Extract the rest of the gas and let the reaction finish."
+ situation.1075.a.tooltip: ""
+ situation.1075.b: "Plug it up."
+ situation.1075.c: "Incorporate it into the performance."
+ situation.1080.name: ""
+ situation.1080.desc: ""
+ situation.1080.a: ""
+ situation.1080.a.tooltip: ""
+ situation.1080.b: ""
+ situation.1080.c: ""
+ situation.1080.d: ""
+ situation.1085.name: ""
+ situation.1085.desc.study: ""
+ situation.1085.desc.deify: ""
+ situation.1085.a: ""
+ situation.1085.b.divine: ""
+ situation.1085.b.anathema: ""
+ situation.1085.c: ""
+ situation.1090.name: ""
+ situation.1090.desc.study: ""
+ situation.1090.desc.deify: ""
+ situation.1090.a: ""
+ situation.1090.b: ""
+ situation.1090.c: ""
+ situation.1095.name: ""
+ situation.1095.desc: ""
+ situation.1095.a: ""
+ situation.1095.b: ""
+ situation.1100.name: ""
+ situation.1100.desc: ""
+ situation.1100.a: ""
+ situation.1100.b: ""
+ situation.1100.c.auth: ""
+ situation.1100.c.regular: ""
+ situation.1100.c.gestalt: ""
+
+ situation.1110.name: ""
+ situation.1110.desc.base: ""
+ situation.1110.desc.reg: ""
+ situation.1110.desc.lithoid: ""
+ situation.1110.desc.machine: ""
+ situation.1110.desc.end: ""
+ situation.1110.a: ""
+ situation.1110.a.tooltip: ""
+ situation.1110.b: ""
+ situation.1110.b.tooltip: ""
+ situation.1115.name: ""
+ situation.1115.desc: ""
+
+ situation.1120.name: ""
+ situation.1120.desc: ""
+ situation.1120.a: ""
+ situation.1120.a.tooltip: ""
+ situation.1120.b: ""
+
+ situation.1125.name: ""
+ situation.1125.desc.base: ""
+ situation.1125.desc.binary: ""
+ situation.1125.desc.trinary: ""
+ situation.1125.desc.regular: ""
+
+ situation.1130.name: ""
+ situation.1130.desc: ""
+
+ situation.1135.name: ""
+ situation.1135.desc: ""
+
+ situation.1140.name: ""
+ situation.1140.desc: ""
+ situation.1140.a: ""
+
+ situation.1145.name: ""
+ situation.1145.desc.base: ""
+ situation.1145.desc.regular: ""
+ situation.1145.desc.gestalt: ""
+ situation.1145.a: ""
+
+ situation.1150.name: ""
+ situation.1150.desc: ""
+ situation.1150.a: ""
+
+ situation.1160.name: ""
+ situation.1160.desc: ""
+ situation.1160.a: ""
+
+ situation.1170.name: ""
+ situation.1170.desc.base: ""
+ situation.1170.desc.notknows: ""
+ situation.1170.desc.knows: ""
+ situation.1170.a: ""
+ situation.1170.b: ""
+
+ #Modifiers
+
+ ether_trophy: "$drakes_scale$"
+ ether_trophy_desc: "The fang of an §YEther Drake§! is the centerpiece of this world's capital."
+ studying_decaying_fang: "Studying the Decaying Fang"
+ studying_decaying_fang_desc: "Studying the §YEther Drake's§! fang as it decays near our atmospheres gives us insights into whatever existed before this universe did."
+
+ all_seeing_shard: "All Seeing Shard"
+ all_seeing_shard_desc: "By the unholy fusion of machine and xeno-biology, the starbase in this system can reach far beyond what we normally would be able to."
+ shard_trophy: "$eye_of_the_shard$"
+ shard_trophy_desc: "Under the watchful eye of §YThe Shard§! the population on this world seem to work harder."
+
+ dread_trophy: "$dreadnoughts_reactor$"
+ dread_trophy_desc: "A reactor from the §YAutomated Dreadnought§! partially powers this world."
+ reactor_overdrive: "Reactor Overdrive"
+ reactor_overdrive_desc: "A temporary boon from the §YAutomated Dreadnought's§! reactor is helping power every job on this world."
+
+ tiyanki_trophy: "$matriarchs_flagella$"
+ tiyanki_trophy_desc: "The Flagella of the §YTiyanki Matriarch§!, initially inert, has started generating copies of the inhabitants on this world."
+ burnt_tiyanki_trophy: "Burnt $matriarchs_flagella$"
+ burnt_tiyanki_trophy_desc: "The cauterized remains of the §YTiyanki Matriarch's Flagella§! adorn this world's capital."
+
+ sky_dragon_trophy: "$sky_dragons_plume$"
+ sky_dragon_trophy_desc: ""
+
+ scavenger_trophy: "$scavenger_bots_compactor$"
+ scavenger_trophy_desc: "The §YScavenger Bot's§! compactor helps us optimize our metallurgical processes."
+
+ wraith_trophy: "$wraiths_energy_disperser$"
+ wraith_trophy_desc: "The pulsating lights from the Disperser Sack are very pleasant and relaxing."
+ infused_atmosphere: "Wraith Infused Atmosphere"
+ infused_atmosphere_desc: "This atmosphere has been infused by the natural energy of the Spectral Wraith, making orbital bombardment less effective."
+
+ horror_study_trophy: ""
+ horror_study_trophy_desc: ""
+ horror_deify_trophy: ""
+ horror_deify_trophy_desc: ""
+ horror_study_trophy2: ""
+ horror_study_trophy2_desc: ""
+ horror_deify_trophy2: ""
+ horror_deify_trophy2_desc: ""
+ horror_too_late: ""
+ horror_too_late_desc: ""
+ horror_stabilized: ""
+ horror_stabilized_desc: ""
+
+ fortress_trophy: ""
+ fortress_trophy_desc: ""
+
+ voidspawn_contaminant: ""
+ voidspawn_contaminant_desc: ""
+ voidspawn_trophy: ""
+ voidspawn_trophy_desc: ""
+
+ stellar_devourer_trophy: ""
+ stellar_devourer_trophy_desc: ""
+ stellar_devourer_operation_trophy: ""
+
+ low_stellar_output_1: ""
+ low_stellar_output_1_desc: ""
+ low_stellar_output_2: ""
+ low_stellar_output_2_desc: ""
+ low_stellar_output_3: ""
+ low_stellar_output_3_desc: ""
+
+ #Projects
+
+ STELLARITE_INFESTED_STAR_PROJECT: ""
+ STELLARITE_INFESTED_STAR_PROJECT_DESC: ""
+
+ #Scripted Loc
+ xenophobe_parade: ""
+ xenophile_biological_parade: ""
+ xenophile_mechanical_parade: ""
+ materialist_biological_parade_science: ""
+ materialist_biological_parade_trophy: ""
+ materialist_mechanical_parade: ""
+ spiritualist_biological_parade_reject: ""
+ spiritualist_biological_parade_accept: ""
+ spiritualist_mechanical_parade: ""
+ authoritarian_parade: ""
+ egalitarian_biological_parade: ""
+ egalitarian_mechanical_parade: ""
+ militarist_parade: ""
+ pacifist_biological_parade: ""
+ pacifist_mechanical_parade: ""
+ hive_biological_parade: ""
+ hive_mechanical_parade: ""
+ machine_biological_parade: ""
+ machine_mechanical_parade: ""
+
+ drakes_scale: ""
+ eye_of_the_shard: ""
+ matriarchs_flagella: ""
+ voidspawns_chitin: ""
+ wraiths_energy_disperser: ""
+ devourers_plasma: ""
+ horrific_inverse_mass: ""
+ dreadnoughts_reactor: ""
+ fortress_hull_plates: ""
+ scavenger_bots_compactor: "Scavenger Bot's Compactor"
+ sky_dragons_plume: ""
+
+ scripted_SHARD: "Frammento"
+ scripted_SKY_DRAGON: "Drago del Cielo"
+ scripted_WORM: ""
+ scripted_ELDER_ONE: ""
+
+ habitat_lowercase: "habitat"
+ ringworld_lowercase: "Pianeta Anello"
+ planetmoon: "[This.GetPlanetMoon]"
+
+ sensor_operatior: ""
+ sensory_drones: ""
+ observation_subroutines: ""
+
+ parade: ""
+ study: ""
+
+ water_upper_case: ""
+ water_lower_case: ""
+ coolant_upper_case: ""
+ coolant_lower_case: ""
+
+#Decisions
+
+ incinerate_the_flagella: "Incinerate the Flagella"
+ incinerate_the_flagella_desc: "The pulsating grotesque flagella has to go."
+
+#Operations
+
+ operation_consume_star: ""
+ operation_consume_star_desc: ""
+ operation_consume_star_on_success: ""
+ operation_consume_star_black_hole: ""
+ operation_consume_star_no_dysonsphere: ""
+ operation_consume_star_already_know: ""
+ operation_consume_star_already_infested: ""
+
+ #Casus Belli
+
+ casus_belli_cb_revenge_for_eaten_star: ""
+ war_goal_wg_revenge_for_eaten_star: ""
+ war_goal_wg_revenge_for_eaten_star_desc: ""
+ casus_belli_cb_end_threat_revenge_for_eaten_star: ""
+ war_goal_wg_end_threat_revenge_for_eaten_star: ""
+ war_goal_wg_end_threat_revenge_for_eaten_star_desc: ""
+
+
+ ### The Kaleidoscope
+ ### By Giada Zavarise
+
+ ## Situation
+ situation_kaleidoscope: ""
+ situation_kaleidoscope_type: ""
+ situation_kaleidoscope_desc: ""
+ situation_kaleidoscope_monthly_change_tooltip: ""
+
+ situation_unknown_outcome_kaleidoscope: ""
+
+ approach_no_food: ""
+ approach_no_food_tooltip: ""
+ approach_little_food: ""
+ approach_little_food_tooltip: ""
+ approach_a_lot_of_food: ""
+ approach_a_lot_of_food_tooltip: ""
+ kaleidoscope_progress: ""
+
+ # Strings for GetKaleidoscopeMood trigger loc script
+ kaleidoscope_mood_angry: ""
+ kaleidoscope_mood_neutral: ""
+ kaleidoscope_mood_happy: ""
+
+ ## Modifiers
+ global_power_outrage: ""
+ phantom_load: "" # Note for translators: it's a real term used for when devices in standby still consume a little energy https://en.wikipedia.org/wiki/Standby_power
+ phantom_load_desc: ""
+
+ kaleidoscope_unnerving_patterns: ""
+ kaleidoscope_ominous_patterns: ""
+ kaleidoscope_pilfering_patterns: ""
+ kaleidoscope_soothing_patterns: ""
+ kaleidoscope_dazzling_patterns: ""
+
+ mod_trade_routes_energy_produces_mult: ""
+
+ ## Relic
+ r_vacuum_flower: ""
+ r_vacuum_flower_desc: ""
+ relic_vacuum_flower_active: ""
+
+ relic_vacuum_flower_B: ""
+ relic_vacuum_flower_A: ""
+ relic_vacuum_flower_F: ""
+ relic_vacuum_flower_G: ""
+ relic_vacuum_flower_K: ""
+ relic_vacuum_flower_M: ""
+ relic_vacuum_flower_M_giant: ""
+ relic_vacuum_flower_T_dwarf: ""
+ relic_vacuum_flower_pulsar: ""
+ relic_vacuum_flower_black_hole: ""
+ relic_vacuum_flower_neutron: ""
+ relic_vacuum_flower_lightbringer: ""
+ relic_vacuum_flower_rift_star: ""
+
+ dyson_sphere_disco: ""
+ dyson_sphere_disco_DESC: ""
+ dyson_sphere_disco_restored: ""
+ dyson_sphere_disco_restored_DESC: ""
+
+
+ ## Intro
+ # The Kaleidoscope appears on your capital
+ situation.2003.name: ""
+ situation.2003.desc: ""
+ situation.2003.a: ""
+
+ # Notify other countries about the Kaleidoscope
+ situation.2004.name: ""
+ # first time
+ situation.2004.desc: ""
+ # moved again
+ situation.2004.desc.again: ""
+
+ # Project - mid-event
+ situation.2005.name: ""
+ situation.2005.desc: ""
+ situation.2005.a: ""
+
+ # Project - end (first time)
+ situation.2010.name: "" # Translators note: https://en.wikipedia.org/wiki/Black_start
+ situation.2010.desc: ""
+ situation.2010.desc.again: ""
+ situation.2010.a: ""
+ situation.2010.b: ""
+ situation.2010.c: ""
+ situation.2010.tooltip: ""
+
+ # Project - end (subsequent times)
+ situation.2011.name: ""
+ situation.2011.desc: ""
+
+ ## Espionage Operation
+ # Operation - phase 1
+ situation.2020.name: ""
+ situation.2020.desc: ""
+
+ # Operation - phase 2
+ situation.2021.name: ""
+ situation.2021.desc: ""
+
+ situation.2025.name: ""
+ situation.2025.desc: ""
+
+ ## Random events
+ # Negative 1 - infests another planet
+ situation.2030.name: ""
+ situation.2030.desc: ""
+
+ # Negative 2 - eats energy building
+ situation.2031.name: ""
+ situation.2031.desc: ""
+ situation.2031.a: ""
+ situation.2031.b: ""
+
+ # Negative 3 - unnerving patterns (- pop happiness)
+ situation.2032.name: ""
+ situation.2032.desc: ""
+
+ # Negative 4 - ominous patterns (spiritualists)
+ situation.2033.name: ""
+ situation.2033.desc: ""
+ situation.2033.a: ""
+ situation.2033.b: ""
+
+ # Negative 5 - slow ships
+ situation.2034.name: ""
+ situation.2034.desc: ""
+
+ # Positive 1 - soothing patterns (unity)
+ situation.2037.name: ""
+ situation.2037.desc: ""
+
+ # Positive 2 - dazzling patterns (science)
+ situation.2038.name: ""
+ situation.2038.desc: ""
+
+ ## Endings
+ # Kaleidoscope explodes! - Good ending
+ situation.2041.name: ""
+ situation.2041.desc: ""
+
+ # Kaleidoscope explodes! - Good ending - Notifying other countries
+ situation.2042.name: ""
+ situation.2042.desc: ""
+
+ # Kaleidoscope explodes! - Bad ending
+ situation.2043.name: ""
+ situation.2043.desc: ""
+
+ # Kaleidoscope explodes! - Bad ending - Notifying other countries
+ situation.2044.name: ""
+ situation.2044.desc: ""
+
+ # Kaleidoscope fades away - owner
+ situation.2040.name: ""
+ situation.2040.desc: ""
+
+ # Kaleidoscope fades away - notifying other countries
+ situation.2045.name: ""
+ situation.2045.desc: ""
+
+ # Kaleidoscope could get a Dyson sphere?
+ situation.2048.name: ""
+ situation.2048.desc: ""
+ situation.2048.a: ""
+ situation.2048.a.tooltip: ""
+ situation.2048.b: ""
+
+ # DiScO EnDiNg
+ situation.2049.name: ""
+ situation.2049.desc: ""
+
+
+ ## Projects and Operations
+ # Project (first time)
+ KALEIDOSCOPE_INFESTATION_FIRST: ""
+ KALEIDOSCOPE_INFESTATION_FIRST_DESC: ""
+
+ # Project (following times)
+ KALEIDOSCOPE_INFESTATION: ""
+ KALEIDOSCOPE_INFESTATION_DESC: ""
+
+ # Espionage Operation
+ operation_kaleidoscope: ""
+ operation_kaleidoscope_desc: ""
+ operation_kaleidoscope_shielded_world: ""
+ operation_kaleidoscope_previous_owner: ""
+ operation_kaleidoscope_on_success: ""
