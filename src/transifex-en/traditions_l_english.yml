@@ -1094,36 +1094,36 @@
 # Enmity
 ################################################################
 
-tradition_enmity: "Enmity"
-tradition_enmity_desc: "[Root.GetSpeciesNamePlural] never move so fast as when other [Root.GetSpeciesNamePlural] are setting the pace."
-tradition_enmity_desc_machine: "The [Root.GetName] develops faster when tested by competent competition."
+ tradition_enmity: "Enmity"
+ tradition_enmity_desc: "[Root.GetSpeciesNamePlural] never move so fast as when other [Root.GetSpeciesNamePlural] are setting the pace."
+ tradition_enmity_desc_machine: "The [Root.GetName] develops faster when tested by competent competition."
 
-tr_enmity_adopt: "$tradition_enmity$ Traditions"
-tr_enmity_adopt_desc: "£mod_pop_growth_speed£ §YPop Growth§! per neighboring Rival: §G+3%§!\n£mod_planet_pop_assembly_mult£ §YPop Assembly§! per neighboring Rival: §G+3%§!"
-tr_enmity_finish: "$tradition_enmity$ Finished"
-tr_enmity_finish_desc: "Available Envoys: §G+1§!\nUnlocks the §YAntagonistic§! Diplomatic Stance.\n$TRADITIONS_FINISH_AP$"
+ tr_enmity_adopt: "$tradition_enmity$ Traditions"
+ tr_enmity_adopt_desc: "£mod_pop_growth_speed£ §YPop Growth§! per neighboring Rival: §G+3%§!\n£mod_planet_pop_assembly_mult£ §YPop Assembly§! per neighboring Rival: §G+3%§!"
+ tr_enmity_finish: "$tradition_enmity$ Finished"
+ tr_enmity_finish_desc: "Available Envoys: §G+1§!\nUnlocks the §YAntagonistic§! Diplomatic Stance.\n$TRADITIONS_FINISH_AP$"
 
-tr_enmity_rise_to_the_occasion: "Rise to the Occasion"
-tr_enmity_rise_to_the_occasion_delayed: "In the face of an ever-increasing number of adversaries, we stand united."
-tr_enmity_rise_to_the_occasion_effect: "$mod_country_official_cap_add$ per Rival: §G+0.50§!\n$mod_country_commander_cap_add$ per Rival: §G+0.50§!\n$mod_country_scientist_cap_add$ per Rival: §G+0.50§!"
+ tr_enmity_rise_to_the_occasion: "Rise to the Occasion"
+ tr_enmity_rise_to_the_occasion_delayed: "In the face of an ever-increasing number of adversaries, we stand united."
+ tr_enmity_rise_to_the_occasion_effect: "$mod_country_official_cap_add$ per Rival: §G+0.50§!\n$mod_country_commander_cap_add$ per Rival: §G+0.50§!\n$mod_country_scientist_cap_add$ per Rival: §G+0.50§!"
 
-tr_enmity_consumate_contrarian: "Consummate Contrarian"
-tr_enmity_consumate_contrarian_delayed: "Blocking the plans of the opposition can be just as satisfying as enacting one's own."
+ tr_enmity_consumate_contrarian: "Consummate Contrarian"
+ tr_enmity_consumate_contrarian_delayed: "Blocking the plans of the opposition can be just as satisfying as enacting one's own."
 
-tr_enmity_match: "Match"
-tr_enmity_match_delayed: "First, establish an equal playing field."
-tr_enmity_match_effect: "While Militarily weaker than a Rival:\n$t$Ship Build Cost: §G-5%§!\n$t$Ship Build Speed: §G+10%§!\nWhile Technologically weaker than a Rival:\n$t$Researcher Upkeep: §G-15%§!\n$t$Research Labs Build Speed: §G+100%§!\nWhile Economically weaker than a Rival:\n$t$[GetWorker] Output: §G+10%§!"
+ tr_enmity_match: "Match"
+ tr_enmity_match_delayed: "First, establish an equal playing field."
+ tr_enmity_match_effect: "While Militarily weaker than a Rival:\n$t$Ship Build Cost: §G-5%§!\n$t$Ship Build Speed: §G+10%§!\nWhile Technologically weaker than a Rival:\n$t$Researcher Upkeep: §G-15%§!\n$t$Research Labs Build Speed: §G+100%§!\nWhile Economically weaker than a Rival:\n$t$[GetWorker] Output: §G+10%§!"
 
-tr_enmity_outpace: "Outpace"
-tr_enmity_outpace_delayed: "Second, make the move your foe is unwilling to."
+ tr_enmity_outpace: "Outpace"
+ tr_enmity_outpace_delayed: "Second, make the move your foe is unwilling to."
 
-tr_enmity_eclipse: "Eclipse"
-tr_enmity_eclipse_delayed: "Third, cast a shadow over your adversary once and for all."
-tr_enmity_eclipse_effect: "Grants §G2%§! increased $r_research$ and $r_unity$ output per §YRival§! for §Y10§! Years after winning a §YHumiliation War§!."
+ tr_enmity_eclipse: "Eclipse"
+ tr_enmity_eclipse_delayed: "Third, cast a shadow over your adversary once and for all."
+ tr_enmity_eclipse_effect: "Grants §G2%§! increased $r_research$ and $r_unity$ output per §YRival§! for §Y10§! Years after winning a §YHumiliation War§!."
 
-enmity_humiliate: "[GetName] gets the §YReaffirmed Superiority§! modifier for §Y10§! years granting them §G2%§! increased $r_research$ and $r_unity$ output per §YRival§!."
-reaffirmed_superiority: "Reaffirmed Superiority"
-reaffirmed_superiority_desc: "Our superiority is unassailable. No one is greater than the [GetName]."
+ enmity_humiliate: "[GetName] gets the §YReaffirmed Superiority§! modifier for §Y10§! years granting them §G2%§! increased $r_research$ and $r_unity$ output per §YRival§!."
+ reaffirmed_superiority: "Reaffirmed Superiority"
+ reaffirmed_superiority_desc: "Our superiority is unassailable. No one is greater than the [GetName]."
 
 
 ####################################
