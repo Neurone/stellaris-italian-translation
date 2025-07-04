@@ -330,8 +330,8 @@
  artifact_arcane_deciphering_locked: "$artifact_action_locked$"
  artifact_arcane_deciphering_locked_desc: "$artifact_action_locked_desc$"
 
- ancrel.10040.name: "Special Project Unlocked"
- ancrel.10040.desc: "Our scientists have begun a special project to study the deeper secrets of the precursors."
+ ancrel.10040.name: "Progetto Speciale Sbloccato!"
+ ancrel.10040.desc: "I nostri scienziati hanno iniziato un progetto speciale per studiare i segreti più profondi dei Precursori."
 
  artifact_irassian_research: "I Segreti degli Irassian"
  artifact_irassian_research_desc: "Scava più a fondo tra i segreti degli Irassian."
