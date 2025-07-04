@@ -219,11 +219,11 @@
  ice_mined_planet: "Estrazione di Ghiaccio Planetaria"
  ice_mined_planet_desc: "Il pianeta è stato recentemente diminuito, in senso letterale, dalle operazioni di estrazione del ghiaccio."
 
- decision_flood_habitat: "Flood Habitat"
- decision_flood_habitat_desc: "Habitats could be ideal for us - if only there was enough water. Our ice mining networks enable us to harvest ice from other celestial bodies and flood [This.GetName], making it into an orbital aquarium."
+ decision_flood_habitat: "Habitat Alluvionabile"
+ decision_flood_habitat_desc: "Questi Habitat potrebbero essere ideali per noi - se solo ci fosse abbastanza acqua. Grazie alle nostre miniere di ghiaccio potremmo raccoglierne da altri corpi celesti e poi inondare [This.GetName], creando così un acquario orbitante."
  decision_flood_habitat_tooltip: "Habitability: §R-20%§!\nConsidered an §YOcean§! world for §YAquatic§! species.\nIce will be harvested from a system with an §Y$sm_ice_mining_station$§! on the starbase."
- flooded_habitat: "Flooded Habitat"
- flooded_habitat_desc: "This habitat has been flooded with water, imitating the natural environment of Aquatic creatures."
+ flooded_habitat: "Habitat Allagato"
+ flooded_habitat_desc: "Questo habitat è stato inondato d'acqua, allo scopo di ricreare l'habitat naturale delle creature acquatiche."
  flooded_habitat_tooltip: "Habitability: §R-20%§!\nConsidered an §YOcean§! world for §YAquatic§! species."
 
  # Ocean Paradise Origin
