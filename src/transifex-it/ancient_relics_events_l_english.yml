@@ -550,7 +550,7 @@
  ancrel.4018.after_tooltipB: "Il drago sputa fuoco su §H[Root.GetName]§!, fondendo le nostre unità di macchina fino a rottami metallici."
  shard_wants_to_burn_this_planet_tooltip: "I nostri coloni su §H[FromFromFrom.Planet.GetName]§! sono in grave pericolo."
  ancrel.40182.name: "[Root.GetName] Distrutto"
- ancrel.40182.desc: "Following our failure to challenge the Shard dragon that emerged in the [Root.System.GetName] system, it has turned on our colony in the system, massacring the colonists with great slaughter!"
+ ancrel.40182.desc: "A seguito del nostro fallimento nel raggiungere il frammento di drago nel Sistema [Root.System.GetName] , il drago si è diretto alla nostra colonia, compiendo una enorme strage dei nostri coloni!"
  ancrel.4019.name: "Trasmissione in Arrivo"
  ancrel.4019.desc: "I ratti squittivano, squittivano, squittivano. Poi le loro ossa scricchiolarono, scricchiolarono, scricchiolarono... ora è il vostro turno di solleticare la pancia di Scheggia. Già, siete stati cattivi, piccoletti. Il Rubricatore appartiene a Scheggia."
  ancrel.4019.a: "Ti prego non farci del male!"
@@ -1214,7 +1214,7 @@
  abandoned_weapon_station: "Stazione d'Armi Abbandonata"
  abandoned_weapon_station_desc: "Una stazione di armi abbandonata che orbita in prossimità di [star.GetName]."
 
- ancrel.12060.name: "The [From.GetName] System"
+ ancrel.12060.name: "Il Sistema [From.GetName] "
  ancrel.12060.desc: ""
  ancrel.12065.name: ""
  ancrel.12065.desc: ""
